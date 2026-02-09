@@ -1,0 +1,72 @@
+@media (max-width: 767.98px) {
+    body .avl-header .v2nav .avl-header__node {
+        min-width: auto;
+    }
+    body .avl-header .v2nav .avl-header__main-wrapper {
+        flex-wrap: nowrap;
+        padding: 12px 24px;
+    }
+    body .avl-header__main-wrapper .logo a[title="Go Home"],
+    body .avl-header__actions a > span {
+        display: none;
+    }
+    body .avl-header__main-wrapper .avl-header__mobile-toggle-wrap {
+        order: 1;
+    }
+    body .avl-header__main-wrapper .avl-header__mobile-toggle-wrap svg {
+        width: 35px;
+        height: 35px;
+    }
+    body .avl-header .v2nav .avl-header__actions .avl-header__call svg {
+        margin-right: 0;
+    }
+    body .avl-header__main-wrapper .avl-header__mobile-toggle-wrap .nav-toggle {
+        align-items: center;
+        display: flex;
+    }
+    body .avl-header__main-wrapper .logo {
+        order: 2;
+    }
+    body .avl-header .v2nav .avl-header__actions {
+        order: 3;
+        width: auto;
+        margin-left: 10px;
+        padding: 0;
+    }
+    body .avl-header .v2nav .avl-header__actions .avl-header__button {
+        text-transform: capitalize;
+        padding: 10px;
+    }
+}
+@media (max-width: 499.98px) {
+    body .avl-header__main-wrapper .logo a + a img {
+        width: 100%;
+        max-width: 130px;
+    }
+    body .avl-header .v2nav .avl-header__actions .avl-header__call svg {
+        width: 30px;
+        height: 30px;
+    }
+    body .avl-header .v2nav .avl-header__main-wrapper {
+        padding: 12px;
+    }
+    body .avl-header .v2nav .avl-header__actions .avl-header__button {
+        padding: 10px;
+    }
+}
+@media (max-width: 401.98px) {
+    body .avl-header .v2nav .avl-header__actions .avl-header__button {
+        font-size: 14px;
+    }
+    body .avl-header__main-wrapper .logo a + a img {
+        max-width: 115px;
+    }
+    body .avl-header .v2nav .avl-header__actions .avl-header__call svg {
+        width: 22px;
+        height: 22px;
+    }
+    body .avl-header__main-wrapper .avl-header__mobile-toggle-wrap svg {
+        width: 32px;
+        height: 32px;
+    }
+}

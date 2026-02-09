@@ -1,0 +1,19 @@
+.dark-button .header-sidebar__linklist-button {
+    padding: 0 !important;
+    justify-content: center;
+}
+
+@media (max-width: 999px) {
+    .header-sidebar__linklist .dark-button {
+        margin-top: 10px;
+    }
+    .dark-button {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+    .header-sidebar__linklist .dark-button {
+        padding: 10px;
+    }
+}

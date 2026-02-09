@@ -1,0 +1,38 @@
+.gastric-balloons .balloons-list {
+	margin: 0 0 30px 30px !important;
+}
+
+.gastric-balloons .balloons-list li,
+.gastric-balloons .sub-text {
+	font-family: "Open Sans";
+	font-size: 20px;
+	line-height: normal !important;
+	font-weight: 600;
+	color: #fff;
+}
+
+
+.gastric-balloons #lp-pom-text-10 {
+	top: 315px;
+}
+
+
+@media screen and (min-width: 601px) {
+	.gastric-balloons #lp-pom-text-10 {
+		top: 330px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.gastric-balloons .balloons-list li {
+		font-size: 23px;
+		line-height: 40px;
+	}
+
+	.gastric-balloons #lp-pom-text-10 {
+		top: 340px;
+		max-width: 340px !important;
+		padding-left: 0 !important;
+	}
+}

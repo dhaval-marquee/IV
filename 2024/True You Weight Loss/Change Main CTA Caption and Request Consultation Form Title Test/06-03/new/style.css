@@ -1,0 +1,21 @@
+body h1.ct-headline {
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	br.d-none {
+		display: none;
+	}
+}
+
+@media (max-width: 425px) {
+	body h1.ct-headline {
+		font-size: 20px !important;
+	}
+}
+
+@media (max-width: 374px) {
+	body h1.ct-headline {
+		font-size: 19px !important;
+	}
+}

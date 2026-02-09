@@ -1,0 +1,95 @@
+.relatedSpeaker #speakerprofile #social .similarspeakers h3 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.relatedSpeaker #speakerprofile #social .similarspeakers h3 br {
+    display: none;
+}
+
+.relatedSpeaker #speakerprofile #social .similarspeakers .photos {
+    width: 100%;
+}
+
+.relatedSpeaker #speakerprofile #social .similarspeakers .more {
+    display: none;
+}
+
+.relatedSpeaker #speakerprofile #social .similarspeakers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.relatedSpeaker #speakerprofile #social .similarspeakers .photos .inner a .img-wrap {
+    height: auto;
+}
+
+.relatedSpeaker #speakerprofile #social .similarspeakers .photos .inner a span {
+    font-size: 13px;
+    line-height: normal;
+    color: #000;
+    font-weight: 400;
+    word-break: break-word;
+}
+
+/* Slick slider css */
+.relatedSpeaker .slick-slider .slick-track {
+    display: flex;
+}
+
+.relatedSpeaker .slick-slider .slick-slide {
+    height: inherit;
+}
+
+.relatedSpeaker .slick-slider .slick-arrow {
+    font-size: 0;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    z-index: 1;
+    cursor: pointer;
+    margin: 0;
+}
+
+.relatedSpeaker .slick-slider .slick-prev {
+    left: -15px;
+    border-right: 10px solid #736E71;
+}
+
+.relatedSpeaker .slick-slider .slick-next {
+    right: -15px;
+    border-left: 10px solid #736E71;
+}
+
+.relatedSpeaker .slick-slider .slick-arrow:hover {
+    opacity: 0.75;
+}
+
+.relatedSpeaker .slick-slider .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+}
+
+.relatedSpeaker .slick-slider .slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.relatedSpeaker .slick-slider .slick-dots li.slick-active button {
+    background-color: #b3b3b3;
+}

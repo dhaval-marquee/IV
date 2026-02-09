@@ -1,0 +1,284 @@
+.iv-advantage .advantage-section{
+  position: relative;
+}
+
+.iv-advantage .advantage-main{
+  margin: 50px 10% 50px 10%;
+}
+.iv-advantage .advantage-section hr{
+  margin: 40px 0 0 0;
+}
+
+.iv-advantage .advantage-home center h3{
+  margin: 0 0 10px 0;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.iv-advantage .advantage-home center p{
+  width: 100%;
+  color: #000000;
+  font-size: 19px;
+  padding: 0;
+  max-width: 790px;
+}
+
+.iv-advantage .advantage-home .advantage-box-main{
+  margin-top: 50px;
+}
+
+.iv-advantage .advantage-home .advantage-box-main ul{
+  list-style: none !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.iv-advantage .advantage-box-main ul .advantage-item::before{
+  display: none !important;
+}
+
+.iv-advantage .advantage-home .advantage-box-main ul .advantage-item{
+  width: 30%;
+  margin: 0 0 30px 0;
+  padding-right: 50px;
+}
+
+.iv-advantage .advantage-home ul .advantage-box img{
+  height: 100px;
+  width: 100px;
+}
+
+.iv-advantage ul .advantage-box h3{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #000000;
+}
+
+.iv-advantage ul .advantage-box p{
+  color: #000000;
+  font-size: 19px;
+  padding: 0;
+  line-height: 30px;
+}
+
+
+/* location Page  */
+.advantage-location .advantage-slider {
+  display: none;
+}
+.advantage-location .advantage-slider.slick-initialized {
+  display: block;
+}
+.iv-advantage .advantage-location hr{
+  display: none;
+}
+
+.iv-advantage .advantage-location{
+  margin: 15px 0 25px 0;
+  padding: 28px 40px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, .05) !important;
+  box-shadow: 0 14px 12px -8px rgb(0, 0, 0, .04);
+  overflow: hidden;
+}
+
+.iv-advantage .advantage-location .advantage-main{
+  margin: 0;
+}
+
+.iv-advantage .advantage-location .advantage-box-main{
+  margin-top: 15px;
+}
+
+.iv-advantage .advantage-location center{
+  text-align: left;
+}
+
+.iv-advantage .advantage-location center h3{
+  padding: 0;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.iv-advantage .advantage-location center p{
+  font-size: 12px;
+  line-height: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.iv-advantage .advantage-location ul .advantage-box h3{
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 10px;
+}
+
+.iv-advantage .advantage-location ul .advantage-box p{
+  font-size: 12px;
+  line-height: 20px;
+  padding-right: 30px;
+  margin-bottom: 0;
+}
+
+.iv-advantage .advantage-location ul .advantage-box img{
+  height: 75px;
+  width: 75px;
+}
+
+.iv-advantage .advantage-location .advantage-box-main ul li {
+  margin: 0 !important;
+}
+
+.iv-advantage .advantage-location ul.slick-dots{
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.iv-advantage .advantage-location button i{
+  position: relative;
+  height: 35px;
+  width: 35px;
+}
+
+.iv-advantage .advantage-location ul.slick-dots button {
+  height: 10px;
+  width: 10px;
+  background-color: #a8a8a8;
+  font-size: 0;
+  border: 0;
+  margin: 0 5px 0 0;
+  padding: 0;
+  border-radius: 50%;
+  transition: .3s;
+}
+
+.iv-advantage .advantage-location ul.slick-dots button:hover{
+  background-color: #747474;
+}
+
+.iv-advantage .advantage-location ul li.slick-active button {
+  background-color: #4A4A4B;
+}
+
+.iv-advantage .advantage-location button.slick-next i::before,
+.iv-advantage .advantage-location button.slick-prev i::before {
+  content: "";
+  border: solid #007e4e;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+  position: absolute;
+  top: 11px;
+  transition: .3s;
+}
+
+.iv-advantage .advantage-location button.slick-next:hover i::before,
+.iv-advantage .advantage-location button.slick-prev:hover i::before {
+  border-color: #4A4A4B;
+}
+
+.iv-advantage .advantage-location button.slick-next i::before{
+  transform: rotate(-45deg);
+  left: 9px;
+}
+
+.iv-advantage .advantage-location button.slick-prev i::before{
+  transform: rotate(135deg);
+  left: 13px;
+  font-size: 25px;
+}
+
+.iv-advantage .advantage-location button.slick-next,
+.iv-advantage .advantage-location button.slick-prev {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  padding: 0;
+  border: 2px solid #007e4e;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.iv-advantage .advantage-location button.slick-next {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.iv-advantage .advantage-location button.slick-prev {
+  position: absolute;
+  right: 55px;
+  bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .iv-advantage .advantage-home .advantage-box-main ul .advantage-item{
+    width: 50%;
+    padding-right: 30px;
+  }
+  .iv-advantage .advantage-home .advantage-main{
+    margin: 50px 8% 50px 8%;
+  }
+  .iv-advantage .advantage-location ul .advantage-box h3{
+    font-size: 16px;
+  }
+  .iv-advantage .advantage-location ul .advantage-box p{
+    padding-right: 25px;
+  }
+  .iv-advantage .advantage-location .advantage-item{
+    margin-bottom: 30px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .iv-advantage .advantage-home .advantage-box-main ul .advantage-item{
+    width: 100%;
+    padding: 0;
+  }
+  .iv-advantage .advantage-home center h3{
+    margin: 0 0 10px 0;
+    font-weight: 800;
+    font-size: 26px;
+  }
+  .iv-advantage .advantage-section center p,
+  .iv-advantage ul .advantage-box p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .iv-advantage ul .advantage-box h3{
+    font-size: 20px;
+    padding-top: 0;
+  }
+  .iv-advantage .advantage-home .advantage-main{
+    margin: 50px 5% 50px 5%;
+  }
+  .iv-advantage .advantage-home ul .advantage-box img{
+    width: 80px;
+    height: 80px;
+  }
+
+  /* location page */
+
+  .iv-advantage .advantage-location center h3{
+    padding: 0;
+    font-size: 22px;
+    line-height: 24px;
+  }
+  
+  .iv-advantage .advantage-location center p{
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+
+}

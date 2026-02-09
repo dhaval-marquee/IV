@@ -1,0 +1,128 @@
+
+  
+/* Add your test CSS here */
+
+@media (min-width: 992px) and (max-width: 1215px) {
+    body.billhomeTest.page-template-default.booking section.book .the-content{
+      display: block;
+    }
+    body.billhomeTest .the-content ul.timeline{
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .billhomeTest .the-content ul.timeline {
+        vertical-align: middle;
+        width: calc(100% - 450px);
+        max-width: 500px;
+        margin-top: 0;
+        float: right;
+        position: relative;
+        top: -0.75em;
+        text-align: center;
+      }
+    }
+    @media only screen and (min-width: 992px){
+        .billhomeTest .the-content ul.timeline {
+            display: inline-flex;
+            justify-content: space-between;
+            margin-top: 2em;
+            padding-top: 2em;
+            width: 100%;
+            position: relative;
+        }
+        .billhomeTest .the-content ul.timeline li {
+            font-size: .8em;
+            text-align: center;
+            width: 25%;
+            position: relative;
+            padding-top: 1em;
+        }
+        .billhomeTest .the-content ul.timeline li:first-of-type:before {
+            width: 50%;
+            left: 50%;
+        }
+        .billhomeTest .the-content ul.timeline li:last-of-type:before {
+            width: 50%;
+            right: 50%;
+        }
+        
+        .billhomeTest .the-content ul.timeline li:before {
+            content: '';
+            width: 100%;
+            border-top: 0.1em solid #243169;
+            position: absolute;
+            top: -1em;
+            left: 0;
+        }
+        .billhomeTest .the-content ul.timeline li:after {
+            background-color: #243169;
+            width: 0.5em;
+            height: 0.5em;
+            border-radius: 50%;
+            content: '';
+            position: absolute;
+            top: -1.4em;
+            left: calc(50% - 0.45em);
+            border: 0.2em solid #fff;
+            box-sizing: content-box;
+        }
+        .billhomeTest.page-template-default.booking section.book .the-content{
+            width: 100%;
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .billhomeTest .the-content ul.timeline li {
+            font-size: 16px;
+        }
+        .billhomeTest div.selectors{
+            display: inline-grid;
+        }
+        .billhomeTest .pdm-sTitan #calendar{
+            margin-top: -5px;
+        }
+        .billhomeTest .pdm-sTitan .selectors h3{
+            font-size: 24px;
+            color: #2f3690;
+            margin-bottom: 7px;
+        }
+        .billhomeTest .pdm-sTitan .selectors h3.select_Date{
+            margin: 27px 0 10px 0;
+            font-size: 20px;
+            letter-spacing: 0.6px;
+        }
+        .billhomeTest .pdm-sTitan div.selectors label{
+            padding: 4px 9px 4px 18px;
+            margin: 0px 0 0 5px;
+            max-width: 184px;
+            width: 100%;
+        }
+        .billhomeTest .pdm-sTitan div.selectors label span{
+            font-size: 13px !important;
+        }
+        .billhomeTest .pdm-sTitan label.pdmSTselect:after{
+            top: 12px;
+            right: 16px;
+        }
+        .billhomeTest .pdm-sTitan div.time-select a.book.lock{
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+        .billhomeTest .pdm-sTitan div.time-select ul li.active{
+            cursor: inherit;
+            pointer-events: inherit;
+        }
+        .billhomeTest .time-select [aria-hidden="true"] + a{
+            display: none !important;
+        }
+        .billhomeTest .time-select [aria-hidden="false"] + a{
+            display: block !important;
+        }
+        .pdm-sTitan .selectors{
+            text-align: initial;
+        }
+       }
+ 
+  

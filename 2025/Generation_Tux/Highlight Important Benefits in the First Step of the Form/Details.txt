@@ -1,0 +1,7 @@
+Task link : https://ignite-visibility-team.monday.com/boards/3082466737/pulses/8165123201?notification=5612595981
+
+Test link : 
+Desktop: https://app.optimizely.com/v2/projects/23915860853/experiments/4541282471641088/variations
+Mobile: https://app.optimizely.com/v2/projects/23915860853/experiments/5159533392166912/variations
+
+Cloudinary link: https://console.cloudinary.com/console/c-46e43fdbf721a42b326e1eb41eaf26/media_library/folders/ca1d8e513c094dd2c0297835923e9fd2c1?view_mode=grid

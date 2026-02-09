@@ -1,0 +1,382 @@
+.iv-highlight-bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 10px 30px 20px rgba(0, 0, 0, 0.2196078431);
+    background-color: #fff;
+    padding: 10px 0;
+    z-index: 99;
+}
+
+.iv-bar-hide {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.scroll {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.iv-bottom-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1900px;
+    padding: 0px 10px;
+    margin: auto;
+    gap: 15px;
+}
+
+.iv-sec-left {
+    display: flex;
+    gap: 10px;
+}
+
+.iv-left-img {
+    width: 50px;
+}
+
+.iv-hadingSec h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.iv-redios,
+.iv-redio-sec,
+.iv-redio-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iv-redio-text {
+    margin-top: 8px
+}
+
+.iv-no-redio {
+    margin-top: 8px;
+}
+
+.iv-no-redio .iv-redio-text {
+    margin-top: 0;
+}
+
+.iv-no-redio .iv-redio-sec span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.iv-no-redio .iv-redio-text span {
+    color: #000;
+}
+
+.iv-redios label {
+    padding: 8px 0;
+}
+
+.iv-redios .group:hover .group-hover\:border-gold-darker {
+    border: none;
+}
+
+.iv-redios label .pointer-events-none span {
+    font-size: 12px;
+}
+
+.iv-redio-text span {
+    font-size: 14px;
+    text-decoration: line-through;
+    font-family: Roboto Condensed Bold, Trebuchet MS, sans-serif,
+}
+
+.iv-no-redio .iv-redio-text span {
+    text-decoration: none;
+}
+
+.iv-redio-text .iv-active {
+    color: #000;
+    text-decoration: none;
+}
+
+.iv-hadingSec>div:first-child {
+    gap: 3px;
+}
+
+.iv-hadingSec>div:first-child a:last-child {
+    font-size: 12px;
+}
+
+.iv-highlight-key {
+    display: flex;
+    margin: 0;
+    gap: 50px;
+}
+
+.iv-highlight-key li {
+    margin: 0;
+}
+
+.iv-highlight-key li a,
+.iv-shiping {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.iv-highlight-key li::before {
+    display: none;
+}
+
+.iv-highlight-key li svg {
+    width: 30px;
+    height: 30px;
+}
+
+.iv-swatches-img {
+    height: 25px;
+    width: 21px;
+    padding: 2px;
+    border: 2px solid #000;
+}
+
+.iv-swatche-line {
+    height: 2px;
+    display: block;
+    margin-bottom: 2px;
+    width: 70%;
+    background: #000;
+}
+
+.iv-swatch-img {
+    display: block;
+    overflow: hidden;
+}
+
+.iv-swatch-img img {
+    transform: scale(1.5);
+    object-fit: cover;
+    width: 13px;
+    height: 13px;
+}
+
+.iv-key-text {
+    font-size: 17px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: Roboto Condensed Bold, Trebuchet MS, sans-serif;
+}
+
+.iv-sec-right {
+    display: flex;
+}
+
+.iv-sec-right a {
+    max-width: 170px;
+}
+
+.iv-sec-right .iv-redio-text {
+    display: none;
+}
+
+.iv-sec-right .iv-redio-sec {
+    flex-direction: column;
+    display: none;
+}
+
+#footer {
+    padding-bottom: 140px;
+}
+
+.iv-product-right {
+    position: inherit !important;
+}
+
+@media (min-width: 992px) {
+    .iv-sec-right a {
+        min-width: 230px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .iv-bottom-bar-container {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .iv-sec-left {
+        gap: 5px;
+        order: 2;
+    }
+
+    .iv-highlight-key {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .iv-sec-center {
+        width: 100%;
+    }
+
+    .iv-hadingSec h1 {
+        font-size: 18px;
+    }
+
+    .iv-redios {
+        gap: 0;
+    }
+
+    .iv-key-text {
+        font-size: 14px;
+    }
+
+    .iv-hadingSec .iv-redios label {
+        display: none;
+    }
+
+    .iv-sec-right .iv-redio-sec {
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .iv-sec-right {
+        order: 2;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .iv-redios label .pointer-events-none span {
+        font-size: 14px;
+    }
+
+    .iv-redio-text span {
+        font-size: 18px;
+    }
+
+    .iv-redio-text,
+    .iv-no-redio {
+        margin-top: 4px;
+    }
+
+    .iv-redios label {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .iv-highlight-key {
+        gap: 25px;
+    }
+
+    .iv-hide {
+        display: none;
+    }
+
+    .iv-hadingSec>div:first-child {
+        gap: 2px;
+    }
+
+    .iv-key-text {
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .iv-hadingSec h1 {
+        font-size: 15px;
+        max-width: 125px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .iv-highlight-key li svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .iv-redio-text span,
+    .iv-redios label .pointer-events-none span {
+        font-size: 12px;
+    }
+
+    .iv-left-img {
+        width: 40px;
+    }
+
+    .iv-hadingSec>div svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .iv-no-redio,
+    .iv-redio-text {
+        gap: 5px;
+    }
+
+    .iv-swatches-img {
+        height: 19px;
+        width: 16px;
+        padding: 1px;
+    }
+
+    .iv-hadingSec>div:first-child a:last-child {
+        font-size: 11px;
+    }
+
+    .iv-swatche-line {
+        margin-bottom: 1px;
+    }
+
+    .iv-redios label {
+        gap: 4px !important;
+    }
+
+    .iv-highlight-key li a,
+    .iv-shiping {
+        gap: 5px;
+    }
+
+    .iv-swatch-img img {
+        height: 10px;
+    }
+}
+
+@media (max-width:576px) {
+    .iv-sec-right a {
+        padding: 12px 8px;
+        font-size: 10px;
+        white-space: normal;
+    }
+
+    .iv-highlight-key li svg {
+        width: 17px;
+        height: 17px;
+    }
+
+    .iv-highlight-key {
+        gap: 5px;
+        justify-content: space-around;
+    }
+
+    .iv-highlight-key li a,
+    .iv-shiping {
+        gap: 4px;
+    }
+
+    .iv-hadingSec h1 {
+        max-width: 106px;
+    }
+
+    .iv-swatches-img {
+        height: 17px;
+        width: 14px;
+    }
+
+    .iv-swatch-img img {
+        height: 8px;
+    }
+}

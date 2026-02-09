@@ -1,0 +1,14 @@
+.productDetailsPageTitleSlot:before {
+    content: 'Sugar-Free!';
+    color: #38539a;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .productDetailsPageTitleSlot:before {
+        font-size: 22px;
+    }
+}

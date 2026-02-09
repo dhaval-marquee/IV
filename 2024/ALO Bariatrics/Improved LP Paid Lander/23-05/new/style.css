@@ -1,0 +1,77 @@
+.hero_section h3 {
+	display: none;
+}
+
+.hero_section h1 {
+	max-width: 870px;
+	width: 100%;
+}
+
+.hero_button {
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.hero_button a {
+	font-family: "Ubuntu", Sans-serif;
+	font-size: 18px;
+	line-height: normal;
+	border-radius: 3px 3px 3px 3px;
+	text-decoration: none;
+	fill: var(--e-global-color-primary);
+	color: var(--e-global-color-primary);
+	background-color: #FFFFFF;
+	padding: 13px 20px;
+	display: inline-block;
+}
+
+.hero_section section span {
+	font-size: 18px;
+}
+@media (min-width: 1024px) {
+	.hero_section h1 {
+		font-size: 54px;
+		line-height: 60px;
+		max-width: 640px;
+	}
+}
+@media (min-width: 768px) {
+	.hero_section .show_mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.hero_section section .elementor-element .elementor-element {
+		width: 100%;
+	}
+
+	.hero_section .hide_mobile {
+		display: none;
+	}
+
+	.hero_button a {
+		text-align: center;
+        margin-top: 20px;
+	}
+}
+
+/* Variant 2 CSS */
+section[data-id="1f9caf99"],
+section[data-id="1e3d86a1"],
+section[data-id="3d62a5e3"],
+section[data-id="de9add8"] {
+	display: none;
+}
+
+section[data-id="22724141"] {
+    padding-top: 70px !important;
+}
+
+@media (max-width: 1024.98px) {
+
+	section[data-id="22724141"] {
+		padding-top: 50px !important;
+	}
+}

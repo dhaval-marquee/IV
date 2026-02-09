@@ -1,0 +1,28 @@
+.cartPage_iv .review-section {
+    padding-top: 60px;
+}
+.cartPage_iv .review-section .title-desc-wrap {
+    margin: 0;
+}
+.cartPage_iv .five-star-rating {
+    margin-left: 10px;
+    color: #232729;
+    font-family: Graphik LCG;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.cartPage_iv .what-people-say .review-wrapper a.wprevpro_t1_site_logo_a:has(img) {
+    pointer-events: none;
+}
+
+@media (max-width: 575.98px) {
+    .cartPage_iv .review-section  {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+}

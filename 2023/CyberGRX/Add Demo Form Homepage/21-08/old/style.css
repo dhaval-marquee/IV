@@ -1,0 +1,65 @@
+@media (min-width:992px) {
+	.hero_section .content h2, .hero_section .content p {
+		color: #fff;
+	}
+	.box-f-landing {
+		position: relative;
+		z-index: 1;
+		padding: 24px 16px 24px 24px;
+		margin-left: auto;
+	}
+	.homeForm_iv main#main-content > section:last-child .image .form-hubspot h2{
+		font-weight: 700;
+		font-size: 18px;
+		margin-bottom: 18px;
+		padding: 0;
+		text-align: center;
+	}
+	.box-f-landing .hs-form-field {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.hero_section .btn-capsule {
+		display: none;
+	}
+	.box-f-landing {
+		border-radius: 8px;
+		-webkit-box-shadow: 0 6px 31px -5px rgba(7, 41, 78, .12);
+		box-shadow: 0 6px 31px -5px rgba(7, 41, 78, .12);
+		background-color: #fff;
+		padding: 50px 20px;
+	}
+	.box-f-landing .hs-form-field {
+		margin-bottom: 18px;
+	}
+	.box-f-landing .hs-submit {
+		margin-top: 12px;
+	}
+	.box-f-landing .headline-f-l {
+		margin-bottom: 25px;
+	}
+	.legal-consent-container {
+		font-size: .75rem;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: .13px;
+		line-height: 1.5;
+	}
+	.legal-consent-container a {
+		font-weight: 700;
+		color: inherit;
+	}
+}
+@media (min-width:1200px) {
+	.box-f-landing {
+		padding: 44px 36px 44px 44px;
+		max-width: 100%;
+	}
+}
+@media (min-width:1367px) {
+	.box-f-landing {
+		max-width: 555px;
+	}
+}

@@ -1,0 +1,48 @@
+.bar_iv .top-bar {
+    font-size: 15px;
+    line-height: 22px;
+    /* padding: 7px; */
+    text-align: center;
+    background-color: #0f85ee;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    padding: 4px 5px;
+}
+.bar_iv .top-bar a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    white-space: nowrap;
+}
+.bar_iv .top-bar a:hover {
+    color: #ffffff73;
+}
+.header-menu .fusion-tb-header div.fusion-fullwidth {
+    top: 30px !important;
+}
+.bar_iv .top-bar .long-arrow-right {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    display: inline-block;
+    margin: auto;
+    margin-left: 15px;
+    transform: rotate(135deg);
+    height: 7px;
+    width: 7px;
+}
+.bar_iv .top-bar .long-arrow-right::after {
+    background-color: #ffffff;
+    content: "";
+    display: block;
+    transform: rotate(-45deg) translate(5px, 2px);
+    height: 16px;
+    width: 1px;
+}
+
+.fusion-tb-header .fusion-fullwidth{
+	padding-top: 32px;
+    border: 0;
+}

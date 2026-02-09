@@ -1,0 +1,96 @@
+body .banner-module .fourteen-hundred #google {
+	margin: 0;
+	height: 38px !important;
+}
+body .star-wrapper {
+    display: inline-block;
+}
+body .banner-module .fourteen-hundred h2 i {
+	color: #FFB724;
+	font-size: 17px;
+    line-height: 13px;
+    float: left;
+}
+body .review-count {
+	content: 'Over 450 Local 5-Star Reviews';
+	color: #FFFFFF;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: normal;
+	margin-top: 5px;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 751px) {
+	body .banner-module .inner {
+		padding: 4.3% 0 12.6%;
+	}
+	body .banner-module .fourteen-hundred {
+		display: flex;
+		flex-direction: column;
+	}
+    body .banner-module .fourteen-hundred .orange {
+        order: -1;
+    }
+	body .banner-module .fourteen-hundred .h1.white {
+		margin: 14px 0 20px;
+	}
+	body .banner-module .fourteen-hundred .h2.white {
+		max-width: 600px;
+	}
+	body .banner-module .fourteen-hundred .banner-buttons a {
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 36px;
+		padding: 7px 51px;
+		position: relative;
+	}
+	body .banner-module .fourteen-hundred .banner-buttons a:before {
+		content: "No credit card required";
+		font-size: 18px;
+		font-weight: 600;
+		line-height: normal;
+		pointer-events: none;
+		position: absolute;
+		left: 0;
+		bottom: -30px;
+		text-transform: none;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 750.98px) {
+	body .banner-module .fourteen-hundred .h1.white {
+		font-size: 20px;
+	}
+	body .banner-module .fourteen-hundred .h2.white {
+		font-size: 14px;
+		font-weight: normal;
+	}
+	body .banner-module .fourteen-hundred #google {
+		top: 4px;
+	}
+	body .banner-module .fourteen-hundred .orange {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+        flex-wrap: wrap;
+		margin-bottom: 15px;
+	}
+    body .review-count {
+        margin-top: 0;
+    }
+	body .banner-module .fourteen-hundred .orange a {
+		display: inline-block;
+		margin: 0 7px 0 0;
+	}
+	body .banner-module .fourteen-hundred .banner-buttons a {
+		box-sizing: border-box;
+		margin: 15px 0 0 0 !important;
+		width: 100%;
+	}
+	body .infoLink {
+		z-index: 7999;
+	}
+}

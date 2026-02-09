@@ -1,0 +1,93 @@
+.iv-ReviewsSection .section:has(.testimonials) .prehead,
+.iv-ReviewsSection .testimonial-Section::after,
+.iv-ReviewsSection section.gb-container.section + section.gb-container.section:after{
+    display: none !important;
+}
+
+.iv-ReviewsSection .section-benefits {
+    background-color: var(--color-blue-light);
+}
+.section-benefits + section {
+    background-color: #fff;
+}
+.iv-ReviewsSection .section:has(.testimonials) h2 {
+    text-align: center;
+    margin-bottom: 42px;
+}
+.iv-ReviewsSection .testimonials .wp-block-group__inner-container {
+    max-width: 1050px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.iv-ReviewsSection .testimonials p {
+    width: 33.33%;
+    max-width: 350px;
+} 
+
+/* Base arrow button */
+.iv-ReviewsSection .testimonials .slick-prev,
+.iv-ReviewsSection .testimonials .slick-next {
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+}
+
+/* Remove default text */
+.iv-ReviewsSection .testimonials .slick-prev::before,
+.iv-ReviewsSection .testimonials .slick-next::before {
+    content: '';
+}
+
+/* Arrow icons */
+.iv-ReviewsSection .testimonials .slick-prev::after,
+.iv-ReviewsSection .testimonials .slick-next::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: solid #6b6b6b;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(135deg);
+    border-radius: 5%;
+}
+
+/* Right arrow */
+.iv-ReviewsSection .testimonials .slick-next::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* Arrow positions */
+.iv-ReviewsSection .testimonials .slick-prev {
+    left: -24px;
+}
+.iv-ReviewsSection .testimonials .slick-next {
+    right: -25px;
+}
+
+/* Mobile adjustment */
+@media (max-width: 991.98px) { 
+    .iv-ReviewsSection .testimonials .slick-prev {
+        left: -30px;
+    }
+    .iv-ReviewsSection .testimonials .slick-next {
+        right: -30px;
+    }
+    .iv-ReviewsSection .testimonials p {
+        max-width: 320px;
+        margin: 12px;
+    } 
+}
+@media (max-width: 768px) {
+    .iv-ReviewsSection .testimonials .slick-prev {
+        left: -28px;
+    }
+    .iv-ReviewsSection .testimonials .slick-next {
+        right: -28px;
+    }
+}

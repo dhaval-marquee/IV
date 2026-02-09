@@ -1,0 +1,194 @@
+/* Left CSS */
+#hero-section-wrapper #hero-section-inner {
+    display: flex;
+    align-items: center;
+}
+.bulletPoints_iv #hero-section-left h1 {
+    font-size: 38px;
+    font-weight: 700 !important;
+    color: var(--headline-blue);
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.bulletPoints_iv #hero-quote {
+    margin-left: 0;
+}
+.bulletPoints_iv #hero-section-left ul li {
+    font-size: 20px;
+    color: var(--headline-blue);
+    line-height: normal;
+    width: 100%;
+    max-width: 500px;
+}
+.bulletPoints_iv #hero-section-left ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+.bulletPoints_iv #hero-section-left #hero-quote {
+    margin: 15px 0 0 0;
+}
+.bulletPoints_iv #hero-section-right {
+    position: relative !important;
+}
+.bulletPoints_iv.home div#hero-section-left .section-content {
+    padding: 0 !important;
+}
+.bulletPoints_iv #hero-section-wrapper #hero-section-inner {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+html body.home.bulletPoints_iv #hero-section-wrapper #hero-section-inner {
+    padding: 50px 20px !important;
+    display: flex;
+}
+.bulletPoints_iv .hero-review [data-test-id="card"] {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+.bulletPoints_iv .hero-review {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.bulletPoints_iv .hero-review [theme="[object Object]"] {
+    font-size: 16px;
+    margin-top: 8px;
+}
+.bulletPoints_iv .hero-review [class*="StarRating__Rating"] {
+    font-size: 20px;
+}
+.bulletPoints_iv .hero-review svg[data-icon*="star"] {
+    width: 23px;
+}
+@media(max-width: 991.98px) { 
+    .bulletPoints_iv #hero-section-left h1 {
+        font-size: 30px;
+    }
+    .bulletPoints_iv #hero-section-left ul li {
+        font-size: 20px;
+        max-width: 100%;
+    }
+}
+@media(max-width: 767.98px) {
+    .bulletPoints_iv #hero-section-wrapper #hero-section-inner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    html body.bulletPoints_iv.home #hero-section-wrapper #hero-section-inner {
+        padding-bottom: 0 !important;
+    }
+    .bulletPoints_iv #hero-section-left h1 {
+        font-size: 24px;
+        max-width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .bulletPoints_iv #hero-section-right {
+        width: 100%;
+    }
+    html .bulletPoints_iv.home div#hero-section-left .section-content {
+        padding-top: 0 !important;
+    }
+    .bulletPoints_iv div #hero-section-left .section-background {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .bulletPoints_iv #hero-section-left ul li {
+        font-size: 18px;
+    }
+}
+
+/* Right CSS */
+.bulletPoints_iv .heroRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bulletPoints_iv .heroRight img {
+    width: 100%;
+    max-width: 300px;
+}
+.bulletPoints_iv .heroRight h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 821px) {
+    .bulletPoints_iv #hero-section-wrapper #hero-section-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .bulletPoints_iv #hero-section-inner>div {
+        max-width: 50% !important;
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 930.98px) {
+    .heroRight img {
+        max-width: 200px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 820.98px) {
+
+    #hero-section-left .hero-title h1 {
+        width: 90vw;
+    }
+
+    #hero-section-left .hero-title h1 span.hph1 {
+        margin-bottom: 45px;
+    }
+
+    .bulletPoints_iv #hero-section-inner>#hero-section-right {
+        position: inherit !important;
+    }
+}
+
+@media (max-width: 479.98px) {
+    #hero-section-left .hero-title h1 span.hph1 {
+        font-size: 60px;
+    }
+
+    #hero-section-left .hero-title h1 span.hph2 {
+        font-size: 50px;
+        text-align: left;
+    }
+}
+
+/**/
+@media (max-width: 850.98px) {
+    html body.home.bulletPoints_iv #hero-section-wrapper #hero-section-inner {
+        padding: 0 20px !important;
+    }
+    html body.home.bulletPoints_iv #hero-section-inner>#hero-section-left .section-content {
+        padding-top: 0 !important;
+    }
+    html body.home.bulletPoints_iv #hero-section-wrapper #hero-section-inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+    html body.home.bulletPoints_iv #hero-section-inner > div {
+        max-width: 500px !important;
+        width: 100% !important;
+        margin: 20px auto 30px;
+        min-height: auto;
+    }
+    .bulletPoints_iv #hero-section-left #hero-quote {
+        margin: 15px auto 0;
+        width: 100%;
+    }
+    .bulletPoints_iv #hero-section-left h1 {
+        text-align: center;
+    }
+    .bulletPoints_iv.home div#hero-section-left .section-content {
+        padding: 0 !important;
+    }
+}

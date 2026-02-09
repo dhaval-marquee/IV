@@ -1,0 +1,446 @@
+
+.homewarrantyreviews_test .new_profile_page .col_1,
+.homewarrantyreviews_test form#profilepagesidebar_form,
+.homewarrantyreviews_test p.grab_heading.subtitle_26,
+.homewarrantyreviews_test p.subtitle_27{
+    display: none;
+}
+.homewarrantyreviews_test .jump_link_list_box {
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 46px;
+}
+.homewarrantyreviews_test .jump_link_list_box .jump_list_left_box {
+    width: 400px;
+}
+.homewarrantyreviews_test .section_0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.homewarrantyreviews_test .jump_link_list_box .new_premium_rigth_box {
+    width: -moz-calc(100% - 400px);
+    width: -webkit-calc(100% - 400px);
+    width: calc(100% - 400px);
+    padding-left: 20px;
+}
+.homewarrantyreviews_test .new_premium_list_box .box_42{
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.homewarrantyreviews_test .new_premium_list_box .new_premium_list {
+    margin-right: 0;
+    width: -moz-calc(100% / 2 - 10px);
+    width: -webkit-calc(100% / 2 - 10px);
+    width: calc(100% / 2 - 10px);
+    margin-bottom: 20px;
+}
+/* .homewarrantyreviews_test .new_profile_page .rating_block_new_profile {
+    background: transparent;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    overflow: inherit !important;
+} */
+/* .homewarrantyreviews_test .new_profile_page .rating_block_new_profile .box_47 {
+    padding: 0;
+    width: 100%;
+} */
+/* .homewarrantyreviews_test .new_profile_page .box_56 {
+    border: none !important;
+} */
+/* .homewarrantyreviews_test .rating_1 {
+    margin: 0;
+} */
+/* .homewarrantyreviews_test .box_57{
+  flex-flow: row wrap;
+} */
+/* .homewarrantyreviews_test .new_profile_page .outer_circle{
+    margin-right: 20px;
+} */
+/* .homewarrantyreviews_test .new_profile_page .rating_8{
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+} */
+.homewarrantyreviews_test .jump_link_list_box .new_premium_rigth_box ul {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px;
+    padding-left: 0;
+    list-style: none;
+}
+.homewarrantyreviews_test .jump_link_list_box .new_premium_rigth_box ul li{
+    background-image: url(https://www.homewarrantyreviews.com/wp-content/themes/HWR-2020/assets/images/rightmark.png);
+    background-repeat: no-repeat;
+    background-position: 0 0.3em;
+    padding-left: 2.7em;
+    background-size: 14px;
+    margin-top: 10px;
+    text-indent: -3px;
+    line-height: 1.7;
+    font-size: 17px;
+}
+.homewarrantyreviews_test .box_35 {
+    margin-top: 13px;
+}
+.homewarrantyreviews_test h2#Plan{
+    margin-bottom: 20px;
+}
+/* rigth box */
+.homewarrantyreviews_test .new_profile_page .form_block_profile {
+    -moz-box-shadow:0px 3px 50px #dcdcdc29;
+    -webkit-box-shadow: 0px 3px 50px #dcdcdc29;
+    box-shadow: 0px 3px 50px #dcdcdc29;
+    border: 2px solid #2c599d;
+    padding: 20px;
+    border-radius: inherit;
+    top: 119px;
+}
+.homewarrantyreviews_test .new_profile_page .sidebar_form p.company_name {
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.homewarrantyreviews_test .company_info  .horizontal_dotted_line {
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display: flex;
+    margin-top: 16px;
+    font-size: 17px;
+}
+.homewarrantyreviews_test .company_info .premium_content {
+    font-weight: 600;
+    color: #636363;
+}
+.homewarrantyreviews_test .company_info .dot {
+    flex: 1;
+    height: 0.6em;
+    margin: 0px 10px;
+    background-image: linear-gradient(to right, #cac3c3 30%, rgba(255, 255, 255, 0) 0%);
+    background-position: center;
+    background-size: 12px 1px;
+    background-repeat: repeat-x;
+    position: relative;
+    top: 6px;
+}
+.homewarrantyreviews_test .company_info .premium_val {
+    font-weight: 600;
+    color: #2c599d;
+}
+.homewarrantyreviews_test .company_info .Cta_btn {
+    background: #ee673d !important;
+    box-shadow: 0px 1px 7px #ececec;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 9px 13px;
+    font-size: 17px;
+    text-transform: capitalize;
+    justify-content: center;
+    font-weight: bold;
+}
+.homewarrantyreviews_test .company_info .Cta_btn img {
+    width: 16px;
+    margin-left: 10px;
+    position: relative;
+    top: 6px;
+}
+.homewarrantyreviews_test .company_info .write_review_block_new {
+    text-decoration: underline;
+    color: #666666;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.homewarrantyreviews_test .company_info .write_review_block_new a {
+    color: #666666;
+}
+@media (max-width: 1280px){
+    .homewarrantyreviews_test .jump_link_list_box .jump_list_left_box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .homewarrantyreviews_test .jump_link_list_box .new_premium_rigth_box {
+        width: 100%;
+        padding-left: 0;
+    }
+    /* .homewarrantyreviews_test .new_profile_page .rating_8 {
+        justify-content: inherit;
+    } */
+    .homewarrantyreviews_test .jump_link_list_box .new_premium_rigth_box ul {
+        width: 100%;
+        margin: inherit;
+        margin-bottom: 20px;
+    }
+    .homewarrantyreviews_test .box_67{
+        text-align: left;
+    }
+    .homewarrantyreviews_test .new_profile_page .jump_link_list {
+        display: block;
+    }
+    .homewarrantyreviews_test .new_premium_list_box .new_premium_list {
+        width: -moz-calc(100% / 4 - 10px);
+        width: -webkit-calc(100% / 4 - 10px);
+        width: calc(100% / 4 - 10px);
+    }
+}
+@media (max-width: 991px){
+    /* .homewarrantyreviews_test .new_profile_page .rating_8 {
+        justify-content: center;
+    } */
+    .homewarrantyreviews_test .jump_link_list_box .new_premium_rigth_box ul {
+        margin: 0 auto 20px;
+    }
+    .homewarrantyreviews_test .box_67 {
+        text-align: center;
+    }
+    .homewarrantyreviews_test .new_profile_page .form_block_profile {
+        display: none;
+    }
+}
+
+@media (min-width: 768px){
+    .form_wrapper {
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .homewarrantyreviews_test .new_profile_page .form_wrapper .form_block_profile {
+        display: block;
+    }
+    .rating_block_new_profile.new_profile_page {
+        overflow: inherit;
+    }
+    
+}
+
+@media (max-width: 575px){
+    .homewarrantyreviews_test .new_premium_list_box .new_premium_list {
+        width: -moz-calc(100% / 2 - 10px);
+        width: -webkit-calc(100% / 2 - 10px);
+        width: calc(100% / 2 - 10px);
+    }
+}
+
+
+/*faq*/
+ .homewarrantyreviews_test .box_110 .ans{
+    display: none;
+}
+.homewarrantyreviews_test .new_profile_page .guide_block{
+    margin-bottom: 0 ;
+}
+.new_profile_page .guide_block.active .ans  {
+  display: flex;
+}
+.homewarrantyreviews_test .new_profile_page .guide_block div:first-child  {
+    position: relative;
+}
+.homewarrantyreviews_test .new_profile_page .guide_block div:first-child::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    background: url(https://res.cloudinary.com/ignite-visibility/image/upload/v1670324460/HomeWarrantyReviews/Lowes%20Test/plus_icon.png) no-repeat center center;
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+    top: 18px;
+    background-size: 15px !important;
+    cursor: pointer;
+    right: 0;
+}
+.homewarrantyreviews_test .new_profile_page .box_112::after {
+    top: 2px !important;
+}
+.homewarrantyreviews_test .new_profile_page .guide_block .qn_content::after{
+    display: none;
+}
+.homewarrantyreviews_test .new_profile_page .guide_block.active div:first-child::after{
+    -moz-transform: inherit;
+    -webkit-transform: inherit;
+    transform: inherit;
+    background: url(https://res.cloudinary.com/ignite-visibility/image/upload/v1670324802/HomeWarrantyReviews/Lowes%20Test/minus.png) no-repeat center center;
+}
+.homewarrantyreviews_test .new_profile_page .guide_block p.guides_qn {
+    padding-right: 20%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.homewarrantyreviews_test .new_profile_page p.guides_qn.subtitle_34{
+  padding-top: 0;
+}
+.homewarrantyreviews_test .new_profile_page .guide_block.active p.guides_qn{
+   padding-bottom: 0;
+}
+.homewarrantyreviews_test .new_profile_page .qn_content {
+    cursor: pointer;
+    display: none;
+}
+.homewarrantyreviews_test .new_profile_page .guide_block p.guides_qn:before {
+    content: "Q.";
+    width: 4%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    position: absolute;
+    left: 0;
+}
+.homewarrantyreviews_test .new_profile_page .guide_block p.guides_qn {
+    padding-right: 20%;
+    padding-left: 4%;
+}
+.homewarrantyreviews_test .new_profile_page .box_110 {
+    margin-bottom: 20px;
+}
+@media (max-width: 575px){
+    .homewarrantyreviews_test .new_profile_page .guide_block p.guides_qn:before{
+        width: 10%;
+    }
+    .homewarrantyreviews_test .new_profile_page .guide_block p.guides_qn{
+        padding-left: 10%;
+    }
+}
+
+/* Rating box header */
+.homewarrantyreviews_test .box_6{
+  display: none
+}
+.homewarrantyreviews_test .box_4 {
+    margin-top: 20px;
+}
+.homewarrantyreviews_test .reviews_box p {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+@media (max-width: 480px){
+    .homewarrantyreviews_test .box_4 {
+        margin-top: 10px;
+    }
+    .homewarrantyreviews_test .reviews_box p{
+        font-size: 15px;
+        line-height: 20px;  
+    }
+}
+
+/* .service_box */
+.homewarrantyreviews_test .service_box {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+.homewarrantyreviews_test table.service_box td {
+    padding: 16px;
+    color: black;
+    text-align: left;
+    width: 50%;
+    font-size: 17px;
+    /* word-break: break-all; */
+}
+.homewarrantyreviews_test table.service_box tr {
+    background-color: #f7f7fa;
+}
+.homewarrantyreviews_test table.service_box tr:nth-child(even){
+   background-color: #fff;
+}
+
+/* Plan Benefits */
+.homewarrantyreviews_test .Plan_box ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.homewarrantyreviews_test .Plan_box ul li {
+    position: relative;
+    font-size: 17px;
+}
+.homewarrantyreviews_test .Plan_box ul li:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/*Pros*/
+.homewarrantyreviews_test .box_36 ul:not(.Pros_box){
+    display: none;
+}
+.homewarrantyreviews_test .new_profile_page ul.Pros_box{
+    padding: 0 !important;
+}
+.homewarrantyreviews_test .new_profile_page ul.Pros_box li:before{
+    display: none;
+}
+.homewarrantyreviews_test .new_profile_page ul.Pros_box li {
+    background-image: url('https://www.homewarrantyreviews.com/wp-content/themes/HWR-2020/assets/images/rightmark.png') !important;
+    background-repeat: no-repeat;
+    background-position: 0 0.3em;
+    padding-left: 1.7em !important;
+    background-size: 14px;
+    margin-top: 10px;
+    text-indent: -3px;
+    line-height: 1.7;
+    font-size: 17px;
+}
+.homewarrantyreviews_test .new_profile_page .list_content_profile.box_37 ul {
+    padding-left: 0 !important;
+}
+.homewarrantyreviews_test .box_37 ul li:before {
+    display: none;
+}
+.homewarrantyreviews_test .new_profile_page .box_37 ul li {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1670322376/HomeWarrantyReviews/Lowes%20Test/close.svg') !important;
+    background-repeat: no-repeat;
+    background-position: 0 0.3em;
+    padding-left: 1.7em !important;
+    background-size: 20px;
+    margin-top: 10px;
+    text-indent: -3px;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+
+/* remove box */
+.homewarrantyreviews_test .jump_link_list_box,
+.homewarrantyreviews_test h2#Trustworthiness,
+.homewarrantyreviews_test .box_68,
+.homewarrantyreviews_test h2#Industry-Standards,
+.homewarrantyreviews_test p.subtitle_18,
+.homewarrantyreviews_test .item_block_table.box_69,
+.homewarrantyreviews_test p.subtitle_19,
+.homewarrantyreviews_test h3#Coverage,
+.homewarrantyreviews_test p.subtitle_20,
+.homewarrantyreviews_test div#Comparing-Other-Companies{
+    display: none;
+}
+
+@media (max-width: 767.98px){
+    .homewarrantyreviews_test p.grab_heading.subtitle_26,
+    .homewarrantyreviews_test p.subtitle_27,
+    .homewarrantyreviews_test form#profilepagesidebar_form {
+        display: block;
+    }
+    .homewarrantyreviews_test .company_info.box_90{
+        display: none;
+    }
+}
+
+
+.rating_block_new_profile .container-fluid {
+    padding: 0;
+}

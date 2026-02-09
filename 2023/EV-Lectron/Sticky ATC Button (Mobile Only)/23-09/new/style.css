@@ -1,0 +1,8 @@
+@media (max-width: 719px) {
+    body .sticky-bar-form {
+        transition: All 0.3s ease-in-out 0s;
+    }
+    body .sticky-bar-form.active {
+        bottom: 0;
+    }
+}

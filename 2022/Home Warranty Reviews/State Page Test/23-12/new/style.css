@@ -1,0 +1,335 @@
+
+body .home_page_banner {
+  background-image: url('https://www.homewarrantyreviews.com/wp-content/themes/HWR-2020/assets/images/home_page_images_new/hwr_homepage.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+.home_page_banner .flip-card {
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+}
+.home_page_banner .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.home_page_banner .banner_block {
+  padding: 15px 30px;
+  position: relative;
+}
+.home_page_banner .banner_Arrow_icon {
+  position: relative;
+  top: 10px;
+  width: 39px;
+}
+.home_page_banner .point_arrow {
+  position: absolute;
+  bottom: 110px;
+  left: 12px;
+  width: 61px;
+}
+.home_page_banner h1 {
+  color: #013170;
+  font-weight: bold;
+  line-height: 1.15;
+}
+.home_page_banner .content_block {
+  font-weight: 600;
+}
+.home_page_banner .banner_content {
+  color: #013170;
+  font-weight: 600;
+}
+.home_page_banner .appliances_list_block {
+  justify-content: center;
+}
+.home_page_banner .appliances_list {
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 13px 9px;
+  position: relative;
+  width: 129px;
+}
+.home_page_banner .appliances_list > svg {
+  height: 50px;
+  width: 52px;
+}
+.home_page_banner .appliances_list p {
+  color: #A8A8A8;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+.home_page_banner .appliances_list.fill_color {
+  border: 1px solid #188038;
+}
+.home_page_banner .fill_color .w,
+.home_page_banner .fill_color .a,
+.home_page_banner .fill_color .q,
+.home_page_banner .fill_color .p,
+.home_page_banner .fill_color .f {
+  fill: #188038;
+}
+.home_page_banner .fill_color .q,
+.home_page_banner .fill_color .c {
+  stroke: #188038;
+}
+.home_page_banner .right_mark_appliance {
+  display: none;
+}
+.home_page_banner .right_mark_appliance svg {
+  position: absolute;
+  right: -8px;
+  top: -9px;
+  height: auto;
+  width: 21px;
+}
+.home_page_banner .form-control {
+  font-size: 1rem !important;
+  padding: 6px;
+}
+.home_page_banner .Cta_btn {
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 9px 20px;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.home_page_banner .Cta_btn img {
+  margin-left: 10px;
+  position: relative;
+  top: 6px;
+  width: 16px;
+}
+.home_page_banner .error_msg {
+  display: none;
+  color: red;
+  font-size: 14px;
+  height: 0px;
+  text-align: left;
+}
+.home_page_banner .need_warranty {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.home_page_banner .review_genuine_block p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.home_page_banner .write_a_review_btn {
+  color: #686868;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 9px 0px;
+  text-decoration: underline;
+}
+.home_page_banner .write_review_icon svg {
+  margin-right: 7px;
+  width: 17px;
+}
+.home_page_banner .write_review_icon path {
+  fill: #727272 !important;
+}
+.home_page_banner .load_block div {
+  color: #013170;
+  font-size: 20px;
+  font-weight: 600;
+}
+.home_page_banner .load_block ul {
+  list-style: none;
+}
+.home_page_banner .load_block li {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media(min-width: 1700px) {
+  .home_page_banner h1 .state {
+    display: block;
+    text-align: center;
+    width: 93%;
+  }
+  .home_page_banner .banner_block > div > div:last-child {
+    flex: 1 1 auto;
+  }
+}
+
+@media(min-width: 1024px) and (max-width: 1280px) {
+  .home_page_banner .banner_blcok_content {
+    padding: 7px;
+  }
+  .home_page_banner .write_review_icon svg {
+    margin-right: 3px;
+  }
+}
+
+@media(min-width: 1240px) and (max-width: 1400px) {
+  .home_page_banner .banner_blcok_content {
+    padding: 10px;
+  }
+  .home_page_banner .write_review_icon svg {
+    margin-right: 3px;
+  }
+}
+
+@media(min-width: 1200px) {
+  body .home_page_banner {
+    margin-bottom: 45px;
+  }
+}
+
+@media(min-width: 1400px) {
+  body .home_page_banner {
+    margin-bottom: 40px;
+  }
+  .home_page_banner .main_banner_block {
+    padding-top: 10px;
+  }
+  .home_page_banner .banner_block {
+    margin: 0px 10px;
+    padding: 30px;
+  }
+  .home_page_banner .point_arrow {
+    bottom: 125px;
+    left: 20px;
+    width: 58px;
+  }
+  .home_page_banner .content_block {
+    margin-top: 12px;
+  }
+  .home_page_banner .banner_content {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .home_page_banner .load_block {
+    margin: 45px 0px;
+  }
+}
+
+@media(max-width: 767.98px) {
+  body .home_page_banner {
+    background-image: none;
+  }
+  .home_page_banner .banner_block {
+    box-shadow: none;
+    padding: 0px;
+  }
+  .home_page_banner h1 {
+    font-size: 28px;
+    margin-top: 18px;
+  }
+  .home_page_banner h1 .state {
+    color: #FE3902;
+  }
+  .home_page_banner .content_block {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .home_page_banner p,
+  .home_page_banner ul li {
+    font-size: 16px;
+  }
+  .home_page_banner .form_top_block,
+  .home_page_banner .load_block {
+    background: white;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    margin-top: 18px;
+    padding: 9px;
+  }
+  .home_page_banner .banner_content {
+    padding-left: 10px;
+  }
+  .home_page_banner .form_top_block p:nth-child(1) {
+    color: #000000;
+  }
+  .home_page_banner .appliances_list {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px;
+    width: 100%;
+  }
+  .home_page_banner .appliances_list > svg {
+    margin-bottom: 2px;
+    height: 44px;
+    width: 52px;
+  }
+  .home_page_banner .appliances_list p {
+    white-space: normal;
+    line-height: 1.2;
+  }
+  .home_page_banner .right_mark_appliance svg {
+    right: -8px;
+    top: -9px;
+    width: 18px;
+  }
+  .home_page_banner #banner_form {
+    padding: 0px 10px;
+  }
+  .home_page_banner .Cta_btn {
+    border-radius: 4px;
+    padding: 13px;
+  }
+  .home_page_banner .review_genuine_block {
+    order: 2;
+  }
+  .home_page_banner .load_block ul {
+    padding-left: 9px;
+  }
+}
+
+@media(min-width: 768px) {
+  .home_page_banner h1,
+  .home_page_banner .content_block,
+  .home_page_banner .banner_content,
+  .home_page_banner .need_warranty,
+  .home_page_banner .write_a_review_btn,
+  .home_page_banner .review_genuine_block p,
+  .home_page_banner .load_block,
+  .home_page_banner .load_block li {
+    color: white;
+  }
+  .home_page_banner .banner_block {
+    background-color: rgba(7, 90, 135, .85);
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 33px;
+    margin-top: 27px
+  }
+  .home_page_banner h1 {
+    font-size: 34px;
+  }
+  .home_page_banner h1 .state {
+    color: #EE673D;
+  }
+  .home_page_banner .content_block {
+    font-size: 25px;
+    line-height: 29px;
+  }
+  .home_page_banner .r {
+    fill: white;
+  }
+  .home_page_banner .write_review_icon path {
+    fill: white !important;
+  }
+  .home_page_banner .Cta_btn {
+    background-color: #EE673D !important;
+  }
+  .home_page_banner .error_msg {
+    color: #CFCFCF;
+  }
+  .home_page_banner .load_block div {
+    color: #CED1D4;
+  }
+}

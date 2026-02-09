@@ -1,0 +1,27 @@
+body {
+    visibility: hidden;
+}
+/* Add your test CSS here */
+
+.hero_form_iv .banner_ab_testing_device .appliances_list p {
+    white-space: nowrap;
+}
+.hero_form_iv .banner_list {
+    display: none;
+}
+.hero_form_iv .banner_ab_testing_device h1 {
+    font-size: 34px;
+    max-width: 550px;
+    width: 100%;
+}
+.hero_form_iv .banner_ab_testing_device h1 + p.content_block {
+    font-size: 24px;
+    color: #013170;
+    font-weight: 600;
+}
+
+@media (min-width: 992px) and (max-width: 1249.98px) {
+    .hero_form_iv .home_page_banner {
+        margin-top: 80px;
+    }
+}

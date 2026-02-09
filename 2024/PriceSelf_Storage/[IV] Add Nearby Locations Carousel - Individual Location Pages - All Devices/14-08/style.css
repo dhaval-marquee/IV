@@ -1,0 +1,440 @@
+.locationSectionIV .pss-hero {
+    min-height: 900px; /* control issue */
+}
+
+.dynamicContentWrapper {
+    max-width: 1290px;
+    width: 100%;
+    margin: 50px auto 0;
+}
+
+.dynamicContentWrapper #MainContent_LocationRepeater {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dynamicContentWrapper #MainContent_LocationRepeater .pss-card-list__imagebox-driveup {
+    display: none;
+}
+
+.dynamicContentWrapper #MainContent_LocationRepeater svg.pss-invisible-mobile-only {
+    display: none;
+}
+
+.dynamicContentWrapper #MainContent_LocationRepeater .pss-card-list__titlebox {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0a1f8f;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.dynamicContentWrapper #MainContent_LocationRepeater .star-rating img {
+    max-width: 50px;
+    width: 100%;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.dynamicContentWrapper .pss-card-list {
+    background-color: #efefef;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.dynamicContentWrapper .pss-card-list__subtitle {
+    flex-direction: column;
+}
+
+.dynamicContentWrapper .pss-card-list__subtitle-address {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dynamicContentWrapper .pss-card-list__featureboxes {
+    display: none;
+}
+
+.dynamicContentWrapper .pss-card-list__bottom-actions {
+    display: none;
+}
+
+.dynamicContentWrapper .pss-card-list__top-wrapper {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dynamicContentWrapper .pss-card-list__contentbox {
+    flex: inherit;
+    display: block;
+    padding: 5px 0 0;
+    margin-top: auto;
+}
+
+.dynamicContentWrapper a.pss-link {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    max-width: 200px;
+    pointer-events: none;
+    margin-bottom: 10px;
+}
+
+.dynamicContentWrapper a.pss-link span {
+    white-space: normal;
+}
+
+.dynamicContentWrapper .pss-card-list__distance {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dynamicContentWrapper .pss-card-list__distance svg {
+    width: 18px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.dynamicContentWrapper .pss-rating__review {
+    display: none;
+}
+
+.dynamicContentWrapper #MainContent_LocationRepeater .pss-rating_star {
+    font-size: 10px;
+    display: inline-flex !important;
+    align-items: center;
+}
+
+.dynamicContentWrapper .pss-card-list__imagebox {
+    display: block;
+}
+
+.dynamicContentWrapper .pss-card-list__imagebox img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dynamicContentWrapper #MainContent_LocationRepeater>br {
+    display: none;
+}
+
+.dynamicContentWrapper #MainContent_LocationRepeater>span {
+    width: 30%;
+    max-width: 100%;
+}
+
+.dynamicContentWrapper .pss-button__cta-blue {
+    font-size: 13px;
+    min-width: auto;
+    max-width: 110px;
+    height: auto;
+    flex: 1 0 auto;
+    padding: 5px !important;
+    margin-right: 10px;
+}
+
+.dynamicContentWrapper .bottomWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.dynamicContentWrapper .pss-card-list__bottom-wrapper {
+    display: none;
+}
+
+@media (max-width: 1399px) {
+    .dynamicContentWrapper #MainContent_LocationRepeater .pss-card-list__titlebox {
+        min-height: 50px;
+    }
+
+    .dynamicContentWrapper .bottomWrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dynamicContentWrapper #MainContent_LocationRepeater .pss-rating_star {
+        margin: 10px 0 10px 5px;
+    }
+}
+
+@media (max-width: 1024.98px) {
+    .dynamicContentWrapper #MainContent_LocationRepeater {
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .dynamicContentWrapper #MainContent_LocationRepeater>span:not(.show) {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .dynamicContentWrapper {
+        max-width: 1400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .dynamicContentWrapper #MainContent_LocationRepeater>span {
+        width: 32%;
+        max-width: 100%;
+    }
+    .dynamicContentWrapper #MainContent_LocationRepeater>span.nearest-4,
+    .dynamicContentWrapper #MainContent_LocationRepeater>span.nearest-5 {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .dynamicContentWrapper .pss-card-list__phone-number {
+        display: none !important;
+    }
+
+    .dynamicContentWrapper #MainContent_LocationRepeater {
+        padding: 0 25px;
+    }
+
+    .dynamicContentWrapper #MainContent_LocationRepeater>span {
+        display: none;
+        max-width: 360px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .dynamicContentWrapper #MainContent_LocationRepeater>span.nearest-1 {
+        display: block;
+    }
+
+    .dynamicContentWrapper .bottomWrapper {
+        flex-direction: row;
+    }
+}
+
+/* Common section */
+.locationSectionIV .locationSection {
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.locationSectionIV .locationSection .sectionTop {
+    text-align: center;
+}
+
+.locationSectionIV .locationSection .sectionTop h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.locationSectionIV .locationSection .sectionTop a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0a1f8f;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.locationSectionIV .locationSection .sectionBottom {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locationSectionIV .locationSection .sectionBottom a {
+    max-width: 200px;
+    font-size: 18px;
+}
+
+/* SearchBox */
+.locationSectionIV.modalOpen {
+    overflow: hidden;
+}
+
+.locationSectionIV.modalOpen .site-wrapper {
+    position: relative;
+}
+
+.locationSectionIV.modalOpen .site-wrapper:after {
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #0000008a;
+    display: block;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+.locationSectionIV #searchBoxModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    max-width: 450px;
+    width: 100%;
+    min-height: 250px;
+    padding: 3%;
+    z-index: 2;
+}
+
+.locationSectionIV #searchBoxModal a#closeSearchBox {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 14px;
+    color: #000;
+}
+
+.locationSectionIV #searchBoxModal a#closeSearchBox:hover {
+    opacity: 0.5;
+}
+
+.locationSectionIV #searchBoxModal h2 {
+    color: #0a1f8f;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.locationSectionIV #searchBoxModal input {
+    text-align: center;
+}
+
+.locationSectionIV #searchBoxModal #searchBox a {
+    min-width: 220px;
+    height: 50px;
+    background-color: #0a1f8f;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    position: inherit;
+    margin: 15px auto 0;
+}
+
+.locationSectionIV #searchBoxModal #searchBox a svg {
+    display: none;
+}
+
+.locationSectionIV #searchBoxModal #searchBox a:before {
+    content: 'Change Location';
+    font-weight: 700;
+}
+
+
+/* Slick slider css */
+.slick-slider .slick-track {
+	display: flex;
+}
+.slick-slider  .slick-slide {
+    height: inherit;
+}
+
+.slick-arrow {
+    font-size: 0;
+    width: 0px;
+    height: 0px;
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin: 0;
+	z-index: 1;
+}
+
+.slick-arrow:hover {
+	opacity: 0.75;
+}
+
+.slick-prev,
+.slick-next {
+	border: 1px solid #d1d3d4;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -60px;
+}
+
+.slick-next {
+    left: inherit;
+    right: -60px;
+}
+
+.slick-next:after,
+.slick-prev:after {
+    content: '';
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-top: 2px solid #8b8b8b;
+    border-left: 2px solid #8b8b8b;
+    transform: rotate(135deg);
+    position: absolute;
+    right: 21px;
+    top: 17px;
+}
+
+.slick-prev:after {
+    transform: rotate(-43deg);
+    right: 16px;
+}
+
+
+@media (max-width: 1024.98px) {
+    .slick-prev {
+        left: -25px;
+    }
+    
+    .slick-next {
+        right: -25px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .slick-prev,
+    .slick-next {
+        width: 35px;
+        height: 35px;
+    }
+
+    .slick-next:after,
+    .slick-prev:after {
+        width: 8px;
+        height: 8px;
+        right: 14px;
+        top: 12px;
+    }
+
+    .slick-prev:after {
+        right: inherit;
+        left: 14px;
+    }
+}

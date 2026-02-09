@@ -1,0 +1,24 @@
+.toggleIV {
+    border: none !important;
+    margin-bottom: 20px;
+}
+.toggleIV #similarProduct {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.toggleIV .amw-accordion__icon--toggle {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.toggleIV .amw-accordion__toggle-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1023px) {
+    .toggleIV .amw-accordion__icon--toggle {
+        margin-top: 7px;
+    }
+}

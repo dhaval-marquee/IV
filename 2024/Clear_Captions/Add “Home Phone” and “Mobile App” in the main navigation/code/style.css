@@ -1,0 +1,23 @@
+.iv-navigation .header-nav ul.menu > li {
+    margin-right: 20px;
+}
+.iv-navigation .header-nav ul.menu > li > a {
+    font-size: 14px;
+}
+.iv-navigation .menu-item-arrow-none a::after {
+    display: none;
+}
+.iv-navigation .header-nav-mobile-menu {
+    overflow-y: auto;
+}
+@media only screen and (max-width: 1200px) {
+    .iv-navigation .header-nav ul.menu > li {
+        margin-right: 15px;
+    }
+    .iv-navigation .header-nav ul.menu > li > a {
+        font-size: 12px;
+    }
+    .iv-navigation .header-cc-logo img {
+        height: 24px;
+    }
+}

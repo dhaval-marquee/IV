@@ -1,0 +1,24 @@
+body .pss-button--filter-with-icon {
+    border: 1px solid #0a1f8f;
+    background-color: #0a1f8f;
+}
+body .pss-button--filter-with-icon.selected,
+body .pss-button--filter-with-icon:hover {
+    background-color: #001a71 !important;
+}
+body .pss-button--filter-with-icon>.pss-inner-filter-with-icon {
+    background-color: #0a1f8f;
+}
+body .pss-button--filter-with-icon>.pss-inner-filter-with-icon>span,
+body .pss-button--filter-with-icon.selected>.pss-inner-filter-with-icon>span,
+body .pss-button--filter-with-icon:hover>.pss-inner-filter-with-icon>span {
+    color: #fff !important;
+    font-weight: 700;
+}
+body .pss-button--filter-with-icon.selected>.pss-inner-filter-with-icon,
+body .pss-button--filter-with-icon:hover>.pss-inner-filter-with-icon {
+    background-color: rgb(143 10 10 / 7%);
+}
+body .pss-button--filter-with-icon>.pss-inner-filter-with-icon>svg {
+    fill: #fff;
+}

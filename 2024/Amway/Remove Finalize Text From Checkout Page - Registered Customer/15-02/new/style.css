@@ -1,0 +1,30 @@
+/* Common */
+body h2.order-placement__title {
+    display: none;
+}
+
+body .button.primary.primary-color[role="button"] {
+    background-color: #38539a;
+    font-size: 0;
+}
+
+body .button.primary.primary-color[role="button"]:hover {
+    background-color: #2c2c2c;
+    opacity: 1;
+}
+
+
+
+
+/* Variant 1 */
+body .button.primary.primary-color[role="button"]:after {
+    content: 'Continue';
+    font-size: 16px;
+}
+
+
+/* Variant 2 */
+body .button.primary.primary-color[role="button"]:after {
+    content: 'Preview Order Details';
+    font-size: 16px;
+}

@@ -1,0 +1,46 @@
+body .product-bprice {
+	text-align: left;
+}
+body .product-bprice .starting-price {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+body .s-price {
+    margin-right: 0;
+}
+body .s-price .product-bprice__label {
+    padding-bottom: 25px;
+}
+body .s-price .product-bprice__value {
+	font-weight: bold;
+    border: none;
+}
+body .retail-bprice .product-bprice__sale {
+	display: none;
+}
+body .retail-bprice .product-bprice__value {
+	position: relative;
+	text-transform: capitalize;
+}
+body .retail-bprice .product-bprice__value:before {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background-color: #969696;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+body .product-bprice__savings {
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    padding: 4px 10px;
+	margin-bottom: 7px;
+}
+body .retail-bprice .product-bprice__value {
+    position: absolute;
+    left: 0;
+    top: 25px;
+}

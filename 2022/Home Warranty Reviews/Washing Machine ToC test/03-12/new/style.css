@@ -1,0 +1,48 @@
+.machine_ToC_test .top_companies p:nth-child(1),
+.machine_ToC_test .top_companies p+.state_list,
+.machine_ToC_test .top_companies p:nth-child(4),
+.machine_ToC_test .top_companies .top_5_companies,
+.machine_ToC_test .top_companies .top_5_companies+p,
+.machine_ToC_test .top_companies .top_5_companies+p+.article_sidebar .article_0,
+.article_para5+a,
+.article_para14+a,
+.article_para27+a{
+    display: none;
+}
+.machine_ToC_test .company_list_jumplink{
+    border: 1px solid #2FB1A7;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+}
+.machine_ToC_test .company_list_jumplink ul {
+    list-style: none;
+    margin: 0px;
+}
+.machine_ToC_test .company_list_jumplink li::before{
+    content: "" !important;
+    border-color: transparent #0D52AD;
+    border-style: solid;
+    border-width: 0.3em 0 0.3em 0.6em;
+    display: block;
+    height: 0;
+    width: 11%;
+    left: -25px;
+    top: 22px;
+    position: relative;
+}
+.machine_ToC_test .company_list_jumplink a {
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+}
+.machine_ToC_test .company_list_jumplink a:hover {
+    color: #0D52AD;
+}
+.machine_ToC_test .sidebar_new_block .sidebar_paragragh{
+    text-align: center;
+}
+.machine_ToC_test .sidebar_new_block .Cta_btn{
+    background: #F7AE02 !important;
+    color: #000;
+}

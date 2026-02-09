@@ -1,0 +1,26 @@
+.checkPoints_iv .checkList_iv {
+    position: relative;
+    list-style: none;
+    max-width: 100% !important;
+    border-top: 1px solid #b5b5b5;
+    border-bottom: 1px solid #b5b5b5;
+    margin: 0 0 10px;
+    padding: 25px 0 10px 50px;
+}
+.checkPoints_iv .checkList_iv li {
+    font-size: 18px;
+    letter-spacing: normal;
+    line-height: normal;
+    padding-bottom: 14px;
+}
+.checkPoints_iv .checkList_iv li::before {
+    content: "";
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1729683935/amway/Check-green.png');
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -32px
+}

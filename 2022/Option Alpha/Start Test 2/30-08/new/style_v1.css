@@ -1,0 +1,10 @@
+body {
+    visibility: hidden;
+}
+.test_iv .signup-split-contents > div:nth-child(2) {
+    text-align: center;
+}
+.test_iv .signup-split-contents > div:nth-child(3) .header1-6_image-01 {
+    top: 50%;
+    transform: translateY(-50%);
+}

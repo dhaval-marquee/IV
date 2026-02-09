@@ -1,0 +1,244 @@
+.iv-form-step .form-referral_wrapper {
+    padding: 41px 23px 38px 23px !important;
+    background: #3D468C !important;
+}
+
+.iv-form-step .step-indicator {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.iv-form-step .form-heading {
+    color: #FFF;
+    font-family: Aleo !important;
+    font-size: 35px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    margin-bottom: 30px !important;
+}
+
+.iv-form-step .highlight {
+    color: #FE4500;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.iv-form-step .first-step {
+    color: #fff;
+    font-family: 'Public Sans';
+}
+
+.iv-form-step .circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #FF4D00;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.iv-form-step .circle.inactive {
+    background-color: #E0E8F5;
+}
+
+.iv-form-step .line.inactive {
+    width: 115px;
+    height: 3px;
+    background-color: #6D77A2;
+}
+
+.iv-form-step .line {
+    background-color: #FF4D00;
+}
+
+.iv-form-step h2.step-heading {
+    margin: 14px 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Public Sans';
+    color: #fff;
+}
+
+.iv-form-step .step2-heading {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Public Sans';
+    color: #fff;
+    margin: 0;
+}
+
+.iv-form-step .question {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.iv-form-step .question p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+}
+
+.iv-form-step .btn-group {
+    display: flex;
+}
+
+.iv-form-step .btn {
+    background-color: white;
+    color: #353B8B;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.iv-form-step .btn-group .btn:first-child {
+    border-radius: 2px 0px 0px 2px;
+}
+
+.iv-form-step .btn-group .btn:last-child {
+    border-radius: 0px 2px 2px 0px;
+}
+
+.iv-form-step .note {
+    background-color: #F0F3FA;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 311px;
+    margin: 30px auto 0;
+    color: #000;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.iv-form-step .continue-btn {
+    background-color: #FF4D00;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    max-width: 145px;
+    margin: 18px auto 0;
+    transition: all 0.2s ease;
+}
+
+body.iv-form-step.fusion-body .gform_wrapper .form-referral input[type=submit] {
+    width: 100% !important;
+    max-width: 145px;
+}
+
+.iv-form-step .continue-btn:hover {
+    background-color: rgba(163, 52, 16, 1);
+}
+
+.iv-form-step .dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.iv-form-step .dot {
+    height: 11px;
+    width: 11px;
+    background-color: #FF4D00;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.iv-form-step .form-referral {
+    display: none;
+}
+
+.iv-form-step .form-referral .gform_footer {
+    justify-content: center !important;
+    padding-bottom: 0;
+}
+
+.iv-form-step .dot.inactive {
+    background-color: #6D77A2;
+}
+
+.iv-form-step .gform_wrapper.gravity-theme .gfield_validation_message, 
+.iv-form-step .gform_wrapper.gravity-theme .validation_message {
+    color: red !important;
+    padding: 4px 10px !important;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-10px);
+    }
+
+    40% {
+        transform: translateX(10px);
+    }
+
+    60% {
+        transform: translateX(-10px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.iv-form-step .note.shake {
+    animation: shake 0.5s;
+}
+
+@media (max-width:1040px) {
+    .iv-form-step .question {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:991px) {
+    .howItWorkIV div#form>div .fusion-builder-row>div {
+        width: 100%;
+    }
+
+    .howItWorkIV div#form>div .fusion-builder-row .fusion-flex-column .fusion-column-wrapper:not(.fusion-flex-column-wrapper-legacy).fusion-content-layout-column {
+        margin: 0 40px;
+    }
+
+    .iv-form-step .form-referral_wrapper {
+        width: 100%;
+        margin: auto;
+        max-width: 500px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .iv-form-step .question {
+        flex-direction: column;
+        gap: 10px;
+        align-items: baseline;
+    }
+}

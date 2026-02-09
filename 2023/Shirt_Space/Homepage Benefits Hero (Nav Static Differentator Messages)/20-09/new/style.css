@@ -1,0 +1,105 @@
+body.header_iv:not(.checkout-layout) {
+    margin-top: 130px !important;
+}
+.header_iv #master > header {
+    display: flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    top: 0;
+}
+.header_iv .header__wrapper {
+    position: relative;
+}
+.header_iv header:not(.scrolled) .header__wrapper {
+    box-shadow: none;
+}
+.header_iv .header__marketing-messages {
+    transition: all .3s;
+}
+.header_iv .scrolled .header__marketing-messages {
+    margin-top: -40px;
+}
+@media only screen and (min-width: 800px) {
+    .header_iv .marketing-message__container {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .header_iv .marketing-message__item {
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header_iv .marketing-message__item:after {
+        background: linear-gradient(to left bottom, rgba(0, 0, 0, 0) 25%, rgba(255, 255, 255, 0.1) 100%);
+        content: '';
+        position: absolute;
+        right: -45px;
+        top: 0;
+        transform: rotate(25deg);
+        height: 46px;
+        width: 20px;
+    }
+    .header_iv .marketing-message__item:last-child:after {
+        display: none;
+    }
+    .header_iv .header-nav__container--marketing-messages {
+        font-size: 1.2rem;
+        padding: 0 12px;
+    }
+    .header_iv .marketing-message__item:nth-child(4) {
+        display: none !important;
+    }
+    .header_iv .marketing-message__item:nth-child(3) {
+        order: -1;
+    }
+    .header_iv .marketing-message__item a {
+        text-decoration: none;
+    }
+    .header_iv .marketing-message__item a:hover {
+        text-decoration: underline;
+    }
+    .header_iv .marketing-message__icon {
+        height: 16px;
+    }
+    .header_iv svg.marketing-message__icon {
+        width: 86px;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1023.98px) {
+    .header_iv .header-nav__container--marketing-messages {
+        font-size: 1rem;
+        padding: 0;
+    }
+    .header_iv .marketing-message__icon {
+        height: 13px;
+    }
+    .header_iv svg.marketing-message__icon {
+        width: 70px;
+    }
+}
+@media only screen and (min-width: 800px) and (min-height: 600px) {
+    body.header_iv:not(.checkout-layout) {
+        margin-top: 160px !important;
+    }
+    .header_iv header:not(.scrolled) .nav__sub-menu--primary {
+        top: 160px;
+    }
+    .header_iv .header__marketing-messages {
+        background-color: #047aca;
+    }
+    .header_iv .header-nav__container--marketing-messages {
+        max-width: 100%;
+    }
+    .header_iv .marketing-message__arrow {
+        display: none;
+    }
+}
+@media only screen and (max-width: 799.999px), (max-height: 599.999px) {
+    .header_iv header:not(.scrolled) .nav__dropdown {
+        top: 90px;
+    }
+    .header_iv header:not(.scrolled) .nav__content {
+        height: calc(100vh - 90px - 40px);
+    }
+}

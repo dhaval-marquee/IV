@@ -1,0 +1,51 @@
+.reviews_iv .what-people-say .content {
+    background-color: #fff;
+}
+.reviews_iv .review-wrapper .wprevpro_t1_P_3 .morecontent > span {
+    display: none;
+}
+.reviews_iv .review-wrapper .morelink {
+    cursor: pointer;
+}
+.reviews_iv .what-people-say .btn-wrapper a {
+    min-width: 350px;
+}
+@media (min-width: 1200px) {
+    .reviews_iv .review-wrapper .wprevpro_t1_P_3 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .reviews_iv .what-people-say .btn-wrapper {
+        margin-left: 68px;
+    }
+}
+@media (min-width: 992px) {
+    .reviews_iv .what-people-say .btn-wrapper {
+        margin-left: 80px;
+    }
+}
+@media (max-width: 767.98px) {
+    .reviews_iv .mobile-hidden {
+        display: none !important;
+    }
+    .reviews_iv .desktop-hidden {
+        display: block !important;
+    }
+    .reviews_iv .what-people-say .btn-wrapper {
+        width: 100%;
+    }
+    .reviews_iv .what-people-say .btn-wrapper a {
+        min-width: 100%;
+    }
+}
+@media (max-width: 575.98px) {
+    .reviews_iv .what-people-say .container {
+        padding: 0 40px !important;
+    }
+    .reviews_iv .what-people-say .wprs_unslider-arrow.prev {
+        left: -35px;
+    }
+    .reviews_iv .what-people-say .wprs_unslider-arrow.next {
+        right: -35px;
+    }
+}

@@ -1,0 +1,140 @@
+@media only screen and (min-width: 1025px) {
+    .selectors .select_Date,
+    .pdm-sTitan div.selectors label[for="months"],
+    #calendar,
+    .pdm-sTitan div.time-select {
+        display: none;
+    }
+    .billhomeTest .hero {
+        display: none;
+    }
+    .billhomeTest .pdm-sTitan ul.timeline {
+        display: inline-flex;
+        justify-content: space-between;
+        max-width: 600;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    /* .billhomeTest .pdm-sTitan ul.timeline li {
+        font-size: .8em;
+        text-align: center;
+        width: 25%;
+        position: relative;
+        padding-top: 1em;
+    }
+    .billhomeTest .pdm-sTitan ul.timeline li:first-of-type:before {
+        width: 50%;
+        left: 50%;
+    }
+    .billhomeTest .pdm-sTitan ul.timeline li:last-of-type:before {
+        width: 50%;
+        right: 50%;
+    }
+    .billhomeTest .pdm-sTitan ul.timeline li:before {
+        content: '';
+        width: 100%;
+        border-top: 0.1em solid #243169;
+        position: absolute;
+        top: -1em;
+        left: 0;
+    }
+    .billhomeTest .pdm-sTitan ul.timeline li:after {
+        background-color: #243169;
+        width: 0.5em;
+        height: 0.5em;
+        border-radius: 50%;
+        content: '';
+        position: absolute;
+        top: -1.4em;
+        left: calc(50% - 0.45em);
+        border: 0.2em solid #fff;
+        box-sizing: content-box;
+    } */
+    .billhomeTest.page-template-default.booking section.book .the-content {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    .billhomeTest .pdm-sTitan ul.timeline li {
+        font-size: 16px;
+    }
+    .billhomeTest .pdm-sTitan #calendar {
+        margin-top: -5px;
+        margin-bottom: 0;
+    }
+    .billhomeTest .pdm-sTitan .selectors h3 {
+        font-size: 24px;
+        color: #2f3690;
+        margin-bottom: 7px;
+    }
+    .billhomeTest .pdm-sTitan .selectors h3.select_Date {
+        margin: 27px 0 10px 0;
+        font-size: 20px;
+        letter-spacing: 0.6px;
+    }
+    .billhomeTest .pdm-sTitan .selectors {
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+        text-align: left;
+    }
+    .billhomeTest .pdm-sTitan div.selectors label {
+        padding: 4px 9px 4px 18px;
+        margin: 0;
+        max-width: 184px;
+        width: 100%;
+    }
+    .billhomeTest .pdm-sTitan div.selectors label span {
+        font-size: 13px !important;
+    }
+    .billhomeTest .pdm-sTitan label.pdmSTselect:after {
+        top: 12px;
+        right: 16px;
+    }
+    .billhomeTest .pdm-sTitan div.time-select a.book.lock {
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+    .billhomeTest .pdm-sTitan div.time-select ul li.active {
+        cursor: inherit;
+        pointer-events: inherit;
+    }
+    .billhomeTest .time-select [aria-hidden="true"]+a {
+        display: none !important;
+    }
+    .billhomeTest .time-select [aria-hidden="false"]+a {
+        display: block !important;
+    }
+    .time-select ul, .time-select a {
+        margin: 20px 0;
+    }
+    .pdm-sTitan .selectors button.checkZips {
+        text-align: left;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1215px) {
+    body.billhomeTest.page-template-default.booking section.book .the-content {
+        flex-direction: column;
+        padding-bottom: 120px;
+    }
+    .billhomeTest .pdm-sTitan ul.timeline {
+        position: absolute;
+        left: 50%;
+        right: inherit;
+        transform: translateX(-50%);
+        top: 100px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+@media (min-width: 1600px) {
+    .billhomeTest header .container:before {
+        height: 72px;
+    }
+}

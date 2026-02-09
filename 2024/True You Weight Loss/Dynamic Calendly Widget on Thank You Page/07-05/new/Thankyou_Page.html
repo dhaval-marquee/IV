@@ -1,0 +1,42 @@
+<!-- Please take a moment to schedule a quick call whenever convenient for you using the calendar below. -->
+
+<!-- Calendly inline widget begin -->
+<div id="calendly-embed" style="min-width: 100%; height: 750px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+
+<script>
+    const preferredLocation = localStorage.getItem('preferredLocation');
+    const urlParams = new URLSearchParams(window.location.search);
+    const preferredLocationURL = urlParams.get('select_a_preferred_location');
+
+    if ((preferredLocation || preferredLocationURL) && (preferredLocation == 'cary' || preferredLocationURL == 'Cary, NC')) {
+        Calendly.initInlineWidget({
+            url: 'https://calendly.com/cary-consultation-schedule/true-you-weight-loss-consultation?hide_gdpr_banner=1',
+            parentElement: document.getElementById('calendly-embed')
+        });
+    } else {
+        Calendly.initInlineWidget({
+            url: 'https://calendly.com/atlanta-consultation/true-you-weight-loss-consultation?hide_gdpr_banner=1',
+            parentElement: document.getElementById('calendly-embed')
+        });
+    }
+</script>
+
+<!-- Calendly inline widget end -->
+<style>
+    #headline-17-143 {
+        text-align: center !important;
+    }
+
+    @media only screen and (max-width: 1039px) and (min-width: 690px) {
+        #calendly-embed {
+            height: 1260px !important;
+        }
+    }
+
+    @media only screen and (max-width: 689px) {
+        #calendly-embed {
+            height: 1190px !important;
+        }
+    }
+</style>

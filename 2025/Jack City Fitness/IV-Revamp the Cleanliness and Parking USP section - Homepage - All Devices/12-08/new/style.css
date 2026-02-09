@@ -1,0 +1,59 @@
+.iv-Homepage section#section-1 .copy h3,
+.iv-Homepage section#section-1 .copy h3 + p,
+.iv-Homepage section#section-1 .copy h3 + p + h3 {
+    display: none;
+}
+.iv-Homepage .boxWrapper {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 0;
+}
+.iv-Homepage .boxWrapper > div {
+    color: #fff;
+    background-color: #000;
+    padding: 30px;
+}
+.iv-Homepage .boxWrapper .imgWrapper {
+    width: 100%;
+    max-width: 80px;
+    margin: 0 auto;
+}
+.iv-Homepage .boxWrapper h2 {
+    font-weight: 700;
+}
+.iv-Homepage .boxWrapper .orange-line {
+    display: flex;
+    width: 80%;
+    height: 2px;
+    background: #fc4f02;
+    margin: 30px auto;
+}
+.iv-Homepage .boxWrapper h3 {
+    padding: 30px 0;
+}
+
+@media (max-width: 991.98px) {
+    .iv-Homepage .boxWrapper {
+        gap: 24px;
+    }
+    .iv-Homepage .boxWrapper .orange-line {
+        margin: 30px auto 10px;
+    }
+    .iv-Homepage .boxWrapper .imgWrapper {
+        margin: 0 auto 20px;
+    }
+}
+@media (min-width: 768px) {
+    .iv-Homepage .boxWrapper > div {
+        width: 50%;
+        max-width: 500px;
+    }
+}
+@media (max-width: 767.98px) {
+    .iv-Homepage .boxWrapper {
+        flex-direction: column;
+    }
+}

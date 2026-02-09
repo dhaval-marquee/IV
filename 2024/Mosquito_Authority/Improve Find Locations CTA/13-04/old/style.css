@@ -1,0 +1,15 @@
+@media only screen and (min-width: 768px) {
+    .location_form_iv #location-search input {
+        flex: 1 1 auto;
+        width: auto;
+    }
+    .location_form_iv #location-search button {
+        width: fit-content;
+    }
+}
+@media only screen and (max-width: 921px) {
+    .location_form_iv #location-search input,
+    .location_form_iv #location-search button {
+        font-size: 16px;
+    }
+}

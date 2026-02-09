@@ -1,0 +1,7 @@
+Please check the below screenshot and notes before implementing it on the control page.
+
+1. Replace the below HTML code here: https://www.dropbox.com/s/iqu0rbg1bn6ie0d/2022-06-30_18-30-21.jpg?dl=0
+2. It will look like this after merging it: https://www.dropbox.com/s/2nvsd33b03cu0ui/2022-06-30_18-29-03.jpg?dl=0
+3. Please remove unused or hidden elements from the control page.
+4. Please add a CSS file at the end of your current CSS file. We used a body tag in each CSS the overwrite it with the current CSS. Please remove the body from each CSS while implementing.
+5. Please add JavaScript at the end of your JS file.

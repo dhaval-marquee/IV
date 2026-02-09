@@ -1,0 +1,117 @@
+.jellyfish_iv .block__position-right .block__wrap,
+.jellyfish_iv .page-builder .u-bg-padding__small,
+.jellyfish_iv .heroSection+style+ .mobile-override-margins,
+.jellyfish_iv h1.prod-hero__title  {
+    display: none;
+}
+.jellyfish_iv .prod-hero .prod-hero__content {
+    margin-top: 0;
+    padding-bottom: 16px;
+}
+.jellyfish_iv .heroSection {
+    position: relative;
+}
+.jellyfish_iv .heroSection:before,
+.jellyfish_iv .heroSection:after {
+    content: "";
+    position: absolute;
+}
+.jellyfish_iv .heroSection:before{
+    background-image: url('https://media.owcnow.com/image/upload/w_1400,f_auto,q_auto/jellyfish-home-slider-workflow-leaders');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 700px;
+}
+.jellyfish_iv .heroSection:after{
+    opacity: 0.90;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://media.owcnow.com/image/upload/v1679439554/jellyfish-slider-stars_1-6x.png), linear-gradient(242deg, rgba(0, 153, 255, .1) 20%, #0099ff 80%);
+    width: 100%;
+    min-height: 700px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.jellyfish_iv .heroSection .page-header-hero__container {
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    max-width: 621px;
+    padding: 240px 0 50px;
+}
+.jellyfish_iv .btnWrapper {
+    display: flex;
+    max-width: 330px;
+    width: 100%;
+    justify-content: space-between;
+}
+.jellyfish_iv .jellyfish h1 {
+    font-size: 48px;
+    line-height: 1.17;
+    letter-spacing: -0.04px;
+    color: #fff;
+}
+.jellyfish_iv .prod-hero__block-copy p {
+    text-align: inherit;
+    margin: 32px 0;
+}
+.jellyfish_iv .btnWrapper a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Exo",sans-serif;
+    font-weight: 600;
+    height: 30px;
+    width: fit-content;
+    min-width: 100px;
+    padding: 12px 28px;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #000000;
+    text-decoration: none;
+    pointer-events: all;
+}
+.jellyfish_iv .btnWrapper a:is(:hover, :focus) {
+    color: #1d222a;
+    background-color: #ebebeb;
+}
+@media (max-width: 767.98px) {
+    .jellyfish_iv .prod-hero .prod-hero__content {
+        padding-bottom: 0;
+    }
+    .jellyfish_iv .heroSection:before,
+    .jellyfish_iv .heroSection:after {
+        min-height: 560px;
+    }
+    .jellyfish_iv .heroSection .container {
+        max-width: 359px;
+        margin-left: 0;
+    }
+    .jellyfish_iv .heroSection .page-header-hero__container {
+        padding: 105px 0 40px;
+    }
+    .jellyfish_iv .jellyfish h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        letter-spacing: -0.02px;
+    }
+    .jellyfish_iv .prod-hero__block-copy p {
+        padding: 0;
+    }
+}
+@media (max-width: 359.98px) {
+    .jellyfish_iv .btnWrapper a {
+        padding: 4px 18px;
+    }
+    .jellyfish_iv .heroSection .page-header-hero__container {
+        padding: 50px 0;
+    }
+}

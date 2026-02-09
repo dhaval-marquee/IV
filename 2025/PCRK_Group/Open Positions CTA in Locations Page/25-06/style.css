@@ -1,0 +1,19 @@
+.iv-LocationsPage .btn_wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+}
+.iv-LocationsPage .btn_wrapper a {
+    font-size: 13px;
+}
+.iv-LocationsPage .btn_wrapper a + a {
+    background-color: #8da8cc;
+}
+
+@media (max-width: 424.98px) {   
+    .iv-LocationsPage .btn_wrapper a {
+        font-size: 12px;
+    }
+}

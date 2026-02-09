@@ -1,0 +1,10 @@
+.iv-puresona-on-cart #cart-drawer scroll-carousel {
+    grid: none;
+}
+.iv-no-complementary-products .iv-cart-drawer-item {
+    padding-top: 0;
+    border: 0;
+}
+.iv-no-complementary-products .iv-cart-drawer-item .complementary-products__header {
+    display: none;
+}

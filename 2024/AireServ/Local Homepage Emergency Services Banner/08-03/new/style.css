@@ -1,0 +1,154 @@
+.service_banner section.emergency-service {
+    background: -o-radial-gradient(50%, circle, rgba(30, 67, 123, 0.86), rgba(17, 48, 96, 0.85) 100%);
+    background: radial-gradient(circle at 50%, rgba(30, 67, 123, 0.86), rgba(17, 48, 96, 0.85) 100%);
+    padding: 30px 0;
+    color: #fff;
+    position: relative;
+    font-size: 1.3125rem;
+    line-height: 1.5;
+}
+
+.service_banner section.emergency-service .es-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 20px 30px;
+}
+
+.service_banner section.emergency-service .emergency-service-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 5px 20px;
+    width: calc(50% - 15px);
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.service_banner section.emergency-service .emergency-service-details img {
+    width: 75px;
+    height: 75px;
+}
+
+.service_banner section.emergency-service .emergency-service-details h3 {
+    width: calc(100% - 95px);
+    font-size: 1.3125rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.service_banner section.emergency-service .emergency-service-action {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 5px 20px;
+    width: calc(50% - 15px);
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.service_banner section.emergency-service .emergency-service-action p {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.service_banner section.emergency-service .emergency-service-action .services-call-link {
+    color: #fff;
+    font-weight: 500;
+    font-family: "gothambold";
+    margin-left: 0.45rem;
+    white-space: nowrap;
+}
+
+.service_banner section.emergency-service .emergency-service-action .services-call-link img {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .service_banner section.emergency-service {
+        font-size: 1.125rem;
+    }
+
+    .service_banner section.emergency-service .es-row {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .service_banner section.emergency-service .emergency-service-details {
+        width: 460px;
+        gap: 5px 15px;
+    }
+
+    .service_banner section.emergency-service .emergency-service-details img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .service_banner section.emergency-service .emergency-service-details h3 {
+        width: calc(100% - 80px);
+    }
+
+    .service_banner section.emergency-service .emergency-service-action {
+        text-align: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 260px;
+    }
+
+    .service_banner section.emergency-service .secondary-btn {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .service_banner section.emergency-service {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .service_banner section.emergency-service .es-row {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .service_banner section.emergency-service .emergency-service-details {
+        width: 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        max-width: 500px;
+    }
+
+    .service_banner section.emergency-service .emergency-service-details h3 {
+        width: 100%;
+    }
+
+    .service_banner section.emergency-service .secondary-btn {
+        font-size: 0.875rem;
+        padding: 0 1rem;
+        min-width: 14rem;
+    }
+}

@@ -1,0 +1,64 @@
+.modal_iv .form_wrapper {
+    width: 100% !important;
+    max-width: 740px;
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+.modal_iv .form_wrapper .fancybox-inner,
+.modal_iv #lets-do-this {
+    width: 100% !important;
+    max-width: 100%;
+    height: auto !important;
+}
+.modal_iv .form_wrapper .fancybox-inner {
+    overflow: hidden !important;
+}
+.modal_iv #lets-do-this, #lets-do-this * {
+    box-sizing: border-box;
+}
+.modal_iv #lets-do-this h1 {
+    font-size: 34px;
+}
+.modal_iv #lets-do-this h1 + p {
+    font-size: 22px;
+    line-height: normal;
+    font-weight: 600;
+    max-width: 470px;
+    width: 100%;
+    margin: 40px auto 40px;
+}
+.modal_iv #lets-do-this input[type="submit"] {
+    font-weight: bold;
+    font-size: 18px !important;
+    padding: 10px 40px;
+}
+.modal_iv #lets-do-this #no_cc {
+    font-size: 16px;
+    font-weight: 600;
+}
+.modal_iv #lets-do-this #no_cc sup {
+    font-size: 24px;
+    position: relative;
+    top: 5px;
+}
+
+@media (max-width: 767.98px) {
+    .modal_iv .form_wrapper {
+        max-width: calc(100vw - 30px);
+    }
+}
+
+@media (max-width: 640.98px) {
+    .modal_iv #lets-do-this #no_cc {
+        display: block;
+    }
+}
+
+@media (max-width: 374.98px) {
+    .modal_iv #lets-do-this {
+        padding: 60px 20px 20px;
+    }
+    .modal_iv #lets-do-this h1 {
+        font-size: 33px;
+    }
+}

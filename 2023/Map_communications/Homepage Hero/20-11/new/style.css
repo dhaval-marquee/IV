@@ -1,0 +1,155 @@
+.homepageTest_iv.home .top-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: inherit;
+}
+.homepageTest_iv .top-wrapper > .wrap {
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mapcommunications/HomepageTest/Hero_bg.png');
+    height: 100%;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: right top;
+    overflow: inherit !important;
+}
+.homepageTest_iv .hero-section {
+    height: inherit;
+    padding: 0;
+    display: block;
+}
+
+.homepageTest_iv .company-logos-block {
+    background-color: #00529C;
+    color: #fff;
+    padding: 25px 0 50px;
+}
+
+.homepageTest_iv .top-banner {
+    background-color: transparent;
+}
+.homepageTest_iv .top-banner-content h1,
+.homepageTest_iv .top-banner-list li,
+.homepageTest_iv .hero-section .hero-required {
+    color: #000 !important;
+}
+
+.homepageTest_iv .top-banner-list li {
+    font-size: 28px;
+    padding-bottom: 18px;
+}
+.homepageTest_iv .top-banner-list li:before {
+    background-size: cover;
+    background-position: center;
+    height: 28px;
+    width: 30px;
+    padding: 0;
+    margin-right: 12px;
+}
+
+.homepageTest_iv .top-banner-content h1 {
+    font-size: 48px;
+}
+.homepageTest_iv .company-logos-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+ }
+ .company-logos-block .company-logos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px;
+    justify-content: center;
+ }
+ .homepageTest_iv .company-logos-block .company-title {
+    margin-bottom: 50px;
+ }
+ .homepageTest_iv .integration-section + .works-section,
+ .homepageTest_iv .top-banner-content .btn-wrap {
+    display: none !important;
+ }
+ .industries-item a {
+    pointer-events: none;
+ }
+ @media (min-width: 992.98px) {
+    .homepageTest_iv .hero-section .hero-required { 
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+    .homepageTest_iv .top-wrapper > .wrap {
+        padding: 0px 60px !important;
+    }
+    .homepageTest_iv .hero-section .hero-btn {
+        position: relative;
+    }
+ }
+ @media (min-width: 992px) and (max-width: 1160.98px) {
+    .homepageTest_iv .top-wrapper > .wrap {
+        padding: 50px 60px 0!important;
+    }
+ }
+ @media screen and (max-width: 1599.98px) {
+    .homepageTest_iv.home .top-wrapper {
+        background-image: none;
+    }
+    .homepageTest_iv .top-wrapper > .wrap {
+        background-position: right top;
+        position: relative;
+        max-width: 1520px;
+        overflow: hidden;
+        width: 100%;
+    }
+ }
+ @media (min-width: 992px) and (max-width: 1299.98px) {
+    .homepageTest_iv .top-banner {
+        width: 60%;
+    }
+    .homepageTest_iv .top-wrapper > .wrap {
+        background-position: right bottom;
+    }
+ }
+ @media (min-width: 768.98px) and (max-width: 998.98px){
+    .homepageTest_iv .hero-section a.block-btn {
+        margin-left: 0;
+    }
+ }
+@media screen and (max-width: 991.98px) {
+    .homepageTest_iv .top-banner-list {
+        width: 50%;
+    }
+    .homepageTest_iv .top-banner-list li {
+        font-size: 22px;
+    }
+    .homepageTest_iv .top-wrapper > .wrap {
+        background-position: right center;
+    }
+ }
+ @media screen and (max-width: 767.98px) {
+    .homepageTest_iv .top-wrapper > .wrap {
+       background-image: none;
+       min-height: inherit;
+       padding: 0;
+    }
+    .homepageTest_iv .top-banner-content h1 {
+        text-align: center;
+    }
+    .homepageTest_iv .top-banner-list {
+        width: 100%;
+    }
+    .homepageTest_iv .hero-section {
+        justify-content: center;
+        display: flex;
+        align-items: flex-start;
+    }
+    .homepageTest_iv .hero-section a.block-btn {
+        margin-left: 10px;
+    }
+    .homepageTest_iv .top-banner-list li:before {
+        height: 20px;
+        width: 12px;
+        padding-right: 10px;
+    }
+}

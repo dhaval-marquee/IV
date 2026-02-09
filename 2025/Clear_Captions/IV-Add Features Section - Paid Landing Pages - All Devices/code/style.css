@@ -1,0 +1,92 @@
+.iv-feature-step .iv-captioning-section {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 40px 0;
+}
+
+.iv-container {
+    width: 100%;
+    max-width: 850px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.iv-feature-step .iv-captioning-section h2 {
+    font-size: 36px !important;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.iv-feature-step .iv-captioning-section h2 > p {
+    margin: 0;
+}
+
+.iv-feature-step .iv-sub-heading {
+    width: 100%;
+    max-width: 810px;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+    font-family: "Public Sans", Arial, Helvetica, sans-serif;
+}
+
+.iv-feature-step .iv-caption-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px 20px;
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.iv-feature-step .iv-caption-item {
+    text-align: center;
+    max-width: 240px;
+}
+
+.iv-feature-step .iv-caption-icon img {
+    width: 100%;
+    max-width: 160px;
+    margin-bottom: 12px;
+}
+
+.iv-feature-step .iv-caption-item h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.iv-feature-step .iv-caption-item p {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 6px;
+    color: #151f6d;
+    font-family: Aleo, Arial, Helvetica, sans-serif;
+}
+
+.iv-feature-step .iv-caption-item p span {
+    display: block;
+    color: #ff4a00;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1120px) {
+    .iv-feature-step .iv-caption-grid {
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .iv-feature-step .iv-captioning-section {
+        padding: 20px 0;
+    }
+    .iv-feature-step .iv-caption-grid {
+        gap: 0px;
+    }
+    .iv-feature-step .iv-caption-item p {
+        font-size: 18px;
+    }
+}

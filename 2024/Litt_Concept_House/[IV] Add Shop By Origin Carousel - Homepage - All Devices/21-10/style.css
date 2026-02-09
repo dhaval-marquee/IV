@@ -1,0 +1,113 @@
+.dynamicContentWrapper * {
+    box-sizing: border-box;
+}
+
+.dynamicContentWrapper {
+    width: 100%;
+    padding: 40px 20px 80px;
+}
+
+.dynamicContentWrapper .containerIV {
+    display: block;
+    max-width: 1440px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dynamicContentWrapper .featured-collection__title {
+    text-align: center;
+}
+
+.dynamicContentWrapper .slider_iv {
+    margin-bottom: 50px;
+}
+
+.dynamicContentWrapper .tabContent {
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+.dynamicContentWrapper .tabContent .tabItem {
+    vertical-align: middle;
+    border: 2px solid #736E71;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 35px;
+}
+
+.dynamicContentWrapper .tabContent .tabItem.active {
+    background-color: #736E71;
+    color: #fff;
+}
+
+.dynamicContentWrapper .product__grid-item {
+    max-width: 300px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.dynamicContentWrapper .slick-arrow {
+    font-size: 0;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin: 0;
+    cursor: pointer;
+    outline: none !important;
+    z-index: 1;
+}
+
+.dynamicContentWrapper .slick-arrow:hover {
+    opacity: 0.75;
+}
+
+.dynamicContentWrapper .slick-prev {
+    left: -20px;
+    border-left: 0;
+    border-right: 20px solid #736E71;
+}
+
+.dynamicContentWrapper .slick-next {
+    right: -20px;
+    border-left: 20px solid #736E71;
+    border-right: 0;
+}
+
+
+@media (max-width: 1024.98px) {
+    .dynamicContentWrapper .tabContent .tabItem {
+        padding: 5px 18px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .dynamicContentWrapper .tabContent {
+        display: inline-block;
+        border: 1px solid #736E71;
+        margin: 20px auto;
+    }
+
+    .dynamicContentWrapper .tabContent .tabItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        width: 50%;
+        border-width: 1px;
+        padding: 5px;
+    }
+
+    .dynamicContentWrapper .tabContent tr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

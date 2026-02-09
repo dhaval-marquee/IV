@@ -1,0 +1,27 @@
+@media(max-width: 767.98px) {
+    .locationImage_iv .pss-card-list__imagebox {
+        display: block;
+    }
+    .locationImage_iv .pss-card-list__top-wrapper {
+        display: block;
+    }
+    
+    .locationImage_iv .pss-card-list__bottom-actions>a:first-child {
+        position: relative;
+        font-size: 0;
+    }
+    .locationImage_iv .pss-card-list__bottom-actions>a:first-child:before {
+        content: "View all units at this location";
+        position: absolute;
+        font-size: .75rem;
+        text-align: center;
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+
+    /* v2 */
+    .locationImage_v2 .pss-card-list__bottom-wrapper {
+        display: none;
+    }    
+}

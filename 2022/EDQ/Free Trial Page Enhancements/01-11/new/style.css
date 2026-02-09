@@ -1,0 +1,116 @@
+.page_enhancements .navbar-header + div,
+.page_enhancements .navbar-header button, .navbar-header span, .navbar-header ul,
+.page_enhancements .tab-container .nav,
+.page_enhancements .responsive-tabs-container.accordion-xs .accordion-link {
+    display: none !important;
+}
+
+.page_enhancements .tinymce {
+    background: linear-gradient(90deg, rgba(50,73,136,0.8) 0%, rgba(75,69,139,0.8) 25%, rgba(133,52,139,0.8) 50%, rgba(255,255,255,1) 55%);
+    border-radius: 10px;
+}
+.page_enhancements .data_validation {
+    background-position: center right;
+    box-shadow: 0px 0px 27px -10px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+.page_enhancements .data_validation main,
+.page_enhancements .data_validation main + div {
+    min-height: 800px;
+    max-width: 50%;
+    width: 100%;
+    padding: 20px;
+}
+.page_enhancements .data_validation main {
+    display: flex;
+    flex-direction: column;
+}
+.page_enhancements .data_validation main ul {
+    padding-left: 0 !important;
+    padding-bottom: 30px;
+    margin-bottom: auto;
+}
+.page_enhancements .data_validation main ul li {
+    line-height: normal;
+    text-indent: 0;
+    position: relative;
+    padding-left: 40px;
+}
+.page_enhancements .data_validation main ul li:before {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0;
+    width: 30px !important;
+    height: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0 !important;
+}
+.page_enhancements .data_validation main + div {
+    background-color: #fff;
+}
+.page_enhancements .data_validation form,
+.page_enhancements .data_validation form h3,
+.page_enhancements .data_validation form #mandatory-note {
+    color: #575755 !important;
+}
+.page_enhancements .data_validation form {
+    padding: 0;
+}
+.page_enhancements .data_validation form h2 {
+    color: #E63888 !important;
+    margin-top: 30px;
+}
+.page_enhancements .data_validation form h3 {
+    font-weight: normal;
+    font-size: 16px;
+}
+.page_enhancements .data_validation form a {
+    color: #406eb3 !important;
+    text-decoration: none !important;
+}
+.page_enhancements .data_validation form #dv-terms-container label {
+    padding-left: 30px;
+    display: inline-block !important;
+}
+.page_enhancements .data_validation form #dv-terms-container label:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.page_enhancements .data_validation form #dv-terms-container label:after {
+    left: 2px;
+}
+.page_enhancements .data_validation form #dv-terms-container .dv-error,
+.page_enhancements .data_validation form .dv-error, 
+.page_enhancements .data_validation form div#g-recaptcha {
+    color: red;
+}
+.page_enhancements .data_validation form button {
+    background-color: #426DA9 !important;
+    transition: all 0.3s ease-in-out 0s !important;
+}
+.page_enhancements .data_validation form button:hover,
+.page_enhancements .data_validation form button:focus {
+    opacity: 0.90;
+}
+
+.page_enhancements .data_validation form input::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+}
+.page_enhancements .data_validation form input:-moz-placeholder {
+    color: #999;
+    opacity: 1;
+}
+.page_enhancements .data_validation form input::-webkit-input-placeholder {
+    color: #999;
+    opacity: 1;
+}
+.page_enhancements .data_validation form input:-ms-input-placeholder {
+    color: #999;
+    opacity: 1;
+}

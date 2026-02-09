@@ -1,0 +1,145 @@
+.iv-virtual .hero-right .space-y-16 {
+    display: none;
+}
+.iv-virtual .hero-right ul {
+    list-style: disc;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.iv-virtual .hero-right ul li::before {
+    display: none;
+}
+.iv-virtual .p-section-hero .row {
+    grid-template-columns: revert;
+    align-items: center;
+}
+.iv-virtual .hero-right ul li {
+    list-style-type: disc;
+}
+.iv-virtual .hero-right h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.iv-virtual .hero-right p {
+    width: 100%;
+    max-width: 415px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.iv-virtual .hero-right i {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    max-width: 525px;
+    display: block;
+    margin-bottom: 50px;
+}
+.iv-virtual .iv-review-section .m-section-hero {
+    margin-bottom: 0;
+}
+.iv-virtual .iv-review-section .m-section-hero .iv-review-section-right {
+    margin-bottom: 0;
+}
+.iv-virtual .hero-right .btn,
+.iv-virtual .styling-section .btn {
+    font-size: 15px;
+}
+
+/* section 2 */
+.iv-virtual .styling-section .row {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.iv-virtual .styling-section .styling-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.iv-virtual .styling-section .styling-sub-title {
+    font-size: 24px;
+}
+.iv-virtual .styling-section .space-y-16 > div > p {
+    display: none;
+}
+.iv-virtual .styling-section .styling-details-info {
+    width: calc(25% - 30px);
+}
+.iv-virtual .styling-section .styling-details {
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.iv-virtual .styling-section .styling-details-info p {
+    text-align: justify;
+    font-size: 12px;
+}
+.iv-virtual .styling-section .styling-details-info strong {
+    font-size: 20px;
+}
+
+
+/* media screen */
+@media screen and (max-width: 991px) {
+    .iv-virtual .p-section-hero .row {
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
+    .iv-virtual .hero-right h2 {
+        font-size: 33px !important;
+    }
+    .iv-virtual .hero-right p {
+        font-size: 18px;
+    }
+    .iv-virtual .hero-right i {
+        margin-bottom: 30px;
+    }
+    .iv-virtual .hero-right ul {
+        margin-bottom: 20px;
+    }
+    .iv-virtual .styling-section .styling-details-info {
+        width: calc(50% - 15px);
+    }
+    .iv-virtual .styling-section .styling-sub-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .iv-virtual .styling-section .row > div:first-child > div {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .iv-virtual .styling-section .styling-title {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .iv-virtual .styling-section .styling-sub-title {
+        text-align: center;
+        font-size: 16px;
+    }
+    .iv-virtual .styling-section .styling-sub-title br {
+        display: none;
+    }
+    .iv-virtual .styling-section .row {
+        gap: 25px;
+    }
+    .iv-virtual .hero-right h2 {
+        font-size: 30px !important;
+    }
+    .iv-virtual .styling-section .styling-details-info strong {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 575px) {
+    .iv-virtual .hero-right-content .btn-info {
+        font-size: 10px;
+        padding: 15px 13px;
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+    .iv-virtual .styling-section .styling-details-info {
+        width: 100%;
+    }
+}

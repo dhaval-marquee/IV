@@ -1,0 +1,1 @@
+jQuery('.entry-content > p:last-of-type').html('<a href="https://mitchell1.com/socialcrm/" class="localSearch_test"><b>Grow your business the modern way. Get a free guided demonstration and learn how SocialCRM can automate your customer outreach.</b></a>')

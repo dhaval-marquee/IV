@@ -1,0 +1,22 @@
+.iv-custom-product {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1751614621/Catchmaster/FinderTileDesktop.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    cursor: pointer;
+}
+.iv-custom-product.iv-pos-2 {
+    display: none;
+}
+@media (max-width: 989px) {
+    .iv-custom-product {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1751614622/Catchmaster/FinderTileMobile.png');
+    }
+    .iv-custom-product.iv-pos-2 {
+        display: block;
+        margin-bottom: 60px;
+    }
+    .iv-custom-product.iv-pos-4 {
+        display: none;
+    }
+}

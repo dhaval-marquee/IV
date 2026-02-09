@@ -1,0 +1,20 @@
+.footerTest_iv #_map-288-22,
+.footerTest_iv #section-264-22,
+.footerTest_iv #section-69-89 {
+    display: none;
+}
+.footerTest_iv #new_columns-380-89 .ct-div-block {
+    width: 33.33%;
+}
+.footerTest_iv #div_block-391-89 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footerTest_iv #div_block-391-89 ul > li a{
+    color: #fff;
+}
+.footerTest_iv #div_block-391-89 ul > li a:hover, 
+.footerTest_iv #div_block-391-89 ul > li a:focus-within {
+    color: rgba(255, 255, 255, 0.5);
+}

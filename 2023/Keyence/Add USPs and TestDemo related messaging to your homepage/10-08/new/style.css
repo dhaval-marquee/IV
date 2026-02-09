@@ -1,0 +1,161 @@
+.messaging_USPs .industry_leser {
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/Keyence/Add_USPs_and_Test_Demo_related_messaging_to_your_homepage/bg_image.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+.messaging_USPs .title_wrapper{
+    padding-top: 20px;
+}
+.messaging_USPs .industry_leser h2{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 560px;
+    padding-left: 40px;
+    margin-left: auto;
+    background: red;
+    color: #fff;
+    background: rgb(48,73,82);
+    background: -moz-linear-gradient(90deg, rgba(48,73,82,1) 100%, rgba(86,98,94,0.17970938375350143) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(48,73,82,1) 100%, rgba(86,98,94,0.17970938375350143) 100%);
+    background: linear-gradient(268deg, rgba(48,73,82,1) 95%, rgba(86,98,94,-1.820291) 100%);
+    padding: 14px 0 14px 37px;
+}
+.messaging_USPs .industry_leser .btn_wrapper {
+    width: 100%;
+    max-width: 510px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 270px;
+}
+.messaging_USPs .ul_wrapper{
+    background-color: #DC002F;
+    margin-bottom: 50px;
+    padding: 10px 0;
+}
+.messaging_USPs .ul_wrapper ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.messaging_USPs .ul_wrapper ul li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 33.33%;
+}
+.messaging_USPs .ul_wrapper ul li p {
+    color: #fff;
+    padding-left: 6px;
+    margin-bottom: 0;
+}
+
+.messaging_USPs .btn_icon {
+    border: none;
+    max-width: 270px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: revert;
+    align-items: center;
+    text-decoration: none;
+    padding: 6px;
+    background-color: #DC002F;
+}
+.messaging_USPs .btn_icon img{
+    width: 33px;
+    left: 27px;
+    height: 30px;
+    margin-left: 16px;
+    margin-right: 24px;
+}
+.messaging_USPs .btn_number {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.messaging_USPs .btn_number img{
+    width: 25px;
+    left: 27px;
+    height: 25px;
+    margin-left: 16px;
+    margin-right: 10px;
+}
+
+@media (max-width: 969.98px) {
+    .messaging_USPs .ul_wrapper ul {
+        flex-wrap: wrap;
+    }
+    .messaging_USPs .ul_wrapper ul li{
+        max-width: 50%;
+        width: 100%;  
+        margin-bottom: 18px;
+    }
+    .messaging_USPs .ul_wrapper ul li:last-child {
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .messaging_USPs .industry_leser h2 {
+        font-size: 24px;
+        max-width: 420px;
+    }
+    .messaging_USPs .industry_leser .btn_wrapper {
+        flex-direction: column;
+        margin-top: 224px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .messaging_USPs .btn_number img {
+        margin-left: 0;
+    }
+    .messaging_USPs .btn_icon {
+        margin-bottom: 18px;
+    }
+    .messaging_USPs .ul_wrapper {
+        padding: 33px 0 0;
+    }
+    .messaging_USPs .ul_wrapper ul li {
+        max-width: 100%;
+        margin-bottom: 32px;
+        justify-content: center;
+    }
+}
+@media (max-width: 450.98px) {
+    .messaging_USPs .ul_wrapper ul {
+        padding: 0 12px;
+    }
+    .messaging_USPs .ul_wrapper ul li p {
+        padding-left: 8px;
+    }
+    .messaging_USPs .ul_wrapper ul li img {
+        width: 45px;
+    }
+}
+@media (max-width: 409.98px) { 
+    .messaging_USPs .industry_leser .btn_wrapper {
+        margin-top: 180px;
+    }
+}
+@media (max-width: 375.98px) {
+    .messaging_USPs .ul_wrapper ul li p {
+        font-size: 13px;
+    }
+}

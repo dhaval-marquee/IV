@@ -1,0 +1,86 @@
+.locations_iv .state-wrapper label,
+.locations_iv #location-unknown .location-form-wrapper label.gfield_label {
+    display: none;
+}
+.locations_iv #location-unknown .unknown-header {
+    margin-bottom: 0;
+}
+.locations_iv #location-unknown .accordion.location-accordion {
+    margin-top: 0 !important;
+}
+.locations_iv .accordion.location-accordion .card-header {
+    border-bottom: none;
+}
+.locations_iv .accordion.location-accordion .card-header button {
+    font-size: 0;
+    padding: 0;
+}
+.locations_iv .accordion.location-accordion .card-header button:focus {
+    box-shadow: none;
+}
+.locations_iv .accordion.location-accordion .card-header button[aria-expanded=false]::after {
+    display: none;
+}
+.locations_iv .accordion.location-accordion .card {
+    border-top: none;
+}
+.locations_iv .accordion.location-accordion>.card:last-of-type {
+    border-bottom: none;
+}
+.locations_iv .accordion.location-accordion .card.active .collapse {
+    display: block;
+}
+.locations_iv .accordion.location-accordion .location-title {
+    border-bottom: 1px solid #C2C2C2;
+    color: var(--headline-blue);
+    font-size: 32px;
+    margin-top: 75px;
+    padding: 0 20px 20px;
+}
+.locations_iv .accordion.location-accordion .collapsing {
+    transition: none;
+}
+@media only screen and (min-width: 992px) {
+    .locations_iv #location-unknown .location-form-wrapper {
+        display: grid;
+    }
+    .locations_iv #location-unknown .location-form-wrapper .state-wrapper .dropdown,
+    .locations_iv #location-unknown .location-form-wrapper .state-wrapper .dropdown button {
+        width: 100%;
+    }
+    .locations_iv #location-unknown form.location-unknown input#input_4_3 {
+        margin-left: 0;
+    }
+    .locations_iv #location-unknown form.location-unknown input#gform_submit_button_4 {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    .locations_iv #location-unknown form.location-unknown .gform_ajax_spinner {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+@media only screen and (max-width: 1023px) and (min-width: 992px) {
+    .locations_iv #location-unknown .location-form {
+        position: relative;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .locations_iv #location-unknown .location-form-wrapper {
+        gap: 0;
+    }
+    .locations_iv #location-unknown form.location-unknown .gform_ajax_spinner {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .locations_iv #location-unknown .location-form-wrapper .state-wrapper .dropdown button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

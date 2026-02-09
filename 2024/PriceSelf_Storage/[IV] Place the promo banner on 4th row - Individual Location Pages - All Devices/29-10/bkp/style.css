@@ -1,0 +1,44 @@
+.bannerWrapper .pss-promo-box {
+    height: auto;
+    padding: 20px;
+}
+
+@media (min-width: 992px) {
+    .bannerWrapper .pss-promo-box {
+        border-top: none;
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+
+    .bannerWrapper .pss-hero__promotion-disclaimer-internal-pages svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .bannerWrapper .pss-promo-box__text-part3 {
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .bannerWrapper .pss-hero__promotion-disclaimer-internal-pages {
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .bannerWrapper .pss-hero__promotion-disclaimer-internal-pages {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pss-promo-box__text-part3 {
+        width: 150px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    
+    .pss-promo-box__text-part3 .pss-font-primary-eb {
+        font-size: 16px;
+    }
+}

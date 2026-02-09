@@ -1,0 +1,23 @@
+.homePhone_video .post-content .fusion-builder-row-1 {
+    padding-bottom: 0;
+}
+
+.homePhone_video .fusion-builder-row-1 .fusion-column-wrapper .fusion-video {
+    width: 100%;
+    max-width: 1100px !important;
+}
+
+.homePhone_video #dynamicvideo > .fusion-layout-column {
+    width: 100%;
+}
+
+#menu-menu > li#menu-item-17 a::before {
+	display: none;
+}
+
+@media (max-width:767px){
+    .homePhone_video #dynamicvideo .awb-lightbox::after {
+        width: 60px;
+        height: 60px;
+    }
+}

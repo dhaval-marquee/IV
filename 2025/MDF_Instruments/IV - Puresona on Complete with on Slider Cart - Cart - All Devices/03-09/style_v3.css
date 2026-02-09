@@ -1,0 +1,70 @@
+.iv-puresona-on-cart #cart-drawer scroll-carousel {
+    grid: none;
+    border: 1px solid #015BA8;
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    border-bottom: 0;
+}
+
+.iv-puresona-on-cart .cart-drawer__complementary-products {
+    gap: 0 !important;
+    padding-bottom: 0;
+}
+
+.iv-no-complementary-products .iv-cart-drawer-item {
+    padding-top: 0;
+    border: 0;
+    padding-bottom: 2rem;
+}
+
+.iv-no-complementary-products .iv-cart-drawer-item .complementary-products__header {
+    display: none;
+}
+
+.iv-puresona-on-cart .complementary-products__header.complementary-products__header--align-start {
+    background-color: #015BA8;
+    color: #fff;
+    padding: 15px;
+    justify-content: center;
+}
+
+.iv-puresona-on-cart .complementary-products__header.complementary-products__header--align-start>p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.iv-puresona-on-cart .horizontal-product-card.iv-puresona-section {
+    border: 1px solid #015BA8;
+    margin: 0;
+    padding: 0;
+    padding-top: 32px;
+    border-top: 0;
+    padding-bottom: 32px;
+}
+
+.iv-puresona-on-cart .iv-in-cart#cart-drawer scroll-carousel {
+    padding-top: 1rem;
+    border-bottom: 1px solid #015BA8;
+    padding-bottom: 1rem;
+}
+
+.iv-puresona-on-cart .iv-in-cart#cart-drawer .cart-drawer__complementary-products {
+    padding-bottom: 2rem;
+}
+
+.iv-puresona-section .horizontal-product-card__figure {
+    position: relative;
+    left: 20px;
+}
+
+/* .iv-puresona-on-cart .cart-drawer__free-case-note {
+    margin-top: 0;
+    margin-bottom: 12px;
+} */
+.iv-puresona-on-cart .cart-drawer__free-case-note {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+}

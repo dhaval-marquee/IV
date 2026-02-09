@@ -1,0 +1,145 @@
+.iv-form .from-left {
+    padding-right: 20px;
+}
+
+.iv-form .from-left h2 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 20px;
+    max-width: 690px;
+    width: 100%;
+}
+
+.iv-form .from-left .tel-info {
+    color: #596c87;
+    font-size: 18px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.iv-form .from-left .tel-info a {
+    text-decoration: underline;
+}
+
+.iv-form .from-left-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.iv-form .from-left-list li {
+    background-image: url(//res.cloudinary.com/ignite-visibility/image/upload/f_auto/Experian/Checkmark_purple.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 40px;
+    padding-left: 50px;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+@media screen and (min-width: 768px) {
+    .iv-form form#contactForm {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .iv-form #contactForm > .form-group.floatl {
+        max-width: 48.5%;
+        width: 100%;
+    }
+
+    .iv-form #contactForm > .form-group.floatl.text-area {
+        display: block !important;
+        max-width: 100%;
+    }
+
+    .iv-form .form-description {
+        text-align: center;
+    }
+
+    .iv-form .form-group:has(button[type="submit"]) {
+        width: 100%;
+        text-align: center
+    }
+
+    .iv-form .form-renderer .terms,
+    .iv-form .form-section .terms {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .iv-form .from-left-list li {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .iv-form .from-left h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .iv-form .from-left .tel-info {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .iv-form .from-left h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .iv-form .from-left .tel-info {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .iv-form .from-left-list li {
+        font-size: 15px;
+        line-height: 30px;
+        background-size: 24px;
+        padding: 1px 0 2px 30px;
+        background-position: left top 4px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .iv-form .from-left {
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+
+    .iv-form .from-left h2 {
+        max-width: 560px;
+        margin: 0 auto 10px;
+        text-align: center;
+    }
+
+    .iv-form .from-left .tel-info {
+        text-align: center;
+    }
+
+    .iv-form .from-left-list {
+        width: 100%;
+        max-width: 435px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .iv-form .from-left h2 {
+        font-size: 29px;
+        line-height: 40px;
+    }
+
+    .iv-form .from-left-list li {
+        line-height: 22px;
+        margin-bottom: 9px;
+        padding-left: 30px;
+        background-position: left top 0px;
+    }
+}

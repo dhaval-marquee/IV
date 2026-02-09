@@ -1,0 +1,14 @@
+.review_iv .used-macs-hero__parallels_link {
+    display: none;
+}
+
+#review_wrapper {
+    padding: 60px 0 40px;
+}
+
+
+@media (max-width: 551.98px) {
+    #review_wrapper {
+        padding: 20px 0;
+    }
+}

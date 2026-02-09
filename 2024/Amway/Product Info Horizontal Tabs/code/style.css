@@ -1,0 +1,90 @@
+/* Tab Heading */
+ul#tabHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 0;
+    overflow: auto;
+}
+
+ul#tabHeader li {
+    list-style: none;
+    flex: 1 0 auto;
+    margin-bottom: 10px;
+}
+
+ul#tabHeader .amw-accordion__icon {
+    display: none;
+}
+
+ul#tabHeader li .amw-accordion__title {
+    text-transform: inherit;
+    padding: 0 10px;
+}
+
+ul#tabHeader a.amw-accordion__toggle-row {
+    border-top: 2px solid #d3d3d3;
+    border-bottom: 2px solid #d3d3d3;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+ul#tabHeader a.amw-accordion__toggle-row:not(.collapsed) {
+    border-color: #38539a;
+    pointer-events: none;
+}
+
+ul#tabHeader a.amw-accordion__toggle-row:focus .amw-accordion__title {
+    color: #2c2c2c;
+}
+
+ul#tabHeader a.amw-accordion__toggle-row:hover {
+    border-color: #38539a;
+}
+
+ul#tabHeader a.amw-accordion__toggle-row:not(.collapsed) .amw-accordion__title,
+ul#tabHeader a.amw-accordion__toggle-row:hover .amw-accordion__title {
+    color: #38539a;
+}
+
+
+/* tab content */
+#productPageAccordion {
+    padding: 0;
+    margin-top: 30px;
+}
+
+#productPageAccordion .amw-accordion__heading,
+#productPageAccordion .amw-accordion__collapse,
+/* #productPageAccordion .amw-accordion__collapse.collapsing, */
+#productPageAccordion .amw-accordion__collapse.show {
+    display: none;
+}
+
+#productPageAccordion .amw-accordion__collapse.collapsing,
+#productPageAccordion .amw-accordion__collapse.showIV {
+    display: block !important;
+}
+
+#productPageAccordion .amw-accordion__collapse .amw-accordion__body {
+    margin: 0;
+}
+
+#productPageAccordion .amw-accordion__panel {
+    border: none;
+    padding: 0;
+}
+
+#productPageAccordion .amw-page-pdp__icon-container {
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+/* #productPageAccordion .amw-page-pdp__icon-container-inner {
+    width: auto;
+    margin: 0 auto !important;
+    padding: 0 25px;
+    flex: 1 0 auto;
+} */

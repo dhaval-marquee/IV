@@ -1,0 +1,24 @@
+body .sticky-button {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    padding: 7px;
+}
+
+@media (min-width: 768px) {
+    body .sticky-button {
+        display: none !important;
+    }
+} 
+
+/* For Variant 2 only */
+body .sticky-button {
+    background: #3f3f3f;
+}

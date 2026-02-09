@@ -1,0 +1,47 @@
+h1.hero_main_title {
+    font-size: 75px; /* for Variant 1 */
+    font-size: 105px; /* for Variant 2 */
+    line-height: normal;
+    color: #fff;
+    font-weight: bold;
+    max-width: 1050px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1.hero_main_title sup {
+    font-size: 50%;
+    margin-left: -5px;
+}
+
+.hs-cta-wrapper a span {
+    font-size: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hs-cta-wrapper a span:before {
+    content: 'Grab My Deal';
+    font-size: 19px;
+    line-height: normal;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1.hero_main_title {
+        font-size: 55px; /* for Variant 1 only */
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    h1.hero_main_title {
+        font-size: 36px; /* for Variant 1 */
+        font-size: 55px; /* for Variant 2 */
+        padding: 0 10px;
+    }
+
+    h1.hero_subtitle {
+        font-size: 30px !important;
+    }
+}

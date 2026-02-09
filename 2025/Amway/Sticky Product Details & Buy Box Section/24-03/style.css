@@ -1,0 +1,46 @@
+.iv-faq-inner {
+    margin: 50px 0;
+}
+.iv-faq-part .amw-accordion {
+    padding: 0;
+    margin: 0;
+}
+
+.iv-sticky-product .productDetailsPageRightBottomSlot .amw-product-recomendation .js-recommendation-component {
+    margin-top: 50px;
+}
+
+.iv-faq-inner {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+
+.iv-faq-part {
+    width: 100%;
+    max-width: 530px;
+}
+.iv-product-info {
+    width: 100%;
+    position: relative;
+}
+.iv-sticky-product .main-container .js-addto-product-component > div {
+    height: 100%;
+}
+.iv-sticky-product .main-container .js-addto-product-component .productDetailsPageRightPanelSlot{
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+.iv-product-info > div {
+    padding: 30px 25px 10px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.12);
+    position: sticky;
+}
+
+/* .iv-product-info .productDetailsPageRightPanelSlot-component .amw-loyalty-banner, 
+.iv-product-info .productDetailsPageRightPanelSlot-component .amw-page-pdp__paypal-message {
+    display: none !important;
+} */

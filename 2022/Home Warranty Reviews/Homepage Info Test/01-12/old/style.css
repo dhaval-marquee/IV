@@ -1,0 +1,109 @@
+.homewarrantyreviews_test .company_banner_block .company_block {
+    display: none;
+  }
+  .homewarrantyreviews_test .information_box .company_list{
+    background: #fff ;
+    border: none;
+    margin: 0;
+    padding: 15px 30px 50px;
+    margin-top: 60px;
+    width: 100%;
+  }
+  .homewarrantyreviews_test .information_box h2 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 1.5rem;
+    color: black;
+  }
+  .homewarrantyreviews_test .information_box p {
+    text-align: left;
+    color: black;
+  }
+  .homewarrantyreviews_test .information_box .step_block {
+    margin-top: 20px;
+  }
+  .homewarrantyreviews_test .information_box .step_block span {
+    font-weight: bold;
+    width: max-content;
+    margin-right: 20px;
+    position: relative;
+    top: 5px;
+  }
+  .homewarrantyreviews_test .information_box .note_block {
+    background: #FAFAFA;
+    padding: 10px;
+  }
+  .homewarrantyreviews_test .information_box ul li {
+    text-align: left;
+    color: black;
+  }
+  .homewarrantyreviews_test .information_box .list_block ::marker{
+    color: #0D52AD;
+  }
+  .homewarrantyreviews_test .information_box .choose_block h3:before{
+      content: "";
+      border-color: transparent #0F8F85;
+      border-style: solid;
+      border-width: 0.3em 0 0.3em 0.6em;
+      display: block;
+      height: 0;
+      width: 11%;
+      left: -25px;
+      top: 22px;
+      position: relative;
+  }
+  .homewarrantyreviews_test .information_box .choose_block h3 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    color: black;
+  }
+  /* .homewarrantyreviews_test .information_box .company_list section:last-child {
+      display: none;
+  } */
+  @media (max-width: 767.98px){
+    .homewarrantyreviews_test .information_box h2 {
+       font-size: 18px;
+    }
+    .homewarrantyreviews_test .information_box .company_list{
+       margin-top: 44px;
+       padding: 7.5px 15px 30px;
+    }
+    .homewarrantyreviews_test .information_box .order-2 {
+      order: 2;
+    }
+    .homewarrantyreviews_test .information_box .choose_block h3 {
+      font-size: 19px;
+      position: relative;
+    }
+    .homewarrantyreviews_test .information_box .choose_block h3:before{
+      top: 18px;
+      top: 50%;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .homewarrantyreviews_test .information_box .step_block span {
+      font-size: 16px;
+      margin-right: 16px;
+    }
+    .homewarrantyreviews_test .information_box .container_fluid_double{
+       padding-left: 0;
+       padding-right: 0;
+    }
+  }
+  
+  /* .other_companies_block  */
+  
+  .other_companies_block .other_company_list {
+    display: none;
+  }
+  @media (max-width: 767.98px){
+    .homewarrantyreviews_test .other_companies_box.information_box .container_fluid_double{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  

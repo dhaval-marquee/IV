@@ -1,0 +1,116 @@
+/* add Homepage Hero Banner Variant code first ---- black hero code in Variant 1 */
+/* add Homepage Hero Banner Variant code first ---- White hero code in Variant 2 */
+
+/* and then add below code in both variant */
+
+.category_test .category_section{
+	margin: 50px 0;
+}
+
+.category_test .category_section h2{
+	font-size: 21px;
+    font-family: "Exo", sans-serif;
+    margin-bottom: 41px;
+}
+.category_test .category_section ul{
+    display: flex;
+	align-items: baseline;
+	justify-content: center;
+	width: 100%;
+	padding: 0;
+	margin: 0 -15px;
+}
+.category_test .category_section ul li{
+	text-align: center;
+	list-style: none;
+	padding: 0 15px;
+}
+.category_test .category_section ul li a {
+	position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out 0s;
+}
+.category_test .category_section ul li a:after {
+    content: '';
+    width: 0;
+    height: 5px;
+    background-color: #163d88;
+    transition: all 0.3s ease-in-out 0s;
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.category_test .category_section ul li a:hover {
+    text-decoration: none;
+}
+.category_test .category_section ul li a:hover:after {
+    width: 100%;
+}
+.category_test .category_section ul li img{
+	width: 100%;
+    max-width: 163px;
+	margin: 0 auto;
+}
+.category_test .category_section ul li img[alt="SSD"]{
+	width: 120px;	
+	height: 80px;
+}
+.category_test .category_section ul li img[alt="Docks"]{
+	width: 218px;
+}
+.category_test .category_section ul li img[alt="Batteries"]{
+	width: 190px;
+}
+.category_test .category_section ul li h3{
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	white-space: nowrap;
+    margin-top: 19px;
+}
+
+@media (max-width: 1199.98px) {
+	.category_test .category_section .container{
+		max-width: 990px;
+	}
+	.category_test .category_section ul img{
+		max-width: 115px;
+	}
+}
+@media (max-width: 989.98px) {
+	.category_test .category_section .container{
+		max-width: 768px;
+    }
+	.category_test .category_section ul{
+		flex-wrap: wrap;
+	}
+	.category_test .category_section ul li{
+		width: 33.33%;
+		box-sizing: border-box;
+	}
+}
+@media (max-width: 767.98px) {	
+	.category_test .category_section ul li{
+		width: 50%;
+		margin-bottom: 35px;
+	}
+	.category_section ul img,
+	.category_section ul li img[alt="SSD"],
+	.category_section ul li img[alt="Docks"],
+	.category_section ul li img[alt="Batteries"]{
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 479.98px) {
+	.category_test .category_section ul li img {
+		max-width: 123px;
+	}
+	.category_test .category_section ul li h3 {
+		font-size: 18px;
+	}
+}

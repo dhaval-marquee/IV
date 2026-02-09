@@ -1,0 +1,50 @@
+.home_hero_iv .td_hero_section .panel-cell-style {
+    display: flex;
+    flex-direction: column;
+}
+.home_hero_iv .td_hero_section .textwidget ul {
+    font-size: 21px;
+    line-height: 30px;
+    margin: 0;
+}
+.home_hero_iv .td_hero_section .textwidget ul li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+}
+.home_hero_iv .td_hero_section .textwidget ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+}
+.home_hero_iv .td_hero_section .textwidget ul li ~ li {
+    margin-top: 10px;
+}
+.home_hero_iv .td_hero_section .widget_sow-button {
+    margin-top: 30px;
+    order: 1;
+}
+.home_hero_iv .td_hero_section .widget_sow-button .orange {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: inherit;
+    max-width: inherit;
+    width: auto;
+}
+@media only screen and (max-width: 980px) {
+    .home_hero_iv .td_hero_section .textwidget ul {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .home_hero_iv .td_hero_section .textwidget ul li {
+        padding-left: 15px;
+    }
+    .home_hero_iv .td_hero_section .widget_sow-button {
+        margin-top: 20px;
+    }
+    .home_hero_iv .td_hero_section .widget_sow-button .orange {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,68 @@
+#contact .tel-info {
+    display: none;
+}
+#contact .form-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 20px;
+}
+#contact .form-wrapper ul li {
+    position: relative;
+    padding-left: 25px;
+}
+#contact .form-wrapper ul li:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #333;
+    overflow: hidden;
+}
+#contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#contact form .form-group {
+    width: 100%;
+    text-align: center;
+}
+#contact form .form-group.text-area {
+    max-width: 100% !important;
+}
+#contact form .form-group.button_row {
+    max-width: 100%;
+    text-align: center;
+}
+#contact form .form-group.button_row button.btn {
+    font-size: 0;
+}
+#contact form .form-group.button_row button.btn:before {
+    content: ' Submit Request ';
+    font-size: 1rem;
+}
+@media (min-width: 992px) {
+    #contact .col-lg-6 {
+        max-width: 575px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 576px) {
+    #contact form .form-group.floatl {
+        max-width: calc(50% - 10px);
+    }
+}
+@media (max-width: 479px) {
+    #contact .form-wrapper ul li {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,215 @@
+.iv-hero {
+    padding: 50px 0 60px;
+}
+.iv-hero .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.iv-hero .iv-hero-left {
+    width: 100%;
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/Compression_Sale/TheraSport-blue-and-pink.jpg');
+    background-repeat: no-repeat;
+    background-position: right 50px center;
+    background-size: contain;
+}
+.iv-hero h1 {
+    margin: 0 0 20px 0;
+    color: #004AAD;
+    font-size: 34px;
+    width: 100%;
+}
+.iv-hero .iv-hero-left,
+.iv-hero h1 {
+    padding-left: 30px;
+}
+.iv-hero p {
+    font-size: 22px;
+    width: 100%;
+    max-width: 625px;
+    margin: 0 0 20px;
+    font-weight: 600;
+    color: #43403F;
+    line-height: normal;
+}
+.iv-hero .iv-hero-list {
+    list-style: none;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+.iv-hero-list img {
+    width: 100%;
+    max-width: 40px;
+    margin-right: 10px;
+
+}
+.iv-hero .iv-hero-list li {
+    display: flex;
+    align-items: center;
+}
+.iv-hero .iv-hero-list li span {
+    font-size: 20px;
+    color: #004AAD;
+    font-weight: bold;
+}
+.iv-hero-button a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 0 5px;
+    box-shadow: 0px 7px 10px #5848486e;
+}
+.iv-hero-button a.red-button {
+        background-color: #EC2020;
+}
+.iv-hero-button a.red-button:hover {
+    background-color: #cb1111;
+}
+.iv-hero-button a.blue-button {
+    background-color: #024AAB;
+}
+.iv-hero-button a.blue-button:hover {
+    background-color: #082e62;
+}
+
+.iv-hero .iv-hero-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    display: none;
+}
+.iv-hero .iv-hero-right img {
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+}
+.iv-hero-button-mobile {
+    display: none;
+}
+
+/* Slider */
+.iv-home .slider-content section.slider-middle {
+    display: none;
+}
+.iv-home .slider-content .slider-right ul.brands-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iv-home .slider-content .slider-right ul.brands-list li{
+    border: none;
+}
+.iv-home .slider-content .slider-right{
+    width: 100%;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px;
+}
+.iv-home .slider-content .slider-right .brand-title {
+    padding: 15px 0 0 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #004AAD;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1080px) {
+    .iv-home .iv-hero .iv-hero-list li span {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .iv-home .iv-hero h1{
+        font-size: 28px;
+    }
+    .iv-home .iv-hero p{
+        font-size: 17px;
+        max-width: 480px;
+    }
+    .iv-home .iv-hero .iv-hero-button a{
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+    .iv-hero .iv-hero-left {
+        background-position: right 0 center;
+    }
+    .iv-home .slider-content .slider-right .brand-title {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .iv-hero{
+        padding: 30px 0;
+    }
+    .iv-hero .iv-hero-left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        background-image: none;
+    }
+    .iv-hero .iv-hero-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .iv-home .iv-hero h1 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .iv-home .iv-hero p{
+        font-size: 16px;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .iv-hero .iv-hero-list {
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto 20px;
+        text-align: left;
+        flex-direction: column;
+    }
+    .iv-home .iv-hero .iv-hero-list li span{
+        font-size: 17px;
+    }
+    .iv-home .iv-hero .iv-hero-button a{
+        padding: 15px;
+        font-size: 17px;
+        margin: 0 5px;
+        width: calc(33% + 46px);
+    }
+    .iv-home .slider-content .slider-right ul.brands-list {
+        justify-content: center;
+    }
+    .iv-hero .iv-hero-right img {
+        max-width: 360px;
+    }
+    .iv-home .slider-content .slider-right .brand-title {
+        font-size: 20px;
+    }
+    .iv-hero-list img {
+        max-width: 35px;
+    }
+    .iv-hero .iv-hero-left,
+    .iv-hero h1 {
+        padding-left: 0px;
+    }
+    .iv-hero-button-mobile {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .iv-hero-left .iv-hero-button {
+        display: none;
+    }
+}

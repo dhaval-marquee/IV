@@ -1,0 +1,113 @@
+@media (max-width: 767.98px) {
+    body {
+        visibility: hidden;
+    }
+    .test_iv .elementor-inner .elementor-section-wrap section .elementor-container {
+        min-height: inherit !important;
+    }
+    .test_iv form.woocommerce-checkout #customer_details .col-1 p.form-row label,
+    .test_iv #billing_address_2_field,
+    .test_iv .woocommerce-info:before,
+    .test_iv .woocommerce-additional-fields h3,
+    .test_iv form.woocommerce-checkout #customer_details .col-1 p.form-row label[for="billing_country"] abbr.required,
+    .test_iv #payment .place-order .constant-contact-app-optin,
+    .test_iv #payment .place-order .rxspark-app-optin {
+        display: none !important;
+    }
+    .test_iv .woocommerce-info {
+        padding: 5px 20px;
+    }
+    .test_iv .woocommerce-form-login-toggle .showlogin,
+    .test_iv #show_add_2 {
+        color: blue;
+    }
+    .test_iv form.woocommerce-checkout #customer_details .col-1 p.form-row label[for="billing_country"] {
+        display: block !important;
+        margin-right: 10px;
+    }
+    .test_iv form.woocommerce-checkout #customer_details .col-1 p.form-row label[for="billing_country"]:after {
+        content: ':';
+    }
+    .test_iv form.woocommerce-checkout #customer_details .woocommerce-billing-fields h3 {
+        font-size: 0;
+    }
+    .test_iv form.woocommerce-checkout #customer_details .woocommerce-billing-fields h3:before {
+        content: 'Shipping details';
+        font-size: 16px;
+        line-height: 1.2em;
+        display: inline-block;
+    }
+    .test_iv .woocommerce form .woocommerce-billing-fields__field-wrapper p#billing_country_field {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .test_iv .woocommerce form .woocommerce-billing-fields__field-wrapper p {
+        margin-bottom: 10px;
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .test_iv .woocommerce form .woocommerce-billing-fields__field-wrapper p#billing_country_field ~ p {
+        margin-bottom: 27px;
+    }
+    .test_iv #account_password_field {
+        margin-bottom: 24px;
+    }
+    .test_iv h3#order_review_heading {
+        border-top: 3px solid white;
+        padding-top: 15px;
+    }
+    .test_iv .coupon_wrapper .woocommerce-info {
+        font-size: 0;
+        border: none;
+        background-color: transparent;
+        padding: 0 0 5px;
+    }
+    .test_iv .coupon_wrapper .woocommerce-info .showcoupon {
+        font-size: 14px;
+        color: blue !important;
+        text-decoration: underline;
+    }
+    .test_iv .coupon_wrapper .woocommerce-info .showcoupon:before {
+        content: 'Have a Coupon? ';
+    }
+    .test_iv #newslatter_wrapper input[name="constant_contact_optin"] + span,
+    #payment #payment_method_braintree_credit_card + label {
+        display: inline-block;
+        max-width: calc(100% - 30px);
+        vertical-align: top;
+        margin-top: -3px;
+    }
+    .test_iv #payment #payment_method_braintree_credit_card + label img {
+        display: inline-block;
+        float: inherit !important;
+        margin-left: 0;
+        margin-right: 8px;
+        margin-bottom: 5px;
+    }
+    .test_iv #payment .payment_methods {
+        padding-bottom: 20px !important;
+    }
+    .test_iv #payment .place-order {
+        padding: 20px 0 0 !important;
+    }
+    .test_iv .woocommerce #payment #place_order {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 359.98px) {
+    .test_iv .woocommerce-info,
+    .test_iv .woocommerce-info a {
+        font-size: 14px;
+    }
+    .test_iv .coupon_wrapper .woocommerce-info .showcoupon {
+        font-size: 13px;
+    }
+    .test_iv .woocommerce-info {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

@@ -1,0 +1,41 @@
+section#contact {
+    background-color: transparent;
+}
+#contact.form-section .form-description {
+    display: none;
+}
+#contact .tel-info {
+    color: #426da9;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 478px) {
+    #contact .container {
+        max-width: 575px;
+    }
+    #contact .col-lg-6 {
+        max-width: 575px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #contactForm {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #contactForm > .form-group.floatl {
+        max-width: 48.5%;
+        width: 100%;
+    }
+    #contactForm > .form-group.floatl.text-area + .form-group + .form-group {
+        width: 48.5%;
+    }
+    #contactForm > .form-group.floatl.text-area + .form-group + .form-group button {
+        width: 100%;
+    }
+    .form-renderer .terms, .form-section .terms {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

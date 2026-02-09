@@ -1,0 +1,49 @@
+.iv-how-it-work .button-wrapper {
+    display: flex;
+    gap: 20px;
+    margin-left: 18px;
+}
+
+.iv-how-it-work  .button-wrapper a {
+    font-family: "Public Sans";
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 24px;
+    border-radius: 24px;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    max-width: 230px;
+    border: 2px solid #FF4A00;
+    background-color: #FF4A00;
+    color: #fff;
+    text-decoration-line: none !important;
+    -moz-text-decoration-line: none !important;
+}
+.iv-how-it-work .button-wrapper a.number:hover {
+    background-color: #a33410;
+    color: #fff;
+    border: 2px solid #a33410;
+}
+.iv-how-it-work .button-wrapper a.GetMyPhoneBtn {
+    background-color: transparent;
+    color: #FF4A00;
+}
+.iv-how-it-work .button-wrapper a.GetMyPhoneBtn:hover {
+    background-color: #FF4A00;
+    color: #fff;
+}
+
+@media screen and (max-width: 640.98px) {
+    .iv-how-it-work .button-wrapper {
+        gap: 10px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 359.98px) {
+    .iv-how-it-work .button-wrapper a {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}

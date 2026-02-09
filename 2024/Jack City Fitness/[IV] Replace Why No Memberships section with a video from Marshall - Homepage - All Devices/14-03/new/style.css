@@ -1,0 +1,25 @@
+iframe.video_iv {
+    display: block;
+    margin: 40px auto 80px;
+}
+
+@media (min-width: 751px) {
+    iframe.video_iv {
+        width: 560px;
+        height: 315px;
+    }
+}
+
+@media (max-width: 750px) {
+    iframe.video_iv {
+        width: 380px;
+        height: 215px;
+    }
+}
+
+@media (max-width: 479px) {
+    iframe.video_iv {
+        width: 280px;
+        height: 155px;
+    }
+}

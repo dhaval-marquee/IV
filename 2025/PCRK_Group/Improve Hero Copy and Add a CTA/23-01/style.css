@@ -1,0 +1,38 @@
+.iv-hero .inside-article .iv-hero-content h1 {
+    font-weight: 400 !important;
+}
+
+.iv-hero .inside-article .iv-hero-content p {
+    font-size: 30px;
+    width: 100%;
+    max-width: 710px;
+    line-height: 50px;
+    margin: 0 auto 30px;
+}
+
+.iv-hero .iv-hero-btn {
+    line-height: normal !important;
+    padding: 10px 30px;
+    background-color: #8da8cc;
+    border-radius: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+    .iv-hero .inside-article .iv-hero-content h1 {
+        font-size: 34px !important;
+    }
+
+    .iv-hero .inside-article .iv-hero-content p {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 auto 20px;
+    }
+}

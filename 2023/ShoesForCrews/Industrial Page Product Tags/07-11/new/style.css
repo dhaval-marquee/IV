@@ -1,0 +1,19 @@
+.feature-wrap > span {
+    font-size: 13px;
+    color: #000 !important;
+    background-color: #E6E2E2;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 3px 8px;
+    margin: 5px 10px 0 0;
+}
+div[class*="ProductThumbnail_thumbnailInner_"]:hover .feature-wrap span {
+    color: #000 !important;
+}
+
+@media (max-width: 767px) {
+    .feature-wrap > span {
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+}

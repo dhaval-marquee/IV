@@ -1,0 +1,107 @@
+.mobile-menu #content-inner a[title="Jack City Fitness"] {
+    display: inline-block;
+}
+.mobile-menu .mobile header [title="Jack City Fitness"]{
+    display: inline-block;
+}
+.mobile-menu .mobile header span{
+    display: block;
+}
+.mobile-menu .menu-content{
+    height: calc(100% - 150px);
+    overflow-y: auto;
+}
+.mobile-menu .menu li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    align-items: center;
+}
+.mobile-menu .sub-menu li {
+    margin-bottom: 20px;
+}
+.mobile-menu .menu li a{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.mobile-menu .menu li:last-child{
+    margin-bottom: 0;
+}
+.mobile-menu #mainMenu li .arrow svg {
+    width: 8px;
+    vertical-align: bottom;
+}
+.mobile-menu .menu{
+    margin-top: 30px;
+}
+.mobile-menu .menu li:focus a,
+.mobile-menu .menu li:hover a {
+    color: #fe5000;
+}
+.mobile-menu li:focus .arrow svg path,
+.mobile-menu li:hover .arrow svg path {
+    fill: #fe5000;
+}
+.mobile-menu .sub-menu .back-trigger{
+    font-size: 12px;
+    color: #00000091;
+    width: auto;
+}
+.mobile-menu .sub-menu .back-trigger .arrow{
+    margin-right: 8px;
+}
+.mobile-menu .sub-menu .back-trigger svg{    
+    vertical-align: middle;
+    width: 6px !important;
+    transform: rotateY(180deg);
+}
+.mobile-menu .sub-menu .back-trigger .back{
+    vertical-align: middle;
+}
+.mobile-menu .sub-menu .back-trigger svg path{
+    fill: #00000091;
+}
+.mobile-menu .sub-menu {
+    display: none;
+}
+.mobile-menu .social-media .social-media-loop {
+    display: flex;
+    justify-content: space-evenly;
+}
+.mobile-menu .social-media h5{
+    margin-bottom: 10px;
+}
+.mobile-menu .menu a.active  {
+    color: #fe5000; 
+}
+.mobile-menu .menu a.active + a svg path{
+    fill: #fe5000;
+}
+
+
+.mobile-menu .mobile #content-inner .clicks {
+    display: flex;
+    flex-direction: column;
+}
+.mobile-menu .mobile #content-inner .clicks a:first-child{
+    border: 2px solid #fe5000;
+    background: #fff;
+    color: #fe5000;
+    order: 2;
+    font-weight: 800;
+}
+
+.mobile-menu .mobile #content-inner .clicks [title="Driving Directions"]{
+    border: 2px solid #fe5000;
+    background-color: #fe5000;
+    color: #fff;
+    font-weight: 800;
+}
+.mobile-menu .mobile #content-inner .clicks [title="Driving Directions"]:hover,
+.mobile-menu .mobile #content-inner .clicks a:first-child:hover{
+    border-color: #4e008e;
+    background-color: #4e008e;
+    color: #fff;
+}

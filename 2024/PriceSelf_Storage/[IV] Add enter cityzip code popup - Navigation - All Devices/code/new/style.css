@@ -1,0 +1,113 @@
+.zipcode-iv-box {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    max-width: 510px;
+    padding: 30px 20px;
+    border: 1px solid #cdcdcd;
+    top: 70px;
+    display: none;
+}
+
+.zipcode-iv-box .title {
+    font-family: "HubotSans-M", sans-serif;
+    font-size: 1.125rem;
+    color: #0a1f8f;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.zipcode-iv-box .zipcode-iv__form input {
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    height: 50px;
+    padding: 10px 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #EFEFEF;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.zipcode-iv__button {
+    font-family: "HubotSans-M", sans-serif;
+    max-width: 220px;
+    height: 50px;
+    background-color: #0a1f8f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.125rem;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.zipcode-iv__button:hover {
+    background-color: #001a71;
+    color: #fff;
+}
+
+.zipcode-iv-box .close_button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: underline;
+}
+
+.zipcode-iv-box.show {
+    display: block;
+}
+
+/**/
+.zipcode-iv-box-inner .pss-search.pss-search-form {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    display: block;
+    width: 100%;
+}
+
+.zipcode-iv-box-inner .pss-search.pss-search-form .pss-search__form {
+    padding: 0;
+    flex: inherit;
+}
+
+.zipcode-iv-box-inner .pss-search.pss-search-form .pss-search__form .pss-search__input {
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    height: 50px;
+    padding: 10px 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #EFEFEF;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.zipcode-iv-box-inner .pss-search__actions > input {
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+@media (max-width:1199px) {
+    .zipcode-iv-box {
+        position: inherit;
+        max-width: 100%;
+        margin: -1px 0 20px;
+    }
+
+    .zipcode-iv-box .close_button {
+        position: relative;
+        text-align: end;
+        top: -20px;
+    }
+}

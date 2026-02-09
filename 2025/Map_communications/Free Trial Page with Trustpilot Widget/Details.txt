@@ -1,0 +1,5 @@
+Task link : https://app.asana.com/0/1108013254179588/1209301433207427
+
+Test URLs
+Desktop: https://app.vwo.com/#/test/ab/145/edit/variations/
+Mobile: https://app.vwo.com/#/test/ab/146/edit/variations/

@@ -1,0 +1,43 @@
+#pdp-options-container > .pdp-options__button-container {
+	display: none;
+    margin: 0;
+    width: 100%;
+}
+#pdp-options-container > .pdp-options__button-container.toggle-open {
+	display: inline-block !important;
+}
+#pdp-options-container > .pdp-options__sub-title {
+    border: 1px solid #d2d2d2;
+    background-color: #d2d2d2;
+    padding: 10px 35px 10px 10px;
+    position: relative;
+    cursor: pointer;
+}
+#pdp-options-container > .pdp-options__sub-title:after {
+	content: "";
+    position: absolute;
+    right: 15px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    top: 12px;
+    transform: rotate(225deg);
+    transition: all .5s;
+}
+#pdp-options-container > .pdp-options__sub-title.toggle-open-title::after {
+    transform: rotate(46deg);
+    top: 16px;
+}
+#pdp-options-container > .pdp-options__button-container .pdp-options__tooltip-block {
+    width: 100%;
+}
+#pdp-options-container > .pdp-options__button-container .pdp-options__button {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0 0 0 10px;
+    height: 32px;
+    margin: 0;
+    font-size: 13px;
+}

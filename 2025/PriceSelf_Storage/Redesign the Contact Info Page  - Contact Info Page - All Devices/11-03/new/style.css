@@ -1,0 +1,370 @@
+.contactInfoIV header,
+.contactInfoIV .pss-steps svg,
+.contactInfoIV .pss-steps__group-step.step-4-default:before,
+.contactInfoIV .pss-reserve__promo,
+.contactInfoIV .offerBanner .pss-vertical-middle .pss-reserve__promo-box-container1,
+.contactInfoIV .offerBanner .pss-reserve__promo-box-benefits svg,
+.contactInfoIV .offerBanner .pss-vertical-middle .pss-hero__promotion-disclaimer-internal-pages-reservation {
+    display: none !important;
+}
+
+.contactInfoIV .pss-content {
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.contactInfoIV .pss-steps {
+    gap: 39px;
+    margin-bottom: 50px;
+}
+
+.contactInfoIV .pss-steps__group-step {
+    margin: 0 !important;
+}
+
+.pss-steps__group-step.step-2-in-progress:before {
+    content: 'UNIT RESERVED!';
+    text-align: center;
+    color: #fff;
+    padding: 5px 10px;
+    white-space: nowrap;
+    width: auto;
+    border-radius: 25px;
+    position: absolute;
+    left: -74px;
+    bottom: 21px;
+    top: inherit;
+    background-color: transparent;
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/PriceSelfStorage/ContactInfo/tooltip.png');
+    background-size: cover;
+    background-position: center bottom;
+    height: 26px;
+}
+
+.contactInfoIV .pss-steps__group-step:after {
+    content: '>';
+    position: absolute;
+    border: none;
+    width: auto;
+    opacity: 1;
+    top: 50%;
+    left: calc(100% + 13px);
+    transform: translateY(-50%);
+    background: none;
+    height: auto;
+    margin-top: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #a9a9a9;
+}
+
+.contactInfoIV .pss-steps__group-step.step-2-in-progress:after {
+    color: #000;
+}
+
+.contactInfoIV .pss-steps__group-step span {
+    font-size: 14px;
+    color: #a9a9a9 !important;
+    text-transform: inherit;
+    opacity: 1 !important;
+}
+
+.contactInfoIV .pss-steps__group-step.step-2-in-progress span {
+    color: #000 !important;
+}
+
+.contactInfoIV h2.reserveTitle {
+    display: none;
+}
+
+.contactInfoIV h5.reserveSubTitle {
+    display: none;
+}
+.contactInfoIV .offerBanner {
+    display: none;
+}
+
+.contactInfoIV .pss-reserve__promo-box div .pss-reserve__promo-box-container2 {
+    font-size: 65px !important;
+}
+
+.pss-reserve__promo-box div .pss-reserve__promo-box-container3 span:nth-child(1) {
+    font-size: 38px;
+}
+
+.contactInfoIV .pss-reserve-rightbox {
+    position: relative;
+    background-color: #EBEBEB;
+    border-left: 2px solid #d3d3d3;
+    padding-top: 135px;
+}
+
+.contactInfoIV .pss-reserve-rightbox:after {
+    content: '';
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #ebebeb;
+}
+
+.contactInfoIV .pss-reserve-reservation-details {
+    background-color: #fff;
+}
+
+/* Product box */
+.contactInfoIV .productDetailsBox {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #d1d3d4;
+    padding: 20px 13px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.contactInfoIV .productDetailsBox .productDetails {
+    display: flex;
+    align-items: center;
+    max-width: calc(100% - 150px);
+    width: 100%;
+}
+
+.contactInfoIV .productDetailsBox .productDetailLeft {
+    max-width: 50%;
+    width: 100%;
+}
+
+.contactInfoIV .productDetailsBox .productImgWrapper {
+    max-width: 142px;
+    width: 100%;
+}
+
+.contactInfoIV .productDetailsBox .productImgWrapper img {
+    display: block;
+    width: 100%;
+}
+
+.contactInfoIV .productDetailsBox h4.productTitle {
+    font-family: "HubotSans-B", sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #0a1f8f;
+}
+.contactInfoIV .productDetails #lblAddress {
+    font-size: 12px;
+    line-height: normal;
+    display: block;
+}
+.contactInfoIV .productDetailsBox .productUnitText {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ea2123;
+    display: block;
+    margin-top: 12px;
+}
+
+.contactInfoIV .productDetailsBox .productSize {
+    font-family: "HubotSans-B", sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.contactInfoIV .productDetailsBox .productAvailability {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.contactInfoIV .productDetailsBox .productDetailRight {
+    max-width: 50%;
+    width: 100%;
+}
+
+.contactInfoIV .productDetailsBox .productDetailPrice {
+    font-family: "HubotSans-B", sans-serif;
+    font-size: 32px;
+    color: #ea101f;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.contactInfoIV .productDetailsBox .productPriceText span {
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+
+.contactInfoIV .productDetailsBox .productPriceText #toggle-disclaimer-symbol {
+    width: 13px;
+    height: 13px;
+    fill: #747474;
+    margin-top: -6px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+/* Slider dots */
+.contactInfoIV ul.slick-dots {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.contactInfoIV ul.slick-dots li button {
+    border: none;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    font-size: 0;
+    background-color: #ebebeb;
+    margin: 0 5px;
+}
+
+.contactInfoIV ul.slick-dots li.slick-active button {
+    background-color: #b8b8b8;
+}
+
+
+@media (min-width: 992px) {
+    .contactInfoIV .container {
+        max-width: 100%;
+    }
+
+    .contactInfoIV .container.margin-top--20 {
+        margin-top: 0;
+    }
+
+    .contactInfoIV .pss-reserve-leftbox {
+        padding-top: 50px;
+        padding-right: 30px;
+    }
+
+    .contactInfoIV .pss-reserve-rightbox {
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contactInfoIV .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .contactInfoIV .pss-reserve-rightbox {
+        padding-top: 160px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .pss-steps__group-step.step-2-in-progress:before {
+        left: -62px;
+    }
+
+    .contactInfoIV .pss-steps {
+        gap: 20px;
+    }
+
+    .contactInfoIV .pss-steps__group-step span {
+        font-size: 13px;
+    }
+
+    .contactInfoIV .pss-steps__group-step:after {
+        left: calc(100% + 6px);
+        margin-top: 2px;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .contactInfoIV .pss-reserve-rightbox {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        border-left: 0;
+    }
+
+    .contactInfoIV .pss-reserve-rightbox:before {
+        content: '';
+        width: 100vw;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #ebebeb;
+        z-index: -1;
+    }
+
+    .contactInfoIV .productDetailsBox .productImgWrapper {
+        max-width: 200px;
+    }
+
+    .contactInfoIV .productDetailsBox .productDetails {
+        max-width: calc(100% - 250px);
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contactInfoIV .productDetailsBox {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .contactInfoIV .productDetailsBox .productImgWrapper {
+        max-width: 150px;
+    }
+
+    .contactInfoIV .productDetailsBox .productDetails {
+        max-width: calc(100% - 160px);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contactInfoIV .pss-reserve__promo-box div .pss-reserve__promo-box-container2 {
+        font-size: 30px !important;
+        font-weight: 600;
+    }
+
+    .pss-reserve__promo-box div .pss-reserve__promo-box-container3 span:nth-child(1) {
+        font-size: 30px;
+    }
+
+    .pss-reserve__promo-box div .pss-reserve__promo-box-container3 {
+        padding-left: 5px;
+    }
+
+    .contactInfoIV .productDetailsBox {
+        flex-direction: column;
+        margin-top: 15px;
+        padding: 20px;
+    }
+
+    .contactInfoIV .productDetailsBox .productImgWrapper,
+    .contactInfoIV .productDetailsBox .productDetails {
+        max-width: 100%;
+    }
+
+    .contactInfoIV .productDetailsBox .productDetails {
+        margin-top: 20px;
+    }
+
+    .contactInfoIV .productDetailsBox .productDetailLeft {
+        max-width: 60%;
+    }
+
+    .contactInfoIV .productDetailsBox .productDetailRight {
+        max-width: 40%;
+    }
+}

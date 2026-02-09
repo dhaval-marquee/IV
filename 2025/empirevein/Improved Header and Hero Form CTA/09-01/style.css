@@ -1,0 +1,29 @@
+.empireVein_iv #wrapper-homepage a.update-btn-link {
+    font-size: 17px;
+    text-transform: inherit;
+    height: auto;
+    padding: 15px;
+}
+
+@media (min-width: 992px) and (max-width: 1599px) {
+    .empireVein_iv header .bookfree-link {
+        flex: 1 0 auto;
+    }
+}
+@media (max-width: 767px) {
+    .empireVein_iv header div > .bookfree-link > .nav-link {
+        line-height: 18px;
+        font-weight: 600;
+        padding: 5px 12px;
+    }
+    .empireVein_iv #wrapper-homepage a.update-btn-link {
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media (max-width: 479px) {
+    .empireVein_iv #wrapper-homepage a.update-btn-link {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,159 @@
+.homepage_iv #section-1 div.copy {
+  display: none;
+}
+
+.homepage_iv #section-1 h1 {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.homepage_iv #section-1 h2 {
+  margin-top: 10px;
+}
+
+.homepage_iv .slider-wraper .splide .splide__slide {
+  padding: 0 10px;
+}
+
+.homepage_iv .splide__arrow {
+  width: 0;
+  height: 0;
+  border-top: 15px solid white;
+  border-bottom: 15px solid white;
+  border-right: 20px solid #ccc;
+  border-radius: inherit;
+  left: -24px;
+}
+
+.homepage_iv .splide__arrow--next {
+  border-left: 20px solid #ccc;
+  border-right: 0;
+  right: -24px;
+  left: inherit;
+}
+
+.homepage_iv .splide__arrow svg {
+  display: none;
+}
+
+.homepage_iv .splide__pagination {
+  bottom: 0.5em;
+}
+
+.homepage_iv .splide__pagination__page.is-active {
+  background: #fd6929;
+}
+
+.homepage_iv .cardes {
+  margin: 50px auto !important;
+}
+
+.homepage_iv .cardes .card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #BFBFBF;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage_iv .cardes .card:hover {
+  border: 1px solid #fd6929;
+  box-shadow: #fd6929 0px 2px 4px 0px, #fd6929 0px 2px 16px 0px;
+  cursor: pointer;
+}
+
+.homepage_iv .cardes .card-title {
+  font-size: 30px;
+  line-height: 38px;
+  margin: 20px 0 10px;
+  font-weight: bold;
+}
+
+.homepage_iv .cardes .card-title span {
+  display: block;
+  font-size: 18px;
+  color: #fd6929;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.homepage_iv .cardes .card p,
+.homepage_iv .cardes .card ul {
+  text-align: left;
+}
+
+.homepage_iv .cardes .card ul {
+  text-align: left;
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.homepage_iv .cardes .card-icon img {
+  max-width: 60px !important;
+  width: 100% !important;
+}
+
+.homepage_iv .cardes .card-content {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: auto;
+}
+
+.homepage_iv .cardes .cta-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+.homepage_iv .cardes .cta-button:hover {
+  background-color: #0056b3;
+}
+
+.homepage_iv #section-1 div.copy+div a {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 1500px) {
+  .homepage_iv .slider-wraper .splide {
+    padding: 0 50px;
+  }
+}
+
+@media(max-width: 767.98px) {
+  .homepage_iv .cardes .card {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+}
+
+@media (max-width:499.98px) {
+  .homepage_iv .splide__arrow {
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-right: 12px solid #ccc;
+    left: -15px;
+  }
+
+  .homepage_iv .splide__arrow--next {
+    border-left: 12px solid #ccc;
+    right: -15px;
+    border-right: 0;
+    left: inherit;
+  }
+}

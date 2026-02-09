@@ -1,0 +1,44 @@
+.guaranteeLogo .logoWrapper {
+    display: flex;
+    align-items: center;
+}
+.guaranteeLogo .logoWrapper a img {
+    width: 100% !important;
+    max-width: 180px;
+    box-shadow: inherit;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+.guaranteeLogo .logoWrapper a {
+    margin-right: 12px;
+}
+.guaranteeLogo .logoWrapper a + a{
+    margin-left: 12px;
+}
+
+@media (min-width: 1000px) {
+    .first-section .nectar-cta {
+        margin-top: -15px !important;
+        position: relative;
+        top: -10px;
+        margin-bottom: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 999.98px) {
+    .first-section .nectar-cta {
+        margin-top: -50px !important;
+    }
+}
+
+@media(max-width: 767.98px) {    
+    .first-section .nectar-cta {
+        text-align: center;
+        margin-top: -40px;
+    }
+    .guaranteeLogo .logoWrapper a {
+        margin-left: 12px;
+    }
+    .guaranteeLogo .logoWrapper {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,16 @@
+.iv-build-your-own-stethoscope-on-navigation .custom-stetho-section {
+    text-align: center;
+}
+.iv-build-your-own-stethoscope-on-navigation .v-stack p.h6 {
+    display: none;
+}
+.iv-build-your-own-stethoscope-on-navigation .v-stack a.h6,
+.iv-build-your-own-stethoscope-on-navigation .custom-stetho-section + a {
+    --initial-gradient: linear-gradient(rgb(0 91 169), rgb(0 91 169));
+    border-color: #005ba9;
+}
+
+.iv-build-your-own-stethoscope-on-navigation .custom-stetho-section + a {
+    width: 100%;
+    margin-bottom: 40px;
+}

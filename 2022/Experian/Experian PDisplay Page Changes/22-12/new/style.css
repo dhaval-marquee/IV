@@ -1,0 +1,166 @@
+
+.pdisplay_test #mainTop section {
+    position: relative;
+    overflow: hidden;
+    padding: 0 !important;
+}
+.pdisplay_test #mainTop section:before {
+    content: '';
+    width: 750px;
+    height: 510px;
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1668667501/Experian/PDisplay_Landing_Page/Hero_image_2x.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+}
+.pdisplay_test #mainTop .container {
+    display: flex;
+}
+.pdisplay_test #mainTop .container .content_left,
+.pdisplay_test #mainTop .container .content_right {
+    max-width: 50%;
+    width: 100%;
+}
+.pdisplay_test #mainTop .container .content_left {
+    flex: 1 0 auto;
+    padding: 60px 30px 60px 0;
+}
+.pdisplay_test #mainTop .container .content_right {
+    min-height: 100%;
+}
+.pdisplay_test #mainTop .container .content_right img {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+.pdisplay_test #mainTop .container .marquee-text-content a {
+    font-size: 18px;
+    line-height: normal;
+    color: #fff;
+    border-color: #2564b7;
+    background-color: #1d4f91;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 10px 35px;
+    margin: 10px 0 0;
+    display: inline-block;
+    text-align: center;
+}
+.pdisplay_test #mainTop .container .marquee-text-content a:hover {
+    text-decoration: none;
+}
+/* @media only screen and (max-width: 1499.98px) {
+    .pdisplay_test #mainTop section:before {
+        height: 390px;
+        width: 750px;
+        background-position: top left;
+    }
+} */
+@media only screen and (max-width: 1199.98px) {
+    /* .pdisplay_test #mainTop section:before {
+        height: 410px;
+    } */
+    .pdisplay_test #mainTop .container h1 {
+        font-size: 34px;
+    }
+}
+@media only screen and (min-width:992px) {
+    #main .content-bg-box {
+	    background-color: #F4F4F4;
+	}
+	#main .columnBoxes h2 {
+		margin-bottom: 30px;
+		padding-top: 10px;
+	}
+	#main .content-bg-box .box-top img {
+		max-width: 80px;
+	}
+}
+
+
+
+
+
+/* Second section */
+/* remove section */
+.healthcare_test section.column-boxes .container:first-child {
+    display: none;
+}
+
+/*end remove section */
+.healthcare_test .container-2 {
+    margin-bottom: 80px;
+}
+
+.healthcare_test .container-2 h2 {
+    padding-top: 0;
+    margin-bottom: 40px;
+}
+
+.healthcare_test .container-2 .hover-boxes--box-body {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+
+.healthcare_test .container-2 .hover-boxes--box-body p {
+    color: #333;
+}
+
+.healthcare_test .container-2 .hover-boxes {
+    -webkit-box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    padding: 25px;
+}
+
+.healthcare_test .container-2 .lern-more-btn a {
+    width: 100%;
+    max-width: 191px;
+}
+
+.healthcare_test section.hover-boxes {
+    margin-bottom: 0 !important;
+}
+
+.healthcare_test .container-2 .box-wrap {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+
+.healthcare_test .container-2 .hover-boxes--box-top {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+@media (max-width: 991px) {
+    .healthcare_test .container-2 .box {
+        margin-bottom: 30px;
+    }
+
+    .healthcare_test .container-2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .healthcare_test .container-2 {
+        margin-bottom: 10px;
+    }
+}

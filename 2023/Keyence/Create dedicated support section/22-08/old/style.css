@@ -1,0 +1,34 @@
+.supportTest .supportSection {
+    text-align: center;
+    margin: 50px 0;
+    padding: 32px;
+    position: relative;
+    background-color: #dc002f;
+}
+.supportTest .supportSection h2 {
+    font-family: helvetica,arial,meiryo,sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.supportTest .supportSection h2,
+.supportTest .supportSection .navItemWrapper ul li a {
+    color: #fff;
+}
+@media (max-width: 969.98px) {
+    .supportTest .supportSection h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+}
+@media (max-width: 767.98px) {
+    .supportTest .supportSection {
+        padding: 24px;
+    }
+    .supportTest .supportSection h2 {
+        font-size: 24px;
+        line-height: 32px;
+        padding-bottom: 20px;
+    }
+}

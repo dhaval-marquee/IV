@@ -1,0 +1,50 @@
+.iv_fitness .font_red {
+	color: #FF001B;
+}
+.iv_fitness .fancybox-inner #free-fitness-consultation .form form .gform_fields label {
+	display: none;
+}
+.iv_fitness .fancybox-inner #free-fitness-consultation .form form .gform_fields #field_8_1,
+.iv_fitness .fancybox-inner #free-fitness-consultation .form form .gform_fields #field_8_6 {
+	width: 50%;
+	display: inline-block;
+}
+.iv_fitness .fancybox-inner #free-fitness-consultation .form form .gform_fields li input::placeholder {
+	color: #000;
+	font-weight: 700;
+	padding-left: 10px;
+}
+.iv_fitness .fancybox-inner #free-fitness-consultation .form form .gform_fields .center {
+	text-align: start;
+	margin-top: 20px;
+}
+.iv_fitness .fancybox-inner #free-fitness-consultation .form form .gform_footer::after {
+  content: "no credit card required";
+  display: block;
+  max-width: 305px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+@media only screen and (max-width: 600px) {
+	.iv_fitness .fancybox-inner #free-fitness-consultation .form form .gform_footer::after {
+		max-width: 100%;
+	  }
+}
+@media only screen and (min-width: 480px) {
+	.iv_fitness .fancybox-inner .form form .gform_footer .gform_button {
+		font-size: 14px !important;
+		font-weight: 700;
+		padding: 10px 40px;
+		max-width: 305px;
+		width: 100% !important;
+		margin-bottom: 5px;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 479.98px) {
+	.iv_fitness .fancybox-inner .form form .gform_footer .gform_button {
+		width: 100% !important;
+		padding: 10px;
+	}
+}

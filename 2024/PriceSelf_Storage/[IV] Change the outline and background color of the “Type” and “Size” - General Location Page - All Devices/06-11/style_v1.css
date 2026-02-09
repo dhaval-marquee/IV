@@ -1,0 +1,10 @@
+body .pss-button--filter-with-icon {
+    border: 1px solid #0a1f8f;
+}
+body .pss-button--filter-with-icon>.pss-inner-filter-with-icon>span {
+    color: #0a1f8f;
+    font-weight: 700;
+}
+body .pss-button--filter-with-icon>.pss-inner-filter-with-icon>svg {
+    fill: #0a1f8f;
+}

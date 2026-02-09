@@ -1,0 +1,73 @@
+.iv-custom-product {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1751010584/Catchmaster/Banner_Pest_Solution_Finder_Image.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    padding: 36px 25px;
+}
+.iv-custom-product h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 20px;
+}
+.iv-custom-product h2 span {
+    color: #F4E601;
+}
+.iv-custom-product .chat-button {
+    background: #F4E601 !important;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none !important;
+    width: 100%;
+}
+.iv-custom-product .chat-button:hover {
+    background-color: #B9B306;
+}
+.iv-custom-product.iv-pos-2 {
+    display: none;
+}
+@media only screen and (max-width: 1240px) {
+    .iv-custom-product {
+        padding: 30px 10px 20px;
+    }
+    .iv-custom-product h2 {
+        font-size: 19px;
+        margin-bottom: 12px;
+    }
+}
+@media only screen and (max-width: 989px) {
+    .iv-custom-product h2 {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    .iv-custom-product.iv-pos-4 {
+        display: none;
+    }
+    .iv-custom-product.iv-pos-2 {
+        display: block;
+    }
+}
+@media only screen and (max-width: 749px) {
+    .iv-custom-product h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .iv-custom-product h2 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .iv-custom-product .chat-button {
+        font-size: 11px;
+    }
+}

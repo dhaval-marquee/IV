@@ -1,0 +1,73 @@
+
+body {
+	visibility: hidden;
+}
+.iv_lawsuit_home div[class*="leadforms-bubble-avatar-img-wrapper"] strong {
+	font-size: 16px;
+	font-weight: bold;
+}
+.iv_lawsuit_home div[class*="leadforms-bubble-avatar__"] {
+	padding: 0;
+}
+.iv_lawsuit_home button#leadforms-submit-button {
+	font-size: 0 !important;
+	letter-spacing: normal;
+}
+.iv_lawsuit_home button#leadforms-submit-button:after {
+	font-size: 22px;
+	line-height: 28.6px;
+	font-weight: 700;
+}
+.iv_lawsuit_home button#leadforms-submit-button[label="Continue »"]:after {
+	content: "Complete Your Evaluation »";
+}
+.iv_lawsuit_home button#leadforms-submit-button[label="Get Your Evaluation »"]:after {
+	content: "Submit Your Evaluation »";
+}
+
+/* ============================== */
+.iv_lawsuit_home .leadforms-bubble-avatar__1-UXg .leadforms-bubble-avatar-img-wrapper__1lGqr.no-shadow__3xLuI {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+}
+.iv_lawsuit_home .formStep_1 {
+    font-size: 0 !important;
+    color: #333 !important;
+    display: block;
+}
+.iv_lawsuit_home .formStep_1 div[class*="leadforms-form-header-modal-template"] {
+	padding: 2px 0 3px;
+}
+.iv_lawsuit_home div[class*="leadforms-form-title"],
+.iv_lawsuit_home .formStep_1 div[class*='leadforms-step-title-modal-template'],
+.iv_lawsuit_home .formStep_88 div[class*='leadforms-step-title-modal-template'] {
+    font-size: 0 !important;
+}
+.iv_lawsuit_home .formStep_1 div[class*="leadforms-form-title"]:before {
+    content: 'Don’t settle with insurance before learning what your claim is really worth! Get started below.';
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+}
+.iv_lawsuit_home .leadforms-bubble-avatar__1-UXg {
+    display: none;
+}
+.iv_lawsuit_home .formStep_1 div[class*='leadforms-step-title-modal-template']:before {
+    content: 'Were you or a loved one injured in a car accident?';
+    font-size: 18px;
+}
+.iv_lawsuit_home .formStep_88 div[class*='leadforms-step-title-modal-template']:before {
+    content: 'Please complete the form below to find out how much your claim is worth today!';
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+}
+.iv_lawsuit_home div[class*="tip-text-modal-template"] {
+    margin-top: 76px;
+}
+.iv_lawsuit_home .formStep_1 div[class*="tip-text-modal-template"] {
+    margin-top: 0;
+}

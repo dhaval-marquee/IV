@@ -1,0 +1,52 @@
+
+// Hide fields
+const fieldsToHide = ["#Name", "#Email", "#Phone", "#HasVehicle"];
+fieldsToHide.forEach(selector => {
+    document.querySelector(selector).closest("fieldset").style.display = "none";
+});
+const legalText = ['.free-quote-form .legal', '.free-quote-form .legal-sms'];
+legalText.forEach(selector => {
+    document.querySelector(selector).style.display = "none";
+});
+// Add new button
+const newButton = `<a href="javascript:;" class="btn btn-primary iv-continue-cta">Continue</a>`;
+const controlButton = document.querySelector('.free-quote .free-quote-form button[type="submit"]');
+if (controlButton) {
+    controlButton.style.display = 'none';
+    controlButton.insertAdjacentHTML('afterend', newButton);
+}
+
+// Click event to show hidden fields
+const date = document.querySelector('#MoveDate');
+if(date){
+    date.value = '';
+}
+
+document.querySelector('.iv-continue-cta').addEventListener('click', function (e) {
+    e.preventDefault();
+
+    controlButton.click();
+    const movingFrom = document.querySelector('.left .location-autocomplete').value.trim();
+    const movingTo = document.querySelector('.right .location-autocomplete').value.trim();
+    const dwellingType = document.querySelector('#DwellingType').value.trim();
+    const moveDate = document.querySelector('#MoveDate').value.trim();
+
+    
+    if (movingFrom && movingTo && dwellingType && moveDate) {
+        // Show the hidden fields
+
+        fieldsToHide.forEach(selector => {
+            document.querySelector(selector).closest("fieldset").style.display = "block";
+        });
+        legalText.forEach(selector => {
+            document.querySelector(selector).style.display = "block";
+        });
+        // Remove the "Continue" button
+        document.querySelector('.iv-continue-cta').remove();
+        controlButton.style.display = 'block';
+
+        document.querySelectorAll('.field-validation-error span').forEach(span => {
+            span.remove();
+        });             
+    }
+});

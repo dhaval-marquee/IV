@@ -1,0 +1,13 @@
+Task link : Aura Pro 2 Dropdown Test
+
+Test link : https://optimize.google.com/optimize/home/?authuser=3#/accounts/4705045237/containers/15383020/experiments/144
+
+Cloudinary link: 
+
+
+
+Note: Used same code that we build for this test.
+
+Task Name: Memory Upgrade Kit Drop Down Test
+Task link: https://ignite-visibility-team.monday.com/boards/3082466737/pulses/4053323229/posts/2002912019
+Test URL: https://optimize.google.com/optimize/home/?authuser=3&hl=en-US#/accounts/4705045237/containers/15383020/experiments/144

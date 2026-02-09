@@ -1,0 +1,148 @@
+
+/* Hero Section */
+.shirtspace-hero .ss-hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+.shirtspace-hero .ss-hero-section .ss-hero-left {
+    width: 37%;
+}
+.shirtspace-hero .ss-hero-section .ss-hero-left h1 {
+    font-size: 27px;
+    line-height: 33px;
+    margin: 30px 0 20px 0;
+    letter-spacing: 0.15px;
+    font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.shirtspace-hero .ss-hero-section .ss-hero-left h2 {
+    text-transform: math-auto;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 0 20px 0;
+}
+.shirtspace-hero .ss-hero-left .ss-review-inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.shirtspace-hero .ss-hero-left .ss-review-inner > img {
+    width: 100%;
+    max-width: 124px;
+}
+.shirtspace-hero .ss-hero-left .ss-review-inner span {
+    font-size: 17px;
+    margin-left: 2px;
+}
+.shirtspace-hero .ss-review p {
+    margin: 0 0 15px 0;
+    font-size: 13px;
+}
+.shirtspace-hero .ss-hero-section .ss-hero-right {
+    width: 63%;
+}
+.shirtspace-hero .ss-hero-section .ss-hero-right img {
+    width: 100%;
+    HEIGHT: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+@media only screen and (max-width: 767.98px) {
+	.shirtspace-hero .ss-hero-main .container {
+		padding: 0;
+	}
+	.shirtspace-hero .ss-hero-section {
+	    flex-direction: column;
+	}
+	.shirtspace-hero .ss-hero-section .ss-hero-left,
+	.shirtspace-hero .ss-hero-section .ss-hero-right{
+	    width: 100%;
+	}
+	.shirtspace-hero .ss-hero-section .ss-hero-left {
+	    text-align: center;
+	    width: 100%;
+	    max-width: 440px;
+	    margin: 0 auto;
+        padding: 0 15px;
+	}
+	.shirtspace-hero .ss-hero-section .ss-hero-left h1 {
+	    font-weight: 700;
+	    margin: 5px 0 8px 0;
+	}
+	.shirtspace-hero .ss-hero-section .ss-hero-left h2 {
+	    max-width: 100%;
+        margin: 0 0 10px 0;
+	}
+	.shirtspace-hero .ss-hero-left .ss-review-inner {
+	    justify-content: center;
+	}
+	.shirtspace-hero .ss-review p {
+	    font-size: 15px;
+	    margin-bottom: 0;
+	}
+	.shirtspace-hero .ss-hero-section .ss-hero-right picture {
+	    display: grid;
+	}
+}
+/* Our Services*/
+.shirtspace-hero .ss-our-services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #127DC2;
+    list-style: none;
+    padding: 8px 15px;
+    margin: 0;
+}
+.shirtspace-hero .ss-our-services-main .container {
+    padding-top: 0 !important;
+}
+.shirtspace-hero .ss-our-services > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shirtspace-hero .ss-our-services > li img {
+    width: 100%;
+    max-width: 40px;
+}
+.shirtspace-hero .ss-our-services > li.free-shipping img {
+    max-width: 50px;
+}
+.shirtspace-hero .ss-our-services > li.school-agency img {
+	max-width: 45px;
+}
+.shirtspace-hero .ss-our-services > li span {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    max-width: 130px;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 767.98px) {
+	.shirtspace-hero .ss-our-services-main .container {
+		padding: 0;
+	}
+	.shirtspace-hero .ss-our-services {
+	    flex-wrap: wrap;
+	    justify-content: center;
+        padding: 0 15px;
+	}
+	.shirtspace-hero .ss-our-services > li {
+	    width: 50%;
+	    justify-content: center;
+	    margin: 10px 0;
+	}
+	.shirtspace-hero .ss-our-services > li img {
+	    max-width: 50px;
+	}
+	.shirtspace-hero .ss-our-services > li.customer-service {
+	    display: none;
+	}
+}

@@ -1,0 +1,5 @@
+Task link : https://ignite-visibility-team.monday.com/boards/3082466737/pulses/7357693506?reply=reply-3427953387
+
+Test URLs : 
+Desktop:https://app.vwo.com/#/test/ab/1/edit/variations/
+Mobile: https://app.vwo.com/#/test/ab/2/edit/variations/

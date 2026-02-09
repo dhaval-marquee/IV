@@ -1,0 +1,57 @@
+
+
+
+
+@media (min-width: 1030px) and (max-width: 1399px) {
+    .hero_container_iv.home .top-wrapper {
+        min-height: inherit;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1029px) {
+    .hero_container_iv.home .top-wrapper {
+        min-height: 545px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .hero_container_iv.home .top-wrapper .wrap {
+        background-image: url('https://www.mapcommunications.com/wp-content/uploads/2023/02/home_banner.jpg');
+        background-size: cover;
+        background-position: right top;
+        padding: 20px 60px;
+        position: relative;
+        max-width: 1520px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .hero_container_iv.home .top-wrapper {padding-top: 0;}
+    
+    .hero_container_iv.home .top-wrapper .wrap:before, .home .top-wrapper .wrap:after {
+        content: '';
+        position: absolute;
+        left: -95px;
+        top: 0px;
+        width: 50px;
+        height: 100%;
+        box-shadow: 50px 0px 30px 30px #fff;
+        background-color: #fff;
+    }
+    
+    .hero_container_iv.home .top-wrapper {
+        background-image: none !important;
+        background-color: #fff;
+    }
+    
+    .hero_container_iv.home .top-wrapper .wrap:after {
+        left: inherit;
+        right: -95px;
+        box-shadow: -50px 0px 30px 30px #fff;
+    }
+    
+    .hero_container_iv.home .top-wrapper .wrap .top-banner {
+        position: relative;
+    }
+}
+  

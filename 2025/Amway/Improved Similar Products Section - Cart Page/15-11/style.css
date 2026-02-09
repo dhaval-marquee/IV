@@ -1,0 +1,107 @@
+.iv-CartPage .amer-suggestion-tiles__title {
+	font-size: 1.8rem;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.iv-CartPage .os-content .button {
+	background-color: #38539A;
+	transition: 0.3s all ease;
+}
+
+.iv-CartPage .os-content .button:hover {
+	background-color: #2c2c2c;
+}
+
+.iv-CartPage .amer-suggestion-tile-product .thumbnail-picture__wrapper:after {
+	padding-bottom: 70%;
+}
+
+.iv-CartPage .amw-product-recommendations .os-content .thumbnail-picture {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+	.iv-CartPage .amw-product-recommendations__banner-wrapper>* {
+		max-width: 848px;
+	}
+
+	.iv-CartPage .amer-suggestion-tiles {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+
+	.iv-CartPage .amer-suggestion-tile-product .thumbnail-picture__wrapper:after {
+		padding-bottom: 130px;
+	}
+
+	.iv-CartPage .amw-product-recommendations .os-content .thumbnail-picture {
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width:1199.98px) {
+	.iv-CartPage .amw-product-recommendations__banner-wrapper>* {
+		max-width: 740px;
+	}
+}
+
+@media (min-width:768px) and (max-width: 1098px) {
+	.iv-CartPage .amw-product-recommendations__banner-wrapper>* {
+		max-width: 640px;
+	}
+}
+
+@media (min-width:768px) and (max-width: 891px) {
+	.iv-CartPage .amw-product-recommendations__banner-wrapper>* {
+		max-width: 440px;
+	}
+}
+
+@media (max-width:767px) {
+	.iv-CartPage .amer-suggestion-tiles__title {
+		font-size: 1.6rem;
+		margin-top: 0;
+	}
+
+	.iv-CartPage .amer-suggestion-tiles__scene .right-chevron,
+	.iv-CartPage .amer-suggestion-tiles__scene .left-chevron {
+		display: block;
+		background-color: #fff;
+		color: #38539A;
+	}
+
+	.iv-CartPage .amer-scroll-bar .right-chevron {
+		right: -15px;
+		display: block;
+	}
+
+	.iv-CartPage .amer-scroll-bar .left-chevron {
+		left: -15px;
+	}
+
+	.iv-CartPage .amer-icon-chevron-right:before,
+	.iv-CartPage .amer-icon-chevron-left:before {
+		font-weight: 800;
+	}
+
+	.iv-CartPage .order-summary__cart-container .cta-buttons__sign-in button {
+		background-color: #38539A;
+		transition: 0.3s all ease;
+	}
+
+	.iv-CartPage .order-summary__cart-container .cta-buttons__sign-in button:hover {
+		background-color: #2c2c2c;
+	}
+
+	.iv-CartPage .order-summary__cart-container .cta-buttons__guest-checkout button:hover {
+		background-color: #38539a;
+		color: #fff;
+		border-color: #38539a;
+	}
+}

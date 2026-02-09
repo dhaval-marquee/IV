@@ -1,0 +1,36 @@
+@media (min-width: 992px) {
+	/* TC CSS */
+    #contact .col-lg-6 {
+        max-width: 575px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #contactForm {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #contactForm > .form-group.floatl {
+        max-width: 48.5%;
+        width: 100%;
+    }
+    #contactForm > .form-group.floatl.text-area {
+        max-width: 100%;
+    }
+	/* TC CSS over */
+
+	/* V1 CSS */
+	#contact .tel-info {
+		display: none;
+	}
+	.form-description p {
+		text-align: center;
+	}
+    #contactForm > .form-group.floatl:nth-child(2n) {
+        margin-left: auto;
+    }
+    #contactForm > .form-group.floatl.text-area {
+        display: none !important;
+    }
+	/* V1 CSS over */
+}

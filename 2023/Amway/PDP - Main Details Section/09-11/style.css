@@ -1,0 +1,9 @@
+/* .productDetails_iv .js-usage-calculator {
+    display: none;
+} */
+.productDetails_iv button[test-id="add-to-cart-button"] {
+    background-color: #38539a;
+}
+.productDetails_iv button[test-id="add-to-cart-button"]:hover {
+    background-color: #2C2C2C;
+}

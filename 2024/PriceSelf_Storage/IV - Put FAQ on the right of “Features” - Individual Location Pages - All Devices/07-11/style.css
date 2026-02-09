@@ -1,0 +1,30 @@
+.iv-datalist-faq h2 {
+  font-size: 30px;
+}
+.iv-datalist-faq span .pss-content-pg__faq-question-left {
+  margin: 13px 0;
+  padding: 0;
+}
+.iv-datalist-faq span .pss-content-pg__faq-question-left span {
+  font-size: 14px;
+}
+.iv-datalist-faq #MainContent_DataListFaq br {
+  display: none;
+}
+.iv-datalist-faq h2 + br {
+  display: none;
+}
+.iv-faq-tab .pss-navigation-tabs .nav-tabs>li>a {
+  border: 2px solid #f1f1f1;
+  margin-right: 2px;
+  border-bottom: 0;
+}
+.iv-faq-tab .pss-navigation-tabs .nav-tabs>li>a.active {
+  border: 2px solid #575FB0;
+  border-bottom: 0;
+  background-color: #E5E8FF;
+  color: #575FB0;
+}
+.iv-faq-tab .pss-navigation-tabs .nav-tabs>li>a:after {
+  display: none;
+}

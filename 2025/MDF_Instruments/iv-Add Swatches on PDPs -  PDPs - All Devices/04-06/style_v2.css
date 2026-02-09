@@ -1,0 +1,12 @@
+.swatches_iv .product-swatches .imagesWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.swatches_iv .product-swatches .imagesWrapper a.active {
+    border: 1px solid #495dba;
+}
+
+.swatches_iv .product-swatches .imagesWrapper img {
+    max-width: 68px;
+}

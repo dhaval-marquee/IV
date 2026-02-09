@@ -1,0 +1,99 @@
+/* Hero Section */
+.blue-plan .hero_section .hero_image_content h1 {
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+.blue-plan .hero_section .hero-sub-title {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: Muli, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.blue-plan .hero_section .hero_image_content h3 {
+    font-size: 30px;
+    font-family: Muli, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    line-height: 50px;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+}
+.blue-plan .subscription_section .sub_content {
+    display: flex;
+    flex-direction: column;
+}
+.blue-plan .subscription_section .sub_content > p {
+    order: 1;
+    margin: 0;
+}
+.blue-plan .subscription_section .sub_content .product__info {
+    margin-bottom: 30px;
+}
+.blue-plan .sub_content .product__info .product-form__buy-buttons .product-form__payment-container {
+    gap: 0;
+}
+.blue-plan .subscription_section .sub_left .sub_right_content {
+    display: none;
+}
+.blue-plan .sub_content .product__info .product-form__buy-buttons #AddToCart {
+    background: #1B9D2C;
+}
+.blue-plan #AddToCart .loader-button__text {
+    text-transform: capitalize;
+}
+@media only screen and (min-width: 991.98px) {
+    .blue-plan .hero_image_content {
+        top: 15%;
+    }
+}
+@media only screen and (max-width: 2260.98px) {
+    .blue-plan .sub_left {
+        margin-left: 0;
+        margin-top: -13.6%;
+    }
+}
+@media only screen and (max-width: 1140.98px) {
+    .blue-plan .sub_left {
+        margin-top: -8%;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .hero_image_content h1 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .blue-plan .hero_section .hero_image_content h3 {
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 360px;
+    }
+    .blue-plan .hero_section .hero-sub-title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 13px;
+        display: block;
+    }
+}
+@media only screen and (max-width: 480.98px) {
+    .blue-plan .hero_image_content {
+        text-align: center;
+    }
+    .blue-plan .hero_section .hero_image_content h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 0;
+    }
+    .blue-plan .hero_section .hero-sub-title {
+        font-size: 18px;
+        line-height: 40px;
+        margin-bottom: 3px;
+    }
+    .blue-plan .hero_section .hero_image_content h3 {
+        font-size: 15px;
+        line-height: 19px;
+        max-width: 285px;
+        margin: 0 auto;
+    }
+}

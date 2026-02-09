@@ -1,0 +1,55 @@
+.formTest_iv .gf_page_steps,
+.formTest_iv .gform_page_footer:nth-child(2),
+.formTest_iv #gform_previous_button_14 {
+    display: none !important;
+}
+#quoteModal .header-right h2 {
+    font-family: sans-serif;
+    font-size: 28px;
+    color: var(--headline-blue);
+}
+#quoteModal .gform_page_fields input[type="radio"]:checked::before {
+    background-color: var(--poppy);
+}
+#quoteModal #field_14_3 {
+    padding-left: 2%;
+}
+#quoteModal #gform_page_14_2 {
+    display: block !important;
+}
+#quoteModal #field_14_22,
+#quoteModal #field_14_24 {
+    text-align: center;
+}
+#quoteModal #field_14_22 {
+    margin: 16px 0 0 7px;
+}
+#quoteModal .addressWrapper {
+    -ms-grid-column-span: 12;
+    grid-column: span 12;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+#quoteModal .addressWrapper #field_14_31,
+#quoteModal .addressWrapper #field_14_32 {
+    -ms-grid-column-span: 6;
+    grid-column: span 6;
+    width: 50%;
+}
+#quoteModal .addressWrapper #field_14_31 {
+    padding-right: 1%;
+}
+#quoteModal .addressWrapper #field_14_32 {
+    padding-left: 1%;
+}
+#quoteModal #input_14_9 span,
+#quoteModal #field_14_35,
+#quoteModal #field_14_4 {
+    flex: 0 0 25%;
+    padding-left: .9804%;
+    padding-right: .9804%;
+}
+.formTest_iv .gf_page_steps, .gform_page_footer:nth-child(2) + .gform_page_fields{
+    padding-top: 16px;
+}

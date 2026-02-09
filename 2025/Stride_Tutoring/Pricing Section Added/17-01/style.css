@@ -1,0 +1,206 @@
+.iv-pricing-sec {
+    background-color: #eefcef;
+    padding: 134.400px 0;
+    position: relative;
+}
+
+.iv-pricing-sec::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #eefcef;
+    left: -50vw;
+    top: 0;
+    z-index: -1;
+}
+
+.iv-pricing-sec::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #eefcef;
+    left: 50vw;
+    top: 0;
+    z-index: -1;
+}
+
+.iv-pricing-try-us .iv-pricing-container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.iv-pricing-try-us .iv-pricing-heading {
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 21px;
+    color: #002a94;
+}
+
+.iv-pricing-sec .nectar-highlighted-text em {
+    background-image: none !important;
+}
+
+.iv-pricing-sec .nectar-scribble {
+    top: 100% !important;
+    z-index: 1;
+}
+
+.iv-pricing-plans-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iv-pricing-plans {
+    width: 50%;
+    padding: 0 20px;
+    height: auto;
+}
+
+.iv-pricing-plan .iv-pricing-plan-icon {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.iv-pricing-plan {
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 40px 60px 60px -20px rgba(0, 0, 0, 0.175);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.iv-pricing-sec .iv-short-format-plan .nectar-lottie-wrap {
+    position: absolute;
+    height: 150%;
+    width: 150%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.iv-short-format-plan {
+    background-color: #002a94;
+    position: relative;
+    overflow: hidden;
+}
+
+.iv-pricing-sec .iv-short-format-plan>* {
+    color: #fff !important;
+}
+
+.iv-short-format-plan svg path {
+    fill: #fff;
+}
+
+.iv-long-format-plan {
+    background-color: #fff;
+}
+
+.iv-plan-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.iv-price-typography {
+    margin-bottom: 10px;
+}
+
+.iv-price-text {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.iv-after-text {
+    font-size: 19.2px;
+    margin-left: .2em;
+}
+
+.iv-divider-wrap {
+    margin-bottom: 10px;
+}
+
+.iv-plan-info-text {
+    font-size: 21.12px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.iv-plan-info ul {
+    margin-left: 0;
+    display: inline-block;
+}
+
+.iv-plan-info ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    line-height: 1.3em;
+    padding-left: 38px;
+    position: relative;
+    font-size: 14px;
+}
+
+.iv-pricing-sec .iv-plan-info ul li i {
+    font-size: 12px;
+    line-height: 1.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+}
+
+.iv-plan-price-tag del {
+    text-decoration-color: red;
+}
+
+.iv-plan-price-tag {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 60px;
+}
+
+.iv-pricing-sec .iv-short-format-plan h3 {
+    color: #fff;
+}
+
+.iv-pricing-sec .iv-off-price-tag em {
+    background-image: linear-gradient(to right, #ef6100 0, #ef6100 100%) !important;
+    line-height: 60px;
+}
+
+.iv-pricing-sec .iv-off-price-tag em.animated {
+    background-size: 100% 28%;
+}
+@media (max-width:999px) {
+    .iv-pricing-plans-sec{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .iv-pricing-plans{
+        width: 100%;
+        padding: 0 5px;
+    }
+    .iv-off-price-tag .iv-plan-price-tag{
+        font-size: 22.4px;
+    }
+    .iv-pricing-sec .iv-off-price-tag em{
+        line-height: 30px;
+    }
+    .iv-divider-wrap .divider-long{
+        height: 10% !important;
+    }
+    .iv-pricing-sec{
+        padding: 60px 0;
+    } 
+}
+@media (max-width:690px) {
+    .iv-plan-info-text{
+        font-size: 16px;
+    }
+    .iv-pricing-sec{
+        padding: 26px 0 60px;
+    } 
+}

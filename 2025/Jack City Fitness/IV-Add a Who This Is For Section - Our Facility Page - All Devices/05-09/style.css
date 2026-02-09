@@ -1,0 +1,120 @@
+.iv-tabs .who-section {
+    margin: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.who-section .container {
+    padding: 5% 5% 0 5%;
+    width: 90%;
+}
+
+.iv-tabs .who-section h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.iv-tabs .tab-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.iv-tabs .tab-buttons button {
+    border: 1px solid #333;
+    background: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    flex: 1;
+}
+
+.iv-tabs .tab-buttons button.active {
+    background: #5A2D82;
+    color: #fff;
+}
+
+.iv-tabs .tab-box {
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 0 8px 1px #cecece;
+}
+
+.iv-tabs .tab-data {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 10px 0px;
+}
+
+.iv-tabs .tab-image {
+    width: 40%;
+}
+
+.iv-tabs .tab-content {
+    display: none !important;
+    margin: 0 auto;
+    background-color: #EFEFEF;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.iv-tabs .tab-content.active {
+    display: flex !important;
+}
+
+.iv-tabs .tab-details {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.iv-tabs .tab-details.hidden p.moreDetails{
+    display: none;
+}
+.iv-tabs .tab-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.iv-tabs .cta-btn {
+    display: inline-block;
+    background: #f26522;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 991px) {
+    .tab-main {
+        overflow-x: auto;
+    }
+    .iv-tabs .tab-buttons {
+        flex-wrap: nowrap;
+        margin-bottom: 10px;
+    }
+    .iv-tabs .tab-buttons button {
+        flex: none;
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .iv-tabs .tab-content {
+        flex-direction: column;
+    }
+    .iv-tabs .tab-data,
+    .iv-tabs .tab-image {
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+    .iv-instant-quote .ob-quote__appointment-box > h2 {
+        font-size: 24px;
+    }
+    .iv-instant-quote .ob-bg .ob-quote__appointment-box .ob-quote__paragraph {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .iv-instant-quote .main-footer .row > .col-sm-9.col-xs-12,
+    .iv-instant-quote .main-footer .row > .col-sm-3 > div:nth-child(1),
+    .iv-instant-quote .main-footer .row > .col-sm-3 > div:nth-child(2){
+        display: none;
+    }
+    .iv-instant-quote .main-footer .row > .col-sm-3 > div:last-child{
+        text-align: center;
+    }
+    .ob-quote__appointment-box .ob-btn__fixed-container > button {
+        pointer-events: none;
+        opacity: 0.5;
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+    .ob-quote__appointment-box .ob-btn__fixed-container > button.event-time {
+        pointer-events: visible;
+        opacity: 1;
+        background-color: #f46f1b;
+        cursor: default;
+    }
+    .ob-quote__appointment-box .ob-btn__fixed-container > button.event-time:hover {
+        background-color: #407cca;
+    }
+}
+

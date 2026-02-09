@@ -1,0 +1,104 @@
+.iv-benefits-slider .iv-benefit-hading {
+    text-align: center;
+}
+
+.iv-benefits-slider .iv-benefit-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 70px !important;
+}
+
+.iv-benefits-slider .iv-benefit-item {
+    width: calc(33.33% - 10px);
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.iv-benefits-slider .iv-svg {
+    font-size: 30px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.iv-benefits-slider .iv-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    line-height: 27px;
+    color: #313b46;
+}
+
+.iv-benefits-slider .iv-view-open-cta {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.iv-benefits-slider .iv-view-open-btn {
+    text-decoration: none;
+}
+
+.iv-benefits-slider .custom-button a.iv-view-open-btn {
+    padding: 14px 34px;
+    font-size: 18px;
+    border-radius: 35px;
+}
+
+.iv-benefits-slider #section-hero::after{
+    background-image: url('data:image/svg+xml,<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 137.6" preserveAspectRatio="none"><defs><style>.a{fill:rgb(255,255,255);}</style></defs><path class="a" d="M1200,75.3l-66.7-22.3c-66.6-21.9-200-66.9-333.3-48.8-133.3,17.7-266.7,97.8-400,111.1-133.3,13.3-266.6-40-333.3-66.7L0,21.9v115.7H1200v-62.3Z"/></svg>') !important;
+}
+
+/* For Slider */
+.iv-benefits-slider section.iv-benefit-section .iv-container{
+    padding-top: 80px !important;
+}
+.iv-benefits-slider .iv-benefit-items .slick-dots li{
+	height: 15px;
+    width: 15px;
+}
+.iv-benefits-slider .iv-benefit-items .slick-dots li button::before {
+    display: none;
+}
+.iv-benefits-slider .iv-benefit-items .slick-dots li button {
+    border: 2px solid #636277;
+     height: 15px;
+    width: 15px;
+}
+.iv-benefits-slider .iv-benefit-items .slick-dots li.slick-active button {
+    background-color: #636277;
+}
+.iv-benefits-slider .iv-benefit-items.slick-dotted.slick-slider {
+    margin-bottom: 80px;
+}
+
+
+/* Mobile Styles - Slick Slider */
+@media screen and (max-width: 767px) {
+    .iv-benefits-slider section.iv-benefit-section .iv-container {
+        padding: 70px 20px !important;
+    }
+    .iv-benefits-slider .iv-benefit-items .slick-prev:before,
+    .iv-benefits-slider .iv-benefit-items .slick-next:before {
+        display: none;
+    }
+    .iv-benefits-slider .iv-benefit-items .slick-prev {
+        left: -15px;
+    }
+    .iv-benefits-slider .iv-benefit-items .slick-next {
+        right: -10px;
+    }
+    .iv-benefits-slider .iv-benefit-items.slick-dotted.slick-slider {
+        margin-bottom: 40px;
+    }
+    .iv-benefits-slider .iv-benefit-items .slick-dots {
+        bottom: 0;
+    }
+    .preview-debugger__header__logo {
+        text-align: center;
+    }
+}

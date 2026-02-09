@@ -1,0 +1,28 @@
+@media (min-width: 767px) {
+    .iv_cta #inner-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .iv_cta #inner-header .m-buttons,
+    .iv_cta #inner-header .m-buttons .iv-btn.orange-btn {
+        display: block;
+        margin-left: auto;
+    }
+
+    .iv_cta #inner-header .m-buttons a.orange-btn,
+    .iv_cta #inner-header .m-buttons a.user-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .iv_cta #inner-header .iv-btn.orange-btn {
+        display: block;
+        font-size: 12px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}

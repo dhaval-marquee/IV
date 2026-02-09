@@ -1,0 +1,53 @@
+body:has(.hero-vascular-services) #apexchat_exitpopup2_chatwindow_wrapper {
+    display: none !important;
+}
+
+.hero-vascular-services h2 {
+    color: var(--c-accent);
+    font-size: 36px;
+    line-height: 1.4;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+.hero-vascular-services .hero-img-text {
+    margin: 10px 0;
+}
+
+.hero-vascular-services .hero-img-text img {
+    margin-bottom: 10px;
+    max-width: 500px;
+    opacity: 0.6;
+}
+
+@media (max-width: 991.98px) {
+    .subpage-img:has(.hero-vascular-services) .row {
+        justify-content: center;
+    }
+
+    .subpage-img .hero-vascular-services h1 {
+        font-size: 40px;
+    }
+
+    .hero-vascular-services h2 {
+        font-size: 32px;
+        line-height: 36px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .subpage-img .hero-vascular-services h1 {
+        font-size: 35px;
+    }
+
+    .hero-vascular-services h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .hero-vascular-services .bookfree-link > .nav-link {
+        background-color: var(--c-accent);
+        color: #fff;
+    }
+}

@@ -1,0 +1,113 @@
+.startHere_iv #instaquote-carousel fieldset[data-step="1"] .slide-overlay {
+    position: relative;
+}
+.startHere_iv .startHere {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 48%;
+    left: 0;
+    gap: 10px;
+    margin-left: 60px;
+    text-align: center;
+    pointer-events: none;
+}
+.startHere_iv .startHere h4 {
+    color: #ffce00;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 500;
+    font-style: italic;
+}
+.startHere_iv .startHere img {
+    width: 100% !important;
+    max-width: 48px;
+}
+
+@media only screen and (min-width: 769px) {
+	.startHere_iv .iv-custom-button-wrapper {
+		flex: 1 0 100%;
+		text-align: center;
+	}
+	.startHere_iv .instaquote-container .inner-container .iv-custom-button-wrapper .btn {
+		min-width: 150px;
+	}
+	.startHere_iv .instaquote-container .inner-container fieldset {
+		margin: 0 6px;
+	}
+}
+@media (max-width: 1158.98px) {
+    .startHere_iv .startHere {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 1199.98px) {
+    .startHere_iv .startHere {
+        margin-left: 10px;
+        gap: 4px;
+    }
+}
+@media (max-width: 1023.98px) {
+    .startHere_iv .moving-from-to .inner-container {
+        max-width: 450px;
+    }
+}
+@media (max-width: 1099.98px) {
+    .startHere_iv .startHere img {
+        max-width: 32px;
+    }
+    .startHere_iv .startHere h4 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 878.98px) {
+    .startHere_iv .startHere {
+        top: 52%;
+    }
+}
+@media (max-width: 835.98px) {
+    .startHere_iv .startHere {
+        top: 60%;
+    }
+}
+@media (max-width: 768.98px) {
+    .startHere_iv #instaquote-carousel fieldset[data-step="1"] .slide-header {
+        position: relative;
+    }
+    .startHere_iv .startHere {
+        top: inherit;
+        bottom: -35px;
+        position: absolute;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .startHere_iv .startHere img {
+        position: absolute;
+        transform: rotate(90deg);
+        max-width: 25px;
+        margin-left: 85px;
+    }
+    .startHere_iv .startHere h4 {
+        font-size: 18px;
+    }
+    .startHere_iv .iv-custom-button-wrapper {
+        width: 100%;
+    }
+    .startHere_iv .moving-from-to .inner-container,
+    .startHere_iv .moving-from-to .inner-container fieldset {
+        max-width: 100%;
+    }
+    .startHere_iv .moving-from-to .inner-container button {
+        width: 100%;
+    }
+    .startHere_iv .instaquote-container .inner-container .iv-custom-button-wrapper .btn {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .startHere_iv .moving-from-to .slide-footer .head2 {
+        line-height: 42px;
+    }
+
+}

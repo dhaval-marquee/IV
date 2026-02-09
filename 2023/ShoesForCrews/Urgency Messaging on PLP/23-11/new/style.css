@@ -1,0 +1,8 @@
+.highlightText {
+    font-size: 18px;
+    font-weight: 700 !important;
+    color: #FC6262;
+}
+div[class*=PDP_DefaultLayout_priceDisplay] + .highlightText {
+    padding-top: 8px;
+}

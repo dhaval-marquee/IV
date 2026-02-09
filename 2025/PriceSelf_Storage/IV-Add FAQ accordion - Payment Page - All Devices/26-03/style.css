@@ -1,0 +1,157 @@
+.paymentPage-iv .accordion-section {
+    width: 100%;
+    padding: 46px 0 10px;
+}
+.paymentPage-iv .accordion-section h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.paymentPage-iv .accordion-section .accordion-left {
+    width: 100%;
+}
+.paymentPage-iv .accordion-item {
+    padding: 16px 65px 16px 21px;
+    margin-bottom: 21px;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+}
+
+.paymentPage-iv .accordion-item.active,
+.paymentPage-iv .accordion-item:not(.active):hover {
+    border: 1px solid #0075C4;
+}
+
+.paymentPage-iv .accordion-item .accordion-item-description {
+    display: none;
+    margin-top: 12px;
+}
+.paymentPage-iv .accordion-item .accordion-item-content {
+    height: 0px;
+    color: inherit;
+    text-align: left;
+    transition: height 0.25s linear;
+    overflow: hidden;
+}
+
+.paymentPage-iv .accordion-item.active .accordion-item-content {
+    height: inherit;
+}
+
+.paymentPage-iv .accordion-item .accordion-item-title {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 600;
+    color: #171717;
+    cursor: pointer;
+    position: relative;
+}
+
+.paymentPage-iv .accordion-item .accordion-item-title::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9L12 15L18 9" stroke="%23797C8C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    right: -45px;
+    top: 0;
+}
+
+.paymentPage-iv .accordion-item.active .accordion-item-title {
+    pointer-events: none;
+}
+
+.paymentPage-iv .accordion-item.active .accordion-item-title::after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 15L12 9L6 15" stroke="%23024DBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+}
+
+.paymentPage-iv .accordion-item p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #111;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.paymentPage-iv .accordion-item-wrapper .accordion-left small {
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    display: block;
+}
+
+.paymentPage-iv .accordion-animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .paymentPage-iv .accordion-item-wrapper.accordion-item-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .paymentPage-iv .accordion-item-wrapper .accordion-left {
+        width: 100%;
+    }
+
+    .paymentPage-iv .accordion-item .accordion-item-description .accordion-animation {
+        display: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .paymentPage-iv .accordion-item {
+        padding: 20px;
+    }
+
+    .paymentPage-iv .accordion-item .accordion-item-title {
+        padding-right: 30px;
+    }
+
+    .paymentPage-iv .accordion-item .accordion-item-title::after {
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .paymentPage-iv .accordion-item p {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .paymentPage-iv .accordion-section {
+        padding: 20px 15px;
+    }
+    .paymentPage-iv .accordion-title-wrapper {
+        flex-wrap: wrap;
+        gap: 23px;
+        margin-bottom: 32px;
+    }
+
+    .paymentPage-iv .accordion-title-wrapper h5 {
+        font-size: 28px;
+        line-height: 31px;
+        letter-spacing: -0.56px;
+        text-align: center;
+    }
+
+    .paymentPage-iv .accordion-item {
+        padding: 16px;
+        margin-bottom: 8px;
+    }
+
+    .paymentPage-iv .accordion-item .accordion-item-title {
+        font-size: 18px;
+    }
+
+    .paymentPage-iv .accordion-item .accordion-item-description {
+        margin-top: 8px;
+    }
+}

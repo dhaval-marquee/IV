@@ -1,0 +1,57 @@
+.heroIV #text_block-1153-540 {
+    display: none !important;
+}
+
+.heroIV #section-16-143 {
+    background-position: center;
+}
+
+.heroIV #headline-47-143 {
+    font-size: 28px;
+    line-height: normal;
+    font-weight: 600;
+    color: #5a5b9f;
+}
+
+.heroIV ul.heroList {
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.heroIV ul.heroList li {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #5a5b9f;
+}
+
+@media (max-width: 767.98px) {
+    .heroIV #headline-1157-540 {
+        font-size: 26px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .heroIV #headline-47-143 {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+
+    .heroIV ul.heroList {
+        margin: 20px auto;
+    }
+
+    .heroIV ul.heroList li {
+        font-size: 16px;
+        line-height: 1.6;
+        font-weight: 400;
+    }
+
+    .heroIV #link_button-1696-7611 {
+        margin: 0 auto;
+    }
+}

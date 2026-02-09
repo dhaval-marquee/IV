@@ -1,0 +1,7 @@
+Task: https://ignite-visibility-team.monday.com/boards/3082466737/pulses/10765585963?notification=7380017744
+
+
+Test URLs
+
+Desktop: https://app.vwo.com/#/test/ab/92/edit/variations/?accountId=930955
+Mobile: https://app.vwo.com/#/test/ab/93/edit/variations/?accountId=930955

@@ -1,0 +1,39 @@
+.hero-iv .heroHeaderWrapper {
+    background-color: rgba(77, 77, 79, 0.7);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    max-width: 1000px;
+}
+.hero-iv .heroHeaderWrapper h1#headline-7-19 {
+    font-size: 45px;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.hero-iv .heroHeaderWrapper p {
+    font-size: 25px;
+    line-height: 1.2;
+    margin: 16px 0 0;
+}
+
+@media(max-width: 767.98px) {   
+    .hero-iv .heroHeaderWrapper {
+        padding: 14px;
+    }
+    .hero-iv .heroHeaderWrapper h1#headline-7-19 {
+        font-size: 28px;
+        padding: 0;
+    }
+    .hero-iv .heroHeaderWrapper h1#headline-7-19 br {
+        display: none;
+    }
+    .hero-iv .heroHeaderWrapper p {
+        font-size: 16px;
+    }
+    .hero-iv .heroHeaderWrapper p br {
+        display: none;
+    }
+}

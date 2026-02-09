@@ -1,0 +1,44 @@
+.show_always {
+    display: inline-block !important;
+}
+.pricing_packages.button-flat .button.learn_more_link {
+    overflow: inherit;
+    text-decoration: none !important;
+}
+.pricing_packages.button-flat a.learn_more_link:before,
+.pricing_packages.button-flat a.learn_more_link:after {
+    content: '';
+    width: 2px;
+    height: 15px;
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: green;
+    transition: all 0.3s ease-in-out 0s;
+    z-index: 111111;
+    display: block;
+}
+.pricing_packages.button-flat a.learn_more_link:after {
+    height: 2px;
+    width: 15px;
+    left: -32px;
+    opacity: 1;
+}
+.pricing_packages.button-flat a.learn_more_link.open::before {
+    transform: rotate(90deg);
+    top: 1px;
+}
+.pricing_packages .product-section:nth-child(2) .section_wrapper::before {
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/v1664868598/mobileIVnurses/Pricing_and_Packages_Test/best-seller-new.png');
+}
+.pricing_packages .product-feature-list .infobox ul li {
+    color: #000 !important;
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .pricing_packages .product-section .column_button + .column_button {
+        text-align: right;
+    }
+}

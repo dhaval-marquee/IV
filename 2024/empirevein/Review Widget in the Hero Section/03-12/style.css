@@ -1,0 +1,19 @@
+.dv-home-slider div[data-elfsight-app-lazy] {
+    display: inline-block;
+    width: auto;
+}
+.dv-home-slider div[data-elfsight-app-lazy] .es-layout-sidebar-inner,
+.dv-home-slider div[data-elfsight-app-lazy] .es-badge-container {
+    justify-content: flex-start;
+}
+.dv-home-slider div[data-elfsight-app-lazy] .es-badge-container {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.dv-home-slider div[data-elfsight-app-lazy] .es-badge-total-reviews {
+    color: #5C5C5C;
+}
+.dv-home-slider div[data-elfsight-app-lazy]:hover .eapps-widget-toolbar {
+    display: none;
+}

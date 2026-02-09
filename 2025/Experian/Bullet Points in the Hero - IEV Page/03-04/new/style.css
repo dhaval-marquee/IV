@@ -1,0 +1,35 @@
+@media screen and (min-width: 992px) {
+    .iv-Hero #mainTop > section > div {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .iv-Hero #mainTop h1 {
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .iv-Hero #mainTop h1 + p {
+        display: none;
+    }
+    
+    .iv-Hero #mainTop ul {
+        width: 100%;
+        max-width: 630px;
+        color: #fff;
+        text-align: left;
+        list-style-type: none;
+        margin: 0 auto 30px;
+        padding: 0;
+    }
+    .iv-Hero #mainTop ul li {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1743673039/Experian/Checkmark_white.png');
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 40px;
+        padding-left: 50px;
+        font-size: 22px;
+        line-height: 45px;
+    }
+}

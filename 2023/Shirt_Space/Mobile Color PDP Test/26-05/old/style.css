@@ -1,0 +1,37 @@
+@media (max-width: 767px) {    
+    .color_iv .chosen-color,
+    .color_iv .popular-color-iv .color-tile p.color-title {
+        display: none;
+    }
+    .color_iv .popular-color-iv {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .color_iv .popular-color-iv h4 {
+        width: 100%;
+        margin-top: 0;
+    }
+    .color_iv .popular-color-iv .color-tile {
+        width: 60px;
+        height: 60px;
+    }
+    .color_iv .mobile-color-button {
+        background-color: transparent;
+        color: #0000ff !important;
+        font-weight: bold;
+        padding: 0;
+        font-size: 18px;
+        text-transform: capitalize;
+        text-decoration: underline;
+        margin-bottom: 15px !important;
+    }
+}
+
+@media (max-width: 375px) {  
+    .color_iv .popular-color-iv .color-tile {
+        width: 40px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,52 @@
+.iv-homepage .p-section-hero h2 {
+    text-align: center;
+    padding: 0 0 64px;
+}
+.iv-homepage .p-section-hero .container {
+    width: 100%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.iv-homepage .p-section-hero p {
+    font-size: 20px;
+}
+.showroomSection a.customButtons {
+    font-size: 20px;
+    text-transform: inherit;
+    width: 100%;
+    max-width: 230px;
+}
+
+/* v2 only  */
+.iv-homepage.iv-homepage-v2 .p-section-hero ul li {
+    position: relative;
+}
+.iv-homepage.iv-homepage-v2 .p-section-hero ul li:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #888888;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    margin-top: 8px;
+    margin-left: -22px;
+}
+
+/* v2 only  end*/
+
+@media (max-width: 991.98px) {
+    .iv-homepage .p-section-hero h2 {
+        padding: 32px 0;
+    }    
+}
+@media (max-width: 575.98px) {
+    .iv-homepage .showroomSection a.customButtons {
+        margin: 0 auto;
+        display: block;
+    }
+}

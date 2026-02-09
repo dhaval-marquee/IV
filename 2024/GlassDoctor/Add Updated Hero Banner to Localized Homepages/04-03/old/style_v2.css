@@ -1,0 +1,60 @@
+.homeSubPage .hero-section {
+    position: relative;
+}
+.homeSubPage .content-box h1 {
+    margin: 0 0 12px 0;
+}
+.homeSubPage .content-box {
+    position: absolute;
+    width: 100%;
+    max-width: 50%;
+    top: 50%;
+    left: 0;
+    background: rgba(255, 255, 255, .85);
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    padding: 80px 50px 80px 80px;
+    z-index: 1;
+}
+.homeSubPage .hero-section .hero-bg img {
+    width: 100%;
+}
+@media (max-width: 1440.98px) {
+    .homeSubPage .content-box {
+        max-width: 55%;
+        padding: 80px 40px 80px 70px;
+    }
+}
+@media (max-width: 1199.98px) {
+    .homeSubPage .content-box {
+        max-width: 80%;
+        padding: 70px 40px 70px 70px;
+    }
+    .homeSubPage .content-box h1 {
+        font-size: 32px;
+    }
+}
+@media (max-width: 987.98px) {
+    .homeSubPage .content-box {
+        max-width: 80%;
+        padding: 30px 20px 30px 70px;
+    }
+}
+@media (max-width: 767.98px) {
+    .homeSubPage .content-box {
+        padding: 20px 20px 20px 20px;
+        max-width: 75%;
+    }
+    .homeSubPage .hero-section .hero-bg img {
+        min-height: 300px;
+        object-fit: cover;
+    }
+}
+@media (max-width: 599.98px) {
+    .homeSubPage .content-box {
+        max-width: 90%;
+    }
+    .homeSubPage .content-box h1 {
+        font-size: 20px;
+    }
+}

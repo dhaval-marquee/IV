@@ -1,0 +1,32 @@
+.homepage_iv #wrapper-homepage .dv-home-slider .__intro {
+    width: 50%;
+}
+.homepage_iv #wrapper-homepage .dv-home-slider .textwrap p.lead {
+    display: none;
+}
+.homepage_iv #wrapper-homepage ul.info-list {
+    list-style: none;
+}
+.homepage_iv #wrapper-homepage ul.info-list li{ 
+    position: relative;
+    padding-bottom: 10px;
+}
+.homepage_iv #wrapper-homepage ul.info-list li:before{
+    content: "";
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1730101750/empirevein/Check_orange.png');
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+}
+@media (max-width: 767.98px) {
+    .homepage_iv #wrapper-homepage .dv-home-slider .__intro {
+        width: 100%;
+    }
+    .homepage_iv #wrapper-homepage .dv-home-slider .__lg  {
+        font-size: 32px;
+    }
+}

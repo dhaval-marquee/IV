@@ -1,0 +1,127 @@
+.hero-sec .nectar-highlighted-text h1,
+.hero-sec .nectar-highlighted-text h2 {
+    font-size: 42px;
+    line-height: 51px;
+    text-align: left !important;
+}
+
+.hero-content .divider-wrap {
+    display: none;
+}
+
+.hero_iv .hero-content .nectar-responsive-text p {
+    font-size: 17px;
+}
+
+.hero_iv .main-content .hero-sec .col-12 {
+    width: 100%;
+}
+
+.hero_iv .additional-info ul {
+    margin-left: 0;
+}
+
+.hero_iv .additional-info li {
+    position: relative;
+    padding-left:30px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.hero_iv .additional-info li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1738127306/StrideTutoring/check.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1400px) {
+    .hero-sec .nectar-highlighted-text h1,
+    .hero-sec .nectar-highlighted-text h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero_iv .main-content .hero-sec .col-12 {
+        width: 100%;
+    }
+
+    .hero_iv .hero-mobile {
+        display: none;
+    }
+
+    .hero_iv .hero-content .nectar-responsive-text {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 767px) {
+    .hero_iv .hero-mobile {
+        display: none;
+    }
+
+    .hero_iv .main-content .hero-sec .hero-content {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero_iv .stride-efitf {
+        display: none;
+    }
+
+    .hero_iv .hero-desktop {
+        display: none;
+    }
+
+    .hero_iv .hero-sec .hero-content h1,
+    .hero_iv .hero-sec .hero-content h2 {
+        max-width: 430px;
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    .hero_iv .additional-info li {
+        padding-bottom: 10px;
+    }
+
+    .hero_iv .additional-info li:last-child {
+        padding-bottom: 0;
+    }
+
+    .hero_iv .additional-info li::before {
+        top: 7px;
+        transform: none;
+    }
+
+    .hero_iv .main-content .hero-sec .col-12 .vc_column-inner {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .hero_iv .hero-content .nectar-responsive-text p {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 481px) {
+    .hero_iv .hero-sec .hero-content h1,
+    .hero_iv .hero-sec .hero-content h2 {
+        max-width: 350px;
+        font-size: 27px;
+        line-height: 38px;
+    }
+
+    .hero_iv .hero-sec .additional-info ul li {
+        font-size: 15px;
+        line-height: 28px;
+    }
+}

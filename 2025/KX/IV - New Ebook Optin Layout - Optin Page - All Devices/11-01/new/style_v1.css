@@ -1,0 +1,39 @@
+.optinPage_iv #utility {
+    display: none;
+}
+.optinPage_iv #mainMenu div.no-gutters > [class*=col-]:nth-child(1) {
+    display: none;
+}
+.optinPage_iv .text_split_form2 .container h1 {
+    color: #282B37;
+    text-align: center;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.optinPage_iv .text_split_form2 .container h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 29px;
+}
+
+.optinPage_iv .text_split_form2 .container img {
+    width: 100%;
+    max-width: 415px;
+}
+
+@media screen and (min-width: 768px) {
+    .optinPage_iv .text_split_form2 .container .justify-content-between > div:nth-child(2) > div {
+        margin-top: 130px;
+    }
+}

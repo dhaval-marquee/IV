@@ -1,0 +1,49 @@
+.iv-reservation .iv-reservation-details {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #eef0f8;
+    border-radius: 4px;
+    border: 1px solid #d1d3d4;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.iv-reservation .iv-reservation-details h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.iv-reservation .iv-reservation-details ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px 0;
+}
+
+.iv-reservation .iv-reservation-details ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    max-width: 46%;
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+}
+
+.iv-reservation .iv-reservation-details ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 3px;
+    transform: rotate(45deg);
+    height: 13px;
+    width: 7px;
+    border-bottom: 3px solid #a2d265;
+    border-right: 3px solid #a2d265;
+}

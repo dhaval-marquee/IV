@@ -1,0 +1,75 @@
+.formTest_iv .popUpModal_iv #gform_page_14_1,
+.formTest_iv .popUpModal_iv #gform_page_14_2 {
+    display: block !important;
+    margin-bottom: 16px;
+}
+.formTest_iv .popUpModal_iv .gf_page_steps,
+.formTest_iv .popUpModal_iv input#gform_previous_button_14.button {
+    display: none;
+}
+/* .formTest_iv .popUpModal_iv #gform_page_14_1 .gform_page_footer {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+} */
+.formTest_iv .popUpModal_iv form#gform_14 {
+    margin-bottom: 15px;
+}
+.formTest_iv .popUpModal_iv #input_14_1,
+.formTest_iv .popUpModal_iv .gform_wrapper.gravity-theme .ginput_container_address {
+    display: grid;
+    grid-columns: repeat (3, 1fr);
+    grid-row-gap: 16px;
+    grid-column-gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, auto);
+}
+.formTest_iv .popUpModal_iv #input_14_1 > * {
+    grid-column: span 1;
+    width: 100%;
+    padding: 0;
+}
+.formTest_iv .popUpModal_iv div#field_14_31,
+.formTest_iv .popUpModal_iv fieldset#field_14_9 {
+    grid-column: span 6;
+}
+.formTest_iv .popUpModal_iv div#field_14_35,
+.formTest_iv .popUpModal_iv div#field_14_4 {
+    grid-column: span 3;
+}
+.formTest_iv .popUpModal_iv .gform_wrapper.gravity-theme .ginput_container_address {
+    grid-columns: repeat (2, 1fr);
+    grid-template-columns: repeat(2,1fr);
+    margin: 0;
+    row-gap: 0;
+}
+.formTest_iv .popUpModal_iv .gform_wrapper.gravity-theme .ginput_container_address span {
+    padding: 0;
+    flex: 100%;
+}
+.formTest_iv .popUpModal_iv input#gform_submit_button_14 {
+    margin: 0 auto;
+    display: block;
+}
+.formTest_iv .popUpModal_iv .ginput_container_checkbox {
+    text-align: center;
+}
+.formTest_iv .popUpModal_iv .gfield_description {
+    display: none;
+}
+.formTest_iv .popUpModal_iv .gform_wrapper.gravity-theme .gform_validation_errors {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 16px;
+}
+
+.formTest_iv .popUpModal_iv .gform_wrapper.gravity-theme .gform_validation_errors .gform_submission_error {
+    padding-bottom: 0;
+}
+.formTest_iv .popUpModal_iv .gform_ajax_spinner {
+    margin: 20px auto 0;
+    display: block;
+    width: 30px;
+}

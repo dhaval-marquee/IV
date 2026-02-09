@@ -1,0 +1,5 @@
+@media (min-width: 1400px) and (max-width: 1470px) {
+    body .avl-header .v2nav .avl-header__node {
+        min-width: auto;
+    }
+}

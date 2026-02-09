@@ -1,0 +1,137 @@
+.location-iv .location-section {
+    margin-top: 20px;
+}
+.location-iv .pss-heading,
+.location-iv .pss-buttons {
+    text-align: center;
+}
+.location-iv .pss-heading h2 {
+    font-weight: 700;
+}
+.location-iv .pss-buttons > a {
+    margin: auto;
+    min-width: auto;
+    max-width: 180px;
+    height: auto;
+}
+.location-iv .pss-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.location-iv .pss-card {
+    background-color: #efefef;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    height: 100%;
+    width: 32%;
+}
+.location-iv .pss-card__imagebox {
+    position: relative;
+    padding-top: 65%;
+}
+.location-iv .pss-card__imagebox img {
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.location-iv .pss-card__title {
+    color: #0a1f8f;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-decoration: underline;
+}
+.location-iv .pss-card__address {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.location-iv .pss-card__distance {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.location-iv .pss-card__distance svg {
+    margin-right: 5px;
+    height: 15px;
+    width: 12px;
+}
+.location-iv .pss-card__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.location-iv .pss-cards .pss-button__cta-blue {
+    flex: 1 0 auto;
+    font-size: 10px;
+    line-height: 1;
+    min-width: auto;
+    max-width: 80px;
+    height: auto;
+    padding: 5px;
+    margin-right: 5px;
+}
+.location-iv .pss-rating_star {
+    display: inline-flex;
+    align-items: center;
+}
+.location-iv .pss-rating_star img {
+    margin-right: 5px;
+    margin-bottom: 2px;
+    max-width: 50px;
+    width: 100%;
+}
+.location-iv .pss-rating_star .rating-label {
+    font-size: 10px;
+    white-space: nowrap;
+}
+.location-iv .pss-rating_star .pss-rating__review {
+    font-size: 10px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .location-iv .pss-card__actions {
+        align-items: flex-end;
+    }
+
+    .location-iv .pss-rating_star {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .location-iv .pss-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+    }
+    
+    .location-iv .pss-card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 575px) {
+    .location-iv .pss-card:nth-child(3) {
+        grid-column: 1 / 3;
+        justify-self: center;
+        max-width: calc(100% / 2 - 10px);
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .location-iv .pss-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

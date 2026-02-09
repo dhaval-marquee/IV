@@ -1,0 +1,74 @@
+.banner_iv .solidarityBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1d82f;
+  text-align: center;
+  padding: 13px;
+}
+
+.banner_iv .solidarityBanner p {
+  margin-bottom: 0;
+}
+
+.banner_iv .solidarityBanner a {
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
+@media(min-width: 768px) {
+  .banner_iv #readMore,
+  .banner_iv #readLess {
+    display: none;
+  }
+}
+
+@media(max-width: 767.98px) {
+  .banner_iv .solidarityBanner {
+    flex-direction: column;
+  }
+  .banner_iv .solidarityBanner.hidden {
+    flex-direction: row;
+  }
+  .banner_iv .solidarityBanner.hidden  p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 60%;
+    display: inline-block;
+  }
+  .banner_iv .solidarityBanner.hidden #readLess {
+    display: none;
+  }
+
+  .banner_iv .solidarityBanner #readMore {
+    display: none;
+  }
+
+  .banner_iv .solidarityBanner.hidden #readMore {
+    display: block;
+  }
+
+  .banner_iv .solidarityBanner a span.arrowIcon {
+    position: relative;
+  }
+  .banner_iv .solidarityBanner a span.arrowIcon::before {
+    content: "";
+    width: 17px;
+    height: 9px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.741' height='9' viewBox='0 0 15.741 9'%3E%3Cpath id='_ionicons_svg_ios-arrow-forward' d='M6.287,7.867.33,1.916A1.12,1.12,0,0,1,.33.327a1.134,1.134,0,0,1,1.593,0L8.672,7.071a1.123,1.123,0,0,1,.033,1.551L1.929,15.413A1.125,1.125,0,0,1,.335,13.824Z' transform='translate(15.741) rotate(90)' fill='%23313131'/%3E%3C/svg%3E%0A");
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+  .banner_iv .solidarityBanner a#readLess span.arrowIcon::before {
+    transform: rotate(180deg);
+  }
+
+}

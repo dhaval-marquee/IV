@@ -1,0 +1,16 @@
+.location_iv .hero__inner__content h1.mega-title,
+.location_iv .hero__inner__content h2.mega-title2 {
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 44px;
+    letter-spacing: .1px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.location_iv .hero__inner__content h2.mega-title2 {
+    margin: 0;
+}
+.location_iv .reset-btn-group a.reset-btn span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 56px;    
+}

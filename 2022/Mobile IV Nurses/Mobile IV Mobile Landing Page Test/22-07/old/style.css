@@ -1,0 +1,500 @@
+
+@media screen and (max-width: 767.98px) {
+    body {
+        opacity: 0;
+    }
+
+    .mobile_redesign_test #Content {
+        margin: 0;
+    }
+
+    .mobile_redesign_test #Top_bar {
+        min-height: 120px;
+    }
+
+    .mobile_redesign_test .nav_cta {
+        margin-top: 20px;
+    }
+
+    .mobile_redesign_test .nav_cta a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #425CFB;
+        font-size: 16px;
+    }
+
+    .mobile_redesign_test .nav_cta a img {
+        max-width: 20px;
+        margin-left: 10px;
+    }
+
+    .mobile_redesign_test .hero {
+        background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mobileIVnurses/home-page/Background.png');
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+
+    .mobile_redesign_test .hero .hero_content {
+        padding: 50px 0;
+    }
+
+    .mobile_redesign_test .hero .hero_content .hero_title {
+        font-size: 40px;
+        line-height: 50px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .mobile_redesign_test .hero .hero_content .hero_description {
+        color: #FFFFFF;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .mobile_redesign_test .hero .hero_cta {
+        text-align: center;
+    }
+
+    .mobile_redesign_test .hero .hero_cta a {
+        background-color: #1B9D2C;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        display: block;
+        margin: 0 auto;
+        max-width: 316px;
+        padding: 20px;
+        text-transform: uppercase;
+        width: 100%;
+    }
+
+    .mobile_redesign_test .hero .hero_cta a span {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .mobile_redesign_test .mfn-main-slider,
+    .mobile_redesign_test .hero+div {
+        display: none;
+    }
+
+    /* Modal */
+    .mobile_redesign_test .modal-onload {
+        box-sizing: border-box;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        height: 100%;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .mobile_redesign_test .modal-onload.fade .modal-body {
+        -webkit-transition: -webkit-transform .3s ease-out;
+        transition: transform .3s ease-out;
+        -webkit-transform: translate(0, -25%);
+        transform: translate(0, -25%);
+    }
+
+    .mobile_redesign_test .modal-onload.in .modal-body {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .mobile_redesign_test .modal-body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 0.5rem;
+        min-height: calc(100% - (0.5rem * 2));
+        position: relative;
+        pointer-events: none;
+        width: auto;
+    }
+
+    .mobile_redesign_test .modal-content {
+        background-color: #FFFFFF;
+        border: 3px solid #0D5799;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, .6);
+        border-radius: 40px;
+        position: relative;
+        pointer-events: auto;
+        padding: 26px 30px 28px;
+        min-height: 445px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .mobile_redesign_test .model-inner {
+        display: none;
+        margin-top: 30px;
+    }
+
+    .mobile_redesign_test .model-inner.open {
+        display: block;
+    }
+
+    .mobile_redesign_test .model-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .mobile_redesign_test .modal-button {
+        background-color: #3CB5D0;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        line-height: 18px;
+        margin: 0 auto 25px;
+        padding: 18px 26px;
+        min-height: 57px;
+    }
+
+    .mobile_redesign_test .modal-button span {
+        margin-left: 12px;
+    }
+
+    .mobile_redesign_test .model-close {
+        color: #000000;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 17px;
+        position: absolute;
+        right: 25px;
+        top: 20px;
+    }
+
+    .mobile_redesign_test .model-close:hover {
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 720.98px) {
+    .mobile_redesign_test .nav_cta {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 374.98px) {
+    .mobile_redesign_test .hero .hero_content .hero_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .mobile_redesign_test .hero .hero_content .hero_description {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .mobile_redesign_test .hero .hero_cta {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .mobile_redesign_test .hero .hero_cta a span {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+
+
+/* Add your test CSS here */
+
+.mobile_IV_Therapy .one-fourth:nth-child(5),
+.mobile_IV_Therapy .fancy_heading h1.title,
+.mobile_IV_Therapy .mcb-wrap-o3d5ksouj.one.column-margin-10px.valign-top.clearfix,
+.section.mcb-section.mcb-section-38b543c6e,
+.section.mcb-section.mcb-section-jfx934o4h,
+.section.mcb-section.mcb-section-nrmgy3o9v,
+.section.mcb-section.mcb-section-d0321ad65,
+.section.mcb-section.mcb-section-d0321ad65,
+.section.mcb-section.mcb-section-09f7ddde1.dark,
+.section.mcb-section.mcb-section-u0hihnghj,
+.section.mcb-section.mcb-section-lt7r7wcg1,
+#Footer .footer_action {
+    display: none;
+}
+
+.mobile_IV_Therapy .how_it_works h4 {
+    font-size: 18px;
+}
+.mobile_IV_Therapy .how_it_works p {
+    line-height: 26px;
+}
+
+/* iV Nurses */
+.mobile_redesign_test .list_section {
+    text-align: center;
+    background-color: #00B4CF;
+    padding: 50px 0 50px;
+}
+
+.mobile_redesign_test .list_section h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.mobile_redesign_test .list_section ul li {
+    margin-bottom: 50px;
+}
+
+.mobile_redesign_test .list_section ul li .img_wrapper {
+    display: inline-block;
+    border: 2px solid white;
+    max-width: 100px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mobile_redesign_test .list_section ul li .img_wrapper span {
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+
+.mobile_redesign_test .list_section ul li img {
+    width: auto;
+}
+
+.mobile_redesign_test .list_section ul li h4 {
+    font-size: 32px;
+    line-height: normal;
+    color: white;
+    margin-bottom: 0;
+}
+
+.mobile_redesign_test .list_section ul li P {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 345px;
+    width: 100%;
+    color: white;
+    display: block;
+    margin: 10px auto 0;
+}
+
+/* iV Nurses over*/
+
+/* IV Drip */
+.mobile_redesign_test .iV_drip .section_wrapper {
+    padding: 0 15px !important;
+}
+
+.mobile_redesign_test .iV_drip h2 {
+    background: #F2F2F2;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.mobile_redesign_test .iV_drip .iV_drip_inner {
+    display: flex;
+}
+
+.mobile_redesign_test .iV_drip .iV_drip_wrap {
+    margin: 35px 0;
+}
+
+.mobile_redesign_test .iV_drip .iV_drip_wrap .hero_cta {
+    text-align: center;
+    justify-content: center;
+    background: white;
+    margin: 20px;
+    padding: 18px 0;
+}
+
+.mobile_redesign_test .iV_drip .iV_drip_wrap .hero_cta span {
+    font-size: 16px;
+    line-height: normal;
+}
+
+.mobile_redesign_test .iV_drip .iV_drip_inner .image {
+    max-width: 138px;
+}
+
+.mobile_redesign_test .iV_drip .iV_drip_inner .image img {
+    width: 100%;
+}
+
+.mobile_redesign_test .iV_drip .hero_cta .hero_btn {
+    background-color: #1B9D2C;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    max-width: 316px;
+    padding: 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.mobile_redesign_test .iV_drip .iV_drip_inner .desc .sub_Head {
+    color: #51CADF;
+}
+
+.mobile_redesign_test .iV_drip .iV_drip_inner .desc ul li {
+    color: #AEACAB;
+}
+
+.mobile_redesign_test .iV_drip .full_Menu {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.mobile_redesign_test .iV_drip .full_Menu a {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #4D47F8;
+    cursor: pointer;
+}
+
+.mobile_redesign_test .iV_drip .full_Menu a:hover {
+    color: #0024ff;
+}
+
+/* IV Drip over*/
+
+/* FAQ */
+.mobile_redesign_test .the_content.has_content {
+    padding: 65px 0 45px;
+}
+
+.mobile_redesign_test .the_content.has_content h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mobile_redesign_test .the_content.has_content .the_content_wrapper .desc {
+    margin-top: 40px;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel-title {
+    margin: 0px;
+    text-transform: none;
+    line-height: 1;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel-title a {
+    font-family: Open Sans;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel-title a:focus {
+    outline: 0px;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel-title a:hover,
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel-title a:focus {
+    color: #ffffff;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .acc-a {
+    color: #ffffff;
+    background-color: #1670bf;
+    border-color: #ddd;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel-default>.wpsm_panel-heading {
+    color: #ffffff;
+    background-color: #1670bf;
+    border-color: #1670bf;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel-default {
+    border: 1px solid transparent;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 {
+    margin-bottom: 20px;
+    overflow: hidden;
+    float: none;
+    width: 100%;
+    display: block;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel {
+    overflow: hidden;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+    border-radius: 4px;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel+.wpsm_panel {
+    margin-top: 5px;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel-body {
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: normal;
+    color: #1e73be;
+    border: 2px solid #1670bf;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel-heading {
+    background-image: url('https://mobileivnurses.com/wp-content/plugins/responsive-accordion-and-collapse/img/style-soft.png');
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+
+.mobile_redesign_test #wpsm_accordion_4874 .ac_open_cl_icon {
+    background-color: #1670bf;
+    color: #ffffff;
+    float: left;
+    line-height: 1.0;
+    display: inline-block;
+    background-image: url('https://mobileivnurses.com/wp-content/plugins/responsive-accordion-and-collapse/img/style-soft.png');
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    padding: 12px 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
+.mobile_redesign_test #wpsm_accordion_4874 a[aria-expanded="true"] span.fa-plus::before {
+    content: "\f068";
+}
+
+
+
+@media screen and (max-width: 359.98px) {
+    .mobile_redesign_test #wpsm_accordion_4874 .ac_open_cl_icon {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .mobile_redesign_test #wpsm_accordion_4874 .wpsm_panel-title a {
+        font-size: 18px;
+    }
+}
+
+/* FAQ OVER*/

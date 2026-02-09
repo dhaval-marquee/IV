@@ -1,0 +1,50 @@
+.select_wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.select_wrapper h3 {
+    font-size: 21px;
+    margin: 10px 15px 10px 0;
+}
+.custom_selectBox {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+.custom_selectBox:before {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px 1px 1px 0px;
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    pointer-events: none;
+}
+.custom_selectBox select {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid #d3d3d3;
+    color: #000;
+    outline: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 10px 35px 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.custom_selectBox select option {
+    padding: 15px 0;
+    font-size: 14px;
+}
+.best_awards a {
+    text-decoration: underline;
+}

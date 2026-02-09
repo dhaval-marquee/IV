@@ -1,0 +1,28 @@
+body .instaquote-container .step1 .slide-header .content-section {
+    padding-bottom: 0;
+}
+body .moving-from-to h2 {
+    margin: 0;
+}
+.hero_iv .moving-from-to h2 span {
+    color: #ffd31f;
+}
+body .instaquote-container .content-section h1 {
+    margin: 0;
+    line-height: 44px;
+}
+@media (max-width:767.98px) {
+    body .moving-from-to .stars .star-image {
+        display: block;
+        margin-bottom: 10px;
+    }
+    body .instaquote-container .content-section h1 {
+        line-height: 32px;
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    body .moving-from-to h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}

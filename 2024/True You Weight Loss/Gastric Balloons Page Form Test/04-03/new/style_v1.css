@@ -1,0 +1,224 @@
+body:not(.form_iv) .lp-pom-form form {
+    height: 765px;
+}
+.form_iv #lp-pom-root,
+.form_iv #lp-pom-root-color-overlay {
+    height: auto;
+}
+.form_iv .form {
+    background: transparent !important;
+}
+.form_iv .form_columns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    font-family: 'Raleway';
+}
+.form_iv .form_content {
+    padding-bottom: 30px;
+    padding-right: 20px;
+    width: 50%;
+}
+.form_iv .form_content h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.form_iv .form_content ul {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 32px 0;
+}
+.form_iv .form_content ul li {
+    padding: 8px 0 8px 34px;
+}
+.form_iv .form_content ul li::before {
+    background-image: url('https://trueyouweightloss.com/wp-content/uploads/checkmark.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 24px;
+    width: 24px;
+}
+.form_iv .form_content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    padding-top: 16px;
+}
+.form_iv .form_arrow_rotate {
+    margin-top: 38px;
+    margin-left: 118px;
+    width: 248px;
+}
+.form_iv .form_wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0,0,0,.24);
+    padding: 32px;
+    width: 50%;
+}
+.form_iv .form_title {
+    color: #5a5b9f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.form_iv .lp-pom-form {
+    height: auto !important;
+}
+.form_iv .lp-pom-form .fields {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 !important;
+}
+.form_iv .lp-pom-form .fields *,
+.form_iv .lp-pom-button[type="submit"],
+.form_iv .lp-pom-button[type="submit"] * {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+.form_iv .lp-pom-form-field {
+    margin-top: 10px;
+}
+.form_iv .lp-pom-form-field,
+.form_iv .lp-pom-form-field .single,
+.form_iv .checkbox-group .input-wrap,
+.form_iv .checkbox-group .option {
+    width: 100% !important;
+}
+.form_iv .lp-pom-form-field,
+.form_iv .checkbox-group .input-wrap,
+.form_iv .checkbox-group .option,
+.form_iv .checkbox-group .lp-form-label {
+    height: auto !important;
+}
+.form_iv .lp-pom-form-field .lp-form-label,
+.form_iv .checkbox-group .opt-label {
+    color: inherit !important;
+    font-family: 'Raleway' !important;
+    font-weight: 700 !important;
+    line-height: 1.6 !important;
+}
+.form_iv .lp-pom-form-field .single {
+    background-color: #f7f7f7 !important;
+    border-color: #c4c4c4 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    height: 50px !important;
+    margin-bottom: 10px;
+}
+.form_iv .checkbox-group .input-wrap {
+    margin-top: 6px;
+}
+.form_iv .checkbox-group .option {
+    padding: 0;
+}
+.form_iv .checkbox-group .option input {
+    margin-left: 0;
+    margin-right: 15px;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+}
+.form_iv #container_understanding_of_insurance {
+    display: none;
+}
+.form_iv .lp-pom-button[type="submit"] {
+	background: #5C1B55 !important;
+    border-radius: 50px !important;
+    font-family: 'Raleway' !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    margin: 25px auto 0;
+    max-width: 400px;
+    padding: 13px 20px;
+    height: auto !important;
+    width: 100% !important;
+}
+.form_iv .lp-pom-button[type="submit"]:hover {
+    background: #3d407a !important;
+}
+.form_iv .lp-pom-button[type="submit"] .label {
+    margin-top: 0 !important;
+}
+
+/* 2nd variant */
+#lp-pom-block-66, #lp-pom-text-68, #lp-pom-text-207, #lp-pom-text-210, #lp-pom-text-213, #lp-pom-text-214,
+#lp-pom-button-215 {
+    display: none;
+}
+
+/* 2nd variant */
+#lp-pom-block-82,
+#lp-pom-block-82-color-overlay,
+#lp-pom-block-82 .lp-pom-block-content {
+    height: 155px;
+}
+
+@media only screen and (min-width: 601px) {
+    .form_iv #lp-pom-form-58 .single-line-text .lp-form-label,
+    .form_iv #lp-pom-form-58 .email .lp-form-label {
+        display: block;
+    }
+    .form_iv .form_columns {
+        margin-top: -115px;
+    }
+    .form_iv .lp-pom-form {
+        left: 0 !important;
+        width: 100% !important;
+    }
+    .form_iv .lp-pom-form-field:not(.checkbox-group) {
+        width: calc(50% - 4px) !important;
+    }
+
+    #lp-pom-text-87 {
+        top: 3230px;
+    }
+    #lp-pom-text-264 {
+        top: 3248px;
+    }
+    #lp-pom-text-219 {
+        top: 3245px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form_iv .form_columns {
+        margin-top: -190px;
+    }
+    .form_iv .form_content {
+        padding-right: 0;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    .form_iv .form_content h3,
+    .form_iv .form_arrow_rotate {
+        display: none;
+    }
+    .form_iv .form_wrapper {
+        width: 100%;
+        box-shadow: inherit;
+        padding: 0;
+    }
+    .form_iv .lp-pom-button[type=submit] {
+        font-size: 14px !important;
+        padding: 10px 20px;
+    }
+
+    /* 2nd variant */
+    #lp-pom-text-87 {
+        top: 3844px;
+    }
+    #lp-pom-text-264 {
+        top: 3863px;
+    }
+    #lp-pom-text-219 {
+        top: 3884px;
+    }
+}

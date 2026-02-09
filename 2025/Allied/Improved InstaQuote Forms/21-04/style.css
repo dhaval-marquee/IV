@@ -1,0 +1,15 @@
+.iv-instantQuote form fieldset[data-step="1"] input.location-autocomplete {
+    color: #000;
+}
+
+.iv-instantQuote .moving-from-to .slide-overlay,
+.iv-instantQuote form fieldset[data-step="2"] > div {
+    position: relative;
+}
+.iv-instantQuote .instaquote-container [data-step] .btn-top-back {
+    top: inherit;
+}
+
+.iv-instantQuote form fieldset[data-step="3"] > div p.head1 {
+    margin-bottom: 52px;
+}

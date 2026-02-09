@@ -1,0 +1,312 @@
+/*** AAB ***/
+.aab-zip-form input#locationsfilter {
+	width: 55%;
+}
+.aab-zip-form #location-search button {
+	width: 45%;
+	font-weight: bold;
+}
+.bottom-form input[type="submit"]{
+	width: 100% !important;
+	border-radius: 3px;
+}
+/*** End of AAB ***/
+
+.no-margin .elementor-widget-container {
+	margin: 0 !important;
+}
+/*** IOS ***/
+body.e--ua-safari h4, body.e--ua-safari h5, body.e--ua-safari h6 {
+    font-family: inherit;
+}
+.covid-banner-section {
+    display: none;
+}
+/*** Search Filter **/
+#location-search-mobile input#locationsfilter {
+    width: 100%;
+}
+#location-search button, #location-search-mobile button {
+    background: #BA006E;
+}
+#location-search-mobile button {
+    width: 100%;
+}
+#location-search button:hover, #location-search-mobile button:hover {
+    background: #8e0255;
+}
+form#location-search {
+    width: 100%;
+    display: flex;
+}
+@media only screen and (min-width: 768px) {
+    #location-search input {
+        flex: 1 1 auto;
+    }
+}
+@media only screen and (max-width: 921px) {
+    #location-search input,
+    #location-search button {
+        font-size: 16px;
+    }
+}
+@media not all and (min-resolution:.001dpcm) { @media {
+   .call-today-phone-number {
+		font-family: Arial !important;
+		display: inline-block  !important;
+	}
+	
+	.call-today-phone-number a {
+			color: #fff !important;
+}
+}}
+
+.call-today-phone-number a {
+			color: #fff !important;
+}
+
+
+/* Above Header */
+img.top-icon-pest {
+    max-width: 26px;
+}
+#abv-btn:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 65px solid #A3D4FF;
+    border-left: 20px solid transparent;
+}
+#abv-btn:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 65px solid #A3D4FF;
+    border-right: 20px solid transparent;
+}
+a.pest-auth {
+    display: inline-block;
+}
+.elementor-column.left-header-top:before {
+    content: '';
+    width: 2000px;
+    height: 50%;
+    display: block;
+    position: absolute;
+    background-color: #add5ff;
+    bottom: 0;
+    right: -12px;
+}
+.center-header-top .elementor-column-wrap.elementor-element-populated:before {
+    content: '';
+    width: 109%;
+    height: 50%;
+    background-color: #ad006d;
+    display: block;
+    position: absolute;
+    left: -21px;
+    bottom: 0;
+    clip-path: polygon(3% 0%, 100% 0%, 98% 100%, 0% 100%);
+}
+
+/* Home */
+#home-banner h1 span {
+    font-family: "Gotham Light", Sans-serif;
+}
+#block-1 .first-sec h2 span {
+    color: #a3d4ff;
+}
+#block-1 .second-sec h2 span {
+    color: #00263d;
+}
+#block-1 .second-sec:after {
+    content: "";
+    background-image: url(/wp-content/uploads/2021/01/germs-icon.png);
+    width: 248px;
+    height: 247px;
+    position: absolute;
+    right: -116px;
+    background-position: center;
+    background-size: cover;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+}
+#block-3 .first-sec h2 span {
+    color: #a3d4ff;
+}
+#block-3 .first-sec:before {
+    content: "";
+    background-image: url(/wp-content/uploads/2021/01/group.png);
+    width: 280px;
+    height: 252px;
+    position: absolute;
+    left: -201px;
+    background-position: center;
+    background-size: cover;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+/* General */
+input[value="Submit"] {
+    background: #BA0D6E;
+}
+input[value="Submit"]:hover {
+    background: #FFFFFF;
+    color: #BA0D6E;
+}
+#content .gform_body input {
+    padding: 10px;
+}
+#content a.cta-loc {
+    background: #ba006e;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+#content a.cta-loc:hover {
+    background: #ffffff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #ba006e;;
+}
+.sticky-bottom span.elementor-button-text:before {
+    content: '';
+    background-image: url(https://www.mosquito-authority.com/wp-content/uploads/2021/01/rita-icon-1.png);
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#content .bubble-icon img:hover, #content .bubble-icon .swiper-slide-active img {
+    border: 2px solid #333333;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bubble-icon img {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bubble-icon figcaption.elementor-image-carousel-caption {
+    margin-top: 15px;
+}
+#block-1 .ad-section-1 {
+    padding: 20px;
+    background-color: #00263D;
+    margin: 10px;
+}
+#block-1 .ad-section-2 {
+    padding: 20px;
+    background-color: #A3D4FF;
+    margin: 10px;
+}
+.counter-mosquito .elementor-heading-title span {
+    color: #BA006E;
+}
+#page-banner h4 span {
+    font-family: "Gotham Light", Sans-serif;
+}
+#page-banner .banner-cta:before {
+    background-image: url(/wp-content/uploads/2021/01/mosquito-auth-icon.png);
+    content: "";
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -30px;
+    z-index: 0;
+    right: 5px;
+    background-size: contain;
+    opacity: 0.8;
+}
+
+/* Blog */
+.at-below-post.addthis_tool {
+    margin-left: -5px;
+}
+.blog #main p {
+	font-size: 14px;
+}
+.blog .entry-title a {
+	display: block;
+	position: relative;
+}
+
+/*** Form **/
+.white-label label {
+    color: #FFF;
+}
+input.gform_button {
+    border-radius: 50px;
+}
+
+/*** Services Func **/
+body.elementor-editor-active .swiper-content {
+    display: block;
+}
+.swiper-content {
+    display: none;
+}
+.swiper-content-active {
+    display: block;
+}
+
+/*** UL list **/
+ul.ma-list {
+	column-count: 3;
+}
+
+@media only screen and (max-width: 929px) {
+	#abv-btn:before {
+		border-bottom: 85px solid #A3D4FF;
+	}
+	#abv-btn:after {
+		border-top: 85px solid #A3D4FF;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#block-1 .second-sec:after, #block-3 .first-sec:before {
+		display: none;
+}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	form#location-search {
+		display: block;
+	}
+	input#locationsfilter,
+	#location-search button {
+		width: 100%;
+	}
+	#location-search button {
+		padding: 15px 20px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+#content h1.elementor-heading-title {
+		font-size: 34px;
+}
+#block-1 .second-sec:after, #block-3 .first-sec:before {
+		display: none;
+}
+body.home #content figure.elementor-image-box-img {
+    margin-bottom: 20px;
+}
+	ul.ma-list {
+		column-count: 1;
+	}
+}

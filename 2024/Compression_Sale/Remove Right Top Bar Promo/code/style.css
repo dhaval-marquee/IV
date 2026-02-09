@@ -1,0 +1,8 @@
+.promo-iv .small-promo .small-promo-content {
+    text-align: left;
+}
+
+/* v2 only  */
+#shopify-section-static-announcement .small-promo {
+    display: none;
+}

@@ -1,0 +1,123 @@
+    img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+
+    .hero_Test .elementor.elementor-89920 section.section1,
+    .hero_Test .elementor.elementor-89920 section.section3,
+    .hero_Test .only_mob{
+        display: none;
+    }
+    .hero_Test .hero_section .container{
+        max-width: 1220px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .hero_Test .hero_inner{
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1669295103/Persona_Labs/Homepage_Hero_Test/hero_big_2x.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+    .hero_Test .hero_section .hero_inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    .hero_Test .hero_section .text_wrap{
+        max-width: 530px;
+        text-align: start;
+        background-color: rgb(0 0 0 / 0.6);
+        height: 100%;
+        padding: 80px 80px 80px 20px;
+        color: #fff;
+    }
+    .hero_Test .text_wrap h2{
+        font-size: 30px;
+        color: #fff;
+    }
+    .hero_Test .text_wrap p{
+        color: #fff;
+        font-size: 18px;
+        letter-spacing: inherit;
+        margin-bottom: 22px;
+    }
+    .hero_Test .hero_section .text_wrap a.btn{
+        display: inline-block;
+        width: 200px;
+        border-width: 0px;
+        color: #FFFFFF;
+        background-color: #0080B8;
+        font-weight: 600;
+        margin-bottom: 16px;
+        padding: 10px 0;
+    }
+    .hero_Test .hero_section .text_wrap a.btn:hover{
+        color: #0080B8;
+        background-color: #FFFFFF;
+    }
+    .hero_Test .hero_section .text_wrap .review_wrap a{
+        display: flex;
+        align-items: center;
+        pointer-events: none;
+    }
+    .hero_Test .hero_section .text_wrap .review_wrap a img{
+        width: 100%;
+        max-width: 112px;
+    }
+    .hero_Test .hero_section .text_wrap .review_wrap .reviews{
+        color: #fff;
+        font-size: 14px;
+    }
+    .hero_Test .hero_section .text_wrap .review_wrap .reviews strong{
+        margin: 0 6px 0 10px;
+    }
+    @media (max-width: 767.98px){
+        .hero_Test .hero_section .container{
+            padding: inherit;
+        }
+        .hero_Test .hero_inner{
+            background-image: inherit;
+        }
+        .hero_Test .only_mob{
+            display: block;
+            width: 100%;
+            background-color: #fff;
+        }
+        .hero_Test .only_mob img{
+            width: 100%;
+        }
+        .hero_Test .hero_section .text_wrap{
+            width: 100%;
+            max-width: 100%;
+            background-color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
+        .hero_Test .text_wrap h2,
+        .hero_Test .text_wrap p{
+            color: rgb(0, 0, 0);
+        }
+        .hero_Test .review_wrap a{
+            justify-content: center;
+        }
+        .hero_Test .hero_section .text_wrap .review_wrap .reviews{
+            color: #000;
+        }
+        .hero_Test .hero_section .text_wrap a.btn:hover{
+            color: inherit;
+            background-color: inherit;
+        }
+    }
+    @media (max-width: 359.98px){
+        .hero_Test .review_wrap a{
+            display: inline-grid;
+        }
+        .hero_Test .hero_section .text_wrap .review_wrap a img{
+            margin: 0 0 8px 0;      
+        }
+        .hero_Test .hero_section .text_wrap .review_wrap .reviews strong{
+            margin: 18px 6px 0 0px;
+        }
+    }

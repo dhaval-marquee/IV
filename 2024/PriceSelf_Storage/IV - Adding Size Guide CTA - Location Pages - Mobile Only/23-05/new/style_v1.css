@@ -1,0 +1,12 @@
+@media (max-width: 767.98px) {
+    #MainContent_LocationRepeater .pss-card-list__bottom-actions {
+        flex-direction: column;
+    }
+    
+    #MainContent_LocationRepeater .pss-card-list__bottom-actions a#toggle-disclaimer-symbol2 {
+        display: block !important;
+        width: 100%;
+        margin-top: 10px;
+        line-height: normal;
+    }
+}

@@ -1,0 +1,21 @@
+.iv-TrialPage form .continue-cta[value="Continue"] {
+    width: 100% !important;
+    max-width: 250px;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-transform: inherit;
+    background-color: #fd6508;
+    border: #fd6508;
+    color: #fff;
+    margin: 0;
+    padding: 12px;
+}
+
+.iv-TrialPage .gfield:not(.gfield_error) .gfield_validation_message {
+    display: none;
+}
+.iv-TrialPage .gform_wrapper:not(.gform_validation_error) .gform_validation_errors{
+    display: none;
+}

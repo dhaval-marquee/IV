@@ -1,0 +1,81 @@
+.iv-floating-cta .iv-floating-warp .iv-close-cta {
+    position: relative;
+    display: block;
+}
+
+.iv-floating-cta .iv-floating-warp .iv-close-cta svg {
+    width: 100%;
+    max-width: 20px;
+    position: absolute;
+    right: -12px;
+    top: -17px;
+}
+
+.iv-floating-cta .iv-floating-warp .iv-close-cta svg:hover path {
+    fill: #e97d35;
+}
+
+.iv-floating-cta .iv-floating-warp {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 20px 20px 20px;
+    text-align: center;
+    color: #514C4F;
+    z-index: 9;
+    box-shadow: 0px 0px 15px 0px #a7a7a7;
+}
+
+.iv-floating-cta .iv-floating-warp h5 {
+    font-size: 16px;
+}
+
+.iv-floating-cta .iv-floating-warp p {
+    font-size: 15px;
+    line-height: normal;
+}
+
+.iv-floating-cta .iv-floating-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20rem;
+    background: var(--c-accent);
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+    background-image: var(--c-gradient-accent, linear-gradient(118deg, #ff8b00 0%, #ff7000 100%));
+    padding: 10px 10px 12px;
+    width: 100%;
+    max-width: 230px;
+}
+
+@media screen and (max-width: 767px) {
+    .iv-floating-cta .iv-floating-warp {
+        bottom: 30px;
+        left: 10px;
+        width: 100%;
+        max-width: 240px;
+        padding: 25px 10px 10px 10px;
+    }
+    .iv-floating-cta .iv-floating-warp h5 {
+        font-size: 12px;
+    }
+    .iv-floating-cta .iv-floating-warp p {
+        font-size: 12px;
+    }
+    .iv-floating-cta .iv-floating-cta {
+        font-size: 13px;
+        padding: 9px 10px 10px;
+        width: 100%;
+        max-width: 200px;
+    }
+    .iv-floating-cta .iv-floating-warp .iv-close-cta svg {
+        right: -6px;
+        top: -20px;
+    }
+    
+}

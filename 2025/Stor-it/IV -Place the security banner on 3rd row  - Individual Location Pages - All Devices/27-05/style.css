@@ -1,0 +1,95 @@
+.iv-security-banner-section {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.iv-security-banner-inner {
+    display: flex;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.iv-banner-img {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iv-banner-content {
+    width: 75%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.iv-banner-label {
+    background-color: #FE5000;
+    padding: 8px 15px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+}
+.iv-banner-heading {
+    color: #207e44;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.iv-security-banner .iv-banner-desc {
+    padding: 0;
+    margin-bottom: 0 !important;
+    color: #207e44;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.view-table .iv-security-banner-section {
+    grid-column: 1 / -1;
+    width: 100%;
+}
+.iv-security-banner-section:nth-child(5) {
+    display: none;
+}
+.view-table .iv-security-banner-section:nth-child(5) {
+    display: block;
+}
+.view-table .iv-security-banner-section:nth-child(3) {
+    display: none;
+}
+
+/* V1 & V3 */
+.iv-security-banner-section-v1 .iv-banner-img,
+.iv-security-banner-section-v3 .iv-banner-img {
+    background-color: #00804D;
+}
+/* v2 */
+.iv-security-banner-section-v2 .iv-banner-img {
+    background-color: #D7FEEE;
+}
+
+@media (max-width: 767px) {
+    .iv-banner-img {
+        width: 30%;
+    }
+    .iv-banner-content {
+        width: 70%;
+    }
+    .iv-banner-heading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .iv-security-banner .iv-banner-desc {
+        font-size: 17px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .iv-banner-img {
+        width: 40%;
+    }
+    .iv-banner-content {
+        width: 60%;
+    }
+}

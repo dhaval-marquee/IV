@@ -1,0 +1,46 @@
+.iv-quote-sec {
+    background-color: #F7C300;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+.iv-quote-sec .iv-wrapper {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.iv-quote-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px 30px;
+    flex-wrap: wrap;
+}
+.iv-quote-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.iv-quote-item .iv-icon {
+    width: 100%;
+    max-width: 45px;
+}
+.iv-quote-item p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 8px 0 0 0;
+}
+@media screen and (max-width: 991px) {
+    .iv-quote-wrapper {
+        justify-content: center;
+    }
+    .iv-quote-item .iv-icon {
+        max-width: 40px;
+    }
+    .iv-quote-item p {
+        font-size: 18px;
+    }
+    .iv-quote-sec .iv-wrapper {
+        max-width: 680px;
+    }
+}

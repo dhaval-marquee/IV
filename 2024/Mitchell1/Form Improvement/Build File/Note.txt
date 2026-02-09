@@ -1,0 +1,4 @@
+Screenshot attached in html file to replace old content with new.
+Please place css at the end of the main css file.
+Please add JavaScript at the end of the custom javascript file.
+Please remove body selector from CSS once you implement it. It just make it stronger selector.

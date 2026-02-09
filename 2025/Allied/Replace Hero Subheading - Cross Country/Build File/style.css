@@ -1,0 +1,12 @@
+@media only screen and (max-width: 767.98px) {
+	body .iv-custom-button-wrapper {
+        width: 100%;
+	}
+	body .long-distance__hero .instaquote-container .inner-container .iv-custom-button-wrapper .btn {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	body .long-distance__hero .instaquote-container .inner-container fieldset {
+		flex: 0 0 40%;
+	}
+}

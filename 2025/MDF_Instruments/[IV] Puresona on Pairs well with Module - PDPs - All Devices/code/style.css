@@ -1,0 +1,28 @@
+/* Style is just for the variant 2 */
+
+.pairs_iv .product-info__block-item .complementary-products__product-list {
+    border: 10px solid #005BAA;
+    border-top: 0;
+    padding: 20px 10px;
+}
+
+.pairs_iv .product-info__block-item .complementary-products__header {
+    background-color: #005BAA;
+    color: #fff;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pairs_iv .product-info__block-item .complementary-products {
+    gap: 0;
+}
+
+.pairs_iv .product-info__block-item .complementary-products__header p:after {
+    content: '+';
+    font-size: 40px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: red;
+    font-weight: 500;
+    margin-left: 5px;
+}

@@ -1,0 +1,29 @@
+.iv-Header-CTA.free-trial .header .last-col {
+    display: block;
+}
+
+.iv-Header-CTA.free-trial .header .last-col .web-info-section {
+    display: none;
+}
+
+.iv-Header-CTA.free-trial .header .last-col .user-btn {
+    display: none;
+}
+
+.iv-Header-CTA.free-trial .header  #mobile-header + div +div {
+    display: none;
+}
+.iv-Header-CTA.free-trial .header #inner-header {
+    display: flex;
+    align-items: center;
+}
+.iv-Header-CTA.free-trial .header .last-col .top-buttons {
+    margin-bottom: 0;
+}
+
+.iv-Header-CTA.free-trial .header .last-col .orange-btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: normal;
+    padding: 12px;
+}

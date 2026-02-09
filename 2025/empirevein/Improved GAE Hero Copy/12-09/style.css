@@ -1,0 +1,28 @@
+.iv-GAEHero header.entry-header > a {
+    pointer-events: none;
+}
+.iv-GAEHero header.entry-header h1 + p {
+    color: #ff8b00;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+@media (max-width: 991.98px) {
+    .iv-GAEHero header.entry-header {
+        width: 100%;
+    }
+}
+@media (max-width: 767.98px) {
+    .iv-GAEHero .subpage-img {
+        padding-top: 120px;
+    }
+    .iv-GAEHero .subpage-img .entry-header h1 {
+        font-size: 35px;
+    }
+    .iv-GAEHero .subpage-img .entry-header h1 br {
+        display: none;
+    }
+    .iv-GAEHero header.entry-header h1 + p {
+        font-size: 18px;
+    }
+}

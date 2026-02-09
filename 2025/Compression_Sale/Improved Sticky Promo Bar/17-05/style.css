@@ -1,0 +1,166 @@
+.iv-sticky-Promo-Bar .announcement-bar {
+    background-color: #2c547f !important;
+}
+
+.iv-sticky-Promo-Bar #shopify-section-static-announcement {
+    position: sticky;
+    top: 0;
+    background: #2c547f;
+    z-index: 701;
+}
+
+.scroll-lock.iv-sticky-Promo-Bar #shopify-section-static-announcement {
+    z-index: 700;
+}
+
+.iv-sticky-top .site-navigation-wrapper+.container-fluid .vc-full {
+    display: none;
+}
+
+.iv-sticky-Promo-Bar .top_login_link>a,
+.iv-sticky-Promo-Bar .top-shop>ul>li>a,
+.iv-sticky-Promo-Bar .reward_menu>a {
+    color: #ffffffe3 !important;
+}
+
+.iv-sticky-Promo-Bar .top-shop ul.shop-list>li:before {
+    border-top-color: #ffffffe3;
+}
+.iv-sticky-Promo-Bar .announcement-bar-text {
+    pointer-events: none;
+}
+.iv-sticky-Promo-Bar .announcement-bar-text svg path {
+    fill: #fff;
+}
+.iv-sticky-Promo-Bar .small-promo {
+    pointer-events: none;
+}
+.iv-sticky-Promo-Bar .announcement-bar-text .scl-text a,
+.iv-sticky-Promo-Bar .small-promo {
+    color: #fff !important;
+}
+
+.iv-sticky-Promo-Bar .small-promo-text-mobile {
+    display: none;
+}
+
+.iv-sticky-Promo-Bar .search-button {
+    display: none;
+    background: none;
+    border: none;
+}
+
+.iv-sticky-Promo-Bar .site-header-cart--button {
+    position: relative;
+}
+
+.iv-cloned-promo-bar {
+    display: none;
+}
+
+.iv-sticky-Promo-Bar.site-header-sticky .site-header {
+    top: 33px;
+}
+
+@media (max-width:1023px) {
+    .iv-sticky-Promo-Bar.site-header-sticky .site-header {
+        position: sticky !important;
+    }
+
+    .iv-sticky-Promo-Bar .search-button {
+        display: block;
+        padding-left: 0;
+    }
+
+    .iv-sticky-Promo-Bar .site-header-cart {
+        display: flex;
+        align-items: center;
+    }
+
+    .iv-sticky-Promo-Bar .iv-live-search {
+        height: 0;
+        opacity: 0;
+        margin: 0 !important;
+        transition: all 0.3s ease;
+    }
+
+    .iv-sticky-Promo-Bar .iv-live-search+.phns {
+        margin: 0;
+    }
+
+    .iv-sticky-Promo-Bar .site-header-cart--button {
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    .iv-sticky-Promo-Bar .top-shop>ul {
+        display: none;
+    }
+
+    .iv-sticky-Promo-Bar #shopify-section-static-announcement.iv-cloned-promo-bar .top_login_link,
+    .iv-sticky-Promo-Bar #shopify-section-static-announcement.iv-cloned-promo-bar .reward_menu,
+    .iv-sticky-Promo-Bar #shopify-section-static-announcement.iv-cloned-promo-bar .small-promo {
+        display: block;
+    }
+
+    .iv-cloned-promo-bar .announcement-bar .announcement-bar-text {
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .iv-sticky-Promo-Bar #shopify-section-static-announcement .top_login_link,
+    .iv-sticky-Promo-Bar #shopify-section-static-announcement .reward_menu,
+    .iv-sticky-Promo-Bar #shopify-section-static-announcement .small-promo {
+        display: none;
+    }
+
+    .iv-cloned-promo-bar {
+        display: block;
+        padding: 6px 0 0;
+    }
+
+    .iv-sticky-Promo-Bar .announcement-bar .announcement-bar-text {
+        padding: 8px 0;
+    }
+
+    .iv-sticky-Promo-Bar .site-header-logo {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 490px) {
+    .iv-sticky-Promo-Bar .announcement-bar-text .scl-text a {
+        font-size: 13px;
+    }
+
+    .iv-sticky-Promo-Bar .site-header-logo {
+        top: 0px !important;
+    }
+
+    .iv-sticky-Promo-Bar .small-promo-icon svg {
+        max-width: 2rem;
+        max-height: 2rem;
+    }
+    .iv-sticky-top .site-header-logo,
+    .iv-sticky-Promo-Bar .site-header-logo {
+        left: 1rem !important;
+        transform: scale(.7);
+    }
+}
+
+@media (max-width: 375px) {
+    .iv-sticky-Promo-Bar .site-logo-image {
+        margin-left: inherit;
+    }
+    .iv-sticky-Promo-Bar .site-header-cart .icon-person {
+        display: block;
+    }
+
+    .iv-sticky-Promo-Bar .announcement-bar .small-promo {
+        margin-left: auto;
+    }
+
+}

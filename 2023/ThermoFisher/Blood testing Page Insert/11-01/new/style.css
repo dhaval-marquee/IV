@@ -1,0 +1,39 @@
+.blood_testing_Page .blood_testing.well[data-icon][data-icon-circle] .well-icon-wrapper{
+    display: none;
+}
+
+.blood_testing_Page .blood_testing.well[data-icon][data-icon-circle]{
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1673431996/ThermoFisher/Blood_testing_Page_Insert/bg_quote_purple_desktop.jpg') !important;
+    padding-top: 48px!important;
+}
+.blood_testing_Page .blood_testing.well[data-icon][data-icon-circle] h2{
+    font-size: 44px;
+    line-height: 54px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.blood_testing_Page .blood_testing.well[data-icon][data-icon-circle] h4{
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.blood_testing_Page .blood_testing.well[data-icon][data-icon-circle] .cmp-button.full-width .btn{
+    color: #493686;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+@media (max-width: 767.98px) {
+    .blood_testing_Page .blood_testing.well[data-icon][data-icon-circle]{
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1673431996/ThermoFisher/Blood_testing_Page_Insert/bg_quote_purple_mobile.jpg') !important;
+        padding-top: 24px!important;
+    }
+    .blood_testing_Page .blood_testing.well[data-icon][data-icon-circle] h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .blood_testing_Page .blood_testing.well[data-icon][data-icon-circle] h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+  }

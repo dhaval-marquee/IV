@@ -1,0 +1,107 @@
+@media (min-width: 769px) {
+    body #instaquote-carousel fieldset[data-step="1"] .slide-overlay {
+        position: relative;
+    }
+    body .startHere {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+        position: absolute;
+        top: 48%;
+        left: 0;
+        gap: 10px;
+        margin-left: 60px;
+        text-align: center;
+        pointer-events: none;
+    }
+    body .startHere h4 {
+        color: #ffce00;
+        font-size: 26px;
+        margin: 0;
+        font-weight: 500;
+        font-style: italic;
+    }
+    body .startHere img {
+        width: 100% !important;
+        max-width: 48px;
+    }
+    body .startHere .yellow-arrow {
+        display: none;
+    }
+    body .iv-custom-button-wrapper {
+        flex: 1 0 100%;
+        text-align: center;
+    }
+    body .instaquote-container .inner-container .iv-custom-button-wrapper .btn {
+        min-width: 150px;
+    }
+    body .instaquote-container .inner-container fieldset {
+        margin: 0 6px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1199.98px) {
+    body .startHere {
+        margin-left: 10px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1099.98px) {
+    body .startHere img {
+        max-width: 32px;
+    }
+    body .startHere h4 {
+        font-size: 22px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1023.98px) {
+    body .moving-from-to .inner-container {
+        max-width: 450px;
+    }
+}
+@media (min-width: 769px) and (max-width: 878.98px) {
+    body .startHere {
+        top: 52%;
+    }
+}
+@media (min-width: 769px) and (max-width: 835.98px) {
+    body .startHere {
+        top: 60%;
+    }
+}
+@media (max-width: 768.98px) {
+    body .moving-from-to .inner-container,
+    body .moving-from-to .inner-container fieldset {
+        max-width: 100%;
+    }
+    body .startHere {
+        width: 100%;
+        max-width: 200px;
+        top: inherit;
+        bottom: -33px;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        margin-left: -41px;
+    }
+    body .startHere h4 {
+        color: #ffce00;
+        font-size: 18px;
+        margin: 0;
+    }
+    body .startHere .arrow-icon {
+        display: none;
+    }
+    body #instaquote-carousel fieldset[data-step="1"] .slide-header {
+        position: relative;
+    }
+    body .startHere img {
+        position: absolute;
+        margin-top: -22px;
+        margin-left: 50px;
+        transform: rotate(272deg) scaleX(-1);
+        max-width: 32px;
+    }
+    body .moving-from-to .slide-footer .head2 {
+        line-height: 42px;
+    }
+}

@@ -1,0 +1,51 @@
+@media(max-width: 767.98px) {
+    body #offcanvas nav > ul> li:not(body #offcanvas nav > ul> li:first-child){
+        padding: 0 18px;
+    }
+    body #offcanvas nav > ul> li:first-child {
+        order: 1;
+    }
+    #offcanvas nav > ul> li:first-child a span span {
+        display: inline-block !important;
+    }
+    #offcanvas nav > ul> li:first-child a span span img{
+        max-width: 30px;
+        height: 100%;
+        width: 100%;
+    }
+    body #offcanvas nav > ul> li:first-child h3 {
+        background-color: #3ebade;
+        border: 1px solid #1e1e1e;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 0 18px;
+        margin-bottom: 24px;
+    }
+    body #offcanvas nav > ul> li:first-child h3 a {
+        font-size: 16px;
+    }
+    body #offcanvas nav > ul> li:nth-child(2) {
+        order: 7;
+    }
+    body #offcanvas nav > ul> li:nth-child(3) {
+        order: 3;
+    }
+    body #offcanvas nav > ul> li:nth-child(4) {
+        order: 4;
+    }
+    body #offcanvas nav > ul> li:nth-child(5) {
+        order: 5;
+    }
+    body #offcanvas nav > ul> li:nth-child(6) {
+        order: 6;
+    }
+    body #offcanvas nav > ul> li:nth-child(7) {
+        order: 2;
+    }
+    body #offcanvas nav > ul> li:nth-child(8) {
+        display: none;
+    }
+    body #offcanvas .navbar-nav h3 i {
+        color: #fff;
+        right: -13px;
+    }   
+}

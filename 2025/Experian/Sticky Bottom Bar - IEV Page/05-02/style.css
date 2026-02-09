@@ -1,0 +1,61 @@
+.stickyBottom_iv .stickyBottomBar {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 99999999;
+    background: linear-gradient(to bottom, #6d2077 0, #af1685 100%);
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.04) 0 -2px 1px, rgba(0, 0, 0, 0.04) 0 -4px 2px, rgba(0, 0, 0, 0.04) 0 -8px 4px, rgba(0, 0, 0, 0.04) 0 -16px 8px, rgba(0, 0, 0, 0.04) 0 -32px 16px;
+}
+
+.stickyBottom_iv .stickyBottomBar div {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+.stickyBottom_iv .stickyBottomBar .bottomBar-container {
+    width: 100%;
+    max-width: 1310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.stickyBottom_iv .stickyBottomBar a {
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    border: inherit;
+    border-radius: inherit;
+    -webkit-transition: all .30s ease-in-out;
+    transition: all .30s ease-in-out;
+    padding: 12px 30px;
+}
+body.stickyBottom_iv .stickyBottomBar a:is(:focus, :active) {
+    background: linear-gradient(to bottom, #6d2077 0, #af1685 100%);
+    color: #fff !important;
+}
+.stickyBottom_iv .stickyBottomBar a:hover {
+    color: #af1685 !important;
+}
+@media (min-width: 768px) {
+    .stickyBottom_iv form.exp-form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .stickyBottom_iv form.exp-form > .form-group.floatl {
+        max-width: 48.5%;
+        width: 100%;
+    }
+    .stickyBottom_iv form.exp-form > .form-group.floatl.text-area {
+        display: block !important;
+        max-width: 100%;
+    }
+}

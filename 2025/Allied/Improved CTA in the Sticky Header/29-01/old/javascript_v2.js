@@ -1,0 +1,13 @@
+function headerButton() {
+    if (!$('body').hasClass('sticky_header_iv')) {
+        $('body').addClass('sticky_header_iv');
+        $('.avl-header__button').text('Get a Quick Quote').addClass('header-button-iv');
+    }
+}
+
+var checkCondition = setInterval(function () {
+    if (typeof jQuery !== 'undefined' && $('body').length > 0) {
+        clearInterval(checkCondition);
+        headerButton();
+    }
+}, 100);

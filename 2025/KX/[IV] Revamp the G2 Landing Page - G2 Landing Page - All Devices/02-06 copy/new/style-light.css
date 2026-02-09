@@ -1,0 +1,249 @@
+.iv-database-section {
+    padding: 40px 0 0;
+    font-family: "Euclid Square";
+    background: url(https://res.cloudinary.com/ignite-visibility/image/upload/f_auto/KX/NavigationMenuTest/database-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iv-database-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 25px;
+}
+.iv-database-left h3 {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+    max-width: 492px;
+}
+.iv-database-left h3 span {
+    color: #FFCB22;
+}
+.iv-database-left p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+    max-width: 415px;
+}
+.iv-database-left {
+    width: 100%;
+    max-width: 570px;
+}
+.iv-database-right {
+    display: grid;
+    grid-template-columns: auto auto; 
+    width: 100%;
+} 
+.iv-box-item {
+    border-bottom: 2px solid #333;
+    margin-bottom: 13px;
+    padding-right: 6px;
+}
+.iv-box-item h3 {
+    color: #FFCB22;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 6px;
+}
+.iv-box-item p {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.iv-box-item:first-child p {
+    max-width: 310px;
+}
+.iv-box-item span {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    margin-bottom: 16px;
+}
+.iv-poweredby-section p img{
+	height: 100%;
+}
+.iv-poweredby-section p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+.iv-poweredby-section span {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+}
+.iv-get-started {
+    margin: 0 auto 20px !important;
+    color: #000;
+    font-family: "Public Sans", sans-serif !important;
+}
+#Business-Benefits, #KX-Ecosystem, section.related-posts, #G2-Report, .iv-built-environment, 
+.iv-enterprise-section, .iv-ultimate-book, .iv-optimized-section, .iv-g2-report-section{
+    display: none;
+}
+.iv-revamp-page section.tabbed-content-block ul.nav-tabs button {
+    border-radius: 2px !important;
+    border: 1px solid #000 !important;
+    background: #FFF;
+    color: #000;
+    text-align: center; 
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: normal;
+    padding: 8px !important;
+    width: 146px;
+}
+.iv-revamp-page .tabbed-content-block ul.nav-tabs button[aria-selected=true]::after,
+.iv-revamp-page .tabbed-content-block ul.nav-tabs li::before,
+.iv-revamp-page .tabbed-content-block .tab-wrapper .toggle-dropdown,
+.iv-revamp-page .tabbed-content-block .tabbed-content .scroll-right,
+.iv-revamp-page .tabbed-content-block .tabbed-content .scroll-left,
+.iv-revamp-page .tabbed-content-block .table-wrapper .table-container > p,
+.iv-table-arrows {
+    display: none;
+}
+.iv-revamp-page .tabbed-content-block ul.nav-tabs li{
+    display: inline-block;
+    margin: 0 8px 8px 0;
+    padding: 0;
+}
+.iv-revamp-page .tabbed-content-block ul.nav-tabs button[aria-selected=true] {
+    border: 1px solid #FFCB22 !important;
+    background: #FFCB22;
+    outline: none;
+    max-height: 37px; 
+}
+.iv-revamp-page section.tabbed-content-block ul.nav-tabs {
+    display: block;
+    text-align: center;
+}
+.iv-database-left > img {
+    width: 100%;
+    max-width: 340px;
+    margin-left: -20px;
+}
+
+
+/* Table slide */
+.iv-table-arrows {
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.iv-table-arrows button {
+    height: 36px;
+    width: 36px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    background-color: #3272D9; 
+    outline: none;
+    transition: .4s;
+    border: none;
+}
+.iv-prev-arrow:disabled, .iv-next-arrow:disabled {
+    cursor: not-allowed;
+    background-color: #A6B6D0;
+}
+
+/* V2 */
+.iv-revamp-page-v2 .iv-database-section {
+    padding: 40px 0;
+    background: #1A1D22 center center no-repeat url('https://kx.com/wp-content/themes/da-theme/assets/images/circuit-bg.png');
+}
+.iv-revamp-page-v2 .iv-database-left h3,
+.iv-revamp-page-v2 .iv-database-left p,
+.iv-revamp-page-v2 .iv-box-item p,
+.iv-revamp-page-v2 .iv-poweredby-section p,
+.iv-revamp-page-v2 .iv-poweredby-section span,
+.iv-revamp-page-v2 .iv-box-item span{
+    color: #fff;
+}
+.iv-revamp-page-v2 .iv-box-item{
+    border-color: #fff;
+}
+.iv-revamp-page-v2 .iv-database-left > img {
+    margin-left: 0;
+}
+
+@media (max-width: 991px) {
+    .iv-database-inner{
+        gap: 20px;
+    }
+    .iv-database-left h3, .iv-box-item h3{
+        font-size: 40px;
+    }
+    .iv-database-left p, .iv-poweredby-section p{
+        font-size: 18px;
+    }
+    .iv-box-item span{
+        font-size: 14px;
+    }
+    .iv-box-item p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .iv-revamp-page .tabbed-content-block .table-wrapper table:not(.table-condensed){
+        min-width: 100%;
+    }
+    .iv-table-arrows {
+        display: flex;
+        margin-bottom: 29px;
+    }
+    .iv-revamp-page .tabbed-content-block .table-wrapper {
+        margin-bottom: 16px;
+        padding: 0 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .iv-database-inner{
+        flex-wrap: wrap;
+    }
+    .iv-database-left{
+        max-width: 700px;
+    }
+    .iv-database-left p, .iv-poweredby-section p {
+        font-size: 16px;
+    }
+    .iv-database-left h3 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 420px) {
+    .iv-database-right{
+        grid-template-columns: auto;
+    }
+}

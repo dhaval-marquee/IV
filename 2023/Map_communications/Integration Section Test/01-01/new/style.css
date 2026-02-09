@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    visibility: hidden;
+}
+img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/* Add your test CSS here */

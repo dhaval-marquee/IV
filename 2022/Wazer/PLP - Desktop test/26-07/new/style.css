@@ -1,0 +1,299 @@
+@media (min-width: 1025px) {	
+	body {
+		visibility: hidden;
+	}
+	.iv_wazer_lp #PageContainer {
+		position: relative;
+		overflow-x: hidden;
+	}
+	
+	.iv_wazer_lp .features-section .container,
+	.iv_wazer_lp .technical-section .container,
+	.iv_wazer_lp .faq-section .container {
+		max-width: 1180px;
+		width: 100%;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+
+	.iv_wazer_lp .features-section h3,
+	.iv_wazer_lp .technical-section h3,
+	.iv_wazer_lp .faq-section h3 {
+		font-size: 24px;
+		font-weight: bold;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.iv_wazer_lp .shogun-root > .shg-fw {
+		display: none;
+	}
+	.iv_wazer_lp .hero-section {
+		background-color: #F1F1F1;
+		position: relative;
+		text-align: center;
+		height: 944px;
+	}
+	.iv_wazer_lp .hero-section h2 {
+		font-size: 34px;
+	}
+	.iv_wazer_lp .hero-content-top p {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.iv_wazer_lp .hero-content-top,
+	.iv_wazer_lp .hero-content-bottom {
+		padding-left: 3%;
+		padding-right: 3%;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		z-index: 1;
+	}
+	.iv_wazer_lp .hero-content-top {
+		margin-top: 130px;
+		top: 0;
+	}
+	.iv_wazer_lp .hero-content-top p {
+		line-height: normal;
+	}
+	.iv_wazer_lp .orange-btn {
+		background: #F5A328;
+		color: #FFFFFF;
+		display: inline-block;
+		padding: 10px;
+		max-width: 260px;
+		text-transform: uppercase;
+		width: 100%;
+	}
+	.iv_wazer_lp .orange-btn:hover {
+		background: #F99E3B;
+	}
+	.iv_wazer_lp .hero-content-bottom {
+		background-color: #FFFFFF;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		bottom: 0;
+	}
+	.iv_wazer_lp .hero-content-bottom h3 {
+		font-size: 24px;
+	}
+	.iv_wazer_lp #s-acd7d196-e0b4-4310-8dee-7d77b83a97f5 {
+		background-position: center left 28%;
+		min-height: 750px;
+	}
+	.iv_wazer_lp .hero-section h2,
+	.iv_wazer_lp .hero-section h3 {
+		font-weight: bold;
+	}
+	.iv_wazer_lp .hero-content-bottom p {
+		font-size: 16px;
+		max-width: 700px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.iv_wazer_lp .features-section {
+		background-color: #F1F1F1;
+		padding: 50px 0;
+	}
+	.iv_wazer_lp .features-section .container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.iv_wazer_lp .feature-item {
+		display: flex;
+		align-items: center;
+		max-width: 47.5%;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.iv_wazer_lp .feature-icon {
+		background-color: #F5A328;
+		border-radius: 50%;
+		box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, .5);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 80px;
+		width: 80px;
+	}
+	.iv_wazer_lp .feature-icon img {
+		border-radius: 50%;
+		max-width: 60px;
+		image-rendering: -webkit-optimize-contrast;
+	}
+	.iv_wazer_lp .feature-text {
+		padding-left: 15px;
+		width: calc(100% - 80px);
+	}
+	.iv_wazer_lp .technical-section {
+		padding: 50px 0;
+	}
+	.iv_wazer_lp .shogun-accordion {
+		border: 1px solid #F0F0F0;
+	}
+	.iv_wazer_lp .shogun-accordion-heading {
+		background: rgba(255, 255, 255, 0.07);
+		padding: 25px 10px 25px 25px;
+	}
+	.iv_wazer_lp .shogun-accordion-title {
+		color: #000000;
+		font-family: 'Montserrat';
+		font-weight: 300;
+		font-size: 18px;
+	}
+	.iv_wazer_lp .shogun-accordion-icon {
+		font-size: 40px;
+	}
+	.iv_wazer_lp .shogun-accordion-icon > span {
+		color: #FF0000;
+	}
+	.iv_wazer_lp .shogun-accordion-body {
+		background-color: #FFFFFF;
+		border-top: 1px solid #F0F0F0;
+		font-size: 13px;
+		font-weight: 400;
+		padding: 10px;
+	}
+	.iv_wazer_lp .technical-section table {
+		margin-bottom: 0;
+	}
+	.iv_wazer_lp .technical-section table td {
+		border: none;
+		padding: 8px;
+		width: 50%;
+	}
+	.iv_wazer_lp .faq-section {
+		padding: 50px 0;
+	}
+	.iv_wazer_lp .faq-section h3 {
+		position: relative;	
+	}
+	.iv_wazer_lp .faq-section .container > h3:after {
+		background: #FF9000;
+		content: '';
+		display: block;
+		margin: 25px auto 0;
+		height: 3px;
+		width: 45px;
+	}
+	.iv_wazer_lp .faq-header {
+		border-bottom: solid 1px #DDDDDD;
+		cursor: pointer;
+		padding: 17px 20px;
+	}
+	.iv_wazer_lp .faq-header:hover {
+		background: #EFEFEF;
+	}
+	.iv_wazer_lp .faq-header .faq-title {
+		color: #222222;
+		font-family: sofia-pro;
+		font-size: 16px;
+		letter-spacing: .035em;
+		padding-left: 15px;
+	}
+	.iv_wazer_lp .faq-header .faq-title:before {
+		content: '+';
+		color: #AAAAAA;
+		float: right;
+		font-family: 'Open Sans';
+		font-size: 150%;
+		font-weight: 100;
+		line-height: 120%;
+	}
+	.iv_wazer_lp .faq-header.active .faq-title:before {
+		content: '-';
+		line-height: 100%;
+	}
+	.iv_wazer_lp .faq-content {
+		display: none;
+		color: #737373;
+		font-size: 15px;
+		font-weight: 300;
+		letter-spacing: .01em;
+		line-height: 1.6em;
+		padding: 17px 20px;
+	}
+	.iv_wazer_lp .faq-content *:not(h1):not(h2):not(h3) {
+		word-wrap: break-word;
+	}
+	.iv_wazer_lp .faq-content > *:first-child {
+		margin-top: 0;
+	}
+	.iv_wazer_lp .faq-content h3,
+	.iv_wazer_lp .faq-content p {
+		white-space: pre-wrap;
+	}
+	.iv_wazer_lp .faq-content h3 {
+		font-family: sofia-pro;
+		font-size: 15px;
+		font-weight: 500;
+		letter-spacing: .1em;
+		line-height: 1.5em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+	}
+	.iv_wazer_lp .faq-content p {
+		margin: 1em 0;
+	}
+	.iv_wazer_lp .faq-content p:first-child {
+		margin-top: 0;
+	}
+	.iv_wazer_lp .faq-content p:last-child {
+		margin-bottom: 0;
+	}
+	.iv_wazer_lp .faq-content ul {
+		margin: 1em 0;
+		padding-left: 15px;
+	}
+	.iv_wazer_lp .faq-content ul ul {
+		margin: 0;
+	}
+	.iv_wazer_lp .faq-content ul li > * {
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+	.iv_wazer_lp .faq-content ul li {
+		font-size: 100%;
+		margin-bottom: 0;
+		padding-top: 2.5px;
+		padding-bottom: 2.5px;
+	}
+	.iv_wazer_lp .faq-content strong {
+		font-weight: normal;
+	}
+	.iv_wazer_lp .faq-content a {
+		border-bottom: 1px solid rgba(0,0,0,.1);
+		color: #9C9C9C;
+		padding-bottom: 0.1em;
+		transition: border-color .15s ease-out, color .15s ease-out;
+	}
+	.iv_wazer_lp .faq-content a:hover {
+		border-bottom-color: rgba(0,0,0,.5);
+		color: rgba(156,156,156,.6);
+	}
+	.iv_wazer_lp .sticky-bottom {
+		background-color: #CFCFCF;
+		padding: 5px;
+		position: fixed;
+		left: 0;
+		bottom: -54px;
+		text-align: center;
+		transition: all 0.3s;
+		width: 100%;
+		z-index: 99;
+	}
+	.iv_wazer_lp .sticky-bottom.show {
+		bottom: 0;
+	}
+
+	.iv_wazer_lp .footer-cols {
+		max-width: 1140px;
+		width: 100%;
+		border-top: 0;
+		padding: 0 0 70px;
+		margin: 0 auto;
+	}
+}

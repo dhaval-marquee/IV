@@ -1,0 +1,32 @@
+
+body {
+	visibility: hidden;
+}
+.iv_lawsuit_home div[class*="leadforms-bubble-avatar-img-wrapper"] strong {
+	font-size: 16px;
+	font-weight: bold;
+}
+.iv_lawsuit_home div[class*="leadforms-form-title"] {
+	display: none;
+}
+.iv_lawsuit_home div[class*="leadforms-form-header-modal-template"] {
+	padding: 2px 0 3px;
+}
+.iv_lawsuit_home div[class*="leadforms-bubble-avatar__"] {
+	padding: 0;
+}
+.iv_lawsuit_home button#leadforms-submit-button {
+	font-size: 0 !important;
+	letter-spacing: normal;
+}
+.iv_lawsuit_home button#leadforms-submit-button:after {
+	font-size: 22px;
+	line-height: 28.6px;
+	font-weight: 700;
+}
+.iv_lawsuit_home button#leadforms-submit-button[label="Continue »"]:after {
+	content: "Complete Your Evaluation »";
+}
+.iv_lawsuit_home button#leadforms-submit-button[label="Get Your Evaluation »"]:after {
+	content: "Submit Your Evaluation »";
+}

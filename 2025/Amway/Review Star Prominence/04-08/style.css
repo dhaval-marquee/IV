@@ -1,0 +1,39 @@
+.reviewStar_iv .js-query-result-item .amw-panel {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.reviewStar_iv button + #mobileWrapper  {
+    display: none !important;
+}
+@media (max-width: 1181.98px) {
+    .reviewStar_iv .js-query-result-item .amw-panel {
+        flex-wrap: wrap;
+    }
+    .reviewStar_iv #mobileWrapper {
+        border-top: 1px solid #b5b5b5;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: left;
+        padding-top: 15px;
+        margin-top: 15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024.98px) {
+    .reviewStar_iv #mobileWrapper {
+        flex-direction: row-reverse;
+    }
+}
+@media (max-width: 767.98px) {
+    .reviewStar_iv #mobileWrapper {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .reviewStar_iv #mobileWrapper button {
+        padding-left: 0;
+    }
+}

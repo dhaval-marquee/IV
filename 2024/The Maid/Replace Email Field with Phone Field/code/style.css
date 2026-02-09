@@ -1,0 +1,11 @@
+.maid_mobile_iv #gform_9 #field_9_4 {
+    display: none;
+}
+
+.maid_mobile_iv #gform_9 #field_14_4 input {
+    position: relative;
+    height: 58px;
+    background: var(--white);
+    border: 1px solid var(--headline-gold);
+    border-radius: 5px;
+}

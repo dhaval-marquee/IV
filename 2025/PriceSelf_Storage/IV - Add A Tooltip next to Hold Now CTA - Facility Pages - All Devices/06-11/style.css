@@ -1,0 +1,78 @@
+.iv-Tooltip .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    opacity: 1;
+    z-index: 0;
+}
+
+.iv-Tooltip .info-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid #0a1f8f;
+    color: #0a1f8f;
+    line-height: 1;
+}
+
+.iv-Tooltip .tooltip-box {
+    visibility: hidden;
+    opacity: 0;
+    width: 290px;
+    background: #fff;
+    color: #333;
+    text-align: left;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 22px;
+    left: 0;
+    font-size: 13px;
+    line-height: 1.4;
+    transition: opacity 0.2s ease;
+    transform: translate(0%, -100%);
+    top: 10px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.iv-Tooltip .tooltip:hover .tooltip-box,
+.iv-Tooltip .tooltip:focus-within .tooltip-box {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 999.98px) {
+    .iv-Tooltip .tooltip-box {
+        transform: translateX(-50%);
+        top: 35px;
+        margin-left: -5px;
+        width: 250px;
+    }
+}
+
+.iv-Tooltip .holdNowButtonWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.iv-Tooltip .holdNowButtonWrapper a {
+    margin-bottom: 0 !important;
+}
+@media (max-width: 767.98px) {
+    .iv-Tooltip .holdNowButtonWrapper a {
+        width: calc(100% - 60px) !important;
+    }
+    .iv-Tooltip .tooltip-box {
+        transform: translateX(-85%);
+        top: 40px;
+        width: 260px;
+        margin-left: 0px;
+    }
+}

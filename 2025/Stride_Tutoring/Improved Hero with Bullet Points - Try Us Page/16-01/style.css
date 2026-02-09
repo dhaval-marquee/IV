@@ -1,0 +1,20 @@
+.hero_iv .main-content .hero-sec .vc_column-inner{
+	    padding-right: 10px;
+    padding-left: 10px;
+}
+.hero_iv .hero-sec .nectar-highlighted-text h1{
+	text-align: left !important;
+}
+
+.hero_iv .hero-content .divider-wrap{
+	display: none;
+}
+.hero_iv .hero-content .nectar-responsive-text p{
+	font-size: 17px !important;
+}
+
+@media (max-width:767.98px){
+	.hero_iv .stride-efitf {
+		display: none;
+	}
+}

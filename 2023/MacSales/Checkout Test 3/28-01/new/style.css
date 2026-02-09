@@ -1,0 +1,31 @@
+.tableContainer.privacydiv1+span,
+.tableContainer.privacydiv1+span+.cl_line10t{
+    display: none;
+}
+.checkoutGeneralForm_inner,
+.checkoutGeneralForm_inner1{
+    display: flex;
+    width: 100%;
+}
+/* .checkoutGeneralForm_inner .firstName_wrapper,
+.checkoutGeneralForm_inner .firstName_wrapper+.ncrt_cm_s_field_block_50_last,
+.checkoutGeneralForm_inner .bPhone_wrapper,
+.checkoutGeneralForm_inner .bPhone_wrapper+.ncrt_cm_s_field_block_20,
+.checkout_test .checkoutGeneralForm_inner1 input{
+    width: 50%;
+} */
+
+
+.form_stacked [class*="ncrt_cm_s_field_block_"]{
+    /* display: inherit; */
+    width: inherit;
+}
+.ncrt_acc_bil #sFirstName, .ncrt_acc_bil #bFirstName, #newEmailAddy, #bAddress1, #sAddress1,#bLastName,
+.form_stacked .ncrt_cm_s_field_block_20 [for="bPhone"] +input,
+.form_stacked .ncrt_cm_s_field_block_20 [for="bPhoneExt"] +input,
+.form_stacked .ncrt_cm_s_field_block_20 #bPhoneExt,
+.form_stacked [class*="ncrt_cm_s_field_block_"].email_wrapper,
+.form_stacked [class*="ncrt_cm_s_field_block_"].email_wrapper #email,
+.form_stacked [class*="ncrt_cm_s_field_block_"] #bCompany{
+    width: 100%;
+}

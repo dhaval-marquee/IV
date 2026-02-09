@@ -1,0 +1,7 @@
+Task link : https://ignite-visibility-team.monday.com/boards/3082466737/pulses/7119917660?notification=4914453707
+
+Test URLs
+Desktop: https://app.vwo.com/#/test/ab/84/edit/variations/
+Mobile: https://app.vwo.com/#/test/ab/85/edit/variations/
+
+Cloudinary link: https://console.cloudinary.com/console/c-46e43fdbf721a42b326e1eb41eaf26/media_library/folders/c5a1326d118904f2c42859eded20173832?view_mode=mosaic

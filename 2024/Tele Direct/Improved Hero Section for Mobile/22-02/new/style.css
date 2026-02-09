@@ -1,0 +1,24 @@
+@media (max-width:730.98px) {
+    .hero_iv .td_hero_section {
+        background-image: none !important;
+    }
+    .hero_iv .td_hero_section .trustpilot-widget {
+        display: none;
+    }
+    .hero_iv .td_hero_section .ow-button-base a {
+        display: flex;
+        justify-content: center;
+        max-width: 350px;
+        font-size: 14px !important;
+        margin: 0 auto;
+    }
+    .hero_iv .trustpilotWrapper {
+        display: flex;   
+        align-items: center;
+    }
+    .hero_iv .trustpilotWrapper svg.trustpilotLogo {
+        width: 100%;
+        max-width: 85px;
+        margin-right: 15px;
+    }    
+}

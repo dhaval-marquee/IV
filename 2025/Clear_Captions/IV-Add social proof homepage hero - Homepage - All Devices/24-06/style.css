@@ -1,0 +1,56 @@
+.iv-review .iv-review-text {
+    color: #000;
+    margin: 0;
+}
+
+.iv-review .iv-review-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.iv-review .iv-review-text-part {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.iv-review .iv-review-section {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #dfdfdf;
+}
+
+.iv-review .iv-review-star {
+    max-width: 85px;
+    margin: 0 !important;
+}
+
+.iv-review .iv-rating p {
+    margin: 0;
+    color: #383636;
+    font-size: 14px;
+}
+
+@media (max-width:991px) {
+    .iv-review .iv-review-wrapper {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 640px) {
+    .iv-review .iv-review .iv-review-text {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .iv-review .iv-review-wrapper {
+        gap: 0px;
+    }
+
+    .iv-review .iv-review-section {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+}

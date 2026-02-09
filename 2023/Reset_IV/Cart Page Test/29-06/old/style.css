@@ -1,0 +1,25 @@
+@media (max-width: 767.98px) {
+    .cart_iv .resident-delivery-wrap[style="display:none;"] + #hasCoupon,
+    .cart_iv #hasCoupon + #dcodeOuterWrapper,
+    .cart_iv #intercom-container,
+    .cart_iv #dcodeOuterWrapper,
+    .cart_iv .hb-bar_wrap,
+    .cart_iv div[class*="jqmooa-12rl9af"] {
+        display: none !important;
+    }
+    .cart_iv #hasCoupon {
+        text-align: right;
+    }
+    .cart_iv #hasCoupon a {
+        color: #7d7d7d;
+    }
+    .cart_iv #cartform .field--required label {
+        position: relative;
+        padding-left: 13px;
+    }
+    .cart_iv #cartform .field--required label:after {
+        position: absolute;
+        left: 0;
+        top: 3px;
+    }
+}

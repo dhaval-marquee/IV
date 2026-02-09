@@ -1,0 +1,6 @@
+body .slider-left ul.vertical-menu > li:nth-child(n+13) {
+    display: none;
+}
+body .slider-left .sd-left ul li > a {
+    pointer-events: none;
+}

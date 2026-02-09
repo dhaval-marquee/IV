@@ -1,0 +1,28 @@
+
+@media screen and (max-width: 740.98px) {
+    .product_iv .product-meta {
+        border-bottom: none;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .product_iv .product-meta__title {
+        margin-bottom: 20px;
+    }
+    .product_iv .product-meta__price-list-container {
+        margin-top: 5px;
+    }
+    .product_iv .product-form__payment-container {
+        grid-gap: 0;
+        gap: 0;
+        margin-top: 0;
+    }
+    .product_iv .product-form__option-info {
+        display: none;
+    }
+    .product_iv .product-form__add-button {
+        --primary-button-background: 27 157 44;
+    }
+    .product_iv .product-form__payment-container .product-form__add-button {
+        box-shadow: 5px 5px 10px #848484;
+    }
+}

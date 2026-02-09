@@ -1,0 +1,9 @@
+@media only screen and (max-width: 767px) {
+    .iv-booking-form-cta .page-template-page-book-online #cid_2 button.submit-button {
+        font-size: 18px;
+    }
+    .iv-booking-form-cta .form-buttons-wrapper {
+    	padding-left: 0;
+    	padding-right: 0;
+	}
+}

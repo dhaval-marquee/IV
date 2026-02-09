@@ -1,0 +1,139 @@
+.iv-hero-image section.shopify-section--slideshow:first-child slideshow-carousel {
+    display: none;
+}
+.iv-hero-image .iv-hero-slider {
+    position: relative;
+    overflow: hidden;
+}
+.iv-hero-image .iv-hero-slider img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.iv-hero-image .iv-hero-content {
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    padding: 20px;
+    text-align: center;
+}
+.iv-hero-image .iv-hero-content .iv-eyebrow {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+.iv-hero-image .iv-hero-left .iv-eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    margin-bottom: 20px;
+}
+.iv-hero-image .iv-hero-right-top .iv-eyebrow,
+.iv-hero-image .iv-hero-right-bottom .iv-eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    margin-bottom: 7px;
+}
+.iv-hero-image .iv-hero-content h2 {
+    font-family: Montserrat, sans-serif;
+    line-height: normal;
+}
+.iv-hero-image .iv-hero-left h2 {
+    font-size: 33px;
+    letter-spacing: 0.17em;
+    margin-bottom: 32px;
+}
+.iv-hero-image .iv-hero-right-top h2,
+.iv-hero-image .iv-hero-right-bottom h2 {
+    font-size: 19px;
+    letter-spacing: 0.125em;
+    margin-bottom: 20px;
+}
+.iv-hero-image .iv-hero-content .button {
+    --button-background: 255 255 255;
+    --button-outline-color: 255 255 255;
+    --button-text-color: 255 255 255;
+    background-image: var(--hover-gradient), var(--initial-gradient);
+    background-position: var(--hover-background-position);
+}
+.iv-hero-image .iv-hero-content .button:hover {
+    background-position: var(--initial-background-position);
+    color: rgb(41 41 41);
+}
+.iv-hero-image .slick-dots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem 1rem;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+    inset-block-end: 1.25rem;
+    inset-inline-end: 1.25rem;
+    z-index: 1;
+}
+.iv-hero-image .slick-dots > li {
+    background: #fff;
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+    opacity: .4;
+    transition: opacity .25s, background .25s;
+    height: .375rem;
+    width: .375rem;
+}
+.iv-hero-image .slick-dots > li.slick-active {
+    opacity: 1;
+}
+.iv-hero-image .slick-dots > li > button {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .iv-hero-image .iv-hero-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+    }
+    .iv-hero-image .iv-hero-left {
+        grid-row: 1 / 3;
+        grid-column: 1 / 2;
+    }
+    .iv-hero-image .iv-hero-right-top {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .iv-hero-image .iv-hero-right-bottom {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .iv-hero-image .iv-hero-left img {
+        height: 80vh;
+    }
+    .iv-hero-image .iv-hero-right-top img,
+    .iv-hero-image .iv-hero-right-bottom img {
+        height: calc(80vh / 2);
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .iv-hero-image .iv-hero-wrapper {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .iv-hero-image .iv-hero-content .iv-eyebrow {
+        font-size: 14px;
+        letter-spacing: 0.2em;
+        margin-bottom: 20px;
+    }
+    .iv-hero-image .iv-hero-content h2 {
+        font-size: 26px;
+        letter-spacing: 0.15em;
+        margin-bottom: 38px;
+    }
+}

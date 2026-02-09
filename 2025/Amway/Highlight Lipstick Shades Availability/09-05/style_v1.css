@@ -1,0 +1,12 @@
+.amw-plp-item__content::before {
+    background-color: #38539a;
+    content: '10 Shades Available!';
+    clip-path: polygon(0 0, 100% 0, 126px 100%, 0% 100%);
+    color: #FFF;
+    font-size: 12px;
+    line-height: normal;
+    padding: 8px 25px 8px 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

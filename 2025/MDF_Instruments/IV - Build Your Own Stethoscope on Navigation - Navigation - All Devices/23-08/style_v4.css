@@ -1,0 +1,29 @@
+.button.pink-button {
+    --initial-gradient: linear-gradient(rgb(238 17 97), rgb(238 17 97));
+        border: 1px solid rgb(238 17 97);
+}
+@media screen and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+	.features--button-transition :is(.button.pink-button,.shopify-challenge__button,
+	.shopify-payment-button__button--unbranded):not([disabled]):hover {
+		border-color: rgb(238 17 97);
+	}
+}
+.pink-button .header-sidebar__linklist-button {
+    padding: 0 !important;
+    justify-content: center;
+}
+
+@media (max-width: 999px) {
+    .header-sidebar__linklist .pink-button {
+        margin-top: 10px;
+    }
+    .pink-button {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+    .header-sidebar__linklist .pink-button {
+        padding: 10px;
+    }
+}

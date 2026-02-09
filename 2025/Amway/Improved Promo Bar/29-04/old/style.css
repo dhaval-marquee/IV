@@ -1,0 +1,88 @@
+.iv-promobar #skip-to-content .js-value-proposition-banner-container {
+    background-color: #11874c !important;
+}
+
+.iv-promobar #skip-to-content .js-value-proposition-banner-container .amw-full-width-rich-text__banner,
+.iv-promobar #skip-to-content .js-value-proposition-banner-container .slick-list .slick-track {
+    width: 100%;
+}
+
+.iv-promobar #skip-to-content .js-value-proposition-banner-container .amw-full-width-rich-text__carousel-wrapper {
+    padding: 0;
+    max-width: 100%;
+}
+
+.iv-promobar #skip-to-content .js-value-proposition-banner-container .amw-full-width-rich-text__banner>div>span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-height: auto;
+    width: 100%;
+}
+
+.iv-promobar #skip-to-content .js-value-proposition-banner-container .amw-full-width-rich-text__banner>div>span p {
+    margin: 0;
+}
+
+.iv-promobar #skip-to-content .js-value-proposition-banner-container .amw-full-width-rich-text__banner>div>span p{
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+    font-weight: 500;
+}
+
+.iv-promobar #skip-to-content .js-value-proposition-banner-container .amw-full-width-rich-text__banner {
+    width: 100%;
+    min-height: auto;
+}
+
+.iv-promobar #skip-to-content .js-value-proposition-banner-container .slick-list {
+    height: auto !important;
+}
+
+.iv-promobar-btn {
+    background-color: #fff;
+    padding: 6px 25px;
+    color: #11874c !important;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    border: 1px solid transparent;
+    transition: .4s;
+    white-space: nowrap;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.iv-promobar-btn:hover {
+    background-color: #11874c;
+    color: #fff !important;
+    border-color: #fff;
+}
+
+.iv-promobar #skip-to-content .js-value-proposition-banner-container .container>button {
+    display: none;
+}
+
+
+/* V2 */
+.iv-promobar-v2 #skip-to-content .js-value-proposition-banner-container.iv-promobar-sticky {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+    .iv-promobar #skip-to-content .js-value-proposition-banner-container .amw-full-width-rich-text__banner>div>span p:first-child {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .iv-promobar-btn {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+}

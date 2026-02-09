@@ -1,0 +1,3 @@
+body div[role="dialog"] footer form:has(#cart-discount-input) {
+    display: none;
+}

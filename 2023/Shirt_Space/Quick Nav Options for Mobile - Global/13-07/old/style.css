@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+    #secondNav {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #secondNav li {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    #secondNav li a {
+        text-decoration: none;
+    }
+}

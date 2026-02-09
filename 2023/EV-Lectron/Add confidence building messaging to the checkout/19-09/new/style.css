@@ -1,0 +1,23 @@
+.checkout_iv .grid-wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.checkout_iv .grid-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 232px;
+}
+.checkout_iv .grid-icon {
+    width: 40px;
+}
+.checkout_iv .grid-icon img {
+    display: block;
+}
+.checkout_iv .grid-text {
+    flex: 1;
+    font-weight: bold;
+}

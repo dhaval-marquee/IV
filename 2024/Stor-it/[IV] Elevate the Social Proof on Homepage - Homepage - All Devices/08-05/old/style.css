@@ -1,0 +1,19 @@
+body .splide__slide img {
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+body .splide__arrow {
+    background: transparent;
+}
+
+@media (min-width: 768px) {
+    body .splide__arrow--prev {
+        left: -40px;
+    }
+    
+    body .splide__arrow--next {
+        right: -40px;
+    }
+}
+

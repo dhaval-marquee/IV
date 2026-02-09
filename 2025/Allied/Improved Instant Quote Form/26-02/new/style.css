@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+    .iv-instant-quote .ob-quote__appointment-box > h2 {
+        font-size: 24px;
+    }
+    .iv-instant-quote .ob-bg .ob-quote__appointment-box .ob-quote__paragraph {
+        font-size: 15px;
+    }
+}

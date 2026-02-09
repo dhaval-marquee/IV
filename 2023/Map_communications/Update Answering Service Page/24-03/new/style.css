@@ -1,0 +1,600 @@
+/* Common code */
+@font-face{
+    font-family: 'Inter';
+    src: url("https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Light.eot");
+    src: url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Light.woff') format('woff'),
+        url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Light.ttf') format('truetype'),
+        url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Light.otf') format('opentype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal
+}
+@font-face{
+    font-family: 'Inter';
+    src: url("https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Regular.eot");
+    src: url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Regular.woff') format('woff'),
+        url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Regular.ttf') format('truetype'),
+        url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal
+}
+@font-face{
+    font-family: 'Inter';
+    src: url("https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Medium.eot");
+    src: url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Medium.woff') format('woff'),
+        url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Medium.ttf') format('truetype'),
+        url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal
+}
+@font-face{
+    font-family: 'Inter';
+    src: url("https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-SemiBold.eot");
+    src: url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-SemiBold.woff') format('woff'),
+        url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-SemiBold.ttf') format('truetype'),
+        url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal
+}
+@font-face{
+    font-family: 'Inter';
+    src: url("https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Bold.eot");
+    src: url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Bold.woff') format('woff'),
+        url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Bold.ttf') format('truetype'),
+        url('https://res.cloudinary.com/ignite-visibility/raw/upload/mapcommunications/fonts/inter_Inter-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal
+}
+
+
+body { 
+    visibility: hidden;
+    font-family: 'Inter', Helvetica,Arial,sans-serif;
+    line-height: normal;
+    font-style: normal;
+}
+.asp_iv .top-wrapper,
+.asp_iv #inner-content,
+.asp_iv .start-trial-section,
+.asp_iv .testimonial-section {
+    display: none;
+}
+img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.asp_iv #content {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.asp_iv section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.asp_iv section .wrap.cf {
+    max-width: 1430px;
+    width: 100%;
+    padding: 0 30px;
+}
+.asp_iv section h2,
+.asp_iv section h3,
+.asp_iv section h4,
+.asp_iv section h5 {
+    font-family: 'Inter', Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    text-transform: inherit;
+    letter-spacing: normal;
+
+}
+.asp_iv section h2 {
+    font-size: 48px;
+    line-height: 58px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.asp_iv section h3 {
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 14px;
+    margin-bottom: 9px;
+}
+.asp_iv section h5 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.asp_iv section p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+}
+.asp_iv ul.three_column_card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -30px;
+}
+.asp_iv ul.three_column_card li {
+    max-width: 33.33%;
+    width: 100%;
+    text-align: center;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.asp_iv ul.three_column_card li .icon_wrapper {
+    min-height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+.asp_iv .footer {
+    font-family: 'proxima-nova', Helvetica,Arial,sans-serif;
+}
+
+@media only screen and (max-width: 1439.98px) {
+    .asp_iv section h3 {
+        font-size: 28px;
+    }
+    .asp_iv section h5 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .asp_iv section {
+        padding-top: 62px;
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .asp_iv section h2 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .asp_iv section h3 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+}
+
+@media only screen and (max-width: 1029.98px) {
+    .asp_iv section h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .asp_iv ul.three_column_card li {
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .asp_iv section .wrap.cf {
+        padding: 0 15px;
+    }
+    .asp_iv section h2 {
+        font-size: 32px;
+    }
+    .asp_iv section h3 {
+        font-size: 23px;
+    }
+    .asp_iv section h5 {
+        font-size: 21px;
+    }
+    .asp_iv ul.three_column_card {
+        margin: 0 -15px;
+    }
+    .asp_iv ul.three_column_card li {
+        padding: 0 15px;
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    .asp_iv ul.three_column_card li {
+        max-width: 100%;
+    }
+}
+/* Common code over */
+
+
+
+
+/* Header Section over */
+/* @media only screen and (min-width: 768px) {
+    .asp_iv .header {
+        padding: 15px 0 0;
+        background: #292c38;
+        height: auto;
+    }
+    .asp_iv .header .top-buttons {
+        margin-bottom: 15px;
+    }
+    .asp_iv .header .cf.clear {
+        background: #333e4b;
+    }
+} */
+
+/* @media only screen and (min-width: 768px) and (max-width: 1029.98px) {
+    .asp_iv .header h4 {
+        padding-top: 4px;
+    }
+} */
+/* Header Section over */
+
+/* Hero Section */
+.asp_iv .hero_section {
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mapcommunications/ASP_redesign/Hero_Image_large.jpg');
+    background-size: 2174px 847px;
+    background-repeat: no-repeat;
+    background-position: top 0 right -323px;
+    min-height: 700px;
+    padding-top: 133px;
+    padding-bottom: 0;
+    position: relative;
+}
+.asp_iv .hero_section .hero_inner {
+    position: relative;
+    min-height: 714px;
+    max-width: 666px;
+    width: 100%;
+    padding: 130px 0;
+}
+.asp_iv .hero_section h1 {
+    font-size: 64px;
+    line-height: 77px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 19px;
+    margin-bottom: 7px;
+}
+.asp_iv .hero_section p {
+    color: #fff;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.asp_iv .hero_section a.orange-btn {
+    font-family: 'Inter', Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: inherit;
+    max-width: 271px;
+    width: 100%;
+    padding: 16px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .asp_iv .hero_section .wrap.cf {
+        max-width: 1357px;
+    }
+}
+@media only screen and (min-width: 1800.98px) {
+    .asp_iv .hero_section {
+        background-position: top center;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 1199.98px) {
+    .asp_iv .hero_section {
+        background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mapcommunications/ASP_redesign/Hero_Image.jpg');
+        background-size: cover;
+        background-position: top 0 right -200px;
+    }
+    .asp_iv .hero_section .hero_inner {
+        max-width: 600px;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 1029.98px) {
+    .asp_iv .hero_section:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.5;
+        pointer-events: none;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .asp_iv .hero_section {
+        min-height: auto;
+        background-position: center top;
+        padding: 125px 0;
+    }
+    .asp_iv .hero_section .hero_inner {
+        padding: 0;
+        min-height: inherit;
+        text-align: center;
+        max-width: 100%;
+    }
+    .asp_iv .hero_section h1 {
+        font-size: 48px;
+        line-height: 54px;
+        margin-top: 0;
+    }
+    .asp_iv .hero_section p {
+        text-align: center;
+        line-height: 30px;
+        margin: 30px auto;
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    .asp_iv .hero_section h1 {
+        font-size: 44px;
+    }
+    .asp_iv .hero_section a.orange-btn {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 359.98px) {
+    .asp_iv .hero_section h1 {
+        font-size: 39px;
+    }
+}
+/* Hero Section over */
+
+/* Complementary Section */
+@media only screen and (min-width: 1200px) {
+    .asp_iv .complementary_section h2 {
+        margin-top: 20px;
+    }
+    .asp_iv ul.three_column_card li p {
+        max-width: 321px;
+    }
+}
+/* Complementary Section Over */
+
+/* How it Works */
+.asp_iv .how_works {
+    background-color: #7F8D9F;
+}
+.asp_iv .how_work_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 43px -15px 0;
+}
+.asp_iv .how_works h2 {
+    color: #fff;
+}
+.asp_iv .how_work_content {
+    position: relative;
+    text-align: center;
+    max-width: 33.33%;
+    width: 100%;
+    padding: 0 15px;
+}
+.asp_iv .how_work_content .number {
+    display: flex;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    background-color: #288DBC;
+    border-radius: 100px;
+    width: 62px;
+    height: 62px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto 14px;
+}
+.asp_iv .how_work_content h3 {
+    color: #fff;
+}
+.asp_iv .how_work_content p {
+    color: #fff;
+    max-width: 360px;
+    width: 100%;
+}
+.asp_iv .how_work_content:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 29px;
+    left: 59.8%;
+    border-top: 5px dashed #fff;
+    z-index: 9;
+    width: 80%;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1199.98px) {
+    .asp_iv .how_work_content:not(:last-child)::after {
+        left: 64%;
+        width: 72%;
+    }
+}
+
+@media (max-width: 1029.98px) {
+    .asp_iv .how_work_content:not(:last-child)::after {
+        left: 67%;
+        width: 65%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .asp_iv .how_work_wrapper {
+        display: block;
+        margin-top: 20px;
+    }
+    .asp_iv .how_work_content {
+        padding: 10px 15px 30px 15px;
+        max-width: 100%;
+    }
+    .asp_iv .how_work_content:not(:last-child)::after {
+        width: 0px;
+        height: 30px;
+        border-right: 4px dashed #fff;
+        top: auto;
+        bottom: 6px;
+        left: 50%;
+        margin-left: -2px;
+        display: none;
+    }
+    .asp_iv .how_work_content .number {
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    .asp_iv .how_work_content p {
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* How it Works over */
+
+/* Industries Section */
+.asp_iv section.industries_section h2 + p {
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 28px auto 40px;
+}
+.asp_iv .industries_section h3 {
+    min-height: 78px;
+}
+.asp_iv .industries_section ul.three_column_card li {
+    margin-bottom: 25px;
+}
+@media only screen and (min-width: 1200px) {
+    .asp_iv section.industries_section h2 {
+        margin-top: 34px;
+    }
+    .asp_iv ul.three_column_card li p {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 1199.98px) {
+    .asp_iv section.industries_section h2 + p {
+        margin: 20px auto;
+    }
+    .asp_iv .industries_section h3 {
+        min-height: 64px;
+    }
+}
+@media only screen and (max-width: 1029.98px) {
+    .asp_iv .industries_section h3 {
+        min-height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .asp_iv .industries_section ul.three_column_card li {
+        padding: 0 30px;
+    }
+}
+/* Industries Section Over */
+
+/* FAQ Section */
+.asp_iv .faq_section ul {
+    margin-top: 44px;
+    margin-bottom: 72px;
+}
+.asp_iv .faq_section li {
+    border-bottom: 1px solid #000;
+    padding: 12px 17px;
+    margin-bottom: 22px;
+}
+.asp_iv .faq_section .faq_title {
+    position: relative;
+    cursor: pointer;
+    padding: 10px 50px 10px 0;
+}
+.asp_iv .faq_section .faq_title h5 {
+    text-align: left;
+    margin: 0;
+}
+.asp_iv .faq_section .faq_icon {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    right: 10px;
+    top: 14px;
+}
+.asp_iv .faq_section .faq_icon:before ,
+.asp_iv .faq_section .faq_icon:after {
+    content: "";
+    position: absolute;
+    -webkit-transition: -webkit-transform .25s ease-out;
+    transition: -webkit-transform .25s ease-out;
+    -o-transition: transform .25s ease-out;
+    transition: transform .25s ease-out;
+    transition: transform .25s ease-out,-webkit-transform .25s ease-out;
+    background-color: #00529C;
+    border-radius: 20%;
+}
+.asp_iv .faq_section .faq_icon:before {
+    top: 0;
+    left: 50%;
+    width: 0.25rem;
+    height: 100%;
+    margin-left: -0.125rem;
+}
+.asp_iv .faq_section .faq_icon:after {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 0.25rem;
+    margin-top: -0.125rem;
+}
+.asp_iv .faq_section .faq_title.active .faq_icon:before {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.asp_iv .faq_section .faq_content {
+    display: none;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+    padding-top: 36px;
+    padding-bottom: 38px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .asp_iv .faq_section .wrap.cf {
+        max-width: 1260px;
+    }
+}
+@media only screen and (max-width: 1199.98px) {
+    .asp_iv .faq_section {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1029.98px) {
+    .asp_iv .faq_section li {
+        margin-bottom: 10px;
+    }
+    .asp_iv .faq_section .faq_content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .asp_iv .faq_section ul {
+        margin-top: 20px;
+    }
+    .asp_iv .faq_section .faq_content {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+}
+/* FAQ Section Over */

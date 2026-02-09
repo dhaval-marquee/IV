@@ -1,0 +1,19 @@
+.products_iv .productitem--info .see:first-child {
+    display: none;
+}
+
+.products_iv .productitem--info .see a {
+    width: 100%;
+    display: block;
+    max-width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #6daf05;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.products_iv .productgrid--item:hover .see a,
+.products_iv .productitem--info .see a:hover {
+    background-color: #6daf05cc;
+}

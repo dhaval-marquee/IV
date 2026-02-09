@@ -1,0 +1,225 @@
+.iv-LocationPages .heading:first-child,
+.iv-LocationPages .hero-form p.second-paragraph + .third-paragraph {
+    display: none;
+}
+.iv-LocationPages .slide-overlay {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    margin: auto;
+    max-width: 800px;
+    padding: 25px;
+}
+.iv-LocationPages .hero-form.quick-form > h1 {
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.iv-LocationPages .hero-form.quick-form > h2 {
+    line-height: 1.2;
+    margin: 0;
+}
+.iv-LocationPages .hero-form.quick-form ul {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 25px auto;
+    max-width: 520px;
+}
+.iv-LocationPages .hero-form.quick-form ul li {
+    margin-bottom: 10px;
+}
+.iv-LocationPages .inner-container {
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 650px;
+}
+.iv-LocationPages .slide-footer .head2 {
+    font-size: 20px;
+    margin: 25px 0 5px;
+}
+.iv-LocationPages button.btn {
+    padding: .625rem 2.563rem .313rem;
+    border-radius: .5rem;
+}
+
+.iv-LocationPages .cityStateMap,
+.iv-LocationPages .CityStateBgImage {
+    height: 822px;
+}
+
+.iv-LocationPages .hero-form.quick-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    max-width: 1194px;
+    height: 575px;
+    margin: auto;
+    padding: 25px;
+}
+.iv-LocationPages .hero-form.quick-form .heading {
+    font-size: 38px;
+    height: auto;
+    padding-bottom: 0;
+}
+.iv-LocationPages .hero-form.quick-form .heading + p {
+    font-style: 24px;
+}
+
+.iv-LocationPages .hero-form.quick-form > ul li {
+    font-size: 20px;
+}
+.iv-LocationPages .heading + p,
+.iv-LocationPages .hero-form p.second-paragraph {
+    font-size: 20px;
+}
+.iv-LocationPages .hero-form p.second-paragraph > a{
+    text-decoration: underline;
+}
+.iv-LocationPages .hero-form p.second-paragraph {
+    margin-top: 40px;
+}
+.iv-LocationPages .hero-form p.third-paragraph {
+    font-size: 24px;
+}
+.iv-LocationPages .hero-form.quick-form > h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #ffd31f;
+}
+
+.iv-LocationPages .startHere {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 48%;
+    left: 0;
+    gap: 10px;
+    margin-left: 60px;
+    text-align: center;
+    pointer-events: none;
+}
+.iv-LocationPages .startHere h4 {
+    color: #ffce00;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 500;
+    font-style: italic;
+}
+.iv-LocationPages .startHere img {
+    width: 100% !important;
+    max-width: 48px;
+}
+@media (max-width: 1199.98px) { 
+    .iv-LocationPages .hero-form.quick-form {
+        max-width: 1060px;
+        height: 595px;
+    }
+    .iv-LocationPages .startHere {
+        top: 52%;
+    }
+}
+@media (max-width: 768.98px) {
+    .iv-LocationPages .startHere {
+        top: 0;
+        bottom: 149px;
+        position: absolute;
+        align-items: center;
+        margin-left: 46px;
+    }
+    .iv-LocationPages .startHere img {
+        position: absolute;
+        transform: rotate(90deg);
+        max-width: 25px;
+        margin-left: 100px;
+    }
+    .iv-LocationPages .hero-form p {
+        width: 100%;
+    }
+    .iv-LocationPages .hero-form.quick-form {
+        padding: 15px;
+    }
+    .iv-LocationPages .hero-form.quick-form .heading {
+        font-size: 30px;
+        width: 100%;
+    }
+    .iv-LocationPages .hero-form.quick-form .heading + p {
+        list-style: 26px;
+    }
+    .iv-LocationPages .hero-form.quick-form > h2 {
+        font-size: 20px;
+    }
+    .iv-LocationPages .hero-form p.second-paragraph {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 1099.98px) {
+    .iv-LocationPages .startHere {
+        margin-left: 10px;
+    }
+    .iv-LocationPages .hero-form.quick-form {
+        max-width: 950px;
+    }
+}
+@media (max-width: 991.98px) {
+    .iv-LocationPages .startHere {
+        top: 51%;
+    }
+    .iv-LocationPages .startHere img {
+        max-width: 32px;
+    }
+    .iv-LocationPages .startHere h4 {
+        font-size: 22px;
+    }
+    .iv-LocationPages .hero-form.quick-form {
+        max-width: 640px;
+        height: 750px;
+    }
+}
+@media (max-width: 767.98px) {
+    .iv-LocationPages .startHere {
+        position: inherit;
+        margin-left: -34px;
+        margin-bottom: -28px;
+    }
+    .iv-LocationPages .cityStateMap,
+    .iv-LocationPages .CityStateBgImage {
+        height: 1000px;
+    }
+    .iv-LocationPages .hero-form p.second-paragraph {
+        padding-top: 20px;
+    }
+}
+@media (max-width: 649.98px) {
+    .iv-LocationPages .startHere {
+        bottom: 80px;
+        margin-left: -10px;
+    }
+    .iv-LocationPages .hero-form.quick-form {
+        max-width: 480px;
+        height: 760px;
+    }
+}
+@media (max-width: 599px) {
+    .iv-LocationPages {
+        padding: 0 20px;
+    }
+    .iv-LocationPages .slide-overlay {
+        padding: 15px;
+    }
+    .iv-LocationPages button.btn {
+        margin-top: 0.3em;
+    }
+    .iv-LocationPages .slide-footer .head2 {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 449.98px) {
+    .iv-LocationPages .hero-form.quick-form {
+        max-width: 480px;
+        height: 950px;
+    }
+}

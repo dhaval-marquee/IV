@@ -1,0 +1,11 @@
+.modal-open .modal#addtocartpopupModal {
+    opacity: 0;
+}
+@media(max-width: 767.98px){
+    .modal .modal-dialog {
+        margin: 190px auto;
+        max-width: 583px;
+        width: 100%;
+        padding: 0 15px;
+    }
+}

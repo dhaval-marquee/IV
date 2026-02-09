@@ -1,0 +1,77 @@
+.featureIV p.featureTitle {
+    color: #0a1f8f;
+    margin-bottom: 5px;
+}
+
+.featureIV ul.featureList {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.featureIV ul.featureList li {
+    font-size: 14px;
+}
+
+@media (max-width: 991px) {
+    .featureIV ul.featureList {
+        padding-left: 30px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 576px) {
+    .featureIV .pss-facility__content-info>.featureWrapper {
+        display: none;
+    }
+}
+@media (max-width: 575.98px) {
+    .featureIV .pss-facility__content-box>.featureWrapper {
+        display: none;
+    }
+
+    .featureIV p.featureTitle {
+        margin-top: 12px;
+    }
+
+    .featureIV p.featureTitle {
+        color: #0a1f8f;
+        margin-bottom: 5px;
+    }
+    .featureIV .pss-facility__main {
+        padding-top: 8px;
+    }
+    .featureIV .pss-facility__schedule-mobile {
+        width: 48%;
+    }
+    .featureIV ul.featureList {
+        padding-left: 20px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .pss-facility__main-title + .pss-facility__content {
+        padding-top: 8px;
+    }
+    .pss-navigation-tabs .tab-pane#units {
+        padding-top: 0;
+    }
+    .featureIV .pss-navigation-tabs .nav-tabs>li>a {
+        padding: 8px 1rem;
+    }
+    .featureIV .pss-facility__content-holder-mobile {
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+    .featureIV .pss-facility__renting-online-holder {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .featureIV .pss-unit-list--filters-mobile,
+    .featureIV .pss-notification-fee-banner.on-facility {
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 359.98px) {
+    .featureIV .pss-facility__schedule-mobile {
+        width: 40%;
+    }
+}

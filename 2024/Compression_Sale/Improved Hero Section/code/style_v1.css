@@ -1,0 +1,130 @@
+.iv-hero {
+    text-align: center;
+    padding: 40px 0;
+}
+.iv-hero .iv-hero-list{
+        list-style: none;
+}
+.iv-hero h1 {
+    margin: 0;
+    color: #004AAD;
+    font-size: 34px;
+}
+.iv-hero p {
+    font-size: 22px;
+    width: 100%;
+    max-width: 740px;
+    margin: 18px auto 30px;
+    font-weight: 600;
+    color: #43403F;
+}
+.iv-hero .iv-hero-list {
+    list-style: none;
+    margin: 0 0 30px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+}
+.iv-hero-list img {
+    width: 100%;
+    max-width: 40px;
+    margin-right: 10px;
+}
+.iv-hero .iv-hero-list li {
+    display: flex;
+    align-items: center;
+}
+.iv-hero .iv-hero-list li span {
+    font-size: 20px;
+    color: #004AAD;
+    font-weight: bold;
+}
+.iv-hero-button a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.iv-hero-button a.red-button {
+        background-color: #EC2020;
+}
+.iv-hero-button a.red-button:hover {
+    background-color: #cb1111;
+}
+.iv-hero-button a.blue-button {
+        background-color: #024AAB;
+}
+.iv-hero-button a.blue-button:hover {
+    background-color: #082e62;
+}
+
+
+/* Slider */
+.iv-home .slider-content section.slider-middle {
+    display: none;
+}
+.iv-home .slider-content .slider-right ul.brands-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iv-home .slider-content .slider-right ul.brands-list li{
+    border: none;
+}
+.iv-home .slider-content .slider-right{
+    width: 100%;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px;
+}
+.iv-home .slider-content .slider-right .brand-title{
+    padding: 15px 0 0 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .iv-home .iv-hero .iv-hero-list li {
+        flex-direction: column;
+    }
+    .iv-home .iv-hero .iv-hero-list li span {
+        font-size: 18px;
+    }
+    .iv-home .iv-hero-list img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .iv-home .iv-hero h1{
+        font-size: 28px;
+    }
+    .iv-home .iv-hero p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .iv-home .iv-hero h1{
+        font-size: 24px;
+    }
+    .iv-home .iv-hero p{
+        font-size: 16px;
+    }
+    .iv-home .iv-hero .iv-hero-list li span{
+        font-size: 14px;
+    }
+    .iv-home .iv-hero .iv-hero-button a{
+        padding: 15px 20px;
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    .iv-home .slider-content .slider-right ul.brands-list {
+        justify-content: center;
+    }
+}

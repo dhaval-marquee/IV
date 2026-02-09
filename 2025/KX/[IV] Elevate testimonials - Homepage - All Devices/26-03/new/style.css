@@ -1,0 +1,11 @@
+.homepage_iv .tabbed-content-block.customer-stories {
+    text-align: inherit;
+}
+
+.homepage_iv .tabbed-content-block.customer-stories .quote {
+    margin-bottom: 0;
+}
+.homepage_iv .tabbed-content-block.customer-stories img {
+    max-height: inherit;
+    margin-bottom: 0;
+}

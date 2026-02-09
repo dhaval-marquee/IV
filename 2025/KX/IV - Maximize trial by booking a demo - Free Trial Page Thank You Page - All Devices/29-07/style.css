@@ -1,0 +1,15 @@
+.iv-TrialPage section.first .totalColumns-two .column-wrapper {
+    align-items: inherit;
+}
+.iv-TrialPage section.first + section:nth-child(2) {
+    display: none;
+}
+.iv-TrialPage section.first .encapsulated-rich-content.item-1 hr {
+    height: 1px;
+}
+.iv-TrialPage section.first h3#book-a-demo {
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto 40px;
+}

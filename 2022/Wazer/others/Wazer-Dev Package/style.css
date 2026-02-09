@@ -1,0 +1,271 @@
+@media screen and (max-width: 767.98px) {
+    body #PageContainer {
+        position: relative;
+        overflow-x: hidden;
+    }
+    body .shogun-root > .shg-fw {
+        display: none;
+    }
+    body .site-header__logo {
+        display: table !important;
+        margin-top: 0 !important;
+        max-width: 150px;
+    }
+    body .hero-section {
+        background-color: #F1F1F1;
+        position: relative;
+        text-align: center;
+    }
+    body .hero-content-top,
+    body .hero-content-bottom {
+        padding-left: 3%;
+        padding-right: 3%;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    body .hero-content-top {
+        margin-top: 70px;
+        top: 0;
+    }
+    body .hero-content-top p {
+        line-height: normal;
+    }
+    body .orange-btn {
+        background: #F5A328;
+        color: #FFFFFF;
+        display: inline-block;
+        padding: 10px;
+        max-width: 260px;
+        text-transform: uppercase;
+        width: 100%;
+    }
+    body .orange-btn:hover {
+        background: #F99E3B;
+    }
+    body .hero-content-bottom {
+        background-color: #FFFFFF;
+        padding-top: 10px;
+        bottom: 0;
+    }
+    body #s-acd7d196-e0b4-4310-8dee-7d77b83a97f5 {
+        background-position: center left 28%;
+        min-height: 550px;
+    }
+    body .hero-section h2,
+    body .hero-section h3 {
+        font-weight: bold;
+    }
+    body .hero-content-bottom p {
+        font-size: 13px;
+    }
+    body .features-section {
+        background-color: #F1F1F1;
+        padding: 20px 3% 30px;
+    }
+    body .features-section h3 {
+        font-weight: bold;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    body .feature-item {
+        display: flex;
+        align-items: center;
+    }
+    body .feature-item ~ .feature-item {
+        margin-top: 50px;
+    }
+    body .feature-icon {
+        background-color: #F5A328;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, .5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        width: 80px;
+    }
+    body .feature-icon img {
+        border-radius: 50%;
+        max-width: 60px;
+        image-rendering: -webkit-optimize-contrast;
+    }
+    body .feature-text {
+        padding-left: 15px;
+        width: calc(100% - 80px);
+    }
+    body .technical-section {
+        padding: 20px 3% 0;
+    }
+    body .technical-section h2 {
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    body .shogun-accordion {
+        border: 1px solid #F0F0F0;
+    }
+    body .shogun-accordion-heading {
+        background: rgba(255, 255, 255, 0.07);
+        padding: 25px 10px 25px 25px;
+    }
+    body .shogun-accordion-title {
+        color: #000000;
+        font-family: 'Montserrat';
+        font-weight: 300;
+        font-size: 18px;
+    }
+    body .shogun-accordion-icon {
+        font-size: 40px;
+    }
+    body .shogun-accordion-icon > span {
+        color: #FF0000;
+    }
+    body .shogun-accordion-body {
+        background-color: #FFFFFF;
+        border-top: 1px solid #F0F0F0;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 10px;
+    }
+    body .technical-section table {
+        margin-bottom: 0;
+    }
+    body .technical-section table td {
+        border: none;
+        padding: 8px;
+        width: 50%;
+    }
+    body .faq-section {
+        margin-bottom: 30px;
+    }
+    body .faq-section > h2 {
+        color: #222222;
+        font-size: 1.8em;
+        padding: 0 20px;
+    }
+    body .faq-section > h2:after {
+        background: #FF9000;
+        content: '';
+        display: block;
+        margin-top: 25px;
+        height: 3px;
+        width: 45px;
+    }
+    body .faq-header {
+        border-bottom: solid 1px #DDDDDD;
+        cursor: pointer;
+        padding: 17px 20px;
+    }
+    body .faq-header:hover {
+        background: #EFEFEF;
+    }
+    body .faq-header .faq-title {
+        color: #222222;
+        font-family: sofia-pro;
+        font-size: 16px;
+        letter-spacing: .035em;
+        padding-left: 15px;
+    }
+    body .faq-header .faq-title:before {
+        content: '+';
+        color: #AAAAAA;
+        float: right;
+        font-family: 'Open Sans';
+        font-size: 150%;
+        font-weight: 100;
+        line-height: 120%;
+    }
+    body .faq-header.active .faq-title:before {
+        content: '-';
+        line-height: 100%;
+    }
+    body .faq-content {
+        display: none;
+        color: #737373;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: .01em;
+        line-height: 1.6em;
+        padding: 17px 20px;
+    }
+    body .faq-content *:not(h1):not(h2):not(h3) {
+        word-wrap: break-word;
+    }
+    body .faq-content > *:first-child {
+        margin-top: 0;
+    }
+    body .faq-content h3,
+    body .faq-content p {
+        white-space: pre-wrap;
+    }
+    body .faq-content h3 {
+        font-family: sofia-pro;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-transform: uppercase;
+    }
+    body .faq-content p {
+        margin: 1em 0;
+    }
+    body .faq-content p:first-child {
+        margin-top: 0;
+    }
+    body .faq-content p:last-child {
+        margin-bottom: 0;
+    }
+    body .faq-content ul {
+        margin: 1em 0;
+        padding-left: 15px;
+    }
+    body .faq-content ul ul {
+        margin: 0;
+    }
+    body .faq-content ul li > * {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    body .faq-content ul li {
+        font-size: 100%;
+        margin-bottom: 0;
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+    }
+    body .faq-content strong {
+        font-weight: normal;
+    }
+    body .faq-content a {
+        border-bottom: 1px solid rgba(0,0,0,.1);
+        color: #9C9C9C;
+        padding-bottom: 0.1em;
+        transition: border-color .15s ease-out, color .15s ease-out;
+    }
+    body .faq-content a:hover {
+        border-bottom-color: rgba(0,0,0,.5);
+        color: rgba(156,156,156,.6);
+    }
+    body .sticky-bottom {
+        background-color: #CFCFCF;
+        padding: 5px;
+        position: fixed;
+        left: 0;
+        bottom: -54px;
+        text-align: center;
+        transition: all 0.3s;
+        width: 100%;
+        z-index: 99;
+    }
+    body .sticky-bottom.show {
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767.98px) and (min-width: 726px) {
+    body .hero-content-top {
+        margin-top: 100px;
+    }
+}

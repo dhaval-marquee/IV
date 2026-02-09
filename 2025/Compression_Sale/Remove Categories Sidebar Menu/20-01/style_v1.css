@@ -1,0 +1,14 @@
+body {
+    visibility: hidden;
+}
+.sidebar_iv .slider-left ul.vertical-menu,
+#site-mobile-nav .mobile-nav-content > ul > li:nth-child(-n+11) {
+    display: none;
+}
+.mobile-nav-content .navmenu .mn-heading,
+#site-mobile-nav .mobile-nav-content > ul > li:first-of-type {
+    display: block !important; 
+}
+.sidebar_iv .left-pt .tp-2-dec ul li {
+    font-weight: 600;
+}

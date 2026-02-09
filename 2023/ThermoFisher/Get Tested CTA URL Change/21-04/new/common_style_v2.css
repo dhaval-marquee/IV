@@ -1,0 +1,120 @@
+.hero_iv.modalOpen .iv_modal {
+    display: block;
+}
+.hero_iv.modalOpen {
+    overflow: hidden;
+}
+.hero_iv .iv_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    transition: opacity .15s linear;
+    opacity: 0;
+}
+.hero_iv .iv_modal.show {
+    opacity: 1;
+}
+.hero_iv .iv_modal .modal-content {
+    z-index: 1050;
+}
+.hero_iv .iv_modal .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    -webkit-transform: translate(0,-25%);
+    transform: translate(0,-25%);
+    z-index: 1050;
+}
+.hero_iv .iv_modal.show .modal-dialog {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.hero_iv .iv_modal .modal-header {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    justify-content: flex-end;
+    border-bottom: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    z-index: 1;
+}
+.hero_iv .iv_modal .modal-body {
+    display: flex;
+    padding: 50px 20px !important;
+    text-align: center;
+}
+.hero_iv .iv_modal .modal-body .modal_left,
+.hero_iv .iv_modal .modal-body .modal_right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 50%;
+    width: 100%;
+    padding: 0 50px;
+}
+.hero_iv .iv_modal .modal-body .modal_right:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+    display: block;
+    opacity: 0.1;
+}
+.hero_iv .iv_modal .modal-body h3 {
+    min-height: 76px;
+}
+.hero_iv .iv_modal .modal-body p {
+    flex: 1 0 auto;
+}
+
+@media screen and (max-width: 1199.98px) {
+    .hero_iv .iv_modal .modal-xl {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .hero_iv .iv_modal .modal-body {
+        padding: 20px 0 60px !important;
+    }
+    .hero_iv .iv_modal .modal-body .modal_left,
+    .hero_iv .iv_modal .modal-body .modal_right {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .hero_iv .iv_modal .modal-body h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .hero_iv .iv_modal .modal-body {
+        flex-direction: column;
+        padding: 0 40px 40px !important;
+    }
+    .hero_iv .iv_modal .modal-body .modal_left,
+    .hero_iv .iv_modal .modal-body .modal_right {
+        max-width: 100%;
+        padding: 40px 0;
+    }
+    .hero_iv .iv_modal .modal-body .modal_right:before {
+        width: 100%;
+        height: 1px;
+    }
+    .hero_iv .iv_modal .modal-body h3 {
+        min-height: inherit;
+    }
+}

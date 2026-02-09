@@ -1,0 +1,158 @@
+.iv-promo-tiles-box {
+    border: 1px solid #dfdfdf;
+}
+.iv-promo-heading {
+    background-color: #FFF1F6;
+    padding: 15px 7px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px; 
+    font-weight: 700;
+    color: #000;
+}
+.iv-promo-heading strong {
+    display: block;
+    width: 100%;
+    max-width: 325px;
+    margin: 0 auto;
+}
+.iv-promo-content {
+    padding: 10px 6px;
+    height: 100%;
+    min-height: 300px;
+}
+.iv-promo-list {
+    width: 100%;
+    list-style: none;
+    max-width: 250px;
+    margin: 15px auto;
+    padding: 0 15px;
+}
+.iv-promo-list li {
+    font-size: 16px;
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 8px;
+}
+.iv-promo-list li:last-child {
+    margin-bottom: 0;
+}
+.iv-promo-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #ee1161;
+    border-radius: 50%;
+} 
+.iv-promo-tiles-titanium .product-list[collection-desktop-layout="large"] .iv-promo-box-2,
+.iv-promo-tiles-titanium .product-list[collection-desktop-layout="medium"] .iv-promo-box-2,
+.iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] .iv-promo-box-2{
+    display: none;
+} 
+
+@media (min-width: 700px) and (max-width: 1399px) {
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="large"] .iv-promo-box-2,
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="medium"] .iv-promo-box-2,
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] .iv-promo-box-2{
+        display: block;
+    }
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="large"] .iv-promo-box-1,
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="medium"] .iv-promo-box-1,
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] .iv-promo-box-1{
+        display: none;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="medium"] .iv-promo-heading { 
+        padding: 15px 5px; 
+        font-size: 14px; 
+    } 
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="medium"] .iv-promo-list li {
+        font-size: 14px; 
+        line-height: 20px;
+    } 
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="medium"] .iv-promo-content{
+        min-height: 260px;
+    }
+}
+
+@media (min-width: 700px) {
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] .iv-promo-heading { 
+        padding: 10px 5px; 
+        font-size: 14px; 
+    }
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] .iv-promo-list { 
+        padding: 0 10px;
+        max-width: 200px;
+    } 
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] .iv-promo-list li {
+        padding-left: 15px;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] .iv-promo-list li  {
+        font-size: 14px; 
+    } 
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] .iv-promo-list li::before { 
+        width: 6px;
+        height: 6px; 
+    }  
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] {
+        column-gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] .iv-promo-content {
+        min-height: 220px;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .iv-promo-tiles-titanium .product-list[collection-desktop-layout="compact"] { 
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (max-width: 999px) {
+    .iv-promo-list {  
+        padding: 0 10px; 
+    } 
+}
+
+@media (max-width: 550px) {
+    .iv-promo-heading {
+        font-size: 14px; 
+        padding: 15px 5px;
+    }
+    .iv-promo-list {
+        max-width: 200px;
+    }
+    .iv-promo-list li {
+        font-size: 14px; 
+        padding-left: 18px;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+    .iv-promo-list li::before { 
+        width: 6px;
+        height: 6px; 
+    }   
+    .iv-promo-content {
+        padding: 10px 6px;
+        height: 100%;
+        min-height: 240px;
+    } 
+}
+
+/* V2 */
+.iv-promo-tiles-titanium-v2 .iv-promo-heading {
+    background-color: #CFE6FE;
+}
+.iv-promo-tiles-titanium-v2 .iv-promo-list li::before {
+    background-color: #005BAA;
+} 

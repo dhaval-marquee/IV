@@ -1,0 +1,15 @@
+.dittoSecondStepIV #addToOneDittoRecommendationSingleProductsModal,
+.dittoSecondStepIV #addToOneDittoMultRecommendationProductsModal {
+    max-width: 470px !important;
+    width: 100%;
+}
+
+.dittoSecondStepIV #addToOneDittoRecommendationSingleProductsModal button[test-id="go-to-ditto"],
+.dittoSecondStepIV #addToOneDittoMultRecommendationProductsModal button.js-go-to-ditto {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}

@@ -1,0 +1,111 @@
+.iv-progress-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.iv-progress-title p {
+    font-size: 12px;
+}
+.iv-progress-title p span {
+    color: #FC26BF;
+    font-weight: 600;
+}
+.iv-progress-bar {
+    display: flex;
+}
+.iv-progress-fill {
+    width: 50%;
+    margin-left: -2px;
+}
+.fill-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.progress-fill-dot {
+    width: 100%;
+    max-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #B3B3B3;
+    margin-left: -2px;
+    position: relative;
+    z-index: 1;
+}
+.fill-active .progress-fill-dot {
+    background-color: #FC26BF;
+}
+.iv-progress-free-unlock.fill-active .progress-fill-dot {
+    background-color: #B3B3B3;
+}
+.progress-bg {
+    width: 100%;
+    height: 15px;
+    background-color: #B3B3B3;
+    border-end-end-radius: 0;
+    border-start-end-radius: 0;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+}
+.iv-progress-title p svg {
+    display: inline-block;
+    margin-right: 5px;
+    width: 14px;
+}
+.iv-progress-fill:nth-child(2) .progress-fill-bar {
+    border-radius: 0 20px 20px 0;
+}
+.iv-progress-bar .fill-text {
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    max-width: 65px;
+    margin: 5px -18px 0 auto;
+    font-weight: 600;
+    line-height: normal;
+}
+.iv-progress-bar .fill-active .fill-text {
+    color: #FC26BF;
+}
+@keyframes fillProgress {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.progress-fill-bar {
+    width: 100%;
+    height: 15px;
+    background-color: #FC26BF;
+    position: absolute;
+    left: 0;
+    border-end-end-radius: 0;
+    border-start-end-radius: 0;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+}
+.iv-progress-free-unlock.fill-active .progress-fill-bar {
+    width: 0;
+    animation: fillProgress 2s ease-in-out forwards;
+    background-color: #FC26BF;
+}
+.iv-progress-free-unlock .progress-fill-bar {
+    width: 0;
+    background-color: #B3B3B3;
+}
+.iv-progress-free-unlock .progress-bg {
+    border-end-start-radius: 0;
+    border-start-start-radius: 0;
+}
+@keyframes changeColor {
+    0% {
+        background-color: initial;
+    }
+    100% {
+        background-color: #FC26BF;
+    }
+}
+.iv-progress-free-unlock.fill-active .progress-fill-dot {
+    animation: changeColor 0.1s linear 1.5s forwards;
+}

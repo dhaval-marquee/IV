@@ -1,0 +1,17 @@
+header.oxy-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+ul#menu-main> li:last-child {
+    display: none;
+}
+header .oxy-header-right > a:last-child {
+    background-color: #ed8b00;
+    border: 1px solid #ed8b00;
+}
+header .oxy-header-right > a:last-child:hover{
+    background-color: #132137 !important;
+    border: 1px solid #132137;
+}

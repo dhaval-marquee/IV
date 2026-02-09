@@ -1,0 +1,344 @@
+.formIV section.cta-sm-section {
+    padding-bottom: 100px !important;
+}
+
+.formIV .hero-title-section {
+    display: none;
+}
+
+.formIV section.cta-sm-section .eyeBroText {
+    color: #0f4068;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.formIV section.cta-sm-section h3 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.formIV form#mktoForm_1438 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% !important;
+    padding: 30px;
+    background-color: #efefef;
+    border-radius: 10px;
+    border: 2px solid #0f4068;
+}
+
+.formIV form#mktoForm_1438 .formLeft,
+.formIV form#mktoForm_1438 .formRight {
+    max-width: 50%;
+    width: 100%;
+    padding: 0 30px !important;
+}
+
+.formIV form#mktoForm_1438 label.mktoLabel {
+    font-family: "Mont", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 17px;
+    line-height: normal;
+    font-weight: normal;
+    width: auto !important;
+    padding-bottom: 5px;
+}
+
+.formIV form#mktoForm_1438 label.mktoLabel[for="Email_Opt_In__c"] {
+    font-size: 13px;
+    max-width: calc(100% - 30px);
+}
+
+.formIV form#mktoForm_1438 .mktoFormCol,
+.formIV form#mktoForm_1438 .mktoFieldWrap,
+.formIV form#mktoForm_1438 .mktoFormRow .mktoField {
+    width: 100% !important;
+}
+
+.formIV form#mktoForm_1438 .mktoFormRow .mktoField {
+    font-family: "Mont", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    background-color: #ffffffde;
+}
+
+.formIV form#mktoForm_1438 .mktoFormRow #LblService_Regions__c ~ .mktoCheckboxList {
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    margin-top: 10px;
+}
+
+.formIV form#mktoForm_1438 .mktoFormRow #LblService_Regions__c ~ .mktoCheckboxList label {
+    margin-left: 7px;
+    margin-right: 0;
+    width: calc(50% - 30px);
+    margin-bottom: 15px;
+}
+
+.formIV form#mktoForm_1438 .mktoFormRow #LblService_Regions__c ~ .mktoCheckboxList input {
+    width: 20px !important;
+}
+
+.formIV form#mktoForm_1438 .mktoButtonWrap {
+    margin: 0 !important;
+}
+
+.formIV form#mktoForm_1438 .mktoButtonWrap .mktoButton {
+    font-family: "Mont", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    padding: 15px 15px 10px !important;
+    margin: 20px auto 0 !important;
+}
+
+.formIV .logoSection h5 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formIV .logoSection .clientLogoWrap {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.formIV .logoSection .clientLogoWrap li {
+    max-width: 20%;
+    width: 100%;
+}
+
+.formIV .logoSection .clientLogoWrap li .imgWrapper {
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.formIV .logoSection .clientLogoWrap li img {
+    max-width: 130px;
+    width: 100%;
+}
+
+.formIV .logoSection .clientLogoWrap li p {
+    font-size: 14px;
+}
+
+.formIV .logoSection .clientLogoWrap li p strong {
+    display: block;
+}
+
+.formIV section.testimonial {
+    padding: 100px 0;
+}
+
+.formIV section.testimonial .testimonialRow {
+    display: flex;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.formIV section.testimonial .testimonialRow>* {
+    max-width: 50%;
+    width: 100%;
+}
+
+.formIV section.testimonial .testimonialRow .testimonialWrap {
+    border-right: 1px solid #000;
+    padding: 20px 60px 0 0;
+}
+
+.formIV section.testimonial .testimonialRow .testimonialWrap.slick-slider .slick-track {
+    display: flex;
+}
+
+.formIV section.testimonial .testimonialRow .testimonialWrap.slick-slider .slick-track .slick-slide {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.formIV section.testimonial .testimonialRow .testimonialWrap h4 {
+    font-size: 30px;
+    line-height: normal;
+    font-weight: 800;
+    flex: 1 0 auto;
+    margin-bottom: 50px;
+}
+
+.formIV section.testimonial .testimonialRow .testimonialWrap h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.formIV section.testimonial .testimonialRow .testimonialWrap p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.formIV section.testimonial ul.slick-dots {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.formIV section.testimonial ul.slick-dots button {
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+}
+
+.formIV section.testimonial ul.slick-dots li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+.formIV section.testimonial ul.slick-dots li.slick-active button {
+    background-color: #0f4068;
+}
+
+.formIV section.testimonial .testimonialRow .testimonialLogoWrapper {
+    padding: 20px 0 20px 60px;
+}
+
+.formIV section.testimonial .testimonialRow h6 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formIV section.testimonial .testimonialRow .testimonialLogoWrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formIV section.testimonial .testimonialRow .testimonialLogoWrap img {
+    max-width: 26%;
+    width: 100%;
+    max-height: 130px;
+    object-fit: contain;
+    margin: 25px 0;
+}
+
+@media (max-width: 1439.98px) {
+    .formIV section.cta-sm-section h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 1023.98px) {
+    .formIV section.cta-sm-section {
+        padding-bottom: 60px !important;
+    }
+
+    .formIV .header-inner {
+        padding: 18px 0;
+    }
+
+    .formIV form#mktoForm_1438 {
+        padding: 30px 10px;
+    }
+
+    .formIV form#mktoForm_1438 .formLeft,
+    .formIV form#mktoForm_1438 .formRight {
+        padding: 0 10px !important;
+    }
+
+    .formIV .logoSection .clientLogoWrap li {
+        max-width: 50%;
+    }
+
+    .formIV .logoSection .clientLogoWrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .formIV .logoSection .clientLogoWrap li p {
+        font-size: 18px;
+    }
+
+    .formIV section.testimonial {
+        padding: 60px 0;
+    }
+
+    .formIV section.testimonial .testimonialRow .testimonialWrap {
+        padding: 20px 20px 20px 0;
+    }
+
+    .formIV section.testimonial .testimonialRow .testimonialLogoWrapper {
+        padding: 20px 0 20px 20px;
+    }
+
+    .formIV section.testimonial .testimonialRow .testimonialWrap h4 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .formIV section.testimonial .testimonialRow {
+        padding: 40px 20px;
+    }
+
+    .formIV section.testimonial .testimonialRow .testimonialWrap {
+        padding-right: 20px;
+        padding-bottom: 0;
+    }
+
+    .formIV section.testimonial .testimonialRow .testimonialLogoWrapper {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .formIV section.cta-sm-section h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .formIV form#mktoForm_1438 .formLeft,
+    .formIV form#mktoForm_1438 .formRight {
+        max-width: 100%;
+    }
+    .formIV section.testimonial .testimonialRow > * {
+        max-width: 100%;
+    }
+    .formIV section.testimonial .testimonialRow .testimonialWrap {
+        border-bottom: 1px solid #000;
+        border-right: 0;
+        padding: 0 0 20px;
+        margin-bottom: 80px;
+    }
+    .formIV section.testimonial .testimonialRow {
+        flex-direction: column;
+    }
+    .formIV section.testimonial .testimonialRow .testimonialLogoWrapper {
+        padding: 0;
+    }
+    .formIV section.testimonial .testimonialRow h6 {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .formIV .logoSection .clientLogoWrap li {
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .formIV .logoSection .clientLogoWrap li .imgWrapper {
+        min-height: auto;
+    }
+
+    .formIV section.testimonial {
+        padding: 0 0 60px;
+    }
+}

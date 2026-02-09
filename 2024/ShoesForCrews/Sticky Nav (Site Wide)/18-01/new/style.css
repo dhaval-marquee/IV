@@ -1,0 +1,19 @@
+.checkout_iv div[class*=LayoutWrapper_fillHeight] {
+    height: auto;
+}
+.checkout_iv header[class*=Header_header] {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.checkout_iv header[class*=Header_header].sticky {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+}
+.checkout_iv .bxc.bx-base.bx-type-nanobar ~ #__next header[class*=Header_header] {
+    top: 71px;
+}
+@media only screen and (max-width: 736px) {
+    .checkout_iv .bxc.bx-base.bx-type-nanobar ~ #__next header[class*=Header_header] {
+        top: 91px;
+    }
+}

@@ -1,0 +1,4 @@
+Please attach Slick.css file and then style.css file at the end of your current CSS file.
+Please rearrange all HTML section as mentioned in Index.html file. (Screenshot also attached for reference)
+Please upload assets in your server instead of cloudinary. All images are given in Image folder. Please replace path respectively.
+Add javascript from the JavaScript.js file at the end of your current js file.

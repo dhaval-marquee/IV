@@ -1,0 +1,329 @@
+.iv-modal header .blue-button {
+    background-color: #2a527d;
+    border: 2px solid #2a527d;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-right: 1.4rem;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s ease-in;
+}
+.iv-modal header .blue-button:hover {
+    background-color: #1a5699;
+}
+.iv-modal header .quick-links-cont {
+    padding-right: 1.4rem;
+}
+
+.iv-modal .animated-modal {
+    padding: 0 !important;
+    width: 100%;
+}
+.iv-modal .animated-modal .container_b {
+    padding-left: 0;
+    padding-right: 0;
+}
+.iv-modal .animated-modal fieldset {
+    padding: 20px 0 40px;
+    margin: 0;
+}
+.iv-modal #finderForm2 .head-part h1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: center;
+}
+.iv-modal #finderForm2 .holder {
+    margin: 0 50px 40px;
+}
+.iv-modal #finderForm2 .progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    position: relative;
+    width: 100%;
+}
+.iv-modal #finderForm2 .progress-line {
+    background-color: #2a527d;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: 1;
+}
+.iv-modal #finderForm2 .progress-indicator {
+    background-color: #1f3c73;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: width 0.3s ease-in-out;
+    height: 4px;
+    width: 0%;
+    z-index: 2;
+}
+.iv-modal #finderForm2 .step-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+}
+.iv-modal #finderForm2 .step {
+    background-color: #fff;
+    border: 4px solid #2a527d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    z-index: 3;
+}
+.iv-modal #finderForm2 .step.active {
+    background-color: #1f3c73;
+    border-color: #1f3c73;
+}
+.iv-modal #finderForm2 .step-label {
+    color: #1f3c73;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.iv-modal #finderForm2.promo-form .step-box {
+    display: none;
+    flex-wrap: wrap;
+    flex: auto;
+    justify-content: center;
+    column-gap: 22px;
+    row-gap: 10px;
+    margin-top: 60px;
+    max-width: 100%;
+    padding-left: 0;
+}
+.iv-modal #finderForm2.promo-form .step-box:before,
+.iv-modal #finderForm2.promo-form .step-box > h2 {
+    display: none;
+}
+.iv-modal #finderForm2.promo-form .step-box.active {
+    display: flex;
+}
+.iv-modal #finderForm2 .radio-box {
+    max-width: calc(33.33% - 15px);
+}
+.iv-modal #finderForm2 .footer-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.iv-modal #finderForm2 .back,
+.iv-modal #finderForm2 input[type=submit] {
+    display: none;
+}
+.iv-modal #finderForm2 input[type=button],
+.iv-modal #finderForm2 input[type=submit] {
+    border-radius: 4px;
+    font-family: inherit;
+    max-width: 200px;
+    padding: 8px 25px;
+    text-align: center;
+    width: 100%;
+}
+.iv-modal #finderForm2 input[type=button] {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    transition: all .3s ease-in;
+}
+.iv-modal #finderForm2 input[type=submit] {
+    margin: 0;
+    min-width: inherit;
+}
+.iv-modal #finderForm2 .next,
+.iv-modal #finderForm2 input[type=submit] {
+    background-color: #2a527d;
+    border: 2px solid #2a527d;
+    color: #fff;
+}
+.iv-modal #finderForm2 .next:hover,
+.iv-modal #finderForm2 input[type=submit]:hover {
+    background-color: #1a5699;
+}
+.iv-modal #finderForm2 .back {
+    background-color: #fff;
+    border: 2px solid #2a527d;
+    color: #2a527d;
+}
+.iv-modal #finderForm2 .back:hover {
+    background-color: #1a5699;
+    color: #fff;
+}
+@media screen and (max-width: 767px) {
+    .iv-modal #finderForm2 .holder {
+        margin: 0 20px 20px;
+    }
+    .iv-modal #finderForm2 .step-wrapper {
+        flex: inherit;
+        width: 15%;
+    }
+    .iv-modal #finderForm2 .step-label {
+        font-size: 13px;
+    }
+    .iv-modal #finderForm2 .step-box {
+        margin-top: 50px;
+    }
+    .iv-modal #finderForm2 .radio-box {
+        max-width: 100%;
+    }
+    .iv-modal #finderForm2 .footer-part {
+        padding: 0 20px;
+    }
+    .iv-modal #finderForm2 input[type=button],
+    .iv-modal #finderForm2 input[type=submit] {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}
+
+.iv-modal .site-logo-image.mobile-only {
+    display: none;
+    width: 60px;
+}
+@media screen and (max-width: 1200.98px) and (min-width: 1024px) {
+    .iv-modal .site-logo-image.mobile-only {
+        display: block;
+    }
+    .iv-modal .site-logo-image:not(.mobile-only) {
+        display: none;
+    }
+}
+@media screen and (max-width: 1024.98px) and (min-width: 1024px) {
+    .iv-modal .site-header-logo {
+        position: relative !important;
+        left: 0;
+    }
+    .iv-modal .site-header-cart {
+        position: relative !important;
+        top: -4px !important;
+        right: 15px !important;
+    }
+}
+@media screen and (max-width: 1023.98px) {
+    .iv-modal .site-header-logo {
+        margin-top: 10px;
+    }
+    .iv-modal .site-logo-image.mobile-only {
+        width: 50px;
+    }
+    .iv-modal header .blue-button {
+        position: absolute;
+        top: 0;
+        right: 99px;
+        margin-right: 0;
+        margin-top: 13px;
+    }
+    .iv-modal.sticky-top header .blue-button {
+        right: 143px;
+    }
+    .iv-modal .site-header-cart {
+        top: 11px !important;
+    }
+    .iv-modal .site-header-cart .icon-person {
+        padding-right: 0;
+        transform: inherit;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .iv-modal .site-logo-image.mobile-only {
+        display: block;
+    }
+    .iv-modal .site-logo-image:not(.mobile-only) {
+        display: none;
+    }
+    .iv-modal .sticky-top header .site-header-logo,
+    .iv-modal header .site-header-logo {
+        transform: inherit;
+        transition: all 0.3s ease-in;
+    }
+    .iv-modal header .blue-button {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767.98px) and (min-width: 720px) {
+    .iv-modal .sticky-top header .site-header-logo,
+    .iv-modal header .site-header-logo {
+        left: 52px !important;
+    }
+    .iv-modal header .site-header-logo {
+        width: calc(100% - 300px);
+    }
+    .iv-modal.sticky-top header .site-header-logo {
+        width: calc(100% - 344px);
+    }
+}
+@media screen and (max-width: 719.98px) {
+    .iv-modal .sticky-top header .site-header-logo,
+    .iv-modal header .site-header-logo {
+        left: 42px !important;
+    }
+}
+@media screen and (max-width: 719.98px) and (min-width: 491px) {
+    .iv-modal header .site-header-logo {
+        width: calc(100% - 290px);
+    }
+    .iv-modal.sticky-top header .site-header-logo {
+        width: calc(100% - 334px);
+    }
+}
+@media screen and (max-width: 490.98px) {
+    .iv-modal .site-logo-image.mobile-only {
+        width: 40px;
+    }
+    .iv-modal header .blue-button {
+        font-size: 13px;
+        line-height: normal;
+        margin-top: 15px;
+        padding: 8px;
+    }
+}
+@media screen and (max-width: 490.98px) and (min-width: 376px) {
+    .iv-modal header .site-header-logo {
+        width: calc(100% - 254px);
+    }
+    .iv-modal.sticky-top header .site-header-logo {
+        width: calc(100% - 298px);
+    }
+}
+@media screen and (max-width: 375.98px) {
+    .iv-modal .site-logo-image.mobile-only {
+        width: 35px;
+    }
+    .iv-modal header .site-header-logo {
+        width: calc(100% - 205px);
+    }
+    .iv-modal.sticky-top header .site-header-logo {
+        width: calc(100% - 249px);
+    }
+    .iv-modal header .blue-button {
+        font-size: 12px;
+        right: 57px;
+    }
+    .iv-modal.sticky-top header .blue-button {
+        right: 101px;
+    }
+}

@@ -1,0 +1,41 @@
+.iv-QuotePage .avl-header .v2nav .avl-header__actions a.avl-header__button ,
+.iv-QuotePage .avl-header .v2nav .avl-header__actions .avl-header__call > svg{
+    display: none;
+}
+.free-quote form fieldset input,
+.free-quote form fieldset select {
+    color: #000 !important;
+}
+.iv-QuotePage .avl-header .v2nav .avl-header__main-wrapper .logo a {
+    pointer-events: none;
+}
+@media (max-width: 992px) {
+    .iv-QuotePage .main-header {
+        position: inherit;
+    }
+    .iv-QuotePage .avl-header .avl-header__main .avl-header__actions {
+        display: none;
+    }
+    .iv-QuotePage .avl-header .v2nav .avl-header__main-wrapper .avl-header__mobile-toggle-wrap {
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+    }
+    /* .iv-QuotePage .iv-phone-icon {
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+    }
+    .iv-QuotePage .iv-phone-icon a, */
+    .iv-QuotePage .nav-toggle {
+        height: 26px;
+    }
+    .iv-QuotePage .avl-header .v2nav .avl-header__main-wrapper {
+        display: flex;
+        padding-right: 0;
+    }
+    .iv-QuotePage .nav-close {
+        position: relative;
+        top: 3px;
+    }
+}

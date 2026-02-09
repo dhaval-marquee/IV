@@ -1,0 +1,10 @@
+.iv-calendar .pss-form-group-float[id^="divDate"]:has(.pss-move-in-date-input).active:not(.pss-form--check) > label {
+    background-color: transparent;
+    color: currentColor;
+    font-size: 14px;
+    padding: 0;
+    transform: translate(16px, 14px) scale(1);
+}
+.iv-calendar .pss-form-group-float[id^="divDate"]:has(.pss-move-in-date-input).active:not(.pss-form--check) > label span:nth-child(3) {
+    display: inline-block;
+}

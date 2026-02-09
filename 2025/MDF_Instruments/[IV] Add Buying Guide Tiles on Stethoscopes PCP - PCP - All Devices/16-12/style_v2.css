@@ -1,0 +1,116 @@
+/* Tiles position managed - Start */
+.iv-guide-tiles .product-list[collection-desktop-layout="large"] .iv-guide-box-2,
+.iv-guide-tiles .product-list[collection-desktop-layout="medium"] .iv-guide-box-2,
+.iv-guide-tiles .product-list[collection-desktop-layout="compact"] .iv-guide-box-2{
+    display: none;
+}
+@media (min-width: 700px) and (max-width: 1399px) {
+    .iv-guide-tiles .product-list[collection-desktop-layout="large"] .iv-guide-box-2,
+    .iv-guide-tiles .product-list[collection-desktop-layout="medium"] .iv-guide-box-2,
+    .iv-guide-tiles .product-list[collection-desktop-layout="compact"] .iv-guide-box-2{
+        display: block;
+    }
+    .iv-guide-tiles .product-list[collection-desktop-layout="large"] .iv-guide-box-1,
+    .iv-guide-tiles .product-list[collection-desktop-layout="medium"] .iv-guide-box-1,
+    .iv-guide-tiles .product-list[collection-desktop-layout="compact"] .iv-guide-box-1{
+        display: none;
+    }
+}
+@media (min-width: 700px) {
+    .iv-guide-tiles .product-list[collection-desktop-layout="compact"] {
+        column-gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (min-width: 1400px) {
+    .iv-guide-tiles .product-list[collection-desktop-layout="compact"] { 
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+/* Tiles position managed - End */
+.iv-guide-tiles-box {
+    background-color: #F7F7F7;
+    border: 1px solid #F1F1F1;
+}
+.iv-guide-bg {
+    position: relative;
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1765599455/MDF_Instruments/mdfToolKit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.iv-guide-bg img {
+    width: 85%;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin-left: auto;
+}
+.iv-guide-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto 15px;
+}
+.iv-guide-inner {
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 8px auto 16px;
+    line-height: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+}
+.iv-guide-content {
+    padding: 20px;
+}
+.iv-guide-cta {
+    background-color: #EE1161;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+}
+.iv-guide-cta:hover {
+    background-color: #f32f77;
+}
+
+@media (max-width: 1024px) {
+    .iv-guide-content {
+        padding: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .iv-guide-cta {
+        font-size: 12px;
+    }
+    .iv-guide-content {
+        padding: 15px 7px 8px;
+    }
+    .iv-guide-title {
+        font-size: 16px;
+        margin: 0 auto 10px;
+    }
+    .iv-guide-inner {
+        line-height: 15px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .iv-guide-cta {
+        padding: 10px 3px;
+    }
+}

@@ -1,0 +1,24 @@
+.location_iv .features_title {
+    font-weight: 700;
+}
+.location_iv .features_item {
+    margin-bottom: 22px;
+}
+.location_iv .candee .features_item li {
+    display: flex;
+    line-height: normal;
+    position: relative;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-left: 18px !important;
+}
+.location_iv .candee .features_item li:before {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 6px;
+    height: 6px;
+    top: 6px;
+    border-radius: 10px;
+    margin-left: -18px !important;
+}

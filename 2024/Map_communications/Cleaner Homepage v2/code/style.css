@@ -1,0 +1,304 @@
+.homepageTest_iv .top-section {
+    display: none;
+}
+
+/* Logo css */
+.homepageTest_iv .communications-title.top-section {
+    padding: 20px 15px;
+    display: block;
+}
+
+.homepageTest_iv .communications-title.top-section h2{
+	  font-weight: 500;
+}
+
+.homepageTest_iv .company-logos-block {
+    background-color: #00529C;
+    color: #fff;
+    padding: 25px 15px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.homepageTest_iv .company-logos-block .company-title {
+    margin-bottom: 50px;
+}
+
+.homepageTest_iv .company-logos-block .company-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: inherit;
+    column-gap: inherit;
+}
+
+.homepageTest_iv .company-logos-block .company-logos .company-logo {
+    margin: 0 30px;
+}
+
+.homepageTest_iv .company-logo img {
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width:767px) {
+    .homepageTest_iv .company-logos-block .company-logos .company-logo {
+        width: 50%;
+        margin: 0;
+    }
+
+    .homepageTest_iv .company-logo img {
+        width: 80px;
+        display: inline-block !important;
+    }
+}
+
+/* Why choose us */
+.choose-section {
+    background-color: #F4F5F5;
+    padding: 60px 0;
+}
+
+.choose-section h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 40px 0;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.choose-items .choose-item img {
+    min-height: 50px;
+    object-fit: contain;
+    width: 100%;
+    max-width: 50px;
+}
+
+.choose-items .choose-item-inner h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.choose-items .choose-item-inner {
+    background-color: #fff;
+    text-align: center;
+    height: 100%;
+    border-radius: 20px;
+    padding: 25px 20px;
+    box-shadow: 10px 10px 13px 0px rgb(0 0 0 / 13%);
+}
+
+.choose-items .choose-item-inner p {
+    margin-bottom: 0;
+}
+
+@media (max-width:1029px) {
+    .choose-section .wrap .flex-boxes {
+        margin: 0;
+    }
+}
+
+@media (max-width:767px) {
+    .choose-section h2 {
+        font-size: 30px;
+    }
+}
+
+/* how it work */
+.homepageTest_iv .works-section {
+    padding: 60px 0;
+}
+
+.homepageTest_iv .works-section .flex-boxes {
+    margin: 0;
+}
+
+.homepageTest_iv .works-section .flex-box h3 br {
+    display: none;
+}
+
+.homepageTest_iv .works-section .flex-box h3 {
+    min-height: 55px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    max-width: 300px;
+    font-weight: 600;
+    margin: auto;
+    width: 100%;
+    background-color: #288dbc;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.homepageTest_iv .works-section .flex-box p {
+    background-color: #fff;
+    color: #404040;
+    padding: 50px 40px 20px 40px;
+    max-width: 350px;
+    height: 100%;
+    width: 100%;
+    margin: -20px auto;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.10) 4px 4px 3px 0px;
+}
+
+.homepageTest_iv .works-item:nth-child(2)::after {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1719397166/mapcommunications/cleaner_homepage_v2/MAP_icons_1.png');
+    height: 150px;
+    bottom: 65%;
+}
+
+.homepageTest_iv .works-item:first-child:after {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1719397166/mapcommunications/cleaner_homepage_v2/MAP_icons_2.png');
+    height: 150px;
+    bottom: 75%;
+}
+
+.homepageTest_iv .works-item:not(:last-child)::after {
+    border: none;
+    top: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    pointer-events: none;
+    left: 80%;
+    width: 50%;
+}
+
+.homepageTest_iv .works-item {
+    height: 100%;
+    margin-bottom: 0;
+}
+
+@media (max-width:1029px) and (min-width:768px) {
+    .homepageTest_iv .works-section .flex-box h3 {
+        font-size: 17px;
+    }
+
+    .homepageTest_iv .works-section .flex-box p {
+        padding: 50px 20px 20px;
+        height: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .homepageTest_iv .works-section .flex-box {
+        margin-bottom: 60px;
+    }
+
+    .homepageTest_iv .works-section .flex-box p {
+        padding: 40px 20px 20px;
+    }
+
+    .homepageTest_iv .works-section {
+        padding: 40px 0;
+    }
+}
+
+/* Industries Section */
+.industries-section {
+    background-color: #FFF;
+    padding: 60px 0;
+}
+
+.industries-section .wrap .flex-boxes {
+    margin: 0;
+}
+
+.industries-section .industries-head {
+    margin-bottom: 30px;
+}
+
+.industries-items {
+    justify-content: end;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.13) 3px 3px 9px 0px;
+}
+
+.industries-section h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.industries-head p {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.industries-items img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.industries-items .industries-item {
+    margin-bottom: 0 !important;
+    padding: 20px;
+    background-color: #EAF1F5;
+    border: 1px solid #C4D4E4;
+}
+
+.industries-items .industries-item a {
+    display: block;
+    text-decoration: none;
+}
+
+.industries-item p {
+    margin-bottom: 0;
+}
+
+.industries-item h3 {
+    color: #010101;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.industries-item p {
+    color: #010101;
+    margin: 0;
+}
+
+@media (max-width:1029px) {
+    .industries-section .wrap {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media (min-width:768px) {
+    .industries-items .industries-item:nth-child(3n + 2) {
+        background-color: #F9F9F9;
+    }
+}
+
+@media (max-width:767px) {
+    .industries-section h2 {
+        font-size: 30px;
+    }
+
+    .industries-items {
+        box-shadow: none;
+    }
+
+    .industries-item {
+        box-shadow: rgba(0, 0, 0, 0.13) 3px 3px 9px 0px;
+    }
+
+    .industries-items .industries-item:nth-child(even) {
+        background-color: #F9F9F9;
+    }
+}

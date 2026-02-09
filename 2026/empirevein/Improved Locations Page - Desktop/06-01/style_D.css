@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px) {
+    .iv-locationsPage #maincontainer {
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+    .iv-locationsPage #maincontainer .__right {
+        max-width: 100%;
+        width: 100%;
+    }
+    .iv-locationsPage #maincontainer .__right:before,
+    .iv-locationsPage .locations_list li .__btn .btn-info {
+        display: none;
+    }
+    .iv-locationsPage .locations_list {
+        border-left: 1px solid var(--c-border);
+        border-bottom: 1px solid var(--c-border);
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-height: 100%;
+    }
+    .iv-locationsPage .locations_list li {
+        border-right: 1px solid var(--c-border);
+        flex-direction: column;
+        width: 33.33%;
+    }
+    .iv-locationsPage .locations_list li.active {
+        width: 33.33%;
+    }
+    .iv-locationsPage .locations_list li .__text {
+        flex: 1;
+    }
+    .iv-locationsPage .locations_list li .__text p {
+        margin-bottom: 0;
+    }
+    .iv-locationsPage .locations_list li .hours {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .iv-locationsPage .locations_list li {
+        grid-gap: 0;
+    }
+    .iv-locationsPage .locations_list li .__text {
+        margin-bottom: -20px;
+    }
+}

@@ -1,0 +1,83 @@
+.iv-sticky-filter .amw-accordion__header-block {
+    border-top: none;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.iv-sticky-filter .amw-accordion__panel:last-child {
+    border-bottom: none;
+}
+
+.iv-sticky-filter .product-list-left-refinements-slot .product-list-left-refinements-component {
+	max-height: calc(100vh - 150px);
+	overflow: auto;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+@media (min-width: 769px) {
+    .iv-sticky-filter .product-list-left-refinements-slot {
+        position: sticky;
+        top: 130px;
+        margin-bottom: 1.9em;
+    }
+}
+
+@media (max-width: 1100.98px) and (min-width: 1024px) {
+    .iv-sticky-filter .product-list-left-refinements-slot {
+        top: 168px;
+    }
+}
+
+@media (max-width: 1023.98px) and (min-width: 769px) {
+    .iv-sticky-filter .product-list-left-refinements-slot {
+        top: 96px;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .iv-sticky-filter .product-list-right-component .sort-wrapper .sort-refine-bar {
+        position: relative;
+    }
+    .iv-sticky-filter #product-facet {
+        border-left: none;
+        border-right: none;
+    }
+    .iv-sticky-filter .amw-page-plp__product-facet {
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 100%;
+        overflow-y: auto;
+        max-height: calc(100dvh - 170px);
+        width: 100%;
+        z-index: 2;
+    }
+    .iv-sticky-filter .amw-page-plp__drop-down-btn.active {
+        border-bottom-color: transparent;
+    }
+    .iv-sticky-filter .product-list-right-component {
+        position: relative;
+    }
+
+    /* Sticky class styling */
+    .iv-sticky-filter .iv-amw-page-plp__pagination-wrapper-top--sticky .pagination-wrapper {
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        padding: 0 28px 10px;
+        position: fixed;
+        left: 0px;
+        top: var(--sticky-header-height);
+        transition: top 0.2s ease, box-shadow 0.2s ease;
+        width: 100%;
+        z-index: 999;
+    }
+    .iv-sticky-filter .iv-amw-page-plp__pagination-wrapper-top--sticky .pagination-wrapper > .amw-form {
+        width: 89%;
+    }
+    .iv-sticky-filter .iv-amw-page-plp__pagination-wrapper-top--sticky .amw-page-plp__filter {
+        padding-top: 46px;
+    }
+    .iv-sticky-filter.iv-has-sticky-pagination .amw-header__mobile {
+        box-shadow: none;
+    }
+}

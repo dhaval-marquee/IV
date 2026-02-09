@@ -1,0 +1,6 @@
+.iv-form-contact form .form-section .form-submit-button{
+    transition: .3s;
+}
+.iv-form-contact form .form-section .form-submit-button:hover {
+    background-color: #e05e05 !important;
+}

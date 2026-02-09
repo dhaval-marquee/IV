@@ -1,0 +1,121 @@
+@media (max-width: 767.98px) {
+    .pricing-chart-wrap {
+        padding: 0;
+    }
+
+    .pricing-chart-wrap.slick-slider .slick-list {
+        padding-top: 40px !important;
+    }
+
+    .pricing-chart-wrap .pricing-chart {
+        padding: 0 !important;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .pricing-chart-wrap ul.slick-dots {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        position: inherit;
+        gap: 8px;
+        margin: 0;
+    }
+
+    .pricing-chart-wrap ul.slick-dots li {
+        margin: 0;
+        width: 15px;
+        height: 15px;
+    }
+
+    .pricing-chart-wrap ul.slick-dots li button {
+        padding: 0;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 2px solid #8B888E;
+        width: 100%;
+        height: 100%;
+    }
+
+    .pricing-chart-wrap ul.slick-dots li.slick-active button {
+        background-color: #545454;
+        border-color: #545454;
+    }
+
+    .pricing-chart-wrap ul.slick-dots li button:before {
+        display: none;
+    }
+
+    .pricing-chart-wrap .slick-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: transparent;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(0 0 0 / 69%);
+        z-index: 1;
+    }
+
+    .pricing-chart-wrap .slick-arrow:before {
+        font-size: 0;
+        display: block;
+        width: 12px;
+        height: 12px;
+        border-top: 3px solid #fff;
+        border-left: 3px solid #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(135deg);
+        margin-left: -3px;
+        opacity: 1;
+    }
+
+    .pricing-chart-wrap .slick-prev {
+        left: 0;
+    }
+
+    .pricing-chart-wrap .slick-next {
+        right: 0;
+    }
+
+    .pricing-chart-wrap .slick-arrow.slick-prev:before {
+        transform: translate(-50%, -50%) rotate(-38deg);
+        margin-left: 3px;
+    }
+
+    .pricing-chart-wrap .slick-prev:hover,
+    .pricing-chart-wrap .slick-prev:focus,
+    .pricing-chart-wrap .slick-next:hover,
+    .pricing-chart-wrap .slick-next:focus {
+        background: rgb(0 0 0 / 69%);
+    }
+
+    .slider_iv .pricing-table .pricing-chart h2 {
+        font-size: 22px;
+        padding: 14px;
+    }
+    
+    .slider_iv .pricing-table .pricing-chart .plan-features {
+        padding: 0px 15px;
+    }
+    .slider_iv .pricing-table .pricing-chart .plan-features h4 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .slider_iv .pricing-table .pricing-chart .inner .h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .slider_iv .pricing-table .pricing-chart .inner p {
+        font-size: 24px;
+    }
+    .slider_iv .pricing-table .pricing-chart .plan-features ul li {
+        font-size: 16px;
+    }
+    .slider_iv .pricing-table .pricing-chart a.pricing-btn {
+        font-size: 18px;
+    }
+}

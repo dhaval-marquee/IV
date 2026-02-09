@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,600&display=swap');
+
+.hero_iv h3.mega-title {
+    font-family: 'Roboto Condensed', sans-serif !important;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+}
+.hero_iv .heroTextWrapper {
+    background-color: #313233a1;
+    padding: 20px 20px 5px;
+}
+.hero_iv .hero.hero__overlay {
+    height: auto !important;
+}
+.hero_iv .hero .rte-setting {
+    max-width: 330px;
+    text-align: left;
+    margin: 22px auto 0;
+}
+@media (max-width: 767.98px) {
+    .hero_iv h3.h3.mega-title {
+        font-size: 32px;
+    }
+}
+@media (max-width: 359.98px) {
+    .hero_iv h3.h3.mega-title {
+        font-size: 28px;
+    }
+    .hero_iv .hero .hero__inner__content {
+        padding: 0 12px;
+    }
+    .hero_iv .heroTextWrapper {
+        background-color: #31323378;
+        padding: 20px 12px 5px;
+    }
+}

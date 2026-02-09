@@ -1,0 +1,6 @@
+.swatches_iv .product-swatches .imagesWrapper {
+    display: flex;
+}
+.swatches_iv .product-swatches .imagesWrapper a.active {
+    border: 1px solid #495dba;
+}

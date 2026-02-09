@@ -1,0 +1,85 @@
+body .mod-banner .widget-cta {
+    display: none !important;
+}
+body .form-hubspot {
+    display: block !important;
+    visibility: visible;
+    max-width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+body .hbspt-form fieldset {
+    flex: 0 0 100%;
+}
+body .hbspt-form .hs-main-font-element h4 {
+    color: #07294e;
+    font-family: Raleway, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+body .hbspt-form .hs-main-font-element p {
+    color: inherit;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+body .hbspt-form .legal-consent-container {
+    max-width: 100%;
+    padding: 0 15px;
+}
+body .hbspt-form fieldset .hs-fieldtype-select .input,
+body .hbspt-form fieldset .hs-fieldtype-text .input {
+    margin-right: 0;
+}
+body .hbspt-form fieldset .hs-fieldtype-select .input select,
+body .hbspt-form fieldset .hs-fieldtype-text .input input {
+    width: 100% !important;
+}
+body .hbspt-form .legal-consent-container .hs-richtext {
+    font-size: inherit;
+    line-height: inherit;
+}
+body .hbspt-form .hs-recaptcha .grecaptcha-badge {
+    margin: auto;
+}
+body .hbspt-form .hs-submit {
+    margin-top: 0;
+}
+body .hbspt-form .hs-submit .actions {
+    background: #29b49c;
+    border-color: #29b49c;
+}
+body .hbspt-form .hs-submit .actions:is(:hover, :focus, :active) {
+    background-color: #1f8e7b !important;
+    border-bottom-color: transparent !important;
+    color: #fff !important;
+    border-color: #1f8e7b !important;
+}
+body .hbspt-form .hs-submit .actions input {
+    font-size: 18px;
+}
+body .hbspt-form .hs-submit .actions:is(:hover, :focus, :active) input {
+    background-color: transparent;
+    border: none;
+}
+body .hbspt-form label {
+    pointer-events: none;
+}
+
+@media (max-width: 991.98px) {
+    body .form-hubspot {
+        margin-top: 50px;
+    }
+
+    body .hbspt-form .hs-recaptcha {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    body .hbspt-form .legal-consent-container {
+        margin-bottom: 1rem;
+    }
+}

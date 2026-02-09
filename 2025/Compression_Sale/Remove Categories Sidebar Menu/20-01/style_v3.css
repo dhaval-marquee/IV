@@ -1,0 +1,17 @@
+body {
+    visibility: hidden;
+}
+
+.sidebar_iv .slider-left ul.vertical-menu>li:not(:first-of-type),
+.sidebar_iv #recently-viewed-products {
+    display: none;
+}
+.sidebar_iv .slider-left ul.vertical-menu .shopByBrand1,
+.sidebar_iv .slider-left ul.vertical-menu > li.navmenu-id-womens,
+.sidebar_iv .slider-left ul.vertical-menu > li.navmenu-id-mens,
+.sidebar_iv .slider-left ul.vertical-menu > li.navmenu-id-unisex {
+    display: block !important;
+}
+.sidebar_iv .left-pt .tp-2-dec ul li {
+    font-weight: 600;
+}

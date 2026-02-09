@@ -1,0 +1,220 @@
+.iv-product-finder .pxs-image-with-text-section {
+    display: none;
+}
+
+.iv-product-finder .animated-modal {
+    transform: translateY(0);
+    margin-bottom: 30px;
+}
+
+.iv-product-finder .animated-modal .promo-form .head-part {
+    border-top: 1px solid #ccc;
+}
+
+.iv-product-finder .animated-modal form .step-box h2 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.iv-product-finder .animated-modal .container_b,
+.iv-product-finder .animated-modal fieldset {
+    padding-left: 0;
+    padding-right: 0;
+}
+.iv-product-finder .promo-form h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+}
+.iv-product-finder .highlights-banners-block-link {
+    pointer-events: none;
+}
+/* step box */
+
+.iv-product-finder .holder {
+    margin: 0 50px;
+    margin-bottom: 40px;
+}
+
+.iv-product-finder .step-box {
+    display: none;
+    max-width: 100% !important;
+    flex: auto !important;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+    column-gap: 22px;
+    row-gap: 10px;
+}
+
+.iv-product-finder .step-box.active {
+    display: flex;
+}
+
+.iv-product-finder .footer-part {
+    margin-top: 10px;
+}
+
+.iv-back,
+.iv-submit {
+    display: none;
+}
+
+.iv-product-finder .iv-finder-button {
+    display: none;
+}
+
+.iv-product-finder .step-box h2 {
+    display: none;
+}
+.iv-button {
+    padding: 8px 25px;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    line-height: 23px;
+    transition: all .3s ease-in;
+}
+
+.iv-product-finder .footer-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.iv-product-finder .iv-next,
+.iv-product-finder .iv-submit {
+    color: #fff;
+    background-color: #2a527d;
+    border: 2px solid #2a527d;
+}
+
+.iv-product-finder .iv-next:hover,
+.iv-product-finder .iv-submit:hover {
+    background-color: #1a5699;
+}
+
+.iv-product-finder .iv-back {
+    color: #2a527d;
+    background-color: #fff;
+    border: 2px solid #2a527d;
+}
+
+.iv-product-finder .iv-back:hover {
+    color: #fff;
+    background-color: #1a5699;
+}
+
+.iv-product-finder .radio-box {
+    max-width: calc(33.33% - 15px);
+}
+
+/* progress bar */
+.iv-product-finder .progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.iv-product-finder .progress-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #2a527d;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.iv-product-finder .progress-indicator {
+    position: absolute;
+    top: 50%;
+    height: 4px;
+    background-color: #1f3c73;
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.iv-product-finder .step-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.iv-product-finder .step {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 4px solid #2a527d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.iv-product-finder .step.active {
+    border-color: #1f3c73;
+    background-color: #1f3c73;
+}
+
+.iv-product-finder .step-label {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f3c73;
+    position: absolute;
+    top: 30px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+
+@media (max-width:767px) {
+    .iv-product-finder .holder{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .iv-product-finder .step-box{
+        margin-top: 50px;
+    }
+    .iv-product-finder .step-wrapper{   
+        flex: inherit;
+        width: 15%;
+    }
+    .iv-product-finder .step-label{
+        font-size: 13px;
+    }
+    .iv-product-finder .radio-box{
+        max-width: 100%;
+    }
+    .iv-button{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .iv-product-finder .slider-right{
+        padding-top: 15px;
+    }
+    .iv-product-finder .slider-content .videoEnable .video-content-wrapper {
+        padding: 30px 0 0;
+    }
+    .iv-product-finder .slider-content .videoEnable video {
+        max-height: max-content;
+        min-height: inherit;
+    }
+}

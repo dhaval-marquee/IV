@@ -1,0 +1,74 @@
+.heroCopy #wrapper-homepage section form > p,
+.heroCopy #wrapper-homepage section form > p + .btn-group {
+    display: none;
+}
+
+.heroCopy #wrapper-homepage section form h2 {
+    font-size: 28px;
+    line-height: normal;
+    margin: 0;
+}
+
+.heroCopy #wrapper-homepage section form h5 {
+    font-size: 20px;
+}
+
+.heroCopy #wrapper-homepage section form h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+/* Cookie code, Common for all variants */
+.sgcc-main-wrapper .sgcc-cookies p {
+    font-size: 12px;
+    line-height: 22px !important;
+}
+@media (max-width: 1150px) {
+    .sgcc-main-wrapper .sgcc-cookies p {
+        font-size: 11px;
+        line-height: 20px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .sgcc-main-wrapper .sgcc-cookies p {
+        font-size: 11px;
+        line-height: 20px !important;
+    }
+    .sgcc-main-wrapper .sgcc-cookies p.cookie-compliance-button-block {
+        max-width: 85px;
+        width: 100%;
+        min-width: inherit;
+        white-space: nowrap;
+    }
+    
+    .sgcc-main-wrapper .message-block {
+        max-width: calc(100% - 90px);
+    }
+    
+    .sgcc-main-wrapper .sgcc-cookies p {
+        font-size: 10px;
+        line-height: 16px !important;
+    }
+}
+
+
+/* Just for Variant 3 */
+body form h3 + p,
+body form div.btn-group  {
+    display: none;
+}
+
+body form h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    body section form.px-4 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+/* Variant 3 CSS over */
+

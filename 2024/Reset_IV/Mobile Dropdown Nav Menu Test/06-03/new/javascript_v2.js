@@ -1,0 +1,1 @@
+$(' #offcanvas nav > ul> li:first-child a span i').before('<span><img src="//res.cloudinary.com/ignite-visibility/image/upload/f_auto/Resetiv/left-arrow.png" alt="Left arrow"> Start Here</span>')

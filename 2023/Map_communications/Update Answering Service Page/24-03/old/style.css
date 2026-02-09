@@ -1,0 +1,250 @@
+/* Common code */
+body { 
+    visibility: hidden;
+    font-family: 'Inter', Helvetica,Arial,sans-serif;
+    line-height: normal;
+    font-style: normal;
+}
+.asp_iv .top-wrapper {
+    display: none;
+}
+.asp_iv #content {
+    margin-top: 0;
+}
+.asp_iv h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.asp_iv h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    text-transform: inherit;
+    letter-spacing: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.asp_iv section {
+    padding: 30px 0;
+}
+.asp_iv section .wrap.cf {
+    max-width: 1260px;
+    width: 100%;
+}
+/* Common code over */
+
+
+
+
+/* Header Section over */
+.asp_iv .header {
+    padding: 15px 0 0;
+    background: #292c38;
+    height: auto;
+}
+.asp_iv .header .top-buttons {
+    margin-bottom: 15px;
+}
+.asp_iv .header .cf.clear {
+    background: #333e4b;
+}
+/* Header Section over */
+
+/* Hero Section */
+.asp_iv .hero_section {
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mapcommunications/ASP_redesign/Hero_Image_large.jpg');
+    background-size: 2124px 747px;
+    background-repeat: no-repeat;
+    background-position: top 99px right -323px;
+    min-height: 700px;
+    padding-top: 133px;
+    padding-bottom: 0;
+}
+.asp_iv .hero_section .wrap.cf {
+    max-width: 1297px;
+    width: 100%;
+}
+.asp_iv .hero_section .hero_inner {
+    padding: 130px 0;
+    min-height: 714px;
+    max-width: 666px;
+    width: 100%;
+}
+.asp_iv .hero_section h1 {
+    font-size: 64px;
+    line-height: 77px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 19px;
+    margin-bottom: 7px;
+}
+.asp_iv .hero_section p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.asp_iv .hero_section a.orange-btn {
+    font-family: 'Inter', Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: inherit;
+    max-width: 271px;
+    width: 100%;
+    padding: 16px;
+}
+
+@media only screen and (min-width: 1800.98px) {
+    .asp_iv .hero_section {
+        background-position: top center;
+        background-size: cover;
+    }
+}
+/* Hero Section over */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Complementary Section */
+.asp_iv .complementary_section h2 {
+    margin-top: 51px;
+}
+.asp_iv .complementary_section ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0;
+}
+.asp_iv .complementary_section ul li {
+    max-width: 33.33%;
+    width: 100%;
+    text-align: center;
+    padding: 0 50px;
+    margin-bottom: 15px;
+}
+.asp_iv .complementary_section ul li p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 12px;
+}
+/* Complementary Section Over */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* How it Works */
+.asp_iv .how_works {
+    background-color: #7F8D9F;
+}
+.asp_iv .how_work_wrapper {
+    display: flex;
+    margin-top: 47px;
+}
+.asp_iv .how_works h2 {
+    color: #fff;
+}
+.asp_iv .how_work_content {
+    position: relative;
+    text-align: center;
+}
+.asp_iv .how_work_content .number {
+    display: flex;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    background-color: #288DBC;
+    border-radius: 100px;
+    width: 62px;
+    height: 62px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto 20px;
+}
+.asp_iv .how_work_content h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.asp_iv .how_work_content p {
+    color: #fff;
+}
+.asp_iv .how_work_content:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 27px;
+    left: 61.8%;
+    border-top: 4px dashed #fff;
+    z-index: 9;
+    width: 75%;
+}
+
+@media (max-width: 1029.98px) {
+    .asp_iv .how_work_content:not(:last-child)::after{
+        left: 65%;
+        width: 65%;
+    }
+}
+
+@media (max-width: 767.98px){
+    .asp_iv .how_work_wrapper{
+        display: block;
+    }
+    .asp_iv .how_work_content{
+        padding: 10px 15px 30px 15px;
+    }
+    .asp_iv .how_work_content:not(:last-child)::after{
+        width: 0px;
+        height: 30px;
+        border-right: 4px dashed #fff;
+        top: auto;
+        bottom: 6px;
+        left: 50%;
+        margin-left: -2px;
+        display: none;
+    }
+    .asp_iv .how_work_content p{
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* How it Works over */

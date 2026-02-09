@@ -1,0 +1,77 @@
+.iv-security-banner-section {
+    background: url("https://res.cloudinary.com/ignite-visibility/image/upload/v1756190571/PriceSelfStorage/labor-day-tests/iStock.jpg");
+    width: 100%;
+    max-width: 727px;
+    height: 100%;
+    min-height: 223px;
+    background-size: cover;
+    background-position: center -140px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 12px rgba(49, 49, 49, .1);
+    padding: 10px 22px;
+}
+
+.iv-security-banner-inner {
+    max-width: 413px;
+    width: 100%;
+    margin: 0 0 0 auto;
+}
+
+h3.iv-security-banner-info {
+    color: #0A1F8F;
+    /* font-family: Hubot-Sans; */
+    font-size: 35px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+span.highlight-text {
+    color: #EB1B29;
+}
+
+@media (max-width: 1199px) {
+    .iv-security-banner-section {
+        max-width: 100%;
+        background-position: center -100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .iv-security-banner-section {
+        background-position: center bottom -120px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .iv-security-banner-section {
+        background-position: center center;
+        padding: 22px;
+    }
+
+    .iv-security-banner-inner {
+        max-width: 350px;
+    }
+
+    h3.iv-security-banner-info {
+        font-size: 28px !important;
+    }
+}
+
+@media (max-width: 520.98px) {
+    .iv-security-banner-inner {
+        max-width: 224px;
+    }
+
+    h3.iv-security-banner-info {
+        font-size: 20px !important;
+        line-height: 30px;
+    }
+}
+@media (min-width: 768px) {
+    #repDataMobile_0 .iv-security-banner-section {
+        display: none !important;
+    }
+}

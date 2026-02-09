@@ -1,0 +1,21 @@
+#listItems {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+#listItems li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e3e3e3;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#listItems li:hover,
+#listItems li.active {
+    background-color: #e8e8e8;
+}

@@ -1,0 +1,60 @@
+.iv-price-bar {
+    background: #fc762b;
+    box-shadow: 0px 0px #0000, 0 0 #0000, 0px 7px 20px #0000005e;
+    color: #fff;
+    margin-bottom: 0;
+    margin-left: 9.75rem;
+    position: fixed;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+    max-width: 55%;
+    width: 100%;
+    z-index: 9;
+}
+
+.iv-price-bar strong {
+    color: #fff;
+}
+
+.iv-price-bar-full {
+    background-color: #fc762b;
+    justify-content: center;
+    color: #fff;
+}
+.iv-price-bar-full strong {
+    color: #fff;
+}
+
+
+@media (min-width: 1676px) {
+    .iv-price-bar {
+        max-width: 1050px;
+    }
+}
+
+@media (max-width: 767px) {
+    .iv-price-bar {
+        margin-left: 0;
+        max-width: 100%;
+        padding: 12px;
+        border-radius: 0;
+    }
+    .iv-price-bar-full, .iv-price-bar {
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .iv-price-bar-full strong, .iv-price-bar strong {
+        color: #fff;
+        font-size: 14px;
+    }
+    .iv-price-bar-full > div, .iv-price-bar > div {
+        flex-wrap: nowrap;
+        gap: 10px;
+        font-size: 14px;
+    }
+    .iv-price-bar-full > div > div , .iv-price-bar > div > div {
+        gap: 5px;
+    }
+}

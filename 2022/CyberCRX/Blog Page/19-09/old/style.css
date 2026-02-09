@@ -1,0 +1,90 @@
+.cybergrx_test .img-canvas,
+.cybergrx_test .f-landing-right .style-ul-check div:nth-child(1),
+.cybergrx_test .mod-banner.mod-banner-l .content-banner h2 + h2,
+.cybergrx_test #hs_cos_wrapper_widget_30745387653,
+.cybergrx_test .mod-banner-3.mod-banner-home .mark-skew-white,
+.cybergrx_test #hs_cos_wrapper_widget_30745387654{
+    display: none;
+}
+.cybergrx_test .mod-banner.mod-banner-l{
+    margin-bottom: 0;
+    padding-top: 120px;
+}
+.cybergrx_test .mod-banner.mod-banner-l .d-table{
+    padding-bottom: 0px;
+}
+.cybergrx_test .mod-banner-home{
+    background-color:inherit;
+}
+.cybergrx_test .col-right-chart {
+   position: initial;
+}
+.cybergrx_test #header{
+    background-color: #f0f6fd;
+}
+.cybergrx_test .mod-banner.mod-banner-l .content-banner{
+    max-width: 565px;
+    color: #000;
+}
+.cybergrx_test .mod-banner.mod-banner-l .content-banner div ul li{
+  list-style: none;
+  position: relative;
+}
+.cybergrx_test .mod-banner.mod-banner-l .content-banner div ul li::before{
+    content: "\e90f";
+    top: 7px;
+    left: -40px;
+    font-size: 1.25rem;
+    color: #44247b;
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+}
+.cybergrx_test .mod-banner.mod-banner-l .content-banner div p{
+    font-weight: 700;
+    font-size: 24px;
+    /* color: #000; */
+}
+.cybergrx_test .mod-banner.mod-banner-l .content-banner h2 {
+    color: #000;
+}
+.cybergrx_test .mod-banner.mod-banner-l .content-banner h2  span{
+    color: #f1693e;
+}
+.cybergrx_test .align-items-center {
+    align-items: initial !important;
+}
+.cybergrx_test .mod-banner.mod-banner-l .content-banner h2 + p{
+    color: #07294e;
+}
+.cybergrx_test .speakers_sectio{
+    background-color: #f3f3f5;
+    padding-top: 20px;
+}
+.cybergrx_test .speakers_sectio  h3{
+    text-align: center;
+}
+.cybergrx_test .speakers_sectio  ul{
+    display: flex;
+    justify-content: center;
+}
+
+.cybergrx_test .speakers_sectio  ul li{
+    display: flex;
+    align-items: center;
+    max-width: 374px;
+    width: 100%;
+}
+.cybergrx_test .speakers_sectio ul li div{
+    padding-left: 12px;
+}
+.cybergrx_test .speakers_sectio ul li div h4{
+    color: #07294e;
+    margin-bottom: 0;
+}

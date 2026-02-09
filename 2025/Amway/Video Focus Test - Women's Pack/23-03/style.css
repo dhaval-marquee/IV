@@ -1,0 +1,14 @@
+body a[aria-label="Item 5 of 5 (Video):  Women's Pack"] span.amw-gallery-carousel__video-icon--thumbnail,
+body a[aria-label="Item 5 of 5 (Video):  Women's Pack selected"] span.amw-gallery-carousel__video-icon--thumbnail {
+    font-size: 32px;
+    top: 0px;
+}
+body a[aria-label="Item 5 of 5 (Video):  Women's Pack"] .icon-play-solid,
+body a[aria-label="Item 5 of 5 (Video):  Women's Pack selected"] .icon-play-solid {
+    background-color: transparent;
+    padding: 17px;
+}
+body a[aria-label="Item 5 of 5 (Video):  Women's Pack"] .icon-play-solid::before,
+body a[aria-label="Item 5 of 5 (Video):  Women's Pack selected"] .icon-play-solid::before {
+    content: "\ef5a";
+}

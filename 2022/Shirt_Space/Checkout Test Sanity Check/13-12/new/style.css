@@ -1,0 +1,201 @@
+.checkout_iv .address_company,
+.checkout_iv #checkout.container .checkout-section .expand-link,
+.checkout_iv .address_line2,
+.checkout_iv #cvv-explanation,
+.checkout_iv #checkout.container .checkout-section.payment-info .content .field-container p.center,
+.checkout_iv .address_email_marketing {
+    display: none;
+}
+.checkout_iv .checkout-main__wrapper {
+    max-width: 1140px;
+}
+.checkout_iv .trust_pilot_review p {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.trust_pilot_review a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.checkout_iv .trust_pilot_review img {
+    max-width: 130px;
+    width: 100%;
+    margin-right: 10px;
+}
+.checkout_iv #checkout.container .checkout-section.shipping-address .content {
+    display: block !important;
+    padding-bottom: 10px;
+}
+.checkout_iv #checkout.container .checkout-section header {
+    background-color: #047aca;
+    padding: 10px 15px;
+    margin-bottom: 0;
+}
+.checkout_iv #checkout.container .checkout-section header .number {
+    color: #047aca;
+    background-color: #fff;
+}
+.checkout_iv #checkout.container .checkout-section header h1 {
+    color: #fff;
+    font-size: 20px;
+}
+.checkout_iv #checkout.container .checkout-section .content {
+    background-color: transparent;
+}
+.checkout_iv #checkout.container .checkout-section > .content {
+    border: 2px solid #047aca;
+    padding: 25px 10px;
+}
+.checkout_iv #checkout.container .checkout-section.last > .content {
+    display: block;
+}
+.checkout_iv #checkout.container .checkout-section .checkout-section {
+    --checkout-circle-dimension: 30px;
+    min-height: 75px;
+    margin: 0 var(--viewport-padding) 30px;
+}
+.checkout_iv #checkout.container .checkout-section .billing-address {
+    margin-top: 20px;
+}
+.checkout_iv .billing_address > .content > .field-container {
+    margin-bottom: 0;
+}
+.checkout_iv #checkout.container .checkout-section.payment-info .content > h4 ~ h4 {
+    display: none;
+}
+.checkout_iv #checkout.container .checkout-section.payment-info .place-order,
+.checkout_iv #checkout.container .checkout-section.shipping-address input[value="Save & Continue"] {
+    text-transform: inherit;
+    font-size: 18px;
+    line-height: normal;
+    height: auto;
+    width: auto;
+    border-radius: 0;
+    padding: 10px 30px;
+    margin: 10px 0 0 0 !important;
+}
+.checkout_iv #checkout.container .checkout-section.shipping-address input[value="Save & Continue"] {
+    margin: 0 0 15px 10px !important;
+}
+
+/* Form Field CSS */
+.checkout_iv #checkout.container article.checkout-section form.simple_form .field-container {
+    margin-bottom: 0;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .field {
+    position: relative;
+    padding-bottom: 20px;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .field-container span.error {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .addr-form__item--first-name,
+.checkout_iv #checkout.container article.checkout-section form.simple_form .addr-form__item--last-name {
+    width: 50%;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form label {
+    font-size: 17px;
+    letter-spacing: 0.1px;
+    background-color: #fff;
+    position: absolute;
+    left: 3px;
+    top: 6px;
+    padding: 0 5px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out 0s;
+    pointer-events: none;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .select:not(.focused) label {
+    opacity: 1;
+    color: #646464;
+    top: 9px;
+    left: 10px;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .select:not(.focused) label abbr {
+    color: #646464;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .typing label {
+    color: #9ec74f;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .focused label {
+    font-size: 14px;
+    top: -9px;
+    left: 10px;
+    opacity: 1;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form input,
+.checkout_iv #checkout.container article.checkout-section form.simple_form select {
+    padding: 8px 15px;
+    height: 40px;
+    border-radius: 3px;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form input:focus ,
+.checkout_iv #checkout.container article.checkout-section form.simple_form select:focus {
+    outline: none;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .focused input::-moz-placeholder {
+   opacity: 0;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .focused input:-moz-placeholder {
+   opacity: 0;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .focused input::-webkit-input-placeholder {
+   opacity: 0;
+}
+.checkout_iv #checkout.container article.checkout-section form.simple_form .focused input:-ms-input-placeholder {
+   opacity: 0;
+}
+.checkout_iv #checkout.container article.checkout-section form .error label {
+    color: #cc3d3d;
+}
+
+
+/* Card details input field */
+.checkout_iv #checkout.container .checkout-section .flashes-container .flashes-container__inner,
+.checkout_iv #checkout.container .checkout-section.payment-info form .text-error {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.checkout_iv #checkout.container .checkout-section.payment-info .card-details {
+    margin-top: 20px;
+    display: inline-block;
+}
+.checkout_iv #checkout.container article.checkout-section form input,
+.checkout_iv #checkout.container article.checkout-section.payment-info .hosted-field {
+    height: 40px;
+}
+.checkout_iv #checkout.container article.checkout-section.payment-info .field {
+    position: relative;
+}
+.checkout_iv #checkout.container article.checkout-section form label {
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    top: -9px;
+    left: 9px;
+    opacity: 1;
+    background-color: #fff;
+}
+.checkout_iv #checkout.container article.checkout-section form .card-number img {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    margin-right: 0;
+}
+
+
+/* For loggedin users */
+.checkout_iv #checkout.container article.checkout-section form .radio_buttons label {
+    position: inherit;
+    opacity: 1;
+    left: inherit;
+    top: inherit;
+    pointer-events: inherit;
+    letter-spacing: normal;
+    font-size: inherit;
+    padding: inherit;
+    padding-left: 20px;
+}

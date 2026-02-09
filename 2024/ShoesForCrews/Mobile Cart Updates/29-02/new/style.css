@@ -1,0 +1,66 @@
+/* Brand img */
+div[class*="DefaultCartView"] span[class*="Item_brandImageContainer"] {
+    display: none;
+}
+
+/* Right content wrapper */
+div[class*="Item_itemInfo"] {
+    padding-right: 40px;
+}
+
+/* Product image */
+div[class*="DefaultCartView"] div[class*="Item_itemImage"] {
+    padding-right: 0;
+}
+div[class*="DefaultCartView"] div[class*="Item_itemImage"] img {
+    width: 60px !important;
+    height: auto;
+    margin: auto;
+}
+
+/* Delete icon */
+div[class*="DefaultCartView"] div[class*="Item_removeButton"] {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: inherit;
+}
+div[class*="DefaultCartView"] div[class*="Item_removeButton"] i {
+    font-size: 14px;
+    border: none;
+}
+div[class*="DefaultCartView"] div[class*="Item_removeButton"] i:before {
+    color: #D0D0D0;
+}
+
+/* Pricing & Qty. */
+div[class*="DefaultCartView"] div[class*="Item_itemAttributesContainer"] {
+    display: flex;
+    flex-direction: row;
+}
+div[class*="DefaultCartView"] div[class*="Item_itemAttributesContainer"] > * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+div[class*="DefaultCartView"] div[class*="Item_itemAttributesContainer"] > div:last-child {
+    display: none;
+}
+
+
+div[class*="DefaultCartView"] div[class*="Item_itemAttributesContainer"] div[class*="Item_subAttributeItem"] + div[class*="Item_subAttributeItem"] {
+    position: relative;
+    padding-left: 10px;
+    font-size: 0;
+}
+div[class*="DefaultCartView"] div[class*="Item_itemAttributesContainer"] div[class*="Item_subAttributeItem"] + div[class*="Item_subAttributeItem"]:before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #d3d3d3;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

@@ -1,0 +1,90 @@
+.productPage #pagecontent +div >.sixteen.columns,
+.productPage .swatch_options,
+.product_gallery_nav.product_gallery_nav--bottom-slider .gallery-cell img,
+.productPage .product-quantity-box.purchase-details__quantity label{
+    display: none;
+}
+
+.productPage .selector-wrapper, 
+.productPage .select{
+    display: block;
+}
+.productPage .select{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.productPage .selector-wrapper{
+    width: 60%;
+}
+.productPage .select .purchase-details__quantity{
+    width: 36%;
+}
+.ig-custom--template h1.product_name{
+    text-align: center;
+}
+.purchase-details__buttons.purchase-details__spb--true .action_button.action_button--secondary{
+    font-size: 28px;
+    display: flex;
+    margin: 22px 0 40px 0;
+}
+/* .product_gallery_nav.product_gallery_nav--bottom-slider .gallery-cell{
+    position: relative;
+}
+.product_gallery_nav.product_gallery_nav--bottom-slider .gallery-cell:before{
+    content: "";
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.product_gallery_nav.product_gallery_nav--bottom-slider .gallery-cell.is-selected.is-nav-selected:before{
+    content: "";
+    background-color: rgb(98, 0, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+} */
+.productPage .selector-wrapper .single-option-selector{
+    border: 2px solid #1dafe0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 3px 36px 3px 6px;
+    margin-bottom: 0;
+    background-color: #49464A;
+    color: white;
+    border-radius: inherit;
+}
+@media screen and (max-width: 425.98px) {
+    .productPage .select .product-quantity-box .product-plus,
+    .productPage .select .product-quantity-box .product-minus{
+        width: 30px;
+    }   
+    .productPage .product-quantity-box .quantity{
+        width: 50% !important;
+    }
+}
+@media screen and (max-width: 425.98px) { 
+    .productPage .select .product-quantity-box .product-plus,
+    .productPage .select .product-quantity-box .product-minus{
+        width: 25px;
+    }
+}
+
+.ignitecbd-product-description-bottom .product_gallery_nav.product_gallery_nav--bottom-slider .gallery-cell{
+    background-color: inherit;
+}
+.product_gallery_nav.product_gallery_nav--bottom-slider .dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.product_gallery_nav.product_gallery_nav--bottom-slider .gallery-cell.is-selected.is-nav-selected .dot{
+    background-color: red;
+}
+.productPage .flickity-enabled.is-draggable .flickity-viewport{
+    top: 30px;
+    height: 80px !important;
+}

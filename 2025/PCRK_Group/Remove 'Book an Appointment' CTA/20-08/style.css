@@ -1,0 +1,7 @@
+body .location-wrap .location-buttons {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+body .location-wrap a.btn-appointment {
+    display: none;
+}

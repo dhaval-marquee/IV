@@ -1,0 +1,125 @@
+/* Left -  Product Gallery */
+.iv-pdp-revamp .product-gallery {
+    flex-direction: inherit;
+}
+
+.iv-pdp-revamp .product-gallery .product-gallery__image-list {
+    order: 1;
+}
+
+.iv-pdp-revamp .product-gallery .product-gallery__thumbnail-list {
+    width: 49px;
+}
+
+.iv-pdp-revamp .product-gallery__thumbnail-list .product-gallery__thumbnail-scroller {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Right - Product info*/
+.iv-pdp-revamp .product-info__block-item[data-block-id="buy_buttons"] {
+    margin-bottom: 0;
+}
+
+.iv-pdp-revamp product-form .swym-wishlist-button-bar {
+    display: flex !important;
+    margin: 0;
+}
+
+.iv-pdp-revamp product-form .swym-wishlist-button-bar button {
+    display: block !important;
+}
+
+.iv-pdp-revamp product-form form {
+    display: flex;
+    width: 100%;
+}
+
+.iv-pdp-revamp product-form form .v-stack {
+    width: 100%;
+}
+
+.iv-pdp-revamp .product-info__block-item[data-block-id="buy_buttons"] {
+    margin-bottom: 5px;
+    margin-top: 5px !important;
+}
+
+.iv-pdp-revamp .iv-feature-badge-list {
+    display: none;
+}
+
+.iv-pdp-revamp .product-info .product-info__block-item .badge.badge--custom.badge--free-add-ons {
+    background: rgb(var(--on-sale-badge-background));
+}
+
+/* Info Accordion */
+.iv-pdp-revamp #product-extra-information accordion-disclosure {
+    pointer-events: none;
+    border: 0;
+}
+
+.iv-pdp-revamp #product-extra-information .accordion__toggle span.animated-plus {
+    display: none;
+}
+
+/* Accordion  */
+.iv-pdp-revamp #product-extra-information {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid #dddddd;
+    gap: 0 30px;
+}
+
+.iv-pdp-revamp #product-extra-information accordion-disclosure:last-child {
+    grid-column: 1 / -1;
+}
+
+.iv-pdp-revamp #product-extra-information accordion-disclosure summary {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 20px;
+}
+
+.iv-pdp-revamp #product-extra-information accordion-disclosure summary span.accordion__toggle {
+    padding: 20px 0 15px;
+}
+
+@media screen and (max-width: 999px) {
+    /* Left -  Product Gallery */
+    .iv-pdp-revamp .product-gallery {
+        flex-direction: var(--product-gallery-flex-direction, column);
+    }
+    .iv-pdp-revamp .product-gallery .product-gallery__image-list {
+        order: inherit;
+    }
+    .iv-pdp-revamp .product-gallery__image-list .product-gallery__media>* {
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* Right - Product info*/
+    .iv-pdp-revamp .product-info .feature-badge-list.iv-feature-badge-list {
+        display: flex;
+        gap: 10px;
+    }
+    .iv-pdp-revamp .iv-feature-badge-list .product-info__block-item:has([href="/pages/free-stethoscope-parts"]) {
+        display: none;
+    }
+    .iv-pdp-revamp .iv-feature-badge-list .product-info__block-item:has([href="/pages/lifetime-warranty"]) {
+        display: none;
+    }
+    .iv-pdp-revamp .iv-feature-badge-list .product-info__block-item > a, .iv-pdp-revamp .iv-feature-badge-list .product-info__block-item > div {
+        background-color: #005AA9 !important;
+        color: #fff !important;
+    }
+    .iv-pdp-revamp .iv-feature-badge-list .product-info__block-item img.constrained-image {
+        filter: brightness(0) invert(1);
+    }
+    .iv-pdp-revamp .product-info .feature-badge-list {
+        gap: 2px;
+    }
+}
+@media screen and (max-width: 767px) {
+    /* Accordion  */
+    .iv-pdp-revamp #product-extra-information {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

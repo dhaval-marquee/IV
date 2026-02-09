@@ -1,0 +1,106 @@
+
+.shirtspace-cart .prepare-checkout {
+    display: flex;
+    flex-direction: column;
+}
+.shirtspace-cart .shipping-title {
+	font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 19px;
+    text-decoration: underline;
+    margin: 20px 0 0;
+}
+.shirtspace-cart .prepare-checkout .cart-summary__totals + .cart-summary__payment_actions {
+    height: 0;
+    opacity: 0;
+    padding: 0;
+    margin: 0 !important;
+    border: none;
+    pointer-events: none;
+}
+.shirtspace-cart .prepare-checkout .cart-summary__totals {
+	order: 2;
+	padding: 0 0 8px;
+}
+.shirtspace-cart .prepare-checkout .cart-summary__payment_actions {
+	order: 3;
+}
+.shirtspace-cart .prepare-checkout .cart-summary__shipping-methods {
+	order: 1;
+}
+.shirtspace-cart .prepare-checkout .cart-transit-summary {
+	order: 1;
+}
+.shirtspace-cart .prepare-checkout .icon--info {
+	order: 6;
+}
+.shirtspace-cart .prepare-checkout .cart-summary__promo-code {
+	order: 2;
+	margin: 0 !important;
+}
+.shirtspace-cart .prepare-checkout .cart-summary__payment_actions {
+	order: 8;
+}
+.shirtspace-cart .prepare-checkout > .cart-summary__promo-code > p {
+	color: #007dc5;
+	font-weight: 500;
+	cursor: pointer;
+    display: inline-block;
+}
+.shirtspace-cart .prepare-checkout > .cart-summary__promo-code form.simple_form {
+	display: none;
+}
+.shirtspace-cart .prepare-checkout > .cart-summary__promo-code form.simple_form.current {
+	display: block;
+}
+.shirtspace-cart .cart-summary__shipping-methods:before {
+    content: 'Choose Your Shipping Method';
+    font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 19px;
+    text-decoration: underline;
+    margin: 20px 0 0;
+    color: #004c79;
+    font-weight: bold;
+}
+/* .shirtspace-cart .order-totals__shipping-total .amt,
+.shirtspace-cart .shipping-breakdown__item-amount {
+    font-weight: bold;
+    color: #5d9428;
+} */
+
+
+@media only screen and (max-width: 767.98px) {
+    .shirtspace-cart .cart-summary__shipping-methods:before {
+        content: 'Shipping Methods';
+        text-decoration: none;
+    }
+	.shirtspace-cart .prepare-checkout .cart-summary__shipping-methods {
+		margin-top: 10px !important;
+	}
+	.shirtspace-cart .prepare-checkout #cart-contents {
+	    order: 1;
+        padding-top: 0;
+        padding-bottom: 20px;
+	}
+	.shirtspace-cart .cart-header .cart-header__content {
+		padding-bottom: 10px;
+	}
+}
+
+
+
+#cart article {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.shirtspace-cart .prepare-checkout + div {
+    float: right !important;
+}
+
+.shirtspace-cart .prepare-checkout.scroll-to-fixed-fixed[style*="position: absolute"] {
+    left: inherit !important;
+    right: 0;
+}

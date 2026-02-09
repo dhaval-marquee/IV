@@ -1,0 +1,49 @@
+.iv-faq-tab .faq-tab-content h1{
+    display: none !important;
+}
+.iv-faq-tab .tabs button[onclick="openTab(event, 'tab6')"],
+.iv-faq-tab #pinnacleMainContent #tab6 {
+    display: none;
+}
+
+.iv-faq-tab .faq-tab-content p {
+    border-bottom: 2px solid #ddd;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.iv-faq-tab .faq-tab-content p:last-child {
+    border-bottom: 0;
+}
+
+.iv-faq-tab .pageContent{
+    padding-top: 0;
+}
+
+.iv-faq-tab .accordion-body br{
+    display: none;
+}
+
+.iv-faq-tab .accordion-header {
+    display: flex;
+    gap: 12px;
+    text-align: left;
+    align-items: baseline;
+}
+
+.iv-faq-tab .accordion-body {
+    padding-left: 30px;
+    text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+    .iv-faq-tab .accordion-header strong {
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .iv-faq-tab .faq-tab-content {
+        margin-top: 30px;
+    }
+}

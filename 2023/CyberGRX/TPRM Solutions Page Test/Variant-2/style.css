@@ -1,0 +1,46 @@
+@media (min-width: 1025px) {
+	.tprm_iv .hero .hero__media img {
+		display: none;
+	}
+	.tprm_iv .hero .hero__media {
+		top: 50%;
+		transform: translateY(-50%);
+		height: auto;
+	}
+	.tprm_iv .hero .form_title {
+		color: white;
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 24px;
+	}
+	.tprm_iv .hero .pu-form {
+		background-color: rgb(233,233,233);
+		max-width: 600px;
+		-webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.24);
+		box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.24);
+		margin: 0 auto;
+		padding: 32px 50px 48px;
+	}
+	.tprm_iv .hero .mktoForm .mktoFormRow .mktoFormCol .mktoFieldWrap input,
+	.tprm_iv .hero .pu-form textarea ,
+	.tprm_iv .hero .pu-form__dark input[type=text]:not(#adminbar-search):not(#filters__search) {
+		border-color: #63b345!important;
+		background-color: #FFF!important;
+		-webkit-box-shadow: 0 2px 0 0 #63b345!important;
+		box-shadow: 0 2px 0 0 #63b345!important;
+	}
+	.tprm_iv .hero .mktoForm .mktoButtonRow,
+	.tprm_iv .hero .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+		width: 100%;
+	}
+	.tprm_iv .hero .mktoForm .mktoFormRow .mktoFormCol .mktoFieldWrap input[ type="checkbox"] {
+		box-shadow: inherit !important;
+	}
+}
+
+@media (min-width: 1536px) {
+	.tprm_iv .hero .hero__text {
+		padding: 140px 0;
+	}
+}

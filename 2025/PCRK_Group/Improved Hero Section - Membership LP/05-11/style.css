@@ -1,0 +1,17 @@
+body {
+    padding-top: 0 !important;
+}
+body .theme-topband-container .zpsection  {
+    background: linear-gradient(#00000094, #000000bf), url('https://res.cloudinary.com/ignite-visibility/image/upload/v1762167801/PCRK-Group/HeroBg.png');
+    background-size: cover;
+    background-position: center top 60%;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    object-fit: cover;
+    position: inherit;
+}
+@media only screen and (max-width: 767.98px) {
+    body .theme-topband-container .zpsection {
+        padding: 35px 0;
+    }
+}

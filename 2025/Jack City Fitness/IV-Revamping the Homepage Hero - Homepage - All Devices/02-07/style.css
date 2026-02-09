@@ -1,0 +1,211 @@
+.iv-revamp-hero .banner-module .fourteen-hundred h2 > span,
+.iv-revamp-hero .banner-module .fourteen-hundred h2,
+.iv-revamp-hero .banner-module .fourteen-hundred .banner-buttons a:before {
+    text-shadow: 1px 4px 3px #000000;
+}
+.iv-revamp-hero .banner-module .fourteen-hundred .banner-buttons a{
+    margin-top: 15px;
+}
+.iv-revamp-hero .home-page section.banner-module {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1751435292/jackcityfitness/slider-1.jpg') !important;
+    background-position: center;
+}
+.iv-revamp-hero .banner-module .fourteen-hundred .hero_right iframe {
+    width: 100%;
+    height: 290px;
+}
+
+@media (min-width: 1001px) {
+    .iv-revamp-hero .banner-module .hero_left{
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .iv-revamp-hero .banner-module .hero_left{
+        padding-left: 65px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1750px) {
+    .iv-revamp-hero .banner-module .fourteen-hundred .hero_right iframe {
+        width: 100%;
+        height: 260px;
+    } 
+}
+
+@media (max-width: 767px) { 
+    .iv-revamp-hero .banner-module .fourteen-hundred .hero_right iframe{
+        width: 100%;
+        margin-top: 50px;
+        height: 51vw;
+    } 
+    .iv-revamp-hero .banner-module .hero_left{
+        padding-top: 15px;
+    }
+}
+
+
+/* V2 */
+.iv-hero-slider {
+    position: relative;
+}
+.iv-hero-slider .hero_left h2 > a {
+    display: inline-flex;
+}
+.iv-hero-slider .iv-slide-2 { 
+    position: relative;
+}
+.iv-slide-2-wrapper {
+    height: 100%;
+    min-height: 650px;
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1751435292/jackcityfitness/slider-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.iv-slide-1 section.banner-module{
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1751435292/jackcityfitness/slider-1.jpg') !important;
+    background-position: center; 
+}
+.iv-hero-slider .iv-slide-2 img{
+    height: 100% !important;
+    width: 100% !important;
+}
+.iv-slider2-content {
+    text-align: center;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.iv-slider2-content h2 i {
+    color: #ffb724;
+    font-size: 14px;
+    margin: 0 -2px;
+}
+.iv-slider2-content h2 span {
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0;
+    width: 100%;
+}
+.iv-slider2-content a{
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 7px 51px;
+    position: relative;
+}
+.iv-slider2-content .iv-credit-requird{ 
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    pointer-events: none;    
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.iv-hero-slider .iv-arrow {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+    padding: 0;
+}
+.iv-hero-slider .iv-arrow.left{
+    left: 40px;
+}
+.iv-hero-slider .iv-arrow.right{
+    right: 40px;
+}
+.iv-hero-slider .slick-dots{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 100%;
+}
+.iv-hero-slider .slick-dots li .iv-dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.iv-hero-slider .slick-dots li .iv-dot::before{
+    display: none;
+}
+.iv-hero-slider .slick-dots li.slick-active .iv-dot{
+    background-color: #fe5000;
+}
+.iv-hero-slider .slick-dotted.slick-slider{
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 1199px) {
+    .iv-revamp-hero #container {
+        padding: 113px 0 0;
+    }
+}
+
+@media (max-width: 1240px) {
+    .iv-slide-2-wrapper { 
+        min-height: 530px; 
+    }
+}
+
+@media (max-width: 991px) {
+    .iv-hero-slider .iv-arrow.left{
+        left: 20px;
+    }
+    .iv-hero-slider .iv-arrow.right{
+        right: 20px;
+    } 
+}
+
+@media (max-width: 767px) {
+    .iv-hero-slider .iv-arrow svg{
+        height: 30px;
+        width: 30px;
+    }
+    .iv-slide-2-wrapper {
+        min-height: 450px;
+        background-position-y: 12px;
+    }
+    .iv-slider2-content{
+        bottom: 40px;
+    }
+    .iv-slider2-content a {
+        font-size: 11px;
+        padding: 3px 50px;
+    }
+    .iv-slider2-content .iv-credit-requird{
+        font-size: 16px;
+    }
+    .iv-hero-slider .slick-dots li .iv-dot{
+        height: 15px;
+        width: 15px;
+    }
+    .iv-hero-slider .iv-arrow.left{
+        left: 5px;
+    }
+    .iv-hero-slider .iv-arrow.right{
+        right: 5px;
+    }
+    .iv-hero-slider .slick-dots{
+        bottom: 0;
+    } 
+}

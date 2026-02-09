@@ -1,0 +1,58 @@
+.faq_iv .faq_wrapper {
+    padding: 30px 24px 0;
+    display: inline-block;
+    width: 100%;
+}
+.faq_iv .carouselWrapper .aem-Grid .cmp-well:not(:first-child),
+.faq_iv .aem-Grid>.aem-GridColumn.aem-GridColumn--default--hide+div ul.information+p,
+.faq_iv ul.ourMission+p,
+.faq_iv ul.ourMission+p+p,
+.faq_iv ul.ourMission+p+p+ul{
+    display: none;
+}
+.faq_iv .faq-wrap {
+    border-bottom: 1px solid #dcdcdc !important;
+}
+.faq_iv .faq-wrap + .faq-wrap{
+    border-top: 1px solid #dcdcdc !important;
+}
+.faq_iv .faq-wrap label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 16px 16px 16px 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    font-weight: 500;
+    color: #6867b8;
+    font-size: 20px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    cursor: pointer;
+}
+.faq_iv .faq-wrap span {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transition: transform .2s ease-in-out;
+}
+.faq_iv .faq-wrap .content {
+    display: none;
+}
+.faq_iv .faq-wrap>.content.active {
+    display: block !important;
+}
+.faq_iv .faq-wrap .content a {
+    text-decoration: underline;
+    color: #0d6efd;
+}
+.faq_iv .faq-wrap .content a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}

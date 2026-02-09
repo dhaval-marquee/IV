@@ -1,0 +1,179 @@
+.iv-contact .subpage-img {
+    padding: 100px 0;
+}
+
+.iv-contact .subpage-img .entry-header {
+    max-width: 100%;
+    text-align: center;
+}
+
+.iv-contact .subpage-img .entry-header h1 {
+    padding-top: 0;
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.iv-contact .subpage-img .entry-header .subtext {
+    font-size: 24px;
+}
+
+.iv-contact .subpage-img .entry-header h2 {
+    margin-top: 10px;
+}
+
+.iv-contact .py-section>.row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iv-contact .iv-info {
+    text-align: left;
+}
+
+.iv-contact .iv-info>p:first-child {
+    font-size: 32px;
+    line-height: normal;
+    word-wrap: break-word;
+    white-space: normal;
+    color: #4A5F6F;
+}
+
+.iv-contact .iv-info>p:nth-child(3) {
+    font-size: 18px;
+    color: #4A5F6F;
+}
+
+.iv-contact .iv-info .info-list {
+    padding: 0;
+}
+
+.iv-contact .iv-info .info-list li {
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    list-style: none;
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/v1725947149/empirevein/checkmark-orange.png');
+    background-position: left;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    color: #4A5F6F;
+}
+
+.iv-contact ul.form-section {
+    padding: 20px 30px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid #dddddd;
+}
+
+.iv-contact .form-section li#id_26, .iv-contact .form-section li#id_13, .iv-contact .form-section li#id_34, .iv-contact .form-section li#id_37 {
+    width: calc(100 / 2* 1% - 8px);
+}
+
+.iv-contact .form-section li #cid_37 textarea.form-textarea{
+    height: 40px !important;
+    overflow: hidden;
+}
+
+.iv-contact #cid_2 div button.submit-button{
+    font-size: 20px;
+    width: 400px;
+    height: 55px;
+    font-weight: 500;
+    background-color: #f47e2d;
+}
+
+.iv-contact .form-section li[data-type=control_text] div [data-component=text] p{
+    margin: 16px 0 0;
+}
+
+.iv-contact .form-section li .form-html p {
+    line-height: 1.2 !important;
+    text-align: justify;
+    color: #4A5F6F;
+}
+
+.iv-contact .form-section li.form-line {
+    padding: 40px 0 0 0;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.iv-contact .form-section li#id_2, .iv-contact .form-section li#id_6 {
+    padding: 0;
+}
+
+.iv-contact .form-section li.form-line label {
+    position: absolute;
+    top: -20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    pointer-events: none;
+}
+
+.iv-contact #primary .form-all {
+    margin: 0;
+}
+
+.iv-contact .form-section li label#label_13 {
+    padding-right: 5px;
+    line-height: 1.1;
+}
+
+.iv-contact .form-section li.form-line#id_5,
+.iv-contact .footer-closing {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .iv-contact #cid_2 div button.submit-button{
+        font-size: 18px;
+    }
+    .iv-contact ul.form-section {
+        padding: 12px 12px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .iv-contact .iv-info>p:first-child{
+        font-size: 18px;
+        max-width: 100%;
+    }
+    .iv-contact .iv-info>p:nth-child(3){
+        font-size: 12px;
+        max-width: 100%;
+    }
+    .iv-contact .iv-info .info-list li{
+        font-size: 16px;
+    }
+    .iv-contact .subpage-img .entry-header h1{
+        font-size: 24px;
+    }
+    .iv-contact .subpage-img .entry-header .subtext {
+        font-size: 18px;
+    }
+    .iv-contact .form-section li label#label_13 {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .iv-contact .form-section li#id_26, .iv-contact .form-section li#id_13, .iv-contact .form-section li#id_34, .iv-contact .form-section li#id_37 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .iv-contact .form-section li label {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .iv-contact .form-section li div.form-input-wide {
+        padding-top: 5px;
+    } 
+}

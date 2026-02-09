@@ -1,0 +1,163 @@
+/* Popup container */
+.iv-pd .iv-popup {
+    display: none;
+}
+
+.iv-pd .iv-popup.iv-active {
+    display: block;
+}
+
+/* Overlay */
+.iv-pd .iv-popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999999;
+}
+
+/* Popup box */
+.iv-pd .iv-popup-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
+    background: #fff;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 700px;
+    max-height: calc(100vh - 150px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    z-index: 999999;
+    opacity: 0;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.iv-pd .iv-popup.iv-active .iv-popup-box {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Header inside popup */
+.iv-pd .iv-popup-header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.iv-pd .iv-popup-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+/* Close button */
+.iv-pd .iv-popup-close {
+    border: none;
+    background: none;
+    font-size: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    color: #000;
+    padding: 0;
+    height: auto;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+}
+
+/* Scrollable content area */
+.iv-pd .iv-popup-content {
+    padding: 0 20px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+/* Buttons container */
+.iv-pd .iv-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 30px auto;
+    justify-content: center;
+    width: 100%;
+    max-width: 830px;
+}
+
+.iv-pd .iv-popup-box .amw-accordion__body {
+    padding: 0;
+    margin: 0;
+}
+
+.iv-pd .iv-popup-box .amw-accordion__body .col-10 {
+    max-width: 100%;
+    flex: 1;
+}
+
+.iv-pd .iv-section-btn {
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px 2px rgb(0 0 0 / 27%);
+    transition: all 0.3s ease;
+    min-width: 165px;
+    max-width: 165px;
+    min-height: 95px;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.iv-pd .iv-section-btn:hover,
+.iv-pd .iv-section-btn:focus {
+    color: #38539a;
+    border-color: #38539a;
+    outline: none;
+}
+.yCmsComponent:has(.iv-buttonTitle) {
+    background-color: #f0f1ff;
+    padding: 60px 0;
+    margin: 60px 0;
+}
+.iv-buttonTitle {
+    text-align: center;
+}
+.iv-buttonTitle p {
+    font-size: 30px;
+    letter-spacing: -0.16px;
+    line-height: 1.5;
+}
+@media(max-width: 768.98px) {
+    .iv-pd .iv-button-container {
+        font-size: 22px;
+        gap: 20px;
+    }
+    .iv-pd .iv-section-btn {
+        font-size: 18px;
+    }
+    .iv-buttonTitle p {
+        font-size: 22px;
+        letter-spacing: -0.16px;
+        line-height: normal;
+    }
+}
+@media(max-width: 374.98px) {
+    .iv-pd .iv-button-container {
+        min-width: 165px;
+        max-width: 165px;
+        min-height: 95px;
+        margin: 0 auto;
+    }
+    .iv-pd .iv-section-btn {
+        min-width: 145px;
+        max-width: 145px;
+        min-height: 95px;
+    }
+}

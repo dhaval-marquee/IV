@@ -1,0 +1,46 @@
+.iv-sub-heading {
+    font-size: 18px;
+    font-weight: 900;
+}
+.iv-heading + div {
+	display: none;
+}
+.iv-main-sec .inner_row:nth-child(2) .vc_column-inner .wpb_wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.iv-main-sec .nectar-button.explore-tutors {
+    background-color: #1548e6;
+    color: white;
+    border: none;
+}
+
+.iv-main-sec .nectar-button.help-me-find {
+    background: #fff !important;
+    color: #1548e6;
+    border: 2px solid #1548e6;
+}
+
+.iv-main-sec .nectar-button.help-me-find:hover,
+.iv-main-sec .nectar-button.help-me-find:focus {
+    color: #fff;
+}
+
+.iv-main-sec .iv-heading {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.iv-main-sec .inner_row:nth-child(2) .left .vc_col-sm-12 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .iv-main-sec .inner_row:nth-child(2) .vc_column-inner .wpb_wrapper {
+        flex-direction: column;
+    }
+}

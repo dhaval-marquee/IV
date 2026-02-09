@@ -1,0 +1,23 @@
+body.page-template-page-book-online .subpage-img {
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+@media (max-width: 1919.98px) {
+    body.page-template-page-book-online .subpage-img {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+}
+@media (max-width: 1060.98px) {
+    body.page-template-page-book-online .subpage-img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 767.98px) {
+    body.page-template-page-book-online .subpage-img {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}

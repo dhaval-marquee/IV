@@ -1,0 +1,61 @@
+.cybergrx_table {
+    border-radius: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 50px;
+}
+.cybergrx_table tbody {
+    font-weight: bold;
+}
+.cybergrx_table th {
+    font-size: 20px;
+    padding: 30px 15px;
+    vertical-align: middle;
+}
+.cybergrx_table td {
+    padding: 5px 20px;
+    height: 58px;
+}
+.cybergrx_table tr td img {
+    width: 30px;
+}
+.cybergrx_table tr th em {
+    font-size: 14px;
+    font-weight: normal;
+    opacity: .8;
+}
+.cybergrx_table tfoot td {
+    height: 36px;
+}
+.cybergrx_table tr:nth-child(even) {
+    background-color: #F2F4F9;
+}
+.cybergrx_table thead {
+    color: white;
+    background-color: #13294B;
+}
+.cybergrx_table tbody {
+    color: #13294B;
+    font-size: 14px;
+}
+.cybergrx_table tfoot {
+    background-color: #13294B;
+}
+.cybergrx_table thead tr th:nth-child(-n + 2),
+.cybergrx_table tbody tr td:nth-child(-n + 2) {
+    box-shadow: inset -9px 0px 9px -10px rgba(0,0,0);
+}
+.cybergrx_table tbody tr td:nth-child(n + 2) {
+    text-align: center;
+}
+.cybergrx_table thead tr th:nth-child(-n + 2) {
+    background-color: #122749;
+}
+.cybergrx_table tbody tr:nth-child(odd) td:nth-child(2) {
+    background-color: #F2F4F9;
+}
+.cybergrx_table tbody tr:nth-child(even) td:nth-child(2) {
+    background-color: #E6E9F3;
+}

@@ -1,0 +1,32 @@
+.subheadTest .subhead {
+	width: 100%;
+	max-width: 860px;
+	margin: 0 auto;
+}
+.subheadTest .catalog {
+	text-align: center;
+    margin:25px 10px;
+}
+.subheadTest .catalog h4 {
+	font-size: 20px;
+	font-weight:700;
+}
+.subheadTest .catalog p{
+	font-size:14px;
+}
+.subheadTest .catalog h6 {
+	font-size:14px;
+	font-weight:700;
+}
+
+@media (max-width: 767.98px) {
+	.subheadTest .catalog {
+		margin: 15px 10px;
+	}
+    .subheadTest .catalog h4 {
+	    font-size: 17px;
+	}
+	.subheadTest .catalog p {
+	    font-size: 13px;
+	}
+}

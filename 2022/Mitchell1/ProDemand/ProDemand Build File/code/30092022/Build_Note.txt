@@ -1,0 +1,4 @@
+1. Replace entire HTML file. We take code from page view source and replace new page code in it.
+2. Add entire CSS file at the end of your current CSS file. You can filter some of CSS if it is already available in live page. You can remove body class from all CSS.
+3. I added custom script file at the end of the page HTML code. You can add it in custom.js file.
+4. Please upload all font family in your server and attach it with the page. Do not use cloudinary URL. You can find the font file in Fonts folder.

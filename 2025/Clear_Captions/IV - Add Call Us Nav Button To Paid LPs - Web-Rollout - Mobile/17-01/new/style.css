@@ -1,0 +1,14 @@
+.iv-call-us .customMenu .fusion-column-wrapper{
+    align-items: center;
+}
+.iv-call-cta {
+    color: #ff4a00 !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    transform: translate(0px, -3px);
+    font-size: 17px;
+}

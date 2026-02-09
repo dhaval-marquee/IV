@@ -1,0 +1,76 @@
+.homepage_iv .cta-Section {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.homepage_iv .cta-Section .container {
+    border-radius: 20px;
+    text-align: center;
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1729254329/Store-IT/stor-it-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    position: relative;
+}
+.homepage_iv .cta-Section .container:before {
+    content: "";
+    background: #4e905e;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 64%;
+    border-radius: 10px;
+}
+.homepage_iv .cta-Section .content {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+.homepage_iv .cta-Section h2 {
+    font-weight: 600;
+}
+.homepage_iv .cta-Section p {
+    font-weight: 400;
+    line-height: normal;
+    font-size: 19.2px;
+    max-width: 510px;
+    width: 100%;
+    color: #fff;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.homepage_iv .cta-Section a {
+    display: inline-block;
+    background-color: #ff6900 !important;
+    color: #fff;
+    text-decoration: none;
+    width: 100% !important;
+    max-width: 200px;
+    border: 2px solid #fff;
+    float: inherit;
+    top: 0;
+}
+.homepage_iv .cta-Section .findButt::before {
+    display: none;
+}
+@media(max-width: 562.98px) {
+    .homepage_iv .cta-Section p br {
+        display: none;
+    }
+}
+@media(max-width: 499.98px) {
+    .homepage_iv .cta-Section h2 {
+        width: 100%;
+        max-width: 275px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

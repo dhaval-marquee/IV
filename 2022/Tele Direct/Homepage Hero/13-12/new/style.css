@@ -1,0 +1,165 @@
+/*remove section*/
+#video_section{
+    display: none;
+}
+/*header*/
+.teledirect_test.home .site-header{
+    background-color: #fff;
+}
+.teledirect_test.home .hero_section {
+    padding-top: 124px;
+}
+/*end header*/
+
+/*hero section*/
+.teledirect_test .hero_section .container {
+    width: 100%;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.teledirect_test .hero_section .hero_inn_box {
+    display: -webkit-box;     
+    display: -moz-box;        
+    display: -ms-flexbox;      
+    display: -webkit-flex; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1670647329/TeleDirect/Teledirect_Hero_Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.teledirect_test .hero_section .hero_inn_box .left_box {
+    width: 70%;
+    z-index: 1;
+}
+.teledirect_test .hero_section .hero_inn_box .content_box {
+    padding: 30px 30px 100px;
+}
+.teledirect_test .hero_section .hero_inn_box .content_box h6 {
+    color: #0e76bc;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    margin-bottom: 8px;
+    letter-spacing: 1.5px;
+}
+.teledirect_test .hero_section .hero_inn_box .content_box h1 {
+    background: none;
+    color: #3a3c41;
+    padding-bottom: 0;
+}
+.teledirect_test .hero_section .hero_inn_box .content_box p {
+    color: #3a3c41;
+    font-size: 21px;
+    max-width: 600px;
+    line-height: 30px;
+}
+.teledirect_test .hero_section .hero_inn_box .btn-box .orange {
+    width: 100%;
+    padding: 13px 16px;
+    max-width: 200px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+@media (max-width: 1199.98px){
+    .teledirect_test .hero_section .hero_inn_box {
+        background-position: center right -30px;
+    }
+    .teledirect_test .hero_section .hero_inn_box .content_box p {
+        max-width: 520px;
+    }
+}
+
+@media (max-width: 980px){
+    .teledirect_test .hero_section .hero_inn_box {
+        background-position: bottom -20px right -30px;
+    }
+    .teledirect_test .hero_section .hero_inn_box .left_box {
+        width: 77%;
+    }
+    .teledirect_test .hero_section .hero_inn_box .content_box {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .teledirect_test.home .hero_section {
+        padding-top: 137px;
+    }
+    .teledirect_test .hero_section .hero_inn_box .content_box{
+        padding-left: 0px;
+    }
+    .teledirect_test .hero_section .hero_inn_box .content_box h1 {
+        font-size: 29px;
+    }
+    .teledirect_test .hero_section .hero_inn_box .content_box h6 {
+        font-size: 16px;
+    }
+    .teledirect_test .hero_section .hero_inn_box .content_box p{
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 410px;
+    }
+}
+
+@media (min-width: 731px) and (max-width: 750px){
+    .teledirect_test .hero_section .hero_inn_box {
+        background-position: bottom -60px right -30px;
+    }
+}
+
+@media (max-width: 730px){
+    .teledirect_test .site-container {
+        overflow-x: hidden;
+    }
+    .teledirect_test.home .hero_section {
+        background-image: url(https://res.cloudinary.com/ignite-visibility/image/upload/v1670647329/TeleDirect/Teledirect_Hero_Image.png);
+        background-size: 290px 210px;
+        background-position: right -20px bottom;
+        background-repeat: no-repeat;
+        padding-top: 0;
+    }
+    .teledirect_test .hero_section .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .teledirect_test .hero_section .hero_inn_box {
+        background: none;
+    }
+    .teledirect_test .hero_section .hero_inn_box .left_box {
+        width: 100%;
+    }
+    .teledirect_test .hero_section .hero_inn_box .content_box {
+        padding-bottom: 0;
+    }
+    .teledirect_test .hero_section .hero_inn_box .content_box h1 {
+        font-size: 21px;
+    }
+    .teledirect_test .hero_section .hero_inn_box .content_box p {
+        max-width: 100%;
+        padding-right: 70px;
+    }
+    .teledirect_test .hero_section .hero_inn_box .btn-box {
+        margin-bottom: 44px;
+    }
+    .teledirect_test .hero_section .hero_inn_box .btn-box .orange {
+        font-size: 12px;
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 480px){
+    .teledirect_test .hero_section .hero_inn_box .content_box p {
+        max-width: 260px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 480px){
+    .teledirect_test .hero_section .hero_inn_box .content_box p {
+        max-width: 230px;
+        padding-right: 0;
+    }
+}
+/*end hero section*/

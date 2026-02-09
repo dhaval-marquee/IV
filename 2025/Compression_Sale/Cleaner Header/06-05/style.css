@@ -1,0 +1,10 @@
+/* v1 only */
+body header.site-header .container-fluid > div {
+    pointer-events: none;
+    opacity: 0;
+}
+
+/* v2 only */
+body header.site-header .container-fluid > div {
+    display: none;
+}

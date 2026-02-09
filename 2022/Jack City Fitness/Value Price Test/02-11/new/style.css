@@ -1,0 +1,58 @@
+.value_price .promotions-loop > li h3 {
+    display: none;
+}
+.value_price .promotions-loop {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.value_price .promotions-loop > li {
+    margin: 0 !important;
+}
+.value_price .promotions-loop .discount_price {
+    color: red;
+    position: relative;
+    padding: 0 5px;
+    margin-right: 15px;
+    font-weight: normal;
+}
+.value_price .promotions-loop .discount_price:before {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.value_price .promotions-loop li li {
+    position: relative;
+    padding-left: 35px;
+}
+.value_price .promotions-loop li li:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('https://jackcityfitness.com/wp-content/themes/Ultra/images/logo-icon.png');
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.value_price .promotions-loop li li + li {
+    margin-top: 15px !important;
+}
+.value_price .promotions-loop li .promotion-button {
+    width: 100%;
+}
+.value_price .promotions-loop li .promotion-button a {
+    font-weight: bold;
+}
+
+@media (max-width: 750px) {
+    .value_price .promotions-loop .discount_price:before {
+        height: 2px;
+    }
+    .value_price .promotions-loop > li {
+        margin-top: 20px !important;
+    }
+}

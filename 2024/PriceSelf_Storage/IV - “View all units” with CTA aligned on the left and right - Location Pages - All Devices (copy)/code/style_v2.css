@@ -1,0 +1,12 @@
+.pss-card-list__bottom-wrapper {
+    display: none;
+}
+
+.pss-card-list__bottom-actions {
+    margin-top: 15px;
+}
+
+.pss-card-list__bottom-actions a {
+    background: #ea101f;
+    margin-left: auto;
+}

@@ -1,0 +1,150 @@
+body, body.spo-loaded {
+	display: none !important;
+}
+body.spo-loaded.iv-home-hero {
+	display: block !important;
+}
+.iv-hero {
+    padding: 40px 0;
+    background-image: url(//res.cloudinary.com/ignite-visibility/image/upload/f_auto/Compression_Sale/WomenWalking-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position: bottom -50px right -160px;
+    position: relative;
+    height: 100%;
+}
+.iv-hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(88deg, #000000d6 60%, rgba(0, 0, 0, 0) 100%);
+}
+/* .iv-home-hero .sonar-wrapper{
+    z-index: 9999;
+} */
+.iv-hero .container-fluid {
+    position: relative;
+    /* z-index: 9999; */
+}
+.iv-hero h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 48px;
+    width: 100%;
+    max-width: 580px;
+}
+.iv-hero p {
+    font-size: 25px;
+    width: 100%;
+    max-width: 570px;
+    margin: 15px 0 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.iv-hero .iv-hero-list {
+    list-style: none;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+.iv-hero-list img {
+    width: 100%;
+    max-width: 35px;
+    margin-right: 10px;
+}
+.iv-hero .iv-hero-list li {
+    display: flex;
+    align-items: center;
+}
+.iv-hero .iv-hero-list li span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.iv-hero-button a {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 0 5px;
+    box-shadow: 1px 1px 10px rgb(116, 116, 116);
+}
+.iv-hero-button a.red-button {
+    background-color: #EC2020;
+}
+.iv-hero-button a.red-button:hover {
+    background-color: #cb1111;
+}
+.iv-hero-button a.blue-button {
+    background-color: #024AAB;
+}
+.iv-hero-button a.blue-button:hover {
+    background-color: #082e62;
+}
+.iv-home-hero .slider-content{
+    max-height: 100%;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .iv-home-hero .iv-hero .iv-hero-list li span {
+        font-size: 18px;
+    }
+    .iv-home-hero .iv-hero-list img {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .iv-home-hero .iv-hero h1{
+        font-size: 40px;
+    }
+    .iv-home-hero .iv-hero p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .iv-hero {
+        padding: 30px 0;
+    }
+    .iv-home-hero .iv-hero h1{
+        font-size: 28px;
+        max-width: 480px;
+    }
+    .iv-home-hero .iv-hero p{
+        font-size: 18px;
+        max-width: 490px;
+    }
+    .iv-home-hero .iv-hero .iv-hero-list li span{
+        font-size: 14px;
+    }
+    .iv-home-hero .iv-hero .iv-hero-button a{
+        padding: 15px 20px;
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    .iv-hero .iv-hero-list {
+        width: 100%;
+        max-width: 285px;
+        margin: 0 0 20px;
+        text-align: left;
+        flex-direction: column;
+    }
+    .iv-home-hero .iv-hero .iv-hero-list li {
+        flex-direction: initial;
+        width: 100%;
+    }
+    .iv-home-hero .iv-hero .iv-hero-list img {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .iv-hero {
+        background-size: 1100px;
+    }
+}

@@ -1,0 +1,130 @@
+.bottomPage_Test .pdpOverview3,
+.bottomPage_Test .pdpOverview12,
+.bottomPage_Test .pdpOverview13,
+.bottomPage_Test .pdpOverview14,
+.bottomPage_Test .reviewViewMore,
+.bottomPage_Test .pdp-pagination,
+.bottomPage_Test #reviewViewMore,
+.bottomPage_Test #reviewWrapper hr:last-child,
+.bottomPage_Test .pdp-section-heading__jump-top,
+.bottomPage_Test #related .pdp-section-heading__title:after,
+.bottomPage_Test #videos .pdp-section-heading__title:after,
+.bottomPage_Test #compatibility .pdp-section-heading__title:after,
+.bottomPage_Test #related-items-container >div:nth-of-type(n+4),
+.bottomPage_Test #related-items-container >hr:nth-of-type(n+4),
+.bottomPage_Test div[data-code="products"],
+.bottomPage_Test li[data-filter="products"]{
+  display: none;
+}
+.bottomPage_Test #reviewWrapper{
+  display: none;
+}
+.bottomPage_Test .pdpOverview1{
+  margin-top: 26px;
+}
+.bottomPage_Test .pdpOverview2{
+  margin-top: 10px;
+}
+.bottomPage_Test .connectivity_heading{
+  text-align: center;
+  margin-bottom: 26px;
+}
+.bottomPage_Test .video_wrapper{
+  max-width: 750px;
+  margin: 0 auto;
+}
+.bottomPage_Test #container-includes,
+.bottomPage_Test #container-reviews,
+.bottomPage_Test #container-overview_cms,
+.bottomPage_Test .pdp-compatibility__grid,
+.bottomPage_Test .pdp-specs,
+.bottomPage_Test .pdp-videos__grid,
+.bottomPage_Test #benchmarks-container{
+  max-height: 0;
+  padding-left: 2rem;
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.bottomPage_Test #container-includes.expanded,
+.bottomPage_Test #container-reviews.expanded,
+.bottomPage_Test #container-overview_cms.expanded,
+.bottomPage_Test .pdp-compatibility__grid.expanded,
+.bottomPage_Test .pdp-specs.expanded,
+.bottomPage_Test .pdp-videos__grid.expanded,
+.bottomPage_Test #benchmarks-container.expanded{
+  max-height: 312.5rem;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.bottomPage_Test .pdp-section-heading__title:after,
+.bottomPage_Test .pdp-videos__title-container:after,
+.bottomPage_Test #compatibility-items > div.compatibility_container h3::after{
+  content: '';
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-top: solid 2px currentColor;
+  border-right: solid 2px currentColor;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  right: 32px;
+  color: #1470d2;
+}
+.bottomPage_Test .active .pdp-section-heading__title:after,
+.bottomPage_Test .active .pdp-videos__title-container:after,
+.bottomPage_Test #compatibility-items > div.compatibility_container .active h3::after{
+  -webkit-transform: rotate(312deg);
+  transform: rotate(312deg);
+  bottom: 10px;
+}
+.bottomPage_Test .pdp-videos__title{
+  padding-right: 55px;
+}
+.bottomPage_Test .pdp-reviews__margin,
+.bottomPage_Test .pdp-specs__margin,
+.bottomPage_Test .pdp-specs__margin,
+.bottomPage_Test .pdp-specs__margin,
+.bottomPage_Test .pdp-section-heading,
+.bottomPage_Test .pdp-videos__margin,
+.bottomPage_Test .pdp-related-items__margin{
+  margin-top: 100px !important;
+}
+.bottomPage_Test .pdp-overview__container,
+.bottomPage_Test .video_container{
+  margin-bottom: 0;
+}
+.bottomPage_Test .pdp-compatibility__title-link a{
+  margin-right: 84px;
+}
+@media (max-width: 1299.98px) {
+  .bottomPage_Test .pdp-section-heading__title-icon {
+    margin-left: inherit;
+  }
+}
+@media (max-width: 1199.98px) {
+  .bottomPage_Test .pdp-reviews__margin, .bottomPage_Test .pdp-specs__margin, .bottomPage_Test .pdp-specs__margin, .bottomPage_Test .pdp-specs__margin, .bottomPage_Test .pdp-section-heading, .bottomPage_Test .pdp-videos__margin, .bottomPage_Test .pdp-related-items__margin {
+    margin-top: 70px !important;
+  }
+}
+@media (max-width: 989.98px) {
+  .bottomPage_Test .pdp-reviews__margin, .bottomPage_Test .pdp-specs__margin, .bottomPage_Test .pdp-specs__margin, .bottomPage_Test .pdp-specs__margin, .bottomPage_Test .pdp-section-heading, .bottomPage_Test .pdp-videos__margin, .bottomPage_Test .pdp-related-items__margin {
+    margin-top: 50px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .bottomPage_Test .pdp-compatibility__title-link a{
+    margin-right: inherit;
+  }
+.bottomPage_Test .pdp-section-heading__title:after,
+.bottomPage_Test .pdp-videos__title-container:after,
+.bottomPage_Test #compatibility-items > div.compatibility_container h3::after{
+    right: 20px;
+  }
+}

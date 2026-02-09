@@ -1,0 +1,26 @@
+@media only screen and (min-width: 769px) {
+	.iv-hero-subheading .iv-custom-button-wrapper {
+	    flex: 1 0 100%;
+	    text-align: center;
+	}
+	.iv-hero-subheading .long-distance__hero .instaquote-container .inner-container .iv-custom-button-wrapper .btn {
+	    max-width: 150px;
+	}
+	.iv-hero-subheading .long-distance__hero .instaquote-container .inner-container fieldset {
+	    margin: 0 6px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.iv-hero-subheading .iv-custom-button-wrapper {
+	    width: 100%;
+	}
+	.iv-hero-subheading .long-distance__hero .instaquote-container .inner-container .iv-custom-button-wrapper .btn {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.iv-hero-subheading .long-distance__hero .instaquote-container .inner-container fieldset {
+	    flex: 0 0 40%;
+	}
+}

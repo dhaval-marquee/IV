@@ -1,0 +1,13 @@
+body #div_block-202-89,
+body #section-69-89,
+body #_map-288-22 {
+    display: none;
+}
+body #new_columns-188-89 .ct-div-block {
+    width: 33.33%;
+}
+@media (max-width: 991.98px) {
+    body #section-187-89 #div_block-197-89 {
+        width: 100% !important;
+    }
+}

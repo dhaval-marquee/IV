@@ -1,0 +1,16 @@
+.iv-try-us .image-icon-custom {
+    font-size: 18px !important;
+    line-height: 56px !important;
+    color: #fff !important;
+    background-color: #002a94;
+    font-family: Beatrice Standard Regular !important;
+}
+.iv-try-us .iv-custom-review {
+    display: none !important;
+}
+
+@media (max-width:991.98px) {
+    .iv-try-us .iv-custom-review {
+        display: block !important;
+    }
+}

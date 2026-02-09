@@ -1,0 +1,37 @@
+.sticky-book-section {
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
+    box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
+}
+
+.book-name {
+    background-color: #fff;
+    padding: 3px 0 0;
+    text-transform: uppercase;
+    color: #25282a;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sticky-book-btn {
+    background: linear-gradient(135deg, #2AF598 0%, #3FE3AE 20%, #46D2C3 40%, #43C0D7 60%, #35AFEA 80%, #009EFD 100%);
+    padding: 4px 4px 0px;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+}
+
+.sticky-book-btn:hover {
+	color: #25282a !important;
+}
+
+@media (max-width: 767px) {
+    .sticky-book-section {
+        display: none;
+    }
+}

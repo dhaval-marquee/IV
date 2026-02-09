@@ -1,0 +1,59 @@
+
+
+@media only screen and (min-width: 1025px) {
+    .iv_cyber_demo #lp-pom-image-330 {
+        left: 220px;
+        top: 490px;
+    }
+    .iv_cyber_demo img#capterraImg {
+        z-index: 72;
+        position: absolute;
+        top: 494px;
+        left: 30px;
+        max-width: 162px;
+        width: 100%;
+        display: block;
+    }
+    .iv_cyber_demo  #lp-pom-image-37,
+    .iv_cyber_demo  #lp-pom-text-127,
+    .iv_cyber_demo #lp-pom-image-148 ~ *,
+    .iv_cyber_demo #lp-pom-block-11 ~ * {
+        display: none;
+    }
+    .iv_cyber_demo #lp-pom-box-344,
+    .iv_cyber_demo #lp-pom-text-335 ~ *,
+    .iv_cyber_demo #lp-pom-image-330 {
+        display: block !important;
+    }
+    .iv_cyber_demo #lp-pom-root,
+    .iv_cyber_demo #lp-pom-root-color-overlay {
+        height: 500px;
+    }
+
+
+    .iv_cyber_demo #lp-pom-block-11 {
+        height: 100vh;
+        background-position: center top;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+
+    .iv_cyber_demo #lp-pom-root .lp-positioned-content {
+        transform: scale(1.2);
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+
+    .iv_cyber_demo #lp-pom-root .lp-positioned-content {
+        transform: scale(1.4);
+    }
+}
+
+@media only screen and (min-width: 2600px) {
+
+    .iv_cyber_demo #lp-pom-root .lp-positioned-content {
+        transform: scale(1.6);
+    }
+}

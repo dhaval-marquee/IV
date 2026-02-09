@@ -1,0 +1,247 @@
+.iv-Homepage .tabbed-content-block.background-color-white + .rich-content {
+    display: none;
+}
+
+.home section.home-banner .copy p > a {
+    text-decoration: underline;
+}
+.iv-Homepage .iv-database-section {
+    padding: 50px 0 0;
+    font-family: "Euclid Square";
+    background: url(https://res.cloudinary.com/ignite-visibility/image/upload/f_auto/KX/NavigationMenuTest/database-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iv-Homepage .iv-database-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 25px;
+}
+.iv-Homepage .iv-database-left h3 {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+    max-width: 492px;
+}
+.iv-Homepage .iv-database-left h3 span {
+    color: #FFCB22;
+}
+.iv-Homepage .iv-database-left > p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    max-width: 415px;
+}
+.iv-Homepage .iv-database-left {
+    width: 100%;
+    max-width: 570px;
+}
+.iv-Homepage .iv-database-right {
+    display: grid;
+    grid-template-columns: auto auto; 
+    width: 100%;
+} 
+.iv-Homepage .iv-box-item {
+    border-bottom: 2px solid #333;
+    margin-bottom: 13px;
+    padding-right: 6px;
+}
+.iv-Homepage .iv-box-item h3 {
+    color: #FFCB22;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 6px;
+}
+.iv-Homepage .iv-box-item p {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.iv-Homepage .iv-box-item:first-child p {
+    max-width: 310px;
+}
+.iv-Homepage .iv-box-item span {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    margin-bottom: 16px;
+}
+.iv-Homepage .iv-poweredby-section p img{
+	height: 100%;
+}
+.iv-Homepage .iv-poweredby-section p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+.iv-Homepage .iv-poweredby-section span {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+}
+.iv-Homepage .iv-get-started {
+    margin-bottom: 20px !important;
+}
+
+.iv-Homepage .iv-database-section {
+    padding: 60px 0;
+    background: #1A1D22 center center no-repeat url('https://kx.com/wp-content/themes/da-theme/assets/images/circuit-bg.png');
+}
+.iv-Homepage .iv-database-left h3,
+.iv-Homepage .iv-database-left > p,
+.iv-Homepage .iv-box-item p,
+.iv-Homepage .iv-poweredby-section p,
+.iv-Homepage .iv-poweredby-section span,
+.iv-Homepage .iv-box-item span {
+    color: #fff;
+}
+.iv-Homepage .iv-box-item {
+    border-color: #fff;
+}
+.iv-Homepage .iv-database-left > img {
+    margin-left: 0;
+}
+
+.iv-Homepage .iv-database-left h3 {
+    max-width: 485px;
+}
+.iv-Homepage .iv-box-item span {
+    max-width: 290px;
+}
+.iv-Homepage .iv-job-position {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.iv-Homepage .iv-job-position-inner h6 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.iv-Homepage .iv-job-position-inner span {
+    color: #FFF;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.iv-Homepage .iv-job-position img {
+    height: 45px;
+    width: 45px;
+}
+.iv-Homepage .iv-database-left > span {
+    color: #FFF;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 28px;
+    display: block;
+}
+.iv-Homepage .iv-source-link {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.iv-Homepage .iv-source-link a {
+    color: #FFF;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-position: from-font;
+    text-underline-offset: 2px;
+    transition: .3s;
+}
+.iv-Homepage .iv-source-link a:hover{
+    color: #FFCB22;
+}
+.iv-Homepage .iv-poweredby-section span {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .iv-Homepage .iv-database-inner{
+        gap: 20px;
+    }
+    .iv-Homepage .iv-database-left h3, .iv-box-item h3{
+        font-size: 40px;
+    }
+    .iv-Homepage .iv-database-left > p, .iv-poweredby-section p{
+        font-size: 18px;
+    }
+    .iv-Homepage .iv-box-item span{
+        font-size: 14px;
+    }
+    .iv-Homepage .iv-box-item p{
+        font-size: 18px;
+    }
+    .iv-Homepage .iv-database-left > span {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    .iv-Homepage .iv-database-inner{
+        flex-wrap: wrap;
+    }
+    .iv-Homepage .iv-database-left{
+        max-width: 700px;
+    }
+    .iv-Homepage .iv-database-left > p, .iv-poweredby-section p {
+        font-size: 16px;
+    }
+    .iv-Homepage .iv-database-left h3 {
+        font-size: 32px;
+    }
+    .iv-Homepage .iv-database-left > span {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .iv-Homepage .iv-job-position-inner h6{
+        font-size: 18px;
+    }
+    .iv-Homepage .iv-source-link{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 420px) {
+    .iv-Homepage .iv-database-right{
+        grid-template-columns: auto;
+    }
+}

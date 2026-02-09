@@ -1,0 +1,180 @@
+body .hero_section {
+    height: inherit !important;
+    min-height: 600px;
+}
+body .hero_section .banner-background-image {
+    background-position: center top;
+}
+body .hero_section h1 {
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+body .banner-loop .inner .left_content {
+    max-width: 295px;
+    width: 100%;
+    opacity: 1;
+    transform: translate(0px);
+    margin: 0 auto;
+}
+body .hero_section ul li {
+    position: relative;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 35px;
+}
+body .hero_section ul li .check {
+    display: inline-block;
+    transform: rotate(45deg);
+    font-weight: 500;
+    height: 21px;
+    width: 12px;
+    border-bottom: 4px solid #009753;
+    border-right: 4px solid #009753;
+    margin-right: 12px;
+}
+body .hero_section a.button {
+    font-size: 18px;
+}
+body .hero_section a.button::after {
+    top: inherit;
+    bottom: 100%;
+    margin-bottom: -10px;
+}
+body .hero_section .hero_content {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+body .hero_section .hero_content #unitSizes,
+body .hero_section .hero_content #cities {
+    padding: 12px 20px 12px 12px;
+    min-width: 210px;
+    background-color: #fff;
+    height: 45px;
+    margin: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+body .hero_section .hero_content #cities {
+    min-width: 150px;
+}
+body .banner-loop .inner .hero_content label {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+}
+body .hero_section .hero_content .right_content {
+    max-width: 280px;
+    margin-bottom: 50px;
+}
+body .reserveBtn + p{ 
+    display: none;
+}
+
+body .hero_section .hero_content .dropDownWrapper {
+    display: flex;
+    max-width: 600px;
+    flex: 1 0 auto;
+}
+body .hero_section .hero_content .dropDownWrapper .form-group.error {
+    position: relative;
+}
+body .hero_section .hero_content .dropDownWrapper .form-group+.form-group {
+    margin-left: 10px;
+}
+body .error .error-message{
+    display: block;
+}
+body .error-message{
+    position: absolute;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14.4px;
+    letter-spacing: -0.24px;
+    padding: 6px 10px;
+    border-radius: 2px;
+    background: #D34343;
+    top: 55px;
+    left: 50%;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    margin-left: 15px;
+    display: none;
+}
+body .error .error-message svg {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+}
+@media screen and (min-width: 1601px) {
+    body .hero_section {
+        height: auto;
+        min-height: 600px;
+    }
+}
+@media screen and (max-width: 991px) {
+    body .banner-loop .inner.banner-center {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    body .hero_section .hero_content {
+        display: block;
+    }
+    body .hero_section .hero_content .dropDownWrapper {
+        justify-content: center;
+        margin: 40px auto 40px;
+    }
+    body .hero_section .hero_content .right_content {
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    body .hero_section .hero_content > * {
+        max-width: 50%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 735.98px) { 
+    body .hero_section .hero_content .dropDownWrapper {
+        max-width: 400px;
+    }
+} 
+@media screen and (max-width: 611.98px) { 
+    body .hero_section {
+        min-height: 730px;
+    } 
+    body .hero_section h1 {
+        margin-bottom: 30px !important;
+    }
+    body .hero_section .hero_content .dropDownWrapper {
+        display: block;
+        max-width: 500px;
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    body .banner-loop .inner .hero_content label span {
+        display: none;
+    }
+    body .hero_section .hero_content .dropDownWrapper .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    body .hero_section ul li {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    body .error-message {
+        top: 88px;
+        margin-left: 0px;
+    }
+}

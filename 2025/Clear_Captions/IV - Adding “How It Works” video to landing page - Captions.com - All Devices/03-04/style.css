@@ -1,0 +1,178 @@
+/* Section design */
+.app-features-container .app-features-image > img {
+    display: none;
+}
+
+.app-video {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.app-video img {
+    border-radius: 24px;
+}
+
+.app-video a.openModal:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjYwIiBjeT0iNjAiIHI9IjYwIiBmaWxsPSJ3aGl0ZSIvPgo8bWFzayBpZD0ibWFzazBfMTU2XzE1NDEiIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjMyIiB5PSIzMiIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2Ij4KPHJlY3QgeD0iMzIiIHk9IjMyIiB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIGZpbGw9IiNEOUQ5RDkiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzE1Nl8xNTQxKSI+CjxwYXRoIGQ9Ik01My42NDIgNzQuMzMwNUM1Mi45OTM4IDc0Ljc1ODIgNTIuMzM2IDc0Ljc4MDkgNTEuNjY4NCA3NC4zOTg1QzUxLjAwMDggNzQuMDE2MSA1MC42NjcgNzMuNDM2IDUwLjY2NyA3Mi42NTgyVjQ3LjEwODJDNTAuNjY3IDQ2LjMzMDQgNTEuMDAwOCA0NS43NTAzIDUxLjY2ODQgNDUuMzY3OUM1Mi4zMzYgNDQuOTg1NSA1Mi45OTM4IDQ1LjAwODIgNTMuNjQyIDQ1LjQzNkw3My43NDc2IDU4LjI0OTlDNzQuMzQzOSA1OC42Mzg4IDc0LjY0MiA1OS4xODMyIDc0LjY0MiA1OS44ODMyQzc0LjY0MiA2MC41ODMyIDc0LjM0MzkgNjEuMTI3NyA3My43NDc2IDYxLjUxNjVMNTMuNjQyIDc0LjMzMDVaIiBmaWxsPSIjMTQxRjYxIi8+CjwvZz4KPC9zdmc+Cg==);
+    width: 120px;
+    height: 120px;
+    content: '';
+    display: block;
+    content: "";
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transition: all 0.3s ease-out;
+    opacity: .88;
+}
+
+.app-video a.openModal:hover:after {
+    box-shadow: 0px 4px 8px rgba(20, 31, 97, 0.32), 0px 8px 16px rgba(20, 31, 97, 0.16);
+    opacity: 1;
+}
+
+
+
+
+
+/* Model Css */
+.mq_modal_open {
+    overflow: hidden !important;
+}
+.fade {
+    transition: opacity .15s linear;
+}
+.mq_modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    z-index: 999999999;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: opacity .15s linear;
+}
+.mq_modal.open {
+    opacity: 1;
+}
+.mq_modal .mq_modal_overlay {
+    display: none;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+.mq_modal .mq_modal_overlay.fade {
+    display: block;
+    opacity: .5;
+}
+.mq_modal .mq_modal_inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    -webkit-transform: translate(0,-25%);
+    transform: translate(0,-25%);
+    min-height: 100%;
+    pointer-events: none;
+}
+.mq_modal.open .mq_modal_inner {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+.mq_modal .mq_modal_block {
+    color: #000;
+    pointer-events: auto;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .2);
+
+    /* Ensure full screen usage */
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.mq_modal_content {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mq_modal_content iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* Dynamically adjust width/height while maintaining aspect ratio */
+    width: min(calc(96vw - 16px), calc(170vh - 16px)); /* 96vw ensures spacing from edges */
+    height: min(calc(96vh - 6px), calc(54vw - 6px)); /* 54vw maintains 16:9 aspect ratio */
+
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 3px;
+    background: #fff;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .2);
+}
+
+.mq_modal .mq_modal_header {
+    position: relative;
+    padding: 0;
+    margin-bottom: 0;
+}
+.mq_modal .mq_modal_header .mq_close {
+    color: #000;
+    margin-top: 0;
+    margin-left: 0;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 14px;
+    display: block;
+    position: fixed;
+    z-index: 100010;
+}
+.mq_modal .mq_modal_header .mq_close:before,
+.mq_modal .mq_modal_header .mq_close:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 16px;
+    height: 3px;
+    background-color: #6B6B6A;
+}
+.mq_modal .mq_modal_header .mq_close:before {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.mq_modal .mq_modal_header .mq_close:after {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media(max-width: 767.98px) {
+    .app-features-container .app-features p {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+    .iv-Homepage .hero.hero-slider-single .hero-slide.has-tab-bg {
+        background-image: none !important;
+    }
+    .iv-Homepage main .hero-slide .mobile-bg-container {
+        background-color: #000000;
+    }
+}

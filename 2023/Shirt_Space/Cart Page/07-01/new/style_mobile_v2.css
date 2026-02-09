@@ -1,0 +1,31 @@
+.shirtspace-cart .cart-summary__shipping-methods:before {
+    content: 'Shipping Methods';
+    text-decoration: none;
+    font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 19px;
+    margin: 20px 0 0;
+    color: #004c79;
+    font-weight: bold;
+}
+.shirtspace-cart .cart-summary__promo-code > p {
+    font-size: 16px;
+    margin-bottom: 10px;
+	color: #007dc5;
+	font-weight: 500;
+	cursor: pointer;
+    display: inline-block;
+}
+.shirtspace-cart .cart-summary__promo-code form.simple_form,
+.shirtspace-cart aside.prepare-checkout > .cart-summary__promo-code,
+.shirtspace-cart .cart-summary__payment_actions ~ .cart-summary__payment_actions,
+.shirtspace-cart aside.prepare-checkout .cart-summary__totals {
+	display: none;
+}
+.shirtspace-cart .cart-summary__promo-code form.simple_form.current {
+	display: block;
+}
+.shirtspace-cart .cart-summary__totals {
+    clear: both;
+    padding-bottom: 0;
+}

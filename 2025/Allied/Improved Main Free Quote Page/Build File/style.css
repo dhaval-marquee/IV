@@ -1,0 +1,35 @@
+body .avl-header .v2nav .avl-header__actions a.avl-header__button ,
+body .avl-header .v2nav .avl-header__actions .avl-header__call > svg{
+    display: none;
+}
+body .free-quote form fieldset input,
+body .free-quote form fieldset select {
+    color: #000 !important;
+}
+body .avl-header .v2nav .avl-header__main-wrapper .logo a {
+    pointer-events: none;
+}
+@media (max-width: 992px) {
+    body .main-header {
+        position: inherit;
+    }
+    body .avl-header .avl-header__main .avl-header__actions {
+        display: none;
+    }
+    body .avl-header .v2nav .avl-header__main-wrapper .avl-header__mobile-toggle-wrap {
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+    }
+    body .nav-toggle {
+        height: 26px;
+    }
+    body .avl-header .v2nav .avl-header__main-wrapper {
+        display: flex;
+        padding-right: 0;
+    }
+    body .nav-close {
+        position: relative;
+        top: 3px;
+    }
+}

@@ -1,0 +1,85 @@
+.washingSearch_text .only_mob{
+    display: none;
+}
+.washingSearch_text .search_wrapper{
+   border: 1px solid #dee2e6;
+   margin-bottom: 18px;
+}
+
+.washingSearch_text #searchDesk .key_by+.row{
+    justify-content: space-between;
+}
+.searchDeskInner{
+    width: 80%;
+}
+.washingSearch_text #searchDesk .key_by+.row .form-control.search-input {
+    display: flex !important;
+}
+.washingSearch_text #searchDesk .key_by+.row .search-close-block{
+    background-color: #d3d3d3;
+    padding: 10px 30px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+}
+.washingSearch_text .cLEAR_wrapper{
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+}
+.washingSearch_text .cLEAR_wrapper .btn-clear{
+    margin-right: 16px;
+}
+.washingSearch_text .cLEAR_wrapper .search-clear-block{
+    display: flex;
+    align-items: center;
+    border: inherit;
+}
+ .washingSearch_text input:-webkit-autofill,
+ .washingSearch_text input:-webkit-autofill:hover, 
+ .washingSearch_text input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset!important;
+  transition: background-color 5000s ease-in-out 0s!important;
+  -webkit-text-fill-color: #000;
+}
+@media screen and (max-width: 1199.98px){
+    .searchDeskInner{
+        width: 75%;
+    }
+    .washingSearch_text .cLEAR_wrapper{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 767.98px){
+    .washingSearch_text .box_wrapper img {
+        max-width: 75px;
+    }
+    .washingSearch_text .search_wrapper{
+        display: none;
+    }
+    .washingSearch_text .only_mob{
+        display: block;
+        border: 1px solid #dee2e6;
+        margin-bottom: 18px;
+    }
+    .washingSearch_text .only_mob #searchMob .row{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 575.98px){
+    .washingSearch_text .only_mob #searchMob .row{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .washingSearch_text .only_mob #searchMob .row img{
+        max-width: 18px;
+    }
+}

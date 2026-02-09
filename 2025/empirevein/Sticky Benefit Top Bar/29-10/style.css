@@ -1,0 +1,73 @@
+.iv-quote header.sticky {
+    box-shadow: none;
+}
+.iv-quote-sec {
+    box-sizing: border-box;
+    background-color: #ff8b00;
+    color: #fff;
+    padding: 8px 0;
+    box-shadow: rgb(0 0 0 / .35) 0 5px 15px;
+    z-index: 999;
+}
+body.scrolled .iv-quote-sec {
+    display: block;
+}
+body .iv-quote-sec {
+    display: none;
+}
+.iv-quote-sec .iv-wrapper {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.iv-quote-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px 30px;
+}
+.iv-quote-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.iv-quote-item .iv-icon {
+    width: 100%;
+    max-width: 29px;
+}
+.iv-quote-item p {
+    font-size: 16px;
+    margin: 0;
+}
+@media screen and (max-width: 991px) {
+    .iv-quote-wrapper {
+        justify-content: center;
+        gap: 0px 10px;
+    }
+    .iv-quote-item .iv-icon {
+        max-width: 40px;
+    }
+    .iv-quote-item p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .iv-quote-item .iv-icon {
+        max-width: 30px;
+    }
+    .iv-quote-item p {
+        font-size: 15px;
+    }
+    .iv-quote-item {
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .iv-quote-wrapper {
+        gap: 0px;
+    }
+    .iv-quote-sec .iv-wrapper {
+        padding: 0 3px;
+    }
+}

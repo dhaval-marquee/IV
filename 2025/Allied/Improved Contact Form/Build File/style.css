@@ -1,0 +1,94 @@
+.free-quote {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.free-quote .free-quote-inner {
+    background-color: #fff;
+    width: 100%;
+    max-width: 690px;
+    padding: 40px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+.free-quote h2 {
+    font-size: 42px;
+    line-height: 48px;
+    color: #000;
+    margin: 0;
+}
+.free-quote form {
+    max-width: 100%;
+    width: 100%;
+    margin: 20px 0 0;
+}
+.free-quote form label,
+.free-quote form p {
+    color: #000;
+}
+.free-quote form fieldset {
+    width: calc(50% - 10px) !important;
+    margin-bottom: 10px;
+}
+.free-quote form fieldset.legal-sms {
+    width: 100% !important;
+    position: relative;
+    padding-left: 30px;
+    margin: 0;
+}
+.free-quote form fieldset.legal-sms input {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.free-quote form fieldset.legal-sms label {
+    display: inline-block;
+    line-height: normal;
+    padding: 0;
+    margin-left: 0;
+}
+.free-quote form fieldset input,
+.free-quote form fieldset select {
+    border: 1px solid #d3d3d3;
+    background-color: #d3d3d33b;
+    border-radius: 3px;
+}
+.free-quote .free-quote-form button {
+    font-size: 18px;
+    font-family: sans-serif;
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+    text-transform: inherit;
+    letter-spacing: 0.5px;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+@media (max-width: 599px) {
+    .free-quote .free-quote-inner {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .free-quote h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .free-quote form fieldset {
+        width: 100% !important;
+    }
+    .free-quote .free-quote-form button {
+        max-width: 100%;
+    }
+    .free-quote-thanks .legal-sms,
+    .free-quote-thanks h2,
+    .free-quote-thanks p,
+    .free-quote .legal-sms,
+    .free-quote h2,
+    .free-quote p {
+        padding: 0;
+    }
+    .free-quote .free-quote-inner + p {
+        line-height: 32px;
+        font-size: 22px;
+    }
+}

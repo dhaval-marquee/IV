@@ -1,0 +1,91 @@
+.iv_section .hero-section {
+    background-image: none;
+    background-color: #fff;
+}
+
+.iv_section .hero-content h1,
+.iv_section .hero-section p {
+    color: #010101;
+}
+
+.iv_section .hero-section .wrap.cf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.iv_section .hero-content {
+    width: 100%;
+    max-width: 50%;
+}
+
+.iv_section .trial-form {
+    width: 100%;
+    max-width: 40%;
+    box-shadow: 3px 3px 15px #0000002b;
+    color: #010101;
+    z-index: 9;
+}
+
+.iv_section .trial-form div.gform_legacy_markup_wrapper .top_label div.ginput_complex.ginput_container.gf_name_has_2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+}
+
+.iv_section .trial-form div.gform_legacy_markup_wrapper .gfield--type-name .gform-grid-col {
+    display: flex;
+    flex-direction: column-reverse;
+    width: calc(50% - 15px);
+}
+
+.iv_section .gfield span.name_first .gform-field-label,
+.iv_section .gfield span.name_last .gform-field-label {
+    font-weight: 700;
+    font-size: inherit !important;
+    margin-bottom: 0 !important;
+}
+
+.iv_section .trial-form .only-mobile {
+    display: none;
+}
+
+.iv_section .continue-wraper {
+		margin-top: 30px;
+    text-align: center;
+    max-width: 300px;
+    margin-left: auto !important;
+    margin-right: auto;
+}
+
+.iv_section .continue-wraper a {
+    display: block;
+    font-size: 24px;
+    line-height: 1em;
+    color: #fff;
+    background-color: #ff551a;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+@media (max-width: 767px) {
+    .iv_section .hero-section .wrap.cf {
+        flex-direction: column;
+    }
+
+    .iv_section .hero-content,
+    .iv_section .trial-form {
+        max-width: 100%;
+    }
+    
+    .iv_section .trial-form .ginput_container{
+    	flex-direction: column;
+    }
+    
+    .iv_section .trial-form div.gform_legacy_markup_wrapper .gfield--type-name .gform-grid-col{
+    	    width: 100% !important;
+    }
+  
+}

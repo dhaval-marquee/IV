@@ -1,0 +1,27 @@
+.heroIV #section-16-143 {
+    background-position: center;
+}
+
+.heroIV #headline-47-143 {
+    font-size: 28px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.heroIV ul.heroList {
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: -10px;
+}
+
+.heroIV ul.heroList li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767.98px) {
+    .heroIV #headline-47-143 {
+        font-size: 24px;
+    }
+}

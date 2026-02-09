@@ -1,0 +1,50 @@
+.iv-ghost-phone-sec {
+    background: #fff;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.iv-ghost-phone-text {
+    margin: 0;
+    color: #0a1f8f;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.iv-ghost-phone-sec .iv-ghost-phone-call {
+    font-size: 17px;
+}
+
+.iv-ghost-phone-sec .iv-ghost-phone-call:hover {
+    color: #0a1f8f;
+}
+
+.iv-ghost-phone-text svg {
+    margin-right: 5px;
+}
+
+.iv-ghost-phone-question {
+    pointer-events: none;
+}
+
+@media (max-width:767px) {
+    .iv-ghost-phone-text.iv-ghost-phone-call {
+        display: none;
+    }
+
+    .iv-ghost-phone-question {
+        pointer-events: initial;
+        border: 1px solid #0a1f8f;
+        padding: 6px 20px;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .iv-ghost-phone-question:hover {
+        color: #0a1f8f;
+        background: #f4f4f4;
+        text-decoration: none;
+    }
+}

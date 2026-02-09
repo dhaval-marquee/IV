@@ -1,0 +1,28 @@
+.hero_iv .first-section .nectar-highlighted-text h2 {
+    width: 100%;
+    max-width: 600px;
+}
+.hero_iv .first-section .nectar-highlighted-text + .divider-wrap, 
+.hero_iv .first-section .nectar-responsive-text,
+.hero_iv .first-section .nectar-responsive-text +.divider-wrap {
+    display: none;
+}
+
+.hero_iv p.subheading {
+    font-size: 19px;
+    line-height: normal;
+}
+.hero_iv .first-section ul li {
+    font-size: 19px;
+}
+.hero_iv .first-section ul li::marker {
+    color: #fd762b;
+}
+.hero_iv .first-section .subheading + h5,
+.hero_iv .first-section ul + h5 {
+    font-weight: 300;
+    font-family: 'Beatrice Standard Regular';
+}
+.hero_iv .first-section .nectar-cta {
+    margin-top: 24px;
+}

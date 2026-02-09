@@ -1,0 +1,10 @@
+.iv-calendar .pss-form-group-float.active:not(.pss-form--check) > label {
+    transform: translate(16px, 14px) scale(1);
+    background-color: transparent;
+    padding: 0;
+    color: currentColor;
+    font-size: 14px;
+}
+.iv-calendar .pss-form-group-float.active:not(.pss-form--check) > label span:nth-child(3) {
+    display: inline-block;
+}

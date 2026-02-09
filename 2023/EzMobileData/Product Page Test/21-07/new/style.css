@@ -1,0 +1,53 @@
+@media screen and (max-width: 740.98px) {
+    .product_iv .product-meta {
+        border-bottom: none;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .product_iv .product-meta__title {
+        margin-bottom: 20px;
+    }
+    .product_iv .product-meta__price-list-container {
+        margin-top: 5px;
+    }
+    .product_iv .product-form__payment-container {
+        grid-gap: 0;
+        gap: 0;
+        margin-top: 0;
+    }
+    .product_iv .product-form__option-info {
+        display: none;
+    }
+    .product_iv .product-form__add-button {
+        --primary-button-background: 27 157 44;
+    }
+    .product_iv .product-form__payment-container .product-form__add-button {
+        box-shadow: 5px 5px 10px #848484;
+    }
+    .product-form__option-selector .select::before {
+        background: rgb(var(--section-block-background, var(--section-background, var(--background))));
+        content: 'Choose Your Device';
+        color: rgba(var(--text-color),.7);
+        font-size: calc(var(--heading-small-font-size) + 1px);
+        line-height: 1;
+        padding: 0 5px;
+        pointer-events: none;
+        position: absolute;
+        left: 12px;
+        top: calc((var(--form-input-field-height) / 2) - .5em);
+        transform: scale(.733) translateY(calc(-24px - 0.5em)) translate(3.665px);
+        transform-origin: var(--transform-origin-start) top;
+    }
+}
+
+@media screen and (max-width: 479.98px) {
+    .product_iv .product-meta__title {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 360.98px) {
+    .product_iv .product-meta__title {
+        font-size: 24px;
+    }
+}

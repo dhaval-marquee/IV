@@ -1,0 +1,7 @@
+.prd-seriesOverviewJumbotron-buttonList > li p {
+    padding-right: 8px;
+    margin: 0;
+}
+p + a.need-link-iv { 
+    color: #dc002f;
+}

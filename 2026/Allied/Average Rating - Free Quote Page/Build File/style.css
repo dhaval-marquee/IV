@@ -1,0 +1,37 @@
+body .ratings-sec .stars {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    justify-content: center;
+    color: #fff;
+}
+body .ratings-sec .star-image img {
+    width: 24px;
+}
+body .ratings-sec .stars .star-text {
+    margin-top: 5px;
+}
+body .free-quote form fieldset input,
+body .free-quote form fieldset select {
+    color: #000 !important;
+}
+@media screen and (max-width: 991.98px) {
+    body .ratings-sec .stars {
+        font-size: 20px;
+    }
+    body .ratings-sec .star-image img {
+        width: 20px;
+    }
+}
+@media screen and (max-width: 767.98px) {
+	body .ratings-sec .stars {
+        flex-direction: column;
+        text-align: center;
+	}
+	body .ratings-sec .stars .star-text {
+        line-height: 1.6;
+	}
+}

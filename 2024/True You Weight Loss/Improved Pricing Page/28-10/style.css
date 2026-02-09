@@ -1,0 +1,10 @@
+.pricingPage_iv .page-content  div[data-id="66d5089"] .e-con-inner > div > div > div.elementor-widget-button:last-child,
+.pricingPage_iv .page-content div[data-id="66ee4ce"] .e-con-inner > div > div > div.elementor-widget-button:last-child,
+.pricingPage_iv .page-content div[data-id="7975281"]  .e-con-inner > div > div > div.elementor-widget-button:last-child,
+.pricingPage_iv .page-content div[data-id="d2b528d"] {
+    display: none;
+}
+.pricingPage_iv .page-content ul li.list-item .elementor-icon-list-text {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}

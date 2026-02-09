@@ -1,0 +1,41 @@
+.optinPage_iv #utility {
+    display: none;
+}
+.optinPage_iv #mainMenu div.no-gutters > [class*=col-]:nth-child(1) {
+    display: none;
+}
+.optinPage_iv .text_split_form2 .container h1 {
+    color: #282B37;
+    text-align: center;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.optinPage_iv .text_split_form2 .container h2 {
+    color: #000;
+    background-color: #FFC300;
+    text-align: center;
+    font-family: Inter;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 24px;
+    margin-bottom: 0;
+}
+
+.optinPage_iv .text_split_form2 .container img {
+    width: 100%;
+    max-width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .optinPage_iv .text_split_form2 .container h2 {
+        margin-top: 130px;
+    }
+}

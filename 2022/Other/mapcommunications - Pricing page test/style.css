@@ -1,0 +1,288 @@
+body {
+    visibility: hidden;
+}
+.iv_pricing_page .page-title,
+.iv_pricing_page .top-wrapper,
+.iv_pricing_page .entry-content .quote,
+.iv_pricing_page header.article-header,
+.iv_pricing_page .pricing-table .pricing-chart:nth-of-type(1) h4,
+.iv_pricing_page .pricing-table .pricing-chart .feat {
+    display: none;
+}
+.iv_pricing_page .entry-content .pricing-table h1 {
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.iv_pricing_page .entry-content .pricing-table .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.iv_pricing_page .pricing-table .pricing-chart {
+    position: relative;
+    padding: 0 15px;
+}
+.iv_pricing_page .pricing-table .pricing-chart .mostPopular {
+    font-size: 26px;
+    line-height: normal;
+    letter-spacing: normal;
+    background-color: #1B9D2C;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100%;
+    color: #fff;
+    padding: 5px;
+}
+.iv_pricing_page .pricing-table .pricing-chart .inner {
+    min-height: 275px;
+    padding-top: 44px;
+}
+.iv_pricing_page .pricing-table .pricing-chart h2 {
+    font-size: 35px;
+    line-height: normal;
+    font-weight: 600;
+    padding: 22px;
+    text-transform: inherit;
+}
+.iv_pricing_page .pricing-table .pricing-chart h2:after {
+    top: 99%;
+    border-width: 10px 10px 10px 10px;
+}
+.iv_pricing_page .pricing-table .pricing-chart .h1 {
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+}
+.iv_pricing_page .pricing-table .pricing-chart .h1:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 84%;
+    background-color: #288dbc;
+}
+.iv_pricing_page .pricing-table .pricing-chart .h1 span {
+    font-size: 36px;
+    font-weight: bold;
+    display: inline-block;
+}
+.iv_pricing_page .pricing-table .pricing-chart .inner p {
+    margin-bottom: 0;
+    color: #288dbc;
+    font-size: 34px;
+    font-weight: bold;
+}
+.iv_pricing_page .entry-content .pricing-table p span {
+    font-size: 31px;
+    display: block;
+    margin-top: -14px;
+}
+.iv_pricing_page .pricing-table .pricing-chart h4 {
+    font-size: 20px;
+    margin-top: -13px;
+    margin-bottom: 0;
+}
+.iv_pricing_page .bottom-content .entry-content {
+    padding-bottom: 0;
+}
+.iv_pricing_page .bottom-content .entry-content p {
+    margin-bottom: 0;
+}
+.iv_pricing_page .bottom-content .entry-content p a {
+    font-size: 22px;
+    color: blue;
+    margin-top: 18px;
+    display: inline-block;
+}
+.iv_pricing_page .bottom-content .entry-content p a:hover,
+.iv_pricing_page .bottom-content .entry-content p a:visited:hover {
+    color: #207196;
+}
+.iv_pricing_page .pricing-table .pricing-chart a.pricing-btn {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.iv_pricing_page .feature-pricing {
+    margin-top: 30px;
+}
+.iv_pricing_page .feature-pricing h2 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+.iv_pricing_page .feature-pricing ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+.iv_pricing_page .feature-pricing ul li {
+    font-size: 22px;
+    line-height: normal;
+    max-width: 47.8%;
+    width: 100%;
+    margin: 0 0 34px;
+    text-align: left;
+}
+.iv_pricing_page .feature-pricing ul li:before {
+    display: none;
+}
+.iv_pricing_page .feature-pricing ul li:nth-child(4) {
+    order: 1;
+}
+.iv_pricing_page .feature-pricing ul li:nth-child(2) {
+    order: 2;
+}
+.iv_pricing_page .feature-pricing ul li:nth-child(1) {
+    order: 3;
+}
+.iv_pricing_page .feature-pricing ul li:nth-child(6) {
+    order: 4;
+}
+.iv_pricing_page .feature-pricing ul li:nth-child(5) {
+    order: 5;
+}
+.iv_pricing_page .feature-pricing ul li:nth-child(3) {
+    order: 6;
+}
+.iv_pricing_page .feature-pricing ul li:nth-child(7) {
+    order: 7;
+}
+.iv_pricing_page .feature-pricing ul li:nth-child(8) {
+    display: none;
+}
+
+@media (max-width: 1199.98px) {
+    .iv_pricing_page .entry-content .pricing-table h1 {
+        font-size: 44px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1029px) {
+    .iv_pricing_page .wrap {
+        max-width: 768px;
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 1029px) {
+    .iv_pricing_page .pricing-table .pricing-chart h2 {
+        font-size: 24px;
+        padding: 15px;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart .h1 {
+        font-size: 50px;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart .inner {
+        min-height: 245px;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart a.pricing-btn {
+        font-size: 18px;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart .mostPopular {
+        font-size: 20px;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart h4 {
+        font-size: 17px;
+        margin-top: 0;
+    }
+    .iv_pricing_page .feature-pricing ul li {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .iv_pricing_page .header {
+        height: auto;
+        padding-bottom: 0;
+        background: transparent;
+    }
+    .iv_pricing_page .header.fixed-header {
+        background-color: #292c38;
+    }
+    .iv_pricing_page section.entry-content {
+        padding-top: 180px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .iv_pricing_page #content {
+        margin-top: 0px;
+    }
+    .iv_pricing_page .entry-content .pricing-table h1 {
+        font-size: 32px;
+        line-height: normal;
+        margin-top: 14px;
+        margin-bottom: 20px;
+    }
+    .iv_pricing_page .entry-content .pricing-table .row {
+        display: block;
+        padding: 0 13px;
+        margin: 0;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart {
+        margin-bottom: 0;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart:nth-child(2) {
+        margin-top: 54px;
+        margin-bottom: 20px;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart h2 {
+        padding: 23px;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart .inner {
+        min-height: inherit;
+        padding-top: 27px;
+        padding-bottom: 2px;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart .h1 {
+        padding-bottom: 38px;
+        margin-bottom: 10px;
+    }
+    .iv_pricing_page .entry-content .pricing-table p span {
+        font-size: 24px;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart h4 {
+        margin-top: -9px;
+        margin-bottom: 12px;
+    }
+    .iv_pricing_page .pricing-table .pricing-chart a.pricing-btn {
+        font-size: 20px;
+        padding: 7px;
+    }
+    .iv_pricing_page .bottom-content .entry-content p a {
+        font-size: 21px;
+        line-height: normal;
+        padding: 0 30px;
+        margin-top: 13px;
+    }
+    .iv_pricing_page .feature-pricing ul {
+        padding: 0 10px;
+    }
+    .iv_pricing_page .feature-pricing ul li {
+        max-width: 100%;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width: 359px) {
+    .iv_pricing_page .entry-content .pricing-table h1 {
+        font-size: 30px;
+    }
+    .iv_pricing_page .bottom-content .entry-content p a {
+        padding: 0 15px;
+    }
+}

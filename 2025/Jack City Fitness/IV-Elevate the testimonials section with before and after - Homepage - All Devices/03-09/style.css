@@ -1,0 +1,38 @@
+.homepageTestimonials .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.homepageTestimonials .container {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 80%;
+    padding: 0 10%;
+}
+.homepageTestimonials .boxes > div {
+    width: 50%;
+    max-width: 450px;
+}
+.homepageTestimonials .boxTopContent {
+    background-color: #FE5000;
+}
+.homepageTestimonials .boxTopContent p {
+    margin-bottom: 0;
+}
+.homepageTestimonials .boxBottomContent {
+    background-color: #E9E9E9;
+}
+.boxBottomContent img {
+    width: 100%;
+    max-width: 32px;
+}
+.homepageTestimonials .weighingScale {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#container .homepageTestimonials .weighingScale img {
+    width: 100%;
+    max-width: 32px;
+}

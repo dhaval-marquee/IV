@@ -1,0 +1,5 @@
+
+.iv_healthcare .smart-hero .hero.carousel .controls li.active span:after {
+    animation: none;
+    width: 100%;
+}

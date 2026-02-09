@@ -1,0 +1,131 @@
+body.wp-custom-logo .title-area {
+    max-width: 150px;
+}
+body .menu-primary .menu-item-247 {
+    display: none;
+}
+body .menu-primary .redmenu a {
+    color: #333;
+}
+body .menu-primary .redmenu a:hover,
+body .menu-primary .redmenu a:focus {
+    color: #E50019;
+}
+body .site-header .search-form {
+    border-radius: 0;
+    max-width: 240px;
+}
+body .site-header #searchform-1 {
+    border-color: #333;
+    border-right-width: 0;
+    font-size: 14px !important;
+    height: 39px;
+    padding: 10px;
+    vertical-align: middle;
+    width: calc(100% - 90px);
+}
+body .site-header .search-form input[type=submit] {
+    background-color: transparent !important;
+    border: 1px solid #333;
+    color: #333;
+    margin-top: 0;
+    height: 39px;
+    vertical-align: middle;
+    width: 90px;
+}
+body .site-header .search-form input[type=submit]:hover {
+    background-color: #E50019 !important;
+    border-color: #E50019;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 1023.98px) and (min-width: 960px) {
+    body .nav-primary {
+        float: right;
+        clear: none;
+    }
+    body .nav-primary .genesis-nav-menu a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media only screen and (min-width: 960px) {
+    body .menu-primary {
+        display: flex;
+    }
+    body .menu-primary .bkred {
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+    body .menu-primary .search-bar {
+        margin-left: 9px;
+    }
+    body .site-header .yellowbtn {
+        display: none;
+    }
+}
+@media only screen and (max-width: 959.98px) {
+    body .site-header {
+        padding: 0 20px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+    }
+    body .site-header .wrap {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    body .menu-primary .bkred {
+        display: none;
+    }
+    body .site-header .search-form {
+        max-width: 100%;
+    }
+    body .menu-primary .search-bar {
+        float: none;
+    }
+    body .menu-toggle {
+        float: none;
+        font-size: 0;
+        margin-left: -6px;
+        margin-right: 0;
+        padding: 0;
+    }
+    body .menu-toggle:focus,
+    body .menu-toggle:hover {
+        color: inherit;
+        outline: none;
+    }
+    body .menu-toggle::before {
+        margin-right: 0;
+        font-size: 44px;
+        height: 44px;
+        width: 44px;
+    }
+    body.wp-custom-logo .title-area {
+        float: none;
+        margin: auto;
+        max-width: 100px;
+    }
+    body .site-header .bkred {
+        color: #FFFFFF;
+    }
+    body .site-header .yellowbtn {
+        font-size: 14px;
+        line-height: normal;
+        margin-top: 0;
+        padding: 10px;
+        text-transform: none;
+        width: auto;
+    }
+    body .site-inner {
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 359.98px) {
+    body.wp-custom-logo .title-area {
+        max-width: 90px;
+    }
+}

@@ -1,0 +1,225 @@
+.hero_iv #hero {
+    display: none;
+}
+
+.hero_iv .hero-section {
+    position: relative;
+    background: url('//www.nsb.com/wp-content/uploads/2024/06/updated-.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 160px 0px 150px;
+}
+
+.hero_iv .hero-section .hero-container {
+    position: relative;
+    z-index: 1;
+    max-width: 1662px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.hero_iv .hero-section .hero-container .hero-title {
+    margin-bottom: 70px;
+}
+
+.hero_iv .hero-section .hero-container .hero-title span {
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.hero_iv .hero-section .hero-container .hero-title h1 {
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #000;
+    font-family: 'open sans';
+    margin-bottom: 0px;
+}
+
+.hero_iv .hero-section .hero-container .hero-title p {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 35px;
+    color: #000;
+    font-style: italic;
+}
+
+.hero_iv .hero-section .hero-container h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 35px;
+    font-family: 'open sans';
+    margin-bottom: 65px;
+}
+
+.hero_iv .hero-section .hero-container .hero-buttons {
+    display: flex;
+}
+
+.hero_iv .hero-section .hero-container .hero-buttons .cta-getStarted {
+    margin-right: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.hero_iv .hero-section .hero-container .hero-buttons .cta-getStarted span {
+    font-size: 25px;
+    color: white;
+    display: block;
+    font-family: 'open sans';
+    margin-bottom: 10px;
+}
+
+.hero_iv .hero-section .hero-container .hero-buttons .cta-getStarted button {
+    padding: 20px 15px;
+    font-size: 22px;
+    color: white;
+    font-family: 'open sans';
+    text-transform: capitalize;
+    margin-bottom: 3px;
+    cursor: pointer;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms;
+    width: 100%;
+}
+
+.hero_iv .hero-section .hero-container .hero-buttons .cta-search {
+    width: 100%;
+    max-width: 406px;
+}
+
+.hero_iv .hero-section .hero-container .hero-buttons .cta-search span {
+    font-size: 25px;
+    color: white;
+    display: block;
+    font-family: 'open sans';
+    margin-bottom: 10px;
+}
+
+.hero_iv .hero-section .hero-container .hero-buttons .cta-search form input {
+    padding: 21px 43px;
+    font-size: 20px;
+    border: 3px solid #808080;
+    width: 100%;
+}
+
+.hero_iv .hero-section .hero-container p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:767px) {
+    .hero_iv.mobileTest #homepage #subhero .left {
+        display: none;
+    }
+
+    .hero_iv.mobileTest #homepage #subhero .right {
+        padding-top: 45px;
+    }
+
+    .hero_iv .hero-section {
+        background-position: top right;
+        padding: 280px 0px 30px;
+    }
+
+    .hero_iv .hero-section:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.5;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-title {
+        margin-bottom: 25px;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-title span {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-title h1 {
+        margin-top: 10px;
+        font-size: 28px;
+        line-height: 30px;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-title p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .hero_iv .hero-section .hero-container h3 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-bottom: 22px;
+        margin-top: 0px;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-buttons {
+        display: block;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-buttons .cta-getStarted {
+        max-width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-buttons .cta-getStarted button {
+        border-radius: 7px;
+        max-width: 100%;
+        padding: 14px 0px;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-buttons .cta-getStarted span,
+    .hero_iv .hero-section .hero-container .hero-buttons .cta-search span,
+    .hero_iv .hero-section .hero-container p {
+        font-size: 13px;
+        color: #000;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-buttons .cta-search {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-buttons .cta-search form input {
+        padding: 14px 43px;
+        font-size: 15px;
+    }
+
+    .hero_iv .hero-section .hero-container .hero-title h1,
+    .hero_iv .hero-section .hero-container .hero-buttons .cta-getStarted span,
+    .hero_iv .hero-section .hero-container .hero-buttons .cta-search span,
+    .hero_iv .hero-section .hero-container p {
+        color: #fff !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .hero_iv .hero-section {
+        padding: 70px 0px 20px;
+    }
+}

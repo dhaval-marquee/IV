@@ -1,0 +1,59 @@
+.template-cart.cart_iv .main-content #cart.cart-page .cart-list .cart-implementation .field label,
+.template-cart.cart_iv .main-content #cart.cart-page .cart-list .cart-implementation .field label.h4 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.template-cart .main-content #cart .cart-list .cart-implementation.cart-form {
+    max-width: 790px;
+}
+.cart-form .cart-datetime-wrap .fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cart-form .cart-datetime-wrap .fieldset .field {
+    width: calc(50% - 5px);
+}
+.cart-form .cart-datetime-wrap .fieldset .field.full-name {
+    width: 100%;
+}
+.template-cart .main-content #cart .cart-form .subtotal-container {
+    max-width: 415px !important;
+}
+.cart-form .cart-datetime-wrap .fieldset .field.wrap-radios {
+    width: 100%;
+    margin-bottom: 10px !important;
+}
+.cart-form .cart-datetime-wrap .fieldset .field.wrap-radios .wrap-radio-inputs {
+    justify-content: inherit !important;
+}
+.cart-form .cart-datetime-wrap .fieldset .field.wrap-radios .wrap-radio-inputs .field__label {
+    margin-right: 10px;
+}
+.cart-form .cart-datetime-wrap .fieldset .field input,
+.cart-form .cart-datetime-wrap .fieldset .field select {
+    margin-bottom: 10px !important;
+}
+.cart-form .cart-datetime-wrap .fieldset .field {
+    margin: 0 !important;
+}
+.cart-form #postcode-wrapper {
+    margin-top: 0 !important;
+}
+
+@media (max-width: 991px){
+    .template-cart.cart_iv .main-content #cart.cart-page .cart-list .cart-implementation .field label,
+    .template-cart.cart_iv .main-content #cart.cart-page .cart-list .cart-implementation .field label.h4 {
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+@media (max-width: 767px){
+    .cart-form .cart-datetime-wrap .fieldset .field { 
+        width: 100%;
+    }
+    .template-cart .main-content #cart .cart-form .subtotal-container {
+        max-width: 100% !important;
+    }
+}

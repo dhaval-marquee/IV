@@ -1,0 +1,96 @@
+body .footer-bar {
+    background-image: var(--c-gradient-accent, linear-gradient(118deg, #ff8b00 0%, #ff7000 100%));
+    background-color: #ff8b00;
+    box-shadow: 0px 12px 19px 7px #000;
+    display: block;
+    color: #fff;
+    font-family: "neue-haas-unica";
+    font-weight: 500;
+    line-height: 25px;
+    padding: 6px 40px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 99999999;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        padding-bottom: 36px !important;
+    }
+    body #apexchat_prechat_invitation_wrapper {
+        margin-bottom: 45px !important;
+    }
+    body #apexchat_bar_invitation_wrapper {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 823.98px) {
+    html[lang="es-MX"] body {
+        padding-bottom: 114px !important;
+    }
+    html[lang="es-MX"] body #apexchat_prechat_invitation_wrapper {
+        margin-bottom: 124px !important;
+    }
+    html[lang="es-MX"] body #apexchat_bar_invitation_wrapper,
+    html[lang="es-MX"] body #apexchat_bar_invitation_wrapper > iframe {
+        margin-bottom: 62px;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    body {
+        padding-bottom: 89px;
+    }
+    body .footer-bar {
+        font-size: 16px;
+        padding: 6px 20px;
+    }
+    body .footer-bar span {
+        white-space: nowrap;
+    }
+    body #apexchat_prechat_invitation_wrapper {
+        margin-bottom: 100px !important;
+    }
+    body #apexchat_bar_invitation_wrapper,
+    body #apexchat_bar_invitation_wrapper > iframe {
+        margin-bottom: 37px;
+    }
+    
+}
+@media only screen and (max-width: 424.98px) {
+    html[lang="en-US"] body {
+        padding-bottom: 114px !important;
+    }
+    html[lang="en-US"] body #apexchat_prechat_invitation_wrapper {
+        margin-bottom: 124px !important;
+    }
+    html[lang="en-US"] body #apexchat_bar_invitation_wrapper,
+    html[lang="en-US"] body #apexchat_bar_invitation_wrapper > iframe {
+        margin-bottom: 62px;
+    }
+}
+@media only screen and (max-width: 767.98px) and (min-width: 701px) {
+    html[lang="es-MX"] body {
+        padding-bottom: 89px !important;
+    }
+    html[lang="es-MX"] body #apexchat_prechat_invitation_wrapper {
+        margin-bottom: 100px !important;
+    }
+    html[lang="es-MX"] body #apexchat_bar_invitation_wrapper,
+    html[lang="es-MX"] body #apexchat_bar_invitation_wrapper > iframe {
+        margin-bottom: 37px;
+    }
+}
+@media only screen and (max-width: 395.98px) {
+    html[lang="es-MX"] body {
+        padding-bottom: 139px !important;
+    }
+    html[lang="es-MX"] body #apexchat_prechat_invitation_wrapper {
+        margin-bottom: 150px !important;
+    }
+    html[lang="es-MX"] body #apexchat_bar_invitation_wrapper,
+    html[lang="es-MX"] body #apexchat_bar_invitation_wrapper > iframe {
+        margin-bottom: 87px;
+    }
+}

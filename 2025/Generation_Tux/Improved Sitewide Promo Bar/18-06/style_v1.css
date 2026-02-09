@@ -1,0 +1,35 @@
+.sticky button[id*="headlessui-disclosure-button"] {
+    pointer-events: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.sticky button[id*="headlessui-disclosure-button"] .btn-info {
+    margin-left: 20px;
+    padding: 8px 22px;
+    pointer-events: auto;
+    vertical-align: middle;
+}
+.sticky div[id*="headlessui-disclosure-panel"] {
+    margin-left: 0;
+    text-align: center;
+}
+.sticky div[id*="headlessui-disclosure-panel"] > div {
+    padding-top: 16px;
+    padding-bottom: 0;
+}
+.sticky div[id*="headlessui-disclosure-panel"] .max-w-screen-xs {
+    margin-left: auto;
+    margin-right: auto;
+}
+.sticky a[class*="tracker-button-all-contact_us"] {
+    display: inline-flex;
+}
+@media screen and (max-width: 575px) {
+    .sticky button[id*="headlessui-disclosure-button"] .btn-info {
+        margin-left: 12px;
+        padding: 4px 18px;
+    }
+}

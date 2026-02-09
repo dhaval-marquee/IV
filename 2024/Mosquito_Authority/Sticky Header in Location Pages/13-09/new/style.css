@@ -1,0 +1,152 @@
+.iv-location-header .hfeed#page {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.iv-location-header .hfeed.sticky {
+    box-shadow: 10px 0px 20px #bdbdbd;
+}
+
+.iv-location-header .elementor-widget-container nav:first-child>.elementor-nav-menu li a {
+    padding: 13px 16px !important;
+}
+
+.iv-location-header a.quote-cta {
+    text-align: center;
+    padding: 15px 30px;
+    background-color: #ba006e;
+    color: #fff;
+    border-radius: 10px;
+    max-width: 170px;
+    display: block;
+    transition: all .2s linear;
+    font-weight: 500;
+}
+
+.iv-location-header a.quote-cta:hover {
+    background: #00263d;
+}
+
+.iv-location-header .header-cta {
+    display: flex;
+    justify-content: end;
+}
+
+.iv-location-header .top-bar {
+    display: none;
+}
+
+@media (max-width:1280px) {
+    .iv-location-header .elementor-widget-container nav:first-child>.elementor-nav-menu li a {
+        padding: 13px 8px !important;
+    }
+}
+
+@media (max-width:1024px) {
+    .iv-location-header a.phone {
+        width: 30px !important;
+        height: 30px;
+        display: block;
+    }
+    .iv-location-header .header-right {
+        margin-right: 15px;
+    }
+    .iv-location-header .header-cta {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .iv-location-header .astra-advanced-hook-36 section > div > .elementor-row >:first-child{
+        display: none;
+    }
+    .iv-location-header .header-right a.phone svg path {
+        fill: #ba006e;
+    }
+
+    .iv-location-header header.ast-custom-header section section>div>div {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .iv-location-header header.ast-custom-header section section>div>div>:first-child {
+        order: 1;
+        width: auto !important;
+    }
+
+    .iv-location-header header.ast-custom-header section section>div>div>:nth-child(2) {
+        order: 0;
+        width: auto !important;
+        max-width: 100%;
+        min-width: 22px;
+    }
+    .iv-location-header header.ast-custom-header section section > div > div > :nth-child(2) .elementor-element-populated,
+    .iv-location-header header.ast-custom-header section section>div>div>:nth-child(3) .elementor-element-populated{
+        padding: 0;
+    }
+    .iv-location-header header.ast-custom-header section section>div>div>:nth-child(3) {
+        order: 3;
+        width: auto !important;
+    }
+
+    .iv-location-header header.ast-custom-header section section>div>div .elementor-menu-toggle {
+        margin-right: 0 !important;
+        background-color: #fff;
+        font-size: 30px;
+    }
+
+    .iv-location-header .elementor-image [alt="Mosquito Authority Logo"] {
+        width: 100%;
+        max-width: 160px;
+    }
+
+    .iv-location-header header.ast-custom-header section section>div>div> :nth-child(2) .elementor-nav-menu--dropdown {
+        position: absolute;
+        width: 200px;
+        top: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .iv-location-header header.ast-custom-header section section > div > div .elementor-menu-toggle{
+        font-size: 25px;
+        padding: 0;
+        margin-right: 5px;
+    }
+    .iv-location-header .elementor-image [alt="Mosquito Authority Logo"]{
+        max-width: 150px;
+        width: 100%;
+    }
+    .iv-location-header a.quote-cta {
+        font-size: 13px;
+        padding: 9px 11px 9px 11px;
+        border-radius: 6px;
+        line-height: normal;
+    }
+    .iv-location-header .header-right{
+        margin-right: 10px;
+    }
+    .iv-location-header a.phone{
+        width: 25px !important;
+        height: 25px;
+    }
+    .iv-location-header .hfeed .astra-advanced-hook-36 .elementor-section-wrap > .elementor-top-section {
+        display: none;
+    }
+    .iv-location-header .top-bar {
+        background-color: #A3D4FF;
+        padding: 11px;
+        text-align: center;
+        display: block;
+        line-height: normal;
+    }
+    .iv-location-header .top-bar a {
+        margin: 0;
+        color: #ba006e;
+        font-family: Roboto, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: normal;
+    }
+}

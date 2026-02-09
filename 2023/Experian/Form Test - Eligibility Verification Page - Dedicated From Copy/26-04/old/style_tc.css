@@ -1,0 +1,20 @@
+
+@media (min-width: 992px) {
+    #contact .col-lg-6 {
+        max-width: 575px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #contactForm {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #contactForm > .form-group.floatl {
+        max-width: 48.5%;
+        width: 100%;
+    }
+    #contactForm > .form-group.floatl.text-area {
+        max-width: 100%;
+    }
+}

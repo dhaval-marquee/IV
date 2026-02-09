@@ -1,0 +1,15 @@
+.testimonial {
+    background-color: #fff;
+    width: 100%;
+    max-width: 420px;
+}
+.slider-testimonials .testimonial__rating svg {
+    fill: #ffd31f;
+}
+.slider-testimonials p,
+.slider-testimonials span {
+    color: #b95509;
+}
+.slider-testimonials p {
+    min-height: auto;
+}

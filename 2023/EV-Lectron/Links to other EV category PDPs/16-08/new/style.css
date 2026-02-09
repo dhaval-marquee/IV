@@ -1,0 +1,16 @@
+.evCategory_link {
+	font-weight: 700;
+}
+.evCategory_link a {
+	white-space: nowrap;
+}
+.evCategory_link a:hover {
+    color: #45c1bb;
+	text-decoration: none;
+}
+.evCategory_link a svg {
+	fill: #5cc9c3;
+}
+.evCategory_link a:hover svg {
+    fill: #45c1bb;
+}

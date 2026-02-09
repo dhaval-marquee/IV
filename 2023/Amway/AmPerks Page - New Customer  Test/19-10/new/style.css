@@ -1,0 +1,150 @@
+.amPerksPageTest .amw-content-component--extended .amw-content-component__title-wrapper,
+.amPerksPageTest .videoTitle ~ .js-rich-text-alert-container {
+    display: none;
+}
+.amPerksPageTest .heroSection {
+    padding-bottom: 100px;
+}
+.amPerksPageTest .heroSection .heroInner {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.amPerksPageTest .heroSection .heroInner .left_part {
+    width: 75%;
+    max-width: 700px;
+}
+.amPerksPageTest .heroSection .heroInner .left_part .textWrapper h1 {
+    font-weight: 700;
+}
+.amPerksPageTest .heroSection .heroInner .left_part .textWrapper ul {
+    margin: 50px 0 42px;
+    padding: 0;
+}
+.amPerksPageTest .heroSection .heroInner .left_part .textWrapper ul li {
+    font-size: 20px !important;
+    font-weight: 500;
+    line-height: 1.2em;
+    padding-bottom: 8px;
+}
+.amPerksPageTest .heroSection .heroInner .left_part .textWrapper a.btn,
+.amPerksPageTest .amPerksJoinng ul li a.btn,
+.amPerksPageTest .redeemRewardSection a.btn{
+    background-color: #305090;
+    border-radius: 100px;
+    max-width: 180px;
+    width: 100%;
+    min-height: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.amPerksPageTest .heroSection .heroInner .left_part .textWrapper a.btn:hover,
+.amPerksPageTest .amPerksJoinng ul li a.btn:hover,
+.amPerksPageTest .redeemRewardSection a.btn:hover{
+    color: #fff !important;
+}
+.amPerksPageTest .heroSection .heroInner .right_part {
+    width: 25%;
+}
+.amPerksPageTest .heroSection .heroInner .right_part .imgWrapper img{
+    width: 100%;
+    max-width: 290px;
+}
+
+.amPerksPageTest .amPerksJoinng {
+    padding-bottom: 60px;
+}
+.amPerksPageTest .amPerksJoinng h2{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.amPerksPageTest .amPerksJoinng ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.amPerksPageTest .amPerksJoinng ul li{
+    width: calc((100% / 3) - 24px);
+    max-width: 276px;
+    text-align: center;
+    margin: 0 12px;
+}
+.amPerksPageTest .amPerksJoinng ul li .imgWrapper img{
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+.amPerksPageTest .amPerksJoinng ul li .imgWrapper img.boximg {
+    min-height: 150px;
+}
+.amPerksPageTest .amPerksJoinng ul li a.btn {
+    margin-top: 30px;
+}
+.amPerksPageTest h5.videoTitle {
+    text-align: center;
+    margin-bottom: 0;
+}
+.amPerksPageTest .redeemRewardSection {
+    text-align: center;
+    padding: 36px 12px;
+}
+.amPerksPageTest .redeemRewardSection h2 + p{
+    max-width: 650px;
+    margin: 30px auto;
+}
+.amPerksPageTest .redeemRewardSection a.btn {
+    margin-bottom: 60px;
+}
+@media (max-width: 991.98px) {
+    .amPerksPageTest .heroSection .heroInner .left_part {
+        width: 65%;
+    }
+    .amPerksPageTest .heroSection .heroInner .right_part {
+        width: 35%;
+    }
+    .amPerksPageTest .amPerksJoinng ul li a.btn {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 767.98px) {
+    .amPerksPageTest .heroSection {
+        padding-bottom: 80px;
+    }
+    .amPerksPageTest .heroSection .heroInner {
+        flex-direction: column-reverse;
+    }
+    .amPerksPageTest .heroSection .heroInner .left_part,
+    .amPerksPageTest .heroSection .heroInner .right_part {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .amPerksPageTest .heroSection .heroInner .left_part .textWrapper ul {
+        max-width: 355px;
+        margin: 30px auto;
+        text-align: initial;
+    }
+    .amPerksPageTest .heroSection .heroInner .left_part .textWrapper ul li {
+        font-size: 18px !important;
+    }
+    .amPerksPageTest .amPerksJoinng ul li {
+        width: calc((100% / 2) - 16px);
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 644.98px) { 
+    .amPerksPageTest .amPerksJoinng ul li {
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+}

@@ -1,0 +1,19 @@
+header + div button[id*="headlessui-disclosure-button"] > svg:last-child {
+    display: none;
+}
+
+header + div button[id*="headlessui-disclosure-button"] {
+    font-size: 13px;
+    justify-content: center;
+}
+
+header + div div[id*="headlessui-disclosure-panel"] {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+header + div div[id*="headlessui-disclosure-panel"] a {
+    justify-content: center;
+}

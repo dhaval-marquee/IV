@@ -1,0 +1,46 @@
+.home_iv .fitness-btn {
+  background-color: rgba(254, 80, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 40px;
+}
+
+.home_iv .fitness-btn:hover {
+  background-color: #fff;
+  color: rgb(254, 80, 0);
+}
+
+.home_iv .fancybox-overlay-fixed {
+  display: none !important;
+}
+
+.home_iv .fancybox-overlay.fancybox-overlay-fixed.fancybox-opened,
+.home_iv .fancypop.fancybox-opened {
+  display: block !important;
+}
+
+.home_iv .fancybox-opened .fancybox-wrap {
+  top: 50%;
+  height: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home_iv .fancybox-opened .fancybox-inner {
+  height: 800px !important;
+}
+
+@media (max-width: 981.98px) {
+  .home_iv .fancybox-opened .fancybox-wrap {
+    width: 90%;
+  }
+  .home_iv .fancybox-opened .fancybox-inner,
+  .home_iv #free-fitness-consultation.fancybox-opened iframe {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home_iv .fitness-btn {
+    margin-bottom: 25px;
+  }
+}

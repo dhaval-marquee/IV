@@ -1,0 +1,41 @@
+section[data-id="2764a6e"],
+section[data-id="e57a72f"],
+section[data-id="d467ae2"],
+section[data-id="a33707e"],
+section[data-id="cc328ee"],
+section[data-id="e49db62"],
+section[data-id="2f89bae"],
+section[data-id="81714d4"],
+section[data-id="287c25e"],
+section[data-id="0b554f6"] {
+    display: none;
+}
+
+section[data-id="295d4e4"] {
+    margin-top: 50px;
+}
+
+
+
+@media (min-width: 1920px) {
+    .elementor-container {
+        max-width: 1440px !important;
+        width: 100%;
+        padding: 0 20px !important;
+    }
+
+    /* Fix Background issue */
+    section:not([data-id="1a01850"]):not([data-id="3f3a3c3"]).elementor-section:not(.elementor-motion-effects-element-type-background) {
+        background-size: auto 110% !important;
+    }
+
+    /* Form Background issue */
+    section[data-id="3f3a3c3"] {
+        background-position: center top !important;
+    }
+
+    #form_section iframe {
+        max-width: 480px;
+        width: 100%;
+    }
+}

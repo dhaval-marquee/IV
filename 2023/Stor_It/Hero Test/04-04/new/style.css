@@ -1,0 +1,96 @@
+.hero_iv .hero_section {
+    height: inherit !important;
+    min-height: 600px;
+}
+.hero_iv .hero_section .banner-background-image {
+    background-position: center top;
+}
+.hero_iv .hero_section h1 {
+    margin-bottom: 50px !important;
+}
+.hero_iv .hero_section .hero_content {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.hero_iv .hero_section .hero_content ul li {
+    position: relative;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 35px;
+}
+.hero_iv .hero_section .hero_content ul li .check {
+    display: inline-block;
+    transform: rotate(45deg);
+    font-weight: 500;
+    height: 21px;
+    width: 12px;
+    border-bottom: 4px solid #009753;
+    border-right: 4px solid #009753;
+    margin-right: 12px;
+}
+.hero_iv .hero_section .hero_content a.button {
+    font-size: 18px;
+}
+.hero_iv .hero_section .hero_content a.button::after {
+    top: inherit;
+    bottom: 100%;
+    margin-bottom: -10px;
+}
+
+@media screen and (min-width: 1601px) {
+    .hero_iv .hero_section {
+        height: auto;
+        min-height: 600px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .banner-loop .inner.banner-center {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero_iv .hero_section .hero_content > * {
+        max-width: 50%;
+        width: 100%;
+    }
+    .hero_iv .hero_section h1 {
+        text-align: left;
+    }
+    .hero_iv .hero_section .hero_content ul li .check {
+        position: absolute;
+        left: 8px;
+        top: 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero_iv .hero_section {
+        min-height: 450px;
+        padding: 50px 0;
+    }
+    .hero_iv .hero_section h1 {
+        margin-bottom: 20px !important;
+    }
+    .hero_iv .hero_section .hero_content {
+        flex-direction: column;
+    }
+    .hero_iv .hero_section .hero_content ul {
+        margin-bottom: 50px;
+    }
+    .hero_iv .hero_section .hero_content ul li {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .banner-loop .inner.banner-center {
+        width: 90%;
+    }
+}

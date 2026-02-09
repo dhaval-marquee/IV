@@ -1,0 +1,308 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+.iv_dello_home .hero-block {
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 50px 0 8px;
+    position: relative;
+}
+.iv_dello_home .hero-block:before,
+.iv_dello_home .hero-block:after {
+    content: '';
+    margin-left: -50vw;
+    margin-right: -50vw;
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 0;
+    height: 100%;
+    width: 100vw;
+}
+.iv_dello_home .hero-block:before {
+    background-color: #D9E1EC;
+}
+.iv_dello_home .hero-block:after {
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/Dellorusso/AdobeStock_271617227-1.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 420px;
+}
+.iv_dello_home .hero-block .hero-wrap {
+    margin-left: auto;
+    padding-right: 30px;
+    position: relative;
+    width: 61.4%;
+    z-index: 1;
+}
+.iv_dello_home #wrapper .hero-block h2 {
+    font-size: 53.5px;
+    margin-bottom: 15px;
+}
+.iv_dello_home #wrapper .hero-block h4 {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.36;
+    max-width: 800px;
+}
+.iv_dello_home #wrapper .hero-block h4,
+.iv_dello_home .bookly-box:empty,
+.iv_dello_home .custom_h5 {
+    margin-bottom: 0;
+}
+.iv_dello_home .hero-appointment {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px 0;
+}
+.iv_dello_home .hero-appointment-link {
+    background-color: #00b5ea;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+    border-radius: 12px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.36;
+    max-width: 240px;
+    padding: 8px 18px 4px;
+    text-align: center;
+}
+.iv_dello_home .hero-appointment-link:hover {
+    background-color: #9f719f;
+}
+.iv_dello_home .rated {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 9px;
+}
+.iv_dello_home .rated-title,
+.iv_dello_home .rated-text {
+    color: #9f719f;
+    font-size: 19px;
+    line-height: 1;
+}
+.iv_dello_home .rated-star {
+    display: flex;
+    align-items: flex-end;
+}
+.iv_dello_home .rated-star i {
+    color: #F7AC06;
+    font-size: 29px;
+    padding-right: 7.5px;
+    text-shadow: 0 4px 5px rgba(0, 0, 0, .5);
+}
+.iv_dello_home .rated-star b {
+    color: #9f719f;
+    font-size: 27px;
+    line-height: 18px;
+    margin-left: 4px;
+}
+.iv_dello_home .rated-text {
+    margin-top: 10px;
+}
+.iv_dello_home .as-seen-block {
+    background: #f1f1f1;
+    padding: 50px 0;
+    margin-bottom: 60px;
+}
+.iv_dello_home .as-seen-block .as_Seen_div {
+    max-width: 900px;
+    width: 100%;
+    padding: 0 !important;
+    margin: 30px auto 0;
+}
+.iv_dello_home .as_Seen_div a img {
+    width: 175px;
+}
+.iv_dello_home .as_Seen_div .logo_1 {
+    width: 75px !important;
+}
+.iv_dello_home .offer_end_text {
+    color: #9f719f;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1499.98px) {
+    .iv_dello_home .hero-block:after {
+        background-size: auto 385px;
+    }
+    .iv_dello_home .hero-block .hero-wrap {
+        width: 59%;
+    }
+    .iv_dello_home #wrapper .hero-block h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .iv_dello_home #wrapper .hero-block h4 {
+        font-size: 26px;
+        max-width: 680px
+    }
+    .iv_dello_home .hero-block .bookly-form {
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 1499.98px) and (min-width: 1025px) {
+    .iv_dello_home .rated-star i {
+        font-size: 24px;
+    }
+    .iv_dello_home .rated-star b {
+        font-size: 23px;
+    }
+    .iv_dello_home .rated-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1220.98px) {
+    .iv_dello_home .hero-block:after {
+        background-size: auto 366px;
+        background-position: center left -90px;
+    }
+    .iv_dello_home .hero-block .hero-wrap {
+        padding-right: 15px;
+    }
+    .iv_dello_home #wrapper .hero-block h2 {
+        font-size: 40px;
+    }
+    .iv_dello_home #wrapper .hero-block h4 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1024.98px) {
+    .iv_dello_home .hero-block {
+        padding-bottom: 50px;
+    }
+    .iv_dello_home .hero-block:after {
+        background-size: contain;
+        background-position: center left;
+    }
+    .iv_dello_home .hero-appointment-link {
+        margin: 30px auto 0;
+        max-width: 274px;
+    }
+    .iv_dello_home .offer_end_text {
+        margin-bottom: 20px;
+    }
+    .iv_dello_home .rated {
+        background-color: #D9E1EC;
+        display: inline-block;
+        margin-bottom: 20px;
+        padding: 30px 0;
+        text-align: center;
+        width: 100%;
+    }
+    .iv_dello_home .rated-star {
+        justify-content: center;
+        margin: 25px auto 30px;
+    }
+    .iv_dello_home .rated-star i {
+        font-size: 22px;
+        padding-right: 8px;
+    }
+    .iv_dello_home .rated-star b {
+        font-size: 22px;
+        line-height: 16px;
+    }
+    .iv_dello_home .rated-text {
+        font-size: 16px;
+        margin-top: 17px;
+    }
+    .iv_dello_home div#mobile_media_new {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .iv_dello_home .hero-block .hero-wrap {
+        padding-right: 30px;
+    }
+    .iv_dello_home #wrapper .hero-block h2 {
+        font-size: 34px;
+    }
+    .iv_dello_home #wrapper .hero-block h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .iv_dello_home .hero-subtitle-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .iv_dello_home #in-mb .fusion-text p {
+        line-height: 1.2;
+        margin: 0 !important;
+    }
+    .iv_dello_home .hero-block {
+        display: flex;
+        align-items: center;
+        background-color: #D9E1EC;
+        background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/Dellorusso/AdobeStock_271617227-1.jpg');
+        background-size: cover;
+        padding: 40px 0;
+    }
+    .iv_dello_home .hero-block:before {
+        background-color: #D9E1EC;
+        opacity: 0.9;
+    }
+    .iv_dello_home .hero-block:after {
+        display: none;
+    }
+    .iv_dello_home .hero-block .hero-wrap {
+        width: 100%;
+        padding: 0;
+    }
+    .iv_dello_home #wrapper .hero-block h2 {
+        font-size: 25px;
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+        padding: 0 10px;
+        margin: 0 auto 20px;
+    }
+    .iv_dello_home .hero-appointment-link {
+        font-size: 19px;
+        padding: 10px;
+        margin: 25px auto 0;
+    }
+    .iv_dello_home #wrapper .hero-block h4 {
+        font-size: 18px;
+        line-height: 1.4;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .iv_dello_home .hero-subtitle-desktop {
+        display: none;
+    }
+    .iv_dello_home div#in-btm-ver.dellorussso {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+}
+
+@media screen and (min-width: 641px) {
+    .iv_dello_home .bookly-mobile-step-1 {
+        display: flex;
+    }
+}
+
+
+
+
+
+/* Control issue fixes */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .iv_dello_home .right-strip {
+        overflow: hidden;
+    }
+    .iv_dello_home .menu-text.fusion-button.button-default.button-large {
+        padding-right: 20px;
+    }
+}
+/* Control issue fixes over */

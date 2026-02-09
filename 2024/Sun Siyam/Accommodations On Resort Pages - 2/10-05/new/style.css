@@ -1,0 +1,151 @@
+.rd-index__item-text,
+.rd-index__item-thumbnail {
+	display: none;
+}
+
+.rd_index_iv .rd-index {
+    max-width: 1320px;
+    padding: 0 20px;
+}
+
+.tabs-panel {
+    padding: 0;
+}
+
+.rd-index__item-wrap {
+    display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	padding: 0 20px;
+	margin: 0;
+}
+
+.rd-index__item-wrap img {
+    max-width: 60%;
+    width: 100%;
+	object-fit: cover;
+    object-position: center;
+}
+
+.rd-index__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+	max-width: 40%;
+	width: 100%;
+	background-color: #f2f2f2;
+    border: none;
+	opacity: 1;
+    transform: none;
+	padding: 50px;
+}
+
+.rd-index__item > div {
+    width: 100% !important;
+}
+
+.rd-index__item-title a h2 {
+    font-size: 22px;
+    line-height: normal;
+    color: #000;
+	margin-bottom: 20px;
+}
+
+.detail-content__sidebar {
+	opacity: 1;
+    transform: none;
+	padding-left: 0;
+    margin-top: 20px;
+}
+
+.detail-content__sidebar h2 {
+	color: #000;
+    margin-bottom: 0;
+}
+
+.detail-content__sidebar ul {
+    list-style: disc;
+	padding-left: 20px;
+}
+
+.rd-index__item-cta {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto !important;
+	margin: 0;
+}
+
+.rd-index__item-cta .cta-wrapper {
+    display: flex;
+	flex-flow: row-reverse;
+    justify-content: flex-end;
+    float: none;
+    max-width: 100%;
+}
+
+.rd-index__item-cta .cta-wrapper a {
+    margin-bottom: 0;
+}
+
+.rd-index__item-cta .cta-wrapper a + a {
+    margin-right: 10px !important;
+}
+
+
+.slick-slider .slick-track {
+	display: flex;
+}
+.slick-slider  .slick-slide {
+    height: inherit;
+}
+
+.slick-arrow {
+    font-size: 0;
+    width: 0px;
+    height: 0px;
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin: 0;
+	z-index: 1;
+}
+
+.slick-arrow:hover {
+	opacity: 0.75;
+}
+
+.slick-prev {
+	left: -15px;
+    border-right: 20px solid #736E71;
+}
+
+.slick-next {
+	right: -15px;
+    border-left: 20px solid #736E71;
+}
+
+@media (max-width: 1199px) {
+	.rd-index__item-wrap img,
+	.rd-index__item {
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 991px) {
+	.rd_index_iv .rd-index {
+		max-width: 768px;
+	}
+
+	.rd-index__item-wrap img,
+	.rd-index__item {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.rd-index__item {
+		padding: 30px;
+	}
+}

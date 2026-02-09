@@ -1,0 +1,17 @@
+.iv-gi-primer-bullets {
+    border-bottom: 1px solid #b5b5b5;
+}
+.iv-gi-primer-bullets ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 25px;
+    width: 100%;
+}
+.iv-gi-primer-bullets ul li {
+    margin-bottom: 15px;
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/f_auto/amway/GightGreen_Icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    padding-left: 35px;
+}

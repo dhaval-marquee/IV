@@ -1,0 +1,6 @@
+body .location-wrap {
+    padding-bottom: 47px;
+}
+body .location-wrap a.btn-appointment {
+    display: none;
+}

@@ -1,0 +1,20 @@
+.iv-put-HSAFSA .iv-HSA-FSA-div {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.iv-put-HSAFSA .iv-HSA-FSA-div.iv-black {
+    color: #000;
+}
+
+.iv-put-HSAFSA .iv-HSA-FSA-div.iv-red {
+    color: #ff0000;
+}
+
+@media (max-width:767px) {
+    .iv-put-HSAFSA .iv-HSA-FSA-div {
+        font-size: 18px;
+    }
+}

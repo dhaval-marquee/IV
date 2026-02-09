@@ -1,0 +1,32 @@
+
+
+.homePhone_iv #dynamicContent .fusion-builder-row-1  {
+	padding-top: 0;
+}
+
+.homePhone_iv .clear-section a.clear-btn {
+    max-width: 230px;
+    width: 100%;
+	margin-bottom: 15px;
+}
+
+.homePhone_iv .clear-btn p > a {
+	font-weight: 700;
+}
+#menu-menu > li#menu-item-17 a::before {
+	display: none;
+}
+
+
+.homePhone_iv .for-mobile {
+	display: none;
+}
+
+@media (max-width: 1075.98px) {
+	.homePhone_iv .for-mobile {
+		display: block;
+	}
+	.homePhone_iv .for-desktop {
+		display: none;
+	}
+}

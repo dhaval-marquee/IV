@@ -1,0 +1,53 @@
+.gastric-balloons .balloons-list {
+    margin: 0 0 20px 30px !important;
+}
+.gastric-balloons .balloons-list li,
+.gastric-balloons .sub-text {
+    font-size: 20px;
+    font-family: "Open Sans";
+    line-height: normal !important;
+    color: #fff;
+}
+.gastric-balloons #lp-pom-button-193 {
+    font-size: 18px;
+    margin-left: 5px;
+}
+.gastric-balloons #lp-pom-text-10 {
+    top: 315px;
+}
+.gastric-balloons #lp-pom-text-9,
+.gastric-balloons #lp-pom-text-10 {
+    padding-left: 5px;
+}
+@media screen and (min-width: 601px) {
+	.gastric-balloons #lp-pom-button-193 {
+		top: 573px;
+	}
+	.gastric-balloons #lp-pom-text-10 {
+		top: 330px;
+	}
+	.gastric-balloons #lp-pom-text-9 {
+		top: 150px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.gastric-balloons #lp-pom-text-9 h1 span {
+		font-size: 40px !important;
+	}
+	.gastric-balloons .balloons-list li {
+		font-size: 23px;
+	    line-height: 40px;
+	}
+	.gastric-balloons .sub-text {
+	    font-size: 23px;
+	    line-height: 40px !important;
+	}
+	.gastric-balloons #lp-pom-text-10 {
+		top: 295px;
+		max-width: 340px !important;
+		padding-left: 0 !important;
+	}
+	.gastric-balloons #lp-pom-button-193 {
+	    font-size: 16px;
+	}
+}

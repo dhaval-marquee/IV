@@ -1,0 +1,1 @@
+Code is same. Just change selector from ".intro h1" to ".intro h3".

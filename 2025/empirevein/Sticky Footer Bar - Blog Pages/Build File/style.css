@@ -1,0 +1,6 @@
+body form .form-section .form-submit-button{
+    transition: .3s;
+}
+body form .form-section .form-submit-button:hover {
+    background-color: #e05e05 !important;
+}

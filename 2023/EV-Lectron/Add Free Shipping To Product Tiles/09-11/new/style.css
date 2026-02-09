@@ -1,0 +1,10 @@
+.free-shipping-iv {
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    color: #1d1d1d;
+    white-space: nowrap;
+}
+.productitem--actions .free-shipping-iv {
+    display: block;
+}

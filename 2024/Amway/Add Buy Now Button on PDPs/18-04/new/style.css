@@ -1,0 +1,57 @@
+.product_btn_iv .amw-panel {
+    flex-wrap: wrap;
+}
+
+.product_btn_iv .buy_iv_wrapper {
+    padding-left: 15px;
+}
+
+.product_btn_iv .buy_iv_wrapper .buy_iv {
+    /* background-color: #38539a; */
+    color: #fff;
+    width: 100%;
+}
+
+.product_btn_iv .AddToCart-AddToCartAction .add_to_cart_form.js-add-to-cart-product-form,
+.product_btn_iv .buy_iv_wrapper {
+    display: inline-block;
+}
+
+.product_btn_iv .AddToCart-AddToCartAction .add_to_cart_form.js-add-to-cart-product-form button[type="submit"] {
+    background-color: #38539a;
+}
+
+.product_btn_iv .AddToCart-AddToCartAction .add_to_cart_form.js-add-to-cart-product-form button[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product_btn_iv .AddToCart-AddToCartAction {
+        width: 100%;
+    }
+
+    .product_btn_iv .buy_iv_wrapper {
+        padding-top: 15px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .product_btn_iv .AddToCart-AddToCartAction {
+        width: 100%;
+    }
+
+    .product_btn_iv .buy_iv_wrapper {
+        padding-top: 15px;
+    }
+
+    .product_btn_iv .amw-panel .AddToCart-QuantitySelectorAction {
+        display: flex;
+        align-items: center;
+    }
+
+    .product_btn_iv .amw-panel .AddToCart-QuantitySelectorAction:after {
+        content: 'How many would you like?';
+    }
+}

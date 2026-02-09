@@ -1,0 +1,8 @@
+body .why-choose-section {
+    display: none;
+}
+
+body.page-id-9212 .trial-section, 
+body.page-id-113 .trial-section {
+    display: block;
+}

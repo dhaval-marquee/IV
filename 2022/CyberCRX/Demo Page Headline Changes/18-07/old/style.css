@@ -1,0 +1,95 @@
+
+body {
+    visibility: hidden;
+}
+.iv_cyber_demo #lp-pom-text-142 ul {
+    margin: 0;
+    max-width: 600px;
+}
+.iv_cyber_demo #lp-pom-text-142 ul li {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.5;
+    list-style-type: none;
+    padding-left: 30px;
+    position: relative;
+}
+.iv_cyber_demo #lp-pom-text-142 ul li:before {
+    border-bottom: 3px solid #3DDC97;
+    border-right: 3px solid #3DDC97;
+    content: '';
+    position: absolute;
+    left: 4px;
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 14px;
+    width: 7px;
+}
+.iv_cyber_demo #lp-pom-text-142 ul li ~ li {
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 601px) {
+    .iv_cyber_demo #lp-pom-text-16 {
+        top: 100px;
+    }
+    .iv_cyber_demo #lp-pom-text-141 {
+        top: 240px;
+    }
+    .iv_cyber_demo #lp-pom-text-142 {
+        top: 280px;
+        width: 600px;
+    }
+    .iv_cyber_demo #lp-pom-button-314,
+    .iv_cyber_demo #lp-pom-image-329 {
+        top: 540px;
+    }
+    .iv_cyber_demo #lp-pom-image-330 {
+        top: 533px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1700px) {
+    .iv_cyber_demo #lp-pom-block-11 {
+        height: 710px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .iv_cyber_demo #lp-pom-text-16 {
+        top: 75px;
+    }
+    .iv_cyber_demo #lp-pom-text-141 {
+        top: 140px;
+    }
+    .iv_cyber_demo #lp-pom-text-141 p {
+        line-height: 22px !important;
+    }
+    .iv_cyber_demo #lp-pom-text-141 span {
+        font-size: 16px !important;
+    }
+    .iv_cyber_demo #lp-pom-text-142 {
+        top: 190px;
+        width: 320px !important;
+    }
+    .iv_cyber_demo #lp-pom-text-142 ul li {
+        font-size: 14px;
+    }
+    .iv_cyber_demo #lp-pom-text-142 ul li:before {
+        height: 12px;
+        width: 6px;
+    }
+    .iv_cyber_demo #lp-pom-button-314 {
+        top: 445px;
+    }
+    .iv_cyber_demo #lp-pom-image-329 {
+        top: 505px;
+    }
+    .iv_cyber_demo #lp-pom-image-330 {
+        top: 503px;
+    }
+    .iv_cyber_demo #lp-pom-image-148 {
+        top: 565px;
+    }
+}

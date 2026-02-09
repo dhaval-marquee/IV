@@ -1,0 +1,14 @@
+body .footer_locations li,
+body .footer_locations li:hover {
+    cursor: auto;
+}
+body .footer_locations li:hover h5 {
+    color: #49136f;
+    cursor: none;
+    pointer-events: none;
+}
+
+/* only add v2  */
+body .footer_locations li p a {
+    display: none;
+}

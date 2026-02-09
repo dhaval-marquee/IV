@@ -1,0 +1,93 @@
+.ivChat .iv-supportBanner {
+    margin-left: var(--hundredp_padding-hundred_percent_negative_margin);
+    margin-right: var(--hundredp_padding-hundred_percent_negative_margin);
+    background-color: #0f85ef;
+    padding: 12px 0;
+}
+.ivChat .iv-supportBanner .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 15px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.ivChat .iv-supportBanner .iconWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.ivChat .iv-supportBanner p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    margin: 0;
+}
+.ivChat .ClickHereChatWrapper span {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #151f6d;
+    border-radius: 15px;
+    padding: 12px 32px;
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+.ivChat.ivChat_v2 .ClickHereChatWrapper span {
+    background: #FF4A00;
+}
+.ivChat .ClickHereChatWrapper span a {
+    color: #fff;
+    text-decoration: none !important;
+}
+.ivChat button.ClickHereChat {
+    display: block;
+}
+
+.ivChat button.ClickHereChat img {
+    width: 100%;
+    max-width: 22px;
+}
+@media (min-width: 1099px) { 
+    body.ivChat .iv-supportBanner .content {
+        gap: 30px;
+    }
+}
+@media (max-width: 730.98px) {
+    .ivChat .iv-supportBanner {
+        padding: 32px 0;
+    }
+    .ivChat .iv-supportBanner .content {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 16px;
+    }
+    .ivChat .ClickHereChatWrapper {
+        display: flex;
+    }
+    .ivChat .iv-supportBanner p {
+        font-size: 21px;
+        line-height: normal;
+    }
+    .ivChat .ClickHereChatWrapper span {
+        font-size: 18px;
+    }
+    .ivChat button.ClickHereChat img {
+        max-width: 18px;
+    }
+}
+@media (max-width: 359.98px) {
+    .ivChat button.ClickHereChat img {
+        max-width: 20px;
+    }
+    .ivChat .ClickHereChatWrapper span {
+        font-size: 18px;
+    }
+}

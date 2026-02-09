@@ -1,0 +1,18 @@
+/* Add your test CSS here */
+.hide {
+    display: none !important;
+}
+.main-product .gallery {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.main-product .gallery .product__thumbnails {
+    flex-direction: row;
+    justify-content: center;
+}
+.main-product .gallery .product__media-item {
+    padding: 0 5px;
+}
+.main-product .gallery .product__media img {
+    max-height: 813px;
+}

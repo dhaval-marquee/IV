@@ -1,0 +1,137 @@
+.iv-details {
+    background-color: #0a1f8f;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+.iv-details-inner {
+    background-color: #FFFFFF;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form {
+    padding: 0;
+}
+.iv-data-box {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.iv-data-box-left {
+    max-width: max-content;
+}
+.iv-locationPage .iv-box-title {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.iv-locationPage .iv-box-price {
+    color: #0a1f8f;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    display: block;
+    word-break: break-word;
+}
+.iv-floor-data {
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+}
+.iv-rent-price {
+    border: 1px dashed #ea101f;
+    padding: 0 4px;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    color: #ea101f;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.iv-locationPage .princingDetails .pss-collapse-right-row9 {
+    margin-left: 0;
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #d1d3d4;
+}
+.iv-locationPage .princingDetails .pss-collapse-right-row9 div span:last-child,
+.iv-locationPage .princingDetails .pss-collapse-right-row9 div a {
+    width: 100%;
+    max-width: 70px;
+    text-align: left;
+}
+.iv-locationPage .princingDetails .pss-collapse-right-row9 > div:last-child>span {
+    font-weight: 800;
+}
+.iv-locationPage .princingDetails .pss-collapse-right-row9 > div:last-child > span:last-child {
+    color: #0a1f8f;
+    font-size: 15px;
+}
+.iv-locationPage .princingDetails .pss-collapse-right-row9 > div:last-child {
+    border-top: 1px solid #d1d3d4;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.iv-locationPage .pss-unit-list__collapse-container-promo-box-main .pss-promo-row2{
+    display: none;
+}
+.iv-locationPage .pss-unit-list__collapse-container-promo-box-main .pss-promo-row1,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row9>div:last-child>span:first-child span {
+    text-transform: capitalize;
+}
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row9 > div span svg {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.iv-locationChecklist .pss-unit-list__collapse-container > .pss-unit-list__collapse-container-promo-box-main .pss-promo-row3{
+    display: none;
+}
+.iv-locationChecklist .pss-left-right-boxes-in-collapse .pss-promo-row1{
+    display: none;
+}
+.iv-locationChecklist .pss-left-right-boxes-in-collapse .pss-promo-row3{
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: 10px;
+}
+.iv-locationChecklist .pss-left-right-boxes-in-collapse .pss-promo-row3 svg {
+    fill: #0a1f8f;
+}
+
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row1,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row2,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row3,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row4,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row5,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row6,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row7,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row8 {
+    display: none;
+}
+.iv-locationPage .pss-unit-list__collapse-container-promo-box-main .pss-promo-row1 {
+    font-size: 20px;
+}
+.iv-locationPage .pss-unit-list__collapse-container-promo-box-main .pss-promo-row3{
+    gap: 0 8px;
+}
+.iv-locationPage .pss-unit-list__collapse-container-promo-box-main .pss-promo-row3 span {
+    font-size: 10px;
+    margin-right: 0;
+}
+
+
+.iv-locationPage .pss-unit-list__item-card{
+    padding: 0 10px 10px;
+}
+.iv-locationPage .pss-unit-list__item-card .pss-unit-list__item-mobile .pss-unit-list__collapse-container{
+    margin: 10px 0 0 0;
+}
+.iv-locationPage .pss-unit-list__item-card .pss-item-card-banner{
+    margin-left: -10px;
+}
+.iv-locationPage-v2 .pss-unit-list__collapse-container-left-side-form .pss-button--red{
+    margin-bottom: 5px;
+}

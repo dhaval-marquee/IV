@@ -1,0 +1,100 @@
+body {
+	visibility: hidden;
+}
+.iv_jackcityfitness .banner-module .fourteen-hundred #google {
+	margin: 0;
+	height: 38px !important;
+}
+.iv_jackcityfitness .banner-module .fourteen-hundred h2 a {
+	margin-right: 10px;
+}
+.iv_jackcityfitness .banner-module .fourteen-hundred h2 i {
+	color: #FFB724;
+	font-size: 17px;
+}
+.iv_jackcityfitness .banner-module .fourteen-hundred .orange {
+	position: relative;
+	padding-bottom: 25px;
+}
+.iv_jackcityfitness .banner-module .fourteen-hundred .orange:before {
+	content: 'Over 450 Local 5-Star Reviews';
+	color: #FFFFFF;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: normal;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+@media screen and (min-width: 751px) {
+	.iv_jackcityfitness .banner-module .inner {
+		padding: 4.3% 0 12.6%;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred {
+		display: flex;
+		flex-direction: column;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred .h1.white {
+		margin: 14px 0 20px;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred .h2.white {
+		max-width: 600px;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred .banner-buttons a {
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 36px;
+		padding: 7px 51px;
+		position: relative;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred .banner-buttons a:before {
+		content: "No credit card required";
+		font-size: 18px;
+		font-weight: 600;
+		line-height: normal;
+		pointer-events: none;
+		position: absolute;
+		left: 0;
+		bottom: -30px;
+		text-transform: none;
+		text-align: center;
+		width: 100%;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred .orange {
+		order: -1;
+	}
+}
+
+@media screen and (max-width: 750.98px) {
+	.iv_jackcityfitness .banner-module .fourteen-hundred .h1.white {
+		font-size: 20px;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred .h2.white {
+		font-size: 14px;
+		font-weight: normal;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred #google {
+		top: 4px;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred .orange {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-bottom: 20px;
+		margin-bottom: 15px;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred .orange a {
+		display: inline-block;
+		margin: 0 7px 0 0;
+	}
+	.iv_jackcityfitness .banner-module .fourteen-hundred .banner-buttons a {
+		box-sizing: border-box;
+		margin: 15px 0 0 0 !important;
+		width: 100%;
+	}
+	.iv_jackcityfitness .infoLink {
+		z-index: 7999;
+	}
+}

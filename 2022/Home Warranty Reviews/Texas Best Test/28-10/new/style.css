@@ -1,0 +1,72 @@
+#best-home-warranty-companies .company_state_section .company_list_bottom .best_value_block,
+#best-home-warranty-companies .company_state_section .plans_details + a,
+.px-lg-2 .input-group{
+    display: none;
+}
+
+#best-home-warranty-companies .company_state_section .plans_details{
+    text-align: center;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    max-width: 150px;
+    display: inline-block;
+    width: 100%;
+    margin: 10px auto 0;
+    padding: 10px 15px;
+}
+.compare_checkebox .form-control{
+    justify-content: right;
+}
+.align-self-center form button[type="submit"]{
+    margin: 60px 0 22px 0;
+}
+#best-home-warranty-companies .company_state_section .col-lg-6.col-md-5.align-self-center ul{
+    list-style-type: none;
+}
+#best-home-warranty-companies .company_state_section .col-lg-6.col-md-5.align-self-center ul li::before{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.29' height='12.66' viewBox='0 0 13.29 12.66'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%232FB1A7%3B%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M15.705 5.065a.537.537 0 0 0-.77-.042c-.868.756-1.666 1.554-2.464 2.38s-1.554 1.666-2.3 2.534C9.083 11.239 8.033 12.6 7.053 14L3.5 10.175a.532.532 0 0 0-.672-.1.549.549 0 0 0-.2.756s3.388 5.838 3.528 6.09a1.193 1.193 0 0 0 1.078.616A1.238 1.238 0 0 0 8.383 16.8c.21-.392 2.086-3.864 3.3-5.7.6-.924 1.26-1.82 1.918-2.7s1.372-1.75 2.086-2.562l.014-.014A.591.591 0 0 0 15.705 5.065Z' transform='translate(-2.552 -4.88)'/%3E%3C/svg%3E");
+    content: "";
+    background-repeat: no-repeat;
+    background-size: -4px 2px;
+    padding: 5px 8px;
+    font-size: 9px;
+    background-size: 16px;
+    margin-right: 9px;
+}
+
+#best-home-warranty-companies .company_state_section .plans_details span{
+    color: black;
+}
+
+.border-top div + .mb-md-4.mb-2{
+    justify-content: center;
+}
+body .offer_state_block{
+    background: inherit;
+    border: 1px solid #009085;
+    margin-left: 35px;
+}
+
+@media (max-width: 991.98px){
+    #best-home-warranty-companies .company_state_section .col-lg-6.col-md-5.align-self-center ul{
+        padding: 0;
+    }
+    .border-top div + .mb-md-4.mb-2{
+        margin: 0;
+    }
+    body .offer_state_block {
+        justify-content: center;
+        text-align: center;
+        max-width: 515px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media (max-width: 767.98px){
+    .align-self-center form button[type="submit"] {
+       margin-top: 0;
+    }
+}

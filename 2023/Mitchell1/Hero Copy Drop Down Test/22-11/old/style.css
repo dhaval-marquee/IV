@@ -1,0 +1,71 @@
+.home_hero_iv .rev_group .tp-parallax-wrap:nth-child(3) {
+    z-index: 10 !important;
+}
+.home_hero_iv .guidance-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    margin: 5px 0 15px;
+    white-space: nowrap;
+}
+.home_hero_iv .guidance-select {
+    border-bottom: 1px solid #FFFFFF;
+    cursor: pointer;
+    min-width: 100px;
+    position: relative;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+.home_hero_iv .guidance-select-content {
+    color: #FFCC00;
+}
+.home_hero_iv .guidance-select-icon {
+    border-right: 2px solid #FFCC00;
+    border-bottom: 2px solid #FFCC00;
+    display: inline-block;
+    position: relative;
+    pointer-events: none;
+    top: 50%;
+    transform: rotate(45deg) translateY(-50%);
+    height: 6px;
+    width: 6px;
+}
+.home_hero_iv .guidance-active .guidance-select-icon {
+    right: -6px;
+    transform: rotate(-135deg) translateY(-50%);
+}
+.home_hero_iv .guidance-hide {
+    display: none;
+}
+.home_hero_iv .guidance-menu {
+    background: #FFFFFF;
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.home_hero_iv .guidance-menu li {
+    cursor: pointer;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 8px 22px 8px 15px;
+    position: relative;
+}
+.home_hero_iv .guidance-menu li:hover {
+    background-color: #f5f5f5;
+}
+.home_hero_iv .guidance-menu li.selected::after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 9px;
+    width: 4px;
+    right: -6px;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    pointer-events: none;
+    transform: rotate(45deg) translateY(-25%);
+}

@@ -1,0 +1,19 @@
+@media (max-width: 767.98px) {
+    body {
+        padding-bottom: 44px;
+    }
+    
+    .buy-buttons button.sticky {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 9;
+        background: #015AA8;
+        border-color: #015AA8;
+    }
+    body #Avada-CookiesBar .Avada-CookiesBar__Reopen-Popup--bottom-left,
+    body #ShopifyChat {
+        bottom: 64px !important;
+        height: auto !important;
+    }
+}

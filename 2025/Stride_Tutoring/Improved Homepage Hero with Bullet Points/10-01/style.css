@@ -1,0 +1,27 @@
+.homepage_iv .main-content h1 {
+    font-size: 38px;
+    line-height: normal;
+}
+.homepage_iv p.subheading {
+    font-size: 24px;
+    width: 100%;
+    max-width: 450px;
+    color: #002a94;
+}
+.homepage_iv ul.hero-bullets {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.homepage_iv ul.hero-bullets li {
+    color: #002a94;
+}
+@media screen and (max-width: 768.98px) {
+    .homepage_iv .main-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .homepage_iv p.subheading {
+        font-size: 18px;
+    }
+    
+}

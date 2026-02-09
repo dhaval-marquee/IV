@@ -1,0 +1,217 @@
+
+body {
+    visibility: hidden;
+}
+
+/* Add your test CSS here */
+
+
+.htb_iv .hero_inner .hero_right .cont-form,
+.htb_iv section#ready-to-talk-pricing-form {
+    display: none;
+}
+.htb_iv main#main-content {
+    padding-bottom: 80px;
+}
+.htb_iv .hero_inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 700px;
+    padding: 125px 0 150px;
+    margin: 0 -15px;
+}
+
+.htb_iv .hero_inner h1 {
+    font-family: 'Roboto';
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+.htb_iv .hero_inner h4 {
+    font-size: 24px;
+    color: #07294e;
+    letter-spacing: normal;
+    font-weight: normal;
+}
+
+.htb_iv .hero_inner > * {
+    max-width: 50%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    padding: 0 15px;
+}
+.htb_iv .hero_inner .hero_right .group-form {
+    background-color: rgb(240, 246, 253);
+    box-shadow: 0 0 10px 5px rgb(60 145 230 / 15%);
+    padding: 30px;
+}
+
+.htb_iv .hero_inner .hero_right .group-form .box-form {
+    margin-top: 0;
+}
+
+.htb_iv .hero_inner .hero_right .group-form .box-form .hs-fieldtype-text label {
+    cursor: auto;
+    letter-spacing: normal;
+}
+
+.htb_iv input.focus-visibale:not(.btn):not(.hs-submit .actions),
+.htb_iv select.focus-visibale:not(.btn):not(.hs-submit .actions),
+.htb_iv textarea.focus-visibale:not(.btn):not(.hs-submit .actions) {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.htb_iv .hero_inner .legal-consent-container {
+    max-width: 60%;
+    flex: 0 0 60%;
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.htb_iv .hero_inner .box-form .hs_submit {
+    max-width: 40% !important;
+    flex: 0 0 40% !important;
+}
+
+.htb_iv .hero_inner .box-form .hs_submit .actions {
+    padding: 0 !important;
+}
+
+.htb_iv .hero_inner .box-form .hs_submit input {
+    font-size: 0;
+    min-width: 210px;
+    padding: 20px 30px;
+}
+
+.htb_iv .buttonText:before {
+    content: 'Get Your Quote';
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hbspt-form .submitted-message {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hbspt-form .submitted-message p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* Hidden field hack (appear only after submitting the form) */
+.htb_iv .hero_inner .hero_right .group-form .box-form .hs-form-field.hs_unknown14.smart-field {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+/* for safari only */
+.htb_iv .hs-fieldtype-select select {
+    -webkit-appearance: none
+}
+
+@media (min-width: 1200px) and (max-width: 1367.98px) {
+    .htb_iv #main-content section:first-child .container {
+        max-width: 1366px;
+    }
+    .htb_iv .hero_inner .box-form .hs_submit {
+        max-width: 45% !important;
+        flex: 0 0 45% !important;
+    }
+    .htb_iv .hero_inner .legal-consent-container {
+        max-width: 55%;
+        flex: 0 0 55%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .htb_iv .hero_inner h1 {
+        font-size: 40px;
+    }
+    .htb_iv .hero_inner .legal-consent-container,
+    .htb_iv .hero_inner .box-form .hs_submit {
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .htb_iv .hero_inner .box-form .hs_submit {
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .htb_iv .hero_inner {
+        min-height: 450px;
+        text-align: center;
+        padding: 0;
+    }
+    .htb_iv .hero_inner > * {
+        max-width: 100%;
+    }
+    .htb_iv .hero_inner .box-form label {
+        text-align: left;
+        width: 100%;
+    }
+    .htb_iv .hero_inner .legal-consent-container {
+        order: 2;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .htb_iv #main-content section:first-child > div {
+        padding-bottom: 0;
+    }
+    .htb_iv .hero_inner h1 {
+        font-size: 33px;
+    }
+    .htb_iv .hero_inner h4 {
+        font-size: 20px;
+    }
+    .htb_iv .hero_inner .hero_right .group-form {
+        padding: 15px;
+    }
+    .htb_iv .hero_inner .box-form .hs_submit {
+        margin-top: 12px;
+    }
+    .htb_iv .hero_inner .legal-consent-container,
+    .htb_iv .hero_inner .box-form .hs_submit {
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .htb_iv .hero_inner .box-form .hs_submit {
+        margin-bottom: 25px;
+    }
+
+    /* Extra fixes */
+    .htb_iv #cookie-law-info-bar {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .htb_iv .content-cookie.accept-button {
+        padding-top: 0;
+        margin-left: 0;
+    }
+    .htb_iv main#main-content {
+        padding-bottom: 40px;
+    }
+}

@@ -1,0 +1,12 @@
+.contactInfoIV #MainContent_ContactInformationControl_divDriverLicenseStateContactInfo,
+.contactInfoIV #MainContent_ContactInformationControl_divBirthDateContactInfo {
+    margin-bottom: 0;
+}
+.contactInfoIV p.disclaimerText {
+    font-size: 9px;
+    line-height: normal;
+}
+
+.contactInfoIV .disclaimerText .pss-color--accent {
+    font-size: 14px;
+}

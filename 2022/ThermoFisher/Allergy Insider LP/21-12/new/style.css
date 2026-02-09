@@ -1,0 +1,62 @@
+/* Add your test CSS here */
+@media only screen and (max-width: 767.98px) {
+    .faq_wrapper {
+        padding: 30px 24px 0;
+        display: inline-block;
+        width: 100%;
+    }
+    .faq_wrapper + div,
+    .card_section .card-body {
+        display: none !important;
+    }
+    .home_iv .carouselWrapper .aem-Grid .cmp-well:not(:first-child) {
+        display: none;
+    }
+    .home_iv .faq-wrap {
+        /* border-top: 1px solid #dcdcdc !important; */
+        border-bottom: 1px solid #dcdcdc !important;
+    }
+    .home_iv .faq-wrap + .faq-wrap{
+        border-top: 1px solid #dcdcdc !important;
+    }
+    .home_iv .faq-wrap label {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 16px 16px 16px 0;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        background-color: #fff;
+        border: 0;
+        border-radius: 0;
+        overflow-anchor: none;
+        font-weight: 500;
+        color: #6867b8;
+        font-size: 20px;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+    }
+    .home_iv .faq-wrap span {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        transition: transform .2s ease-in-out;
+    }
+    .home_iv .faq-wrap .content {
+        display: none;
+    }
+    .home_iv .faq-wrap>.content.active {
+        display: block !important;
+    }
+    .home_iv .moved_section.cmp-well > .well {
+        padding-top: 0 !important;
+    }
+    .card_section a.card-button {
+        border-radius: 33px;
+    }
+    .card_section a.card-button[href="/allergy/us/en/allergy-types-symptoms.html"]:before {
+        content: 'Allergy';
+    }
+}

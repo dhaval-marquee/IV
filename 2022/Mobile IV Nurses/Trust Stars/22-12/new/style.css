@@ -1,0 +1,39 @@
+.google-review-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 28px;
+    left: 300px;
+}
+.rating-number {
+    color: #797e82;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.rating-count {
+    color: #797e82;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.rating-star {
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .google-review-wrap {
+        position: static;
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .google-review-wrap {
+        justify-content: center;
+    }
+    .rating-number, .rating-count {
+        color: #fff;
+    }
+}

@@ -1,0 +1,72 @@
+body.iv-cta-header header #logo .c-hero__button {
+    display: none;
+}
+@media only screen and (max-width: 740px) {
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle {
+        right: auto;
+        left: 0;
+    }
+    body.iv-cta-header header .title-area {
+				width: 100%;
+        padding-left: 85px;
+		}
+		
+		body.iv-cta-header  .site-header #logo img {
+		    margin: 0;
+		}
+		body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle+#mega-menu-max_mega_menu_1 {
+          right: auto;
+    }
+    
+    body.iv-cta-header header .logo__mobile {
+	    font-size: 0;
+	    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1763464635/ignitevisibility/phone_icon.png');
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    width: 32px;
+      height: 35px;
+	}
+	body.iv-cta-header header #logo {
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	    width: 100%;
+	    flex-direction: inherit;
+	    padding: 0 20px 0 0;
+	}
+	body.iv-cta-header header #logo .c-hero__button {
+	    margin: 0 0 0 15px;
+	    padding: 10px 30px;
+	    font-size: 15px;
+	    display: block;
+	}
+	#logo > a:first-of-type {
+	  margin-right: auto;
+	}
+}
+@media only screen and (max-width: 480px) {
+	   body.iv-cta-header header .title-area {
+        padding-left: 55px;
+    }
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle {
+        right: auto;
+        left: -25px;
+    }
+    body.iv-cta-header header #logo .c-hero__button {
+        margin: 0 0 0 10px;
+        padding: 7px 13px;
+        font-size: 14px;
+    }
+    body.iv-cta-header .site-header #logo img {
+        margin: 0;
+        width: 100% !important;
+        max-width: 130px !important;
+        min-width: auto !important;
+    }
+    body.iv-cta-header header #logo {
+        padding: 0 10px 0 0;
+    }
+    body.iv-cta-header header .logo__mobile {
+        width: 30px;
+        height: 32px;
+    }
+}

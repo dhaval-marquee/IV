@@ -1,0 +1,17 @@
+.footer_text {
+    text-align: center;
+}
+.footer_text a {
+    font-size: 18px;
+    line-height: 28px;
+    color: blue;
+    display: inline-block;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.footer_text a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}

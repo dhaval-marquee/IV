@@ -1,0 +1,15 @@
+.iv-continue-cta {
+    font-size: 18px;
+    font-family: sans-serif;
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+    text-transform: inherit;
+    letter-spacing: 0.5px;
+    padding: 12px;
+    margin: 20px auto 10px;
+}
+.iv-continue-cta:hover {
+    background-color: #f58024;
+    color: #fff;
+}

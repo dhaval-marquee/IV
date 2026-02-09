@@ -1,0 +1,103 @@
+@media (max-width: 766px) {
+    div[class*=DefaultCartView_header],
+    div.hidden-sm.hidden-md.hidden-lg[class*=CartItemsHeader] {
+        display: none;
+    }
+    div[class*=CartItems_itemWrapper]+div[class*=CartItems_itemWrapper] {
+        position: relative;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    div[class*=CartItems_itemWrapper]+div[class*=CartItems_itemWrapper]:before {
+        content: '';
+        height: 1px;
+        width: 80%;
+        background-color: #d3d3d3;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    div[class*=Item_cartItemRow] {
+        flex-direction: column;
+    }
+    div[class*=Item_cartItemRow] div[class*=Item_itemInfo] {
+        position: relative;
+        padding-left: 190px;
+        padding-right: 20px;
+    }
+    div[class*=Item_itemImage] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-top: 30px;
+    }
+    div[class*=Item_cartItemRow] div[class*=Item_itemInfo]>a:first-of-type>div:first-child {
+        position: absolute;
+        left: 20px;
+        top: 0;
+    }
+    div[class*=Item_cartItemRow] div[class*=Item_itemInfo] div[class*=Item_itemAttributesContainer] {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    div[class*=Item_cartItemRow] div[class*=Item_itemInfo] div[class*=Item_itemAttributesContainer] div[class*=Item_subAttributeItem] {
+        max-width: inherit;
+        padding-right: 20px;
+        margin: 0;
+    }
+    div[class*=Item_total] {
+        position: absolute;
+        left: 190px;
+        top: 100%;
+        margin-top: 5px;
+    }
+    div[class*=Item_total] div[class*=Item_finalPrice] {
+        margin: 0;
+    }
+
+    /* Order Summary CSS */
+    div[class*=DefaultCartView_summaryContainer]>div:first-child {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 10px;
+    }
+    div[class*=DefaultCartView_summaryContainer]>div:first-child button[class*=DefaultCartView_promo] {
+        color: #3478f6;
+        margin-top: 0;
+    }
+    div[class*=DefaultCartView_summaryContainer]>div:first-child afterpay-placement {
+        text-align: left;
+        margin-bottom: 0 !important;
+    }
+    div[class*=DefaultCartView_summaryContainer]>div:first-child div[class*=CartTotalBlock_afterpay] {
+        min-height: auto;
+    }
+    div[class*=DefaultCartView_summaryContainer]>div:first-child>div:first-child>div {
+        padding: 0 !important;
+    }
+    div[class*=DefaultCartView_summaryContainer] div[class*=DefaultCartView_mobileExpressCheckoutButtons]:before {
+        content: 'OR';
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    div[class*=DefaultCartView_summaryContainer] div[class*=DefaultCartView_mobileExpressCheckoutButtons] > div {
+        margin-bottom: 0;
+    }
+    /* Order Summary CSS over */
+}
+
+@media (max-width: 479px) {
+    div[class*=Item_itemImage] img {
+        width: 120px !important;
+    }
+    div[class*=Item_cartItemRow] div[class*=Item_itemInfo] {
+        padding-left: 150px;
+    }
+    div[class*=Item_total] {
+        left: 150px;
+    }
+}

@@ -1,0 +1,100 @@
+.iv-quote header.sticky{
+    box-shadow: none;
+}
+.iv-quote header .navbar-menu-brand .navbar-brand {
+    max-width: 150px;
+}
+.iv-quote-sec {
+    box-sizing: border-box;
+    background-color: #6d3d8d;
+    color: #fff;
+    padding: 8px 0;
+    box-shadow: rgb(0 0 0 / .70) 0 5px 15px;
+    z-index: 999;
+}
+.iv-quote-sec .iv-wrapper {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.iv-quote-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px 30px;
+}
+.iv-quote-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.iv-quote-item .iv-icon {
+    width: 100%;
+    max-width: 29px;
+}
+.iv-quote-item p {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.iv-quote header .trp-language-switcher,
+.iv-quote .trp-language-switcher .trp-ls-shortcode-current-language {
+    width: 100px !important;
+}
+.iv-quote header .trp-language-switcher:hover .trp-ls-shortcode-language {
+    z-index: 9999;
+}
+.iv-quote #desktop-mainnav li.menu-item.navactionlanguage {
+    padding: 0;
+}
+@media screen and (max-width: 991.98px) {
+    .iv-quote-wrapper {
+        justify-content: center;
+        gap: 0px 10px;
+    }
+}
+@media screen and (min-width: 768px) {
+    header #nav-main .evvs-mininav {
+        display: none;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    header .navbar-menu-brand .navbar-brand {
+        max-width: 150px;
+    }
+    .iv-quote-item .iv-icon {
+        max-width: 24px;
+    }
+    .iv-quote-item p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width: 599.98px) {
+    .iv-quote-wrapper {
+        gap: 0;
+    }
+    .iv-quote-item {
+        gap: 2px;
+        width: 33.33%;
+    }
+}
+@media screen and (max-width: 424.98px) {
+    .iv-quote-item .iv-icon {
+        max-width: 18px;
+    }
+    .iv-quote-item p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 380.98px) {
+    .iv-quote-wrapper {
+        gap: 0px;
+    }
+    .iv-quote-sec .iv-wrapper {
+        padding: 0 3px;
+    }
+}

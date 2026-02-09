@@ -1,0 +1,41 @@
+.btn_iv .buy_iv_wrapper {
+    padding: 15px 0.3em 0;
+}
+
+.btn_iv .buy_iv_wrapper .buy_iv {
+    color: #fff;
+    width: 100%;
+}
+
+.amw-plp-item__add-to-cart-wrapper button {
+    background-color: #38539a;
+}
+
+.amw-plp-item__add-to-cart-wrapper button:hover {
+    background-color: #38539a;
+    opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+    .btn_iv .buy_iv_wrapper {
+        padding: 10px 1.25em 0;
+    }
+}
+
+
+/* Variant 2 CSS */
+.btn_iv .amw-plp-item__add-to-cart-wrapper,
+.btn_iv .buy_iv_wrapper {
+    max-width: 50%;
+    width: 100%;
+    float: left;
+    padding: 5px;
+}
+
+.btn_iv .amw-button--small {
+    padding: 10px 5px;
+}
+
+.btn_iv .buy_iv_wrapper + * {
+    clear: both;
+}

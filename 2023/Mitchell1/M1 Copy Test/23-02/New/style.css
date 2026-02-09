@@ -1,0 +1,17 @@
+.m1_hero_test .hero-section{
+    min-height: 420px;
+}
+.m1_hero_test .hero-section .inner-content h1,
+.m1_hero_test .hero-section .inner-content h1+h2{
+    margin-bottom: 8px;
+}
+.m1_hero_test .hero-section .inner-content h2.auto_Shop{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.m1_hero_test .hero-section .inner-content ul li:before {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1677139331/mitchell1/M1_Copy_Test/checkmark_gold.png');
+}
+.m1_hero_test .keys h2{
+    color: #67686A;
+}

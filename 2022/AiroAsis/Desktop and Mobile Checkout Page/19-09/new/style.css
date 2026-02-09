@@ -1,0 +1,10 @@
+#order-summary .order-summary__sections .order-summary__section--discount {
+    display: none;
+}
+
+
+@media (max-width: 999.98px) {
+    .promoCodeLink {
+        border-top: 1px solid rgba(175,175,175,0.34);
+    }
+}

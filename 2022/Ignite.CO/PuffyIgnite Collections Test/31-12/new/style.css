@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+}
+img {
+    image-rendering: -webkit-optimize-contrast;
+}
+.logo-list-section {
+    display: none;
+}
+
+/* Add your test CSS here */
+
+.mobile_Collections_test .vapeShop{
+    display: none;
+}
+
+.mobile_Collections_test .experience_section ul{
+    display: flex;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.mobile_Collections_test .experience_section ul li{
+    width: 19%;
+    list-style: none;
+    background-color: #464346;
+    margin: 0 2px;
+    padding: 6px;
+}
+.mobile_Collections_test .experience_section ul li a{
+    text-align: center;
+}
+.mobile_Collections_test .experience_section ul li .img_wrapper{
+    background-color: #fff;
+}
+.mobile_Collections_test .experience_section ul li img{
+    height: 115px;
+}
+.mobile_Collections_test h3{
+    font-size: 32px;
+    font-weight: 400;
+    color: #06AF8F;
+    text-transform: inherit;
+}
+.mobile_Collections_test .box_wrapper{
+    display: flex;
+    max-width: 445px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.mobile_Collections_test .disposable_box,
+.mobile_Collections_test .battery_box,
+.mobile_Collections_test .discreet_box,
+.mobile_Collections_test .experience_box{
+    width: 47%;
+    border: 2px solid #06AF8F;
+    max-width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 3px;
+}
+.mobile_Collections_test .box_wrapper p{
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.mobile_Collections_test .experience_section ul li span.unit_wrap{
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+}
+.mobile_Collections_test .experience_section ul li span.unit{
+    color: #fff;
+}
+@media screen and (max-width:525.98px) {
+    .mobile_Collections_test .experience_section ul li img{
+        height: 90px;
+    }
+}
+@media screen and (max-width:425.98px) {
+    .mobile_Collections_test .experience_section ul li img{
+        height:80px ;
+    }
+    .mobile_Collections_test .experience_section ul li span.unit{
+        display: block;
+    }
+}
+@media screen and (max-width:355.98px) {
+    .mobile_Collections_test .box_wrapper p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 0;
+        padding: 10px;
+    }
+    .mobile_Collections_test .experience_section ul li img[alt="V40 img"]{
+        width: 100%;
+    }
+}

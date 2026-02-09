@@ -1,0 +1,163 @@
+.optinPage_iv #utility,
+.optinPage_iv #mainMenu div.no-gutters > [class*=col-]:nth-child(2) ,
+.optinPage_iv .text_split_form2 .container h1,
+.optinPage_iv .text_split_form2 .container h1 + p,
+.optinPage_iv .footerholder .footer_sub:not(.footer_base),
+.optinPage_iv .spacer3,
+.optinPage_iv .spacer5 {
+    display: none !important;
+}
+#main[style="padding-top: 151px;"] {
+    padding-top: 100px !important;
+}
+.optinPage_iv .spacer1 {
+    display: none;
+}
+.optinPage_iv .text_split_form2 .container h1 {
+    color: #282B37;
+    text-align: center;
+    font-family: Inter;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.optinPage_iv .text_split_form2 .container h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 29px;
+}
+
+.optinPage_iv .text_split_form2 .container .justify-content-between > div:nth-child(2) > div {
+    border-radius: 20px;
+}
+
+/* hero section */
+.optinPage_iv .mobile_menu {
+    justify-content: center;
+}
+.optinPage_iv .mobile_menu #nav_button {
+    display: none;
+}
+
+.optinPage_iv .hero-section {
+    background-color: #1a1d22;
+    background-image: url('https://kx.com/wp-content/themes/eprefix-bootstrap/img/circuit-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+.optinPage_iv .hero-section .hero-text {
+    color: #fff;
+}
+.optinPage_iv .hero-section .hero-text .sub-header {
+    font-size: 20px;
+}
+.optinPage_iv .hero-section .hero-text h1 {
+    font-size: 47px;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    width: 100%;
+    max-width: 650px;
+    margin-bottom: 32px;
+}
+.optinPage_iv .hero-section .hero-text h1 span {
+    color: #ffcb22;
+}
+.optinPage_iv .hero-section .hero-text p {
+    width: 100%;
+    max-width: 410px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.optinPage_iv .hero-section .img-wrap img {
+    display: flex;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
+.optinPage_iv .wpcf7 form .requiredText p {
+    color: #ffc300;
+}
+
+.optinPage_iv .wpcf7 form .company-wrap,
+.optinPage_iv .wpcf7 form .job-title-wrap,
+.optinPage_iv .wpcf7 form .telephone-wrap,
+.optinPage_iv .wpcf7 form .email-wrap {
+    width: 100% !important;
+}
+.optinPage_iv .text_split_form2 {
+    padding: 50px 0 80px;
+}
+.optinPage_iv .text_split_form2 ul li {
+    padding-bottom: 16px;
+}
+.optinPage_iv .text_split_form2 input[type=submit] {
+    width: 100%;
+}
+.optinPage_iv .review-section {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.review-section h3 {
+    font-size: 26px;
+}
+.review-section img {
+    width: 100%;
+    max-width: 180px;
+}
+@media(max-width: 991.98px) {
+    .optinPage_iv .hero-section {
+        padding: 200px 0 50px;
+    }
+    .optinPage_iv .mobile_menu .menu_logo {
+        width: 100px;
+        height: 100px;
+        color: #fff;
+        margin: 12px auto;
+    }
+}
+
+@media(min-width: 768px) {
+    .optinPage_iv .hero-section .hero-content .download-btn { 
+        display: none;
+    }
+}
+@media(max-width: 767.98px) {
+    .optinPage_iv .hero-section .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .optinPage_iv .hero-section .hero-text p {
+        margin: 0 auto 32px;
+    }
+    .optinPage_iv .hero-section .hero-content .download-btn {
+        width: 100%;
+        max-width: 250px;
+        background-color: #ffcb22;
+        color: #282B37;
+        font-weight: 700;
+        border-radius: 50px !important;
+        text-decoration: none;
+        margin-top: 48px;
+    }
+}
+@media(max-width: 425.98px) {
+    .optinPage_iv .hero-section .hero-text h1 {
+        font-size: 32px;
+    }
+    .optinPage_iv .hero-section .hero-text p {
+        font-size: 15px;
+    }
+}

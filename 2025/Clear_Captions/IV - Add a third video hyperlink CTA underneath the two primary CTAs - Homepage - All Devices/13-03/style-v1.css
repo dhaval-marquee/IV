@@ -1,0 +1,30 @@
+.popup_iv .video_btn {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.popup_iv .video_btn a {
+    font-weight: 700;
+}
+
+.popup_iv .video_btn a:hover {
+    color: rgba(20, 31, 97, .64);
+}
+
+.popup_iv .video_btn a i.fa-play-circle {
+    margin-left: 8px;
+}
+
+@media (max-width: 889.98px){
+    .popup_iv .video_btn{
+        max-width: 100%;
+        text-align: left;
+    }
+}
+
+@media (max-width: 640.98px){
+    .popup_iv .video_btn{
+        text-align: center;
+    }
+}

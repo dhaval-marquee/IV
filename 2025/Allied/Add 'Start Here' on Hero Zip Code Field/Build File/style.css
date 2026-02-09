@@ -1,0 +1,48 @@
+@media (min-width: 767px) {
+    body .startHere {
+        display: none;
+    }
+}
+@media (max-width: 768.98px) {
+    body .startHere {
+        width: 100%;
+        max-width: 200px;
+        margin-left: 0px;
+        position: absolute;
+        top: 53%;
+        left: 0;
+        text-align: center;
+    }
+    body .startHere h4 {
+        color: #ffce00;
+        font-size: 27px;
+        margin: 0;
+    }
+    body .startHere img {
+        width: 100%;
+        max-width: 77px;
+    }
+    body #instaquote-carousel fieldset[data-step="1"] .slide-header {
+        position: relative;
+    }
+    body .startHere {
+        top: inherit;
+        margin-left: -15px;
+        left: 0;
+        position: absolute;
+        bottom: 0;
+    }
+    body .startHere h4 {
+        font-size: 20px;
+    }
+    body .startHere img {
+        position: absolute;
+        margin-top: -22px;
+        margin-left: 60px;
+        transform: rotate(272deg) scaleX(-1);
+        max-width: 45px;
+    }
+    body .moving-from-to .slide-footer .head2 {
+        line-height: 42px;
+    }
+}

@@ -1,0 +1,55 @@
+.iv-shipping-content {
+    border-bottom: 1px solid #2c2c2c33;
+    margin-bottom: 14px;
+}
+.iv-shipping-content strong {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+.iv-shipping-content > p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.iv-progress-mian {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.iv-progress-bar {
+    width: 100%;
+    padding: 5px;
+    background-color: #dddddd;
+    position: relative;
+    border-end-end-radius: 0;
+    border-start-end-radius: 0;
+    border-end-start-radius: 5px;
+    border-start-start-radius: 5px;
+}
+.iv-progress-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #296DBF;
+    transition: width 0.5s ease-in-out;
+}
+.iv-progress-dots {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #dddddd;
+    margin-left: -1px;
+}
+.iv-close-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}

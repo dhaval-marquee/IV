@@ -1,0 +1,64 @@
+#masthead.sticky {
+	position: fixed;
+	background-color: #00538f;
+	width: 100%;
+	height: 75px;
+}
+/* header.sticky section.elementor-section:nth-child(1) {
+	position: fixed;
+	width: 100%;
+} */
+header.sticky section .elementor-widget-image img{
+	height: 75px;
+	object-fit: cover;
+	object-position: center;
+	width: 100px;
+}
+header .nav-btn {
+	background-color: #00538f;
+	margin-left: 15px;
+}
+header.sticky .nav-btn {
+	background-color: #fff;
+	color: #00538f !important;
+}
+
+@media (max-width: 1399.98px) {
+	.hfe-nav-menu__layout-horizontal > ul > li > a,
+	.hfe-nav-menu__layout-horizontal > ul > li > div> a {
+		padding-left: 6px !important;
+		padding-right: 6px !important;
+	}
+}
+@media (max-width: 1199.98px) {
+	.nav-menuWrapper {
+		margin: 0px 0px 0px 35px !important;
+	}
+}
+@media (max-width: 1039.98px) {
+	.nav-menuWrapper {
+		margin: 0px 0px 0px 20px !important;
+	}
+}
+@media (max-width: 1099.98px) {
+	header section .elementor-widget-image img{
+		width: 100px;
+	}
+}
+.stickyHeader_iv ul.mobile_manu {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.stickyHeader_iv ul.mobile_manu .phoneImg img{
+    max-width: 50px;
+	width: 100%;
+}
+
+.stickyHeader_iv ul.mobile_manu .nav-btn{
+    max-width: 50px;
+	width: 100%;
+	color: white;
+    padding: 12px
+}

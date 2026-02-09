@@ -1,0 +1,692 @@
+/* V1 */
+.iv-form-hero-v1 fieldset .slide-overlay {
+    border-radius: 0;
+    padding: 40px 25px 25px;
+}
+.iv-form-hero-v1 .instaquote-container .step1 .slide-header .content-section {
+    padding-bottom: 0;
+}
+body.iv-form-hero-v1 .moving-from-to .slide-footer h2 {
+    font-size: 20px !important;
+    margin-top: 10px;
+}
+.iv-form-hero-v1 .instaquote-container .content-section h1 {
+    margin: 0;
+    line-height: 44px;
+}
+.iv-form-hero-v1 .content-section h3 {
+    max-width: 750px;
+    width: 100%;
+    line-height: 35px;
+    margin: 5px auto;
+}
+.iv-form-hero-v1 .slide-footer .star-text {
+    text-transform: none;
+    font-weight: 400;
+}
+.iv-form-hero-v1 fieldset .slide-overlay .inner-container {
+    max-width: 80%;
+}
+.iv-form-hero-v1 .slide-header ul {
+    margin-bottom: 35px;
+}
+.iv-form-hero-v1 .slide-header ul li, .iv-form-hero-v1 .content-section h3 {
+    font-weight: 400;
+}
+.iv-form-hero-v1 Form .slide-overlay fieldset input {
+    font-size: 16px;
+    height: 40px;
+    font-weight: 500;
+}
+.iv-form-hero-v1 .carousel-box {
+    background-image: none;
+} 
+body.iv-form-hero-v1 .long-distance__hero .slide-overlay .inner-container button {
+    flex: 0 0 22%;
+    font-size: 20px;
+    margin: 40px 0 15px;
+}
+.iv-form-hero-v1 [data-state="1"] fieldset[data-step="4"], 
+.iv-form-hero-v1 [data-state="1"] fieldset[data-step="2"], 
+.iv-form-hero-v1 [data-state="1"] fieldset[data-step="3"], 
+.iv-form-hero-v1 [data-state="1"] fieldset[data-step="4"],
+.iv-form-hero-v1 [data-state="1"] fieldset[data-step="5"] {
+    display: none;
+}
+
+
+@media (max-width:767.98px) {
+    .iv-form-hero-v1 fieldset .slide-overlay {
+        padding: 25px 15px;
+        border-radius: 10px;
+    }
+    .iv-form-hero-v1 .moving-from-to .stars .star-image {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .iv-form-hero-v1 fieldset .slide-overlay .inner-container {
+        max-width: 100%;
+    }
+    .iv-form-hero-v1 .instaquote-container .content-section h1 {
+        line-height: 32px;
+        font-size: 23px !important;
+        margin-bottom: 10px;
+    }
+    body.iv-form-hero-v1 .moving-from-to .slide-footer h2 {
+        font-size: 17px !important;
+        margin: 5px 0 0;
+        line-height: 24px;
+    }
+    .iv-form-hero-v1 .instaquote-container {
+        background-image: url(https://avlnavlblob.blob.core.windows.net/allied-com/images/default-source/householdimages/young-family-waving-at-truck-d-1500x1000.jpg?sfvrsn=53044dfb_6);
+        background-position: 25%;
+    }
+    .iv-form-hero-v1 .content-section h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .iv-form-hero-v1 .slide-header ul {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 0 10px 0 40px;
+    }
+    .iv-form-hero-v1 .slide-header ul li {
+        font-size: 16px;
+    }
+	body.iv-form-hero-v1 .long-distance__hero .slide-overlay .inner-container button {
+        flex: 0 0 10% !important;
+        margin: 10px 0;
+        font-size: 16px;
+        padding: 10px;
+        width: auto;
+        line-height: 20px;
+    }
+    .iv-form-hero-v1 .slide-footer .star-text {
+        font-size: 13px;
+    }
+    .iv-form-hero-v1 Form .slide-overlay fieldset label {
+        font-size: 14px;
+    }
+}
+
+/* V2 */
+.iv-form-hero-v2 fieldset .slide-overlay {
+    border-radius: 0;
+    padding: 40px 25px 25px;
+}
+.iv-form-hero-v2 .instaquote-container .step1 .slide-header .content-section {
+    padding-bottom: 0;
+}
+body.iv-form-hero-v2 .moving-from-to .slide-footer h2 {
+    font-size: 20px !important;
+    margin-top: 10px;
+}
+.iv-form-hero-v2 .instaquote-container .content-section h1 {
+    margin: 0;
+    line-height: 44px;
+}
+.iv-form-hero-v2 .content-section h3 {
+    max-width: 750px;
+    width: 100%;
+    line-height: 35px;
+    margin: 5px auto;
+}
+.iv-form-hero-v2 .slide-footer .star-text {
+    text-transform: none;
+    font-weight: 400;
+}
+.iv-form-hero-v2 fieldset .slide-overlay .inner-container {
+    max-width: 80%;
+}
+.iv-form-hero-v2 .slide-header ul {
+    margin-bottom: 35px;
+}
+.iv-form-hero-v2 .slide-header ul li, .iv-form-hero-v2 .content-section h3 {
+    font-weight: 400;
+}
+.iv-form-hero-v2 Form .slide-overlay fieldset input {
+    font-size: 16px;
+    height: 40px;
+    font-weight: 500;
+}
+.iv-form-hero-v2 .carousel-box {
+    background-image: none;
+} 
+body.iv-form-hero-v2 .long-distance__hero .slide-overlay .inner-container button {
+    flex: 0 0 22%;
+    font-size: 20px;
+    margin: 40px 0 15px;
+}
+.iv-form-hero-v2 [data-state="1"] fieldset[data-step="4"], 
+.iv-form-hero-v2 [data-state="1"] fieldset[data-step="2"], 
+.iv-form-hero-v2 [data-state="1"] fieldset[data-step="3"], 
+.iv-form-hero-v2 [data-state="1"] fieldset[data-step="4"],
+.iv-form-hero-v2 [data-state="1"] fieldset[data-step="5"] {
+    display: none;
+}
+
+
+@media (max-width:767.98px) {
+    .iv-form-hero-v2 fieldset .slide-overlay {
+        padding: 25px 15px;
+        border-radius: 10px;
+    }
+    .iv-form-hero-v2 .moving-from-to .stars .star-image {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .iv-form-hero-v2 fieldset .slide-overlay .inner-container {
+        max-width: 100%;
+    }
+    .iv-form-hero-v2 .instaquote-container .content-section h1 {
+        line-height: 32px;
+        font-size: 23px !important;
+        margin-bottom: 10px;
+    }
+    body.iv-form-hero-v2 .moving-from-to .slide-footer h2 {
+        font-size: 17px !important;
+        margin: 5px 0 0;
+        line-height: 24px;
+    }
+    .iv-form-hero-v2 .instaquote-container {
+        background-image: url(https://avlnavlblob.blob.core.windows.net/allied-com/images/default-source/householdimages/young-family-waving-at-truck-d-1500x1000.jpg?sfvrsn=53044dfb_6);
+        background-position: 25%;
+    }
+    .iv-form-hero-v2 .content-section h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .iv-form-hero-v2 .slide-header ul {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 0 10px 0 40px;
+    }
+    .iv-form-hero-v2 .slide-header ul li {
+        font-size: 16px;
+    }
+	body.iv-form-hero-v2 .long-distance__hero .slide-overlay .inner-container button {
+        flex: 0 0 10% !important;
+        margin: 10px 0;
+        font-size: 16px;
+        padding: 10px;
+        width: auto;
+        line-height: 20px;
+    }
+    .iv-form-hero-v2 .slide-footer .star-text {
+        font-size: 13px;
+    }
+    .iv-form-hero-v2 Form .slide-overlay fieldset label {
+        font-size: 14px;
+    }
+}
+
+/* V3 */
+.iv-form-hero-v3 fieldset .slide-overlay {
+    border-radius: 0;
+    padding: 40px 25px 25px;
+}
+.iv-form-hero-v3 .instaquote-container .step1 .slide-header .content-section {
+    padding-bottom: 0;
+}
+body.iv-form-hero-v3 .moving-from-to .slide-footer h2 {
+    font-size: 20px !important;
+    margin-top: 10px;
+}
+.iv-form-hero-v3 .instaquote-container .content-section h1 {
+    margin: 0;
+    line-height: 44px;
+}
+.iv-form-hero-v3 .content-section h3 {
+    max-width: 750px;
+    width: 100%;
+    line-height: 35px;
+    margin: 5px auto;
+}
+.iv-form-hero-v3 .slide-footer .star-text {
+    text-transform: none;
+    font-weight: 400;
+}
+.iv-form-hero-v3 fieldset .slide-overlay .inner-container {
+    max-width: 80%;
+}
+.iv-form-hero-v3 .slide-header ul {
+    margin-bottom: 35px;
+}
+.iv-form-hero-v3 .slide-header ul li, .iv-form-hero-v3 .content-section h3 {
+    font-weight: 400;
+}
+.iv-form-hero-v3 Form .slide-overlay fieldset input {
+    font-size: 16px;
+    height: 40px;
+    font-weight: 500;
+}
+.iv-form-hero-v3 .carousel-box {
+    background-image: none;
+} 
+body.iv-form-hero-v3 .long-distance__hero .slide-overlay .inner-container button {
+    flex: 0 0 22%;
+    font-size: 20px;
+    margin: 40px 0 15px;
+}
+.iv-form-hero-v3 [data-state="1"] fieldset[data-step="4"], 
+.iv-form-hero-v3 [data-state="1"] fieldset[data-step="2"], 
+.iv-form-hero-v3 [data-state="1"] fieldset[data-step="3"], 
+.iv-form-hero-v3 [data-state="1"] fieldset[data-step="4"],
+.iv-form-hero-v3 [data-state="1"] fieldset[data-step="5"] {
+    display: none;
+}
+
+
+@media (max-width:767.98px) {
+    .iv-form-hero-v3 fieldset .slide-overlay {
+        padding: 25px 15px;
+        border-radius: 10px;
+    }
+    .iv-form-hero-v3 .moving-from-to .stars .star-image {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .iv-form-hero-v3 fieldset .slide-overlay .inner-container {
+        max-width: 100%;
+    }
+    .iv-form-hero-v3 .instaquote-container .content-section h1 {
+        line-height: 32px;
+        font-size: 23px !important;
+        margin-bottom: 10px;
+    }
+    body.iv-form-hero-v3 .moving-from-to .slide-footer h2 {
+        font-size: 17px !important;
+        margin: 5px 0 0;
+        line-height: 24px;
+    }
+    .iv-form-hero-v3 .instaquote-container {
+        background-image: url(https://avlnavlblob.blob.core.windows.net/allied-com/images/default-source/householdimages/long-distance-road-small.jpg?sfvrsn=c4a472fb_2);
+        background-position: 50%;
+    }
+    .iv-form-hero-v3 .content-section h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .iv-form-hero-v3 .slide-header ul {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 0 10px 0 40px;
+    }
+    .iv-form-hero-v3 .slide-header ul li {
+        font-size: 16px;
+    }
+    body.iv-form-hero-v3 .long-distance__hero .slide-overlay .inner-container button {
+        flex: 0 0 10% !important;
+        margin: 10px 0;
+        font-size: 16px;
+        padding: 10px;
+        width: auto;
+        line-height: 20px;
+    }
+    .iv-form-hero-v3 .slide-footer .star-text {
+        font-size: 13px;
+    }
+    .iv-form-hero-v3 Form .slide-overlay fieldset label {
+        font-size: 14px;
+    }
+}
+
+/* V4 */
+.iv-form-hero-v4 fieldset .slide-overlay {
+    border-radius: 0;
+    padding: 40px 25px 25px;
+}
+.iv-form-hero-v4 .instaquote-container .step1 .slide-header .content-section {
+    padding-bottom: 0;
+}
+body.iv-form-hero-v4 .moving-from-to .slide-footer h2 {
+    font-size: 20px !important;
+    margin-top: 10px;
+}
+.iv-form-hero-v4 .instaquote-container .content-section h1 {
+    margin: 0;
+    line-height: 44px;
+}
+.iv-form-hero-v4 .content-section h3 {
+    max-width: 750px;
+    width: 100%;
+    line-height: 35px;
+    margin: 5px auto;
+}
+.iv-form-hero-v4 .slide-footer .star-text {
+    text-transform: none;
+    font-weight: 400;
+}
+.iv-form-hero-v4 fieldset .slide-overlay .inner-container {
+    max-width: 80%;
+}
+.iv-form-hero-v4 .slide-header ul {
+    margin-bottom: 35px;
+}
+.iv-form-hero-v4 .slide-header ul li, .iv-form-hero-v4 .content-section h3 {
+    font-weight: 400;
+}
+.iv-form-hero-v4 Form .slide-overlay fieldset input {
+    font-size: 16px;
+    height: 40px;
+    font-weight: 500;
+}
+.iv-form-hero-v4 .carousel-box {
+    background-image: none;
+} 
+body.iv-form-hero-v4 .long-distance__hero .slide-overlay .inner-container button {
+    flex: 0 0 22%;
+    font-size: 20px;
+    margin: 40px 0 15px;
+}
+.iv-form-hero-v4 [data-state="1"] fieldset[data-step="4"], 
+.iv-form-hero-v4 [data-state="1"] fieldset[data-step="2"], 
+.iv-form-hero-v4 [data-state="1"] fieldset[data-step="3"], 
+.iv-form-hero-v4 [data-state="1"] fieldset[data-step="4"],
+.iv-form-hero-v4 [data-state="1"] fieldset[data-step="5"] {
+    display: none;
+}
+
+
+@media (max-width:767.98px) {
+    .iv-form-hero-v4 fieldset .slide-overlay {
+        padding: 25px 15px;
+        border-radius: 10px;
+    }
+    .iv-form-hero-v4 .moving-from-to .stars .star-image {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .iv-form-hero-v4 fieldset .slide-overlay .inner-container {
+        max-width: 100%;
+    }
+    .iv-form-hero-v4 .instaquote-container .content-section h1 {
+        line-height: 32px;
+        font-size: 23px !important;
+        margin-bottom: 10px;
+    }
+    body.iv-form-hero-v4 .moving-from-to .slide-footer h2 {
+        font-size: 17px !important;
+        margin: 5px 0 0;
+        line-height: 24px;
+    }
+    .iv-form-hero-v4 .instaquote-container {
+        background-image: url(https://avlnavlblob.blob.core.windows.net/allied-com/images/default-source/default-album/allied-household-moving-truck-1500x535.jpg?sfvrsn=a2ff40fb_4);
+        background-position: 50% 50%;
+    }
+    .iv-form-hero-v4 .content-section h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .iv-form-hero-v4 .slide-header ul {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 0 10px 0 40px;
+    }
+    .iv-form-hero-v4 .slide-header ul li {
+        font-size: 16px;
+    }
+	body.iv-form-hero-v4 .long-distance__hero .slide-overlay .inner-container button {
+        flex: 0 0 10% !important;
+        margin: 10px 0;
+        font-size: 16px;
+        padding: 10px;
+        width: auto;
+        line-height: 20px;
+    }
+    .iv-form-hero-v4 .slide-footer .star-text {
+        font-size: 13px;
+    }
+    .iv-form-hero-v4 Form .slide-overlay fieldset label {
+        font-size: 14px;
+    }
+}
+
+/* V5 */
+.iv-form-hero-v5 fieldset .slide-overlay {
+    border-radius: 0;
+    padding: 40px 25px 25px;
+}
+.iv-form-hero-v5 .instaquote-container .step1 .slide-header .content-section {
+    padding-bottom: 0;
+}
+body.iv-form-hero-v5 .moving-from-to .slide-footer h2 {
+    font-size: 20px !important;
+    margin-top: 10px;
+}
+.iv-form-hero-v5 .instaquote-container .content-section h1 {
+    margin: 0;
+    line-height: 44px;
+}
+.iv-form-hero-v5 .content-section h2 {
+    max-width: 750px;
+    width: 100%;
+    line-height: 35px;
+    margin: 5px auto;
+}
+.iv-form-hero-v5 fieldset .slide-overlay .inner-container {
+    max-width: 80%;
+}
+.iv-form-hero-v5 .slide-header ul {
+    margin-bottom: 35px;
+}
+.iv-form-hero-v5 .slide-header ul li, .iv-form-hero-v5 .content-section h2 {
+    font-weight: 400;
+}
+.iv-form-hero-v5 Form .slide-overlay fieldset input {
+    font-size: 16px;
+    height: 40px;
+    font-weight: 500;
+}
+.iv-form-hero-v5 .carousel-box {
+    background-image: none;
+} 
+body.iv-form-hero-v5 .slide-overlay .inner-container button {
+    flex: 0 0 22%;
+    font-size: 20px;
+    margin: 40px 0 15px;
+}
+body.iv-form-hero-v5 .slide-overlay .inner-container button {
+    flex: 0 0 22%;
+    font-size: 20px;
+    margin: 40px 0 15px;
+    background-color: #f58024;
+    padding: 1.2rem 1rem;
+    letter-spacing: .078em;
+    height: 53px;
+    transition: background .4s, color .4s;
+}
+body.iv-form-hero-v5 .slide-overlay .inner-container button:hover{
+    background-color: #407cca;
+}
+.iv-form-hero-v5 .slide-footer .star-text {
+    text-transform: none;
+    font-weight: 400;
+    position: relative;
+    left: 5px;
+    top: 0;
+    text-shadow: 0 0 4px #000;
+    font-size: 14px;
+}
+.iv-form-hero-v5 fieldset .slide-overlay .slide-footer .content-section{
+    padding-top: 15px;
+}
+.iv-form-hero-v5 fieldset .slide-overlay .slide-footer .content-section .star-image img{
+    max-width: 20px;
+}
+body.iv-form-hero-v5 .slide-overlay .inner-container button::after{
+    content: "\1F86A";
+    margin-left: 5px;
+}
+.iv-form-hero-v5 [data-state="1"] fieldset[data-step="4"], 
+.iv-form-hero-v5 [data-state="1"] fieldset[data-step="2"], 
+.iv-form-hero-v5 [data-state="1"] fieldset[data-step="3"], 
+.iv-form-hero-v5 [data-state="1"] fieldset[data-step="4"],
+.iv-form-hero-v5 [data-state="1"] fieldset[data-step="5"] {
+    display: none;
+}
+
+
+@media (max-width:767.98px) {
+    .iv-form-hero-v5 fieldset .slide-overlay {
+        padding: 25px 15px;
+        border-radius: 10px;
+    }
+    .iv-form-hero-v5 .moving-from-to .stars .star-image {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .iv-form-hero-v5 fieldset .slide-overlay .inner-container {
+        max-width: 100%;
+    }
+    .iv-form-hero-v5 .instaquote-container .content-section h1 {
+        line-height: 32px;
+        font-size: 23px !important;
+        margin-bottom: 10px;
+    }
+    body.iv-form-hero-v5 .moving-from-to .slide-footer h2 {
+        font-size: 17px !important;
+        margin: 5px 0 0;
+        line-height: 24px;
+    }
+    .iv-form-hero-v5 .instaquote-container {
+        background-position: 40% 50%;
+    }
+    .iv-form-hero-v5 .content-section h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .iv-form-hero-v5 .slide-header ul {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 0 10px 0 40px;
+    }
+    .iv-form-hero-v5 .slide-header ul li {
+        font-size: 16px;
+    }
+	body.iv-form-hero-v5 .slide-overlay .inner-container button {
+        flex: 0 0 10% !important;
+        margin: 10px 0;
+        font-size: 16px;
+        padding: 10px;
+        width: auto;
+        line-height: 20px;
+    }
+    .iv-form-hero-v5 .slide-footer .star-text {
+        font-size: 13px;
+    }
+    .iv-form-hero-v5 Form .slide-overlay fieldset label {
+        font-size: 14px;
+    }
+}
+
+/* V6 */
+.iv-form-hero-v6 fieldset .slide-overlay {
+    border-radius: 0;
+    padding: 40px 25px 25px;
+}
+.iv-form-hero-v6 .instaquote-container .step1 .slide-header .content-section {
+    padding-bottom: 0;
+}
+body.iv-form-hero-v6 .moving-from-to .slide-footer h2 {
+    font-size: 20px !important;
+    margin-top: 10px;
+}
+.iv-form-hero-v6 .instaquote-container .content-section h1 {
+    margin: 0;
+    line-height: 44px;
+}
+.iv-form-hero-v6 .content-section h3 {
+    max-width: 750px;
+    width: 100%;
+    line-height: 35px;
+    margin: 5px auto;
+}
+.iv-form-hero-v6 .slide-footer .star-text {
+    text-transform: none;
+    font-weight: 400;
+}
+.iv-form-hero-v6 fieldset .slide-overlay .inner-container {
+    max-width: 80%;
+}
+.iv-form-hero-v6 .slide-header ul {
+    margin-bottom: 35px;
+}
+.iv-form-hero-v6 .slide-header ul li, .iv-form-hero-v6 .content-section h3 {
+    font-weight: 400;
+}
+.iv-form-hero-v6 Form .slide-overlay fieldset input {
+    font-size: 16px;
+    height: 40px;
+    font-weight: 500;
+}
+.iv-form-hero-v6 .carousel-box {
+    background-image: none;
+} 
+body.iv-form-hero-v6 .long-distance__hero .slide-overlay .inner-container button {
+    flex: 0 0 22%;
+    font-size: 20px;
+    margin: 40px 0 15px;
+}
+.iv-form-hero-v6 [data-state="1"] fieldset[data-step="4"], 
+.iv-form-hero-v6 [data-state="1"] fieldset[data-step="2"], 
+.iv-form-hero-v6 [data-state="1"] fieldset[data-step="3"], 
+.iv-form-hero-v6 [data-state="1"] fieldset[data-step="4"],
+.iv-form-hero-v6 [data-state="1"] fieldset[data-step="5"] {
+    display: none;
+}
+
+
+@media (max-width:767.98px) {
+    .iv-form-hero-v6 fieldset .slide-overlay {
+        padding: 25px 15px;
+        border-radius: 10px;
+    }
+    .iv-form-hero-v6 .moving-from-to .stars .star-image {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .iv-form-hero-v6 fieldset .slide-overlay .inner-container {
+        max-width: 100%;
+    }
+    .iv-form-hero-v6 .instaquote-container .content-section h1 {
+        line-height: 32px;
+        font-size: 23px !important;
+        margin-bottom: 10px;
+    }
+    body.iv-form-hero-v6 .moving-from-to .slide-footer h2 {
+        font-size: 17px !important;
+        margin: 5px 0 0;
+        line-height: 24px;
+    }
+    .iv-form-hero-v6 .instaquote-container {
+        background-image: url(https://avlnavlblob.blob.core.windows.net/allied-com/images/default-source/householdimages/long-distance-road-small.jpg?sfvrsn=c4a472fb_2);
+        background-position: 50%;
+    }
+    .iv-form-hero-v6 .content-section h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .iv-form-hero-v6 .slide-header ul {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 0 10px 0 40px;
+    }
+    .iv-form-hero-v6 .slide-header ul li {
+        font-size: 16px;
+    }
+	body.iv-form-hero-v6 .long-distance__hero .slide-overlay .inner-container button {
+        flex: 0 0 10% !important;
+        margin: 10px 0;
+        font-size: 16px;
+        padding: 10px;
+        width: auto;
+        line-height: 20px;
+    }
+    .iv-form-hero-v6 .slide-footer .star-text {
+        font-size: 13px;
+    }
+    .iv-form-hero-v6 Form .slide-overlay fieldset label {
+        font-size: 14px;
+    }
+}

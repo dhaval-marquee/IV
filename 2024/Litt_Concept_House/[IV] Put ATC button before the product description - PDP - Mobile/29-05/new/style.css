@@ -1,0 +1,9 @@
+@media only screen and (max-width: 480px) {
+    .smart-payment-button--false .purchase-details {
+        flex-direction: column-reverse;
+    }
+
+    .smart-payment-button--false .purchase-details .purchase-details__buttons {
+        width: 100%;
+    }
+}

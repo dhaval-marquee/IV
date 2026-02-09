@@ -1,0 +1,63 @@
+.hero_iv .trial-section {
+    background-color: #fff;
+}
+
+.hero_iv .trial-wrapper .trial-form {
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.hero_iv .trial-wrapper .trial-content > h1,
+.hero_iv .trial-wrapper .trial-content p,
+.hero_iv .trial-wrapper .trial-content ul {
+    color: #010101;
+}
+
+.hero_iv #review_wrapper {
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+.hero_iv #review_wrapper iframe {
+    width: auto !important;
+}
+@media screen and (min-width: 1025px) {
+    .hero_iv.free-trial .header {
+        min-height: 144px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero_iv #review_wrapper .trustpilot-widget {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hero_iv #review_wrapper {
+        margin-left: 8px;
+    }
+}
+
+/* For variant 2 */
+.hero_iv.variant2 .trial-section {
+    background-color: #00529c;
+}
+
+.hero_iv.variant2 .trial-wrapper .trial-content>h1,
+.hero_iv.variant2 .trial-wrapper .trial-content p,
+.hero_iv.variant2 .trial-wrapper .trial-content ul {
+    color: #fff;
+}
+/* For variant 2 over */
+
+/* For variant 3 */
+.hero_iv.variant3 .trial-section {
+    background-color: #7f8d9f;
+}
+.hero_iv.variant3 .trial-wrapper .trial-content>h1,
+.hero_iv.variant3 .trial-wrapper .trial-content p,
+.hero_iv.variant3 .trial-wrapper .trial-content ul {
+    color: #fff;
+}
+/* For variant 3 over */

@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'HelveticaNeueLTStd-BdCn';
+    src: url('//res.cloudinary.com/ignite-visibility/raw/upload/v1651754401/mitchell1/Fonts/HelveticaNeueLTStd-BdCn.eot');
+    src: url('//res.cloudinary.com/ignite-visibility/raw/upload/v1651754401/mitchell1/Fonts/HelveticaNeueLTStd-BdCn.woff2') format('woff2'),
+    url('//res.cloudinary.com/ignite-visibility/raw/upload/v1651754401/mitchell1/Fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'),
+    url('//res.cloudinary.com/ignite-visibility/raw/upload/v1651754401/mitchell1/Fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.m1_hero_test .hero-section .inner-content {
+    top: 32px;
+    width: 540px;
+    padding: 30px;
+}
+.m1_hero_test .hero-section{
+    min-height: 420px;
+}
+.m1_hero_test .hero-section .inner-content h1 {
+    font-family: 'HelveticaNeueLTStd-XBlkCn';
+    font-size: 60px;
+    line-height: 1;
+    text-align: left;
+    margin: 0 0 15px;
+}
+.m1_hero_test .hero-section .inner-content h1 span {
+    color: #FFC729;
+}
+.m1_hero_test .hero-section .inner-content h2 {
+    font-family: 'HelveticaNeueLTStd-BdCn';
+    font-size: 32px;
+    color: #fff;
+    text-align: left;
+    margin: 0;
+}
+.m1_hero_test .hero-section .inner-content h2.auto_Shop {
+    color: #FFC729;
+}
+.m1_hero_test .hero-section .inner-content ul {
+    display: none;
+    margin-top: 15px;
+}
+.m1_hero_test .hero-section .inner-content ul li:before {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1677139331/mitchell1/M1_Copy_Test/checkmark_gold.png');
+}
+.m1_hero_test .keys h2{
+    color: #67686A;
+}
+.m1_hero_test .hero-section .inner-content p {
+    font-family: "IntervalSansProRegular", Helvetica, Arial, serif;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.m1_hero_test .hero-section .inner-content .center-btn {
+    text-align: left;
+}
+
+@media (max-width: 767.98px) {
+    .m1_hero_test .hero-section .inner-content h1,
+    .m1_hero_test .hero-section .inner-content h2,
+    .m1_hero_test .hero-section .inner-content p,
+    .m1_hero_test .hero-section .inner-content .center-btn {
+        text-align: center;
+    }
+    .m1_hero_test .hero-section .inner-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        right: inherit;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .m1_hero_test .hero-section .inner-content h1 {
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    .m1_hero_test .hero-section .inner-content h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 375.98px) {
+    .m1_hero_test .hero-section .inner-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

@@ -1,0 +1,42 @@
+@media (max-width: 767.98px) {
+    body section.evvs-homepage-wrapper > div > div > div h2 {
+        background: #2f173e8c;
+        text-align: center;
+        font-weight: 400;
+        padding: 40px 10px;
+        margin-top: -250px;
+        margin-bottom: 150px !important;
+    }
+    body section.evvs-homepage-wrapper > div > div > div ul {
+        text-align: left;
+        width: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 559.98px) {
+    body section.evvs-homepage-wrapper > div > div > div h2 {
+        margin-top: -240px;
+        margin-bottom: 60px !important;
+    }
+}
+@media (max-width: 499.98px) {
+    body section.evvs-homepage-wrapper > div > div > div h2 {
+        font-size: 32px;
+        line-height: normal;
+        margin-top: -180px;
+        margin-bottom: 80px !important;
+        padding: 30px 10px;
+    }
+}
+@media (max-width: 446.98px) {
+    body section.evvs-homepage-wrapper > div > div > div h2 {
+        margin-top: -208px;
+        margin-bottom: 60px !important;
+    }
+}
+@media (max-width: 424.98px) {
+    body section.evvs-homepage-wrapper > div > div > div h2 {
+        margin-top: -200px;
+    }
+}

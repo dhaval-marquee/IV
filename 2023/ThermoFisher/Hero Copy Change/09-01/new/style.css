@@ -1,0 +1,27 @@
+
+.TF-hero-section-v1 .TF-heroSec .well,
+.TF-hero-section-v2 .TF-heroSec .well {
+    background-image: url('https://www.thermofisher.com/content/dam/allergy/en/designs/hero-backgrounds/TF_Web_HeaderImage_Textless_3_1800x200.jpg') !important;
+}
+.TF-hero-section-v2 .TF-heroSec .TF-subHeading {
+    font-size: 26px;
+    line-height: normal;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.TF-hero-section-v1 .TF-heroSec .TF-GetTestedCTA a,
+.TF-hero-section-v2 .TF-heroSec .TF-GetTestedCTA a {
+    max-width: 220px;
+    width: 100%;
+    min-height: 52px;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 20px !important;
+}
+
+@media (max-width: 1200px) {
+    .TF-hero-section-v1 .TF-heroSec .aem-GridColumn--xlarge--8,
+    .TF-hero-section-v2 .TF-heroSec .aem-GridColumn--xlarge--8 {
+        width: 100% !important;
+    }
+}

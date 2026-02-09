@@ -1,0 +1,92 @@
+/* Common css */
+body .instaquote-container .slide-header .content-section {
+    padding-bottom: 0;
+}
+body .moving-from-to .slide-footer h2.head2 {
+    font-size: 20px !important;
+    margin-top: 10px;
+}
+body .instaquote-container .content-section h1 {
+    margin: 0;
+    font-size: 38px !important;
+    font-weight: 700 !important;
+    line-height: 45.6px;
+}
+body .content-section h3 {
+    max-width: 750px;
+    width: 100%;
+    line-height: 28.8px;
+    margin: 5px auto 0;
+}
+body .slide-footer .star-text {
+    text-transform: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+body .moving-from-to .slide-header ul {
+    margin-bottom: 35px;
+}
+body .long-distance__hero .instaquote-carousel input {
+    font-size: 16px;
+    height: 40px;
+    font-weight: 500;
+}
+body .long-distance__hero .carousel-box {
+    background-image: none;
+} 
+body .long-distance__hero .instaquote-container .inner-container .btn {
+    font-size: 20px;
+    margin: 40px 0 15px;
+}
+
+@media (max-width:767.98px) {
+    body .moving-from-to .slide-overlay {
+        padding: 25px 15px;
+        border-radius: 10px;
+    }
+    body .moving-from-to .stars .star-image {
+        display: block;
+        margin-bottom: 5px;
+    }
+    body .instaquote-container .content-section h1 {
+        line-height: 36px;
+        font-size: 30px !important;
+    }
+    body .moving-from-to .slide-footer h2.head2 {
+        margin: 5px 0 0;
+        line-height: 23px;
+        padding: 0;
+    }
+    body .moving-from-to .slide-footer h2.head2 span {
+        color: #ffd31f;
+    }
+    body .content-section h3 {
+        font-size: 26px;
+        line-height: 31.2px;
+    }
+    body .moving-from-to .slide-header ul {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 0 10px 0 40px;
+    }
+	body .long-distance__hero .instaquote-container .inner-container .btn {
+        margin: 10px 0;
+        font-size: 16px;
+        padding: 10px;
+        width: auto;
+        line-height: 20px;
+    }
+    body .slide-footer .star-text {
+        font-size: 13px;
+    }
+    body Form .slide-overlay fieldset label {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:767.98px) {
+    body .long-distance__hero .instaquote-container{
+        background-image: url('images/long-distance-road-small.jpg');
+        background-position: 50%;
+    }
+}

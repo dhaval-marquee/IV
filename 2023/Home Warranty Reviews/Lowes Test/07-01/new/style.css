@@ -1,0 +1,132 @@
+.homewarrantyreviews_test .single_company_block .team_content+p,
+.homewarrantyreviews_test .offer_company_list#featured_company,
+.homewarrantyreviews_test #competition+ .section_block,
+.homewarrantyreviews_test .methodology,
+.homewarrantyreviews_test .interested_wrapper,
+.homewarrantyreviews_test .company_info_block img[alt="onehalf_star"],
+.homewarrantyreviews_test .review_block_new_wrapper h2,
+.homewarrantyreviews_test #coverage+.section_block p:last-child,
+.homewarrantyreviews_test #how_to_buy+.section_block p:last-child {
+    display: none;
+}
+
+.homewarrantyreviews_test #coverage+.section_block .faq_wrapper{
+    padding-bottom: inherit;
+}
+.homewarrantyreviews_test #coverage+.section_block .faq_wrapper ul.ans{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 !important;
+}
+.homewarrantyreviews_test #coverage+.section_block .faq_wrapper ul.ans li{
+    width: 50%;
+    position: relative;
+    text-indent: inherit;
+    padding: 0 10px 0 20px;
+}
+.homewarrantyreviews_test #coverage+.section_block .faq_wrapper ul li::before{
+    position: absolute;
+    left: 0;
+    top: 14px;
+    height: 10px;
+    width: 10px;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+/* FAQ Section */
+.homewarrantyreviews_test .faq_wrapper {
+    padding-bottom: 50px;
+}
+.homewarrantyreviews_test .faq_wrapper #FAQs{
+    margin-bottom: 50px;
+}
+.homewarrantyreviews_test .faq_wrapper #FAQs h2{
+    font-size: 23px !important;
+}
+.homewarrantyreviews_test .guide_block {
+    padding: 20px 20px 20px 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid lightgrey;
+}
+.homewarrantyreviews_test .guide_block:last-child{
+    border-bottom: 1px solid lightgrey;
+}
+.homewarrantyreviews_test .guide_block .ans,
+.homewarrantyreviews_test ul.ans{
+    display: none;
+    padding-right: 37px;
+}
+
+.homewarrantyreviews_test .guide_block.active .ans,
+.homewarrantyreviews_test .active ul.ans {
+    display: flex;
+}
+
+.homewarrantyreviews_test .faq_que  {
+    position: relative;
+    padding-right: 37px;
+}
+.homewarrantyreviews_test .faq_que::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1670324460/HomeWarrantyReviews/Lowes%20Test/plus_icon.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+.homewarrantyreviews_test .active .faq_que::after {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1670324802/HomeWarrantyReviews/Lowes%20Test/minus.png');
+}
+
+@media (max-width: 375px) {
+    .homewarrantyreviews_test .guide_block{
+        padding: 12px 20px 12px 0;
+    }
+    body.homewarrantyreviews_test .free_quote{
+        margin: 25px 0;
+    }
+}
+/* FAQ Section over*/
+
+
+.homewarrantyreviews_test .free_quote{
+    margin: 50px 0;
+}
+.homewarrantyreviews_test .free_quote a:first-child{
+    font-size: 20px;
+    font-weight: 700;
+    pointer-events: none;
+}
+.homewarrantyreviews_test .free_quote a:last-child{
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.homewarrantyreviews_test .reviews_wrap h2{
+    font-size: 28px !important;
+}
+.homewarrantyreviews_test .reviews_wrap .unit_wrapper{
+    display: flex;
+    align-items: center;
+}
+.homewarrantyreviews_test .reviews_wrap .unit_wrapper span{
+    font-size: 38px;
+    font-weight: 600;
+}
+.homewarrantyreviews_test .reviews_wrap .unit_wrapper div{
+    display: grid;
+    padding-left: 18px;
+}
+.homewarrantyreviews_test .reviews_wrap .unit_wrapper div a{
+    color: #545454;
+    text-decoration: underline;
+    margin-top: 10px;
+}

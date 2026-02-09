@@ -1,0 +1,161 @@
+.iv-progress-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.iv-progress-title p {
+    font-size: 11px;
+    font-family: 'Montserrat';
+    line-height: normal;
+}
+/* .iv-progress-title p span {
+    color: #FC26BF;
+    font-weight: 600;
+} */
+.iv-progress-title p span.spend-for-free {
+    color: #292929;
+    font-weight: normal;
+}
+.iv-progress-bar {
+    display: flex;
+}
+.iv-progress-fill {
+    width: 50%;
+    margin-left: -2px;
+}
+.fill-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.progress-bg-dot {
+    position: relative;
+    z-index: 1;
+}
+.progress-dots {
+    width: 100%;
+    max-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #B3B3B3;
+    margin-left: -2px;
+}
+.progress-fill-dot {
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+.iv-progress-free-unlock.fill-active:first-child .progress-fill-dot {
+    opacity: 1;
+    background-color: #FC26BF;
+}
+.progress-bg {
+    width: 100%;
+    height: 15px;
+    background-color: #B3B3B3;
+    border-end-end-radius: 0;
+    border-start-end-radius: 0;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+}
+.iv-progress-title p svg {
+    display: inline-block;
+    margin-right: 5px;
+    width: 14px;
+}
+.iv-progress-fill:nth-child(2) .progress-fill-bar {
+    border-radius: 0 20px 20px 0;
+}
+.iv-progress-bar-main {
+    margin: 20px 0;
+}
+.iv-progress-bar .fill-text {
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    max-width: 65px;
+    margin: 5px -18px 0 auto;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    line-height: normal;
+}
+.iv-progress-bar .fill-active .fill-text {
+    color: #FC26BF;
+}
+.progress-fill-bar {
+    width: 0;
+    background-color: #B3B3B3;
+    height: 15px;
+    position: absolute;
+    left: 0;
+    border-end-end-radius: 0;
+    border-start-end-radius: 0;
+    border-end-start-radius: 20px;
+    border-start-start-radius: 20px;
+}
+.iv-progress-free-unlock.fill-active .progress-fill-bar {
+    width: 0;
+    background-color: #FC26BF;
+}
+.iv-progress-free-unlock.fill-active:first-child .progress-fill-bar {
+    width: 100%;
+}
+.iv-progress-free-unlock:not(:first-child) .progress-bg {
+    border-end-start-radius: 0;
+    border-start-start-radius: 0;
+}
+.iv-free-shipping .free-shipping-bar .text-subdued {
+    display: none;
+}
+.iv-progress-fill:nth-child(2) .progress-bg {
+    border-radius: 0;
+}
+.iv-free-shipping .dwon-to-free {
+    display: none;
+}
+.iv-free-shipping .text-pink{
+    color: #FC26BF;
+    font-weight: 600;
+}
+.iv-free-shipping .congratulations-text{
+    display: none;
+}
+.iv-free-shipping .select-pink-acoustica-cta .select-cta {
+    font-size: 12px;
+    padding: 12px 20px;
+    background-color: #015CAA;
+    color: #fff;
+    margin-top: 13px;
+    font-family: "Montserrat";
+    transition: all 0.2s ease-in-out;
+    max-width: 100%;
+    display: inline-block;
+}
+.iv-free-shipping .select-pink-acoustica-cta .select-cta:hover{
+    background-color: #004888;
+}
+.iv-free-shipping .iv-progress-title i {
+    font-family: 'Montserrat';
+    font-size: 10px;
+}
+
+@media (max-width:699px) {
+    .iv-free-shipping .select-pink-acoustica-cta .select-cta{
+        font-size: 10px;
+    }
+    .iv-progress-bar-main {
+        margin: 5px 0;
+    }
+    .iv-free-shipping .cart-drawer__footer{
+        gap: 0;
+    }
+    .progress-dots {
+        max-width: 25px;
+        height: 25px;
+    }
+    .progress-bg {
+        height: 10px;
+    }
+    .progress-fill-bar{
+        height: 10px;
+    }
+}

@@ -1,0 +1,58 @@
+.bar_iv .top-bar {
+    background-color: #151f6d;
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 7px;
+    text-align: center;
+}
+.bar_iv .top-bar a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    white-space: nowrap;
+}
+.bar_iv .top-bar a:hover {
+    color: #ffffff73;
+}
+.bar_iv .top-bar .long-arrow-right {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    display: inline-block;
+    margin: auto;
+    margin-left: 15px;
+    transform: rotate(135deg);
+    height: 7px;
+    width: 7px;
+}
+.bar_iv .top-bar .long-arrow-right::after {
+    background-color: #ffffff;
+    content: "";
+    display: block;
+    transform: rotate(-45deg) translate(5px, 2px);
+    height: 16px;
+    width: 1px;
+}
+
+/* Blue BG */
+.bar_iv .blue-bg {
+    background-color: #151f6d;
+}
+
+/* Light Blue BG */
+.bar_iv .lightblue-bg {
+	background-color: #202c89;
+}
+
+/* Sky Blue BG */
+.bar_iv .sky-bg {
+    background-color: #0f85ee;
+    color: #fff;
+}
+
+@media screen and (max-width: 767.98px) {
+    .bar_iv .top-bar {
+        padding: 8px 16px;
+    }    
+}

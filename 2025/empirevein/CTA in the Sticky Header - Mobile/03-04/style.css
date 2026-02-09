@@ -1,0 +1,8 @@
+header .bookfree-link {
+    padding: 5px 15px;
+}
+header div > .bookfree-link > .nav-link {
+    background: var(--c-accent);
+    color: #fff;
+    padding: 0 38px;
+}

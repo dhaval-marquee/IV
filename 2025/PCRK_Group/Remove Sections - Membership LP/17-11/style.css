@@ -1,0 +1,90 @@
+.iv-form-membership .hero-section + div,
+.iv-form-membership.iv2-form-membership  div.services-section {
+    display: none;
+}
+.iv-form-membership .zpform-container .zpform-outer li .zpform-field-container.zpform-button input[type=submit] {
+    background-color: #FFF8B3 !important;
+    border: navajowhite;
+    color: #2E3543;
+    width: 100%;
+    max-width: 330px;
+    padding: 9px 10px;
+}
+.iv-form-membership .zpform-container .zpform-outer li .zpform-field-container.zpform-button input[type=submit]:hover {
+    color: #2E3543 !important;
+    background-color: #f5ec91 !important;
+}
+.iv-form-membership .hero-container .zpelem-lpform form ul.zpform-outer li .zpform-label-container label {
+    text-transform: capitalize;
+}
+@media (min-width: 768px) {
+    .iv-form-membership .hero-description ul > li {
+        font-weight: 100;
+    }
+    .iv-form-membership .hero-container .zpelem-col:nth-child(3) .zpelem-box {
+        padding: 30px 15px;
+    }
+    .iv-form-membership .hero-container .zpelem-col:nth-child(3) .zpelem-box h3.zpheading {
+        width: 100%;
+        max-width: 320px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .iv-form-membership .hero-container .zpelem-lpform form ul.zpform-outer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: space-between;
+    }
+    .iv-form-membership .hero-container .zpelem-lpform form ul.zpform-outer li {
+        width: calc(50% - 10px);
+        padding: 0;
+        margin: 0 !important;
+    }
+    .iv-form-membership .hero-container .zpelem-lpform form ul.zpform-outer li .zpform-label-container {
+        width: 100%;
+        text-align: left;
+        padding: 0;
+    }
+    .iv-form-membership .hero-container .zpelem-lpform form ul.zpform-outer li .zpform-field-container {
+        width: 100% !important;
+        text-align: left;
+        max-inline-size: 100%;
+    }
+    .iv-form-membership .hero-container .zpelem-lpform form ul.zpform-outer li:last-child {
+        width: 100%;
+        padding-top: 0;
+    }
+    .iv-form-membership .hero-container .zpelem-lpform form ul.zpform-outer li:has(.zpform-verification-group) {
+        width: 100%;
+    }
+    .iv-form-membership .hero-container .zpelem-lpform form ul.zpform-outer li .zpform-verification-group {
+        display: flex;
+        flex: inherit;
+        max-inline-size: inherit;
+        flex-direction: inherit;
+        gap: 20px;
+        align-items: center;
+    }
+    .iv-form-membership .hero-container .zpelem-lpform form ul.zpform-outer li .zpform-verification-group > input {
+        width: calc(50% - 10px);
+        margin: 0;
+        flex: inherit;
+    }
+}
+@media (max-width: 991px) {
+    .iv-form-membership .hero-container .zpelem-lpform form ul.zpform-outer li input {
+        max-inline-size: 100% !important;
+    }
+}
+@media (max-width: 767px) {
+    .iv-form-membership .hero-container .zpelem-col:nth-child(3) .zpelem-box {
+        padding: 20px 15px;
+    }
+    .iv-form-membership .zpelem-lpform .zpform-container.zpform-label-align-top .zpform-outer li .zpform-label-container {
+        width: 130px;
+    }
+    .iv-form-membership .zpelem-lpform .zpform-container.zpform-label-align-top .zpform-outer li .zpform-field-container:not(.zpform-button):not([data-element-id="formMsg_Information"]) {
+        width: calc(100% - 130px);
+    }
+}

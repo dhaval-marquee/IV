@@ -1,0 +1,40 @@
+.hbspt-form input.hs-button {
+    display: none !important;
+}
+
+.hbspt-form .hs-button.actionBtn {
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #c4c4c4;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all .5s;
+    width: 100%;
+    background: #181E53;
+    color: white;
+    white-space: pre-wrap;
+    cursor: pointer;
+}
+
+@media (min-width: 1025px) {
+    .header > .e-con-inner > .elementor-element:first-child {
+        width: 16%;
+    }
+    
+    .header > .e-con-inner > .elementor-element:last-child {
+        width: 84%;
+    }
+}
+
+@media (max-width: 767px) {
+    .requestConsultation .hbspt-form .hs-button.actionBtn {
+        font-weight: 600;
+    }
+    .header > .e-con-inner .elementor-button-link[href="/request-a-consultation/"] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

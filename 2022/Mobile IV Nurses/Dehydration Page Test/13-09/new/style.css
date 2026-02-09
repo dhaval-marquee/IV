@@ -1,0 +1,375 @@
+body {
+    visibility: hidden;
+}
+.hero_section+div,
+.hero_section+div+div,
+.best_therapy+div,
+.best_therapy+div+div {
+    display: none;
+}
+.hero_section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.hero_section .hero_left {
+    max-width: 400px;
+    width: 100%;
+}
+.hero_right {
+    max-width: calc(100% - 450px);
+    width: 100%;
+}
+.dehydration_causes {
+    margin: 30px auto 0;
+}
+.dehydration_causes h2+p,
+.dehydration_causes ul:last-of-type li {
+    font-weight: bold;
+}
+.dehydration_causes h2:last-of-type {
+    margin-top: 50px;
+}
+
+.best_therapy {
+    background-color: #F2F2F2;
+    padding: 50px 0;
+}
+.best_therapy h2 {
+    margin-bottom: 30px;
+}
+.best_therapy .product_iv {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+.best_therapy .product_iv+.product_iv {
+    margin-top: 50px;
+}
+.best_therapy .product_iv.product_1:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/v1661152738/mobileIVnurses/Pricing_and_Packages_Test/BestSellerIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.best_therapy .product_iv .image_wrapper {
+    max-width: 130px;
+    width: 100%;
+}
+.best_therapy .product_iv .image_wrapper img {
+    max-width: 100% !important;
+    max-height: 100%;
+    height: 220px !important;
+    object-fit: cover;
+}
+.best_therapy .product_iv .product_content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: calc(100% - 400px);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-right: auto;
+}
+.best_therapy .product_iv .product_content>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+.best_therapy .product_iv .product_content .content_right {
+    display: none;
+}
+.best_therapy .product_iv .product_content h2 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.best_therapy .product_iv .product_content h2 span.text_lowercase {
+    text-transform: lowercase;
+}
+.best_therapy .product_iv .product_content h2 span {
+    color: inherit;
+    font-size: 24px !important;
+    line-height: normal;
+}
+.best_therapy .product_iv .product_content h2>span {
+    display: inline-flex;
+    align-items: center;
+}
+.best_therapy .product_iv .product_content h3 {
+    color: #676767;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin-bottom: 30px;
+}
+.best_therapy .product_iv .product_content .content_left ul {
+    margin-bottom: auto;
+}
+.best_therapy .product_iv .product_content li {
+    position: relative;
+    color: #676767;
+    margin-bottom: 20px;
+}
+.best_therapy .product_iv .product_content .content_left li:before {
+    content: '\e841';
+    font-family: "mfn-icons";
+    overflow: hidden;
+    position: absolute;
+    font-size: 17px;
+}
+.best_therapy .product_iv .product_content ul.list_mixed {
+    max-height: 260px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+.best_therapy .product_iv .product_content>div li {
+    padding-left: 30px;
+}
+.best_therapy .product_iv .product_content ul li:before,
+.best_therapy .product_iv .product_content .content_left li:before {
+    top: 0;
+    left: 0;
+    color: #1b9d2c;
+}
+.best_therapy .product_iv p {
+    display: none;
+}
+.best_therapy .product_iv .button {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #1B9D2C !important;
+    transition: all 0.3s ease-in-out 0s;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 0 0 0 auto;
+    box-sizing: border-box;
+}
+.best_therapy .product_iv .button:hover {
+    background-color: #148924 !important;
+}
+.best_therapy .product_iv .button .button_icon {
+    display: none;
+}
+.best_therapy .product_iv .button .button_label {
+    margin-right: 0;
+}
+.best_therapy>.three_column .product_iv.product_14 .image_wrapper {
+    max-width: 180px;
+}
+.best_therapy a.learn_more_link {
+    margin-left: 30px;
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.faq_section {
+    padding: 80px 0 50px;
+}
+.faq_section h2 {
+    font-size: 32px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.faq_wrapper {
+    margin-bottom: 80px;
+}
+.faq_wrapper .faq-item {
+    margin-bottom: 40px;
+}
+.faq-item-heading {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+.faq_wrapper .faq-item h3 {
+    font-size: 18px;
+    line-height: normal;
+    color: #676767;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+.faq-icon {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.faq-icon:before,
+.faq-icon:after {
+    content: '';
+    background-color: #1b9d2c;
+    position: absolute;
+    -webkit-transition: -webkit-transform .25s ease-out;
+    transition: -webkit-transform .25s ease-out;
+    -o-transition: transform .25s ease-out;
+    transition: transform .25s ease-out;
+    transition: transform .25s ease-out, -webkit-transform .25s ease-out;
+}
+.faq-icon:before {
+    top: 0;
+    left: 50%;
+    width: 0.25rem;
+    height: 100%;
+    margin-left: -0.125rem;
+}
+.faq-icon:after {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 0.25rem;
+    margin-top: -0.125rem;
+}
+.faq-item-desc p {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.faq-item-desc {
+    display: none;
+}
+.faq-item.active .faq-icon:before {
+    display: none;
+}
+.faq_section ul {
+    list-style: disc inside;
+    margin: 20px 0;
+}
+.faq_section ul li {
+    padding: 5px 0;
+}
+
+@media (min-width: 992px) {
+    .best_therapy .product_iv .button {
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .hero_section .hero_left {
+        margin-bottom: 20px;
+    }
+
+    .best_therapy .product_iv {
+        flex-wrap: wrap;
+    }
+
+    .best_therapy .product_iv .product_content {
+        max-width: calc(100% - 130px);
+    }
+
+    .best_therapy .product_iv .button {
+        margin: 30px auto 10px;
+    }
+
+    .best_therapy .product_iv .product_content ul.list_mixed {
+        max-height: inherit;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero_section .hero_left {
+        max-width: 250px;
+    }
+
+    .hero_right {
+        max-width: calc(100% - 300px);
+    }
+
+    .hero_section .container {
+        align-items: flex-start;
+    }
+
+    .hero_section .hero_left img {
+        max-width: 100%;
+        min-height: 300px;
+        object-fit: cover;
+        object-position: -70px 0px;
+    }
+}
+
+
+
+@media (max-width: 767.98px) {
+    .iv_dehydration h2 {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .hero_section .container {
+        max-width: 550px !important;
+    }
+    .hero_section .hero_left,
+    .hero_section .hero_right {
+        max-width: 100%;
+    }
+
+    .best_therapy .product_iv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .best_therapy .product_iv .product_content {
+        max-width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .best_therapy .product_iv .product_content h2 {
+        font-size: 24px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .best_therapy .product_iv .product_content h2,
+    .best_therapy .product_iv .product_content h3 {
+        text-align: center;
+    }
+
+    .best_therapy .product_iv .product_content ul.list_mixed {
+        max-height: 180px;
+    }
+    .faq_wrapper {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .best_therapy .product_iv .product_content h2,
+    .best_therapy .product_iv .product_content h2>span {
+        font-size: 20px !important;
+    }
+
+    .best_therapy .product_iv .product_content h3 {
+        font-size: 18px;
+    }
+
+    .best_therapy .product_iv .product_content ul.list_mixed {
+        max-height: inherit;
+    }
+}

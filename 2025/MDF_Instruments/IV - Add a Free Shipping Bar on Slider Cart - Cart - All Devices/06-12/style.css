@@ -1,0 +1,79 @@
+:root {
+    --variantColor: #015DAA;
+}
+
+.iv-slider-cart .cart-drawer .free-shipping-bar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.iv-slider-cart .iv-progress {
+    border: 1px solid #e0e0e0;
+    border-radius: 30px;
+    padding: 3px;
+    margin-bottom: 8px;
+}
+
+.iv-slider-cart .iv-progress-container {
+    background-color: #e0e0e0;
+    border-radius: 30px;
+}
+
+.iv-slider-cart .progress-message {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.iv-slider-cart .iv-progress-message {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--variantColor);
+}
+
+.iv-slider-cart .iv-progress-dot {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 2px solid var(--variantColor);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.iv-slider-cart .iv-progress-dot.iv-free-unlock {
+    background-color: var(--variantColor);
+}
+
+.iv-slider-cart .cart-drawer .free-shipping-bar span.text-subdued {
+    display: none;
+}
+
+.iv-slider-cart #remaining {
+    margin-right: 3px;
+}
+
+.iv-slider-cart .iv-progress-bar {
+    width: 0;
+    height: 10px;
+    background-color: var(--variantColor);
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+
+
+@media(max-width: 767.98px) {
+    .iv-slider-cart .drawer::part(footer) {
+        padding-block-end: 8px !important;
+    }
+    .iv-slider-cart form.cart-drawer__footer {
+        gap: 8px;
+    }
+    .iv-slider-cart form.cart-drawer__footer .button-group{
+        gap: 8px;
+    }
+    .iv-slider-cart form.cart-drawer__footer .button-group #tm_cart {
+        padding: 5px !important;
+    }
+}

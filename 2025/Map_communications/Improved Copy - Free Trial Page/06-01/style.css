@@ -1,0 +1,13 @@
+.company-logos-block .company-logos .company-logo:nth-child(5) {
+    display: none;
+}
+
+#content .company-logos-block {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .trial-wrapper .trial-content ul {
+        margin-bottom: 20px;
+    }
+}

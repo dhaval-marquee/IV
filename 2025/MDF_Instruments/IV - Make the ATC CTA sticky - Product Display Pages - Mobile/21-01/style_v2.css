@@ -1,0 +1,21 @@
+@media (max-width: 767.98px) {
+    body {
+        padding-bottom: 44px;
+    }
+    
+    .buy-buttons button.sticky {
+        position: fixed;
+        bottom: 10px;
+        z-index: 9;
+        transform: translateX(50%);
+        right: 50%;
+        width: 100%;
+        max-width: 335px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 359.98px) {
+    .buy-buttons button.sticky {
+        max-width: 287px;
+    }
+}

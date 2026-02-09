@@ -1,0 +1,75 @@
+.banner_iv main.main-content {
+    padding-top: 38px;
+}
+
+.banner_iv .banner {
+    background-color: #44d1aa;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+.banner_iv .contentWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_iv .banner p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 10px ;
+    margin-bottom: 0;
+}
+
+.banner_iv .contentWrapper a.reset-btn {
+    margin: 0 0 0 20px;
+    height: inherit;
+    min-width: auto;
+}
+
+.banner_iv .contentWrapper a.reset-btn span {
+    line-height: normal;
+    padding: 7px 30px;
+}
+
+.banner_iv .contentWrapper a.reset-btn span:after {
+    display: none !important;
+}
+
+@media (max-width: 767.98px) {
+    .banner_iv .hero .hero__inner {
+        padding-top: 100px;
+    }
+
+    .banner_iv .banner p {
+        padding: 5px 24px 5px 0;
+    } 
+
+    .banner_iv .contentWrapper a.reset-btn {
+        margin: 0;
+    }
+    
+    .banner_iv .contentWrapper a.reset-btn span {
+        padding: 7px 10px;
+    }
+}
+@media (max-width: 425.98px) {
+    .banner_iv .banner p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 333.98px) {
+    .banner_iv #header-mobile .wishlist-cart {
+        min-width: 100px;
+    }
+}
+
+/* Control issue fixes */
+@media (min-width: 1200px) {
+    .section.section-has-title .section-name.active h4 {
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,169 @@
+.iv_text .content {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.iv_text .js-query-result-item .amw-panel {
+  overflow: hidden;
+}
+
+.iv_text .AddToCart-AddToCartAction {
+  max-width: 150px;
+  width: 100%;
+  margin-right: 10px;
+  position: relative;
+}
+
+.iv_text .AddToCart-ShareAction .amw-button {
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.iv_text .amw-button__inner--share-link {
+  display: none;
+}
+
+.iv_text .content .earn-text {
+  background-color: #f0fae5;
+  color: #107f47;
+  font-weight: 600;
+  padding: 8px;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 8px;
+}
+
+.iv_text .content p {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.iv_text .yCmsComponent.AddToCart-AddToCartAction::after {
+  content: "";
+  height: 130px;
+  width: 0.3px;
+  background-color: #b5b5b5;
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  transform: translate(-50%, -50%);
+}
+
+
+
+@media (max-width: 1181.98px) {
+ .iv_text .js-query-result-item .amw-panel {
+      flex-wrap: wrap;
+  }
+  
+  .iv_text #mobileWrapper {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: center;
+      padding-top: 25px;
+      margin-top: 25px;
+      border-top: 1px solid #b5b5b5;
+      width: 100%;
+      justify-content: left;
+  }
+  
+   .iv_text .yCmsComponent.AddToCart-AddToCartAction::after {
+      content: none;
+  }
+  
+  .iv_text .content {
+       max-width: 300px;
+       width: 100%;
+  }
+  .iv_text .AddToCart-ShareAction .amw-button{
+        padding-left: 0;
+  }
+
+}
+
+@media (max-width: 1024.98px){
+   .iv_text #mobileWrapper {
+     flex-direction: row-reverse;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .iv_text #mobileWrapper {
+      display: flex;
+      flex-direction: row-reverse;
+  }
+
+  .iv_text .content {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 0 10px;
+      max-width: 100%;
+  }
+  
+  .iv_text .content p{
+        margin-top: 0;
+      max-width: 250px;
+      width: 100%;
+  }
+}
+
+@media (max-width: 581.98px) {
+  .iv_text .js-query-result-item .amw-panel {
+      flex-wrap: wrap;
+  }
+
+  .iv_text .yCmsComponent.AddToCart-AddToCartAction::after {
+      content: none;
+  }
+
+  .iv_text #mobileWrapper {
+      width: 100%;
+      justify-content: left;
+      gap: 10px;
+      padding-top: 25px;
+      margin-top: 25px;
+      border-top: 1px solid #b5b5b5;
+  }
+
+  .iv_text .content {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      max-width: 100%;
+      padding: 0;
+  }
+  
+  .iv_text .content p{
+    margin-top: 0;
+  }
+
+  .iv_text .content .earn-text {
+      font-size: 12px;
+      line-height: normal;
+      padding: 7px;
+  }
+
+  .iv_text .AddToCart-ShareAction .amw-button {
+      padding-left: 0;
+  }
+}
+
+@media (max-width: 481.98px) {
+    .iv_text .content p {
+      font-size: 12px;
+      line-height: normal;
+  }
+  
+  .iv_text #mobileWrapper {
+      gap: 5px;
+ }
+  
+  .iv_text .content .earn-text{
+        text-wrap-mode: nowrap;
+  }
+  
+ 
+}

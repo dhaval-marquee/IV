@@ -1,0 +1,57 @@
+.popup_iv .video_btn {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.popup_iv .video_btn a {
+    font-weight: 700;
+}
+
+.popup_iv .video_btn a:hover {
+    color: rgba(20, 31, 97, .64);
+}
+
+.popup_iv .video_btn a i.fa-play-circle {
+    margin-left: 8px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.popup_iv .heartbeat {
+    animation: heartbeat 1.5s ease-in-out;
+}
+
+
+.popup_iv #dynamicContent {
+    display: none;
+}
+
+@media (max-width: 889.98px){
+    .popup_iv .video_btn{
+        max-width: 100%;
+        text-align: left;
+    }
+}
+
+@media (max-width: 640.98px){
+    .popup_iv .video_btn{
+        text-align: center;
+    }
+}

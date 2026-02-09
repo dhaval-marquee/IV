@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+.accreditation-iv .free-quote {
+    background-size: 100%;
+    padding: 75px 0;
+}
+
+.accreditation-iv .free-quote .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1760px;
+    width: 100%;
+    column-gap: 50px;
+}
+
+.accreditation-iv .free-quote .container:before,
+.accreditation-iv .free-quote .container:after {
+    display: none;
+}
+
+.accreditation-iv .accreditation-form {
+    max-width: 50%;
+}
+
+.accreditation-iv .free-quote .free-quote-inner {
+    margin-bottom: 20px;
+}
+
+.accreditation-iv .free-quote .free-quote-inner + p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.accreditation-iv .accreditation-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+.accreditation-iv .accreditation-section h1 {
+    font-size: 46px;
+    line-height: 60px;
+    color: #ffd31f;
+    text-align: center;
+    margin: 0;
+}
+
+.accreditation-iv .accreditation-section p {
+    font-size: 34px;
+    line-height: 44px;
+    margin-top: 10px;
+}
+
+
+.accreditation-iv .accreditation-section .accreditation-iv-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.accreditation-iv .accreditation-section .accreditation-iv-logos img[alt="BBB 100"] {
+    width: 90px;
+    border-radius: 10px;
+}
+
+.accreditation-iv .accreditation-section .accreditation-iv-logos img[alt="Women's Choice Award logo"] {
+    width: 180px;
+}
+
+.accreditation-iv .accreditation-section .accreditation-iv-logos img[alt="Allied Pro Mover"] {
+    width: 134px;
+}
+
+@media (min-width: 1025px) and (max-width: 1250px) {
+    .accreditation-iv .accreditation-section {
+        max-width: 40%;
+    }
+
+    .accreditation-iv .accreditation-form {
+        max-width: 60%;
+    }
+
+    .accreditation-iv .accreditation-section .accreditation-iv-logos {
+        gap: 25px;
+    }
+
+    .accreditation-iv .accreditation-section .accreditation-iv-logos img[alt="BBB 100"] {
+        width: 70px;
+    }
+
+    .accreditation-iv .accreditation-section .accreditation-iv-logos img[alt="Women's Choice Award logo"] {
+        width: 155px;
+    }
+
+    .accreditation-iv .accreditation-section .accreditation-iv-logos img[alt="Allied Pro Mover"] {
+        width: 109px;
+    }
+
+    .accreditation-iv .accreditation-form .free-quote-inner {
+        padding: 40px 30px;
+    }
+
+    .accreditation-iv .accreditation-form h2 {
+        font-size: 36px;
+    }
+
+    .accreditation-iv .accreditation-form .free-quote-form {
+        width: 100%;
+    }
+
+    .accreditation-iv .accreditation-form .free-quote-form .validation-summary-errors,
+    .accreditation-iv .accreditation-form .free-quote-form fieldset {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .accreditation-iv .free-quote .container {
+        column-gap: 30px;
+    }
+
+    .accreditation-iv .accreditation-section h1 {
+        font-size: 32px;
+        line-height: 40px;
+        color: #ffd31f;
+        text-align: center;
+        margin: 0;
+    }
+
+    .accreditation-iv .accreditation-section p {
+        font-size: 24px;
+        line-height: 34px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .accreditation-iv .free-quote .container {
+        flex-direction: column-reverse;
+    }
+
+    .accreditation-iv .accreditation-section,
+    .accreditation-iv .accreditation-form {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .accreditation-iv .free-quote .free-quote-inner + p {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .accreditation-iv .accreditation-section .accreditation-iv-logos {
+        max-width: 330px;
+        gap: 10px;
+    }
+
+    .accreditation-iv .accreditation-section .accreditation-iv-logos img {
+        max-width: 100%;
+    }
+
+    .accreditation-iv .accreditation-section .accreditation-iv-logos img[alt="BBB 100"] {
+        width: 66px;
+    }
+
+    .accreditation-iv .accreditation-section .accreditation-iv-logos img[alt="Women's Choice Award logo"] {
+        width: 200px;
+    }
+
+    .accreditation-iv .accreditation-section .accreditation-iv-logos img[alt="Allied Pro Mover"] {
+        width: 129px;
+    }
+}

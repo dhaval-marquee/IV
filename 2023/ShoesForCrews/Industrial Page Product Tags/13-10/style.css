@@ -1,0 +1,10 @@
+.feature-wrap > span {
+    background-color: #E6E2E2;
+    padding: 3px 8px;
+    display: inline-block;
+    margin: 5px 10px 0 0;
+    color: #000 !important;
+}
+div[class*="ProductThumbnail_thumbnailInner_"]:hover .feature-wrap span {
+    color: #000 !important;
+}

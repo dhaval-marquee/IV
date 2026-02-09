@@ -1,0 +1,80 @@
+function loadTestCode() {
+    if (!document.querySelector('body').classList.contains('iv-hero-section')) {
+        document.querySelector('body').classList.add('iv-hero-section');
+
+        const source = document.querySelector('.rich-content + .encapsulated-rich-content');
+        const thumbnail = document.querySelector('.iv-hero-section header.page-banner .thumbnail');
+        const originalParent = source?.parentElement;
+
+        let placeholder = null;
+        let moved = false;
+        const movingClass = 'moved-to-thumbnail';
+
+        // Helper: Add placeholder from label text
+        function syncLabelToPlaceholder(container) {
+            const labels = container.querySelectorAll('label[for]');
+            labels.forEach(label => {
+                const inputId = label.getAttribute('for');
+                const input = container.querySelector(`#${inputId}`);
+                if (input && !input.placeholder) {
+                    input.placeholder = label.textContent.trim();
+                }
+            });
+        }
+
+        // Helper: Remove all placeholder attributes from inputs inside container
+        function removePlaceholders(container) {
+            const inputs = container.querySelectorAll('input[placeholder]');
+            inputs.forEach(input => input.removeAttribute('placeholder'));
+        }
+
+        if (source && thumbnail && originalParent) {
+            // Create placeholder to return it later
+            placeholder = document.createElement('div');
+            placeholder.style.display = 'none';
+            originalParent.insertBefore(placeholder, source.nextSibling);
+
+            // Initial move to thumbnail
+            thumbnail.appendChild(source);
+            source.classList.add(movingClass);
+            syncLabelToPlaceholder(source);
+            moved = true;
+
+            const observer = new IntersectionObserver(
+                ([entry]) => {
+                    if (!entry.isIntersecting && moved) {
+                        // Header is offscreen, move back
+                        placeholder.parentNode.insertBefore(source, placeholder);
+                        source.classList.remove(movingClass);
+                        removePlaceholders(source);
+                        moved = false;
+                    } else if (entry.isIntersecting && !moved) {
+                        // Header is visible again, move to thumbnail
+                        thumbnail.appendChild(source);
+                        source.classList.add(movingClass);
+                        syncLabelToPlaceholder(source);
+                        moved = true;
+                    }
+                }, {
+                    root: null,
+                    threshold: 0,
+                }
+            );
+
+            const header = document.querySelector('.iv-hero-section header.page-banner');
+            if (header) {
+                observer.observe(header);
+            } else {
+                console.error('Header not found.');
+            }
+        } else {
+            console.error('Required elements not found.');
+        }
+    }
+}
+var checkCondition = setInterval(function() {
+    if (document.querySelectorAll('body').length > 0) {
+        clearInterval(checkCondition);
+        loadTestCode();
+    }
+}, 100);

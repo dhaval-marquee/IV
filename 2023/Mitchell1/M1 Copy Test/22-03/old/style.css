@@ -1,0 +1,35 @@
+.m1_hero_test .hero-section{
+    min-height: 420px;
+}
+.m1_hero_test .hero-section .inner-content h1 {
+    text-align: left;
+    padding: 0 10px 0 30px;
+    margin-bottom: 8px;
+}
+.m1_hero_test .hero-section .inner-content h1 span {
+    color: #FFC729;
+}
+.m1_hero_test .hero-section .inner-content h2 {
+    font-family: 'HelveticaNeueLTStd-Md';
+    color: #fff;
+    text-align: left;
+    padding: 0 10px 0 30px;
+    margin-bottom: 0;
+}
+.m1_hero_test .hero-section .inner-content h2.auto_Shop {
+    color: #FFC729;
+}
+.m1_hero_test .hero-section .inner-content ul {
+    margin-top: 15px;
+}
+.m1_hero_test .hero-section .inner-content ul li:before {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1677139331/mitchell1/M1_Copy_Test/checkmark_gold.png');
+}
+.m1_hero_test .keys h2{
+    color: #67686A;
+}
+
+.m1_hero_test .hero-section .inner-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

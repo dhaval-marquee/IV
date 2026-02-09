@@ -1,0 +1,47 @@
+.iv-HeroBullet #section-hero h1 {
+    display: none;
+}
+
+.iv-HeroBullet #section-hero h1 + p {
+    font-size: 42px;
+    line-height: normal;
+    max-width: 900px;
+}
+
+.iv-HeroBullet #section-hero ul {
+    width: 100%;
+    max-width: 440px;
+    text-align: left;
+    list-style: disc;
+    margin: 0 auto 30px;
+}
+
+.iv-HeroBullet #section-hero ul + a.gb-button {
+    padding: 18px 60px;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .iv-HeroBullet #section-hero ul li {
+        font-size: 25px;
+        line-height: normal;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .iv-HeroBullet #section-hero h1 + p {
+        font-size: 23px;
+    }
+
+    .iv-HeroBullet #section-hero ul {
+        max-width: 300px;
+    }
+
+    .iv-HeroBullet #section-hero ul + a.gb-button {
+        font-size: 20px;
+        width: 100%;
+        padding: 10px 30px;
+        margin-top: 10px;
+    }
+}

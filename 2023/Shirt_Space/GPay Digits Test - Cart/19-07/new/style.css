@@ -1,0 +1,39 @@
+
+button[aria-label="Buy with GPay"] iframe {
+    visibility: hidden;
+}
+button[aria-label="Buy with GPay"] {
+    position: relative;
+}
+
+button[aria-label="Buy with GPay"]:before, button[aria-label="Buy with GPay"]:after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    pointer-events: none;
+}
+
+button[aria-label="Buy with GPay"]:before {
+    content: 'Buy with';
+    right: 48.5%;
+}
+
+button[aria-label="Buy with GPay"]:after {
+    content: 'Pay';
+    left: 50%;
+    background-image: url('https://www.svgrepo.com/show/303108/google-icon-logo.svg');
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: left 10px top 0px;
+    padding-left: 27px;
+}
+
+
+@media (max-width: 767px) {
+    button[aria-label="Buy with GPay"]:before {
+        right: 49.4%;
+    }
+}

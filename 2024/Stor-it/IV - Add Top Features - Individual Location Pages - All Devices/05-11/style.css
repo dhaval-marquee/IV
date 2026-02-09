@@ -1,0 +1,9 @@
+.location_iv .features_items {
+    font-weight: 700;
+}
+.location_iv .features_item {
+    margin-bottom: 22px;
+}
+.location_iv .candee .features_item li {
+    margin-left: 8px;
+}

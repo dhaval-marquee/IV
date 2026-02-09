@@ -1,0 +1,74 @@
+.iv-homepage .p-section-hero h2 {
+    text-align: center;
+    padding: 0 0 100px;
+}
+.iv-homepage .p-section-hero .container {
+    width: 100%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.iv-homepage .p-section-hero h3 {
+    font-family: DomD Reg, Georgia, serif;
+    color: #000;
+    font-size: 40px;
+    line-height: normal;
+}
+.iv-homepage .p-section-hero p {
+    font-size: 20px;
+}
+.iv-homepage .showroomSection a.customButtons {
+    font-size: 20px;
+    text-transform: inherit;
+    width: 100%;
+    max-width: 230px;
+    margin-top: 32px;
+}
+.showroomSection .row {
+    align-items: center;
+}
+.showroomSection .row > div + div img {
+    width: 100%;
+    max-width: 700px;
+}
+/* v2 only  */
+.iv-homepage.iv-homepage-v2 .p-section-hero ul li {
+    position: relative;
+}
+.iv-homepage.iv-homepage-v2 .p-section-hero ul li:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #888888;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    margin-top: 8px;
+    margin-left: -22px;
+}
+
+/* v2 only  end*/
+
+@media (max-width: 991.98px) {
+    .iv-homepage .p-section-hero h2 {
+        padding: 32px 0;
+    }    
+}
+@media (max-width: 575.98px) {
+    .iv-homepage .p-section-hero h2 {
+        font-size: 29px;
+    }
+    .iv-homepage .p-section-hero h3 {
+        font-size: 25px;
+    }
+    .iv-homepage .showroomSection a.customButtons {
+        font-size: 16px;
+        max-width: 180px;
+        display: block;
+        margin: 32px 0 0;
+        padding: 14px;
+    }
+}

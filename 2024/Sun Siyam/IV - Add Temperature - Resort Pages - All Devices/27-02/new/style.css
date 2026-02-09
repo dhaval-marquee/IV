@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@1,600&display=swap');
+
+.local-info {
+    font-family: "Oswald", "Neue Helvetica W05",sans-serif;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.local-info img {
+    max-width: 20px;
+    width: 100%;
+}
+
+.intro h1 {
+    margin-bottom: 15px;
+}
+
+.intro h3 {
+    margin-bottom: 20px;
+}

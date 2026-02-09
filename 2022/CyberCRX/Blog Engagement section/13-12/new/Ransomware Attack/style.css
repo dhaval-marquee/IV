@@ -1,0 +1,22 @@
+.cybergrx_test .supply_text{
+    display: none;
+}
+.cybergrx_test ul.blogEngagement_text{
+    margin-top: 18px;
+}
+.cybergrx_test ul.blogEngagement_text li{
+    position: relative;
+}
+.cybergrx_test ul.blogEngagement_text li:before{
+    content: "" !important;
+    background-image: url(https://res.cloudinary.com/ignite-visibility/image/upload/v1670914094/CyberGRX/Blog_Engagement_section/Blog_Bullet_2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin: -8px 0px 0 -4px;
+  }
+  
+  

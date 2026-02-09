@@ -1,0 +1,142 @@
+.iv-sticky-header header .main-header-container{
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.iv-header-btn {
+    background-color: #e61d30;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s;
+    height: fit-content;
+    line-height: 20px;
+    margin: 0;
+}
+.iv-header-btn:hover{
+    background-color: #455775;
+    color: #fff;
+}
+.iv-sticky-header .topbar .elementor-hidden-desktop,
+.iv-sticky-header .topbar .iv-topbar-btn{
+    display: none;
+}
+.iv-sticky-header header .main-header-bar.sticky-header{
+    border: transparent;
+    top: 36px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+    width: 100%;
+}
+
+@media (min-width: 922px) and (max-width: 1024px) { 
+    .iv-sticky-header header .main-header-bar.sticky-header{
+        top: 46px;
+    }
+    .iv-sticky-header header .main-header-bar-wrap{
+        margin-top: 46px;
+    }   
+}
+
+@media (min-width: 922px) and (max-width: 1240px) {
+    .iv-sticky-header header nav ul li.menu-item a{
+        padding: 0 4px !important;
+        font-size: 14px;
+    }
+    .iv-header-btn {
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+    .iv-sticky-header header .main-header-bar.sticky-header .custom-logo,
+    .iv-sticky-header header .custom-logo-link img{
+        max-width: 160px !important;
+    }
+    .iv-sticky-header header .main-header-bar .ast-main-header-bar-alignment{
+        margin: 0;
+    }
+}
+
+@media (max-width: 921px) {
+    .iv-sticky-header header .main-header-bar.sticky-header{
+        top: 0;
+    }
+    .iv-sticky-header header .main-header-bar-wrap{
+        margin-top: 0;
+    }
+    .iv-sticky-header header .site-branding{
+        order: 2;
+    }
+    .iv-sticky-header header .ast-mobile-menu-buttons{
+        order: 1;
+    }
+    .iv-header-btn{
+        order: 3;
+    }
+    .iv-sticky-header .iv-main-topbar{
+        position: fixed !important;
+        bottom: 0 !important;
+    }
+    .iv-sticky-header .topbar > div{
+        justify-content: center;
+    }
+    .iv-sticky-header .topbar .topbar-links ul li a {
+        justify-content: center;
+    }
+    .iv-sticky-header .topbar .topbar-links ul li a .elementor-icon-list-text{
+        color: #e61d30;
+    }
+    .iv-sticky-header .topbar .elementor-top-column{
+        width: 100%;
+    }
+    .iv-sticky-header header .main-header-bar .ast-container{
+        padding: 10px;
+    }
+    .iv-sticky-header header .main-header-bar{
+        padding: 0;
+    }
+    .iv-sticky-header .topbar .elementor-top-column .elementor-element-populated{
+        padding: 0 10px;
+    }
+    .iv-sticky-header .topbar .topbar-links ul{
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .iv-sticky-header .topbar .topbar-links ul li{
+        width: 50%;
+    }
+    .iv-sticky-header .topbar .topbar-links ul li a{
+        padding: 10px 0;
+    }
+    .iv-sticky-header header .site-branding .ast-site-identity{
+        padding: 0;
+    }
+    .iv-sticky-header header .ast-mobile-menu-buttons button.menu-toggle {
+        padding-left: 0;
+    }
+    .iv-sticky-header header .main-header-container {
+        flex-wrap: wrap;
+    }
+    .iv-sticky-header .topbar {
+        background-color: #fff !important;
+        box-shadow: 0 -1px 10px 0 rgba(172, 171, 171, .3);
+    }  
+
+}
+
+@media (max-width: 767px) {
+    .iv-header-btn{
+        padding: 8px 13px;
+        font-size: 13px;
+    }
+    .iv-sticky-header header .site-branding .ast-site-identity{
+        padding: 0;
+    }
+    .iv-sticky-header header .site-branding img, 
+    .site-header .site-logo-img .custom-logo-link img {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .iv-sticky-header .topbar{
+        padding: 0 !important;
+    }
+    
+}

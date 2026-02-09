@@ -1,0 +1,224 @@
+body {
+	visibility: hidden;
+}
+.iv_materials .Header-branding,
+.iv_materials .Mobile-bar--top{
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    -webkit-filter: none;
+    filter: none;
+    opacity: 1;
+}
+.iv_materials .Mobile-bar--top > div:last-child,
+.iv_materials .Header-inner > div:last-child,
+.iv_materials .accountLinks{
+	display: none !important;
+}
+
+.iv_materials .demo-block > .demo-content h2 {
+	font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #000;
+}
+.iv_materials .demo-block > .demo-content {
+    position: relative;
+}
+.iv_materials .demo-block > .demo-content:after {
+    content: "";
+    background-image: url(//res.cloudinary.com/ignite-visibility/image/upload/f_auto/wazer/request-your-live-1-on-1-demo/swooping-arrow.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 320px;
+    width: 830px;
+    bottom: -30px;
+    left: 0;
+    transform: translateX(-90px) rotate(45deg) scale(0.38);
+}
+.iv_materials .demo-block > .demo-content h3 {
+	font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 24px;
+    text-align: left;
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.iv_materials .demo-block > .demo-content h3 span {
+    line-height: 24px;
+    font-size: 18px;
+}
+.iv_materials .demo-block > .demo-content ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.iv_materials .demo-block > .demo-content ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #111111;
+    position: relative;
+    padding-left: 20px;
+    white-space: nowrap;
+}
+.iv_materials .demo-block > .demo-content ul li:before {
+    content: "\2713";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #F5A328;
+    font-weight: 600;
+}
+
+/*Form design*/
+.iv_materials .fsBody .fsForm {
+    background: #FFFFFF !important;
+    border: 2px solid #8c8c8c;
+    margin: 0;
+}
+.iv_materials div.fsError {
+	display: none;
+}
+.iv_materials .fsBody .fsForm .fsSectionHeader {
+    padding: 0;
+    margin-bottom: 30px;
+}
+.iv_materials .fsBody .fsForm h2 {
+	font-size: 22px;
+	color: #000;
+}
+.iv_materials .fsForm .fsSubmit {
+    margin-top: 0;
+    padding: 0;
+    text-align: left;
+}
+.iv_materials .fsBody .custom-material-block > div {
+    margin-bottom: 0 !important;
+}
+.iv_materials .fsBody .custom-material-block > div.fsFieldFocused {
+    padding-bottom: 0 !important;
+}
+.iv_materials .fsForm .fsSubmit input {
+    background-color: #1B9D2C !important;
+    font-size: 20px !important;
+    max-width: 325px;
+    width: 100%;
+    min-height: 55px;
+    padding: 10px;
+}
+
+/* Client logo */
+
+.iv_materials .demo-client-logos {
+    margin-top: 20px;
+}
+.iv_materials .demo-client-logos h3 {
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.iv_materials .image-wrapper {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.iv_materials .image-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:641px) {
+	.iv_materials form .fsSection .fsLastRow:not(.fsHidden):nth-child(4),
+	.iv_materials form .fsSection .fsLastRow:not(.fsHidden):nth-child(6) {
+		width: calc(50% - 15px);
+        margin-right: 15px;
+    	display: inline-block;
+	    margin-bottom: 0 !important;
+	}
+	.iv_materials form .fsSection .fsLastRow:not(.fsHidden):nth-child(5){
+		width: 50%;
+		display: inline-block;
+	    margin-bottom: 0 !important;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1199.98px) {
+	.iv_materials form .fsSection .fsLastRow:not(.fsHidden):nth-child(6) {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.iv_materials .demo-block > .demo-content ul li {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width:992px) {
+	.iv_materials .fsBody {
+		padding-top: 0;
+	}
+}
+
+@media screen and (max-width:991.98px) {
+	.iv_materials .Header-inner > div:first-child,
+	.Mobile-bar--top > div:first-child {
+	    justify-content: center;
+	}
+	.iv_materials .demo-block > .demo-content > h3, 
+	.iv_materials .demo-block > .demo-content ul {
+		display: none;
+	}
+	.iv_materials .Main-content .sqs-layout .sqs-col-6 {
+	    width: 100%;
+	    display: flex;
+	}
+	.iv_materials .demo-block > .demo-content:after {
+		content: none;
+	}
+	.iv_materials .demo-block > .demo-content h2, 
+	.iv_materials .demo-block > .demo-content h3 {
+		text-align: center;
+	}
+	.iv_materials .demo-block > .demo-content h2 {
+	    font-size: 22px;
+    	font-weight: 600;
+	}
+}
+
+@media screen and (max-width:767.98px) {
+	.iv_materials .fsBody .fsForm h2 {
+	    font-size: 18px;
+	}
+	.iv_materials .fsBody .fsForm {
+		padding: 30px 15px;
+	}
+	.iv_materials .fsLabelVertical .fsLabel {
+	    font-size: 14px;
+	}
+	.iv_materials .demo-block > .demo-content h3 span {
+	    line-height: 22px;
+	    font-size: 16px;
+	}
+	.iv_materials .fsForm .fsSubmit input {
+		font-size: 18px !important;
+    	padding: 15px;
+	}
+}
+
+
+@media screen and (max-width:640.98px) {
+    .iv_materials .fsForm .fsSubmit input {
+        max-width: 100%;
+    }
+}

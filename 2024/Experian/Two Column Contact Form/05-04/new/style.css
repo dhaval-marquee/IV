@@ -1,0 +1,43 @@
+section#contact {
+    background-color: transparent;
+}
+#contact.form-section .form-description {
+    text-align: center;
+}
+#contactForm > .form-group.floatl.text-area {
+    max-width: 100%;
+}
+#contactForm > .form-group.floatl.text-area + .form-group + .form-group {
+    width: 100%;
+}
+#contactForm > .form-group.floatl.text-area + .form-group + .form-group button {
+    width: 100%;
+}
+@media (min-width: 478px) {
+    #contact .container {
+        max-width: 575px;
+    }
+    #contact .col-lg-6 {
+        max-width: 575px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #contactForm {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #contactForm > .form-group.floatl {
+        max-width: 48.5%;
+        width: 100%;
+    }
+    #contactForm > .form-group.floatl.text-area + .form-group + .form-group {
+        width: 50%;
+        margin: 0 auto 16px;
+    }
+    .form-renderer .terms, .form-section .terms {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

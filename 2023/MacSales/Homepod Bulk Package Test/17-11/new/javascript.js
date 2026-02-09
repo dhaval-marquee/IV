@@ -1,0 +1,1 @@
+document.querySelector('#pdp-header__condition').innerText = 'Repackaged by Apple | New';

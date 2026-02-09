@@ -1,0 +1,22 @@
+a.secondary-btn-iv {
+    max-width: 196px;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgb(255 255 255 / 30%);
+    border-radius: 3px;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 1.6rem;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a.secondary-btn-iv:hover {
+    background-color: #ffffff0f;
+}
+
+@media (max-width: 969px) {
+    a.secondary-btn-iv {
+        max-width: 100%;
+    }
+}

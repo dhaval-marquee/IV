@@ -1,0 +1,85 @@
+.cyberGRX_test .mod-banner.mod-banner-l .col-right-chart .img-canvas,
+.cyberGRX_test .mod-banner.mod-banner-l .cont-r-landing p:nth-child(3),
+.cyberGRX_test .mod-banner-3.mod-banner-home .mark-skew-white,
+.cyberGRX_test #main-content .hs_cos_wrapper+div.hs_cos_wrapper_type_module{
+    display: none;
+}
+
+.cyberGRX_test .mod-banner-3 .control-hiden-baner .row>*{
+    z-index: 22;
+}
+.cyberGRX_test .mod-banner.mod-banner-l{
+    margin-bottom: 0;
+}
+.cyberGRX_test .mod-banner.mod-banner-l .col-right-chart{
+    position: inherit;
+}
+/* .cyberGRX_test .mod-banner.mod-banner-l .col-right-chart label[placeholder="Enter your Business Email"]{
+    position: absolute;
+    top: -2px;
+    left: 25px;
+    z-index: 1;
+    font-size: .6875rem;
+    padding: 0 10px;
+    color: #516d8a;
+    line-height: 35px;
+} */
+.cyberGRX_test .mod-banner.mod-banner-l .d-table .align-items-center{
+    align-items: inherit !important;
+}
+
+.cyberGRX_test .mod-banner.mod-banner-l .cont-r-landing{
+    padding-top: 70px;
+}
+.cyberGRX_test .mod-banner.mod-banner-l .cont-r-landing p span{
+    display: block;
+    margin-bottom: 70px;
+}
+.cyberGRX_test .mod-banner.mod-banner-l .content-banner{
+    position: relative;
+}
+.cyberGRX_test .mod-banner.mod-banner-l .content-banner::after{
+    content: "";
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1677308186/CyberGRX/New_Lander_For_TPCRM_For_Dummies/green_arrow.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 190px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 0px;
+    transform: rotate(0deg);
+}
+.cyberGRX_test .hbspt-form .hs-form .hs-fieldtype-text label{
+    cursor: text;
+}
+.cyberGRX_test .hbspt-form .hs-form .hs-fieldtype-text.has-text label{
+    cursor: pointer;
+}
+.cyberGRX_test .hbspt-form .hs-form >div:first-child,
+.cyberGRX_test .hbspt-form .hs-form .hs-dependent-field{
+    width: 100%;
+}
+.cyberGRX_test .hbspt-form .hs-form >div:first-child .hs_email,
+.cyberGRX_test .hbspt-form .hs-form .hs-dependent-field .hs_country,
+.cyberGRX_test .hbspt-form .hs-form .hs-dependent-field .hs_state{
+    max-width: 100%;
+}
+
+@media (max-width: 991.98px){
+    .cyberGRX_test .mod-banner.mod-banner-l .content-banner::after{
+        display: none;
+    }
+    .cyberGRX_test .mod-banner.mod-banner-l .cont-r-landing{
+        padding-top: 20px;
+    }
+    .cyberGRX_test .mod-banner.mod-banner-l .cont-r-landing p span{
+        margin-bottom: 20px;
+    }
+    .cyberGRX_test .mod-banner.mod-banner-l .col-right-chart{
+        margin: 0 auto;
+    }
+}
+ 

@@ -1,0 +1,202 @@
+.iv-promo-tiles-box {
+    border: 1px solid #dfdfdf;
+}
+.iv-promo-heading {
+    background-color: #ee1161;
+    padding: 20px 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.iv-promo-content {
+    padding: 10px 6px;
+}
+.iv-promo-list {
+    width: 100%;
+    list-style: none;
+    max-width: 250px;
+    margin: 40px auto 50px;
+    padding: 0 15px;
+}
+.iv-promo-list li {
+    font-size: 16px;
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 8px;
+}
+.iv-promo-list li:last-child {
+    margin-bottom: 0;
+}
+.iv-promo-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #ee1161;
+    border-radius: 50%;
+}
+.iv-promo-free-value {
+    background-color: #FFF1F6;
+    padding: 15px;
+    border-radius: 5px;
+    height: 100%;
+    min-height: 150px;
+    text-align: center;
+}
+.iv-promo-free-value {
+    background-color: #FFF1F6;
+    padding: 15px;
+    border-radius: 5px;
+    height: 100%;
+    min-height: 140px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.iv-promo-free-value p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    max-width: 325px;
+}
+.iv-promo-free-value p strong {
+    font-weight: 700;
+    color: #000;
+}
+
+.iv-promo-tiles .product-list[collection-desktop-layout="large"] .iv-promo-box-2,
+.iv-promo-tiles .product-list[collection-desktop-layout="medium"] .iv-promo-box-2,
+.iv-promo-tiles .product-list[collection-desktop-layout="compact"] .iv-promo-box-2{
+    display: none;
+}
+
+@media (max-width: 1550px) {
+    .iv-promo-list { 
+        margin: 20px auto 30px; 
+    }
+}
+
+
+@media (min-width: 700px) and (max-width: 1399px) {
+    .iv-promo-tiles .product-list[collection-desktop-layout="large"] .iv-promo-box-2,
+    .iv-promo-tiles .product-list[collection-desktop-layout="medium"] .iv-promo-box-2,
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] .iv-promo-box-2{
+        display: block;
+    }
+    .iv-promo-tiles .product-list[collection-desktop-layout="large"] .iv-promo-box-1,
+    .iv-promo-tiles .product-list[collection-desktop-layout="medium"] .iv-promo-box-1,
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] .iv-promo-box-1{
+        display: none;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    .iv-promo-tiles .product-list[collection-desktop-layout="medium"] .iv-promo-heading { 
+        padding: 15px 5px; 
+        font-size: 14px; 
+    }
+    .iv-promo-tiles .product-list[collection-desktop-layout="medium"] .iv-promo-list {
+        margin: 10px auto 20px;
+    }
+    .iv-promo-tiles .product-list[collection-desktop-layout="medium"] .iv-promo-free-value { 
+        padding: 15px 10px; 
+        min-height: 120px;
+    } 
+    .iv-promo-tiles .product-list[collection-desktop-layout="medium"] .iv-promo-list li,
+    .iv-promo-tiles .product-list[collection-desktop-layout="medium"] .iv-promo-free-value p {
+        font-size: 14px; 
+        line-height: 20px;
+    } 
+}
+
+@media (min-width: 700px) {
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] .iv-promo-heading { 
+        padding: 10px 5px; 
+        font-size: 14px; 
+    }
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] .iv-promo-list {
+        margin: 5px auto 15px;
+        padding: 0 10px;
+        max-width: 200px;
+    }
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] .iv-promo-free-value { 
+        padding: 10px 5px; 
+        min-height: 100px;
+    } 
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] .iv-promo-list li {
+        padding-left: 15px;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] .iv-promo-list li,
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] .iv-promo-free-value p {
+        font-size: 14px; 
+    } 
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] .iv-promo-list li::before { 
+        width: 6px;
+        height: 6px; 
+    }  
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] {
+        column-gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1400px) {
+    .iv-promo-tiles .product-list[collection-desktop-layout="compact"] { 
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (max-width: 999px) {
+    .iv-promo-list { 
+        margin: 15px auto 25px;
+        padding: 0 10px; 
+    } 
+}
+
+@media (max-width: 550px) {
+    .iv-promo-heading {
+        font-size: 14px; 
+        padding: 15px 5px;
+    }
+    .iv-promo-list {
+        margin: 5px auto 15px; 
+        max-width: 200px;
+    }
+    .iv-promo-list li {
+        font-size: 14px; 
+        padding-left: 18px;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+    .iv-promo-list li::before { 
+        width: 6px;
+        height: 6px; 
+    }   
+    .iv-promo-free-value {
+        padding: 10px;
+        min-height: 110px;
+    }
+    .iv-promo-free-value p {
+        font-size: 14px; 
+    }
+} 
+
+/* V2 */
+.iv-promo-tiles-v2 .iv-promo-heading {
+    background-color: #005BAA;
+}
+.iv-promo-tiles-v2 .iv-promo-list li::before {
+    background-color: #005BAA;
+}
+.iv-promo-tiles-v2 .iv-promo-free-value {
+    background-color: #CFE6FE;
+}   

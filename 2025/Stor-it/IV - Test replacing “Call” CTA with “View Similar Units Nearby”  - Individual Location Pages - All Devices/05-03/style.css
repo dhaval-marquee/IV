@@ -1,0 +1,25 @@
+.iv-LocationPage .candee .unitButtonsWrapper .action {
+    border-radius: 4px;
+}
+@media(min-width: 769px) {
+    .iv-LocationPage .candee .unitsList .unitCellRightGroup {
+        display: flex;
+        justify-content: space-between;
+    }
+    .iv-LocationPage #units_theme_3.units_theme_1 .unitsCellMid {
+        width: calc(100% - 290px);
+    }
+    .iv-LocationPage #units_theme_3.units_theme_1 .unitsCellRight {
+        width: 292px;
+    }
+    .iv-LocationPage .candee .unitsList .unitCellRightGroup .cardPrice {
+        max-width: 160px;
+        margin-left: auto;
+    }
+    .iv-LocationPage .candee .unitButtonsWrapper .action {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 4px;
+    }
+
+}

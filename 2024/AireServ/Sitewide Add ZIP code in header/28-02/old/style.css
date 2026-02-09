@@ -1,0 +1,56 @@
+@media (max-width: 767px) {
+    body .location-section {
+        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
+        z-index: 1111;
+        background-color: #07254c;
+        color: #fff;
+        width: 100%;
+        left: 0;
+        top: 100%;
+        justify-content: center;
+        padding: 7px 0;
+    }
+
+    body .location-section a img {
+        display: none;
+    }
+
+    body .location-section small {
+        display: none;
+    }
+
+    body .location-section strong {
+        color: #fff;
+        font-weight: 400;
+        font-family: gothambook;
+        font-size: 15px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    body .location-section a {
+        font-size: 0;
+    }
+
+    body .location-section a:after {
+        content: 'Change';
+        text-decoration: underline;
+        color: #fff;
+        font-size: 15px;
+        font-weight: normal;
+        font-family: gothambook;
+    }
+
+    body .location-section strong:before {
+        content: '';
+        width: 15px;
+        height: 20px;
+        display: inline-block;
+        background-image: url('https://www.aireserv.com/us/en-us/aire-serv/_assets/images/location.svg');
+        background-size: cover;
+        margin-right: 5px;
+    }
+}

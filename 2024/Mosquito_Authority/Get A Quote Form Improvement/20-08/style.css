@@ -1,0 +1,44 @@
+.quote_form_iv p.form-modal-desc {
+    margin-bottom: 0;
+}
+
+.quote_form_iv form.contact-form fieldset p {
+    max-width: calc(50% - 5px);
+    float: none !important;
+    margin-top: 15px !important;
+}
+
+.quote_form_iv form.contact-form fieldset {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quote_form_iv #form-modal .contact-form *::-webkit-input-placeholder {
+    color: white;
+}
+
+.quote_form_iv #form-modal .contact-form *::-moz-placeholder {
+    color: white;
+}
+
+.quote_form_iv #form-modal .contact-form *:-ms-input-placeholder {
+    color: white;
+}
+
+.quote_form_iv #form-modal .contact-form *:-moz-placeholder {
+    color: white;
+}
+
+.quote_form_iv #form-modal .submit {
+    margin-top: 20px;
+}
+
+.quote_form_iv #form-modal .contact-form fieldset p+div.input-group:has(.g-recaptcha) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}

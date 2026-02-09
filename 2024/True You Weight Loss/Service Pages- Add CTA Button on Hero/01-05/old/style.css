@@ -1,0 +1,40 @@
+.surgeryPage_iv #section-16-143 .ct-section-inner-wrap{
+	display: block;
+}
+.surgeryPage_iv #section-16-143 h1 {
+	text-align: center;
+}
+.surgeryPage_iv #section-16-143 h2.subHeadline {
+	font-family: Raleway;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
+}
+
+.surgeryPage_iv .hero_btn {
+	width: 100%;
+    max-width: 330px;
+    display: flex;
+    justify-content: center;
+	font-weight: 600;
+    border-radius: 25px;
+	background-color: #ed8b00;
+    border: 1px solid #ed8b00;
+	color: #fff;
+	margin: 24px auto 0;
+	padding: 10px 16px;
+}
+.surgeryPage_iv .hero_btn:hover {
+	background-color: #132137;
+    border: 1px solid #132137;
+	color: #5a5b9f;
+}
+@media (max-width: 767.98px) {
+	.surgeryPage_iv #section-16-143 h2.subHeadline {
+		font-size: 24px;
+		line-height: 34px;
+		margin-top: 20px;
+	}
+}

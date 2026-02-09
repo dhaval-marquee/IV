@@ -1,0 +1,121 @@
+@media (min-width: 768px) {
+    body {
+        visibility: hidden;
+    }
+    .section_wrapper {
+        background-color: #FFFFFF;
+    }
+    .section_1 .elementor-image {
+        border: 1px solid #000000;
+        background-color: #FFFFFF;
+        padding: 10px 20px;
+    }
+    .section_1 .elementor-image > h6 {
+        color: #000000;
+    }
+    .section_1 .elementor-image .pre_caution {
+        list-style-type: none;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .section_1 .elementor-image .pre_caution li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .section_1 .elementor-image .pre_caution li p {
+        margin: 0;
+        text-align: left;
+    }
+    .section_1 .elementor-image .pre_caution li img {
+        margin-right: 15px;
+    }
+    .section_1 .right_content .element_1 {
+        max-width: 100%;
+    }
+    .section_1 .right_content .element_2 {
+        margin-bottom: 10px;
+    }
+    .section_1 .right_content .element_3 {
+        margin-top: 15px;
+    }
+    .section_1 .right_content .pl-cart-buttons {
+        gap: 20px;
+    }
+    .section_1 .right_content .pl-cart-buttons .pl-add-to-cart {
+        border-radius: 0 !important;
+        min-width: auto;
+        height: auto;
+        padding: 12px 12px 12px 0 !important;
+    }
+    .woocommerce .section_1 form .quest {
+        background-color: #F7AC08 !important;
+    }
+    .woocommerce .section_1 form .quest:hover {
+        background-color: #C18024 !important;
+    }
+    .woocommerce .section_1 form .labcorp {
+        background-color: #0853F7 !important;
+    }
+    .woocommerce .section_1 form .labcorp:hover {
+        background-color: #0080B8 !important;
+    }
+
+    /* How it Works */
+    .how_it_work {
+        background-color: #019988;
+        padding: 50px 0;
+        text-align: center;
+    }
+    .how_it_work .container {
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .how_it_work h3,
+    .how_it_work h5,
+    .how_it_work p {
+        color: #FFFFFF;
+        margin: 0;
+    }
+    .how_it_work h3 {
+        font-size: 26px;
+    }
+    .how_it_work h5 {
+        margin-bottom: 25px;
+    }
+    .how_it_work .desc {
+        font-size: 20px;
+        line-height: normal;
+        font-weight: 300;
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .how_it_work .content_block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .how_it_work .content_block .content_box {
+        width: 100%;
+        max-width: calc(100% / 3 - 50px);
+    }
+
+    /* Tabs */
+    .woocommerce div.product .section_2 ul.tabs {
+        display: none;
+    }
+    .woocommerce div.product .section_2 .woocommerce-tabs .panel {
+        border-top: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section_1 .elementor-col-50:first-child {
+        width: 40%;
+    }
+    .section_1 .elementor-col-50:last-child {
+        width: 60%;
+    }
+}

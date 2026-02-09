@@ -1,0 +1,23 @@
+.linkedin_iv .testimonial-section,
+.linkedin_iv li#field_17_1 > label,
+.linkedin_iv #gform_17 ul.gform_fields li#field_17_5,
+.linkedin_iv #gform_17 ul.gform_fields li#field_17_6,
+.linkedin_iv #gform_17 .gfield--type-textarea ,
+.linkedin_iv li#field_19_1 > label,
+.linkedin_iv #gform_19 ul.gform_fields li#field_19_5,
+.linkedin_iv #gform_19 ul.gform_fields li#field_19_6,
+.linkedin_iv #gform_19 .gfield--type-textarea ,
+.linkedin_iv #container .testimonial-section +.trial-section {
+    display: none;
+}
+
+.linkedin_iv #gform_17 ul.gform_fields li.gfield span.name_first label,
+.linkedin_iv #gform_17 ul.gform_fields li.gfield span.name_last label,
+.linkedin_iv #gform_19 ul.gform_fields li.gfield span.name_first label,
+.linkedin_iv #gform_19 ul.gform_fields li.gfield span.name_last label {
+    order: 1;
+}
+.linkedin_iv #gform_17 ul.gform_fields li#field_17_4,
+.linkedin_iv #gform_19 ul.gform_fields li#field_19_4 {
+    width: 100% !important;
+}

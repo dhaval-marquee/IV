@@ -1,0 +1,27 @@
+.pdpOverview3,
+.pdpOverview12,
+.pdpOverview13,
+.pdpOverview14,
+.reviewViewMore,
+.pdp-pagination,
+#reviewViewMore,
+#reviewWrapper hr:last-child{
+  display: none;
+}
+#reviewWrapper{
+  display: none;
+}
+.pdpOverview1{
+  margin-top: 26px;
+}
+.pdpOverview2{
+  margin-top: 10px;
+}
+.connectivity_heading{
+  text-align: center;
+  margin-bottom: 26px;
+}
+.video_wrapper{
+  max-width: 750px;
+  margin: 0 auto;
+}

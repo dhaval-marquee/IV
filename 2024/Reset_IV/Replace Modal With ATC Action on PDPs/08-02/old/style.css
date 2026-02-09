@@ -1,0 +1,15 @@
+.modal#addtocartpopupModal .modal-header h4,
+.modal#addtocartpopupModal .modal-content .modal-body .popup-content-wrap .extra-ingredients-wrap {
+    display: none;
+}
+
+.modal#addtocartpopupModal .modal-header button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+.modal#addtocartpopupModal .modal-content .modal-header {
+    padding: 0;
+}

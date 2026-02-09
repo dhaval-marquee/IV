@@ -1,0 +1,172 @@
+/* All page header */
+@media only screen and (max-width: 767.98px) {
+    .sticky-header .astra-advanced-hook-36 {
+        display: none;
+    }
+    .sticky-header .get-to-main {
+        background-color: #add5ff;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sticky-header .get-to-main a {
+        color: #ba006e !important;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 21.888px;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .sticky-header header.ast-custom-header [data-elementor-post-type="astra-advanced-hook"] > section:first-child {
+        position: static !important;
+        width: 100% !important;
+    }
+    .sticky-header header.ast-custom-header [data-elementor-post-type="astra-advanced-hook"] > section.elementor-sticky__spacer:last-child {
+        display: none !important;
+    }
+    .sticky-header .ast-custom-header,
+    .sticky-header .hfeed.site#page{
+        position: sticky;
+        top: 0;
+        z-index: 99;
+    }
+    .sticky-header header.ast-custom-header [data-elementor-post-type=astra-advanced-hook] section section > .elementor-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sticky-header header.ast-custom-header [data-elementor-post-type=astra-advanced-hook] section section > div > div:first-child {
+        order: 2;
+        width: 45%;
+    }
+    .sticky-header header.ast-custom-header [data-elementor-post-type=astra-advanced-hook] section section > div > div:nth-child(2) {
+        order: 1;
+        width: 15%;
+    }
+    .sticky-header header.ast-custom-header [data-elementor-post-type=astra-advanced-hook] section section > div > div:nth-child(2) > div {
+        padding: 0;
+    }
+    .sticky-header header.ast-custom-header [data-elementor-post-type=astra-advanced-hook] section section > div > div:nth-child(2) .elementor-widget-container {
+        margin: 0;
+    }
+    .sticky-header header.ast-custom-header [data-elementor-post-type=astra-advanced-hook] section section > div > div:first-child .elementor-widget-container {
+        text-align: left;
+    }
+    .sticky-header header.ast-custom-header [data-elementor-post-type=astra-advanced-hook] section section > div > div:last-child {
+        order: 3;
+        width: 40%;
+    }
+    .sticky-header header .elementor-nav-menu--dropdown {
+        position: fixed;
+        margin: 0;
+        width: 100%;
+        left: 0;
+        top: 103px;
+        border-top: 1px solid #ebe7e7;
+    }
+    .header-right {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .header-right + div {
+        display: none !important;
+    }
+    .header-right a.phone {
+        width: 25px;
+        height: 25px;
+        margin-right: 13px;
+    }
+    .header-right a.phone svg path {
+        fill: #ba006e;
+    }
+    .header-right .quote-cta {
+        background-color: #ba006e;
+        color: #fff;
+        border-radius: 6px;
+        padding: 7px 11px;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    .header-right .quote-cta:focus,
+    .header-right .quote-cta:hover { 
+        background-color: #8e0255;
+    }
+    .sticky-header header.ast-custom-header [data-elementor-post-type=astra-advanced-hook] section section [data-widget_type="theme-site-logo.default"] img {
+        width: 170px;
+        height: 68px;
+        object-fit: contain;
+    }
+    .sticky-header header .elementor-menu-toggle {
+        background-color: transparent;
+        padding: 0;
+        color: #ba006e !important;
+        font-size: 30px;
+    }
+    .sticky-header header .eicon-menu-bar {
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="22" height="17" viewBox="0 0 22 17" fill="none"><rect width="22" height="3" rx="1.5" fill="%23BA006E"/><rect y="7" width="22" height="3" rx="1.5" fill="%23BA006E"/><rect y="14" width="22" height="3" rx="1.5" fill="%23BA006E"/></svg>');
+        background-repeat: no-repeat;
+        background-position: center center;
+        font-size: 0;
+        width: 28px;
+        height: 22px;
+        background-size: contain;
+    }
+    .sticky-header header .elementor-active .eicon-menu-bar {
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><rect x="19" y="3" width="22" height="3" rx="1.5" transform="rotate(135 19 3)" fill="%23BA006E"/><rect x="3" y="1" width="22" height="3" rx="1.5" transform="rotate(45 3 1)" fill="%23BA006E"/></svg>');
+        display: block !important;
+    }
+    .sticky-header header .eicon-menu-bar::before,
+    .sticky-header header .elementor-active i.elementor-menu-toggle__icon--close.eicon-close {
+        display: none;
+    }
+}
+@media only screen and (max-width: 380.98px) {
+    .header-right a.phone {
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+    }
+    .header-right .quote-cta {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+}
+
+/* Locations page header */
+@media only screen and (max-width: 767.98px) { 
+    .sticky-header header.ast-custom-header section section > .elementor-container .elementor-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sticky-header header.ast-custom-header section section > .elementor-container .elementor-row > div:first-child {
+        order: 2;
+        width: 45%;
+    }
+    .sticky-header header.ast-custom-header section section > .elementor-container .elementor-row > div:nth-child(2) {
+        order: 1;
+        width: 15%;
+    }
+    .sticky-header header.ast-custom-header section section > .elementor-container .elementor-row > div:last-child {
+        order: 3;
+        width: 40%;
+    }
+    .sticky-header header.ast-custom-header section section > .elementor-container .elementor-row > div:first-child .elementor-image > a > img {
+        width: 170px;
+        height: 68px;
+        object-fit: contain;
+    }
+    .sticky-header header.ast-custom-header .elementor-sticky [data-id="5831336"] > .elementor-element-populated {
+        padding: 0 10px;
+    }
+    .sticky-header header.ast-custom-header section section > .elementor-container .elementor-row > div:nth-child(2) > .elementor-element-populated {
+        padding: 0;
+    }
+}

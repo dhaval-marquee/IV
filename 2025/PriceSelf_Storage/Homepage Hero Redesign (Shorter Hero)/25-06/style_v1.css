@@ -1,0 +1,331 @@
+.homepageIV .pss-hero .pss-hero__search + div.pss-hero__promotion-text2,
+.homepageIV .pss-hero .pss-hero__search #txtHomeSearchLabel {
+    display: none !important;
+}
+
+.homepageIV .pss-hero h1 {
+    color: #21368B;
+    font-family: 'HubotSans-B', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+    max-width: 580px;
+    width: 100%;
+}
+.homepageIV .pss-hero .pss-hero__promotion-logo {
+    padding-bottom: 10px;
+}
+.homepageIV .pss-hero .pss-row1 {
+    flex-direction: column;
+}
+.homepageIV .pss-hero .pss-row1 .subtitle {
+    font-family: "HubotSans-M", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #313131;
+    text-align: left;
+    letter-spacing: 0.1px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+}
+
+.homepageIV .pss-hero .pss-row2 {
+    align-items: center;
+    position: relative;
+    width: 100%;
+    column-gap: 2px;
+    margin-top: -13px;
+    margin-left: -11px;
+}
+.homepageIV .pss-hero .pss-row2 .tag {
+    font-family: 'HubotSans-B';
+    font-size: 22px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 90px;
+    line-height: 1;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.homepageIV .pss-hero .pss-row2 .price {
+    font-size: 56px;
+    font-family: 'HubotSans-Black';
+    font-weight: 800;
+    position: relative;
+}
+.homepageIV .pss-hero .pss-row2 .price > a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 14px;
+    margin-right: -12px;
+    padding-top: 0;
+}
+.homepageIV .pss-hero .pss-row2 .price > span {
+    margin-left: -12px;
+}
+.homepageIV .pss-hero .pss-row2 .price > a svg {
+    width: 10px;
+    height: 10px;
+    fill: #ea101f;
+}
+.homepageIV .pss-hero .pss-row2 .tag span {
+    font-size: 23px;
+}
+.homepageIV .pss-hero .pss-row2 .plan {
+    font-family: 'HubotSans-B';
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: normal;
+    width: 100%;
+    max-width: 120px;
+    text-align: center;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    margin-top: 8px;
+}
+.homepageIV .pss-hero .pss-row2 .plan > span {
+    font-size: 30px;
+    line-height: normal;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+.homepageIV .pss-hero__search .pss-search {
+    max-width: 415px;
+    align-items: center;
+    border-radius: 50px;
+    padding: 4px;
+}
+.homepageIV .pss-hero__search .pss-search__form {
+    padding-left: 12px;
+}
+.homepageIV .pss-hero__search #txtHomeSearch {
+    font-family: 'HubotSans';
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 50px;
+    height: auto;
+    padding: 0;
+}
+
+.homepageIV .pss-hero__search #btnHomeSearch {
+    font-size: 17px;
+    background-color: #EA101F;
+    min-width: 129px;
+    border-radius: 50px;
+    padding: 9px 20px;
+    height: 48px;
+}
+
+.homepageIV .pss-hero__search input#txtHomeSearch::-moz-placeholder {
+    color: #21368B;
+    opacity: 1;
+}
+.homepageIV .pss-hero__search input#txtHomeSearch:-moz-placeholder {
+    color: #21368B;
+    opacity: 1;
+}
+.homepageIV .pss-hero__search input#txtHomeSearch::-webkit-input-placeholder {
+    color: #21368B;
+    opacity: 1;
+}
+.homepageIV .pss-hero__search input#txtHomeSearch:-ms-input-placeholder {
+    color: #21368B;
+    opacity: 1;
+}
+@media (min-width: 1199px) {
+    .homepageIV .pss-hero__wrapper {
+        justify-content: center;
+        padding-top: 69px;
+        padding-left: 99px;
+    }
+}
+
+@media (min-width: 1500px) { 
+    .homepageIV .pss-hero__container {
+        padding-top: 32.336%;
+    }
+    .homepageIV .pss-hero__wrapper {
+        justify-content: flex-start;
+        padding-top: 92px;
+        padding-left: 133px;
+    }
+    .homepageIV .pss-hero h1 {
+        font-size: 74px;
+    }
+    .homepageIV .pss-hero .pss-row1 .subtitle {
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 6px;
+    }
+    .homepageIV .pss-hero .pss-row2 {
+        margin-top: -14px;
+        margin-left: -12px;
+    }
+    .homepageIV .pss-hero .pss-row2 .tag {
+        font-size: 30px;
+        max-width: 118px;
+    }
+    .homepageIV .pss-hero .pss-row2 .tag span {
+        font-size: 32px;
+    }
+    .homepageIV .pss-hero .pss-row2 .price {
+        font-size: 75px;
+    }
+    .homepageIV .pss-hero .pss-row2 .price > span {
+        margin-left: -16px;
+        margin-right: 20px;
+    }
+    .homepageIV .pss-hero .pss-row2 .price > a {
+        margin-top: 18px;
+        margin-right: 12px;
+    }
+    .homepageIV .pss-hero .pss-row2 .plan {
+        font-size: 17px;
+    }
+    .homepageIV .pss-hero .pss-row2 .plan > span {
+        font-size: 41px;
+    }
+    .homepageIV .pss-hero__search .pss-search {
+        max-width: 552px;
+    }
+    .homepageIV .pss-hero__search #btnHomeSearch {
+        background-color: #EA101F;
+        min-width: 171px;
+        padding: 10px 20px;
+    }
+    .homepageIV .pss-hero__search .pss-search__form {
+        padding-left: 18px;
+    }
+    .homepageIV .pss-hero__search #txtHomeSearch {
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .homepageIV .pss-hero {
+        height: auto;
+    }
+    .homepageIV .pss-hero__container {
+        background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/PriceSelfStorage/ShorterHerofull-25-06.jpg') !important;
+        position: relative;
+        padding-top: 30.8%;
+        background-position: center right !important;
+    }
+    .homepageIV .pss-hero__content {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .homepageIV .pss-hero {
+        height: 100%;
+    }
+    .homepageIV .pss-hero__container {
+        background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/PriceSelfStorage/heroBg-mV1.png') !important;
+        background-position: bottom !important;
+    }
+    .homepageIV .pss-hero__wrapper {
+        justify-content: flex-start;
+        padding-top: 50px;
+        padding-bottom: 60%;
+    }
+    .homepageIV .pss-hero__content {
+        background: inherit;
+    }
+    .homepageIV .pss-hero h1 {
+        font-size: 43px !important;
+    }
+    .homepageIV .pss-hero .pss-row1 .subtitle {
+        font-size: 13px;
+        letter-spacing: 0.2px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+    .homepageIV .pss-hero .pss-hero__search .pss-row2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        color: #ea101f;
+        font-family: "HubotSans-Black", sans-serif;
+        column-gap: 15px;
+        text-align: left;
+        padding-top: 15px;
+        column-gap: 8px;
+    }
+    .homepageIV .pss-hero .pss-hero__search .pss-row2 div + div {
+        font-size: 60px;
+    }
+    .homepageIV .pss-hero .pss-row2 {
+        justify-content: center;
+        column-gap: 8px;
+        margin-left: 0;
+    }
+    .homepageIV .pss-hero .pss-row2 .tag {
+        font-size: 24px;
+        max-width: 80px;
+    }
+    .homepageIV .pss-hero .pss-row2 .tag span {
+        font-size: 26px;
+    }
+    body.homepageIV .pss-hero__search .pss-row2 {
+        display: flex !important;
+        justify-content: center;
+        position: relative;
+        column-gap: 20px;
+    }
+    .homepageIV .pss-hero .pss-row2 .price > span {
+        margin-left: -11px;
+    }
+    .homepageIV .pss-hero .pss-row2 .price > a {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-top: 12px;
+        margin-left: 50px;
+        padding-top: 0;
+    }
+    .homepageIV .pss-hero .pss-row2 .plan {
+        font-size: 14px;
+        max-width: 100px;
+        padding-left: 0;
+        margin-top: 6px;
+    }
+    .homepageIV .pss-hero .pss-row2 .plan > span {
+        font-size: 34px;
+        margin-top: 0px;
+    }
+}
+@media (max-width: 575.98px) {
+    .homepageIV .pss-hero h1 {
+        width: 100%;
+        max-width: 400px;
+    }
+    .homepageIV .pss-hero .pss-row1 .subtitle {
+        max-width: 300px;
+    }
+}
+@media (max-width: 359.98px) {
+    .homepageIV .pss-hero .pss-row2 .price {
+        font-size: 40px;
+    }
+    .homepageIV .pss-hero .pss-row2 .price > a {
+        margin-top: 6px;
+        margin-left: 32px;
+    }
+}

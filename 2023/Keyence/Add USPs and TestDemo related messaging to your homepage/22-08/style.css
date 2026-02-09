@@ -1,0 +1,151 @@
+.messaging_USPs .industry_laser {
+    background-color: #f0f0f0;
+    background-image: url('https://previews.dropbox.com/p/thumb/AB9s_69YqJ-7Txw8J6BqWoR6n5w55LYvtz9_ywdJw4gvGltrkGD51Dqi3ULU9YEXueFzWSHaYOZ0imkWUlfNCiEBzHVy36tw-zD3gf5ICoqo0txTPZOohJgKEjT9V-6jjprt2cJSaTHVFxBgXKk2Gcbfkwlgo_FApcUQFYQY3edkwmYvW1UukJ9wa_MLUraD_biA48r3WtXx0pPVhH1sv0n3dkJBaGahmY26uu-IORews2S-wVyT6PrX0yHHmZaMFs71JDe-j3jybUlDg3Ao5Qqhabzht0dyrKkuEE6xu67w4QG81_K8dpDS4zc7rJ-mG_3nxb63RYlpcOaDY_qFISIV/p.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+}
+.messaging_USPs .title_wrapper {
+    padding-top: 20px;
+}
+.messaging_USPs .industry_laser h2 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    width: 100%;
+    max-width: 560px;
+    padding-left: 40px;
+    margin-left: auto;
+    color: #fff;
+    background: rgb(48,73,82);
+    background: -moz-linear-gradient(90deg, rgba(48,73,82,1) 100%, rgba(86,98,94,0.17970938375350143) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(48,73,82,1) 100%, rgba(86,98,94,0.17970938375350143) 100%);
+    background: linear-gradient(268deg, rgba(48,73,82,1) 95%, rgba(86,98,94,-1.820291) 100%);
+    padding: 14px 14px 14px 37px;
+}
+.messaging_USPs .industry_laser .btn_wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 34px;
+    margin-left: auto;
+    max-width: 510px;
+    width: 100%;
+}
+.messaging_USPs .ul_wrapper {
+    background-color: #293F46;
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+.messaging_USPs .ul_wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+}
+.messaging_USPs .ul_wrapper ul li {
+    display: flex;
+    align-items: center;
+}
+.messaging_USPs .ul_wrapper ul li .ul_icon img {
+    image-rendering: -webkit-optimize-contrast;
+    max-height: 40px;
+}
+.messaging_USPs .ul_wrapper ul li .ul_title {
+    color: #fff;
+    line-height: normal;
+    padding-left: 18px;
+    margin-bottom: 0;
+}
+.messaging_USPs .btn_icon {
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    max-width: 270px;
+    padding: 6px;
+    text-align: center;
+    width: 100%;
+}
+.messaging_USPs .btn_icon img {
+    width: 33px;
+    height: 30px;
+    margin-left: 16px;
+    margin-right: 24px;
+}
+.messaging_USPs .btn_number {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+}
+.messaging_USPs .btn_number img {
+    width: 25px;
+    height: 25px;
+    margin-left: 16px;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 970px) and (max-width: 1099.98px) {
+    .messaging_USPs .ul_wrapper ul li:last-child {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .messaging_USPs .ul_wrapper ul li:last-child {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .messaging_USPs .industry_laser h2 {
+        font-size: 22px;
+        line-height: normal;
+        max-width: 420px;
+    }
+    .messaging_USPs .industry_laser .btn_wrapper {
+        flex-direction: column;
+        margin-right: auto;
+    }
+    .messaging_USPs .btn_number img {
+        margin-left: 0;
+    }
+    .messaging_USPs .btn_icon {
+        margin-bottom: 18px;
+    }
+    .messaging_USPs .ul_wrapper ul {
+        font-size: 2.5rem;
+        padding: 0 15px;
+    }
+    .messaging_USPs .ul_wrapper ul li {
+        width: 100%;
+    }
+    .messaging_USPs .ul_wrapper ul li .ul_icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 65px;
+    }
+    .messaging_USPs .ul_wrapper ul li .ul_title {
+        flex: 1;
+    }
+}
+
+@media only screen and (max-width: 360.98px) {
+    .messaging_USPs .ul_wrapper ul li .ul_title br {
+        display: none;
+    }
+}

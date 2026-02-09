@@ -1,0 +1,33 @@
+.iv-improved-local-v2 .avl-header .v2nav .avl-header__actions a.avl-header__button {
+    display: none;
+}
+@media (max-width: 992px) {
+    .iv-improved-local-v2 .main-header {
+        position: inherit;
+    }
+    .iv-improved-local-v2 .avl-header .avl-header__main .avl-header__actions {
+        display: none;
+    }
+    .iv-improved-local-v2 .avl-header .v2nav .avl-header__main-wrapper .avl-header__mobile-toggle-wrap {
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+    }
+    .iv-improved-local-v2 .iv-phone-icon {
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+    }
+    .iv-improved-local-v2 .iv-phone-icon a,
+    .iv-improved-local-v2 .nav-toggle {
+        height: 26px;
+    }
+    .iv-improved-local-v2 .avl-header .v2nav .avl-header__main-wrapper {
+        display: flex;
+        padding-right: 0;
+    }
+    .iv-improved-local-v2 .nav-close {
+        position: relative;
+        top: 3px;
+    }
+}

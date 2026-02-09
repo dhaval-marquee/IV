@@ -1,0 +1,33 @@
+.stickyBottom_iv .stickyBottomBar {
+    display: none;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 99999999;
+    background: #38539A;
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.04) 0 -2px 1px, rgba(0, 0, 0, 0.04) 0 -4px 2px, rgba(0, 0, 0, 0.04) 0 -8px 4px, rgba(0, 0, 0, 0.04) 0 -16px 8px, rgba(0, 0, 0, 0.04) 0 -32px 16px;
+}
+.stickyBottom_iv.scrolled .stickyBottomBar{
+    display: block;
+}
+
+.stickyBottom_iv .stickyBottomBar div {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+.stickyBottom_iv .stickyBottomBar a {
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    border: inherit;
+    border-radius: inherit;
+    -webkit-transition: all .30s ease-in-out;
+    transition: all .30s ease-in-out;
+    padding: 16px 30px;
+}

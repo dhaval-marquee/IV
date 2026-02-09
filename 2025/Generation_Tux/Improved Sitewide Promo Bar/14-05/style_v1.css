@@ -1,0 +1,26 @@
+header + div button[id*="headlessui-disclosure-button"] {
+    pointer-events: none;
+}
+header + div button[id*="headlessui-disclosure-button"] .btn-info {
+    margin-left: 20px;
+    padding: 8px 22px;
+    pointer-events: auto;
+    vertical-align: middle;
+}
+header + div button[id*="headlessui-disclosure-button"] > svg:last-child {
+    display: none;
+}
+header + div button[id*="headlessui-disclosure-button"] p {
+    font-family: Roboto Condensed Light, Trebuchet MS, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+@media screen and (max-width: 575px) {
+    header + div button[id*="headlessui-disclosure-button"] {
+        font-size: 13px;
+    }
+    header + div button[id*="headlessui-disclosure-button"] .btn-info {
+        margin-left: 12px;
+        padding: 4px 18px;
+    }
+}

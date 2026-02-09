@@ -1,0 +1,29 @@
+.testimonial-data img {
+    margin: 0 auto;
+}
+
+
+@media (max-width: 767px) {
+    .slick-dots {
+        height: auto;
+        visibility: visible;
+        bottom: -60px;
+    }
+
+    .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.5;
+    }
+
+    .slick-dots li.slick-active button {
+        opacity: 1;
+    }
+
+    .slick-dotted.slick-slider.slider_wrapper {
+        margin-bottom: 60px;
+    }
+}

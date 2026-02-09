@@ -1,0 +1,11 @@
+.pss-unit-list__collapse-container-left-side-form .pss-contentbox-terms {
+    order: 1;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.pss-unit-list__collapse-container-left-side-form .pss-form-group-float {
+    margin-bottom: 10px;
+}
+.pss-unit-list__collapse-container-left-side-form .pss-button--red {
+    margin-top: -10px;
+}

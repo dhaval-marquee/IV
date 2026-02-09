@@ -1,0 +1,10 @@
+#container > div#two-column-sections.two-column-section,
+#container > .works-section + .two-column-section {
+    display: none;
+}
+
+@media (min-width: 1030px) {
+    .works-section {
+        margin-bottom: 5%;
+    }
+}

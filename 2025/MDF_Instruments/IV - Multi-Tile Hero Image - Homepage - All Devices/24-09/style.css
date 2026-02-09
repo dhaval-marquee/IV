@@ -1,0 +1,161 @@
+.homepage_iv main > section:first-child {
+    display: none;
+    opacity: 0;
+    height: 0;
+}
+.homepage_iv .collectionSlider {
+    position: relative;
+}
+.homepage_iv .collectionSlider .imgWrapper.onlyDesk {
+    display: none;
+}
+.homepage_iv .collectionSlider .prose {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -70px;
+    transform: translate(-85%, 0);
+    z-index: 1;
+}
+
+.homepage_iv .collectionSlider .prose.leftPart { 
+    transform: inherit;
+    right: 0;
+    margin-left: 200px;
+}
+.homepage_iv .collectionSlider .button-group  a:hover {
+    color: #000;
+}
+.homepage_iv.homepage_iv_v1 .collectionSlider .prose.rightPart,
+.homepage_iv.homepage_iv_v1 .collectionSlider .prose.rightPart a,
+.homepage_iv.homepage_iv_v1 .onlyMobile img[alt="Stethoscopes"] + .sectionContent .prose,
+.homepage_iv.homepage_iv_v1 .onlyMobile img[alt="Stethoscopes"] + .sectionContent .prose a {
+    color: #000;
+}
+.homepage_iv.homepage_iv_v1 .collectionSlider .prose.rightPart a,
+.homepage_iv.homepage_iv_v1 .onlyMobile img[alt="Stethoscopes"] + .sectionContent .prose a {
+    border-color: #000;
+    font-weight: 700;
+}
+
+
+.homepage_iv.homepage_iv_v2 .collectionSlider .prose.rightPart a,
+.homepage_iv.homepage_iv_v2 .onlyMobile img[alt="Stethoscopes"] + .sectionContent .prose a {
+    font-weight: 700;
+}
+
+.homepage_iv.homepage_iv_v2 .collectionSlider .prose.rightPart .button-group,
+.homepage_iv.homepage_iv_v2 .onlyMobile img[alt="Stethoscopes"] + .sectionContent .prose .button-group {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline-block;
+}
+
+.homepage_iv.homepage_iv_v2 .collectionSlider .prose.rightPart a,
+.homepage_iv.homepage_iv_v2 .collectionSlider .prose.rightPart p,
+.homepage_iv.homepage_iv_v2 .onlyMobile img[alt="Stethoscopes"] + .sectionContent .prose p,
+.homepage_iv.homepage_iv_v2 .onlyMobile img[alt="Stethoscopes"] + .sectionContent .prose a {
+    text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+}
+
+@media (min-width: 1500px) {
+    .homepage_iv .collectionSlider .prose.rightPart {
+        transform: translate(-90%, 0);
+    }
+    .homepage_iv .collectionSlider .prose.leftPart {
+        margin-left: 270px;
+    }
+}
+@media(max-width: 991px) {
+    .homepage_iv .collectionSlider .imgWrapper .prose {
+        margin-top: -50px;
+    }
+    .homepage_iv .collectionSlider .prose.leftPart {
+        transform: translate(0%, 0);
+        width: 100%;
+        max-width: 330px;
+        right: 0;
+        left: 0;
+        margin-top: -70px;
+        margin-left: auto;
+        margin-right: 8px;
+    }
+}
+@media(max-width: 799.98px) {
+    .homepage_iv .collectionSlider .prose.leftPart {
+        max-width: 250px; 
+    }
+}
+@media(min-width: 700px) {
+    .homepage_iv .collectionSlider .imgWrapper.onlyDesk {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    .homepage_iv .collectionSlider .imgWrapper .prose {
+        display: none;
+    }
+    .homepage_iv .collectionSlider .imgWrapper img {
+        width: 100%;
+    }
+    .homepage_iv .collectionSlider .sliderWrapper.onlyMobile  {
+        display: none;
+    }
+}
+@media(max-width: 699.98px) {
+    .homepage_iv .collectionSlider .onlyMobile + .onlyDesk {
+        display: none;
+    } 
+    .homepage_iv .collectionSlider .onlyMobile .prose {
+        position: absolute;
+        margin-top: -375px;
+        transform: inherit;
+        left: 0;
+        right: 0;
+    }
+    .homepage_iv .collectionSlider .onlyMobile .contentWrapper {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .homepage_iv .collectionSlider .onlyMobile .place-self-center {
+        place-self: inherit;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 20px;
+        right: 0;
+        transform: translateX(-50%);
+        display: flex !important;
+        justify-content: center;
+        gap: 8px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .slick-dots li button {
+        width: 6px;
+        height: 6px;
+        opacity: .4;
+        background-color: #292929;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        font-size: 0;
+    }
+    .slick-dots li.slick-active button {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+        opacity: 1;
+        background: #292929;
+    }
+}
+@media(max-width: 499.98px) {
+    .homepage_iv .collectionSlider .onlyMobile .prose {
+        margin-top: -310px;
+    }
+}
+@media(max-width: 359.98px) {
+    .homepage_iv .collectionSlider .onlyMobile .prose {
+        margin-top: -240px;
+    }
+}

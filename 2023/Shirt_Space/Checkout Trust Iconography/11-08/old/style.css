@@ -1,0 +1,105 @@
+/* Model Css */
+.mq_modal_open {
+    overflow: hidden;
+}
+.mq_modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    outline: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+}
+.mq_modal.open {
+    display: block;
+}
+.mq_modal .mq_modal_overlay {
+    background-color: #000000;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.mq_modal.open .mq_modal_overlay {
+    display: block;
+    opacity: .5;
+}
+.modal_header {
+    max-width: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.modal_header .mq_close {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    color: #000;
+    cursor: pointer;
+}
+.modal_header .mq_close:hover {
+    opacity: 0.5;
+}
+.mq_modal .mq_modal_content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 100%;
+    min-height: calc(100% - 2rem);
+    max-height: calc(100% - 2rem);
+    margin: 2rem;
+    position: relative;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    -webkit-transform: translate(0,-50px);
+    transform: translate(0,-50px);
+}
+.mq_modal.open .mq_modal_content {
+    -webkit-transform: none;
+    transform: none;
+}
+.mq_modal .mq_modal_content iframe {
+    border: none;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 650px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width:768px) {
+    .mq_modal .mq_modal_content {
+        margin: 1.75rem auto;
+        min-height: calc(100% - 3.5rem);
+        max-height: calc(100% - 3.5rem);
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .mq_modal .mq_modal_content {
+        margin: 1rem;
+    }
+    .mq_modal .mq_modal_content iframe {
+        padding-bottom: 50px;
+    }
+}

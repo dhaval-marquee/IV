@@ -1,0 +1,149 @@
+.iv-swiper {
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.iv-swiper-slide img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.iv-hero-cerosol .evvs-homepage-wrapper .row > .wow {
+    padding: 0 !important;
+}
+
+/* Arrows outside the image */
+.iv-swiper-button-prev,
+.iv-swiper-button-next {
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    font-size: 22px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+    margin: 0;
+}
+.iv-hero-cerosol .swiper-button-prev:after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="%23fff" version="1.1" id="Layer_1" width="800px" height="800px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g><path d="M33.934,54.458l30.822,27.938c0.383,0.348,0.864,0.519,1.344,0.519c0.545,0,1.087-0.222,1.482-0.657 c0.741-0.818,0.68-2.083-0.139-2.824L37.801,52.564L64.67,22.921c0.742-0.818,0.68-2.083-0.139-2.824 c-0.817-0.742-2.082-0.679-2.824,0.139L33.768,51.059c-0.439,0.485-0.59,1.126-0.475,1.723 C33.234,53.39,33.446,54.017,33.934,54.458z"/></g></svg>');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+    width: 50px;
+    height: 50px;
+}
+.iv-hero-cerosol .iv-swiper-button-next:after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="%23fff" version="1.1" id="Layer_1" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" transform="rotate(0)matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"><g><path d="M33.934,54.458l30.822,27.938c0.383,0.348,0.864,0.519,1.344,0.519c0.545,0,1.087-0.222,1.482-0.657 c0.741-0.818,0.68-2.083-0.139-2.824L37.801,52.564L64.67,22.921c0.742-0.818,0.68-2.083-0.139-2.824 c-0.817-0.742-2.082-0.679-2.824,0.139L33.768,51.059c-0.439,0.485-0.59,1.126-0.475,1.723 C33.234,53.39,33.446,54.017,33.934,54.458z"/></g></g></svg>');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+    width: 50px;
+    height: 50px;
+}
+
+/* Hide pagination completely */
+.iv-swiper .swiper-pagination {
+    display: none !important;
+}
+
+.iv-swiper {
+    padding: 0 40px;
+}
+
+.iv-swiper-button-prev {
+    left: 0;
+}
+
+.iv-swiper-button-next {
+    right: 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 1530px) {
+    .iv-hero-cerosol .evvs-homepage-wrapper > div > .row > .col-md-6:last-child > h2 {
+        font-size: calc(var(--f-size) * 3.5);
+    }
+}
+@media (max-width: 1400px) {
+    .iv-hero-cerosol .evvs-homepage-wrapper > div > .row > .col-md-6:last-child > h2 {
+        font-size: calc(var(--f-size) * 2);
+    }
+}
+@media (max-width: 992px) {
+    .iv-hero-cerosol img[src="/wp-content/uploads/evvs_insurances.png"] {
+        width: 100%;
+    }
+    .iv-hero-cerosol .evvs-homepage-wrapper .--padded {
+        padding-top: 11rem;
+    }
+}
+@media (max-width: 768px) {
+    .iv-swiper {
+        max-width: 100%;
+    }
+
+    .iv-swiper-button-prev {
+        left: -10px;
+    }
+
+    .iv-swiper-button-next {
+        right: -10px;
+    }
+    body.iv-hero-cerosol section.evvs-homepage-wrapper > div > div > div h2 {
+        margin: 0 !important;
+        width: 100%;
+        padding: 20px;
+        max-width: 500px;
+        margin: 0 auto !important;
+        display: block;
+        line-height: normal;
+        background-color: transparent;
+    }
+    body.iv-hero-cerosol a.btn.btn-lg[href="/en/book-online/"] {
+        padding: 0px 10px;
+        width: 100%;
+        max-width: 328px;
+        margin: 0 auto;
+    }
+    .iv-swiper {
+        padding: 0 20px;
+    }
+    .iv-hero-cerosol .swiper-button-prev:after,
+    .iv-hero-cerosol .iv-swiper-button-next:after {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .iv-hero-cerosol .evvs-homepage-wrapper > .container.container-lg.--padded {
+        padding-bottom: 20px;
+        padding-top: 6rem;
+    }
+
+    .iv-hero-cerosol .evvs-homepage-wrapper > div > .row > .col-md-6:last-child > h2 {
+        font-size: calc(var(--f-size) * 1.6);
+    }
+}
+
+.evvs-homepage-wrapper .iv-swiper-mobile {
+    display: none;
+}
+
+/* show desktop one */
+@media (max-width: 767px) {
+    .evvs-homepage-wrapper .iv-swiper-desktop {
+        display: none;
+    }
+
+    .evvs-homepage-wrapper .iv-swiper-mobile {
+        display: block;
+    }
+}

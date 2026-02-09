@@ -1,0 +1,7 @@
+body h3.true-title + div {
+    display: none;
+}
+body .oxy-rich-text {
+    display: block !important;
+    text-align: center;
+}

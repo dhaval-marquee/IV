@@ -1,0 +1,67 @@
+.iv-sticky-bar {
+    padding-bottom: 89px !important;
+}
+.iv-sticky-bar .iv-footer-bar {
+    background-image: var(--c-gradient-accent, linear-gradient(118deg, #ff8b00 0%, #ff7000 100%));
+    background-color: #ff8b00;
+    box-shadow: 0px 12px 19px 7px #000;
+    display: block;
+    color: #fff !important;
+    font-family: "neue-haas-unica";
+    font-weight: 500;
+    line-height: 25px;
+    padding: 6px 40px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 99999999;
+}
+.iv-sticky-bar #apexchat_prechat_invitation_wrapper {
+    margin-bottom: 100px !important;
+}
+.iv-sticky-bar #apexchat_bar_invitation_wrapper,
+.iv-sticky-bar #apexchat_bar_invitation_wrapper > iframe {
+    margin-bottom: 37px;
+}
+@media only screen and (max-width: 823.98px) {
+    html[lang="es-MX"] .iv-sticky-bar {
+        padding-bottom: 114px !important;
+    }
+    html[lang="es-MX"] .iv-sticky-bar #apexchat_prechat_invitation_wrapper {
+        margin-bottom: 124px !important;
+    }
+    html[lang="es-MX"] .iv-sticky-bar #apexchat_bar_invitation_wrapper,
+    html[lang="es-MX"] .iv-sticky-bar #apexchat_bar_invitation_wrapper > iframe {
+        margin-bottom: 62px;
+    }
+}
+@media only screen and (max-width: 537.98px) {
+    html[lang="en-US"] .iv-sticky-bar {
+        padding-bottom: 114px !important;
+    }
+    html[lang="en-US"] .iv-sticky-bar #apexchat_prechat_invitation_wrapper {
+        margin-bottom: 124px !important;
+    }
+    html[lang="en-US"] .iv-sticky-bar #apexchat_bar_invitation_wrapper,
+    html[lang="en-US"] .iv-sticky-bar #apexchat_bar_invitation_wrapper > iframe {
+        margin-bottom: 62px;
+    }
+}
+@media only screen and (max-width: 479.98px) {
+    html[lang="es-MX"] .iv-sticky-bar {
+        padding-bottom: 139px !important;
+    }
+    html[lang="es-MX"] .iv-sticky-bar #apexchat_prechat_invitation_wrapper {
+        margin-bottom: 150px !important;
+    }
+    html[lang="es-MX"] .iv-sticky-bar #apexchat_bar_invitation_wrapper,
+    html[lang="es-MX"] .iv-sticky-bar #apexchat_bar_invitation_wrapper > iframe {
+        margin-bottom: 87px;
+    }
+}
+@media only screen and (max-width: 344.98px) {
+    html[lang="es-MX"] .iv-sticky-bar .iv-footer-bar {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,114 @@
+.filter-iv .filter-wrapper {
+    position: sticky;
+    padding: 20px 20px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.filter-iv .filter-wrapper p {
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.filter-iv .filter-wrapper::-webkit-scrollbar {
+    width: 5px;
+}
+
+.filter-iv .filter-wrapper::-webkit-scrollbar-track {
+    background: #ebebeb;
+    border-radius: 5px;
+}
+
+.filter-iv .filter-wrapper::-webkit-scrollbar-thumb {
+    background: #dadada;
+    border-radius: 5px;
+}
+
+/* Scrollbar thumb on hover */
+.filter-iv .filter-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #afafaf;
+}
+
+@media screen and (max-width: 1279px) {
+    .filter-iv main#main-content > div {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .filter-iv main#main-content > div > .row:has(.filter-wrapper) > div[class*="col"]:last-child {
+        grid-column-start: 4;
+    }
+
+    .filter-iv main#main-content > div > .row:has(.filter-wrapper) > div[class*="col"]:first-child {
+        grid-column-end: 4;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .filter-iv main#main-content > div > .row:has(.filter-wrapper) > div[class*="col"]:last-child {
+        grid-column-start: 5;
+    }
+
+    .filter-iv main#main-content > div > .row:has(.filter-wrapper) > div[class*="col"]:first-child {
+        grid-column-end: 5;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .filter-iv .filter-wrapper {
+        background-color: #fff;
+        padding: 0;
+        z-index: 50;
+        margin: -70px -20px 70px;
+    }
+
+    .filter-iv .filter-wrapper .filter-title {
+        position: relative;
+        font-size: 16px;
+        padding: 15px;
+        z-index: 1;
+    }
+
+    .filter-iv .filter-wrapper .filter-title:before {
+        content: '';
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-right: 16px solid black;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        transform-origin: center;
+        pointer-events: none;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .filter-iv .filter-wrapper.active .filter-title:before {
+        transform: rotate(-90deg) translateY(-50%);
+        right: 10px;
+        margin-top: -6px;
+    }
+
+    .filter-iv .filter-wrapper > hr {
+        margin-top: 0 !important;
+    }
+
+    .filter-iv .filter-wrapper > div[class*="space"] {
+        padding: 0 15px;
+    }
+
+    .filter-iv .filter-wrapper:not(.active) > div[class*="space"] {
+        display: none;
+    }
+
+    .filter-iv .filter-wrapper > div[class*="space"]:last-child {
+        border-bottom: 1px solid rgba(230, 230, 230);
+    }
+
+    .filter-iv .filter-wrapper > div[class*="space"]:last-child hr {
+        border: none !important;
+    }
+}

@@ -1,0 +1,29 @@
+.faq-section .section-title {
+    font-size: 2.4rem;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+.faq-section .wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+@media screen and (min-width: 769px) {
+    .faq-section .section-title {
+        font-size: 3.2rem;
+        line-height: 1.4;
+    }    
+}
+@media screen and (min-width: 769px) {
+    .faq-section .wrapper {
+        width: 100%;
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+}
+@media screen and (min-width: 769px) {
+    .faq-section .theme-KF .wrapper {
+        max-width: 1000px;
+    }
+}

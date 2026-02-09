@@ -1,0 +1,65 @@
+.select_wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.select_wrapper h3 {
+    font-size: 21px;
+    margin: 10px 15px 10px 0;
+}
+.custom_selectBox {
+    max-width: 300px;
+    width: 100%;
+}
+.custom_selectBox .select_label {
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    color: #000;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    max-width: 250px;
+    width: 100%;
+    padding: 10px;
+}
+.custom_selectBox .select_label:before {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px 1px 1px 0px;
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    pointer-events: none;
+}
+.custom_selectBox ul {
+    position: absolute;
+    max-width: 250px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #000;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+.custom_selectBox li {
+    font-size: 14px;
+}
+.custom_selectBox li a {
+    display: block;
+    color: #000;
+    cursor: context-menu;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.custom_selectBox li a:hover {
+    background-color: #1E90FF;
+    color: #fff;
+}

@@ -1,0 +1,12 @@
+.iv-eligible-text {
+    font-size: 20px !important;
+}
+.iv-red-text {
+    color: red;
+}
+.iv-eligible .product-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

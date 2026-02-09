@@ -1,0 +1,8 @@
+.iv-sellingSupportTab #sellingSupport span.amw-accordion__title {
+    width: 35%;
+}
+.iv-sellingSupportTab #sellingSupport .supportTabText {
+    display: flex;
+    color: #4b5b8a;
+    margin: 14px 0;
+}

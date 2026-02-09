@@ -1,0 +1,8 @@
+@media (max-width: 767.98px) {
+    .newsLetter_Test_sw #mobile-nav>div>ul>li:nth-child(9)>a>span>svg {
+        stroke: #fefefe;
+    }
+    .newsLetter_Test_sw #mobile-nav>div>ul>li:nth-child(10)>a>span>svg {
+        stroke: none;
+    }
+}

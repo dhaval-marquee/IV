@@ -1,0 +1,23 @@
+.iv-business-sticky .sticky-footer-bar {
+    background-color: #38539A;
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.12);
+    font-weight: bold;
+    line-height: normal;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+}
+.iv-business-sticky .sticky-footer-bar > a {
+    display: block;
+    color: #FFFFFF;
+    padding: 12px;
+}
+.iv-business-sticky .sticky-footer-bar > a:not(.amw-button):not(.amw-accordion__toggle-row):not(.iziModal-button):not(.amw-tooltip__link):not(.amw-link--blue-hover):hover {
+    color: #FFFFFF;
+}
+.iv-business-sticky #ada-button-frame {
+    bottom: 25px !important;
+}
+.iv-business-sticky #ada-chat-frame {
+    bottom: 50px !important;
+}

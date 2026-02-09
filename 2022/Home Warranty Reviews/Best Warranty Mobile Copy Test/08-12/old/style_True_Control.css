@@ -1,0 +1,98 @@
+
+.hwr_home .company_bottom_block,
+.hwr_home .company_top_block > div > div > div > div:last-child,
+.hwr_home .company_top_block .primim_section_block {
+    display: none !important;
+}
+.hwr_home .company_list .company_list_bottom {
+    padding: 0;
+}
+.hwr_home .company_list_bottom .company_top_block {
+    padding: 20px !important;
+}
+.hwr_home .company_top_block > div > div > div > div:first-child a {
+	display: block;
+}
+.hwr_home .company_top_block ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.hwr_home .company_top_block li {
+	position: relative;
+	padding-left: 25px;
+}
+.hwr_home .company_top_block li::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.29' height='12.66' viewBox='0 0 13.29 12.66'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%232FB1A7%3B%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M15.705 5.065a.537.537 0 0 0-.77-.042c-.868.756-1.666 1.554-2.464 2.38s-1.554 1.666-2.3 2.534C9.083 11.239 8.033 12.6 7.053 14L3.5 10.175a.532.532 0 0 0-.672-.1.549.549 0 0 0-.2.756s3.388 5.838 3.528 6.09a1.193 1.193 0 0 0 1.078.616A1.238 1.238 0 0 0 8.383 16.8c.21-.392 2.086-3.864 3.3-5.7.6-.924 1.26-1.82 1.918-2.7s1.372-1.75 2.086-2.562l.014-.014A.591.591 0 0 0 15.705 5.065Z' transform='translate(-2.552 -4.88)'/%3E%3C/svg%3E");
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 16px;
+    margin-right: 14px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.hwr_home .company_list .company_top_block > .row > div:first-child {
+    align-self: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.hwr_home .company_list .company_top_block > .row > div:first-child > div {
+    align-self: center;
+}
+.hwr_home #cinch-home-service + .company_list .company_top_block > .row > div:first-child > div,
+.hwr_home #select-home-warranty + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+.hwr_home #american-home-shield + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+.hwr_home #american-home-shield + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+.hwr_home #Liberty-Home-Guard + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+.hwr_home #hsa + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+.hwr_home #fahw + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+.hwr_home #service-plus-home-warranty + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div {
+    padding: 40px 0;
+}
+.hwr_home .hwr-review-link {
+    position: absolute;
+    bottom: 0;
+}
+.hwr_home .hwr-quote-btn-wrap .Cta_btn {
+    display: block;
+}
+.hwr_home .hwr-quote-btn-wrap .Cta_btn img {
+    top: 0;
+}
+.hwr_home .company_list .company_top_block > .row > div:last-child form .input-group {
+    display: none;
+}
+.hwr_home .company_top_block form button.btn_block {
+    display: inline-block;
+    width: auto;
+}
+
+@media only screen and (max-width: 767px) {
+	.hwr_home .company_list_bottom .company_top_block .count_mob  + a img {
+		width: 100%;
+	}
+	.hwr_home .company_top_block ul {
+		margin-top: 20px;
+	}
+	.hwr_home #cinch-home-service + .company_list .company_top_block > .row > div:first-child > div,
+    .hwr_home #select-home-warranty + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+    .hwr_home #american-home-shield + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+    .hwr_home #american-home-shield + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+    .hwr_home #Liberty-Home-Guard + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+    .hwr_home #hsa + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+    .hwr_home #fahw + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div,
+    .hwr_home #service-plus-home-warranty + .company_list > .company_list_bottom > .company_top_block > .row > div:first-child > div {
+	    padding: 20px 0;
+	}
+    .hwr_home .company_top_block form button.btn_block {
+        margin-bottom: 20px;
+    }
+    .hwr_home .company_top_block form button.btn_block .offer_state_block {
+        margin-bottom: 0;
+    }
+}

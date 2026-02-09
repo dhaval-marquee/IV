@@ -1,0 +1,139 @@
+body.iv-cta-header header #logo .c-header__button {
+    display: none;
+}
+
+@media only screen and (max-width: 740px) {
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle {
+        right: auto;
+        left: 20px;
+    }
+
+    body.iv-cta-header header .title-area {
+        width: 100%;
+        padding-left: 70px;
+    }
+
+    body.iv-cta-header .site-header #logo img {
+        margin: 0;
+    }
+
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle+#mega-menu-max_mega_menu_1 {
+        right: auto;
+        padding-bottom: 0 !important;
+    }
+
+    body.iv-cta-header header .logo__mobile {
+        font-size: 0;
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1763471932/ignitevisibility/phone-call.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+        margin: 0;
+    }
+
+    body.iv-cta-header header #logo {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: inherit;
+        padding: 0 20px 0 0;
+    }
+
+    body.iv-cta-header header #logo .c-hero__button {
+        margin: 0 0 0 15px;
+        padding: 10px 30px;
+        font-size: 17px;
+        display: block;
+        font-family: Oswald, sans-serif;
+        font-weight: 700;
+    }
+
+    body.iv-cta-header #logo>a:first-of-type {
+        margin: 0 auto;
+    }
+
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle .mega-toggle-blocks-left, 
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle .mega-toggle-blocks-center {
+        display: none !important;
+    }
+
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle .mega-toggle-blocks-right .mega-toggle-block:only-child {
+        margin: 0;
+    }
+
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle .mega-toggle-blocks-right {
+        display: inline-block;
+        flex: inherit;
+    }
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle .mega-toggle-block-1:after {
+        margin: 0;
+    }
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1>li.mega-menu-item.mega-orange>a.mega-menu-link,
+    body.iv-cta-header header #logo .c-header__button {
+        font-weight: 700 !important;
+        background: linear-gradient(90deg, #daab57 0, #d4714e 100%) no-repeat padding-box;
+        color: #fff !important;
+        border-radius: 30px;
+        padding: 20px 25px !important;
+        font-size: 17px;
+        font-weight: 700;
+        border: 1px solid transparent;
+        transition: all .3s ease-in-out;
+        display: inline-flex;
+        align-items: center;
+        border: 1px solid transparent !important;
+        font-family: Oswald, sans-serif;
+    }
+
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1>li.mega-menu-item.mega-orange>a.mega-menu-link,
+    body.iv-cta-header header #logo .c-header__button:hover {
+        color: #f4673b;
+        font-size: 17px !important;
+        font-weight: 700 !important;
+    }
+
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1>li.mega-menu-item:last-child {
+        text-align: center;
+        padding: 8px 0;
+        border-bottom: none;
+    }
+    body.iv-cta-header header #logo .c-header__button {
+        padding: 8px 14px !important;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body.iv-cta-header header .title-area {
+        padding-left: 42px;
+    }
+
+    body.iv-cta-header #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle {
+        right: auto;
+        left: 10px;
+    }
+
+    body.iv-cta-header header #logo .c-hero__button {
+        margin: 0 0 0 10px;
+        padding: 7px 13px;
+        font-size: 14px;
+    }
+
+    body.iv-cta-header .site-header #logo img {
+        margin: 0;
+        width: 100% !important;
+        max-width: 130px !important;
+        min-width: auto !important;
+    }
+
+    body.iv-cta-header header #logo {
+        padding: 0 10px 0 0;
+    }
+
+    body.iv-cta-header header .logo__mobile {
+        width: 30px;
+        height: 32px;
+    }
+}

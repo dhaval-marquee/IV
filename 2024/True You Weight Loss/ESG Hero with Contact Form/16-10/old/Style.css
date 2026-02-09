@@ -1,0 +1,209 @@
+.iv-hero-sec .hero_sec{
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/TrueYouWeightLoss/ESG-Hero-Image.png') !important;
+}
+
+ .iv-hero-sec .innerPart {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    padding-top: 270px;
+    padding-bottom: 150px;
+    align-items: center !important;
+}
+
+.iv-hero-sec .innerPart > div:first-child{
+    width: 60%;
+}
+.iv-hero-sec .innerPart .hero-form{
+    width: 40%;
+    position: relative;
+}
+
+.iv-hero-sec .innerPart > div:first-child > .elementor-widget-button{
+    display: none;
+} 
+
+@media (max-width:991px) {
+    .iv-hero-sec .innerPart .hero-form {
+        width: 50%;
+    }
+}
+@media (max-width:767px) {
+    .iv-hero-sec .innerPart{
+        flex-direction: column !important;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+   .iv-hero-sec .innerPart > div:first-child,
+    .iv-hero-sec .innerPart .hero-form{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .iv-hero-sec .innerPart > div .elementor-widget-container > ul{
+        justify-content: flex-start !important;
+        margin: 0 auto !important;
+        width: 100%;
+        max-width: 450px;
+        text-align: left;
+    }
+    .iv-hero-sec .hero_sec .elementor-motion-effects-layer::before {
+        background-image: linear-gradient(360deg, #312A1900 29%, #000000 82%) !important;
+    }
+    .iv-hero-sec .hero_sec::before {
+        background-color: transparent !important;
+        background-image: linear-gradient(180deg, rgba(49, 42, 25, 0) 19%, #000000 42%) !important;
+        top: 0;
+        height: 100%;
+    }
+    .iv-hero-sec .hero-form .action-button{
+        padding: 8px 10px !important;
+    }
+    .iv-hero-sec .hero_sec {
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: top -160px center !important;
+        background: #000000;
+        background-image: url(//trueyouweightloss.com/wp-content/uploads/2024/07/2FF_1F_3786_152638661_5_Mobile.jpg) !important;
+    }
+    .iv-hero-sec .innerPart [data-element_type="container"]::before {
+        display: none !important;
+    }
+}
+
+
+/* hs-form css */
+
+.iv-hero-sec .innerPart .hero-form .hbspt-form {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 20px 35px 2px #000;
+}
+
+.iv-hero-sec .hs-error-msg,.hs_error_rollup {
+    color: #ff0033;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+}
+
+.iv-hero-sec .hbspt-form fieldset.form-columns-1,
+.iv-hero-sec .hbspt-form fieldset.form-columns-2 {
+    float: left;
+    box-sizing: border-box !important;
+    max-width: 800px !important;
+    width: 100%;
+}
+
+.iv-hero-sec .hs-form-field {
+    margin-top: 20px !important;
+}
+
+.iv-hero-sec .hbspt-form form input {
+    background: #f7f7f7;
+    border: 1px solid #c4c4c4;
+    border-radius: 0;
+    box-shadow: none;
+    color: #787878;
+    transition: all .5s;
+    width: 100%;
+}
+
+.iv-hero-sec .hs-input {
+    font-size: 16px;
+    margin: 0;
+    padding: 8px 16px;
+    width: 100% !important;
+    margin-top: 10px;
+}
+.iv-hero-sec .hero-form .form-columns-0 .hs-richtext p{
+    margin-top: 10px;
+}
+.iv-hero-sec .hbspt-form textarea.hs-input {
+    border: 1px solid #c4c4c4
+}
+
+.iv-hero-sec .hbspt-form input[type=checkbox],.hbspt-form input[type=radio] {
+    height: 20px !important;
+    width: 20px !important;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+}
+
+.iv-hero-sec .hbspt-form select {
+    background: transparent;
+    background: #f7f7f7;
+    border: 1px solid #c4c4c4;
+    color: #787878;
+    position: relative;
+    z-index: 2;
+}
+
+.iv-hero-sec .hs-form-field .hs-button {
+    width: 100%;
+    border-radius: 0;
+    padding: 13px 20px;
+    background: #1a2257;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+    font-family: Raleway !important;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.iv-hero-sec .hs-form-field .hs-button:hover {
+    background: #3d407a;
+}
+
+.iv-hero-sec .hbspt-form ul,
+.iv-hero-sec .hbspt-form ul.inputs-list,
+.iv-hero-sec .hbspt-form ul.multi-container {
+    list-style-type: none !important;
+    padding-inline-start: 10px;
+}
+
+.iv-hero-sec .hbspt-form ul.inputs-list li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.iv-hero-sec .hbspt-form .hs-error-message {
+    font-weight: 300;
+}
+.iv-hero-sec .hbspt-form .form-text {
+    font-size: 18px;
+}
+.iv-hero-sec .hs-form-field label {
+    font-family: Raleway !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    letter-spacing: .5px !important;
+}
+.iv-hero-sec .hbspt-form input.hs-button.primary.large {
+    display: none;
+}
+.iv-hero-sec .hero-form .hs-error-msg{
+    margin-top: 10px;
+}
+.iv-hero-sec .hero-form .action-button{
+    border: 1px solid #c4c4c4 !important;
+    background: #181E53 !important;
+    transition: all 0.5s;
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 1.5;
+    font-size: 16px;
+    user-select: none;
+    text-align: center;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+}

@@ -1,0 +1,47 @@
+body #lp-1 .form-inner label {
+    display: block;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+body #lp-1 .form-inner input[type='text']::-moz-placeholder,
+body #lp-1 .form-inner input[type='email']::-moz-placeholder {
+    opacity: 0;
+}
+
+body #lp-1 .form-inner input[type='text']:-moz-placeholder,
+body #lp-1 .form-inner input[type='email']:-moz-placeholder {
+    opacity: 0;
+}
+
+body #lp-1 .form-inner input[type='text']::-webkit-input-placeholder,
+body #lp-1 .form-inner input[type='email']::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+body #lp-1 .form-inner input[type='text']:-ms-input-placeholder,
+body #lp-1 .form-inner input[type='email']:-ms-input-placeholder {
+    opacity: 0;
+}
+
+body #lp-1 .form-inner input.button {
+    color: #fff !important;
+}
+
+body #lp-1 #div-block-2-1 > p {
+    max-width: 360px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+body #lp-1 form.contact-form .form-error input {
+    border-color: red !important;
+}
+
+body #lp-1 form.contact-form .form-error .errorlist {
+    display: block;
+    line-height: normal;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 500;
+}

@@ -1,0 +1,15 @@
+@media (max-width: 767.98px) {
+    .page-template-page-book-online .subpage-img {
+        padding: 110px 0 50px;
+    }
+    .page-template-page-book-online .subpage-img .entry-header h1 {
+        margin: 0 auto 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480.98px) {
+    .page-template-page-book-online .subpage-img .entry-header h1 {
+        max-width: 280px;
+    }
+}

@@ -1,0 +1,331 @@
+@media only screen and (min-width: 991px) and (max-width: 1024px) { 
+    .iv_virtual .top-banner-internal h2 {
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {    
+    .iv_virtual .top-banner-internal h2 {
+        font-size: 40px;
+    }
+    .iv_virtual .top-banner-content p {
+        font-size: 24px;
+    }
+    .iv_virtual .how_work_content:not(:last-child)::after {
+        left: 65% !important;
+        width: 70% !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+    .iv_virtual .wrap {
+        padding: 0 15px !important;
+        width: 100% !important;
+    }
+    .iv_virtual .why_choose,
+    .iv_virtual .how_works,
+    .iv_virtual .we_serve,
+    .iv_virtual .testimonials,
+    .iv_virtual .faq_section {
+        padding: 60px 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    body {
+    	visibility: hidden;
+    }
+
+    /* Hero Section */
+    .iv_virtual p {
+        margin-top: 0;
+    }
+    .iv_virtual p:last-child {
+        margin-bottom: 0;
+    }
+    .iv_virtual .top-wrapper {
+        background-size: cover;
+        min-height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 140px 0 20px;
+    }
+    .iv_virtual .top-banner-internal {
+        height: auto;
+        padding: 0;
+    }
+    .iv_virtual .top-banner-internal .top-banner-content {
+        text-align: left;
+        max-width: none;
+    }
+    .iv_virtual .top-banner-internal h2 {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .iv_virtual .top-banner-content p {
+        font-size: 30px;
+        color: #fff;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    /* Why Choose Us */
+    .iv_virtual .why_choose {
+        padding: 80px 0;
+    }
+    .iv_virtual .why_choose h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .iv_virtual .flex-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+    .iv_virtual .flex-box {
+        width: 33.33%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    .iv_virtual .why_choose_content {
+        text-align: center;
+    }
+    .iv_virtual .why_choose_content h4 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .iv_virtual .why_choose_content img {
+        max-width: 100%;
+        max-height: 50px;
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    /* How it Works */
+    .iv_virtual .how_works {
+        padding: 80px 0;
+    }
+    .iv_virtual .bg_grey {
+        background-color: #7f8d9f;
+    }
+    .iv_virtual .how_works h2 {
+        margin-top: 0;
+        margin-bottom: 40px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .iv_virtual .how_work_content {
+        position: relative;
+        text-align: center;
+    }
+    .iv_virtual .how_work_content .number {
+        display: flex;
+        font-size: 30px;
+        line-height: 1;
+        font-weight: 700;
+        background-color: #288dbc;
+        border-radius: 100px;
+        width: 50px;
+        height: 50px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        margin: 0 auto 20px;
+    }
+    .iv_virtual .how_work_content h4 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #fff;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .iv_virtual .how_work_content p {
+        color: #fff;
+    }
+    .iv_virtual .how_work_content:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: 20px;
+        left: 60%;
+        border-top: 5px dashed #fff;
+        z-index: 9;
+        width: 80%;
+    }
+
+    /* Industries We Serve */
+    .iv_virtual .we_serve {
+        padding: 80px 0;
+    }
+    .iv_virtual .we_serve h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .iv_virtual .sub-text-wrap {
+        text-align: center;
+        max-width: 650px;
+        margin: 0 auto 50px;
+    }
+    .iv_virtual .we_serve_content {
+        text-align: center;
+    }
+    .iv_virtual .we_serve_content h4 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    /* Customer Testimonials */
+    .iv_virtual .testimonials {
+        padding: 80px 0;
+    }
+    .iv_virtual .testimonials h2 {
+        margin-top: 0;
+        margin-bottom: 40px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .iv_virtual .testimonials_content {
+        text-align: center;
+    }
+    .iv_virtual .testimonials_content h4 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #fff;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .iv_virtual .testimonials_content p {
+        color: #fff;
+    }
+    .iv_virtual .author {
+        color: #fff;
+    }
+
+    /*Faq section*/
+    .iv_virtual .faq_section {
+        padding: 80px 0;
+    }
+    .faq_wrapper {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .faq_section h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .iv_virtual .faq_wrapper .faq-item {
+        padding: 20px 0;
+        border-bottom: 1px solid #676767;
+    }
+
+    .iv_virtual .faq-item-heading {
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .iv_virtual .faq_wrapper .faq-item h3 {
+        font-size: 18px;
+        color: #000;
+        margin: 0 30px 0 0;
+        font-weight: bold;
+    }
+
+    .iv_virtual .faq-icon {
+        position: absolute;
+        width: 1rem;
+        height: 1rem;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .iv_virtual .faq-icon:before, .iv_virtual .faq-icon:after {
+        content: '';
+        background-color: #00529C;
+        position: absolute;
+        -webkit-transition: -webkit-transform .25s ease-out;
+        transition: -webkit-transform .25s ease-out;
+        -o-transition: transform .25s ease-out;
+        transition: transform .25s ease-out;
+        transition: transform .25s ease-out,-webkit-transform .25s ease-out;
+    }
+    .iv_virtual .faq-icon:before {
+        top: 0;
+        left: 50%;
+        width: 0.25rem;
+        height: 100%;
+        margin-left: -0.125rem;
+    }
+    .iv_virtual .faq-icon:after {
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 0.25rem;
+        margin-top: -0.125rem;
+    }
+    .iv_virtual .faq-item-desc p {
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+    .iv_virtual .faq-item-desc {
+        display: none;
+    }
+    .iv_virtual .faq-item.active .faq-icon:before{
+    	display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .iv_virtual .top-wrapper {
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+    }
+    .iv_virtual .top-wrapper:before {
+        content: '';
+        position: absolute;
+        right: 50%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-color: #0166a2;
+    }
+    .iv_virtual .top-wrapper:after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-color: #a4b7ca;
+    }
+}

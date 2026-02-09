@@ -1,0 +1,10 @@
+body .hbspt-form ul.inputs-list.hs-error-msgs {
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+
+body .hs-error-msg,
+body .hs_error_rollup {
+  font-size: 13px !important;
+  font-weight: normal !important;
+}

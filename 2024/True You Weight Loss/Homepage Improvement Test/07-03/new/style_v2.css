@@ -1,0 +1,61 @@
+/*Hero section*/
+.hero-container {
+    width: 100%;
+    max-width: 1160px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.hero-section {
+    background-image: url('//trueyouweightloss.com/wp-content/uploads/trueyou-hero-freedom-opt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 460px;
+    display: flex;
+    align-items: center;
+    background-position: right;
+}
+.hero-section h1 {
+    font-size: 32px;
+    line-height: 42px;
+    color: #5a5b9f;
+    width: 100%;
+    max-width: 570px;
+    margin-bottom: 48px;
+}
+.hero-section a.ct-link-button:hover {
+    background-color: #132137;
+    border: 1px solid #132137;
+}
+@media only screen and (max-width: 600px) {
+    .hero-section {
+        background-position: center right -370px;
+    }
+    .hero-container {
+        text-align: center;
+    }
+    .hero-section h1 {
+        text-align: center;
+    }
+    .hero-section a.ct-link-button {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 424.98px) {
+    .hero-section h1 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+/* For Other */
+.homepage-improvement #section-596-103 {
+    background-color: #efefef;
+}
+.homepage-improvement .about-section {
+    align-items: center !important;
+    text-align: center !important;
+    width: 80% !important;
+}
+.homepage-improvement .about-section .atomic-subheading > * {
+    text-align: center !important;
+}

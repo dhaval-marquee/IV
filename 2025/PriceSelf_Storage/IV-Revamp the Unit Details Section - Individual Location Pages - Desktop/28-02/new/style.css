@@ -1,0 +1,143 @@
+.iv-details {
+    background-color: #0a1f8f;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+.iv-details-inner {
+    background-color: #FFFFFF;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form {
+    width: calc(100% - 360px);
+    margin-left: 5px;
+    padding: 0;
+}
+
+.iv-data-box {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.iv-data-box-left {
+    max-width: max-content;
+}
+.iv-locationPage .iv-box-title {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.iv-locationPage .iv-box-price {
+    color: #0a1f8f;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    display: block;
+    word-break: break-word;
+}
+.iv-floor-data {
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+}
+.iv-rent-price {
+    border: 1px dashed #ea101f;
+    padding: 0 4px;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    color: #ea101f;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.iv-locationPage .princingDetails .pss-collapse-right-row9 {
+    margin-left: 0;
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #d1d3d4;
+}
+.iv-locationPage .princingDetails .pss-collapse-right-row9 div span:last-child,
+.iv-locationPage .princingDetails .pss-collapse-right-row9 div a {
+    width: 100%;
+    max-width: 70px;
+    text-align: left;
+}
+.iv-locationPage .princingDetails .pss-collapse-right-row9 > div:last-child>span {
+    font-weight: 800;
+}
+.iv-locationPage .princingDetails .pss-collapse-right-row9 > div:last-child > span:last-child {
+    color: #0a1f8f;
+}
+.iv-locationPage .princingDetails .pss-collapse-right-row9 > div:last-child {
+    border-top: 1px solid #d1d3d4;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.iv-locationPage .pss-unit-list__item .pss-promo-row2{
+    display: none;
+}
+.iv-locationPage .pss-unit-list__item .pss-promo-row1,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row9>div:last-child>span:first-child span {
+    text-transform: capitalize;
+}
+.iv-locationPage .pss-unit-list__item .pss-collapse-right-row9>div span svg {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row1,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row2,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row3,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row4,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row5,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row6,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row7,
+.iv-locationPage .pss-unit-list__collapse-container-right-side-form .pss-collapse-right-row8 {
+    display: none;
+}
+
+/* V3 */
+.iv-locationPageV3 .pss-unit-list__item .pss-unit-list__collapse-container-promo-box-main {
+    flex-direction: row;
+    align-items: center;
+}
+.iv-locationPageV3 .pss-unit-list__item .pss-unit-list__collapse-container-promo-box-main .pss-promo-row3 {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    width: 100%;
+    justify-content: start;
+}
+.iv-locationPageV3 .pss-unit-list__item .pss-unit-list__collapse-container-promo-box-main .pss-promo-row3 div {
+    width: 100%;
+    max-width: 180px;
+}
+.iv-locationPageV3 .pss-unit-list__item .pss-unit-list__collapse-container-promo-box-main {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: start;
+}
+.iv-locationPageV3 .pss-unit-list__item .pss-promo-row1 {
+    width: 100%;
+    max-width: max-content;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .iv-locationPageV3 .pss-unit-list__item .pss-unit-list__collapse-container-promo-box-main .pss-promo-row3 div {
+        max-width: max-content;
+    }
+    .iv-locationPage .pss-unit-list__collapse-container-right-side-form {
+        width: calc(100% - 345px);
+    }
+    .iv-locationPage .iv-box-price{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .iv-locationPageV3 .pss-unit-list__item .pss-unit-list__collapse-container-promo-box-main .pss-promo-row3 div {
+        max-width: 235px;
+    }
+}

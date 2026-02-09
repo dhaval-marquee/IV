@@ -1,0 +1,926 @@
+/* Prodcut section */
+.iv-revamp-the-PDP-layout .product__info-wrapper .yotpo-widget-instance [type="button"] span svg path {
+    stroke: #C8102E;
+    fill: #C8102E;
+}
+.iv-revamp-the-PDP-layout .price-per-piece-wrapper .price-item {
+    color: #C8102E;
+}
+.iv-revamp-the-PDP-layout .variant-change .product-form__input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.iv-revamp-the-PDP-layout .variant-change .product-form__input .form__label {
+    margin: 0;
+}
+.iv-revamp-the-PDP-layout .variant-change .product-form__input input[type=radio]+label {
+    border-radius: 9999px;
+    margin: 0;
+    padding: 7px 15px;
+}
+.iv-revamp-the-PDP-layout .variant-change .product-form__input input[type=radio]+label::before {
+    border-radius: 9999px;
+    box-shadow: none;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons {
+    display: flex;
+    gap: 15px;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons:has(.product-form__submit[disabled]) {
+    flex-direction: column;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons label {
+    display: none;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__input {
+    width: auto;
+    flex: auto;
+    margin: 0;
+    transform: none;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__input quantity-input.quantity::after,
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__input quantity-input.quantity::before,
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__submit::after,
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__submit::before {
+    display: none;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__input quantity-input.quantity {
+    border: 1px solid #ABABAB;
+    border-radius: 10px;
+    min-height: 45px;
+    width: 100px;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__input quantity-input.quantity .quantity__input {
+    font-size: 14px;
+    font-weight: 900;
+}
+.iv-revamp-the-PDP-layout .product-form__buttons .quantity__button svg {
+    width: 1.4rem;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__input quantity-input.quantity button.quantity__button {
+    width: 30px;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__submit:not([disabled]) {
+    border-radius: 10px;
+    min-height: 45px;
+    margin: 0;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__submit:not([disabled]) span {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.iv-revamp-the-PDP-layout .product__description p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.iv-revamp-the-PDP-layout .variant-radio-label {
+    border: var(--variant-pills-border-width) solid rgba(var(--color-foreground), var(--variant-pills-border-opacity));
+    background-color: rgb(var(--color-background));
+    color: rgba(var(--color-foreground));
+    border-radius: 40px;
+    color: rgb(var(--color-foreground));
+    display: inline-block;
+    margin: .7rem .5rem .2rem 0;
+    padding: 0.9rem 2rem 0.7rem;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    line-height: 1;
+    text-align: center;
+    transition: border var(--duration-short) ease;
+    cursor: pointer;
+    position: relative;
+}
+.iv-revamp-the-PDP-layout .variant-radio-label:hover {
+    border-color: rgb(var(--color-foreground));
+}
+.iv-revamp-the-PDP-layout .variant-radio-label.active-label {
+    background-color: rgb(var(--color-foreground));
+    color: #fff;
+}
+.iv-revamp-the-PDP-layout product-info .product-form__input>.select {
+    display: none;
+}
+.iv-revamp-the-PDP-layout .product__info-wrapper variant-selects,
+.product__info-container .product-form {
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider media-gallery {
+        column-gap: 10px;
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .product__media-list {
+        margin-bottom: 0;
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .slider-button {
+        background: #FFFFFF;
+        display: flex !important;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 24px;
+        width: 45px;
+        z-index: 1;
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .slider-button[disabled] {
+        opacity: 0;
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .slider-button--prev {
+        top: 10px;
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .slider-button--prev .icon {
+        transform: rotate(180deg);
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .slider-button--prev:not([disabled]):hover .icon {
+        transform: rotate(180deg) scale(1.1);
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .slider-button--next {
+        bottom: 10px;
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .slider-button--next .icon {
+        transform: rotate(0);
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .slider-button--next:not([disabled]):hover .icon {
+        transform: rotate(0) scale(1.1);
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .thumbnail-slider {
+        padding-right: 0;
+        display: block;
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .thumbnail-slider .thumbnail-list.slider--tablet-up {
+        display: flex;
+        margin-left: 100px;
+        transform: rotate(90deg);
+        transform-origin: top left;
+    }
+    .iv-revamp-the-PDP-layout .product--thumbnail_slider .thumbnail-slider .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
+        margin-bottom: 0;
+        transform: rotate(-90deg);
+        width: 100px;
+    }
+    .iv-revamp-the-PDP-layout #MainContent > section:first-child > section {
+        padding-top: 16px;
+        padding-bottom: 0;
+    }
+    .iv-revamp-the-PDP-layout .product__info-container .product__description,
+    .iv-revamp-the-PDP-layout share-button:has(.share-button__button) {
+        margin-bottom: 0;
+    }
+    .iv-revamp-the-PDP-layout share-button > .share-button__button {
+        min-height: 22px;
+    }
+    .iv-revamp-the-PDP-layout .product__info-wrapper variant-selects {
+        display: block !important;
+    }
+    .iv-revamp-the-PDP-layout .variant-radio-label {
+        margin-top: 0;
+    }
+}
+@media screen and (min-width: 750px) {
+    .iv-revamp-the-PDP-layout .product__title h1 {
+        font-size: 30px;
+    }
+    .iv-revamp-the-PDP-layout .variant-change .product-form__input .form__label {
+        display: contents;
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 749px) {
+    .iv-revamp-the-PDP-layout .product-form__buttons.sticky .product-form__submit .mobile-price {
+        display: none;
+    }
+    .iv-revamp-the-PDP-layout.iv-productQuantity .scrolled-past-header + #MainContent .product-form__buttons.sticky {
+        padding: 1.5rem;
+        position: fixed;
+        border-top: 2px solid #ce0e2d;
+    }
+    .iv-revamp-the-PDP-layout #MainContent .product-form__buttons.sticky {
+        padding: 1.5rem 0;
+        position: inherit;
+        border-top: inherit;
+    }
+    .iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__input quantity-input.quantity,
+    .iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__submit:not([disabled]) {
+        min-height: 30px;
+    }
+    .iv-revamp-the-PDP-layout .product__info-wrapper .product-form__buttons .product-form__submit:not([disabled]) {
+        background: #000 !important;
+    }
+    .iv-revamp-the-PDP-layout .shopify-block + div:has(.price-per-piece-wrapper) {
+        display: block !important;
+    }
+    .product > div > .product__title {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+}
+
+/* Targeted Pests - Catchmaster’s Promise */
+.iv-revamp-the-PDP-layout .iv-targeted-heading,
+.iv-revamp-the-PDP-layout .iv-promise-heading,
+.iv-revamp-the-PDP-layout .iv-description-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+.iv-targeted-section {
+    overflow: hidden;
+}
+.iv-revamp-the-PDP-layout .iv-targeted-image-section {
+    display: flex;
+    gap: 16px;
+    /* justify-content: end; */
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.iv-revamp-the-PDP-layout .iv-targeted-item {
+    width: calc(20% - 16px);
+}
+.iv-revamp-the-PDP-layout .iv-targeted-item,
+.iv-revamp-the-PDP-layout .iv-promise-item {
+    text-align: center;
+    line-height: normal;
+    text-decoration: none;
+}
+.iv-revamp-the-PDP-layout .iv-targeted-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 0px;
+}
+.iv-revamp-the-PDP-layout .iv-promise-item img {
+    height: 30px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+.iv-revamp-the-PDP-layout .iv-targeted-item p,
+.iv-revamp-the-PDP-layout .iv-promise-item p {
+    font-size: 12px;
+    margin: 0;
+    color: #000;
+    font-weight: 600;
+}
+.iv-revamp-the-PDP-layout .iv-promise-image-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 749px) {
+    .iv-revamp-the-PDP-layout .product__media-wrapper .price-per-piece-wrapper .price-item {
+        font-size: 20px;
+    }
+    .iv-revamp-the-PDP-layout button .price-per-piece-wrapper .price-item {
+        color: #fff;
+    }
+    .iv-revamp-the-PDP-layout .iv-targeted-heading,
+    .iv-revamp-the-PDP-layout .iv-promise-heading,
+    .iv-revamp-the-PDP-layout .iv-description-title {
+        font-size: 16px;
+    }
+    .iv-revamp-the-PDP-layout .iv-description-title {
+        border-bottom: 1px solid #A6A6A6;
+        padding-bottom: 15px;
+    }
+    .iv-revamp-the-PDP-layout .iv-promise-item p {
+        font-size: 10px;
+    }
+    .iv-revamp-the-PDP-layout .iv-targeted-image-section {
+        gap: 10px;
+    }
+    .iv-revamp-the-PDP-layout .iv-promise-image-section {
+        gap: 12px;
+    }
+    .iv-revamp-the-PDP-layout .iv-targeted-item {
+        width: calc(20% - 12px);
+    }
+    .iv-revamp-the-PDP-layout .iv-targeted-item img {
+        width: 50px;
+        height: 50px;
+    }
+    .iv-description-content:not(.expanded) {
+    display: none;
+}
+    .iv-description-content.expanded {
+        display: block;
+        transition: max-height 0.28s ease;
+    }
+    .iv-description-title,
+    .iv-how-use .iv-title {
+        position: relative;
+    }
+    .iv-description-title::before,
+    .iv-how-use .iv-title::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 6px;
+        right: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 8px solid #000;
+    }
+    .iv-description-title.active::before,
+    .iv-how-use .iv-title.active::before {
+        transform: rotate(180deg);
+    }
+}
+/* End - Prodcut section */
+
+/*  How Use */
+.iv-how-use {
+    padding: 50px 0;
+    background: #fff;
+}
+.iv-how-use-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+.iv-how-use .iv-title {
+    margin-bottom: 30px;
+}
+.iv-how-use-left {
+    flex: 1 1 45%;
+}
+.iv-how-use-left img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.iv-how-use-right {
+    flex: 1 1 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.iv-how-use-item img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.iv-how-use-item h6 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #000;
+}
+.iv-how-use-item p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 991px) {
+    .iv-how-use-left {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .iv-how-use {
+        padding-top: 0;
+    }
+    .iv-how-use .iv-container {
+        padding: 0;
+    }
+    .iv-how-use .iv-title {
+        color: #000;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: inherit;
+        border-bottom: 1px solid #A6A6A6;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        margin-bottom: 15px;
+    }
+    .iv-how-use-container:not(.expanded) {
+        display: none;
+    }
+    .iv-how-use-container.expanded  {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .iv-how-use-right {
+        grid-template-columns: 1fr;
+    }
+}
+/* End - How Use */
+
+/* Use glue */
+.iv-use-glue {
+    background: #f6f6f6;
+    padding: 50px 0;
+    text-align: center;
+}
+.iv-use-glue-subtitle {
+    font-size: 24px;
+    color: #666;
+    margin: 0;
+    line-height: normal;
+}
+.iv-use-glue-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+.iv-use-glue-item {
+    background: #fff;
+    text-align: left;
+}
+.iv-use-glue-img img {
+    width: 100%;
+    display: block;
+}
+.iv-use-glue-content {
+    padding: 20px 50px 40px 50px;
+}
+.iv-use-glue-content h6 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    font-family: Arial Black, Arial, sans-serif;
+    color: #000;
+}
+.iv-use-glue-content p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .iv-use-glue-content {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .iv-use-glue {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .iv-use-glue-steps {
+        grid-template-columns: 1fr;
+    }
+}
+/* End - Use glue */
+
+/* FAQ section */
+.iv-revamp-the-PDP-layout .iv-faq {
+    padding: 50px 0;
+    box-sizing: border-box;
+    max-width: 1280px;
+    margin: auto;
+}
+.iv-revamp-the-PDP-layout .iv-faq-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    line-height: normal;
+    margin: 0 0 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+.iv-revamp-the-PDP-layout .iv-faq-list {
+    display: block
+}
+.iv-revamp-the-PDP-layout .iv-accordion-item {
+    margin-bottom: 32px;
+    border-radius: 2px;
+}
+.iv-revamp-the-PDP-layout .iv-accordion-item:last-child {
+    margin-bottom: 0;
+}
+.iv-revamp-the-PDP-layout .iv-accordion-btn {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    padding: 22px 0;
+    display: grid;
+    grid-template-columns: 1fr 64px;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.iv-accordion-btn:focus {
+    outline-color: rgba(200, 27, 42, 0.7);
+    outline-offset: 6px;
+}
+.iv-revamp-the-PDP-layout .iv-question {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #111;
+    text-align: left
+}
+.iv-revamp-the-PDP-layout .iv-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #C81B2A;
+    color: #fff;
+    flex: 0 0 48px
+}
+.iv-revamp-the-PDP-layout .iv-chevron {
+    stroke: #fff;
+    transition: transform .25s ease
+}
+.iv-revamp-the-PDP-layout .iv-accordion-btn[aria-expanded="true"] .iv-chevron {
+    transform: rotate(180deg)
+}
+.iv-revamp-the-PDP-layout .iv-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .28s ease;
+    border-top: 2px solid transparent;
+    padding-left: 0;
+}
+.iv-revamp-the-PDP-layout .iv-accordion-btn[aria-expanded="true"]+.iv-panel {
+    border-top-color: #D14A52;
+    padding-top: 18px
+}
+.iv-revamp-the-PDP-layout .iv-panel-inner {
+    font-size: 15px;
+    color: #313131;
+    line-height: 1.6;
+    padding-right: 8px;
+}
+
+@media screen and (max-width: 749px) {
+    .iv-revamp-the-PDP-layout .iv-faq {
+        padding: 30px 0px;
+    }
+    .iv-revamp-the-PDP-layout .iv-faq-title {
+        font-size: 24px;
+    }
+    .iv-revamp-the-PDP-layout .iv-accordion-item {
+        margin-bottom: 20px;
+    }
+    .iv-revamp-the-PDP-layout .iv-accordion-btn {
+        grid-template-columns: 1fr 52px;
+        padding: 16px 0;
+    }
+    .iv-revamp-the-PDP-layout .iv-icon {
+        width: 35px;
+        height: 35px;
+    }
+    .iv-revamp-the-PDP-layout .iv-question {
+        font-size: 14px;
+    }
+    .iv-revamp-the-PDP-layout .iv-panel-inner {
+        font-size: 13px;
+    }
+    .iv-revamp-the-PDP-layout .iv-chevron {
+        width: 28px;
+        height: 28px;
+    }
+}
+/* End - FAQ section */
+
+/* Guarantee section */
+.iv-revamp-the-PDP-layout .iv-guarantee {
+    background: #C6132C;
+    color: #fff;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.iv-revamp-the-PDP-layout .iv-guarantee-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: auto;
+}
+.iv-revamp-the-PDP-layout .iv-guarantee-text {
+    flex: 1 1 60%;
+    min-width: 280px;
+}
+.iv-revamp-the-PDP-layout .iv-guarantee-title {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0 0 50px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 20px 0;
+    max-width: 540px;
+    background: #000;
+    position: relative;
+}
+.iv-revamp-the-PDP-layout .iv-guarantee-title::after {
+    position: absolute;
+    content: "";
+    right: -70px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 126px solid #000;
+    border-right: 70px solid transparent;
+}
+.iv-revamp-the-PDP-layout .iv-guarantee-title::before {
+    position: absolute;
+    content: "";
+    width: 1000%;
+    height: 100%;
+    background: #000;
+    margin-left: -100%;
+    top: 0;
+    right: 100%;
+}
+.iv-revamp-the-PDP-layout .iv-guarantee-title span {
+    font-weight: 500;
+}
+.iv-revamp-the-PDP-layout .iv-guarantee-desc {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+}
+.iv-revamp-the-PDP-layout .iv-guarantee-link {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.iv-revamp-the-PDP-layout .iv-guarantee-logo {
+    flex: 1 1 35%;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.iv-revamp-the-PDP-layout .iv-guarantee-logo img {
+    height: auto;
+}
+
+@media screen and (max-width: 749px) {
+    .iv-revamp-the-PDP-layout .iv-guarantee {
+        padding: 30px 0;
+    }
+    .iv-revamp-the-PDP-layout .iv-guarantee-inner {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .iv-revamp-the-PDP-layout .iv-guarantee-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .iv-revamp-the-PDP-layout .iv-guarantee-text {
+        flex: 1 1 100%
+    }
+    .iv-revamp-the-PDP-layout .iv-guarantee-title::after {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        border: none;
+        width: 100%;
+        height: 100%;
+        margin-right: -100%;
+        background: #000;
+    }
+    .iv-revamp-the-PDP-layout .iv-guarantee-desc {
+        font-size: 13px;
+    }
+    .iv-revamp-the-PDP-layout .iv-guarantee-logo {
+        margin-top: 20px
+    }
+}
+/* End Guarantee section */
+
+/* Review section desing */
+.iv-revamp-the-PDP-layout .yotpo-main-widget-layout .yotpo-bold-layout .yotpo-head {
+    min-height: auto;
+    margin-top: 0;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-widget-layout .yotpo-bold-layout .yotpo-head .yotpo-headline {
+    margin-top: 0;
+    display: none;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-layout-header-wrapper {
+    background: #c8102e;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-layout-header-wrapper .yotpo-bottom-line {
+    align-items: center;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-star-distribution-index,
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-star-distribution-value,
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-bottom-line-left-panel,
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-bottom-line-basic-text {
+    color: #fff !important;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-star-distribution svg path,
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-summary-section svg path {
+    fill: #EFE708;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-progress-bar .yotpo-progress-bar-score {
+    background: #EFE708;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-new-review-btn {
+    background-color: #fff !important;
+    transition: all 0.3s ease-in-out;
+    color: #000 !important;
+    line-height: normal !important;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-new-review-btn:hover {
+    background-color: #EFE708 !important;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-filters-container-inner {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-filters-container-inner svg.yotpo-dropdown-arrow-icon path {
+    stroke: #c8102e;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-filters-right-panel {
+    align-self: auto;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .content-container-with-votes {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 26px 16px 16px;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-votes-wrapper,
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-border-smooth,
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-title {
+    display: none;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-content {
+    order: -1;
+    margin: 15px 0;
+    position: relative;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-content::before {
+    position: absolute;
+    content: '';
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-content::before,
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-content::after {
+    position: absolute;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-content::before {
+    top: -30px;
+    left: 0;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 290"><path d="M22.12 145v97.65h97.65V145H70.95c0-26.92 21.9-48.82 48.82-48.82V47.35c-53.93 0-97.65 43.72-97.65 97.65zm245.76-48.82V47.35c-53.93 0-97.65 43.72-97.65 97.65v97.65h97.65V145h-48.82c-.01-26.92 21.89-48.82 48.82-48.82z" fill="%23C8102E"></path></svg>');
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-content::after {
+    bottom: -20px;
+    right: 0;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 290"><path d="M267.88 145V47.35h-97.65V145h48.82c0 26.92-21.9 48.82-48.82 48.82v48.82c53.93.01 97.65-43.71 97.65-97.64zM22.12 193.82v48.82c53.93 0 97.65-43.72 97.65-97.65V47.35H22.12V145h48.82c.01 26.92-21.89 48.82-48.82 48.82z" fill="%23C8102E"></path></svg>');
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-date {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 0;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-reviewer {
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-reviewer-name {
+    font-size: 14px;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .content-header {
+    padding: 0 10px;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-review-comment {
+    display: none;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-reviews-pagination-container {
+    position: relative;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget:has(a[aria-label="Load more reviews"]) [item-selector=".yotpo-review-card"] {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget:has(a[aria-label="Load more reviews"]) [item-selector=".yotpo-review-card"]::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(to top, white, transparent);
+    pointer-events: none;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-vertical-pagination a.yotpo-reviews-pagination-item {
+    border-radius: 0;
+    min-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-transform: uppercase;
+    max-width: 200px !important;
+    width: 100% !important;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-vertical-pagination {
+    width: 100%;
+}
+.iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-reviews-pagination-container {
+    margin-top: -30px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .iv-revamp-the-PDP-layout .yotpo-main-reviews-widget .yotpo-filters-container-inner {
+        flex-direction: column;
+        align-items: start;
+    }
+}
+/* End - Review section desing */
+
+.iv-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+    .iv-container {
+        max-width: var(--page-width);
+        margin: 0 auto;
+        padding: 0 5rem;
+    }
+
+    /* Read more and Read less  */
+    .iv-revamp-the-PDP-layout .iv-read-more-active .iv-description-content::before,
+    .product-mouse-insect-glue-trays-2.iv-revamp-the-PDP-layout .iv-read-more-active .iv-description-content::after {
+        position: absolute;
+        content: '';
+        background: linear-gradient(360deg, #ffffff, #00000000);
+        width: 100%;
+        height: 50%;
+        bottom: -2px;
+    }
+    .iv-revamp-the-PDP-layout .iv-read-more-active .iv-description-content {
+        max-height: 50px;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+    }
+    .iv-revamp-the-PDP-layout .product__description .iv-description-content,
+    .iv-revamp-the-PDP-layout .product__description span {
+        font-size: 16px;
+    }
+    .iv-revamp-the-PDP-layout .product__description .iv-description-content {
+        margin-bottom: 5px;
+    }
+    .iv-revamp-the-PDP-layout .iv-readmore,
+    .iv-revamp-the-PDP-layout .iv-readless {
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 600;
+        cursor: pointer;
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .iv-container {
+        padding: 0 15px;
+    }
+    .iv-title {
+        font-size: 22px;
+    }
+    .iv-use-glue-subtitle {
+        font-size: 16px;
+    }
+    .product__description.quick-add-hidden {
+        margin-bottom: 0;
+    }
+}

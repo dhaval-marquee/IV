@@ -1,0 +1,56 @@
+.guideProductTest li.guideProduct {
+    text-align: center;
+    background-color: #F5F5F5;
+    border: 1px solid rgba(128,128,128,.16);
+    -moz-box-shadow: 0 1px 4px #8080801c;
+   -webkit-box-shadow: 0 1px 4px #8080801c;
+   box-shadow: 0 1px 4px #8080801c;
+}
+.guideProductTest li.guideProduct a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.guideProductTest li.guideProduct a .item {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/f_auto/EV_Lectron/Buyers_Guide_Product_Tile/BuyerGuideProductTitle-01.png');
+    width: 100%;
+    height: 477px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.guideProductTest li.guideProduct a .itemText{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 16px;
+}
+.guideProductTest li.guideProduct a .itemText h2 {
+    background-color: rgba(0, 0, 0, 0.28);
+    font-size: 22px;
+    text-align: start;
+    padding: 10px;
+}
+.guideProductTest li.guideProduct a .itemText button {
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 600;
+    background: #5cc9c3;
+    width: 100%;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+}
+.guideProductTest li.guideProduct a .itemText button:hover {
+    opacity: 0.9;
+}
+@media (max-width: 859.98px) {
+    .guideProductTest li.guideProduct a .itemText{
+        position: absolute;
+        bottom: 0;
+        color: #fff;
+        padding: 11px;
+    }
+}

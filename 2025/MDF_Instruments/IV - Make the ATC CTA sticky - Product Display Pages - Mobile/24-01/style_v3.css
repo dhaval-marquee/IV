@@ -1,0 +1,96 @@
+@media (max-width: 767.98px) {
+    .stickyBar_iv {
+        padding-bottom: 44px;
+    }
+    
+    .stickyBar_iv #Avada-CookiesBar .Avada-CookiesBar__Reopen-Popup--bottom-left,
+    .stickyBar_iv #ShopifyChat {
+        bottom: 100px !important;
+        height: auto !important;
+    }
+
+    .stickyBar_iv.iv-bar-hide .stickyBar {
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+    }
+    
+    .stickyBar_iv.scroll .stickyBar{
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    .stickyBar_iv .sticky.stickyBar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 9;
+        background: #ffffff;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .stickyBar_iv .stickyBar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .stickyBar_iv .stickyBar .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0;
+        margin: auto;
+        padding: 0px 10px;
+    }
+    .stickyBar_iv .stickyBar .iv-sec-left {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .stickyBar_iv .stickyBar .iv-sec-left img {
+        width: 100%;
+        max-width: 70px;
+    }
+    .stickyBar_iv .stickyBar .iv-sec-left h1 {
+        font-size: 14px;
+        line-height: normal;
+        max-width: 115px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: initial;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    
+    }
+    .stickyBar_iv .iv-prod-btn {
+        width: 100%;
+        max-width: 150px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: #292929;
+        color: #EEEEEE;
+        padding: 12px;
+    }
+    .stickyBar_iv footer .footer  {
+        padding-bottom: 90px;
+    }
+
+}
+@media (max-width: 424.98px) {
+    .stickyBar_iv .stickyBar .iv-sec-left img {
+        max-width: 53px;
+    }
+    .stickyBar_iv footer .footer  {
+        padding-bottom: 77px;
+    }
+}

@@ -1,0 +1,10 @@
+.cta_change_iv form#gform_1 {
+    display: none;
+}
+.cta_change_iv .new_cta {
+    max-width: 300px;
+    width: 100%;
+    padding: 16px 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

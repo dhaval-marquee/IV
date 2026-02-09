@@ -1,0 +1,16 @@
+.iv-Badge .badgeGreen {
+    background: #11874c;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media(max-width: 767.98) {
+    .iv-Badge .badgeGreen {
+        font-size: 12.5px;
+        padding: 2px 6px;
+    }
+}

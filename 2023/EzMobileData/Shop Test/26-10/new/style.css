@@ -1,0 +1,151 @@
+/* Reset some default styles */
+#facet-main .product-facet__meta-bar {
+    display: none !important;
+}
+.image-overlay__content {
+    width: 100%;
+    max-width: 100%;
+}
+h1.heading split-lines {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+    
+  /* Banner section */
+.banner-yellow {
+    display: flex;
+    justify-content: center;
+    background-color: #E8C06B;
+    color: white;
+    padding: 10px;
+}
+  
+.banner-yellow a {
+    color: #425CFB;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 20px;
+}
+  
+  /* Plans section */
+.plans .plans-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.plans .plane-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+  
+.plan {
+    background-color: white;
+    border: 3px solid #F283B6;
+    border-radius: 16px 16px 12px 12px;
+    margin-bottom: 20px;
+}
+.plan.plan-pink {
+    border: 3px solid #F283B6;
+}
+.plan.plan-blue {
+    border: 3px solid #085EDC;
+}
+.plan.plan-red {
+    border: 3px solid #BD0405;
+}
+.plan .plan-content {
+      padding: 20px;
+}
+.plan .plan-head {
+    color: #fff;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    padding: 20px;
+}
+.plan.plan-pink .plan-head {
+    background-color: #F283B6;
+}
+.plan.plan-blue .plan-head {
+    background-color: #085EDC;
+}
+.plan.plan-red .plan-head {
+    background-color: #BD0405;
+}
+.plan h2 {
+    font-size: 32px;
+}
+.plan h3 { 
+    font-size: 18px;
+    margin: 0;
+}
+  
+.plan p.subhead {
+    font-weight: bold;
+}
+  
+.plan .plan-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.plan .plan-details .plan-left-box {
+    font-size: 24px;
+    background-color: #F0F0F0;
+    padding: 14px;
+}
+  
+.plan .plan-details .plan-left-box span {
+    font-size: 38px;
+    font-weight: 700;
+    color: #50506F;
+}
+.plan .plan-left-box, .plan .plan-right-box {
+    width: 48%;
+    background-color: #F0F0F0;
+    padding: 14px;
+}
+.plan .plan-right-box > span { 
+    font-size: 22px;
+}
+.plan.plan-pink .plan-right-box > span {
+    color: #F283B6;
+}
+.plan.plan-blue .plan-right-box > span {
+    color: #085EDC;
+}
+.plan.plan-red .plan-right-box > span {
+    color: #BD0405;
+}
+.plan .plan-details .plan-right-box p {
+    margin: 0;
+}
+  
+  /* Body section */
+.body ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+  
+.body li {
+    padding: 5px 0;
+}
+  
+  /* Trust Bar section */
+.trust-bar {
+    background-color: #33cc33;
+    color: white;
+    padding: 10px;
+}
+  
+  /* Responsive layout adjustments */
+@media screen and (max-width: 768px) {
+    .plan {
+        width: 100%;
+    }
+}
+  

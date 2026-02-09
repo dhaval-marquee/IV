@@ -1,0 +1,51 @@
+.iv-manager-tab #tab6 .iv-manager-tab-content span {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.iv-manager-tab-content p {
+    text-align: left;
+}
+
+.iv-new-container br:first-child {
+    display: none;
+}
+
+#tab1 .row>.six.columns:first-child {
+    display: none;
+}
+
+body.iv-manager-tab .iv-address {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.iv-wrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+
+.iv-wrapper>div {
+    width: 33.33%;
+}
+
+.iv-address>h1.facility-hours-title {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .iv-wrapper {
+        flex-direction: column;
+    }
+
+    .iv-wrapper>div {
+        width: 100%;
+    }
+
+    .facility_info_rating, .iv-wrapper>div, .iv-manager-tab-content h2,
+    .iv-manager-tab #tab6 .iv-manager-tab-content span,
+    .iv-manager-tab-content p {
+        text-align: center;
+    }
+}

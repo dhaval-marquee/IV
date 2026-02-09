@@ -1,0 +1,4 @@
+Test was for mobile user also. Please apply changes accordingly. 
+Please change structure with new changes.
+Please place css at the end of the main css file.
+Screenshot attached for each change in html file.

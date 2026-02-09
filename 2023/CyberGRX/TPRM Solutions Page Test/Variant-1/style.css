@@ -1,0 +1,103 @@
+@media (min-width: 1025px) {
+	.tprm_iv .hero .hero__media img,
+	.tprm_iv .pu-form-container {
+		display: none;
+	}
+	.tprm_iv .hero .hero__media {
+		top: 50%;
+		transform: translateY(-50%);
+		height: auto;
+	}
+	.tprm_iv .hero .form_title {
+		color: white;
+	}
+	.tprm_iv .form_section {
+		padding: 50px 0 100px;
+	}
+	.tprm_iv .form_section .container {
+		max-width: 1580px;
+		padding: 0 50px;
+	}
+	.tprm_iv .part_wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.tprm_iv .part_wrapper .left_part {
+		width: 50%;
+		max-width: 600px;
+		margin-right: 30px;
+	}
+	.tprm_iv .part_wrapper .left_part h2 {
+		font-size: 36px;
+		line-height: 58px;
+	}
+	.tprm_iv .part_wrapper .left_part h3 {
+		font-size: 20px;
+		font-weight: 700;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.tprm_iv .part_wrapper .left_part ul {
+		padding-left: 35px;
+	}
+	.tprm_iv .part_wrapper .left_part ul li {
+		position: relative;
+		font-size: 16px;
+		padding-bottom: 16px;
+	}
+	.tprm_iv .part_wrapper .left_part ul li::before {
+		content: "";
+		background-image: url('//res.cloudinary.com/spiralyze/image/upload/v1688049706/bamboohr/2002/checkmark.svg');
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-left: -34px;
+	}
+	.tprm_iv .part_wrapper .left_part ul + h3 {
+		margin: 0;
+	}
+	.tprm_iv .part_wrapper .right_part {
+		width: 50%;
+		max-width: 630px;
+	}
+	.tprm_iv .form_title {
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 24px;
+	}
+	.tprm_iv .pu-form {
+		background-color: rgb(233,233,233);
+		max-width: 600px;
+		-webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.24);
+		box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.24);
+		margin: 0 auto;
+		padding: 32px 50px 48px;
+	}
+	.tprm_iv .mktoForm .mktoFormRow .mktoFormCol .mktoFieldWrap input,
+	.tprm_iv .pu-form textarea ,
+	.tprm_iv .pu-form__dark input[type=text]:not(#adminbar-search):not(#filters__search) {
+		border-color: #63b345!important;
+		background-color: #FFF!important;
+		-webkit-box-shadow: 0 2px 0 0 #63b345!important;
+		box-shadow: 0 2px 0 0 #63b345!important;
+	}
+	.tprm_iv .mktoForm .mktoButtonRow,
+	.tprm_iv .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+		width: 100%;
+	}
+	.tprm_iv .mktoForm .mktoFormRow .mktoFormCol .mktoFieldWrap input[ type="checkbox"] {
+		box-shadow: inherit !important;
+	}
+}
+
+@media (min-width: 1536px) {
+	.tprm_iv .hero .hero__text {
+		padding: 140px 0;
+	}
+}

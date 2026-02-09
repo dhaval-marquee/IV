@@ -1,0 +1,318 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    visibility: hidden;
+}
+img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/* Add your test CSS here */
+.location_iv .hero_section {
+    padding: 50px 0 100px;
+}
+.location_iv .hero_section + .facility,
+.location_iv .hero_section ~ .container.facility,
+.location_iv .facility .top-text .service-icons li:nth-child(2),
+.location_iv .hero_section .hero_left .contact-details-wrap > div:last-of-type,
+.location_iv .facility .pricing-menu .card-promo .card-title,
+.location_iv .facility .pricing-menu .card-promo h2 + .card-body,
+.location_iv .facility .pricing-menu .card .cardHeading h3.card-title,
+.location_iv .facility .pricing-menu .card .card-body .card-text .sub-text {
+    display: none !important;
+}
+.location_iv .hero_section .container {
+    display: flex;
+    justify-content: space-between;
+}
+.location_iv .hero_section .hero_left,
+.location_iv .hero_section .hero_right {
+    max-width: 49%;
+    width: 100%;
+}
+.location_iv .hero_section h1 {
+    font-size: 44px;
+    line-height: normal;
+    color: #454545;
+    width: 100%;
+}
+.location_iv .hero_section h2 {
+    font-family: 'Oswald';
+}
+.location_iv .hero_section p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #525252;
+}
+.location_iv .hero_section .hero_left .contact-details-wrap {
+    padding: 30px 0;
+}
+.location_iv .hero_section .hero_left .address,
+.location_iv .hero_section .hero_left .phone {
+    position: relative;
+    font-size: 15px;
+    color: #666565;
+    font-weight: normal;
+    padding-left: 40px;
+    display: inline-block !important;
+}
+.location_iv .hero_section .hero_left .address:before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.8125rem;
+    content: "\f3c5";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: #b4b5b6;
+    top: 2px;
+}
+.location_iv .hero_section .hero_left .phone i {
+    font-size: 1.3125rem;
+    color: #b4b5b6;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.location_iv .hero_section .facility .top-text .service-icons {
+    margin-bottom: 30px;
+}
+.location_iv .hero_section .facility .top-text .service-icons li button {
+    display: inline-flex;
+    align-items: center;
+}
+.location_iv .hero_section .facility .top-text .service-icons li + li {
+    margin-left: 40px;
+}
+.location_iv .hero_section .facility .top-text .service-icons li button {
+    padding: 0;
+}
+.location_iv .hero_section .facility .top-text .service-icons li button i {
+    width: 44px;
+    margin-right: 8px;
+}
+.location_iv .hero_section .facility .top-text .service-icons li button i.icon-baby {
+    width: 36px;
+}
+.location_iv .hero_section .facility .top-text .service-icons li a {
+    text-decoration: underline;
+    font-size: 18px;
+}
+.location_iv .hero_section .facility ul.social-links {
+    text-align: left;
+}
+
+
+.location_iv .hero_section .hero_right img + img {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* Bottom section */
+.location_iv .facility .top-section h3#pricing {
+    margin-top: 50px;
+}
+.location_iv .facility .price-container .pricing-menu .cards-section {
+    margin-top: 30px;
+}
+.location_iv .facility .price-container .pricing-menu .card {
+    max-width: 24% !important;
+    width: 100% !important;
+    flex: inherit;
+    min-width: inherit !important;
+    margin-bottom: 0 !important;
+    border-radius: 0;
+    padding: 5px;
+    border: none;
+}
+
+.location_iv .facility .price-container .pricing-menu .card .card_inner {
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 1px solid #444;
+}
+
+.location_iv .facility .price-container .pricing-menu .card .card-body,
+.location_iv .facility .price-container .pricing-menu .card .card-footer {
+    line-height: normal;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.location_iv .facility .price-container .pricing-menu .card .card-body {
+    padding-top: 12px;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.location_iv .facility .price-container .pricing-menu .card .card-body p {
+    margin: 0;
+}
+
+.location_iv .facility .price-container .pricing-menu .card .card-body .p-description {
+    font-family: 'Lato' !important;
+}
+
+.location_iv .facility .price-container .pricing-menu .card .card-body .p-amount-local-cents small {
+    font-size: 22px;
+}
+
+.location_iv .facility .price-container .pricing-menu .card .disclaimer-text {
+    padding: 20px 0 0;
+    font-style: normal;
+}
+
+
+
+
+.location_iv .facility .pricing-menu .card .card-body .p-type-2 .p-amount-local-cents {
+    display: block !important;
+    margin-bottom: 0;
+}
+.location_iv .facility .pricing-menu .card-promo .card-footer {
+    width: 100%;
+    padding: 0;
+}
+
+.location_iv .facility .pricing-menu .card .card-footer:hover .checkout-card-btn {
+    background-color: transparent;
+}
+.location_iv .facility .pricing-menu .card .card-footer:hover a {
+    color: #d54032;
+}
+
+.location_iv .facility .pricing-menu .card .card-footer a:hover,
+.location_iv .facility .pricing-menu .card .card-footer a:focus {
+    background-color: #d54032;
+    color: #fff;
+    outline: none !important;
+    border-radius: 0 !important;
+}
+
+.location_iv .facility .pricing-menu .card .cardHeading {
+    min-height: inherit;
+    padding: 15px;
+}
+.location_iv .facility .pricing-menu .card .cardHeading .card-title {
+    font-size: 24px;
+    padding: 0;
+}
+
+
+
+.location_iv .facility .pricing-menu .card .card_offer {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F0E0E3;
+    color: #444;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Oswald';
+    border-width: 5px 5px 0 5px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+
+.location_iv .facility .price-container .pricing-menu .card .card-body ul {
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: auto;
+}
+.location_iv .facility .price-container .pricing-menu .card .card-body ul li {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 2px 0 2px 11px;
+    position: relative;
+}
+.location_iv .facility .price-container .pricing-menu .card .card-body ul li:before {
+    content: '-';
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.facility .pricing-menu .card .card-body .card-text .price {
+    font-family: 'LATO' !important;
+    font-size: 24px;
+    text-transform: inherit !important;
+}
+.facility .pricing-menu .card .card-body .card-text .price .text-muted {
+    margin-left: -5px;
+    text-transform: lowercase;
+    font-size: 80%;
+}
+
+.location_iv .facility .price-container .pricing-menu .card_2 .price:after,
+.location_iv .facility .price-container .pricing-menu .card_3 .price:after {
+    content: '(cancel anytime)';
+    font-size: 14px;
+}
+
+.location_iv .facility .pricing-menu .card .card-body .card_learn_more {
+    font-size: 16px;
+    line-height: normal;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.location_iv .facility .pricing-menu .card.card_1 .card_learn_more {
+    margin: 15px auto 10px;
+}
+
+.location_iv .facility .pricing-menu .card .card-body .card_learn_more:focus {
+    outline: none !important;
+}
+
+.location_iv .facility .price-container .pricing-menu .card.card_1 .checkout-card-btn a {
+    font-size: 1.125rem;
+}
+
+.location_iv .facility .price-container .pricing-menu .card .checkout-card-btn a {
+    font-size: 0;
+    position: relative;
+    padding: 5px;
+}
+
+.location_iv .facility .price-container .pricing-menu .card_2 .checkout-card-btn a:before,
+.location_iv .facility .price-container .pricing-menu .card_3 .checkout-card-btn a:before,
+.location_iv .facility .price-container .pricing-menu .card_4 .checkout-card-btn a:before {
+    font-size: 18px;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.location_iv .facility .price-container .pricing-menu .card_2 .checkout-card-btn a:before {
+    content: 'GET ALL ACCESS';
+}
+
+.location_iv .facility .price-container .pricing-menu .card_3 .checkout-card-btn a:before {
+    content: 'GET UNLIMITED CLASSES';
+}
+
+.location_iv .facility .price-container .pricing-menu .card_4 .checkout-card-btn a:before {
+    content: 'GET A SINGLE CLASS';
+}

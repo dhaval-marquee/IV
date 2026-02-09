@@ -1,0 +1,7 @@
+Task link :https://www.loom.com/share/06f901deee754e3f80f95f5edfc375a2?sid=6da6228a-7591-427b-bbe5-defe48394822
+
+Test URLs: 
+
+Mobile: https://app.vwo.com/#/test/ab/49/report?accountId=930955
+
+Desktop: https://app.vwo.com/#/test/ab/48/report?accountId=930955

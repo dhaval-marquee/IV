@@ -1,0 +1,9 @@
+.amw-plp-item__thumb-wrapper::after {
+    color: #38539a;
+    content: '10 Shades Available!';
+    display: block;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1.25em;
+    text-align: center;
+}

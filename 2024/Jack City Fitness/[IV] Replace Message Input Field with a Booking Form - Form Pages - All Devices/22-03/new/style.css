@@ -1,0 +1,32 @@
+.fancybox-lock .fancybox-overlay {
+    z-index: 9999;
+}
+
+/* .calendly-inline-widget {
+    position: relative;
+}
+
+.calendly-inline-widget:after {
+    content: '';
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #fe5000;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@keyframes spin {
+    0% { transform: translateX(-50%) rotate(0deg); }
+    100% { transform: translateX(-50%) rotate(360deg); }
+}
+
+
+@media only screen and (min-width: 641px) {
+    .gform_legacy_markup_wrapper ul.gform_fields li.gfield {
+        padding-right: 0;
+    }
+} */

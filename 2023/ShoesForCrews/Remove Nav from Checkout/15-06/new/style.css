@@ -1,0 +1,11 @@
+body.no_nav header div[class*=Header_topNavHeader],
+body.no_nav header div[class*=Header_desktopInnerHeader] div[class*=Header_searchAndCart],
+body.no_nav header div[class*=Header_desktopInnerHeader] div[class*=Header_logoAndNav]>div:last-child,
+body.no_nav header div[class*=Header_mobileContainer] div.merce-menu-burger-menu, 
+body.no_nav header div[class*=Header_mobileContainer] div[class*=Header_mobileSearchContainer] {
+    display: none !important;
+}
+
+body.no_nav header div[class*=Header_mobileContainer] img[alt="Shoes for Crews Logo"] {
+    margin-left: 15px;
+}

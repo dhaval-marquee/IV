@@ -1,0 +1,4 @@
+body header .header__inline-menu .list-menu > li:nth-child(2),
+body #menu-drawer  .has-submenu.list-menu > li:nth-child(2) {
+    display: none;
+}

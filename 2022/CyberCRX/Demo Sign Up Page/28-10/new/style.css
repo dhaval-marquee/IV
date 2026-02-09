@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1025px) {
+    .iv_cyber_demo #lp-pom-text-141 {
+        top: 230px;
+    }
+    .iv_cyber_demo #lp-pom-text-142 {
+        top: 290px;
+    }
+    .iv_cyber_demo #lp-pom-image-340 {
+        top: 290px;
+    }
+    .iv_cyber_demo #lp-pom-image-341 {
+        top: 348px;
+    }
+    .iv_cyber_demo #lp-pom-image-342 {
+        top: 409px;
+    }
+    .iv_cyber_demo #lp-pom-image-330 {
+        left: 220px;
+        top: 480px;
+    }
+    .iv_cyber_demo img#capterraImg {
+        z-index: 72;
+        position: absolute;
+        top: 484px;
+        left: 30px;
+        max-width: 162px;
+        width: 100%;
+    }
+}

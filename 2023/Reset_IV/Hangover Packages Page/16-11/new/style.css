@@ -1,0 +1,6 @@
+.never_travel_text ul li {
+    list-style-position: outside;
+}
+#intercom-container {
+    display: none;
+}

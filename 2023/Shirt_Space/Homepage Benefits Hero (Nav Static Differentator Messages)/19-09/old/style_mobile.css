@@ -1,0 +1,29 @@
+body.header_iv:not(.checkout-layout) {
+    margin-top: 130px !important;
+}
+.header_iv #master > header {
+    display: flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    top: 0;
+}
+.header_iv .header__wrapper {
+    position: relative;
+}
+.header_iv header:not(.scrolled) .header__wrapper {
+    box-shadow: none;
+}
+.header_iv .header__marketing-messages {
+    transition: all .3s;
+}
+.header_iv .scrolled .header__marketing-messages {
+    margin-top: -40px;
+}
+@media only screen and (max-width: 799.999px), (max-height: 599.999px) {
+    .header_iv header:not(.scrolled) .nav__dropdown {
+        top: 90px;
+    }
+    .header_iv header:not(.scrolled) .nav__content {
+        height: calc(100vh - 90px - 40px);
+    }
+}

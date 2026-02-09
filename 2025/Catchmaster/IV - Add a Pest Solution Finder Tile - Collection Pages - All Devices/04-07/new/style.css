@@ -1,0 +1,89 @@
+.iv-custom-product {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1751010584/Catchmaster/Banner_Pest_Solution_Finder_Image.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    padding: 26px 3.2%;
+    margin-bottom: 17px;
+    cursor: pointer;
+}
+.iv-custom-product h2 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 17px;
+}
+.iv-custom-product h2 span {
+    color: #F4E601;
+}
+.iv-custom-product .yellow-btn {
+    background: #F4E601;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 8px 7px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none !important;
+    width: 100%;
+    min-height: auto;
+    letter-spacing: -0.6px;
+}
+.iv-custom-product .yellow-btn:hover {
+    background: #B9B306;
+}
+.iv-custom-product .yellow-btn:hover::after {
+    box-shadow: none;
+}
+.iv-custom-product.iv-pos-2 {
+    display: none;
+}
+.iv-custom-product a {
+    text-decoration: none;
+}
+.iv-custom-product a:hover span {
+    text-decoration: none;
+    color: #c7bd01;
+}
+@media only screen and (max-width: 1300px) {
+    .iv-custom-product {
+        padding: 12px 14px 20px;
+    }
+    .iv-custom-product h2 {
+        font-size: 17px;
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (max-width: 989px) {
+    .iv-custom-product h2 {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    .iv-custom-product.iv-pos-4 {
+        display: none;
+    }
+    .iv-custom-product.iv-pos-2 {
+        display: block;
+    }
+}
+@media only screen and (max-width: 749px) {
+    .iv-custom-product {
+        margin-bottom: 78px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .iv-custom-product h2 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    .iv-custom-product .yellow-btn {
+        font-size: 8px;
+        letter-spacing: -0.2px;
+        padding: 5px 2px;
+    }
+}

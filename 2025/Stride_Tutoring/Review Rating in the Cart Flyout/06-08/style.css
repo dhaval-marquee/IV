@@ -1,0 +1,7 @@
+.iv-ReviewRating div[role="dialog"] footer form:has(#cart-discount-input) {
+    display: none;
+}
+.iv-ReviewRating div[role="dialog"] .ruk_rating_snippet {
+    --customStarSize: 18px;
+    margin-top: 8px;
+}

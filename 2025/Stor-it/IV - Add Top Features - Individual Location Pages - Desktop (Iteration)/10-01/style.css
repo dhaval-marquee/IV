@@ -1,0 +1,38 @@
+.tabcontent ul.iv-top-features {
+    margin: 0;
+    text-indent: 0;
+}
+.tabcontent ul.iv-top-features li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.tabcontent ul.iv-top-features li:before,
+.candee ul.iv-top-features li:before{
+    content: "•" !important;
+    color: #000;
+    font-size: 35px !important;
+    line-height: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.candee ul.iv-top-features li {
+    margin: 0;
+    list-style: none;
+    padding-left: 20px;
+    position: relative;
+}
+
+@media screen and (max-width: 549px) {
+    .tabcontent ul.iv-top-features {
+	    width: 100%;
+	    max-width: 330px;
+	    margin: 0 auto;
+	}
+    .iv-top-features-title {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+}

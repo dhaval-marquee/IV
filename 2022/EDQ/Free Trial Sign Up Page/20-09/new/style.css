@@ -1,0 +1,15 @@
+
+    body {
+        visibility: hidden;
+    }
+
+	body .navbar-header + div,
+	body .navbar-header button, .navbar-header span, .navbar-header ul,
+	body .tab-container .nav,
+	body .responsive-tabs-container.accordion-xs .accordion-link {
+	    display: none !important;
+	}
+
+    .data_validation main {
+        padding-right: 15px;
+    }

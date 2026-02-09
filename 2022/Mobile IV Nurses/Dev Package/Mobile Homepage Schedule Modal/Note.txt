@@ -1,0 +1,4 @@
+1. Please add CSS at the end of your current CSS file.
+2. Please upload all images in your server and then attach it in code. Do not use cloudinary images. All images provided in Images folder.
+3. Please replace/add new section HTML code as mentioned in screenshots. (screenshots attached in HTML file.)
+4. Please add Javascript code just above the end of body tag.

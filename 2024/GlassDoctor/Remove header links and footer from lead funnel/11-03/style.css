@@ -1,0 +1,14 @@
+#footer .appointment-footer-region {
+    display: none;
+}
+
+#header-navigation #header {
+    box-shadow: 0 15px 20px -18px #d3d3d3;
+}
+
+@media (min-width: 768px) {
+    header .navbar-container,
+    header #top-navbar {
+        display: none;
+    }
+}

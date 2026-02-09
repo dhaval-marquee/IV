@@ -1,0 +1,140 @@
+body .elementor-86864 .elementor-element.elementor-element-57940e:not(.elementor-motion-effects-element-type-background),
+body .elementor-86864 .elementor-element.elementor-element-57940e > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/v1666964707/Persona_Labs/Telemedicine_page/hero_bg_2x.png');
+}
+
+.telemedicine_test div[data-id="9c82ce"]{
+    width: 100%;
+}
+.hero_section h1{
+    font-size: 34px;
+    font-weight: 500;
+}
+.hero_section .subtitle-text p{
+    font-size: 21px;
+    font-weight: 400;
+    color: #000;
+}
+.works_section{
+    background-color: #fff;
+    padding: 13px 0 37px;
+}
+.works_section .works_inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.works_section h2{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+.works_section .works_item{
+    text-align: center;
+}
+.works_section .works_inner img{
+    width: 100%;
+    max-width: 78px;
+}
+.works_section .works_inner .works_span{
+    display: inline-grid;
+    font-size: 16px;
+    max-width: 221px;
+    line-height: 18px;
+    margin: 7px 0 0 0px;
+    letter-spacing: 0.2px;
+}
+.works_section .works_inner .works_span span{
+    font-weight: 700;
+    margin: 0px 0 12px 0;
+}
+
+.offer_section{
+    background-color: #026980;
+    padding: 50px 0;
+}
+.offer_inner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.offer_inner .offer_item:nth-child(1) {
+    width: 350px;
+    border-right: 1px solid #274776;
+    margin: 0 8px 0 0px;
+}
+.offer_itemInner h2{
+    font-size: 44px;
+    color: #fff;
+}
+.offer_inner .offer_item:nth-child(2){
+    width: 420px;
+    border-right: 1px solid #274776;
+    margin: 0 8px 0 0px;
+}
+.offer_inner .offer_item:nth-child(2) p{
+    color: #fff;
+    font-size: 16px;
+}
+.offer_inner .offer_item ul li{
+    color: #fff;
+    position: relative;
+    list-style: none;
+}
+.offer_inner .offer_item ul li:before{
+    color: #78DFF3;
+    position: absolute;
+    margin-left: -21px;
+    margin-top: 8px;
+    width: 14px;
+    height: 8px;
+    border-bottom: solid 1px currentColor;
+    border-left: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    content: "";
+    position: absolute;
+}
+.offer_inner .offer_item:nth-child(3) p{
+    display: inline-grid;
+}
+.offer_inner .offer_item:nth-child(3) p .span{
+    font-size: 55px;
+    color: #fff;
+}
+.offer_inner .offer_item:nth-child(3) p .span_inner{
+    padding: 15px 0 0 30px;
+    color: #fff;
+}
+
+@media (max-width: 767.98px) {
+    .works_section{
+        margin: 20px 0;
+    }
+    .works_section .works_item {
+        display: flex;
+    }
+    .works_section .works_inner .works_span{
+        text-align: start;
+    }
+    .works_section .works_inner .works_span{
+        margin: 0 0 0 20px;
+    }
+    .works_section .works_inner .elementor-row{
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .works_section .works_inner .elementor-row .elementor-element{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 359.98px) {
+    .works_section .works_item svg{
+        width: 100%;
+    }
+}

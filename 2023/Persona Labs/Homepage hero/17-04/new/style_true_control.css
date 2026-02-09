@@ -1,0 +1,83 @@
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(4) .elementor-divider,
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(13) .elementor-divider {
+    display: none;
+}
+.elementor-location-header + div .elementor-section-wrap>section:first-child,
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(2),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(4),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(13),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(14),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(15),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(16) {
+    background-color: #fff;
+}
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(14) .elementor-divider .elementor-divider-separator {
+    border-top-color: #ecebeb !important;
+    margin-top: 20px;
+}
+.elementor-location-header + div .elementor-section-wrap>section:first-child {
+    margin-top: 0;
+    padding-top: 19px;
+}
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(16) {
+    margin-top: 0;
+    padding-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 80px;
+}
+
+/* Blue section */
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(6),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(7),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(8),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(9),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(10),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(11),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(12) {
+    background-color: #0080B8;
+    color: #fff;
+}
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(6),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(8),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(9),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(10),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(12) {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(6),
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(8) {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(10) {
+    padding-top: 40px;
+}
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(12) {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(6) h2,
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(7) h2,
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(8) h2,
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(9) h2,
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(10) h2,
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(11) h2,
+.elementor-location-header + div .elementor-section-wrap>section:nth-child(12) h2 {
+    color: #fff !important;
+}
+
+@media (max-width: 1024.98px) {
+    .elementor-location-header + div .elementor-section-wrap>section:nth-child(17) {
+        padding-top: 50px;
+    }
+    .elementor-location-header + div .elementor-section-wrap>section:nth-child(11) .elementor-slides .swiper-slide-inner .elementor-slide-description span {
+        color: #fff !important;
+    }
+    .elementor-location-header + div .elementor-section-wrap>section:nth-child(11) .elementor-element .swiper-pagination-bullet {
+        border-color: #fff;
+    }
+    .elementor-location-header + div .elementor-section-wrap>section:nth-child(11) .elementor-element .swiper-pagination-bullet-active {
+        background: #fff;
+    }
+}

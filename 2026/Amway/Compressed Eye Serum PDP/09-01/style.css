@@ -1,0 +1,65 @@
+.iv_amw .productDetailsPageRightPanelSlot-component > .row:nth-of-type(2) {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #b5b5b5;
+}
+.iv_amw .productDetailsPageRightPanelSlot-component > .row:nth-of-type(2) .col-xs-12 {
+	max-width: 40%;
+	width: 100%;
+}
+.iv_amw .productDetailsPageRightPanelSlot-component > .row:nth-of-type(2) .amw_wrapper {
+	max-width: 60%;
+	width: 100% !important;
+	display: flex;
+	flex-direction: column-reverse;
+	position: relative;
+	top: -50px;
+	margin-bottom: -40px;
+}
+.iv_amw .productDetailsPageRightPanelSlot-component > .row:nth-of-type(2) .amw-panel {
+	border: none;
+	padding: 10px 0 0 0;
+}
+.iv_amw .yCmsComponent .js-tealium-analytics-add-to-data-wrapper {
+	display: none !important;
+}
+@media (max-width: 981.98px) {
+	.iv_amw .amw_wrapper > .amw-panel,
+	.iv_amw .amw_wrapper > .xss-mt-16 {
+		justify-content: center;
+	}
+	.iv_amw .amw_wrapper > .amw-panel {
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+	.iv_amw .add_to_cart_form .amw-button--brand {
+		padding: 1rem 15px !important;
+	}
+}
+@media (max-width: 767.98px) {
+	.iv_amw .amw_wrapper > .amw-panel,
+	.iv_amw .amw_wrapper > .xss-mt-16 {
+		justify-content: left;
+	}
+	.iv_amw .add_to_cart_form .amw-button--brand {
+		padding: 10px 20px !important;
+	}
+	.iv_amw .productDetailsPageRightPanelSlot-component > .row:nth-of-type(2) {
+		gap: 15px;
+	}
+	.iv_amw .productDetailsPageRightPanelSlot-component > .row:nth-of-type(2) .col-xs-12 {
+		max-width: 25%;
+	}
+	.iv_amw .productDetailsPageRightPanelSlot-component > .row:nth-of-type(2) .amw_wrapper {
+		max-width: 70%;
+	}
+	.iv_amw .amw-panel .js-qty-selector {
+		margin-right: 0;
+	}
+}
+@media (max-width: 581.98px) {
+	.iv_amw .amw_wrapper > .amw-panel,
+	.iv_amw .amw_wrapper > .xss-mt-16 {
+		justify-content: center;
+	}
+}

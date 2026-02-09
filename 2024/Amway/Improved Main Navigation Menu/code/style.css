@@ -1,0 +1,263 @@
+/* Topbar */
+.header-iv .amw-header .top-bar {
+    background-color: #2c2c2c;
+}
+
+.amw-header__site-navigation {
+    display: none;
+}
+
+.topbar-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topbar-menu li a {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+.topbar-menu li a:hover,
+.topbar-menu li a:focus {
+    color: #c9c7c7 !important;
+}
+
+.topbar-menu li:not(:last-child) {
+    position: relative;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.topbar-menu li:not(:last-child):before {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #fff;
+    right: 0;
+    width: 1px;
+    height: calc(100% - 5px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.yCmsContentSlot #languageSelector::after,
+.yCmsContentSlot #helpMenu::after,
+.yCmsContentSlot [aria-label="Sign in"]::after,
+[aria-label="Sign in"] .icon-user {
+    display: none;
+}
+
+#languageSelector,
+#helpMenu,
+[aria-label="Sign in"],
+.top-bar a.sign-in {
+    color: #fff;
+    font-weight: 400;
+}
+
+#languageSelector:hover,
+#helpMenu:hover,
+[aria-label="Sign in"]:hover,
+#languageSelector:focus,
+#helpMenu:focus,
+[aria-label="Sign in"]:focus,
+.top-bar a.sign-in:hover,
+.top-bar a.sign-in:focus {
+    color: #c9c7c7 !important;
+}
+
+.right-menu #languageSelector,
+.right-menu #helpMenu {
+    padding-right: 15px;
+}
+
+.right-menu #languageSelector span:first-child,
+.right-menu #helpMenu span {
+    border-right: 1px solid #fff;
+    padding-right: 15px;
+}
+
+.right-menu .yCmsContentSlot .amw-header__container-item>div,
+.right-menu .yCmsContentSlot .amw-header-dropdown>div:first-of-type {
+    padding-left: 0;
+}
+
+/* Second Header */
+.header-iv .main-menu {
+    display: none !important;
+}
+
+.header-iv header .amw-header__logo-link {
+    min-width: 200px;
+    height: 60px;
+}
+
+.header-iv header .amw-header__logo-link img {
+    width: auto;
+    height: 100%;
+}
+
+.header-iv header .second_menu>div {
+    justify-content: normal !important;
+}
+
+.search-bar {
+    width: 100%;
+    justify-content: space-between;
+}
+.search-bar .amw-header__container-item {
+    width: 100%;
+}
+.header-iv header .second_menu > div > div:nth-child(2) .amw-header__container-item {
+    margin: 0;
+    width: calc(100% - 250px);
+}
+.header-iv header .second_menu>div>div:nth-child(2) .yCmsContentSlot{
+    width: auto;
+}
+.header-iv header .amw-input__search-field{
+    height: 45px;
+    padding: 8px 10px;
+}
+.header-iv header [class*="search-button"]{
+    padding-right: 0;
+}
+.header-iv header form .icon-search{
+    font-size: 29px;
+}
+.header-iv header [test-id="cart-button"] .icon-shopping-cart{
+    font-size: 26px;
+}
+.header-iv header [test-id="cart-button"] .icon-shopping-cart .cart-text,
+.header-iv header .singin_logo .user .cart-text{
+    font-family: 'GT Walsheim Pro', 'Source Sans Pro MC' !important;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 800;
+}
+.header-iv header [test-id="cart-button"] .icon-shopping-cart:before{
+    margin-right: 8px;
+}
+.header-iv header .singin_logo{
+    display: flex;
+}
+.header-iv header .singin_logo .user {
+    font-size: 29px;
+}
+.header-iv header .singin_logo .user,
+.header-iv header [test-id=cart-button] .icon-shopping-cart  {
+    display: flex !important;
+    align-items: center;
+    text-transform: capitalize;
+}
+.header-iv header .singin_logo .user .cart-text {
+    margin-left: 8px;
+}
+.header-iv .amw-header--brand .amw-header-dropdown--minicart .amw-header-dropdown__toggle:hover span {
+    color: #6b6b6b !important;
+}
+.header-iv .amw-header--brand .amw-header-dropdown--minicart .amw-header-dropdown__toggle:focus span {
+    color: #2c2c2c !important;
+}
+.header-iv .right-menu button.amw-sidenav__toggle {
+    display: none;
+}
+
+/* Categories Bar */
+header .categories-bar {
+    border-top: 2px solid #9f9f9f;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+}
+
+header .categories-bar nav {
+    padding: 20px 0;
+    width: 100%;
+}
+
+header .categories-bar nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+header .categories-bar nav ul li {
+    list-style: none;
+}
+
+header .categories-bar nav ul li a {
+    color: #424242;
+    cursor: pointer;
+}
+
+header .categories-bar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile */
+@media only screen and (max-width: 1023.98px) {
+    .amw-sidenav[aria-label*="Navigation menu"] .amw-sidenav__content {
+        display: none;
+    }
+    .amw-sidenav[aria-label*="Navigation menu"] .amw-sidenav__content.sidenav-mobile {
+        display: block;
+    }
+    .sidenav-nav {
+        list-style: none;
+        list-style-position: inherit;
+        padding: 0;
+        margin: 0;
+    }
+    .sidenav-nav li a {
+        font-size: 17px;
+    }
+    .sidenav-nav li {
+        margin-bottom: 15px;
+    }
+    .sidenav-nav.main-menu-mobile li a {
+        font-weight: 800;
+    }
+    .sidenav-nav.second-menu-mobile li a {
+        font-weight: 100;
+    }
+    .amw-sidenav__content .amw-sidenav__divider {
+        margin: 15px 0;
+    }
+    .mobile-lang .amw-sidenav__language-list {
+        margin: 0;
+    }
+    .mobile-lang .amw-sidenav__language-list li a {
+        line-height: normal;
+    }
+    .mobile-lang .amw-sidenav__language-list li a .amw-sidenav__language-list-item-icon {
+        line-height: normal;
+    }
+    .mobile-lang .amw-sidenav__language-list li a[aria-label*="Activ"] {
+        margin-left: 30px;
+    }
+    .mobile-lang .amw-sidenav__language-list li a .amw-sidenav__language-list-item-icon {
+        line-height: normal;
+        left: 0;
+    }
+    header.amw-header .amw-input__search-label input.amw-input__search-field {
+        padding: 8px 35px 8px 10px;
+    }
+    header.amw-header .amw-input__search-label + .js-suggestion-search-button {
+        width: 50px;
+        padding: 0;
+    }
+    .amw-header--brand .amw-navigation-menu__wrapper button[aria-label="Navigation menu"] {
+        outline: none;
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    .header-iv header .amw-header__logo-link {
+        min-width: 150px;
+    }
+    header.amw-header .amw-input__search-label + .js-suggestion-search-button .icon-search {
+        font-size: 19px;
+    }
+}

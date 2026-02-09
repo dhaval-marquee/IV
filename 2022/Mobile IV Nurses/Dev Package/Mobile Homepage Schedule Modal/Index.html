@@ -1,0 +1,121 @@
+<!-- Remove this section: Remove this section: https://www.dropbox.com/s/q2lwg8w2u92b85p/2022-07-18_17-06-54.jpg?dl=0 -->
+
+
+
+<!-- Add Phone number code -->
+<!-- Screnshots: 
+Before: https://www.dropbox.com/s/9k1fzgs3qs7ngj1/2022-07-18_17-07-26.jpg?dl=0
+After: https://www.dropbox.com/s/6v2h7hfs7zqzjh7/2022-07-18_17-08-13.jpg?dl=0  -->
+<div class="nav_cta">
+    <a href="javascript:void(0);" data-target="model-2">
+        <span>Questions? click here to call</span>
+        <img src="//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mobileIVnurses/home-page/Phone-Icon-Blue.png" alt="contact">
+    </a>
+</div>
+<!-- Add Phone number code end -->
+
+
+
+
+
+<!-- New Hero Section start -->
+<!-- Screenshot: https://www.dropbox.com/s/7qyh5l9pdixse8f/2022-07-18_17-29-03.jpg?dl=0 -->
+<div class="hero">
+    <div class="section_wrapper mcb-section-inner">
+        <div class="hero_content">
+            <h2 class="hero_title">Feel Better Faster</h2>
+            <p class="hero_description">Fast and easy mobile IV therapy when you need it, where you need it</p>
+            <div class="hero_cta">
+                <a href="javascript:void(0);" class="button hero_btn" data-target="model-1">
+                    <span class="button_label">Schedule Now</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- New Hero Section end -->
+
+
+
+
+
+
+<!-- Modal code start -->
+<!-- Screenshot:
+Add modal code in anywhen inside the body tag: https://www.dropbox.com/s/0ajbr50hlnuv1tf/2022-07-18_17-15-23.jpg?dl=0 -->
+<div id="model_lightbox" class="modal-onload fade">
+    <div class="modal-body">
+        <div class="modal-content">
+            <a href="javascript:;" class="model-close modal_close">X</a>
+            <div id="model-1" class="model-inner open">
+                <h3 class="model-title">How do you want to schedule?</h3>
+                <div class="modal-button-block">
+                    <a href="/schedule-online/" class="Schedule_demo_button button modal-button">Schedule Online</a>
+                    <a href="javascript:;" class="Schedule_by_phone button modal-button" data-target="model-2">Schedule
+                        by Phone</a>
+                    <a href="javascript:;" class="Schedule_by_text button modal-button" data-target="model-3">Schedule
+                        by Text</a>
+                </div>
+            </div>
+            <div id="model-2" class="model-inner">
+                <h3 class="model-title">Choose your service location</h3>
+                <div class="modal-button-block">
+                    <a href="tel:6026776058" class="phone_by_arizona button modal-button">
+                        <img src="//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mobileIVnurses/home-page/Phone-Icon.png"
+                            width="20" alt="Phone">
+                        <span>Arizona</span>
+                    </a>
+                    <a href="tel:3054585118" class="phone_by_florida button modal-button">
+                        <img src="//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mobileIVnurses/home-page/Phone-Icon.png"
+                            width="20" alt="Phone">
+                        <span>Florida</span>
+                    </a>
+                </div>
+            </div>
+            <div id="model-3" class="model-inner">
+                <h3 class="model-title">Choose your service location</h3>
+                <div class="modal-button-block">
+                    <a href="sms:6026776058" class="text_by_arizona button modal-button">
+                        <img src="//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mobileIVnurses/home-page/Chat-Icon.png"
+                            width="20" alt="SMS">
+                        <span>Arizona</span>
+                    </a>
+                    <a href="sms:3054585118" class="text_by_florida button modal-button">
+                        <img src="//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mobileIVnurses/home-page/Chat-Icon.png"
+                            width="20" alt="SMS">
+                        <span>Florida</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal code end -->
+
+<!-- Modal Script -->
+    <script>
+        jQuery('body a[data-target]').click(function(){
+            jQuery('#model_lightbox').css('display', 'block');
+            jQuery('html').css('overflow', 'hidden');
+            jQuery('body').css('overflow', 'hidden');
+            jQuery('#model_lightbox').fadeIn();
+            jQuery('#model_lightbox .model-inner').removeClass('open');
+            var target = jQuery(this).attr('data-target');
+            jQuery('#' + target).addClass('open');
+            var modalInterval = setInterval(function () {
+                if (jQuery('#model_lightbox').length > 0) {
+                    jQuery('#model_lightbox').addClass('in');
+                    clearInterval(modalInterval);
+                }
+            }, 200);
+        });
+
+        // Modal Close
+        jQuery('#model_lightbox .model-close').click(function () {
+            jQuery('html').css('overflow', '');
+            jQuery('body').css('overflow', '');
+            jQuery('#model_lightbox').css('display', '');
+            jQuery('#model_lightbox').removeClass('in');
+        });
+    </script>
+<!-- Modal Script End-->

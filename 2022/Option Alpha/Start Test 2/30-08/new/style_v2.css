@@ -1,0 +1,8 @@
+body .signup-split-contents {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+body .signup-split-contents .signup5_content-right {
+    display: none;
+}

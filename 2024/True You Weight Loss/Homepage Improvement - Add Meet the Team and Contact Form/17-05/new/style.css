@@ -1,0 +1,97 @@
+.homepage_iv #section-430-103 {
+    display: none;
+}
+
+.homepage_iv #section-796-103,
+.homepage_iv #section-796-103 > .ct-section-inner-wrap {
+    display: block;
+}
+
+.homepage_iv #headline-121-103 {
+    margin-top: 40px !important;
+}
+
+.homepage_iv #section-13-103 > .ct-section-inner-wrap {
+    padding-top: 0;
+}
+
+.homepage_iv #new_columns-64-103 {
+    justify-content: space-between;
+    margin-top: 50px !important;
+}
+
+.homepage_iv #div_block-66-103,
+.homepage_iv #div_block-67-103 {
+    position: relative;
+    width: 48%;
+}
+
+.homepage_iv #image-84-103103,
+.homepage_iv #image-84-103,
+.homepage_iv a#link-438-103,
+.homepage_iv a#link-439-103,
+.homepage_iv a#link-438-103 img,
+.homepage_iv a#link-439-103 img {
+    width: 100%;
+}
+
+.homepage_iv #div_block-66-103:after {
+    content: '';
+    position: absolute;
+    left: -28px;
+    top: 0;
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/v1715862578/TrueYouWeightLoss/TYWL-Most-Popular-Badge.png');
+    background-size: cover;
+    background-position: center;
+    width: 187px;
+    height: 70px;
+    z-index: 999999;
+    display: block;
+}
+
+
+/* Meet team section */
+.homepage_iv #section-596-103 > div {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.homepage_iv .physician-item-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+    padding: 0 30px;
+    margin: 20px auto 0;
+}
+
+.homepage_iv .physician-item {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.homepage_iv .physician-item a {
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.homepage_iv .physician-item a:hover {
+    text-decoration: none;
+}
+
+.homepage_iv .physician-item a img {
+    width: 100%;
+}
+
+
+@media (min-width: 768px) {
+    .homepage_iv .physician-item-wrapper {
+        max-width: 800px;
+    }
+
+    .homepage_iv .physician-item {
+        max-width: 31%;
+        margin-bottom: 0;
+    }
+}
+/* Meet team section over */

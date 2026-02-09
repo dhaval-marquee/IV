@@ -1,0 +1,140 @@
+.iv-learn-content {
+    text-align: center;
+    margin: 0 0 0 auto;
+}
+.iv-learn-content a {
+    color: #38539a;
+}
+.iv-learn-content p {
+    margin-bottom: 6px;
+}
+
+/* Popup */
+.guarantee-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 9999999;
+    display: none;
+}
+.guarantee-popup-inner {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.guarantee-popup-container {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 16px;
+}
+.guarantee-popup-content {
+    width: 100%;
+    max-width: 700px;
+    margin: 60px auto;
+    background: #FFF;
+    box-shadow: 2px 3px 40px rgb(0 0 0 / 40%);
+}
+.guarantee-popup-title {
+    padding: 40px 20px;
+    position: relative;
+}
+.guarantee-popup-title h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+.guarantee-popup-title strong {
+    line-height: 28px;
+    margin-bottom: 30px;
+    display: block;
+}
+.guarantee-popup-title ul {
+    list-style-position: outside;
+    padding-left: 30px;
+}
+.guarantee-popup-title ul li {
+    line-height: 28px;
+}
+.guarantee-popup-closed {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.iv-mobile-learn-content {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .iv-learn-content {
+        width: auto;
+        max-width: max-content;
+        padding-left: 10px;
+    }
+    .iv-popup #addToCartForm button[test-id=add-to-cart-button] {
+        min-width: 125px;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+}
+
+@media (max-width: 975px) and (min-width: 768px) {
+    .iv-popup #addToCartForm button[test-id=add-to-cart-button] {
+        font-size: 15px !important;
+        min-width: 101px;
+    }
+    .iv-learn-content p {
+        margin-bottom: 6px;
+        font-size: 12px;
+        line-height: normal;
+    }
+    .iv-popup .amw-quantity-box__navigation-wrapper button.js-qty-box-btn-decrease {
+        padding: 0 6px 0 13px !important;
+    }
+    .iv-popup .amw-quantity-box__navigation-wrapper button.js-qty-box-btn-increase {
+        padding: 0 13px 0 6px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .guarantee-popup-title h2,
+    .guarantee-popup-title strong {
+        margin-bottom: 15px;
+    }
+    .guarantee-popup-title strong,
+    .guarantee-popup-title ul li {
+        line-height: 22px;
+    }
+    .iv-popup .js-add-to-cart-actions-wrapper .amw-panel {
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+    .iv-learn-content {
+        display: none;
+    }
+    .iv-mobile-learn-content {
+        display: block;
+        margin: 0 0 0 0;
+        position: relative;
+        left: -33px;
+        top: 10px;
+        padding: 0;
+    }
+    .iv-popup .js-product-wrapper .amw-panel {
+        align-items: normal !important;
+    }
+    .iv-popup .js-product-wrapper .amw-panel .AddToCart-AddToCartAction {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .iv-mobile-learn-content {
+        left: -20px;
+    }
+}

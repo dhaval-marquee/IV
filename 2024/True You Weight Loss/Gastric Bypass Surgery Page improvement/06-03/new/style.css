@@ -1,0 +1,106 @@
+.surgeryPage_iv #section-1716-7611 {
+    display: none;
+}
+.surgeryPage_iv #section-1159-540 .ct-section-inner-wrap h2.heading {
+    color: #5a5b9f;
+    margin-bottom: 24px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.surgeryPage_iv #section-1788-7611 h4[id*=headline-] {
+    width: 100%;
+    text-align: center;
+}
+.surgeryPage_iv #section-1149-540 h4#headline-1154-540 {
+    width: 100%;
+}
+.surgeryPage_iv #section-2597-7611 {
+    padding: 80px 0;
+}
+
+.surgeryPage_iv #section-2597-7611 .ct-section-inner-wrap  {
+    text-align: left;
+    align-items: center;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-left: 32px;
+    width: 48.5%;
+    max-width: 524px;
+    padding-bottom: 32px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,.24);
+}
+.surgeryPage_iv #section-2597-7611 .ct-section-inner-wrap h4 {
+    font-size: 24px;
+    color: #5a5b9f;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.surgeryPage_iv .hbspt-form label,
+.surgeryPage_iv .hbspt-form legend {
+    font-size: 14px;
+}
+.surgeryPage_iv .hbspt-form form input,
+.surgeryPage_iv .hbspt-form select {
+    margin-top: 0;
+    height: 50px;
+}
+.surgeryPage_iv .hs-form-field {
+    margin-top: 10px !important;
+}
+.surgeryPage_iv .hbspt-form ul.inputs-list {
+    padding: 0;
+}
+.surgeryPage_iv .hs-form-field .input ul {
+    padding-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.surgeryPage_iv .hs-form-field .input ul input {
+    vertical-align: middle;
+}
+.surgeryPage_iv .hbspt-form legend {
+    font-weight: 700;
+}
+.surgeryPage_iv .hbspt-form .hs-button {
+    background: #5C1B55;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 50px;
+    max-width: 400px;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.surgeryPage_iv .hbspt-form .hs-button:hover {
+    background: #3d407a;
+}
+.surgeryPage_iv .hbspt-form .hs_submit {
+    clear: left;
+    padding-top: 30px;
+}
+.surgeryPage_iv .hs_error_rollup {
+    text-align: center;
+}
+@media (max-width: 991.98px) {
+    .surgeryPage_iv #section-2597-7611 {
+        padding: 80px 20px;
+    }
+    .surgeryPage_iv #section-2597-7611 .ct-section-inner-wrap {
+        max-width: 951px;
+        width: 100%;
+    }
+    .surgeryPage_iv.hbspt-form fieldset.form-columns-1,
+    .surgeryPage_iv.hbspt-form fieldset.form-columns-2 {
+        max-width: 100% !important;
+    }
+}
+
+/* variant 2 css */
+.surgeryPage_v2 #section-1716-7611 #div_block-1742-7611 {
+    display: none;
+}
+.surgeryPage_iv.surgeryPage_v2 #section-1716-7611 {
+    display: block;
+}

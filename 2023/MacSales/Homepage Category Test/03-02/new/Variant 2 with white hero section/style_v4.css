@@ -1,0 +1,23 @@
+.product-grid__container  h2 a[href="/shop/docks"]+p{
+    font-size: 22px;
+    font-weight: 600;
+    color: red;
+    margin-top: 0;
+}
+
+.arrivals_New.product-grid__container a .product-grid__img-wrap picture .owc_Logo{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.arrivals_New.product-grid__container a .product-grid__img-wrap picture .new_Logo{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.arrivals_New.product-grid__container a .product-grid__content h3.product-grid__heading+.product-grid__copy{
+    order: 1;
+}
+.arrivals_New.product-grid__container .product-grid__prod{
+    justify-content: space-between;
+}

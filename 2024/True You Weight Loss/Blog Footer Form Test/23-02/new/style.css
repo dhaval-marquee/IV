@@ -1,0 +1,225 @@
+.footerForm_iv #div_block-202-89,
+.footerForm_iv #section-69-89 {
+    display: none;
+}
+#section-5-328 .ct-section-inner-wrap {
+    padding-bottom: 48px;
+}
+.footerForm_iv .hero_section {
+	padding: 0px 0 100px;
+}
+.footerForm_iv fieldset > div.hs-form-field {
+    margin-top: 10px !important;
+}
+.footerForm_iv fieldset label,
+.footerForm_iv ul.inputs-list li label,
+.footerForm_iv legend.hs-field-desc {
+	font-size: 14px;
+    font-family: Raleway !important;
+    font-weight: 700 !important;
+}
+.footerForm_iv .hero_section .part_wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+    align-items: flex-end;
+}
+.footerForm_iv .hero_section .part_wrapper .left_part {
+	width: 50%;
+	max-width: 700px;
+	margin-right: 30px;
+	padding-bottom: 220px;
+}
+.footerForm_iv .hero_section .part_wrapper .left_part h2 {
+	font-size: 22px;
+    line-height: 31px;
+}
+.footerForm_iv .left_part h2 span {
+    display: inline-block;
+}
+.footerForm_iv .hero_section .part_wrapper .left_part ul {
+	list-style: none;
+	padding-left: 35px;
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 41px;
+}
+.footerForm_iv .hero_section .part_wrapper .left_part ul li {
+	position: relative;
+	font-size: 16px;
+	padding-bottom: 16px;
+}
+.footerForm_iv .hero_section .part_wrapper .left_part ul li::before{
+	content: "";
+	background-image: url('//trueyouweightloss.com/wp-content/uploads/checkmark.png');
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: -35px;
+    top: 1px;
+}
+.footerForm_iv .hero_section .part_wrapper .left_part h3 {
+	font-size: 24px;
+	position: relative;
+}
+.footerForm_iv .hero_section .part_wrapper .left_part h3::after {
+    content: "";
+    position: absolute;
+    background-image: url('//trueyouweightloss.com/wp-content/uploads/arrow-rotate.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 244px;
+    height: 144px;
+    right: 50%;
+    top: 5px;
+    margin-top: -5px;
+    margin-left: 0;
+    margin-right: 20px;
+    -webkit-transform: translate(50%,50%);
+    -ms-transform: translate(50%,50%);
+    transform: translate(50%,50%);
+}
+
+.footerForm_iv .hero_section .part_wrapper .right_part {
+    width: 50%;
+    background-color: #fff;
+    max-width: 524px;
+    -webkit-box-shadow: 0 20px 40px rgba(0,0,0,.24);
+    box-shadow: 0 20px 40px rgba(0,0,0,.24);
+    margin: 0 auto;
+    padding: 32px;
+}
+.footerForm_iv .hero_section .part_wrapper .right_part h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #5a5b9f;
+    margin-top: 3px;
+    margin-bottom: 16px;
+}
+.footerForm_iv .hs-button {
+	max-width: 400px;
+	width: 100%;
+	min-height: 50px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background: #5C1B55;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+    font-family: Raleway !important;
+    border: 1px solid #c4c4c4;
+}
+.footerForm_iv .hs-button:hover {
+    background: #3d407a;
+}
+.footerForm_iv form fieldset input,
+.footerForm_iv fieldset select {
+    background: #f7f7f7;
+    border: 1px solid #c4c4c4;
+    border-radius: 0;
+    box-shadow: none;
+    color: #787878;
+    transition: all .5s;
+    width: 100%;
+	margin-top: 0;
+    padding: 14.5px;
+}
+.footerForm_iv fieldset .input ul {
+    margin-top: 6px;
+	margin-bottom: 0;
+	padding: 0px;
+}
+.footerForm_iv fieldset .input ul li,
+.footerForm_iv ul.inputs-list li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footerForm_iv ul.inputs-list {
+    padding: 0;
+}
+.footerForm_iv fieldset .input ul li input {
+    vertical-align: middle;
+    height: 20px !important;
+    width: 20px !important;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+}
+.hs_language_preference legend {
+    font-weight: 300;
+}
+.footerForm_iv .hs_submit {
+	display: inline-block;
+    width: 100%;
+    padding-top: 30px;
+}
+.footerForm_iv .hs_error_rollup {
+	text-align: center;
+}
+
+.footerForm_iv #new_columns-188-89 .ct-div-block {
+    width: 33.33%;
+}
+
+@media (max-width: 991.98px) {
+    .footerForm_iv .hero_section {
+        padding-bottom: 50px;
+    }
+    .footerForm_iv .hero_section .part_wrapper {
+        flex-direction: column;
+    }
+    body.footerForm_iv fieldset,
+    .footerForm_iv .hero_section .part_wrapper .right_part {
+        max-width: 100%;
+    }
+    .footerForm_iv .hero_section .part_wrapper .right_part {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footerForm_iv .hero_section .part_wrapper .left_part {
+        margin-right: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }
+	.footerForm_iv .hero_section .part_wrapper .left_part h3 {
+		display: none;
+	}
+    .footerForm_iv .hero_section .part_wrapper .left_part ul {
+        margin-bottom: 0;
+    }
+    .footerForm_iv fieldset .input ul {
+        margin-top: 6px;
+    }
+    body.footerForm_iv fieldset .hs-fieldtype-checkbox .input, body.footerForm_iv fieldset .hs-fieldtype-radio .input {
+        margin-right: 8px;
+    }
+    .footerForm_iv .hs_submit {
+        padding-top: 29px;
+    }
+    .footerForm_iv #div_block-197-89 {
+        width: 100% !important;
+    }
+}
+@media (max-width: 480.98px) {
+	.footerForm_iv .hero_section {
+		padding: 0px 0 50px;
+	}
+	.footerForm_iv .hero_section .part_wrapper .left_part h2,
+	.footerForm_iv .hero_section .part_wrapper .left_part h3 {
+		text-align: center;
+	}
+}

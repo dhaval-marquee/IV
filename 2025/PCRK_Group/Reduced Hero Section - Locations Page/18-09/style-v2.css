@@ -1,0 +1,27 @@
+body:not(.single):not(.privacy-policy):not(.error404):not(.single-localized) #masthead {
+    box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+}
+body #site-navigation.main-navigation .main-nav ul li a,
+body #site-navigation.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+    color: var(--contrast);
+}
+body .site-header .site-logo {
+    background-image: url('/wp-content/uploads/2022/05/pcrk-logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body .site-header .header-image {
+    opacity: 0;
+}
+body #section-hero {
+    display: none;
+}
+body #section-hero + .section > .gb-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+body #mobile-header:not(.is_stuck) {
+    box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1);
+    position: relative;
+}

@@ -1,0 +1,221 @@
+@media (min-width: 1025px) {
+    body {
+        visibility: hidden;
+        overflow-x: hidden;
+    }
+    .hero_img_wrapper {
+        position: absolute;
+        left: 50%;
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1660325550/BillHowe/Bill_Howe_Desktop_Homepage/Bill-Howe-Plumbing-Heating-and-Air-Conditioning-Flood-Restoration-Water-Filtration.jpg');
+        height: 525px;
+        width: 100vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        margin-left: -45px;
+        margin-top: -65px;
+    }
+    .desktop_redesign_test .side-search.active {
+        z-index: 99999;
+    }
+    .desktop_redesign_test nav.sticky-tools {
+        z-index: 100;
+    }
+    .desktop_redesign_test header .container {
+        padding: 0 20px;
+    }
+    .desktop_redesign_test header h1,
+    .desktop_redesign_test header .container:before {
+        display: none;
+    }
+    .desktop_redesign_test header .the-navigation {
+        width: 100%;
+    }
+    .desktop_redesign_test header .the-navigation nav.main {
+        height: 37%;
+    }
+    .desktop_redesign_test header .the-navigation a.nav-link {
+        margin-top: 6px;
+    }
+    .desktop_redesign_test header .the-navigation nav.util {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: inherit;
+        padding: 18px;
+    }
+    .desktop_redesign_test header .the-navigation nav.util ul:first-of-type {
+        padding-left: 0px;
+    }
+    .desktop_redesign_test header .the-navigation nav.util ul li {
+        position: relative;
+        padding: 0 10px;
+        margin: 0 auto !important;
+    }
+    .desktop_redesign_test header .the-navigation nav.util ul+ul {
+        display: flex;
+        align-items: center;
+    }
+    .desktop_redesign_test header .the-navigation nav.util ul+ul:before {
+        display: none !important;
+    }
+    .desktop_redesign_test header .the-navigation nav.util ul+ul li {
+        margin-left: 5px !important;
+        margin-right: 20px !important;
+    }
+    .desktop_redesign_test header .the-navigation nav.util ul+ul li:after {
+        content: '';
+        width: 1px;
+        height: 80%;
+        background-color: #243169;
+        display: block;
+        position: absolute;
+        right: -5px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .desktop_redesign_test header .the-navigation nav.util ul:first-of-type:before {
+        top: 50%;
+        transform: translateY(-50%);
+        display: none !important;
+    }
+    .desktop_redesign_test header .the-navigation nav.util ul+ul .search-icon {
+        top: inherit;
+        right: inherit;
+        position: inherit;
+    }
+    .desktop_redesign_test header .container a.site-logo {
+        padding: 0;
+        max-width: 200px;
+        width: 100%;
+        right: inherit;
+        top: inherit;
+        margin-right: auto;
+    }
+    .desktop_redesign_test header .container a.site-logo img {
+        transform: inherit;
+    }
+    .desktop_redesign_test header .the-navigation nav.main ul#menu-main-navigation:before {
+        content: '';
+        background-color: #243169;
+        position: absolute;
+        height: 100%;
+        width: 100vw;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+    }
+    .desktop_redesign_test section.hero {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1659702524/BillHowe/Bill_Howe_Desktop_Homepage/Bill-Howe-Plumbing-Heating-and-Air-Conditioning-Flood-Restoration-Water-Filtration-2.jpg') !important;
+        background-image: none !important;
+        background-size: 80% 525px;
+        background-position: top right;
+        background-repeat: no-repeat;
+        height: 590px;
+    }
+    .desktop_redesign_test section.hero .the-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 50%;
+        padding-left: 0;
+    }
+    .desktop_redesign_test section.hero .the-content h2 {
+        letter-spacing: normal;
+        font-size: 56px;
+    }
+    .desktop_redesign_test section.hero .the-content p {
+        font-size: 24px !important;
+        font-weight: bold;
+        color: #2f3690;
+        margin-bottom: 20px;
+    }
+    .desktop_redesign_test section.hero .the-content a {
+        font-size: 22px !important;
+        font-weight: bold;
+        border-radius: 0;
+        padding: 10px 40px;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .desktop_redesign_test .review_wrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: -12px;
+    }
+    .desktop_redesign_test section.hero .the-content .review_wrapper p {
+        margin-bottom: 0;
+        line-height: 26px !important;
+        font-weight: normal;
+        font-size: 19px !important;
+    }
+    .desktop_redesign_test nav.services-main {
+        padding-bottom: 0;
+    }
+    .desktop_redesign_test nav.services-main h2 {
+        width: 100%;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .desktop_redesign_test nav.services-main a {
+        background-color: #243169;
+        color: #fff;
+        text-transform: capitalize;
+        position: relative;
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+    .desktop_redesign_test nav.services-main a:before {
+        content: '';
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .desktop_redesign_test nav.services-main a.plu:before {
+        background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/v1659704459/BillHowe/Bill_Howe_Desktop_Homepage/Plumbing.png');
+    }
+    .desktop_redesign_test nav.services-main a.hvac:before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1659704459/BillHowe/Bill_Howe_Desktop_Homepage/Heating_and_Air_Coditioning.png');
+    }
+    .desktop_redesign_test nav.services-main a.lin:before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1659704459/BillHowe/Bill_Howe_Desktop_Homepage/Lining_Solutions.png');
+    }
+    .desktop_redesign_test nav.services-main a.res:before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1659704459/BillHowe/Bill_Howe_Desktop_Homepage/Restoration_and_Flood.png');
+    }
+    .desktop_redesign_test nav.services-main a.wat:before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1659704459/BillHowe/Bill_Howe_Desktop_Homepage/Water_Filtration.png');
+    }
+    .desktop_redesign_test nav.services-main a.wat:last-child:before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1659704459/BillHowe/Bill_Howe_Desktop_Homepage/Air_Quality.png');
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1199.98px) {
+    .desktop_redesign_test header .container {
+        height: 140px;
+    }
+    .desktop_redesign_test header .container a.site-logo {
+        max-width: 150px;
+    }
+    header .the-navigation nav.util ul li a {
+        font-size: 16px !important;
+        padding: 12px 19px;
+    }
+    header .the-navigation nav.main {
+        height: auto;
+    }
+    .desktop_redesign_test header .the-navigation a.nav-link {
+        margin-top: 3px;
+    }
+}

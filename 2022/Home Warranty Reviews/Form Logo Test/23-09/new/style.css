@@ -1,0 +1,296 @@
+.hero_redesign header nav ~ div,
+.hero_redesign .banner_form_block .form-block label,
+.hero_redesign .privacy_policy svg,
+.hero_redesign #banner_zip_error[style="display: block;"] + div,
+.hero_redesign .row.form_banner_bottom.form_mob_bottom.d-md-none {
+    display: none;
+}
+
+/* Center Page always */
+html, .hero_redesign {
+    height: 100%;
+}
+.hero_redesign .hero_wrapper {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero_redesign .page-footer {
+    overflow: hidden;
+    min-height: 70px;
+}
+/* Center Page always over */
+
+.hero_redesign header {
+    display: block;
+    margin: 0;
+}
+.hero_redesign .hero_wrapper {
+    overflow: hidden;
+    position: relative;
+}
+.hero_redesign .hero_wrapper:before {
+    content: '';
+    background-color: #003049;
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    pointer-events: none;
+}
+.hero_redesign .container {
+    max-width: 1680px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.hero_redesign .generic-popupleft-bnner {
+    padding: 0;
+}
+.hero_redesign .banner_form_block {
+    margin-top: 64px;
+}
+.hero_redesign .banner_form_block > div {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.hero_redesign .banner_form_block .heading_popup {
+    font-size: 1em;
+    line-height: normal;
+}
+.hero_redesign .banner_form_block .generic-popup_content {
+    font-weight: 600;
+    line-height: normal;
+}
+.hero_redesign .fomr_banner_left .heading {
+    font-weight: 700;
+    display: block;
+    line-height: normal;
+    margin-bottom: 1em;
+    padding: 3px 0;
+}
+.hero_redesign .fomr_banner_left {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1662630502/HomeWarrantyReviews/Hero_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #003049;
+    color: #fff;
+    padding: 0 0 0 150px;
+}
+.hero_redesign .fomr_banner_left > div {
+    margin-top: 0;
+    padding: 0;
+}
+.hero_redesign .form_wrapper {
+    max-width: 710px;
+    width: 100%;
+}
+.hero_redesign .banner_form_block .form-block {
+    margin-bottom: 28px;
+}
+.hero_redesign .form-control::placeholder {
+    font-style: italic;
+    font-size: 14px;
+}
+.hero_redesign .fomr_banner_left .form-control {
+    border: 1px solid #B0B0B0;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 7px 10px;
+}
+.hero_redesign .validated input {
+    background-image: url('https://www.homewarrantyreviews.com/wp-content/uploads/checkmark-artical.svg') !important;
+    background-size: 20px 20px !important;
+    background-repeat: no-repeat;
+    background-position: center right 10px;
+}
+.hero_redesign .state_city_block {
+    margin-bottom: 0;
+    height: 0px;
+}
+.hero_redesign .state_city_block span {
+    color: #188038 !important;
+    font-size: 14px;
+    height: 0px;
+}
+.hero_redesign .state_city_block span svg {
+    top: 3px !important;
+}
+.hero_redesign .T_C_text {
+    font-size: 10px;
+    text-align: left;
+    line-height: 1.5;
+    color: #DFDFDF;
+}
+.hero_redesign .get_quote_btn {
+    margin-top: 0;
+}
+.hero_redesign .Cta_btn {
+    box-shadow: none;
+    margin-top: 20px;
+}
+.hero_redesign .privacy_policy {
+    padding-left: 0;
+}
+.hero_redesign .privacy_policy p:before {
+    content: '*';
+    color: red;
+}
+
+@media (max-width: 1199.98px) {
+    .hero_redesign .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .hero_redesign .fomr_banner_left {
+        padding-left: 90px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero_redesign .generic-popupleft-bnner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .hero_redesign .container {
+        padding: 0 20px;
+    }
+    .hero_redesign .hero_wrapper:before {
+        display: none;
+    }
+    .hero_redesign .hero_wrapper .container {
+        padding: 0;
+    }
+    .hero_redesign .banner_form_block {
+        margin-top: 55px;
+        /* flex-direction: column-reverse; */
+    }
+    .hero_redesign .fomr_banner_left {
+        max-width: 100%;
+        background-image: none;
+    }
+    .hero_redesign .banner_form_block > div {
+        padding: 40px 20px !important;
+        flex: 0 0 100%;
+    }
+    .hero_redesign .form_wrapper {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero_redesign .banner_form_block .generic-popup_content {
+        max-width: 85%;
+    }
+    .logo_wrapper img {
+        image-rendering: -webkit-optimize-contrast;
+        width: 360px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero_redesign .banner_form_block {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+/* Slider CSS */
+
+.hero_redesign .review_section {
+    display: none;
+}
+.hero_redesign .review_display {
+    display: block;
+}
+.hero_redesign .review_popup_peron_icon {
+    background-color: #003049;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+}
+.hero_redesign .review_popup_peron_icon span {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+.hero_redesign .align-self-center {
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+.hero_redesign .review_popup_name {
+    color: #707070;
+    font-size: 13px;
+}
+.hero_redesign .optimizeStar {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+.review_popup_content,
+.hero_redesign .review_content {
+    color: #707070;
+    font-size: 12px;
+}
+.hero_redesign .review_popup_content {
+    min-height: 72px;
+}
+.hero_redesign .left-arrow {
+    display: none;
+}
+.hero_redesign .left-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    left: -26px;
+}
+.hero_redesign .left-arrow svg {
+    transform: rotate( 180deg );
+    font-size: 3px;
+    width: 20px;
+    cursor: pointer;
+    color: grey;
+    fill: grey;
+}
+
+
+.hero_redesign .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -60%);
+    right: 0;
+}
+.hero_redesign .right-arrow svg {
+    fill: #2C829B;
+    font-size: 3px;
+    width: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@media (min-width: 1300px) {
+    .hero_redesign .review_width {
+        width: 74%;
+    }
+    .hero_redesign .right-arrow {
+        right: -28px !important;
+    }
+}
+/* Slider CSS Over */

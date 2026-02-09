@@ -1,0 +1,63 @@
+.heroLogo img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/* Add your test CSS here */
+
+.heroLogo ul.clientLogo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 530px;
+    width: 100%;
+    margin: -20px 0 20px -10px;
+}
+
+.heroLogo ul.clientLogo li {
+    padding: 0 10px;
+}
+
+.heroLogo ul.clientLogo li img {
+    width: 100%;
+    max-height: 55px;
+}
+
+
+@media (max-width: 767.98px) {
+    .heroLogo ul.clientLogo {
+        max-width: 400px;
+        margin: 0 auto 20px;
+    }
+
+    .heroLogo ul.clientLogo li {
+        padding: 0 10px;
+    }
+
+    .heroLogo ul.clientLogo li img {
+        max-width: 110px;
+        max-height: 55px;
+    }
+    .heroLogo .top-banner-content .btn-wrap .block-btn,
+    .heroLogo .top-banner-content .btn-wrap .orange-btn {
+        min-width: 197px;
+        text-align: center;
+        padding: 10px 12px;
+    }
+
+}
+
+@media (max-width: 574.98px) {
+    .heroLogo .top-banner-content .btn-wrap {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .heroLogo .top-banner-content .btn-wrap a {
+        font-size: 15px;
+    }
+    .heroLogo .top-banner-content .btn-wrap .block-btn,
+    .heroLogo .top-banner-content .btn-wrap .orange-btn {
+        min-width: 159px;
+    }
+}

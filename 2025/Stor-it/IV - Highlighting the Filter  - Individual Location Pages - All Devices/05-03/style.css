@@ -1,0 +1,31 @@
+/* V1 */
+.iv-filter-v1.use_mmFilters:not(.mmFiltersOpen) .filterSettingsButton {
+    background-color: #1f8754;
+    border: 1px solid #1f8754 !important;
+    box-shadow: none !important;
+}
+.iv-filter-v1.use_mmFilters:not(.mmFiltersOpen) .flitersText {
+    color: #fff;
+}
+.iv-filter-v1.use_mmFilters:not(.mmFiltersOpen) .mmFilters i {
+    color: #fff;
+}
+.iv-filter-v1 span.mmFilters {
+    right: 12px;
+}
+
+/* V2 */
+.iv-filter-v2.use_mmFilters:not(.mmFiltersOpen) .filterSettingsButton {
+    background-color: #D7FEEE;
+    border: 1px solid #1f8754 !important;
+    box-shadow: none !important;
+}
+.iv-filter-v2.use_mmFilters:not(.mmFiltersOpen) .flitersText {
+    color: #1f8754;
+}
+.iv-filter-v2.use_mmFilters:not(.mmFiltersOpen) .mmFilters i {
+    color: #1f8754;
+}
+.iv-filter-v2 span.mmFilters {
+    right: 12px;
+}

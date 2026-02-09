@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+.no-wrap {
+    white-space: nowrap;
+}
+
+/*Request quotes*/
+.iv_request_quote .Mobile-bar--top > div:last-child, 
+.iv_request_quote .Header-inner > div:last-child, .iv_materials .accountLinks {
+    display: none !important;
+}
+.iv_request_quote .Header-branding, 
+.iv_request_quote .Mobile-bar--top {
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    -webkit-filter: none;
+    filter: none;
+    opacity: 1;
+}
+.iv_request_quote .demo-block > .demo-content h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	text-align: left;
+	font-size: 30px;
+	padding-bottom: 20px;
+	font-weight: 600;
+}
+.iv_request_quote .demo-block > .demo-content {
+    position: relative;
+    min-height: 660px;
+}
+.iv_request_quote .demo-block > .demo-content:after {
+    content: "";
+    background-image: url(//res.cloudinary.com/ignite-visibility/image/upload/f_auto/wazer/request-your-live-1-on-1-demo/swooping-arrow.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 320px;
+    width: 830px;
+    bottom: -100px;
+    left: 0;
+    transform: translateX(-90px) rotate(45deg) scale(0.38);
+}
+.iv_request_quote .demo-block > .demo-content h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 24px;
+	text-align: left;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: none;
+	letter-spacing: normal;
+}
+.iv_request_quote .demo-block > .demo-content h3 span {
+	font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    color: #111111;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.iv_request_quote .demo-block > .demo-content ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.iv_request_quote .demo-block > .demo-content ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    color: #111111;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    /* white-space: nowrap; */
+}
+.iv_request_quote .demo-block > .demo-content ul li:before {
+    content: "\2713";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #F5A328;
+    font-weight: 600;
+}
+.iv_request_quote .demo-client-logos {
+    margin-top: 50px;
+}
+.iv_request_quote .demo-client-logos h3 {
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 0 10px;
+}
+.iv_request_quote .image-wrapper {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.iv_request_quote .image-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Form design */
+.iv_request_quote .fsBody {
+	background: #FFFFFF;
+    border: 2px solid #8c8c8c;
+}
+.iv_request_quote .fsBody .fsForm {
+	width: auto;
+}
+.iv_request_quote .fsForm .fsSubmit {
+	text-align: left;
+}
+
+/* Footer */
+
+.iv_request_quote.tweak-footer-show .Footer {
+	display: none;
+}
+
+
+
+/* Form CSS */
+.iv_request_quote .sqs-layout > .sqs-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.iv_request_quote .sqs-layout > .sqs-row:before, 
+.iv_request_quote .sqs-layout > .sqs-row:after {
+    display: none;
+}
+.iv_request_quote main {
+    max-width: 1170px;
+}
+.iv_request_quote .Header-branding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.iv_request_quote .Header-branding-logo {
+    max-width: 200px;
+}
+.iv_request_quote .Main-content {
+    padding-top: 25px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.iv_request_quote .demo-block {
+    max-width: 495px;
+    width: 100%;
+    padding-right: 15px;
+}
+.iv_request_quote .fsBody .fsSupporting {
+    font-family: helvetica;
+    font-size: 13px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+
+/* Form css */
+.iv_request_quote .required_field {
+    color: red;
+}
+.iv_request_quote .fsBody .fsFieldRow .fsRowBody {
+    margin-bottom: 0 !important;
+}
+.iv_request_quote .fsFieldRow select.fsField {
+    line-height: normal;
+    margin: 0 !important;
+}
+.iv_request_quote .fsFieldRow .fsValidationError select.fsField {
+    box-shadow: none;
+}
+.iv_request_quote .fsBody .fsSubField.fsFieldState {
+    width: calc(48%);
+}
+.iv_request_quote .fsBody .fsFieldRow .fsRowBody.fsFieldFocused {
+    padding-bottom: 0 !important;
+}
+.iv_request_quote .fsFieldRow .fsFieldCell.bottom_field {
+    width: 100%;
+    margin: 0 !important;
+}
+.iv_request_quote .fsFieldRow .fsFieldCell.bottom_field.fsFieldFocused {
+    padding: 0 !important;
+}
+.iv_request_quote .fsFieldRow .fsFieldCell.bottom_field .fsSubFieldGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.iv_request_quote .fsFieldRow .fsFieldCell.bottom_field .fsSubField {
+    margin: 0;
+}
+.iv_request_quote .fsFieldRow .fsFieldCell.bottom_field .fsSubField {
+    margin-bottom: 10px !important;
+}
+.iv_request_quote .fsFieldRow .fsFieldCell.bottom_field .fsSubField.fsFieldCity,
+.iv_request_quote .fsFieldRow .fsFieldCell.bottom_field .fsSubField.fsFieldZip {
+    width: 48%;
+    margin: 0;
+}
+.iv_request_quote .fsForm .fsSubmit input[type="submit"] {
+    font-weight: bold;
+    transition: all 0.3s ease-in-out 0s;
+}
+.iv_request_quote .fsForm .fsSubmit input[type="submit"]:hover {
+    opacity: 0.8;
+}
+.iv_request_quote input::-moz-placeholder {
+    opacity: 0;
+}
+
+.iv_request_quote input:-moz-placeholder {
+    opacity: 0;
+}
+
+.iv_request_quote input::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.iv_request_quote input:-ms-input-placeholder {
+    opacity: 0;
+}
+
+
+
+@media (max-width: 1200.98px) {
+    .iv_request_quote .Main-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .iv_request_quote .Header-branding, .iv_request_quote .Mobile-bar--top {
+        position: inherit !important;
+    }
+    div.iv_request_quote .Header-branding > div, .iv_request_quote .Mobile-bar--top > div {
+        justify-content: center;
+    }
+    .iv_request_quote .sqs-layout > .sqs-row {
+        flex-direction: column;
+    }
+    .iv_request_quote .sqs-layout > .sqs-row .sqs-col-6 {
+        width: 100%;
+    }
+    .iv_request_quote .demo-block {
+        max-width: 100%;
+        text-align: center;
+    }
+    .iv_request_quote .demo-block > .demo-content {
+        min-height: inherit;
+    }
+    .iv_request_quote .demo-block > .demo-content h2 {
+        text-align: center;
+    }
+    .iv_request_quote .demo-block > .demo-content h3 {
+        text-align: center;
+    }
+    .iv_request_quote .demo-block > .demo-content ul li {
+        display: inline-block;
+    }
+    .iv_request_quote .demo-block > .demo-content:after {
+        display: none;
+    }
+    .iv_request_quote .fsBody {
+        max-width: 570px;
+        margin: 0 auto;
+    }
+    .iv_request_quote .fsForm .fsSubmit {
+        text-align: center;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 991.98px) {
+    .iv_request_quote .demo-block > .demo-content {
+        min-height: inherit;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 641px) {
+    .iv_request_quote .mobile_show {
+        display: none;
+    }
+    .iv_request_quote .mt_10 {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 40em) {
+    .iv_request_quote .mobile_hide {
+        display: none;
+    }
+    .iv_request_quote .demo-block > .demo-content h3 {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .iv_request_quote .demo-block > .demo-content ul li:before {
+        position: inherit;
+        margin-right: 10px;
+    }
+    .iv_request_quote .fsBody .fsSectionHeader {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .iv_request_quote .fsBody .fsSectionHeader p span {
+        font-size: 23px !important;
+    }
+    .iv_request_quote .fsBody .fsFieldRow .fsRowBody {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px !important;
+    }
+    .iv_request_quote .image-wrapper {
+        margin: 0;
+        padding: 0 15px;
+    }
+    .iv_request_quote .fsRow.fsFieldRow.fsLastRow,
+    .iv_request_quote .fsBody .fsFieldRow {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 359.98px) {
+    .iv_request_quote .demo-block > .demo-content h2 {
+        font-size: 26px;
+    }
+}

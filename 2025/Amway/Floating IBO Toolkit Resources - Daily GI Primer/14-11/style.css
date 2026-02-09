@@ -1,0 +1,115 @@
+/* Sticky Icon */
+.iv_tag .ibo-sticky-tool {
+	position: fixed;
+	bottom: 100px;
+	left: 30px;
+	width: 90px;
+	height: 80px;
+	z-index: 99999;
+	cursor: pointer;
+}
+.iv_tag .ibo-sticky-tool img {
+	width: 100%;
+	height: auto;
+}
+.iv_tag .ibo-popup-box h2 {
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+.iv_tag .ibo-popup-box .box-btn {
+	display: inline-block;
+	background-color: #048B4A;
+	color: #fff !important;
+	font-weight: 400;
+	letter-spacing: 0;
+	transition: 0.2s all ease;
+	padding: 16px 32px;
+	border-radius: 50px;
+}
+.iv_tag .ibo-popup-box .box-btn:hover {
+	background-color: #048b4abf;
+}
+/* Popup button */
+.iv_tag .ibo-popup-box {
+	position: fixed;
+	bottom: 140px;
+	left: 150px;
+	background: #fff;
+	border-radius: 12px;
+	padding: 30px 20px 20px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+	display: none;
+	z-index: 999999;
+	animation: iboFadeUp 0.25s ease-out;
+}
+/* Close button */
+.iv_tag .ibo-popup-close {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	font-size: 30px;
+	cursor: pointer;
+	color: #2c2c2c;
+}
+/* Animation */
+@keyframes iboFadeUp {
+	from {
+		transform: translateY(20px);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@media (max-width:767px) {
+	.iv_tag .ibo-sticky-tool img {
+		background-color: rgb(255 255 255 / 36%);
+		-webkit-backdrop-filter: blur(5px);
+		backdrop-filter: blur(5px);
+		border-radius: 50%;
+		padding: 5px;
+	}
+	.iv_tag .ibo-sticky-tool {
+        bottom: 250px;
+        right: 10px;
+        left: auto;
+        width: 90px;
+        height: 70px;
+	}
+	.iv_tag .ibo-popup-box {
+		left: auto;
+		right: 120px;
+		bottom: 250px;
+		padding: 20px 15px 15px;
+	}
+	.iv_tag .ibo-popup-box h2 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.iv_tag .ibo-popup-box .box-btn {
+		padding: 10px 15px !important;
+	}
+	.iv_tag .ibo-popup-close {
+		top: 5px;
+		right: 10px;
+		font-size: 25px;
+	}
+}
+@media (max-width:581px) {
+	.iv_tag .ibo-popup-box {
+		right: 17px;
+		bottom: 330px;
+	}
+}
+
+#sellingSupport .amw-accordion__title {
+	display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#sellingSupport .amw-accordion__title img {
+	width: 100%;
+    max-width: 50px;
+}

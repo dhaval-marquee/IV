@@ -1,0 +1,111 @@
+.form_iv .free-quote {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.form_iv .free-quote .free-quote-inner {
+    background-color: #fff;
+    width: 100%;
+    max-width: 690px;
+    padding: 40px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.form_iv .free-quote h2 {
+    font-size: 42px;
+    line-height: 48px;
+    color: #000;
+    margin: 0;
+}
+
+.form_iv .free-quote form {
+    max-width: 100%;
+    width: 100%;
+    margin: 20px 0 0;
+}
+
+.form_iv .free-quote form label,
+.form_iv .free-quote form p {
+    color: #000;
+}
+
+.form_iv .free-quote form fieldset {
+    width: calc(50% - 10px) !important;
+    margin-bottom: 10px;
+}
+
+.form_iv .free-quote form fieldset.legal-sms {
+    width: 100% !important;
+    position: relative;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.form_iv .free-quote form fieldset.legal-sms input {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.form_iv .free-quote form fieldset.legal-sms label {
+    display: inline-block;
+    line-height: normal;
+    padding: 0;
+    margin-left: 0;
+}
+
+.form_iv .free-quote form fieldset input,
+.form_iv .free-quote form fieldset select {
+    border: 1px solid #d3d3d3;
+    background-color: #d3d3d33b;
+    border-radius: 3px;
+}
+
+.form_iv .free-quote .free-quote-form button {
+    font-size: 18px;
+    font-family: sans-serif;
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+    text-transform: inherit;
+    letter-spacing: 0.5px;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 599px) {
+    .form_iv .free-quote .free-quote-inner {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .form_iv .free-quote h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .form_iv .free-quote form fieldset {
+        width: 100% !important;
+    }
+
+    .form_iv .free-quote .free-quote-form button {
+        max-width: 100%;
+    }
+
+    .form_iv .free-quote-thanks .legal-sms,
+    .form_iv .free-quote-thanks h2,
+    .form_iv .free-quote-thanks p,
+    .form_iv .free-quote .legal-sms,
+    .form_iv .free-quote h2,
+    .form_iv .free-quote p {
+        padding: 0;
+    }
+
+    .form_iv .free-quote .free-quote-inner + p {
+        line-height: 32px;
+        font-size: 22px;
+    }
+}

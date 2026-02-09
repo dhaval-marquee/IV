@@ -1,0 +1,29 @@
+
+body .free-quote .free-quote-form fieldset:nth-child(5),
+body .free-quote .free-quote-form fieldset:nth-child(6),
+body .free-quote .free-quote-form fieldset:nth-child(7),
+body .free-quote .free-quote-form fieldset:nth-child(8) {
+	display: none !important;
+}
+.iv-continue-cta {
+    font-size: 18px;
+    font-family: sans-serif;
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+    text-transform: inherit;
+    letter-spacing: 0.5px;
+    padding: 12px;
+    margin: 20px auto 10px;
+}
+.iv-continue-cta:hover {
+    background-color: #f58024;
+    color: #fff;
+}
+.iv-quote-form .free-quote form fieldset input,
+.iv-quote-form .free-quote form fieldset select {
+    color: #000;
+}
+.free-quote .free-quote-form fieldset label {
+    font-weight: 700;
+}

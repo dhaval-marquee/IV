@@ -1,0 +1,68 @@
+.newsLetter_Test .block__wrap.u-margin-top-mobile__none .block__heading-h2+.block__copy p{
+    display: none;
+}
+.newsLetter_Test .block__wrap .inner-block-grid{
+    display: block;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__none h2:first-child{
+    font-size: 31px !important;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__none h2:first-child span{
+    color: #FC4242;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__none .block__media  img{
+    max-width: 150px;
+    margin: 0 auto;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__none .block__heading-h2+.block__copy h2{
+    text-align: center;
+    color: #087AAC;
+    margin-top: 12px;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__none .block__heading-h2+.block__copy ul{
+    list-style: none;
+    max-width: 260px;
+    margin: 0 auto;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__none .block__heading-h2+.block__copy ul li{
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__none ul li .text-highlight{
+    color: #049cfb !important;
+    position: absolute;
+    left: 2px;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__medium{
+    background-color: #fff;
+    border: inherit;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__medium #signupnow{
+    font-size: 0;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__medium #signupnow:before{
+    content: "OK, Sign Me Up!";
+    font-size: 16px;
+}
+.newsLetter_Test .block__wrap.u-margin-top-mobile__medium .privacyPromise_wrap{
+    border: 1px solid #ebebeb;
+    background-color: #fbfbfb;
+    margin-top: 32px;
+    padding: 16px;
+}
+@media (max-width: 989.98px){
+	/* .newsLetter_Test .block__wrap.u-margin-top-mobile__none h2:first-child{
+        text-align: center;
+    } */
+    .newsLetter_Test .block__wrap.u-margin-top-mobile__medium{
+        margin-top: 0 !important;
+    }
+}

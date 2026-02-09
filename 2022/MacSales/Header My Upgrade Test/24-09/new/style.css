@@ -1,0 +1,15 @@
+body .nav-secondary__lower-link a {
+    white-space: nowrap;
+}
+body .nav-secondary__lower-link a[href="/upgrades/"],
+body .nav-mobile__link-icon a[href="/upgrades/"]{
+    font-size: 0;
+}
+body .nav-secondary__lower-link a[href="/upgrades/"]:after,
+body .nav-mobile__link-icon a[href="/upgrades/"]:after{
+    content: 'UPGRADE MY MAC';
+    font-size: 15px;
+}
+body .nav-mobile__link-icon a[href="/upgrades/"]:after{
+    font-size: 14px;
+}

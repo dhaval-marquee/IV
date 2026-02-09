@@ -1,0 +1,14 @@
+<script>
+var formTitle = setInterval(() => {
+    if (document.querySelectorAll('.q .segment_header h1').length > 0 && 
+		document.querySelectorAll('form#FSForm .form_table > .q .drop_down').length > 0) {
+        clearInterval(formTitle);
+        var header = document.querySelector('.q .segment_header h1');
+		var headerHTML = header.innerHTML;
+		headerHTML = headerHTML.replace('No-Obligation Consultation', '<span>No-Obligation Consultation</span>');
+		header.innerHTML = headerHTML;
+
+		document.querySelector('form#FSForm .form_table > .q .drop_down option:first-child').innerHTML = 'Please Select';
+    }
+}, 100);
+</script>

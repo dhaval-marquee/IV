@@ -1,0 +1,68 @@
+.drip_test .fancy_heading_arrows {
+    margin-top: 40px;
+}
+.column_wrapper_iv {
+    padding: 60px 0 40px;
+    display: inline-block;
+    width: 100%;
+}
+.column_wrapper_iv .column_pricing_item {
+    margin: 0;
+}
+.column_wrapper_iv .one-fourth.mcb-wrap {
+    background: none !important;
+}
+.column_wrapper_iv h2 {
+    min-height: 60px;
+}
+.column_wrapper_iv h3 {
+    font-size: 22px;
+    color: #676767;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.column_wrapper_iv li:before {
+    top: 0;
+    left: 5px;
+    color: #1b9d2c;
+    content: '\e841';
+    font-family: "mfn-icons";
+    overflow: hidden;
+    position: absolute;
+    font-size: 17px;
+}
+.column_wrapper_iv li {
+    position: relative;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.column_wrapper_iv .plan-footer a {
+    font-size: 18px !important;
+    padding: 13px !important;
+    max-width: calc(100% - 30px);
+}
+.column_wrapper_iv .pricing-box-featured {
+    position: relative;
+}
+.column_wrapper_iv .pricing-box-featured:before {
+    content: 'Best Seller';
+    font-size: 22px;
+    text-align: center;
+    width: 98%;
+    position: absolute;
+    left: 0;
+    bottom: calc(100% + 1px);
+    background-color: #3cb5d0;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    visibility: visible;
+    overflow: inherit;
+    color: #fff;
+    height: auto;
+}

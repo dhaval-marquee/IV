@@ -1,0 +1,114 @@
+.iv-product-finder .pxs-image-with-text-section {
+    display: none;
+}
+
+.iv-product-finder .animated-modal {
+    transform: translateY(0);
+    margin-bottom: 30px;
+}
+
+.iv-product-finder .animated-modal .promo-form .head-part {
+    border-top: 1px solid #ccc;
+}
+
+.iv-product-finder .animated-modal form .step-box h2 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.iv-product-finder .animated-modal .container_b,
+.iv-product-finder .animated-modal fieldset {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.iv-product-finder .promo-form h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+}
+
+/* V2 */
+
+.iv-product-finder .holder {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.iv-product-finder .step-box,
+.iv-collection {
+    display: flex;
+    max-width: 100% !important;
+    flex: auto !important;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    column-gap: 22px;
+    row-gap: 10px;
+}
+
+.iv-product-finder .radio-box {
+    max-width: calc(33.33% - 15px);
+}
+
+.iv-product-finder .holder h2 {
+    cursor: pointer;
+    position: relative;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.iv-product-finder .holder h2::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #2a527d;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    right: 15px;
+    transform: rotate(270deg);
+    transition: transform 0.3s;
+}
+
+.iv-product-finder .holder .open h2::after {
+    transform: rotate(0deg);
+}
+
+.iv-product-finder .holder .iv-collection {
+    display: none;
+    margin: 0 30px;
+}
+
+.iv-product-finder .holder .open .iv-collection {
+    display: flex;
+}
+
+.iv-product-finder .footer-part {
+    display: flex;
+    justify-content: center;
+}
+
+.iv-product-finder .footer-part [type="submit"] {
+    margin: 0;
+    margin-top: 10px;
+    background-color: #adadad;
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 45px;
+}
+
+@media (max-width:767px) {
+    .iv-product-finder .holder h2{
+        font-size: 16px;
+    }
+    .iv-product-finder .holder .iv-collection{
+        margin: 0 15px;
+    }
+    .iv-product-finder .radio-box {
+        max-width: 100%;
+    }
+}

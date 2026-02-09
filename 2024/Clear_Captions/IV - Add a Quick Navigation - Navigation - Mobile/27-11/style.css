@@ -1,0 +1,45 @@
+.iv-quick-navigation main{
+    padding-top: 57px !important;
+}
+.iv-quick-navigation .header-cc-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+.iv-sub-header {
+    border-top: 1px solid #151f6d;
+    border-bottom: 1px solid #151f6d;
+    background-color: #e0e8f5;
+}
+.iv-sub-header-list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.iv-sub-header-item-inner {
+    text-decoration: none !important;
+    font-size: 16px;
+}
+.iv-quick-navigation .header-nav-mobile-menu-toggle{
+    top: 23px;
+}
+.iv-nav-call {
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+    color: #ff4a00;
+    font-weight: 600;
+    font-size: 18px;
+    gap: 3px;
+}
+.iv-nav-call:hover{
+    color: #a3360e;
+}
+.iv-nav-call svg{
+    width: 30px;
+    height: 30px;
+}

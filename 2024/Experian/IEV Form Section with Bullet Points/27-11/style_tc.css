@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px) {
+    .iv-form form#contactForm {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .iv-form #contactForm > .form-group.floatl {
+        max-width: 48.5%;
+        width: 100%;
+    }
+    .iv-form #contactForm > .form-group.floatl.text-area {
+        display: block !important;
+        max-width: 100%;
+    }
+}

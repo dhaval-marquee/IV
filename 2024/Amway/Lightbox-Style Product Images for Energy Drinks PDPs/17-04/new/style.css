@@ -1,0 +1,10 @@
+body .iziModal[data-izimodal-title="Zoom image"] {
+    height: min-content  !important;
+    max-width: max-content !important;
+    margin: 0 auto !important;
+    padding-bottom: 30px;
+}
+
+.izi-modal-open .iziModal-overlay {
+    background-color: transparent !important;
+}

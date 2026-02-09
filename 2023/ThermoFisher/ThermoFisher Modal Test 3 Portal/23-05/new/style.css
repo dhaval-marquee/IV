@@ -1,0 +1,236 @@
+.mb-10 {
+    margin-bottom: 10px;
+}
+.hero_iv.modalOpen .iv_modal {
+    display: block;
+}
+.hero_iv.modalOpen {
+    overflow: hidden;
+}
+.hero_iv .iv_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    transition: opacity .15s linear;
+    opacity: 0;
+}
+.hero_iv .iv_modal.show {
+    opacity: 1;
+}
+.hero_iv .iv_modal .modal-content {
+    z-index: 1050;
+}
+.hero_iv .iv_modal .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    -webkit-transform: translate(0,-25%);
+    transform: translate(0,-25%);
+    z-index: 1050;
+}
+.hero_iv .iv_modal.show .modal-dialog {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.hero_iv .iv_modal .modal-header {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    justify-content: flex-end;
+    border-bottom: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    z-index: 1;
+}
+.hero_iv .iv_modal .modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px !important;
+    text-align: center;
+}
+.hero_iv .iv_modal .modal-body h2 {
+    width: 100%;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+.hero_iv .iv_modal .modal-body h3 {
+    font-size: 28px;
+}
+.hero_iv .iv_modal .modal-body h4 {
+    font-size: 20px;
+    line-height: normal;
+}
+.hero_iv .iv_modal .modal-body .modal_left,
+.hero_iv .iv_modal .modal-body .modal_right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 50%;
+    width: 100%;
+    padding: 0 50px;
+}
+.hero_iv .iv_modal .modal-body .modal_right:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+    display: block;
+    opacity: 0.1;
+}
+
+/* Link Box css */
+.hero_iv .iv_modal .modal-body ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.hero_iv .iv_modal .modal-body ul li {
+    border: 1px solid #000;
+}
+.hero_iv .iv_modal .modal-body ul li + li {
+    margin-top: 30px;
+}
+.hero_iv .iv_modal .modal-body ul li a {
+    color: #000;
+    font-weight: normal;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.hero_iv .iv_modal .modal-body ul li a:hover {
+    text-decoration: none;
+}
+.hero_iv .iv_modal .modal-body ul li a:before {
+    content: '';
+    width: 0;
+    height: 0;
+    background-color: #6867b8;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out 0s;
+    pointer-events: none;
+}
+.hero_iv .iv_modal .modal-body ul li a:hover:before {
+    width: 100%;
+    height: 100%;
+}
+.hero_iv .iv_modal .modal-body ul li p:last-of-type {
+    margin-bottom: 0;
+}
+.hero_iv .iv_modal .modal-body ul li a.flex-row {
+    align-items: center;
+}
+.hero_iv .iv_modal .modal-body ul li a.flex-row h4 {
+    margin-bottom: 0;
+}
+.hero_iv .iv_modal .modal-body ul li a.flex-row img {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1199.98px) {
+    .hero_iv .iv_modal .modal-xl {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .hero_iv .iv_modal .modal-body {
+        padding: 50px 0 !important;
+    }
+    .hero_iv .iv_modal .modal-body .modal_left,
+    .hero_iv .iv_modal .modal-body .modal_right {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .hero_iv .iv_modal .modal-body h3 {
+        font-size: 28px;
+    }
+    .hero_iv .iv_modal .modal-body ul li a {
+        padding: 22px;
+    }
+    .hero_iv .iv_modal .modal-body ul li a.flex-row img[alt="Labcorp Logo"] {
+        max-width: 120px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .hero_iv .iv_modal .modal-body .modal_left {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        margin-top: 25px;
+    }
+    .hero_iv .iv_modal .modal-body {
+        flex-direction: column;
+        max-width: 575px;
+        width: 100%;
+        padding: 40px 10px 0 !important;
+        margin: 0 auto;
+    }
+    .hero_iv .iv_modal .modal-body h2 {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .hero_iv .iv_modal .modal-body .modal_left,
+    .hero_iv .iv_modal .modal-body .modal_right {
+        text-align: left;
+        align-items: flex-start;
+        max-width: 100%;
+        padding: 20px 0 35px;
+    }
+    .hero_iv .iv_modal .modal-body .modal_right:before {
+        width: 100%;
+        height: 1px;
+    }
+    .hero_iv .iv_modal .modal-body h3 {
+        font-size: 22px;
+        line-height: normal;
+        min-height: inherit;
+    }
+    .hero_iv .iv_modal .modal-body ul {
+        width: 100%;
+    }
+    .hero_iv .iv_modal .modal-body ul li a {
+        padding-right: 70px;
+    }
+    .hero_iv .iv_modal .modal-body ul li a:after {
+        content: '';
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1684840814/ThermoFisher/ThermoFisher_Modal/Arrow.png');
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 40px;
+        z-index: 1;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 374.98px) {
+    .hero_iv .iv_modal .modal-body ul li a.flex-row {
+        flex-direction: column !important;
+        align-items: flex-start;
+    }
+    .hero_iv .iv_modal .modal-body ul li a.flex-row img {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}

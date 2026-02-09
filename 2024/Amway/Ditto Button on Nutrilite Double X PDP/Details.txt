@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+Task link :https://ignite-visibility-team.monday.com/boards/3082466737/pulses/7257084984?notification=5007234144
+
+Test link : 
+
+Desktop: 
+Mobile: 
+=======
+Task link : https://ignite-visibility-team.monday.com/boards/3082466737/pulses/7257084984?notification=5007234144
+
+Test link : 
+Desktop: https://app.vwo.com/#/test/ab/92/edit/variations/
+Mobile: https://app.vwo.com/#/test/ab/93/edit/variations/
+>>>>>>> 98ba79bc63548b3f18511d687f761adcdf097372

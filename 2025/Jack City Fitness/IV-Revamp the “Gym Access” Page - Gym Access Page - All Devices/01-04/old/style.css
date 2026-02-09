@@ -1,0 +1,340 @@
+.iv-gym-access #section-1.section-margin {
+    margin: 0;
+    overflow: hidden;
+}
+.iv-gym-access{
+    font-family: 'Poppins', sans-serif;
+}
+
+.iv-gym-access .nutrition-page>p {
+    display: none;
+}
+.iv-gym-services-container-section-1{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.iv-gym-services-container{
+    max-width: 1440px;
+    margin: 5% auto 0;
+    padding: 0 5%;
+}
+
+.iv-gym-access .iv-gym-section1 {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.iv-gym-access .iv-gym-inner {
+    width: 50%;
+    box-sizing: border-box;
+}
+.iv-gym-access .iv-gym-inner .iv-gym-inner-bg{
+    padding: 50px 50px 50px 0;
+}
+.iv-gym-inner.iv-gym-inner-background .iv-gym-inner-bg{
+    background-color: #ffede0;
+    padding: 50px 231px 50px 50px;
+    margin: 0px -231px 0 0;
+}
+
+.iv-gym-inner-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.iv-gym-inner-heading-flex {
+    width: 100%;
+}
+
+.iv-gym-inner-heading-flex p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.iv-gym-inner-heading-number {
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 75px;
+    min-height: 75px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/jackcityfitness/round-icon.png');
+    color: #fff;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iv-gym-access .iv-gym-section1 .try-free-btn{
+    margin-top: 35px;
+}
+.iv-gym-inner-heading-flex h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.iv-gym-inner-info {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+/* section 3 */
+.iv-gym-services {
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.iv-gym-services-logo{
+    margin-bottom: 25px;
+}
+.iv-gym-services-logo img {
+    max-width: 100px !important;
+}
+
+.iv-gym-services-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.iv-gym-services-info {
+    font-size: 15px;
+    color: #555;
+}
+
+/* Grid layout for different screen sizes */
+.iv-gym-services-grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background: #EFEFEF;
+}
+
+/* section 2-4 */
+/* Benefits of 24-Hour Gym */
+.iv-gym-access .iv-benefit {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.iv-gym-access .iv-benefit .iv-left-brnefit {
+    width: 50%;
+}
+.iv-gym-access .iv-benefit .iv-left-brnefit h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.iv-gym-access .iv-benefit p {
+    line-height: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.iv-gym-access .iv-benefit ul.iv-gym-include li{
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 40px;
+}
+.iv-gym-access .iv-benefit ul.iv-gym-include li::before {
+    content: "L";
+    position: absolute;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    background-color: #ffede0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fd4f01;
+    font-size: 18px;
+    transform: rotateY(180deg) rotate(-45deg);
+}
+.iv-gym-access .iv-benefit ul.iv-gym-include li span{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;    
+    display: block;
+}
+
+.iv-gym-access .iv-benefit .iv-right-brnefit img.right-first-img {
+    max-width: 500px !important;
+}
+
+
+/* Gyms Near Me */
+.iv-gym-access .iv-gyms-near-me h2{
+    margin-bottom: 15px;
+}
+.iv-gym-access .iv-gyms-near-me p{
+    margin-bottom: 20px;
+}
+.iv-gym-access a.try-free-btn{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .iv-gym-access .iv-gym-inner .iv-gym-inner-bg{
+        padding: 50px;
+        margin: 0;
+    }
+    .iv-gym-services-container-section-1{
+        padding: 0;
+    }
+    /* Benefits of 24-Hour Gym */
+    .iv-gym-access .iv-benefit .iv-left-brnefit h2 {
+        font-size: 25px;
+    }
+    .iv-gym-access .iv-benefit p {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .iv-gym-access .iv-benefit ul.iv-gym-include li img{
+        margin-right: 20px;
+    }
+    .iv-gym-access .iv-benefit ul.iv-gym-include li span {
+        font-size: 17px;
+    }
+
+    .iv-gym-access .iv-benefit .iv-right-brnefit img.right-first-img {
+        max-width: 400px !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .iv-gym-inner-heading-flex h3{
+        font-size: 24px;
+    }
+    .iv-gym-access .iv-gym-inner .iv-gym-inner-bg {
+        padding: 40px 30px;
+    }
+
+    .iv-gym-inner-heading-number {
+        font-size: 35px;
+        max-width: 70px;
+        min-height: 70px;
+    }
+    /* section 3 */
+    .iv-gym-services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .iv-gym-services-logo img{
+        max-width: 80px !important;
+    }
+
+    /* section 2-4 */
+    .iv-gym-access .iv-benefit{
+        gap: 30px;
+    }
+    .iv-gym-access .iv-benefit .iv-left-brnefit {
+        width: 100%;
+    }
+    .iv-gym-access .iv-benefit .iv-right-brnefit{
+        width: 100%;
+        text-align: center;
+    }
+    .iv-gym-access .iv-benefit p {
+        margin-bottom: 15px;
+    }
+    .iv-gym-access .iv-benefit ul.iv-gym-include li span {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .iv-gym-access .iv-benefit ul.iv-gym-include li{
+        margin-bottom: 0;
+    }
+    .iv-gym-access .iv-benefit ul.iv-gym-include li img {
+        margin-right: 10px;
+    }
+
+    .iv-gym-access .iv-benefit .iv-right-brnefit img.right-first-img {
+        max-width: 300px !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .iv-gym-inner-heading-number {
+        font-size: 30px;
+        max-width: 60px;
+        min-height: 60px;
+    }
+
+    .iv-gym-inner-heading {
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 15px;
+    }
+
+    .iv-gym-access .iv-gym-section1 {
+        flex-direction: column;
+    }
+
+    .iv-gym-access .iv-gym-inner {
+        width: 100%;
+    }
+    .iv-gym-access .iv-gym-inner .iv-gym-inner-bg{
+        padding: 20px 5%;
+    }
+    .iv-gym-inner-heading-flex p,
+    .iv-gym-inner-info,
+    .try-free-btn {
+        font-size: 14px;
+    }
+
+    .iv-gym-access .iv-gym-section1 .try-free-btn {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .iv-gym-access a.try-free-btn{
+        font-size: 14px;
+    }
+    .iv-gym-inner-heading-flex h3 {
+        font-size: 22px;
+    }
+    /* section 3 */
+    .iv-gym-services{
+        padding: 20px 0;
+    }
+    .iv-gym-services-grid {
+        grid-template-columns: 1fr;
+        /* 1 item per row on mobile */
+    }
+    .iv-gym-services-logo img{
+        max-width: 70px !important;
+    }
+    .iv-gym-services-title{
+        font-size: 18px;
+    }
+    .iv-gym-services-info{
+        font-size: 13px;
+    }
+    /* section 2-4 */
+    .iv-gym-access .iv-benefit .iv-left-brnefit h2 {
+        font-size: 20px;
+    }
+    .iv-gym-access .iv-benefit p {
+        font-size: 14px;
+    }
+    .iv-gym-access .iv-benefit ul.iv-gym-include li{
+        padding-left: 35px;
+    }
+    .iv-gym-access .iv-benefit ul.iv-gym-include li::before{
+        width: 24px;
+        height: 24px;
+        font-size: 16px;
+    }
+}

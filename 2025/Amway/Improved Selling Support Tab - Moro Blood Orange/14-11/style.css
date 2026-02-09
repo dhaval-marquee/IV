@@ -1,0 +1,25 @@
+.iv-sellingSupportTab #sellingSupport span.amw-accordion__title {
+    width: 40%;
+}
+.iv-sellingSupportTab #sellingSupport .supportTabText {
+    display: flex;
+    font-size: 1.3em;
+    color: #4b5b8a;
+    margin: 14px 0;
+}
+
+@media(max-width: 767.98px) {
+    .iv-sellingSupportTab #sellingSupport span.amw-accordion__title {
+        width: 100%;
+    }
+    .iv-sellingSupportTab #sellingSupport a {
+        position: relative;
+        padding-bottom: 18px;
+    }
+    .iv-sellingSupportTab #sellingSupport .supportTabText {    
+        position: absolute;
+        left: 0;
+        top: 65%;
+        margin: 0;
+    }
+}

@@ -1,0 +1,14 @@
+body form p.subheading {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 17px auto;
+}
+body .free-quote form fieldset input, 
+body .free-quote form fieldset select {
+    color: #000 !important;
+}
+@media (max-width: 520.98px) {
+    body form p.subheading br {
+        display: none;
+    }
+}

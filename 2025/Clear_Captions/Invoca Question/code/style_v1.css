@@ -1,0 +1,81 @@
+.iv-howItWork .fusion-title.fusion-title-3,
+.iv-howItWork .fusion-title.fusion-title-4 {
+    display: none !important;
+}
+.iv-howItWork div#form > div {
+    margin-bottom: 0 !important;
+}
+@media screen and (min-width: 641px) {
+    .iv-howItWork .for-mobile {
+        display: none;
+    }
+    .iv-howItWork .supportBanner .onlyMobile {
+        display: none;
+    }
+}
+@media screen and (max-width: 640.98px) {
+    .iv-howItWork .for-desktop {
+        display: none;
+    }
+    .iv-howItWork .supportBanner .onlyDesktop {
+        display: none;
+    }
+}
+
+.iv-howItWork .supportBanner {
+    margin-left: var(--hundredp_padding-hundred_percent_negative_margin);
+    margin-right: var(--hundredp_padding-hundred_percent_negative_margin);
+    background-color: #0f85ef;
+    padding: 12px 0;
+}
+.iv-howItWork .supportBanner .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 15px;
+}
+.iv-howItWork .supportBanner .iconWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.iv-howItWork .supportBanner p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.iv-howItWork .phoneNumber span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #151f6d;
+    border-radius: 12px;
+    padding: 12px 32px;
+}
+.iv-howItWork .phoneNumber span a {
+    color: #fff;
+    text-decoration: none !important;
+}
+
+@media (max-width: 730.98px) {
+    .iv-howItWork .supportBanner {
+        padding: 32px 0;
+    }
+    .iv-howItWork .supportBanner .content {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 16px;
+    }
+    .iv-howItWork .phoneNumber {
+        display: flex;
+    }
+    .iv-howItWork .supportBanner .iconWrapper {
+        width: 100%;
+        max-width: 260px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

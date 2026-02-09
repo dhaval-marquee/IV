@@ -1,0 +1,18 @@
+.iv-showrooms .hero-block h2 {
+    font-size: 25px;
+    text-transform: none;
+}
+.iv-showrooms .hero-block ul {
+    display: inline-block;
+    list-style-type: disc;
+    padding: 5px 0;
+    width: fit-content;
+}
+.iv-showrooms .hero-block .btn {
+    font-size: 15px;
+    min-width: 280px;
+}
+.iv-showrooms .image-block h2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}

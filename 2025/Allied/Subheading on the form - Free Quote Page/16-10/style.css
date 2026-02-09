@@ -1,0 +1,11 @@
+.iv-subheading form p.subheading {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 17px auto;
+}
+
+@media (max-width: 520.98px) {
+    .iv-subheading form p.subheading br {
+        display: none;
+    }
+}

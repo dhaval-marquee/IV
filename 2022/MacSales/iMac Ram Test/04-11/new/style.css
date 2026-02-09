@@ -1,0 +1,76 @@
+.iMac_ram_test .product-items-unit__grid {
+    display: none;
+}
+
+#secondBox {
+    visibility: hidden;
+}
+#secondBox.active {
+    visibility: visible;
+}
+.iMac_ram_test .product_search form {
+    max-width: calc(100% - 350px);
+    width: 100%;
+    padding-right: 35px;
+}
+.iMac_ram_test .product_search .form-group {
+    position: relative;
+    max-width: 47%;
+    width: 100%;
+    text-decoration: none;
+    margin: 0 30px;
+}
+.iMac_ram_test .product_search .form-group:after {
+    content: '';
+    box-sizing: border-box;
+    height: 13px;
+    width: 13px;
+    border-style: solid;
+    border-color: #999;
+    border-width: 0px 2px 2px 0px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: rotate(45deg) translateY(-50%);
+    pointer-events: none;
+    margin-top: -5px;
+}
+.iMac_ram_test .product_search .form-group label {
+    font-size: 15px;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+}
+.iMac_ram_test .product_search .form-group select {
+    min-width: 230px;
+    font-size: 14px;
+    outline: none;
+    height: 43px;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #999;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px;
+}
+
+@media (max-width: 989.98px) {
+    .iMac_ram_test .product_search .form-group {
+        max-width: 100%;
+        margin: 0;
+    }
+    .iMac_ram_test .product_search .form-group + .form-group {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .iMac_ram_test .product_search form {
+        max-width: 400px;
+        margin: 50px auto 70px;
+    }
+    .iMac_ram_test .product_search .form-group {
+        padding: 0;
+    }
+}

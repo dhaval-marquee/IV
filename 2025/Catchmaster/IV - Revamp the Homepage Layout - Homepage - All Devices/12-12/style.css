@@ -1,0 +1,808 @@
+/* common code*/
+.iv-revamp-homepage main section.why-choose-catchmaster + section:nth-child(-n+11),
+.iv-revamp-homepage main section.why-choose-catchmaster + section,
+.iv-revamp-homepage main section.why-choose-catchmaster + section + section,
+.iv-revamp-homepage main section.why-choose-catchmaster + section + section + section ,
+.iv-revamp-homepage main section.why-choose-catchmaster + section + section  + section + section ,
+.iv-revamp-homepage section:has(h2.rich-text__heading),
+.iv-revamp-homepage section:has(h2.yotpo-reviews-carousel-header) + section,
+.iv-revamp-homepage section:has(h2.yotpo-reviews-carousel-header) + section {
+    display: none;
+}
+.iv-revamp-homepage h2.title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    color: #000;
+}
+.iv-revamp-homepage p.subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 64px;
+}
+
+@media (max-width: 767.98px) {
+    .iv-revamp-homepage h2.title {
+        font-size: 32px;
+    }
+    .iv-revamp-homepage p.subtitle {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+/* common code*/
+
+/* Header */
+.iv-revamp-homepage .header-wrapper--border-bottom {
+	border-bottom: 0;
+}
+
+/* Hero section */
+.iv-revamp-homepage main#MainContent > .iv-hero-sec + section,
+.iv-revamp-homepage main#MainContent > .iv-hero-sec + section + section {
+    display: none !important;
+}
+.iv-revamp-homepage .iv-hero-main {
+    display: flex;
+    gap: 40px 20px;
+}
+.iv-revamp-homepage .iv-hero-main .iv-hero-left {
+    width: 70%;
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/f_auto/Catchmaster/RevampHomepageLayout/hero-left-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    min-height: 596px;
+    position: relative;
+    padding: 30px;
+}
+.iv-revamp-homepage .iv-hero-main .iv-hero-left:before {
+    content: "";
+    background: linear-gradient(170deg, #0000 0%, #000000b5 100%);
+    position: absolute;
+    bottom: 0;
+    height: 248px;
+    width: 100%;
+    left: 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    pointer-events: none;
+}
+.iv-revamp-homepage .iv-hero-left h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 930px;
+    left: 0;
+    padding: 30px;
+    margin: 0;
+}
+.iv-revamp-homepage .iv-hero-main .iv-hero-right {
+    width: 30%;
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/f_auto/Catchmaster/RevampHomepageLayout/hero-right-bg-new.png');
+    border-radius: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    background-position: top 40px center;
+    background-size: cover;
+}
+.iv-revamp-homepage .iv-hero-main .iv-hero-right span {
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 290px;
+    margin: 0 auto;
+    display: block;
+    line-height: normal;
+    font-weight: 900;
+    padding: 0 10px 30px 10px;
+    font-style: italic;
+}
+.iv-revamp-homepage .iv-hero-right-inner {
+    margin-top: -115px;
+}
+@media only screen and (max-width: 1440px) {
+    .iv-revamp-homepage .iv-hero-main .iv-hero-left {
+        min-height: 380px;
+    }
+    .iv-revamp-homepage .iv-hero-left h1 {
+        font-size: 40px;
+    }
+    .iv-revamp-homepage .iv-hero-sec {
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .iv-revamp-homepage .iv-hero-main .iv-hero-left {
+        min-height: 400px;
+    }
+    .iv-revamp-homepage .iv-hero-left h1 {
+        font-size: 30px;
+    }
+    .iv-revamp-homepage .iv-hero-main .iv-hero-left {
+        width: 60%;
+    }
+    .iv-revamp-homepage .iv-hero-main .iv-hero-right {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 767px) { 
+    .iv-revamp-homepage .iv-hero-main {
+        flex-wrap: wrap;
+    }
+    .iv-revamp-homepage .iv-hero-main .iv-hero-left,
+    .iv-revamp-homepage .iv-hero-main .iv-hero-right {
+        width: 100%;
+    }
+    .iv-revamp-homepage .iv-hero-main .iv-hero-left:before {    
+        height: 100%;
+    }
+    .iv-revamp-homepage .iv-hero-left h1 {
+        padding: 15px 15px 35px 15px;
+    }
+    .iv-revamp-homepage .iv-hero-right-inner {
+        margin-top: -100px;
+    }
+    .iv-revamp-homepage .iv-hero-right-inner img {
+        width: 100%;
+        max-width: 240px;
+    }
+}
+
+/* Hero section - NEW */
+.iv-revamp-homepage main#MainContent > .iv-hero-sec-new + section,
+.iv-revamp-homepage main#MainContent > .iv-hero-sec-new + section + section {
+    display: none !important;
+}
+.iv-hero-sec-new-inner {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.iv-main-title {
+    font-size: 48px;
+    color: #000;
+    text-transform: capitalize;
+    max-width: 662px;
+    margin: 30px auto;
+    line-height: normal;
+    font-weight: bold;
+    padding: 0 10px;
+    text-align: center;
+}
+.iv-hero-sec-new .iv-container {
+    padding: 0 100px !important;
+}
+@media only screen and (min-width: 768px) { 
+    .iv-hero-mobile {
+        display: none;
+    }
+    .iv-hero-sec-new .iv-container {
+        padding: 0 2rem;
+    }
+}
+@media only screen and (min-width: 750px) { 
+    .iv-revamp-homepage #MainContent .page-width {
+        padding: 0 10rem;
+    }
+}
+@media (max-width: 1280px) {
+    .iv-main-title {
+        font-size: 34px;
+    }
+}
+@media only screen and (max-width: 767px) { 
+    .iv-hero-desktop {
+        display: none;
+    }
+    .iv-hero-mobile {
+        display: block;
+    }
+    .iv-hero-sec-new-inner {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .iv-main-title {
+        font-size: 26px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .iv-hero-sec-new-inner img {
+        border-radius: 20px;
+    }
+}
+@media only screen and (max-width: 575px) { 
+    .iv-hero-sec-new-inner img {
+        border-radius: 10px;
+    }
+}
+
+/* KEEP YOUR FAMILY SAFE FROM PESTS THIS FALL */
+.iv-revamp-homepage .tabs-slider-heading h2 {
+    font-size: 48px;
+    color: #000;
+    text-transform: capitalize;
+    max-width: 662px;
+    margin: 0 auto 28px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.iv-revamp-homepage .tabs-slider-heading p {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    line-height: 28.8px;
+    color: #000;
+    text-align: center;
+}
+
+.iv-revamp-homepage .tabs-slider-product-tabs li.tabs-slider-tab-active {
+    background: #ce0e2d;
+    text-decoration: none;
+    color: #fff;
+}
+
+.iv-revamp-homepage .tabs-slider-product-tabs li {
+    border-radius: 50px;
+    padding: 8px 24px;
+    font-size: 20px;
+    line-height: 28.8px;
+    font-weight: 400;
+}
+.iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .product-slider-wrapper .slick-slide > div,
+.iv-revamp-homepage .tabs-slider-product-slider .tabs-slider-product-card,
+.iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .tabs-slider-product-card>a {
+    height: 100%;
+}
+.iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .tabs-slider-product-card>a {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .tabs-slider-product-card img {
+    border: 0;
+}
+
+.iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .product-slider-wrapper .slick-slide {
+    margin: 0 13px;
+}
+
+.iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .product-slider-wrapper .slick-list {
+    padding: 20px 0;
+}
+
+.iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .tabs-slider-product-title {
+    font-size: 11px;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .tabs-slider-product-price {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.iv-revamp-homepage .tabs-slider-product-btn-wrapper .tabs-slider-shop-all-btn:not(.hidden) {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 50px;
+}
+
+.iv-revamp-homepage .tabs-slider-product-card .product-reviews .rating-count {
+    display: block !important;
+    color: #343434;
+    font-weight: 600;
+}
+
+.iv-revamp-homepage .tabs-slider-product-card .product-reviews .review-star-wrapper {
+    height: 25px;
+}
+.iv-revamp-homepage .tabs-slider-product-card .product-reviews .review-star-wrapper svg path {
+    fill: rgb(206, 14, 45);
+}
+.iv-revamp-homepage .tabs-slider-product-card .product-reviews {
+    display: flex !important;
+    padding: 0 0 0 20px;
+    gap: 0 6px;
+    align-items: center;
+}
+
+@media (max-width: 1280px) {
+    .iv-revamp-homepage .tabs-slider-heading h2 {
+        font-size: 34px;
+    }
+
+    .iv-revamp-homepage .tabs-slider-heading p {
+        font-size: 18px;
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-tabs li {
+        padding: 6px 18px;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .tabs-slider-product-title {
+        font-size: 16px;
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .tabs-slider-product-price {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-btn-wrapper .tabs-slider-shop-all-btn:not(.hidden) {
+        padding: 14px 40px;
+        font-size: 16px;
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-card .product-reviews {
+        padding: 0 0 0 10px;
+    }
+}
+
+
+@media (max-width: 1022px) {
+    .iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .product-slider-wrapper .slick-slide {
+        margin: 0 8px;
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .tabs-slider-product-card>a {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-tabs {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 990px) {
+    .iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .tabs-slider-product-card {
+        margin: 0px;
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-tabs {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .iv-revamp-homepage .tabs-slider-product-card .product-reviews .review-star-wrapper svg {
+        width: 10px;
+    }
+}
+
+@media only screen and (max-width: 749.98px) {
+    .iv-revamp-homepage .tabs-slider-heading h2 {
+        font-size: 24px;
+        margin: 0 auto 20px;
+    }
+
+    .iv-revamp-homepage .tabs-slider-heading p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+
+    .iv-revamp-homepage .tabs-slider-product-tabs li {
+        padding: 6px 14px;
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-slider:not(.hidden) .tabs-slider-product-title {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-btn-wrapper .tabs-slider-shop-all-btn:not(.hidden) {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    .iv-revamp-homepage #shopify-section-template--24688202973468__tab_slider_collection_f6GMgH {
+        display: block;
+    }
+
+    .iv-revamp-homepage #shopify-section-template--24688202973468__multicolumn_En46EX {
+        display: none;
+    }
+
+    .iv-revamp-homepage .tabs-slider-product-Carousel .tabs-slider-heading {
+        padding: 0;
+    }
+}
+
+
+/* Rodent stopping power */
+.iv-rodent-sec {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/f_auto/Catchmaster/RevampHomepageLayout/rodent-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 70px 30px 70px;
+    margin: 100px 0;
+    position: relative;
+}
+.iv-iv-rodent-left {
+    position: relative;
+    z-index: 1;
+}
+.iv-rodent-inner h2 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1;
+    margin: 0 0 20px 0;
+}
+.iv-rodent-inner h2 span {
+    color: #C8102F;
+}
+.iv-rodent-inner h2 sup {
+    font-size: 30px;
+}
+.iv-rodent-inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.iv-rodent-sec .sub-title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+    font-style: italic;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.iv-rodent-bottom {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+.iv-button-rounded {
+    text-decoration: none;
+    color: #fff;
+    background-color: #C8102F;
+    text-transform: uppercase;
+    padding: 17px 50px;
+    font-size: 18px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.iv-button-rounded:hover {
+    background-color: yellow;
+    color: #000;
+}
+.iv-rodent-box {
+    background-color: #C8102F;
+    border-radius: 15px;
+    padding: 9px 9px 9px 45px;
+    margin-bottom: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 180px;
+}
+.iv-rodent-box img {
+    position: absolute;
+    left: 14px;
+    width: 100%;
+    max-width: 20px;
+}
+.iv-rodent-box span {
+    font-size: 14px;
+    line-height: normal;
+}
+.iv-iv-rodent-right {
+    position: absolute;
+    right: 40px;
+    top: -130px;
+}
+.iv-iv-rodent-right img {
+    width: 100%;
+    max-width: 771px;
+}
+@media only screen and (max-width: 1440px) { 
+    .iv-rodent-sec {
+        margin: 60px 0;
+    }
+    .iv-iv-rodent-right img {
+        max-width: 620px;
+    }
+    .iv-iv-rodent-right {
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+@media only screen and (max-width: 991px) {  
+    .iv-iv-rodent-right {
+        position: inherit;
+        transform: none;
+        text-align: center;
+    }
+    .iv-rodent-inner {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .iv-rodent-boxs {
+        display: flex;
+        gap: 20px;
+    }
+    .iv-rodent-bottom { 
+        margin: 0 auto;
+    }
+    .iv-iv-rodent-right img {
+        max-width: 360px;
+    }
+    .iv-rodent-sec {
+        margin: 40px 0;
+        padding: 30px 15px;
+    }
+}
+@media only screen and (max-width: 767px) {  
+    .iv-rodent-inner h2 {
+        font-size: 50px;
+    }
+    .iv-rodent-boxs {
+        gap: 10px;
+    }
+    .iv-rodent-box {
+        padding: 8px 7px 8px 35px;
+        margin-bottom: 0;
+    }
+    .iv-rodent-box span {
+        font-size: 12px;
+    }
+    .iv-rodent-box img {
+        left: 10px;
+        max-width: 15px;
+    }
+    .iv-rodent-sec .sub-title {
+        font-size: 18px;
+    }
+    .iv-rodent-sec .sub-title br {
+        display: none;
+    }
+    .iv-button-rounded {
+        padding: 7px 30px;
+        font-size: 16px;
+    }
+}
+
+/* Arrivals - NEW */
+@media only screen and (min-width: 768px) { 
+    .iv-arrivals-mobile {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) { 
+    .iv-arrivals-desktop {
+        display: none;
+    }
+    .iv-arrivals-mobile {
+        display: block;
+    }
+}
+
+/* Pest solutions */
+.iv-revamp-homepage .pest-solutions {
+    padding: 10px 0 125px;
+}
+.iv-revamp-homepage .pest-solutions h2.title,
+.iv-revamp-homepage .pest-solutions p.subtitle {
+    text-align: center;
+    margin: 0;
+}
+.iv-revamp-homepage .itemsSolutions {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.iv-revamp-homepage .itemsSolutions .item {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.10);
+    width: 100%;
+}
+.iv-revamp-homepage .itemContent {
+    padding: 48px 24px 24px;
+}
+.iv-revamp-homepage .itemsSolutions .item h2 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: normal;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.iv-revamp-homepage .itemsSolutions .item p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+@media (max-width: 989.98px) {
+    .iv-revamp-homepage .itemsSolutions {
+        flex-direction: column;
+    }
+    .iv-revamp-homepage .itemsSolutions .item {
+        max-width: 100%;
+        border-radius: 45px;
+    }
+    .iv-revamp-homepage .itemsSolutions .item img {
+        width: 100%;
+    }
+}
+@media (max-width: 767.98px) {
+    .iv-revamp-homepage .itemsSolutions .item {
+        border-radius: 20px;
+    }
+    .iv-revamp-homepage .itemContent {
+        padding: 32px 24px;
+    }
+}
+/* Pest solutions */
+
+/* Why Choose CatchMaster */
+.iv-revamp-homepage .why-choose-catchmaster {
+    background-color: #111;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+}
+.iv-revamp-homepage .why-choose-catchmaster .catchmasterlogo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.iv-revamp-homepage .why-choose-catchmaster h2,
+.iv-revamp-homepage .why-choose-catchmaster p.subtitle {
+    color: #fff;
+    text-align: left;
+    margin: 0;
+}
+.iv-revamp-homepage .why-choose-catchmaster .container h2::selection,
+.iv-revamp-homepage .why-choose-catchmaster .container p::selection {
+    background: #333333;
+    color: #fff;
+}
+.iv-revamp-homepage .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.iv-revamp-homepage .feature-cardWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.iv-revamp-homepage .feature-card {
+    padding: 30px 35px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 20px;
+    background: #C8102F;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.10);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iv-revamp-homepage .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+.iv-revamp-homepage .feature-card.feature-card-middle {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-direction: row;
+}
+.iv-revamp-homepage .feature-card .icon {
+    text-align: center;
+    width: 100%;
+    max-width: 40px;
+    margin: 0 auto;
+}
+
+.iv-revamp-homepage .feature-card h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: normal;
+    padding-bottom: 12px;
+    margin: 0;
+}
+.iv-revamp-homepage .feature-card p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+.feature-card a {
+    color: #fff;
+}
+.feature-card a:hover {
+    color: yellow;
+}
+@media (min-width: 1024.98px) {
+    .iv-revamp-homepage .features > div {
+        width: 28%;
+    }
+    .iv-revamp-homepage .features > div.feature-cardWrapper {
+        width: 44%;
+    }
+}
+@media (max-width: 1024.98px) {
+    .iv-revamp-homepage .features {
+        flex-direction: column;  
+    }
+}
+@media (max-width: 767.98px) {
+    .iv-revamp-homepage .why-choose-catchmaster .catchmasterlogo {
+        width: 100%;
+        max-width: 320px;
+    }
+    .iv-revamp-homepage .features {
+        margin-bottom: 30px;
+    }
+    .iv-revamp-homepage .feature-card {
+        padding: 30px 20px;
+    }
+}
+/* Why Choose CatchMaster Over*/
+
+/* reviews section */
+.iv-revamp-homepage h2.yotpo-reviews-carousel-header {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900 !important;
+    line-height: normal;
+}
+.iv-revamp-homepage .yotpo-reviews-carousel-header-container {
+    justify-content: left;
+    flex-direction: column;
+}
+.iv-revamp-homepage .yotpo-reviews-carousel-header-container p {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    padding-bottom: 24px;
+}
+@media (max-width: 767.98px) {
+    .iv-revamp-homepage h2.yotpo-reviews-carousel-header {
+        font-size: 32px;
+    }
+}
+/* reviews section over*/

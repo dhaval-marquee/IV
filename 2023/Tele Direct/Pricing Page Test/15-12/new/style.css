@@ -1,0 +1,3 @@
+.entry-content > .panel-layout >div:last-of-type {
+    display: none;
+}

@@ -1,0 +1,2 @@
+document.querySelector('.archive-wrapper ').append(document.querySelector('.single-wrapper .rec-wrapper'));
+document.querySelector('.single-wrapper .request-insert').before(document.querySelector('.tips-form-wrapper')); 

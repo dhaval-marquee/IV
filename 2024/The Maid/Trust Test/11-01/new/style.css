@@ -1,0 +1,78 @@
+.trustTest_iv .trustbar {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.trustTest_iv .trustbar .container {
+    max-width: 1600px;
+}
+.trustTest_iv .trustbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    list-style: none;
+    gap: 12px;
+}
+.trustTest_iv .trustbar ul li {
+    display: flex;
+    align-items: center;
+}
+.trustTest_iv .trustbar ul li img {
+    width: 66px;
+}
+.trustTest_iv .trustbar ul li p {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--primary);
+    padding-top: 9px;
+    margin-left: 12px;
+}
+@media (max-width: 1570.98px) {
+    .trustTest_iv .trustbar {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+@media (max-width: 1199.98px) {
+    .trustTest_iv .trustbar {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .trustTest_iv .trustbar ul {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 1149.98px) {
+    .trustTest_iv .trustbar ul {
+        flex-wrap: wrap;
+    }
+    .trustTest_iv .trustbar ul li {
+        width: 48%;
+    }
+}
+@media (max-width: 991.98px) {
+    .trustTest_iv .trustbar {
+        padding-top: 10px;
+    }
+}
+@media (max-width: 930.98px) {
+    .trustTest_iv .trustbar {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+}
+@media (max-width: 620.98px) {
+    .trustTest_iv .trustbar ul {
+        gap: 32px;
+    }
+    .trustTest_iv .trustbar ul li {
+        width: 100%;
+    }
+    .trustTest_iv .trustbar {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}

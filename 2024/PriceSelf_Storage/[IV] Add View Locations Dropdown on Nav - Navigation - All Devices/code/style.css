@@ -1,0 +1,15 @@
+.iv-nav .view-locations-dropdown .pss-navbar__submenu-drops .pss-navbar--submenu-links {
+    border: 0;
+}
+
+.iv-nav .view-locations-dropdown .pss-navbar__submenu-drops {
+    border-left: 1px solid #d1d3d4;
+}
+
+.iv-nav a[href="#expandStorageTier9"] {
+    border: 0;
+}
+
+.iv-nav .view-locations-dropdown.pss-navbar__nav-link>a {
+    border: 0;
+}

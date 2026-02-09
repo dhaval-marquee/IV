@@ -1,0 +1,33 @@
+@media(min-width: 768px) { 
+    body .heroHeaderWrapper {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        text-align: center;
+        color: #000000;
+        width: 100%;
+        max-width: 1000px;
+    }
+    body .heroHeaderWrapper h1#headline-7-19 {
+        font-size: 45px;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 16px;
+    }
+    body .heroHeaderWrapper ul {
+        text-align: left;
+        display: inline-block;
+        padding: 0;
+    }
+    
+    body .heroHeaderWrapper ul li {
+        font-size: 25px;
+    }
+    body .heroHeaderWrapper ul li::marker {
+        color: #fedb00;
+    }
+    body .heroHeaderWrapper + div {
+        max-width: 1000px !important;
+    }
+}

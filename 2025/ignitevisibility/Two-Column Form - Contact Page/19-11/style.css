@@ -1,0 +1,81 @@
+@media screen and (min-width: 601px) {
+    .iv-contact #lp-pom-root,
+    .iv-contact #lp-pom-root-color-overlay {
+        height: auto;
+    }
+    .iv-contact #lp-pom-box-38-color-overlay {
+        display: none;
+    }
+    .iv-contact #lp-pom-box-38 {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 770px;
+    }
+    .iv-contact #lp-pom-form-30 {
+        position: inherit !important;
+        padding: 0 !important;
+        height: auto !important;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .iv-contact .lp-pom-form.has-axis form {
+        box-sizing: border-box;
+        box-shadow: 5px 5px 20px #00000029;
+        padding: 30px 20px;
+    }
+    .iv-contact .lp-pom-form.has-axis form .fields {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px 0 !important;
+        margin: 0 auto 15px;
+        max-width: 615px;
+        width: auto !important;
+    }
+    .iv-contact .lp-pom-form.has-axis form .lp-pom-form-field {
+        position: static !important;
+        height: auto !important;
+        width: calc(50% - 10px) !important;
+    }
+    .iv-contact .lp-pom-form.has-axis form .lp-pom-form-field label,
+    .iv-contact .lp-pom-form.has-axis form .lp-pom-form-field input,
+    .iv-contact .lp-pom-form.has-axis form .lp-pom-form-field select,
+    .iv-contact .lp-pom-form.has-axis form .lp-pom-form-field textarea,
+    .iv-contact #lp-pom-text-64,
+    .iv-contact #lp-code-71 {
+        position: static !important;
+        width: 100% !important;
+    }
+    .iv-contact .lp-pom-form.has-axis form .lp-pom-form-field textarea {
+        height: 34px !important;
+        overflow: hidden;
+    }
+    .iv-contact .lp-pom-form input::placeholder,
+    .iv-contact .lp-pom-form textarea::placeholder {
+        font-size: 0;
+    }
+    .iv-contact .lp-pom-form input::-webkit-input-placeholder,
+    .iv-contact .lp-pom-form textarea::-webkit-input-placeholder {
+        font-size: 0;
+    }
+    .iv-contact .lp-pom-form input:-ms-input-placeholder,
+    .iv-contact .lp-pom-form textarea:-ms-input-placeholder {
+        font-size: 0;
+    }
+    .iv-contact .lp-pom-form input::-ms-input-placeholder,
+    .iv-contact .lp-pom-form textarea::-ms-input-placeholder {
+        font-size: 0;
+    }
+    .iv-contact #lp-pom-button-31 {
+        position: relative;
+        left: 50%;
+        top: inherit;
+        transform: translateX(-50%);
+    }
+    .iv-contact #lp-code-71 {
+        margin: 20px 0 10px;
+    }
+    .iv-contact .g-recaptcha > div {
+        margin: 0 auto;
+    }
+}

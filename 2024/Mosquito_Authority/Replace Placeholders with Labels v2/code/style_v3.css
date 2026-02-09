@@ -1,0 +1,78 @@
+body #lp-1 .form-inner label {
+    display: block;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+body #lp-1 form.contact-form fieldset p > input::-moz-placeholder {
+    Opacity: 0;
+}
+body #lp-1 form.contact-form fieldset p > input:-moz-placeholder {
+    Opacity: 0;
+}
+body #lp-1 form.contact-form fieldset p > input::-webkit-input-placeholder {
+    Opacity: 0;
+}
+body #lp-1 form.contact-form fieldset p > input:-ms-input-placeholder {
+    Opacity: 0;
+} 
+
+body #lp-1 .form-inner input.button {
+    color: #FFFFFF !important;
+}
+
+body #lp-1 #div-block-2-1 > p {
+    max-width: 360px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+body #lp-1 form.contact-form .form-error input {
+    border-color: red !important;
+}
+
+body #lp-1 form.contact-form .form-error .errorlist {
+    display: block;
+    line-height: normal;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+body #lp-1 form.contact-form fieldset > p.full-field {
+    max-width: 100%;
+}
+
+/* Variant 2 */
+body #lp-1 form.contact-form fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body #lp-1 form.contact-form fieldset > p {
+    max-width: 48.5%;
+    width: 100% !important;
+}
+
+
+@media (max-width: 479px) {
+    body #lp-1 #div-block-2 #div-block-2-1 .lp-form {
+        padding: 0;
+    }
+}
+
+/* v3 */
+
+#lp-1 #div-block-2 #div-block-2-1 .lp-form {
+    margin: 0 15px !important;
+}
+.sb-formfield--email-address + .sb-formfield--officeid,
+#lp-1 #div-block-2 #div-block-2-1 .sb-formfield--city {
+    display: none;
+}
+@media (max-width: 767.98px) {
+    body #lp-1 form.contact-form fieldset > p {
+        max-width: 100% !important;
+    }
+}

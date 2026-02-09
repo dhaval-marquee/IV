@@ -1,0 +1,429 @@
+
+/* Works Section section */
+.homepage_test .works_section{
+    background-color: #00529C;
+    padding: 25px 0;
+}
+.homepage_test .works_section .section_inner{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.homepage_test .works_section .section_inner h2{
+    color: #fff;
+    margin-bottom: 48px;
+}
+.homepage_test .works_section .works_item_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.homepage_test .works_section .section_inner .works_span{
+    color: #fff;
+    margin-top: 16px;
+}
+.homepage_test .works_section .works_item {
+    width: 100%;
+    max-width: 33.33%;
+    display: inline-grid;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.homepage_test .works_section .works_item img{
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.homepage_test .works_section .elementor-row{
+    align-items: baseline;
+}
+@media (min-width: 768px) {
+    .homepage_test .works_section .section_inner {
+        text-align: center;
+    }
+}
+@media (max-width: 767.98px) {
+    .homepage_test .works_section .works_item {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        padding: 0;
+    }
+    .homepage_test .works_section .works_item img {
+        max-width: 80px;
+    }
+    .homepage_test .works_section .works_item div {
+        flex: 1 0 auto;
+    }
+    .homepage_test .works_section .section_inner .works_span {
+        padding-left: 20px;
+    }
+}
+/* Works Section section over */
+
+
+.homepage_test .top-section+.gray-section,
+.homepage_test.home .customer-logos,
+.homepage_test .how_works + #two-column-sections,
+.homepage_test .how_works + #two-column-sections + #two-column-sections,
+.homepage_test [aria-live="polite"] .slick-track,
+.homepage_test .live-call-section .live-call-box br,
+.homepage_test .slick-dots li button:before{
+    display: none;
+}
+.homepage_test .top-section{
+    padding-bottom:0;
+}
+
+/* How it Works */
+.homepage_test .how_works {
+    /* display: none !important; */
+    padding: 80px 0;
+    background-color: #7f8d9f;
+}
+.homepage_test .how_work_wrapper {
+    display: flex;
+}
+.homepage_test .how_works h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
+.homepage_test .how_work_content {
+    position: relative;
+    text-align: center;
+}
+.homepage_test .how_work_content .number {
+    display: flex;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 700;
+    background-color: #288dbc;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto 20px;
+}
+.homepage_test .how_work_content h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.homepage_test .how_work_content p {
+    color: #fff;
+}
+.homepage_test .how_work_content:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 60%;
+    border-top: 5px dashed #fff;
+    z-index: 9;
+    width: 75%;
+}
+
+/* Logo section */
+.homepage_test .slider_section {
+    opacity: 0;
+}
+.homepage_test .slick-track {
+    display: inherit !important;
+}
+.homepage_test .slider_section ul li div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75px;
+}
+.homepage_test .slider_section ul {
+    margin: 0 auto;
+}
+.homepage_test .slider_section ul.slick-dots li{
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.homepage_test .slider_section ul.slick-dots li button{
+    background: rgb(135 135 135);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.homepage_test .slider_section ul.slick-dots li.slick-active button{
+    background: black;
+}
+.homepage_test .top-section img{
+    padding: 0;
+}
+.homepage_test .slider_section img[alt="ServPro-gs"],
+.homepage_test .slider_section img[alt="Delta gs"],
+.homepage_test .slider_section img[alt="EchoLogo"],
+.homepage_test .slider_section img[alt="HoltCat-gs"],
+.homepage_test .slider_section img[alt="MSinaiLogo-gs"],
+.homepage_test .slider_section img[alt="Humana-gs"],
+.homepage_test .slider_section img[alt="HoltCat-gs"]{
+    width: 120px;
+    max-width: 100%;
+}
+.homepage_test .slider_section img[alt="International-Paper-gs"],
+.homepage_test .slider_section img[alt="MAP COMMUNICATIO"]{
+    width: 250px;
+    max-width: 100%;
+}
+/* Logo section over */
+
+/* integrations section */
+.homepage_test .integrations_section{
+    background-color: #ECEDF0;
+    margin: 0;
+    padding: 50px 0;
+}
+.homepage_test .integrations_inner{
+    max-width: 975px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.homepage_test .integrations_section .integrations_top{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 0 0 auto;
+}
+.homepage_test .integrations_section .integrations_top .integrations_item {
+    max-width: calc(100% - 650px);
+    width: 100%;
+    text-align: right;
+}
+.homepage_test .integrations_h2-wrap {
+    width: 100%;
+    max-width: 650px;
+    display: inline-grid;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.homepage_test .integrations_h2-wrap h2{
+    font-size: 38px;
+    margin-top: 0;
+}
+.homepage_test .integrations_item img {
+    max-width: 144px;
+    width: 100%;
+    margin: 0 0  0 auto;
+}
+.homepage_test .integrations_item p{
+    font-size: 14.4px;
+    line-height: 21.6px;
+}
+.homepage_test .integrations_section .integrations_text{
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    padding: 0 15px;
+}
+.homepage_test .live-call-section .live-call-box{
+    min-height: inherit;
+}
+.homepage_test .live-call-section .live-call-box,
+.homepage_test .live-call-section .live-call-box p{
+    text-align: end !important;
+}
+.homepage_test .live-call-section .live-call-box img{
+    width: 100%;
+    margin: 0 auto;
+}
+.homepage_test .live-call-section .live-call-box img[alt="Calendly"],
+.homepage_test .live-call-section .live-call-box img[alt="Setmore"],
+.homepage_test .live-call-section .live-call-box img[alt="Hubspot"]{
+    max-width: 190px;
+}
+.homepage_test .live-call-section .live-call-box img[alt="Acuity"],
+.homepage_test .live-call-section .live-call-box img[alt="Google Calendar"]{
+    max-width: 245px;
+}
+.homepage_test .live-call-section .live-call-box img[alt="Rocket Matter"],
+.homepage_test .live-call-section .live-call-box img[alt="Salesforce"]{
+    max-width: 220px;
+}
+.homepage_test .live-call-section .live-call-box img[alt="Clio"],
+.homepage_test .live-call-section .live-call-box img[alt="Zoho"]{
+    max-width: 180px;
+}
+
+.two-column-section#two-column-sections+h2{
+    margin-top: 50px;
+    padding: 0 15px;
+}
+.two-column-section#two-column-sections~p{
+    padding-bottom: 50px;
+    padding: 0 15px;
+}
+@media (min-width: 1030px) {
+    .homepage_test .live-call-section .live-call-box br{
+        display: block;
+    }
+    .homepage_test .integrations_section .integrations_top .integrations_item {
+        padding-right: 2em;
+    }
+}
+@media (max-width: 1029.98px) {
+    .homepage_test .how_work_content:not(:last-child)::after{
+        left: 65%;
+        width: 65%;
+    }
+    .homepage_test .integrations_h2-wrap {
+        max-width: 60%;
+    }
+    .homepage_test .integrations_section .integrations_top .integrations_item {
+        max-width: 40%;
+        padding-left: 10px;
+        padding-right: 10px;
+    } 
+    .homepage_test .integrations_inner {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 15px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .homepage_test .live-call-section .live-call-box {
+        border-bottom: inherit;
+        width: 50%;
+        padding: 0px 10px;
+        margin-top: auto;
+    }
+    .homepage_test .integrations_h2-wrap h2{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+}
+@media (min-width: 768px){
+    .homepage_test .integrations_section .integrations_btn {
+        display: none;
+    }
+}
+@media (max-width: 767.98px){
+    .homepage_test .slider_section{
+        padding-bottom: 40px;
+    }
+    .homepage_test .slider_section ul.slick-dots{
+        justify-content: center;
+        bottom: -30px;
+    }
+    .homepage_test .slider_section ul.slick-dots li{
+        max-width: 20px;
+    }
+    .homepage_test .how_work_wrapper{
+        display: block;
+    }
+    .homepage_test .how_work_content{
+        padding: 10px 15px 30px 15px;
+    }
+    .homepage_test .how_work_content:not(:last-child)::after{
+        width: 0px;
+        height: 30px;
+        border-right: 4px dashed #fff;
+        top: auto;
+        bottom: 6px;
+        left: 50%;
+        margin-left: -2px;
+        display: none;
+    }
+    .homepage_test .how_work_content p{
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .homepage_test .integrations_section .integrations_btn{
+        justify-content: center;
+        width: 100%;
+        max-width: 230px;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        line-height: 22px;
+        margin-top: 30px;
+        padding: 16px 12px;
+    }
+    .homepage_test .integrations_section .integrations_btn:not(.active) span:last-child,
+    .homepage_test .integrations_section .integrations_btn.active span:first-child {
+        display: none;
+    }
+    .homepage_test .integrations_h2-wrap,
+    .homepage_test .integrations_section .integrations_top .integrations_item{
+        max-width: 100%;
+    }
+    .homepage_test .integrations_section .integrations_top{
+        display: flex;
+        max-width: 390px;
+        margin: 0 auto;
+    }
+    .homepage_test .live-call-section .live-call-box {
+        width: 100%;
+        max-width: 370px;
+        margin: 15px auto;
+    }
+    .homepage_test .integrations_h2-wrap h2{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .homepage_test .live-call-section .live-call-box.item,
+    .homepage_test .integrations_section .integrations_text.item{
+        display: none;
+    }
+}
+@media screen and (max-width: 574.98px) {
+    .homepage_test .two-column-section h2{
+        font-size: 28px;
+    }
+    .homepage_test .integrations_section .integrations_text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 424.98px) {
+    .homepage_test .integrations_section .integrations_text{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 375.98px) {
+    .homepage_test .integrations_section .integrations_text{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 368.98px){
+    .homepage_test .slick-slide img {
+        width: inherit;
+        margin-left: inherit;
+    }
+    .homepage_test .two-column-section h2{
+        font-size: 24px;
+    }
+    .homepage_test .integrations_section .integrations_text{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 338.98px){
+    .homepage_test .integrations_h2-wrap h2{
+        font-size: 20px;
+    }
+}
+
+
+

@@ -1,0 +1,60 @@
+@media (min-width: 992px) {
+    .verification_test .jumbotron-container .jumbotron a.btn-white,
+    body.verification_test .sub-navigation-container--fixed,
+    body.verification_test .background__color--purple,
+    body.verification_test #phone-validate-demo-container{
+        display: none !important;
+    }
+    .verification_test .jumbotron-container .jumbotron h2{
+        max-width: 590px;
+        letter-spacing: 0.1px;
+    }
+    .verification_test .location_section{
+        background-color: #F4F4F4;
+        padding: 3px 0px 13px;
+    }
+    .verification_test .location_section .container{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .verification_test .location_section ul{
+        display: flex;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .verification_test .location_section ul li{
+        display: flex;
+        align-items: center;
+    }
+    .verification_test .location_section ul li img{
+        width: 100%;
+        max-width: 108px;
+    }
+    .verification_test .location_section ul li p{
+        margin: -13px 0 0 35px;
+        font-size: 17px;
+        letter-spacing: 0.3px;
+    }
+    .verification_test .section_inner{
+        width: 100%;
+        max-width: 880px;
+        margin: 0 auto;
+    }
+    .verification_test .section_inner div p {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin: 0px;
+    }
+    .verification_test .icon_section .panel-item img {
+        width: 100%;
+        max-width: 164px !important;
+        height: 137px !important;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1160.98px) {
+   .verification_test .location_section ul li p {
+    margin: -13px 0 0 0px;
+   }
+}

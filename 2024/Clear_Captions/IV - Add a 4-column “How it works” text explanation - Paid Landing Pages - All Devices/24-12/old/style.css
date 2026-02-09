@@ -1,0 +1,83 @@
+.iv-how-it-work .iv-container{
+    max-width: 1248px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.iv-how-it-work .how-it-work-main{
+    padding: 20px 20px 50px;
+}
+
+.iv-how-it-work .how-it-work-title{
+    font-size: 36px;
+    line-height: 1.11;
+    color: #151f6d;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.iv-how-it-work p.how-it-work-desc {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: #151f6d;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto 40px;
+}
+
+.iv-how-it-work .how-it-work-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.iv-how-it-work .how-it-work-box{
+    width: calc(25% - 10px);
+    text-align: center;
+}
+
+.iv-how-it-work .how-it-work-box img{
+    width: 100%;
+    max-width: 56px;
+}
+
+.iv-how-it-work .how-it-work-box h3{
+    font-size: 24px;
+    margin: 20px 0 15px;
+}
+.iv-how-it-work .how-it-work-box p {
+    margin: 0;
+}
+
+.iv-how-it-work .how-it-work-box p.work-box-text{
+    font-size: 18px;
+    line-height: 24px;
+    color: #151f6d;
+    margin: 0;
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 991px) {
+    .iv-how-it-work .how-it-work-box{
+        width: calc(50% - 10px);
+        margin-bottom: 15px;
+    }
+    .iv-how-it-work .how-it-work-box p.work-box-text{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .iv-how-it-work .how-it-work-box{
+        width: calc(100% - 0px);
+    }
+    .iv-how-it-work .how-it-work-main{
+        padding: 0;
+    }
+}

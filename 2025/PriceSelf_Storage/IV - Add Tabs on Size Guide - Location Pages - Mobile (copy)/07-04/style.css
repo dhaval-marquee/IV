@@ -1,0 +1,81 @@
+.iv-form .pss-tab-content {
+    display: none;
+}
+.iv-form .pss-tab-content.active {
+    display: block;
+}
+.iv-form .pss-tabs .pss-tab.active {
+    background-color: #0a1f8f;
+    color: #fff;
+}
+.iv-form .pss-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.iv-form .pss-tabs .pss-tab {
+    font-family: "HubotSans-M", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 26px;
+    border: 1px solid #0a1f8f;
+    border-radius: 4px;
+    margin: 0 3px;
+    color: #0a1f8f;
+    width: 33.33%;
+}
+.iv-form .pss-tab-content img {
+    width: 100%;
+}
+.iv-form .pss-tab-content .pss-size-guide-mobile-unit-main-container div>span {
+    font-family: "HubotSans-SB", sans-serif;
+    font-size: .875rem;
+    text-transform: uppercase;
+}
+.iv-form .pss-tab-content .pss-size-guide-mobile-unit-main-container .pss-space-between {
+    margin-bottom: 15px;
+}
+.iv-form .pss-tab-content .pss-size-guide-mobile-unit-main-container span {
+    text-align: center;
+    font-size: .875rem;
+}
+.iv-form .pss-size-guide-mobile-unit-main-container {
+    text-align: center;
+    border-bottom: 1px solid #d1d3d4;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.iv-form .pss-tab-content img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.iv-form .pss-size-guide-mobile-unit-main-container:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+.iv-form .pss-unit-list__size-guide-mobile-container {
+    position: relative;
+}
+.iv-form .size-guide-x {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    font-size: 23px;
+    cursor: pointer;
+}
+.iv-form .size-guide-x:hover {
+    text-decoration: none;
+}
+.iv-form .pss-unit-list__size-guide-mobile-container .pss-size-guide-mobile-title {
+    margin-top: 15px;
+}
+.iv-form .pss-tab-content .pss-size-guide-mobile-unit-main-container .pss-space-between > a {
+    display: none;
+}
+@media screen and (max-width: 400.98px) {
+    .iv-form .pss-tabs .pss-tab {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+}

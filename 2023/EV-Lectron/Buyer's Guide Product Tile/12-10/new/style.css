@@ -1,0 +1,46 @@
+li.guideProduct {
+    max-width: 270px;
+    text-align: center;
+    background-color: #F5F5F5;
+    border: 1px solid rgba(128,128,128,.16);
+    box-shadow: 0 1px 4px #8080801c;
+}
+li.guideProduct a {
+    text-decoration: none;
+}
+
+li.guideProduct a .item {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1697023642/EV_Lectron/Buyers_Guide_Product_Tile/BuyerGuideProductTitle-01.png');
+    width: 100%;
+    height: 477px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+li.guideProduct a .itemText{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 16px;
+}
+li.guideProduct a .itemText h2 {
+    background-color: rgba(0, 0, 0, 0.28);
+    font-size: 22px;
+    text-align: start;
+    padding: 10px 16px;
+}
+li.guideProduct a .itemText button {
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 600;
+    background: #5cc9c3;
+    width: 100%;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+}
+li.guideProduct a .itemText button:hover {
+    opacity: 0.9;
+}

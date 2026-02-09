@@ -1,0 +1,69 @@
+@media (max-width: 767.98px) {
+    body {
+        visibility: hidden;
+    }
+    .test_iv .elementor-inner .elementor-section-wrap section .elementor-container {
+        min-height: inherit !important;
+    }
+    .test_iv form.woocommerce-checkout #customer_details .col-1 p.form-row label,
+    .test_iv #billing_address_2_field,
+    .test_iv tr.cart-subtotal,
+    .test_iv .woocommerce-info:before {
+        display: none !important;
+    }
+    .test_iv .woocommerce-info {
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .test_iv .woocommerce-form-login-toggle .showlogin,
+    .test_iv #show_add_2 {
+        color: blue;
+    }
+    .test_iv form.woocommerce-checkout #customer_details .col-1 p.form-row label[for="billing_country"] {
+        display: block !important;
+    }
+    .test_iv .woocommerce form .woocommerce-billing-fields__field-wrapper p {
+        margin-bottom: 20px;
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .test_iv #account_password_field {
+        margin-bottom: 30px;
+    }
+    .test_iv .coupon_wrapper .woocommerce-info {
+        font-size: 0;
+        border: none;
+        background-color: transparent;
+    }
+    .test_iv .coupon_wrapper .woocommerce-info .showcoupon {
+        font-size: 16px;
+        color: blue !important;
+        text-decoration: underline;
+    }
+    .test_iv .coupon_wrapper .woocommerce-info .showcoupon:before {
+        content: 'Have a Coupon? ';
+    }
+    .test_iv #payment .place-order {
+        display: flex;
+        flex-direction: column;
+    }
+    .test_iv #payment .place-order .constant-contact-app-optin {
+        order: 5;
+    }
+    .test_iv #payment .place-order .rxspark-app-optin {
+        order: 6;
+    }
+}
+
+
+@media (max-width: 359.98px) {
+    .test_iv .woocommerce-info,
+    .test_iv .woocommerce-info a {
+        font-size: 14px;
+    }
+    .test_iv .woocommerce-info {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

@@ -1,0 +1,166 @@
+@media (max-width: 767.98px) {
+    body {
+        visibility: hidden;
+    }
+    img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+
+    /* Add your test CSS here */
+    .section_1 .elementor-column:first-of-type,
+    .section_1 .elementor-column:last-of-type .price,
+    .section_1 .elementor-column:last-of-type .elementor-widget-text-editor {
+        display: none;
+    }
+    .section_1 {
+        padding-top: 20px !important;
+    }
+    .section_1 .elementor-widget-wrap {
+        overflow: hidden;
+        padding: 0 !important;
+    }
+    .section_1 .elementor-page-title {
+        margin: 0 auto 20px;
+    }
+    .section_1 .elementor-heading-title {
+        max-width: 500px;
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .pre_caution {
+        position: relative;
+        list-style: none;
+        width: 100%;
+        background-color: #fff;
+        padding: 0 30px;
+    }
+    .pre_caution:before,
+    .pre_caution:after,
+    .price_wrapper:before,
+    .price_wrapper:after {
+        content: '';
+        width: 100px;
+        height: 100%;
+        position: absolute;
+        right: 100%;
+        top: 0;
+        background-color: #fff;
+    }
+    .pre_caution:after,
+    .price_wrapper:after {
+        right: inherit;
+        left: 100%;
+    }
+    .pre_caution li {
+        display: flex;
+        align-items: center;
+        max-width: 370px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .pre_caution img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    .pre_caution li p {
+        margin-bottom: 0;
+    }
+    .price_wrapper {
+        margin: 0 !important;
+    }
+    .price_wrapper .pl-cart-buttons {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 10px 30px 30px;
+    }
+    .price_wrapper .pl-cart-buttons .pl-add-to-cart {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: inherit;
+        max-width: 365px;
+        width: 100%;
+        height: auto;
+        padding: 15px !important;
+        margin: 0 auto;
+    }
+    .price_wrapper .pl-cart-buttons .pl-add-to-cart.disabled {
+        border: 1px solid #d0d0d0 !important;
+        box-shadow: 0px 0px 10px #d0d0d0;
+    }
+    .price_wrapper .pl-cart-buttons .pl-add-to-cart.quest .provider:after {
+        content: ' DIAGNOSTIC';
+    }
+    .price_wrapper .pl-cart-buttons .pl-add-to-cart .cart-price {
+        position: relative;
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+    .price_wrapper .pl-cart-buttons .pl-add-to-cart .cart-price:before {
+        content: '';
+        width: 1px;
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .price_wrapper .pl-cart-buttons .pl-add-to-cart.disabled .cart-price:before {
+        background-color: #d0d0d0;
+    }
+    .price_wrapper .pl-cart-buttons .pl-add-to-cart .provider {
+        border: none !important;
+        padding-left: 0 !important;
+    }
+    .section_2 .tabs {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .section_2 ul.tabs.wc-tabs,
+    .section_2 .work_section_inner {
+        max-width: 380px;
+        width: 100%;
+        margin: 0 auto !important;
+    }
+    .section_2 .work_section_inner .step_wrap .step_wrap_inner{
+        display: flex;
+        align-items: center;
+    }
+    .section_2 .work_section_inner .step_wrap .step_wrap_inner .image{
+        width: 100%;
+        max-width: 70px;
+    }
+    .section_2 .work_section_inner .step_wrap .desc{
+        margin-left: 20px ;
+    }
+    .section_2 .work_section_inner .step_wrap .desc .headline{
+        font-size: 16px;
+        color: #767676;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .section_2 .work_section_inner .step_wrap .desc .sub_Head{
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: 700;
+        color: #006980;
+        margin-bottom: 5px;
+    }
+    .section_2 .work_section_inner .step_wrap .desc p {
+        font-family: 'Montserrat';
+        color: #000;
+    }
+    .section_2 .work_section_inner .step_wrap .desc p a {
+        font-weight: 700;
+        color: #0583BA;
+    }
+}
+
+@media (max-width: 359.98px) {
+    .price_wrapper .pl-cart-buttons .pl-add-to-cart {
+        font-size: 14px;
+    }
+}

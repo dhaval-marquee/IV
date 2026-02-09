@@ -1,0 +1,272 @@
+.checkout_test .tableContainer.privacydiv1+span,
+.checkout_test .tableContainer.privacydiv1+span+.cl_line10t,
+.checkout_test #checkoutGeneralForm .bAddress2_wrapper+.cl_line10t,
+.checkout_test #checkoutGeneralForm .sAddress2_wrapper+.cl_line10t,
+.checkout_test .residentialFlagB + .cl_line10t,
+.checkout_test .ncrt_acc_bil [for="bFirstName"],
+.checkout_test .ncrt_acc_bil [for="bLastName"],
+.checkout_test .ncrt_acc_bil [for="bPhone"],
+.checkout_test .ncrt_acc_bil [for="bPhoneExt"],
+.checkout_test .ncrt_acc_bil [for="email"],
+.checkout_test .ncrt_acc_bil [for="bCompany"],
+.checkout_test .ncrt_acc_bil [for="bAddress1"],
+.checkout_test .ncrt_acc_bil [for="bCity"],
+.checkout_test .ncrt_acc_bil [for="bState"],
+.checkout_test .ncrt_acc_bil [for="bZip"],
+.checkout_test .ncrt_acc_bil label[for="bCountry"],
+.checkout_test .ncrt_acc_shi [for="sFirstName"],
+.checkout_test .ncrt_acc_shi [for="sLastName"],
+.checkout_test .ncrt_acc_shi [for="sPhone"],
+.checkout_test .ncrt_acc_shi [for="sPhoneExt"],
+.checkout_test .ncrt_acc_shi [for="semail"],
+.checkout_test .ncrt_acc_shi [for="sCompany"],
+.checkout_test .ncrt_acc_shi [for="sAddress1"],
+.checkout_test .ncrt_acc_shi [for="sCity"],
+.checkout_test .ncrt_acc_shi [for="sState"],
+.checkout_test .ncrt_acc_shi [for="sZip"],
+.checkout_test .ncrt_acc_shi [for="sCountry"],
+.checkout_test .ncrt_acc_shi [for="altPhone"],
+.checkout_test .ncrt_acc_shi [for="altPhoneExt"],
+.checkout_test .form_stacked .ncrt_cm_s_field_block_50#b_INT1 .ncrt_cm_fieldlabel,
+.checkout_test .form_stacked .ncrt_cm_s_field_block_50#s_INT1 .ncrt_cm_fieldlabel,
+.checkout_test .ncrt_cm_radiolabel+.cl_line10t,
+.checkout_test .right_part .ncrt_shi_item .cl_line10t,
+.checkout_test .right_part .ncrt_shi_item .ncrt_cm_s_field_block_33_last .ncrt_cm_desc_n,
+.checkout_test .right_part .ncrt_shi_item .ncrt_cm_desc_it,
+.checkout_test .ot_bkg .ncrt_c_head_sm+.cl_line,
+.checkout_test #b_US1,
+.checkout_test .plus+.bCity+#billingCityMatch+#b_US1+#b_CA1+#b_INT1,
+.cl+.cl+.ncrt_cm_sectcont20,
+#intDutiesBox .ncrt_cm_sectcont20:last-child{
+    display: none !important;
+}
+.checkout_test .minus+.bCity+#billingCityMatch+#b_US1+#b_CA1+#b_INT1{
+    display: block !important;
+}
+
+.checkout_test .ncrt_acc_bil #sFirstName,
+.checkout_test .ncrt_acc_bil #bFirstName,
+.checkout_test .ncrt_acc_bil #newEmailAddy,
+.checkout_test .ncrt_acc_bil #bAddress1,
+.checkout_test .ncrt_acc_bil #sAddress1,
+.checkout_test .ncrt_acc_bil #bLastName,
+.checkout_test .form_stacked .ncrt_cm_s_field_block_20 [for="bPhone"] +input,
+.checkout_test .form_stacked .ncrt_cm_s_field_block_20 [for="bPhoneExt"] +input,
+.checkout_test .form_stacked .ncrt_cm_s_field_block_20 #bPhoneExt,
+.checkout_test .form_stacked [class*="ncrt_cm_s_field_block_"].email_wrapper,
+.checkout_test .form_stacked [class*="ncrt_cm_s_field_block_"].email_wrapper #email,
+.checkout_test .form_stacked [class*="ncrt_cm_s_field_block_"] #bCompany,
+.checkout_test #checkoutGeneralForm .bCompany_wrapper,
+.checkout_test #checkoutGeneralForm .bAddress1_wrapper,
+.checkout_test #checkoutGeneralForm .bAddress2_wrapper,
+.checkout_test .form_stacked input,
+.checkout_test .form_stacked select,
+.checkout_test .form_stacked #bZip,
+.checkout_test .form_stacked input#bAddress2,
+.checkout_test #checkoutGeneralForm .bCountry,
+.checkout_test .right_part .ncrt_cm_s_field_block_40,
+.checkout_test .main_part .right_part .ncrt_cm_wrap .ncrt_cm_s_field_block_66,
+.checkout_test .main_part .left_part #checkoutBraintreePaymentForm .ncrt_cm_s_field_block_66,
+.checkout_test .main_part .left_part #owc-chk-payment-cc-main .ncrt_cm_s_field_block_50:first-child,
+.checkout_test .main_part .left_part #owc-chk-payment-cc-main .cl+.ncrt_cm_s_field_block_50,
+.checkout_test .main_part .left_part #owc-chk-payment-cc-main .ncrt_cm_s_field_block_40{
+    width: 100%;
+}
+
+.checkout_test .checkoutGeneralForm_inner,
+.checkout_test .checkoutGeneralForm_inner1,
+.checkout_test .checkoutGeneralForm_inner2,
+.checkout_test .form_stacked .ncrt_cm_s_field_block_20 input,
+.checkout_test .residentialFlagB,
+.checkout_test .ncrt_cm_radiolabel{
+    display: flex;
+    width: 100% !important;
+}
+
+.checkout_test .form_stacked [class*="ncrt_cm_s_field_block_"]{
+    width: inherit;
+}
+
+.checkout_test .bPhone_wrapper+.ncrt_cm_s_field_block_20{
+    margin: 15px 0px 0px 0px;
+}
+.checkout_test .ncrt_agree+.ncrt_cm_sectcont20{
+    text-align: center;
+}
+.checkout_test #checkoutGeneralForm .ncrt_acc_bil,
+.checkout_test #checkoutGeneralForm .ncrt_acc_shi{
+    margin: 30px 30px;
+}
+
+.checkout_test .payment_Type{
+    width: 100%;
+    display: inline-block;
+    max-width: 300px;
+    -moz-box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    -webkit-box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.checkout_test .form_stacked #bCompany,
+.checkout_test .form_stacked #bZip,
+.checkout_test .form_stacked #sCompany,
+.checkout_test .form_stacked #sZip{
+    margin-bottom: 0;
+}
+.checkout_test .commercial_Address,
+.checkout_test .apt_Suite{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.checkout_test .ext{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.checkout_test #checkoutGeneralForm .bCountry{
+    margin-bottom: 24px;
+}
+.checkout_test .ncrt_cm_radiolabel{
+    margin-top: 24px;
+    display: inline-flex;
+}
+.checkout_test #checkoutGeneralForm .sfirstName_wrapper,
+.checkout_test #checkoutGeneralForm .sLastName,
+.checkout_test #checkoutGeneralForm .sPhone_wrapper,
+.checkout_test #checkoutGeneralForm .sPhoneExt,
+.checkout_test #checkoutGeneralForm .altPhone,
+.checkout_test #checkoutGeneralForm .altPhoneExt{
+    width: 48%;
+}
+.checkout_test .form_stacked .sCompany_wrapper,
+.checkout_test .form_stacked .sAddress1_wrapper,
+.checkout_test .form_stacked .sAddress2_wrapper,
+.checkout_test .form_stacked .sCountry,
+.checkout_test .sAddress2_wrapper+.cl_line10t+.ncrt_cm_s_field_block_50{
+    width: 98%;
+}
+.checkout_test .form_stacked .bCity,
+.checkout_test .form_stacked #b_US1,
+.checkout_test .form_stacked #b_INT1+.ncrt_cm_s_field_block_20,
+.checkout_test .cl+.ncrt_cm_s_field_block_33,
+.checkout_test .form_stacked #s_US1,
+.checkout_test .form_stacked .ncrt_cm_s_field_block_50#b_INT1,
+.checkout_test .form_stacked .ncrt_cm_s_field_block_50#s_INT1{
+    width: 32%;
+}
+.checkout_test .form_stacked #s_US1 #sState{
+    padding-top: 0;
+}
+.checkout_test .form_stacked #b_INT1+.ncrt_cm_s_field_block_20,
+.checkout_test .form_stacked #s_INT1+.ncrt_cm_s_field_block_20{
+    margin: 15px 0 0 0;
+}
+.checkout_test .form_stacked #s_INT1+.ncrt_cm_s_field_block_20{
+    width: 29.5%;
+}
+.checkout_test .form_stacked .bPhone_wrapper+.ncrt_cm_s_field_block_20{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.checkout_test .form_stacked .bPhone_wrapper+.ncrt_cm_s_field_block_20 a{
+    margin-left: 20px;
+    margin-right: 8px;
+}
+.checkout_test .form_stacked .listJoinOWCBlast{
+    display: flex;
+    align-items: baseline;
+}
+.checkout_test .ncrt_cm_wrap .ncrt_acc_wrap .ncrt_cm_sectcont20{
+    text-align: center;
+}
+.checkout_test .ncrt_cm_radiolabel #residentialFlagB,
+.checkout_test .ncrt_cm_radiolabel #residentialFlag,
+.checkout_test .form_stacked .listJoinOWCBlast #listJoinOWCBlast{
+    width: 2%;
+    margin-left: 0;
+}
+
+.checkout_test .plus{
+    position: relative;
+    display: inline-block;
+    margin-left: 24px;
+  }
+  
+.checkout_test .plus:before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: currentColor;
+    left: -24px;
+    top: 10px;
+}
+.checkout_test .plus:after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: currentColor;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    left: -24px;
+    top: 10px;      
+  }
+.checkout_test .minus{
+      margin-left: 24px;
+  }
+.checkout_test .minus::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: currentColor;
+    margin-top: 10px;
+    margin-left: -24px;
+}
+
+.checkout_test .main_part{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.checkout_test .main_part .left_part{
+    width: 62%;
+}
+.checkout_test .main_part .left_part .ncrt_cm_wrap{
+    margin: 0px 10px 0 25px;
+}
+.checkout_test .main_part .right_part{
+    width: 35%;
+    border: 1px solid black;
+}
+.checkout_test .right_part .ncrt_shi_item{
+    display: inline-grid;
+}
+.checkout_test .main_part .right_part .ncrt_cm_wrap {
+    margin: 0 20px;
+}
+.checkout_test .main_part .right_part .ncrt_cm_wrap .ncrt_shi_total,
+.checkout_test .main_part .left_part .ncrt_cm_wrap .ncrt_shi_total{
+    margin-top: 0;
+}
+.checkout_test .main_part .right_part .ncrt_cm_wrap+.ncrt_cm_s_field_block_33_last{
+    width: 100%;
+    max-width: 324px;
+    margin: 0 11px;
+}
+.checkout_test .main_part .left_part #owc-chk-payment-cc-main .ncrt_cm_s_field_block_25{
+    width: 49%;
+}
+.checkout_test .main_part .left_part #owc-chk-payment-cc-main .ncrt_cm_s_field_block_50 #ccNumber{
+    width: 92%;
+}
+.checkout_test .main_part .left_part #owc-chk-payment-cc-main .ncrt_cm_s_field_block_25+.ncrt_cm_s_field_block_25{
+    margin-right: 0;
+}
+/* .checkout_test .main_part .left_part .ncrt_cm_wrap+.cl_line.button{
+    margin-top: 30px;
+} */

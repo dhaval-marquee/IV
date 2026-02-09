@@ -1,0 +1,39 @@
+.iv-booking-page header.entry-header {
+    width: 100% !important;
+    text-align: center;
+}
+
+.iv-booking-page .subpage-img{
+    padding: 170px 0 70px;
+}
+
+.iv-booking-page .footer-closing-newsletter, 
+.iv-booking-page .apexchat_bar_invitation_wrapper_custom{
+    display: none !important;
+}   
+.iv-booking-page header.entry-header .subtext p{
+    margin-bottom: 13px;
+}
+
+
+@media (max-width: 991px) {
+    .iv-booking-page header.entry-header h1{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .iv-booking-page header.entry-header h1{
+        width: 100%;
+        margin: 0 auto 15px !important;
+    }
+    .iv-booking-page .subpage-img{
+        padding: 110px 0 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .iv-booking-page header.entry-header h1{
+        max-width: 280px;
+    }
+}

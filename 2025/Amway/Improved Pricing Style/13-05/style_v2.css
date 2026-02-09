@@ -1,0 +1,23 @@
+.iv-pricing .amw-plp-item__add-to-cart-wrapper {
+    padding-top: 0.65em;
+}
+.iv-pricing .amw-plp-item [test-id=add-to-cart-button] {
+    background-color: #38539a;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+.iv-pricing .amw-plp-item [test-id=add-to-cart-button]:hover {
+    background-color: #7287bb;
+}
+.iv-pricing .amw-plp-item [test-id=add-to-cart-button]::after {
+    content: '- ' attr(data-price);
+}
+.iv-pricing .amw-plp-item [test-id=add-to-cart-button] > .sr-only {
+    display: none;
+}
+@media (min-width: 769px) {
+    .iv-pricing .amw-plp-item__stock-availability > div:last-child {
+        padding-bottom: 0;
+    }
+}

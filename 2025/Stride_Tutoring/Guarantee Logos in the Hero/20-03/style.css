@@ -1,0 +1,32 @@
+.guaranteeLogo .logoWrapper {
+    display: flex;
+    align-items: center;
+}
+.guaranteeLogo .logoWrapper a {
+    cursor: inherit;
+    margin-right: 6px;
+}
+.guaranteeLogo .logoWrapper a + a{
+    margin-right: 12px;
+    margin-left: 6px;
+}
+.guaranteeLogo .logoWrapper a img {
+    width: 100% !important;
+    max-width: 216px;
+    box-shadow: inherit;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+.guaranteeLogo .logoWrapper a img:hover {
+    transform: inherit !important;
+}
+@media(max-width: 767.98px) {
+    .first-section .nectar-cta {
+        text-align: center;
+    }
+    .guaranteeLogo .logoWrapper {
+        justify-content: center;
+    }
+    .guaranteeLogo .logoWrapper a {
+        margin-left: 12px;
+    }
+}

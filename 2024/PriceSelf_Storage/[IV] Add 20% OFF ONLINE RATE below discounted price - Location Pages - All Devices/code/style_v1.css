@@ -1,0 +1,91 @@
+.pss-unit-list__item__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    min-height: 95px;
+}
+
+.pss-unit-list--promo {
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row-reverse wrap;
+    gap: 15px;
+}
+
+.pss-unit-list__item-col .price-header,
+.pss-unit-list__item-col .price-compare-strike {
+    font-size: 21px;
+}
+
+.pss-unit-list__item-col .price-header sup,
+.pss-unit-list__item-col .price-compare-strike sup {
+    top: inherit;
+}
+
+.pss-unit-list--promo .price-promo .price-text:before {
+    content: '20% OFF';
+    display: block;
+    line-height: normal;
+}
+
+@media (min-width: 1200px) {
+    .pss-unit-list__item-col.pss-locations:nth-child(2) {
+        padding: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pss-unit-list__item-col {
+        padding-top: 22px;
+        padding-bottom: 13px;
+    }
+
+    .pss-unit-list__item-col .price-compare {
+        display: none;
+    }
+
+    .pss-unit-list__item-col .price-promo {
+        flex-direction: column;
+    }
+
+    .pss-unit-list__item-col .price-header,
+    .pss-unit-list__item-col .price-compare-strike {
+        text-align: center;
+        padding: 0;
+    }
+
+    .pss-unit-list__item-col .price-header {
+        font-size: 18px;
+        order: 1;
+    }
+
+    .pss-unit-list__item-col .price-compare-strike {
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    .pss-unit-list__item-col .price-promo:before,
+    .pss-unit-list__item-col .price-header:before {
+        text-decoration: none;
+        display: block;
+        line-height: 10px;
+        text-transform: uppercase;
+    }
+    
+    .pss-unit-list__item-col .price-promo:before {
+        content: 'In Store';
+        font-size: 12px;
+        font-weight: normal;
+        color: rgba(49, 49, 49, .5);
+        font-weight: 900;
+    }
+    
+    .pss-unit-list__item-col .price-header:before {
+        content: '20% OFF Online Rate';
+        font-size: 14px;
+        max-width: 100px;
+        display: block;
+        line-height: normal;
+    }
+}

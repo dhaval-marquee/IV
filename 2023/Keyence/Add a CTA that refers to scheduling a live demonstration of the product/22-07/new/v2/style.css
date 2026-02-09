@@ -1,0 +1,28 @@
+/* a.secondary-btn-iv {
+    max-width: 196px;
+    width: 100%;
+    color: #e3e3e3;
+    text-decoration: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 1.6rem;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a.secondary-btn-iv:hover {
+    background-color: #ffffff0f;
+} */
+.prd-seriesOverviewJumbotron-buttonList > li p {
+    padding-right: 8px;
+    margin: 0;
+}
+p + a.need-link-iv { 
+    color: #a81c24;
+}
+/* @media (max-width: 969px) {
+    a.secondary-btn-iv {
+        max-width: 100%;
+    }
+} */

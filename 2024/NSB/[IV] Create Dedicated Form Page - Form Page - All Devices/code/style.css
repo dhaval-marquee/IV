@@ -1,0 +1,80 @@
+/* common for all */
+header.top-main #upper section #options #requestinfo.requestInfoPageBtn + a#requestinfo,
+#speakerprofile #speakerbio a.requestInfoPageBtn.speakerBtn + button#addspeaker,
+#homepage #subhero .left .cta .requestInfoPageBtn + button.button {
+    display: none;
+}
+
+header.top-main #upper section #options #requestinfo.requestInfoPageBtn {
+    width: 135px;
+    border-radius: 10px !important;
+    overflow: hidden;
+    padding-right: 0 !important;
+}
+
+/* for the speaker profile page, you can use the following CSS: */
+#speakerprofile #speakerbio a.requestInfoPageBtn.speakerBtn {
+    color: white;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    width: 170px;
+    background-color: #df1a22;
+    display: block;
+    padding: 10px;
+    border-radius: 19px;
+    border: 1px solid #df1a22;
+    margin: 0 auto 5px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#speakerprofile #speakerbio a.requestInfoPageBtn.speakerBtn:hover {
+    text-decoration: none;
+    border: 1px solid #ccc;
+}
+
+/* For the homepage button, you can use the following CSS: */
+#homepage #subhero .left .cta .requestInfoPageBtn {
+    background-color: #df1a22;
+    color: #fff;
+    border: 0;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 22.5px;
+    padding: 1em;
+    text-transform: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-family: arial;
+}
+
+#homepage #subhero .left .cta .requestInfoPageBtn:hover {
+    background-color: #999;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    header.top-main #upper section #options #requestinfo.requestInfoPageBtn {
+        padding: 4px 0 4px 40px;
+        background-size: 410px;
+        border-radius: 105px;
+        height: 26px;
+    }
+
+    #speakerprofile #speakerbio a.requestInfoPageBtn.speakerBtn {
+        width: 270px;
+        margin-top: 90px;
+        margin-bottom: 15px;
+    }
+}

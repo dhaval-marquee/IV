@@ -1,0 +1,149 @@
+@media (max-width: 767.98px) {
+    body .main-product__image-gallery {
+        padding: 0 20px;
+    }
+
+    body .main-product__heading span {
+        margin-right: 5px;
+    }
+
+    body .trustpilot-widget:not(#trustbox) {
+        display: inline-block;
+        margin: 0 0 0 5px;
+        max-width: 190px;
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+
+    body .main-product__prices {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    body .main-product__original-price {
+        color: #A4A4A4;
+        font-size: 25px;
+        display: inline-block;
+    }
+
+    body .main-product__original-price:before,
+    body .main-product__price-net:before {
+        content: 'Regular Price:';
+        color: #000;
+        font-size: 16px;
+        display: inline-block;
+        margin-right: 10px;
+        position: relative;
+        top: -4px;
+    }
+
+    body .main-product__price-net {
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    body .main-product__price-net:before {
+        content: 'Sale Price:';
+        font-weight: normal;
+        margin-right: 0;
+    }
+
+    body .main-product__price-net span {
+        font-size: 20px;
+        font-weight: normal;
+        color: #70b32f;
+    }
+
+    body .main-product__sale-prices,
+    body .main-product__html,
+    body .return_policies + .main-product__product-description {
+        display: none;
+    }
+
+    body .main-product__html>div {
+        color: #000 !important;
+        font-weight: normal !important;
+    }
+
+    body .main-product__html>div svg path {
+        fill: #1B9D2C;
+    }
+
+    body .main-product__variants {
+        border: 1px solid #000;
+        padding: 15px 15px 0;
+    }
+
+    body .main-product__options-heading {
+        font-size: 14px;
+        color: #000;
+        text-transform: inherit;
+    }
+
+    body .main-product__options-heading:before {
+        content: 'Select';
+    }
+
+    body .main-product__variants ul {
+        padding-left: 5px;
+        list-style-type: none;
+    }
+
+    body .main-product__variants ul li {
+        position: relative;
+        padding-left: 15px;
+    }
+
+    body .main-product__variants ul li:before {
+        content: '-';
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    body .main-product__quantity {
+        display: none;
+    }
+
+    body .qty_button_wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    body .qty_button_wrapper .quantity {
+        height: 44px;
+        margin-right: 20px;
+    }
+
+    body button.main-product__button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    body img[src*="iAdaptPrdouctPerfromance-Edit.jpg"],
+    body .main-product__richtext {
+        display: none;
+    }
+    body .return_policies {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    body .return_policies li {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        min-height: 40px;
+        margin-bottom: 10px;
+    }
+    body .return_policies li .img_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        margin-right: 10px;
+    }
+    
+}

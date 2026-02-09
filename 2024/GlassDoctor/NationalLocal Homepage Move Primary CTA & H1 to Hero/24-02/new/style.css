@@ -1,0 +1,93 @@
+.homepage_iv #block-bean-homepage-image .field {
+    position: relative;
+}
+.homepage_iv #block-bean-homepage-image .banner-text,
+.homepage_iv .banner-text {
+    position: absolute;
+    width: 100%;
+    max-width: 50%;
+    top: 50%;
+    left: 0;
+    background: rgba(255,255,255,.85);
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    padding: 80px 50px 80px 80px;
+}
+.homepage_iv .banner-text h1 {
+    margin-top: 0;
+}
+.homepage_iv #block-bean-homepage-image .field .img-responsive {
+    width: 100%;
+}
+@media (max-width:1440.98px) {
+    .homepage_iv #block-bean-homepage-image .banner-text {
+        max-width: 55%;
+        padding: 80px 40px 80px 70px;
+    }
+}
+@media (max-width: 1199.98px) {
+    .homepage_iv #block-bean-homepage-image .banner-text {
+        max-width: 80%;
+        padding: 80px 40px 80px 70px;
+    }
+}
+@media (max-width: 987.98px) {
+    .homepage_iv #block-bean-homepage-image .banner-text {
+        max-width: 80%;
+        padding: 30px 20px 30px 70px;
+    }
+}
+@media (min-width: 767.98px) {
+    .homepage_iv #top-bar {
+        display: none;
+    }
+}
+@media (max-width: 767.98px) {
+    .homepage_iv #top-bar p,
+    .homepage_iv #top-bar .form {
+        display: none;
+    }
+}
+@media (max-width: 767.98px) {
+    .homepage_iv #block-bean-homepage-location-appointment-ce h2 {
+        display: none;
+    }
+    .homepage_iv .banner-text {
+        padding: 20px 20px 20px 20px;
+        margin-top: 40px;
+        max-width: 75%;
+    }
+    .homepage_iv .banner-text h1 {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+    .homepage_iv #top-bar .region-top-bar {
+        padding-top: 124px;
+    }
+}
+@media (max-width: 599.98px) {
+    .homepage_iv .banner-text h1 {
+        font-size: 24px;
+    }
+    .homepage_iv .banner-text {
+        max-width: 90%;
+    }
+    .homepage_iv #block-bean-homepage-location-appointment-ce img {
+        min-height: 250px;
+    }
+}
+@media (max-width: 480.98px) {
+    .homepage_iv #top-bar .region-top-bar {
+        padding-top: 118px;
+    }
+}
+@media (max-width: 370.98px) {
+    .homepage_iv #top-bar .region-top-bar {
+        padding-top: 112px;
+    }
+}
+@media (max-width: 359.98px) {
+    .homepage_iv .banner-text h1 {
+        font-size: 22px;
+    }
+}

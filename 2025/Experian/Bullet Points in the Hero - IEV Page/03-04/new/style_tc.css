@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+    body form.exp-form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    body form.exp-form > .form-group.floatl {
+        max-width: 48.5%;
+        width: 100%;
+    }
+    body form.exp-form > .form-group.floatl.text-area {
+        display: block !important;
+        max-width: 100%;
+    }
+    body form.exp-form .form-group button {
+        width: 100%;
+        max-width: 240px;
+    }
+}

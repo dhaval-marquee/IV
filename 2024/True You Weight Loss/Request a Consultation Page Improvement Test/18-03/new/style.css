@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+    .consultation_iv #_map-288-22,
+    .consultation_iv #section-264-22,
+    .consultation_iv #section-69-89,
+    .consultation_iv #section-187-89 {
+        display: none;
+    }
+    .consultation_iv #new_columns-380-89 .ct-div-block {
+        width: 33.33%;
+    }
+    .consultation_iv #div_block-391-89 ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .consultation_iv #div_block-391-89 ul > li a{
+        color: #fff;
+    }
+    .consultation_iv #div_block-391-89 ul > li a:hover{
+        color: rgba(255, 255, 255, 0.5);
+    }
+}

@@ -1,0 +1,22 @@
+div#quoteModal .header-right .overlay-icon-image {
+    display: none;
+}
+div#quoteModal .header-left {
+    width: 100%;
+    text-align: center;
+}
+div#quoteModal form input::-moz-placeholder {
+    opacity: 0;
+}
+
+div#quoteModal form input:-moz-placeholder {
+    opacity: 0;
+}
+
+div#quoteModal form input::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+div#quoteModal form input:-ms-input-placeholder {
+    opacity: 0;
+}

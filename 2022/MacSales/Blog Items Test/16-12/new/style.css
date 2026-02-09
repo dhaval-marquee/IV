@@ -1,0 +1,39 @@
+.blogItems_test #newsmax_ruby_sb_widget_post-4{
+  display: none;
+}
+.blogItems_test .products_Mentioned h2{
+  margin-bottom: 30px;
+}
+.blogItems_test .products_Mentioned ul li{
+   display: flex;
+   align-items: center;
+   width: 100%;
+   margin-bottom: 30px;
+}
+.blogItems_test .products_Mentioned h3{
+    margin-bottom: 10px;
+}
+.blogItems_test .products_Mentioned ul li .left_part{
+    width: 30%;
+    margin-right: 4px;
+}
+.blogItems_test .products_Mentioned ul li .left_part img{
+    width: 100%;
+    max-width: 85px;
+}
+.blogItems_test .products_Mentioned ul li .right_part{
+  width: 70%;
+  margin-left: 20px; 
+}
+.blogItems_test .products_Mentioned ul li .right_part a{
+  display: inline-block;
+  max-width: 130px;
+  background-color: #0177AA;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+.blogItems_test .products_Mentioned ul li .right_part a:hover{
+  background-color: #005ba4;
+}

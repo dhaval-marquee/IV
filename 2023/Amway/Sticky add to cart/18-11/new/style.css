@@ -1,0 +1,21 @@
+.amPerksPageTest .amw-sticky-add-to-cart__wrapper {
+    flex-wrap: wrap;
+    padding: 16px;
+}
+.amPerksPageTest .stickyText h1.amw-page-pdp__product-title {
+    font-size: 28px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.amPerksPageTest .stickyText .amperkpoints {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.amw-sticky-add-to-cart__info .amw-sticky-add-to-cart__actions  #addToCartForm button {
+    background-color: #38539a;
+    color: #fff;
+}
+.amw-sticky-add-to-cart__info .amw-sticky-add-to-cart__actions  #addToCartForm button:hover {
+    background-color: #2c2c2c;
+}

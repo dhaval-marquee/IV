@@ -1,0 +1,8 @@
+.home_iv .fitness-btn{
+	color: rgba(254, 80, 0, 1);
+	margin-left: 5px;
+}
+
+.home_iv .fitness-btn:hover{
+	color: rgba(255, 255, 255, 1);
+}

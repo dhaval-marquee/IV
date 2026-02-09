@@ -1,0 +1,93 @@
+.iv-hero-section header .content .button {
+    display: none !important;
+}
+
+.iv-hero-section header.page-banner .thumbnail {
+    aspect-ratio: inherit;
+    display: block;
+}
+
+.iv-hero-section header.page-banner .form {
+    width: 100%;
+}
+
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content {
+    background-color: #ffcb22;
+}
+
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content label {
+    display: none;
+}
+
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content #Book-a-Demo {
+    color: #1A1D22;
+}
+
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content .gform_wrapper.gravity-theme .gform_fields {
+    grid-row-gap: 15px !important;
+}
+
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content .small {
+    margin-bottom: 0;
+}
+
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content .charleft.gfield_description {
+    display: none;
+}
+
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content .small a {
+    color: #1A1D22;
+    font-weight: bold;
+}
+
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content #gform_submit_button_1 {
+    background-color: #1A1D22;
+    color: #fff;
+}
+
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content .gform_wrapper.gravity-theme .gfield textarea.small {
+    height: 50px;
+}
+
+.iv-hero-section .moved-to-thumbnail.text-color-white .gform_wrapper.gravity-theme .gform_validation_errors>h2,
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content.text-color-white .gform_wrapper.gravity-theme .gform_validation_errors>h2,
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content.text-color-white .gform_wrapper.gravity-theme .gform_validation_errors>ol li,
+.iv-hero-section .moved-to-thumbnail.text-color-white .gform_wrapper.gravity-theme .gform_validation_errors>ol li a,
+.iv-hero-section .moved-to-thumbnail.text-color-white .gform_wrapper.gravity-theme .gfield_validation_message, .text-color-white .gform_wrapper.gravity-theme .validation_message {
+    color: #a1263c !important;
+}
+
+.iv-hero-section .moved-to-thumbnail.text-color-white .gform_wrapper.gravity-theme .gform_validation_errors:focus,
+.iv-hero-section .moved-to-thumbnail.encapsulated-rich-content.text-color-white .gform_wrapper.gravity-theme .gform_validation_errors:focus {
+    outline-color: #a1263c !important;
+}
+
+@media (max-width: 991px) {
+    .iv-hero-section header.page-banner .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .iv-hero-section header.page-banner .thumbnail {
+        width: 60%;
+    }
+
+    .iv-hero-section header.page-banner .content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .iv-hero-section header.page-banner .content-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .iv-hero-section header.page-banner .thumbnail {
+        width: 100%;
+    }
+
+    .iv-hero-section .moved-to-thumbnail.encapsulated-rich-content .gform_wrapper.gravity-theme .gfield textarea.small {
+        height: 60px;
+    }
+}

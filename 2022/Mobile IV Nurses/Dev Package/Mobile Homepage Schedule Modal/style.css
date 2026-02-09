@@ -1,0 +1,183 @@
+
+@media screen and (max-width: 767.98px) {
+	body #Content {
+		margin: 0;
+	}
+	body #Top_bar {
+		min-height: 120px;
+	}
+	body .nav_cta {
+		margin-top: 20px;
+	}
+	body .nav_cta a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #425CFB;
+		font-size: 16px;
+	}
+	body .nav_cta a img {
+		max-width: 20px;
+		margin-left: 10px;
+	}
+	body .hero {
+		background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/mobileIVnurses/home-page/Background.png');
+		background-size: cover;
+		background-position: top center;
+		background-repeat: no-repeat;
+	}
+	body .hero .hero_content {
+		padding: 50px 0;
+	}
+	body .hero .hero_content .hero_title {
+		font-size: 40px;
+		line-height: 50px;
+		color: #FFFFFF;
+		text-align: center;
+	}
+	body .hero .hero_content .hero_description {
+		color: #FFFFFF;
+		font-size: 28px;
+		line-height: 32px;
+		text-align: center;
+	}
+	body .hero .hero_cta {
+		text-align: center;
+	}
+	body .hero .hero_cta a {
+		background-color: #1B9D2C;
+		box-sizing: border-box;
+		color: #FFFFFF;
+		display: block;
+		margin: 0 auto;
+		max-width: 316px;
+		padding: 20px;
+		text-transform: uppercase;
+		width: 100%;
+	}
+	body .hero .hero_cta a span {
+		font-size: 20px;
+		line-height: 22px;
+	}
+	body .mfn-main-slider,
+	body .hero + div {
+		display: none;
+	}
+
+	/* Modal */
+	body .modal-onload {
+		box-sizing: border-box;
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		overflow-x: hidden;
+		overflow-y: auto;
+		height: 100%;
+		width: 100%;
+		z-index: 9999;
+	}
+	body .modal-onload.fade .modal-body {
+		-webkit-transition: -webkit-transform .3s ease-out;
+		transition: transform .3s ease-out;
+		-webkit-transform: translate(0, -25%);
+		transform: translate(0, -25%);
+	}
+	body .modal-onload.in .modal-body {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+	body .modal-body {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		margin: 0.5rem;
+		min-height: calc(100% - (0.5rem * 2));
+		position: relative;
+		pointer-events: none;
+		width: auto;
+	}
+	body .modal-content {
+		background-color: #FFFFFF;
+		border: 3px solid #0D5799;
+		box-shadow: 0 6px 20px rgba(0, 0, 0, .6);
+		border-radius: 40px;
+		position: relative;
+		pointer-events: auto;
+		padding: 26px 30px 28px;
+		min-height: 445px;
+		text-align: center;
+		width: 100%;
+	}
+	body .model-inner {
+		display: none;
+		margin-top: 30px;
+	}
+	body .model-inner.open {
+		display: block;
+	}
+	body .model-title {
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+	body .modal-button {
+		background-color: #3CB5D0;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+		color: #FFFFFF;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 18px;
+		line-height: 18px;
+		margin: 0 auto 25px;
+		padding: 18px 26px;
+		min-height: 57px;
+	}
+	body .modal-button span {
+		margin-left: 12px;
+	}
+	body .model-close {
+		color: #000000;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 17px;
+		position: absolute;
+		right: 25px;
+		top: 20px;
+	}
+	body .model-close:hover {
+		text-decoration: none;
+	}
+}
+
+@media screen and (max-width: 720.98px) {
+	body .nav_cta {
+		margin-top: 0;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 374.98px) {
+	body .hero .hero_content .hero_title {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	body .hero .hero_content .hero_description {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	body .hero .hero_cta {
+		margin-top: 20px;
+		text-align: center;
+	}
+	body .hero .hero_cta a span {
+		font-size: 18px;
+		line-height: 20px;
+	}
+}

@@ -1,0 +1,28 @@
+ul#menu-main> li:last-child,
+#menu-sitemap li.current_page_parent  {
+    display: none;
+}
+header.oxy-header {
+    -webkit-transition: all 0.3s ease-in-out 0s;               
+    transition: all 0.3s ease-in-out 0s;
+}
+header.stick {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+header.stick > div:last-child .oxy-header-left img {
+    width: 160px !important;
+}
+header .oxy-header-right > a:last-child {
+    background-color: #ed8b00;
+    border: 1px solid #ed8b00;
+}
+header .oxy-header-right > a:last-child:hover{
+    border: 1px solid #fff;
+}
+header.stick #menu-main > li >  a {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}

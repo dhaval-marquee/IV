@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+    body .ob-quote__appointment-box > h2 {
+        font-size: 24px;
+    }
+    body .ob-bg .ob-quote__appointment-box .ob-quote__paragraph {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body .main-footer .row > .col-sm-9.col-xs-12,
+    body .main-footer .row > .col-sm-3 > div:nth-child(1),
+    body .main-footer .row > .col-sm-3 > div:nth-child(2){
+        display: none;
+    }
+    body .main-footer .row > .col-sm-3 > div:last-child{
+        text-align: center;
+    }
+}

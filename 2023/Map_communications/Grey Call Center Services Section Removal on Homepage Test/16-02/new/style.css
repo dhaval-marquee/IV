@@ -1,0 +1,148 @@
+/* Logo section */
+.homepage_test .customer-logos,
+.homepage_test .works_section + .gray-section {
+    display: none;
+}
+.homepage_test .slider_section {
+    opacity: 0;
+}
+.homepage_test .slick-track {
+    display: inherit !important;
+}
+.homepage_test .slider_section ul li div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75px;
+}
+.homepage_test .slider_section ul {
+    margin: 0 auto;
+}
+.homepage_test .slider_section ul.slick-dots li {
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.homepage_test .slider_section ul.slick-dots li button {
+    background: rgb(135 135 135);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.homepage_test .slider_section ul.slick-dots li.slick-active button {
+    background: black;
+}
+.homepage_test .top-section img {
+    padding: 0;
+}
+.homepage_test .slider_section img[alt="ServPro-gs"],
+.homepage_test .slider_section img[alt="Delta gs"],
+.homepage_test .slider_section img[alt="EchoLogo"],
+.homepage_test .slider_section img[alt="HoltCat-gs"],
+.homepage_test .slider_section img[alt="MSinaiLogo-gs"],
+.homepage_test .slider_section img[alt="Humana-gs"],
+.homepage_test .slider_section img[alt="HoltCat-gs"] {
+    width: 120px;
+    max-width: 100%;
+}
+.homepage_test .slider_section img[alt="International-Paper-gs"],
+.homepage_test .slider_section img[alt="MAP COMMUNICATIO"] {
+    width: 250px;
+    max-width: 100%;
+}
+
+
+@media (max-width: 767.98px) {
+    .homepage_test .slider_section {
+        padding-bottom: 40px;
+    }
+    .homepage_test .slider_section ul.slick-dots {
+        justify-content: center;
+        bottom: -30px;
+    }
+    .homepage_test .slider_section ul.slick-dots li {
+        max-width: 20px;
+    }
+}
+
+@media screen and (max-width: 574.98px) {
+    .homepage_test .two-column-section h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 368.98px) {
+    .homepage_test .two-column-section h2 {
+        font-size: 24px;
+    }
+    .homepage_test .slick-slide img {
+        width: inherit;
+        margin-left: inherit;
+    }
+}
+/* Logo section over */
+
+/* Works Section section */
+.homepage_test .works_section{
+    background-color: #00529C;
+    padding: 25px 0;
+}
+.homepage_test .works_section .section_inner{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.homepage_test .works_section .section_inner h2{
+    color: #fff;
+    margin-bottom: 48px;
+}
+.homepage_test .works_section .works_item_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.homepage_test .works_section .section_inner .works_span{
+    color: #fff;
+    margin-top: 16px;
+}
+.homepage_test .works_section .works_item {
+    width: 100%;
+    max-width: 33.33%;
+    display: inline-grid;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.homepage_test .works_section .works_item img{
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.homepage_test .works_section .elementor-row{
+    align-items: baseline;
+}
+@media (min-width: 768px) {
+    .homepage_test .works_section .section_inner {
+        text-align: center;
+    }
+}
+@media (max-width: 767.98px) {
+    .homepage_test .works_section .works_item {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        padding: 0;
+    }
+    .homepage_test .works_section .works_item img {
+        max-width: 80px;
+    }
+    .homepage_test .works_section .works_item div {
+        flex: 1 0 auto;
+    }
+    .homepage_test .works_section .section_inner .works_span {
+        padding-left: 20px;
+    }
+}
+/* Works Section section over */

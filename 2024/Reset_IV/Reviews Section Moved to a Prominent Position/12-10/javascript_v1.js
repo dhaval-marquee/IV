@@ -1,0 +1,35 @@
+function loadTestCode() {
+    if(!jQuery('body').hasClass('reviews_iv')) {
+        jQuery('body').addClass('reviews_iv');
+
+        jQuery('.template-index .main_container > div').eq(1).after(jQuery('.template-index .main_container > div').eq(9));
+
+        jQuery(".section-has-title .review-wrapper").after(`<div class="btn-wrapper">
+            <a href="https://resetiv.com/pages/packages" class="btn btn-banner2">
+                <span>View Drip Packages</span>
+            </a>          
+        </div>`);
+
+
+        
+    }
+}
+loadTestCode();
+
+// Load code just for mobile 
+if (window.matchMedia("(max-width: 767.98px)").matches) {
+
+    loadTestCode();
+
+    window.addEventListener('resize', function(event) {
+        if (window.matchMedia("(min-width: 768px)").matches) {
+            location.reload();
+        }
+    }, true);
+} else {
+    window.addEventListener('resize', function(event) {
+        if (window.matchMedia("(max-width: 767.98px)").matches) {
+            location.reload();
+        }
+    }, true);
+}

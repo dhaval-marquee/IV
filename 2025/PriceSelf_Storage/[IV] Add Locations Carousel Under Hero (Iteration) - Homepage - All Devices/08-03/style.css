@@ -1,0 +1,344 @@
+.iv-location-section .locationSection {
+    background-color: #00208a;
+    padding: 80px 0;
+}
+
+.iv-location-section .iv-container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 0 0 auto;
+}
+
+.iv-location-section .dynamicContentWrapper {
+    margin-bottom: 35px;
+}
+
+.iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater .pss-card-list__imagebox-driveup {
+    display: none;
+}
+
+.iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater svg.pss-invisible-mobile-only {
+    display: none;
+}
+
+.iv-location-section .iv-miles-text {
+    text-align: end;
+    font-size: 15px;
+    width: 100%;
+    display: block;
+    color: #000;
+    font-weight: 500;
+}
+
+.iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater .pss-card-list__titlebox {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0a1f8f;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater .star-rating img {
+    max-width: 50px;
+    width: 100%;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list {
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__subtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__subtitle-address {
+    display: inline-flex;
+    align-items: center;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__featureboxes {
+    display: none;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__bottom-actions {
+    display: none;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__top-wrapper {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__contentbox {
+    margin-top: auto;
+    padding: 15px;
+}
+
+.iv-location-section .dynamicContentWrapper a.pss-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    max-width: 200px;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__distance {
+    font-size: 55px;
+    font-weight: bold;
+    color: #0A1F8F;
+    line-height: normal;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__distance span:last-child {
+    display: flex;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__distance svg use {
+    fill: #0A1F8F;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__distance svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: text-top;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-rating__review {
+    display: none;
+}
+
+.iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater .pss-rating_star {
+    font-size: 10px;
+    display: inline-flex !important;
+    align-items: center;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__imagebox img {
+    max-width: 100%;
+    height: 235px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater>br {
+    display: none;
+}
+
+.iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater>span {
+    width: 19%;
+    max-width: 100%;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-button__cta-blue {
+    font-size: 13px;
+    min-width: auto;
+    max-width: 110px;
+    height: auto;
+    flex: 1 0 auto;
+    padding: 5px !important;
+    margin-right: 10px;
+}
+
+.iv-location-section .dynamicContentWrapper .pss-card-list__title {
+    display: flex;
+}
+
+.iv-location-section .iv-price-logo {
+    max-width: 195px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.iv-location-section .iv-price-logo img {
+    width: 100%;
+}
+
+.iv-location-section .iv-view-all-cta {
+    max-width: 320px;
+    width: 100%;
+    padding: 15px 20px;
+    background: #C1D82F;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iv-location-section .iv-view-all-cta:hover {
+    text-decoration: none;
+    color: inherit;
+    background-color: #aec22b;
+}
+
+.iv-location-section .sectionBottom {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    margin-bottom: 35px;
+}
+
+.iv-location-section .iv-info-text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.iv-location-section .carousel-controls {
+    display: flex;
+    align-items: center;
+    max-width: 550px;
+    margin-left: auto;
+    padding-right: 10%;
+    gap: 10px;
+}
+.iv-location-section .dynamicContentWrapper .show:not(:last-child) {
+    margin-right: 25px;
+}
+/* Arrows */
+.iv-location-section .locationSection .arrow svg {
+    width: 35px;
+    height: auto;
+}
+/* Progress Bar */
+.iv-location-section .progress-bar-container {
+    flex: 1;
+    height: 8px;
+    background: #ffffff57;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.iv-location-section .progress-bar {
+    height: 100%;
+    background: #ffffffb0;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+}
+
+@media (max-width:1700px) {
+    .iv-location-section .iv-container {
+        max-width: 1400px;
+    }
+}
+
+@media (max-width:1500px) {
+    .iv-location-section .iv-container {
+        max-width: 1280px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width:1300px) {
+    .iv-location-section .iv-container {
+        max-width: 1140px;
+    }
+
+    .iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater .pss-card-list__titlebox {
+        font-size: 16px;
+    }
+
+    .iv-location-section .dynamicContentWrapper .pss-card-list__distance {
+        font-size: 40px;
+    }
+
+    .iv-location-section .dynamicContentWrapper a.pss-link {
+        font-size: 12px !important;
+    }
+
+    .iv-location-section .dynamicContentWrapper .pss-card-list__subtitle {
+        gap: 5px;
+    }
+
+    .iv-location-section .iv-miles-text {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .iv-location-section .locationSection {
+        padding: 45px 0;
+    }
+    .iv-location-section .iv-container {
+        padding: 0 30px;
+    }
+
+    .iv-location-section .pss-card-list__subtitle>.pss-invisible-mobile-only {
+        display: block !important;
+    }
+
+    .iv-location-section .pss-visible-mobile-only3 {
+        display: none !important;
+    }
+    .iv-location-section .sectionBottom {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .iv-location-section .sectionBottom,
+    .iv-location-section .carousel-controls {
+        padding: 0;
+    }  
+    .iv-location-section .carousel-controls {
+        margin: auto;
+    }
+    .iv-location-section .dynamicContentWrapper .pss-card-list__title{
+        margin-bottom: 5px;
+    }
+    .iv-location-section .iv-info-text {
+        font-size: 24px;
+    }
+    .iv-location-section .dynamicContentWrapper .show:not(:last-child) {
+        margin-right: 20px;
+    }
+    .iv-location-section .iv-view-all-cta {
+        max-width: 200px;
+        height: fit-content;
+        padding: 12px 20px;
+    }
+    .iv-location-section .iv-miles-text {
+        font-size: 12px;
+    }
+    .iv-location-section .dynamicContentWrapper .pss-card-list__distance {
+        font-size: 30px;
+    }
+    .iv-location-section .arrow svg {
+        width: 25px;
+    }
+    .iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater {
+        margin-right: -30px;
+    }
+}
+@media ((max-width: 575.98px)) {
+    .iv-location-section .iv-container {
+        padding: 0 20px;
+    }
+    .iv-location-section .dynamicContentWrapper #MainContent_LocationRepeater {
+        margin-right: -20px;
+    }
+}

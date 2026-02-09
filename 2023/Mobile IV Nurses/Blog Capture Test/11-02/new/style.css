@@ -1,0 +1,33 @@
+.blogCapture_Test .technique_deliver{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 620px;
+    text-align: center;
+    display: block;
+    color: #425CFB;
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 30px auto 40px;
+}
+.blogCapture_Test .technique_deliver:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+@media (max-width: 767.98px) {
+    .blogCapture_Test .technique_deliver{
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+}
+
+
+
+
+
+
+
+

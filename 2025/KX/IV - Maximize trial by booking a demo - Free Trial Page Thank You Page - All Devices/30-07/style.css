@@ -1,0 +1,6 @@
+body section.first .totalColumns-two .book-demo-cta {
+    display: none;
+}
+body section.first + section:nth-child(2) {
+    display: none;
+}

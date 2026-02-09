@@ -1,0 +1,4 @@
+body .works-section,
+body .why-choose-section {
+    display: none;
+}

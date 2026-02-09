@@ -1,0 +1,162 @@
+.hero_DropDown .hero_section {
+    height: inherit !important;
+    min-height: 600px;
+}
+.hero_DropDown .hero_section .banner-background-image {
+    background-position: center top;
+}
+.hero_DropDown .hero_section h1 {
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+.hero_DropDown .banner-loop .inner .left_content {
+    max-width: 295px;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero_DropDown .hero_section ul li {
+    position: relative;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 35px;
+}
+.hero_DropDown .hero_section ul li .check {
+    display: inline-block;
+    transform: rotate(45deg);
+    font-weight: 500;
+    height: 21px;
+    width: 12px;
+    border-bottom: 4px solid #009753;
+    border-right: 4px solid #009753;
+    margin-right: 12px;
+}
+.hero_DropDown .hero_section a.button {
+    font-size: 18px;
+}
+.hero_DropDown .hero_section a.button::after {
+    top: inherit;
+    bottom: 100%;
+    margin-bottom: -10px;
+}
+.hero_DropDown .hero_section .hero_content {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.hero_DropDown .hero_section .hero_content #unitSizes,
+.hero_DropDown .hero_section .hero_content #cities {
+    padding: 12px 20px 12px 12px;
+    max-width: 160px;
+}
+.hero_DropDown .banner-loop .inner .hero_content label {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.hero_DropDown .hero_section .hero_content .right_content {
+    max-width: 280px;
+    margin-bottom: 50px;
+}
+.hero_DropDown .reserveBtn + p{ 
+    display: none;
+}
+
+.hero_DropDown .hero_section .hero_content .dropDownWrapper {
+    display: flex;
+    max-width: 500px;
+    flex: 1 0 auto;
+}
+.hero_DropDown .hero_section .hero_content .dropDownWrapper .form-group.error {
+    position: relative;
+}
+.hero_DropDown .error .error-message{
+    display: block;
+}
+.hero_DropDown .error-message{
+    position: absolute;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14.4px;
+    letter-spacing: -0.24px;
+    padding: 6px 10px;
+    border-radius: 2px;
+    background: #D34343;
+    top: 55px;
+    left: 50%;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    margin-left: 15px;
+    display: none;
+}
+.hero_DropDown .error .error-message svg {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+}
+@media screen and (min-width: 1601px) {
+    .hero_DropDown .hero_section {
+        height: auto;
+        min-height: 600px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .hero_DropDown .banner-loop .inner.banner-center {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .hero_DropDown .hero_section .hero_content {
+        display: block;
+    }
+    .hero_DropDown .hero_section .hero_content .dropDownWrapper {
+        justify-content: center;
+        margin: 40px auto 40px;
+    }
+    .hero_DropDown .hero_section .hero_content .right_content {
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hero_DropDown .hero_section .hero_content > * {
+        max-width: 50%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 611.98px) { 
+    .hero_DropDown .hero_section {
+        min-height: 730px;
+    } 
+    .hero_DropDown .hero_section h1 {
+        margin-bottom: 30px !important;
+    }
+    .hero_DropDown .hero_section .hero_content .dropDownWrapper {
+        display: block;
+        max-width: 500px;
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    .hero_DropDown .banner-loop .inner .hero_content label span {
+        display: none;
+    }
+    .hero_DropDown .hero_section .hero_content .dropDownWrapper .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero_DropDown .hero_section ul li {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .hero_DropDown .error-message {
+        top: 88px;
+        margin-left: 0px;
+    }
+}

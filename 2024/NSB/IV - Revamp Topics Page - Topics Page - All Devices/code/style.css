@@ -1,0 +1,217 @@
+.redesignIV section#topics #upperheader {
+    display: none;
+}
+
+
+.redesignIV .main-topics-list-header {
+    max-width: 1200px;
+    width: 100%;
+    padding: 110px 20px 0;
+    margin: 0 auto;
+}
+
+.redesignIV .titleIV {
+    font-family: Merriweather, Georgia, Times, times new roman, serif;
+    font-weight: 700;
+    color: #7e8385;
+}
+
+.redesignIV .main-topics-list-header ul#mainTopicsList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 -15px;
+}
+
+.redesignIV .main-topics-list-header ul#mainTopicsList li {
+    max-width: 20%;
+    width: 100%;
+    margin: 15px 0;
+    padding: 0 15px;
+}
+
+.redesignIV .main-topics-list-header ul#mainTopicsList li a {
+    font-weight: 700;
+}
+
+.redesignIV .main-topics-list-header ul#mainTopicsList li a:hover {
+    color: #df1a22;
+}
+
+
+.redesignIV section#topics #list {
+    display: block;
+    height: auto !important;
+    padding: 0 20px;
+}
+
+.redesignIV section#topics #list .top {
+    position: inherit !important;
+    left: inherit !important;
+    top: inherit !important;
+    text-align: right;
+    width: 100%;
+    background: #fff;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.redesignIV section#topics #list .top .img {
+    display: none;
+}
+
+.redesignIV section#topics #list .top span {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.redesignIV section#topics #list .top span.topic:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #c52328;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.redesignIV section#topics #list .top span.topic span {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+}
+
+.redesignIV section#topics #list .top .subtopics {
+    border: 1px solid #d3d3d3;
+}
+
+.redesignIV section#topics #list .top a {
+    text-align: left;
+    background-color: transparent;
+}
+
+.redesignIV section#topics #list .top>a.viewAllText {
+    text-align: right;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+@media (max-width: 1024.98px) {
+    .redesignIV .main-topics-list-header ul#mainTopicsList li {
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+    .redesignIV .noClick {
+        pointer-events: none;
+    }
+
+    .redesignIV .showMobile {
+        display: none !important;
+    }
+
+    .redesignIV section#topics #list .titleIV {
+        border-top: 2px solid #e5e5e5;
+        padding-top: 20px;
+    }
+
+    .redesignIV section#topics #list .top a:hover span {
+        text-decoration: underline;
+    }
+    
+    .redesignIV section#topics #list .top>a.viewAllText {
+        display: inline-block;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .redesignIV .hideMobile {
+        display: none !important;
+    }
+
+    .redesignIV .main-topics-list-header {
+        display: none;
+    }
+
+    .redesignIV section#topics {
+        padding-top: 100px;
+    }
+
+    .redesignIV .main-topics-list-header ul#mainTopicsList li {
+        max-width: 25%;
+    }
+
+    .redesignIV section#topics #list .top span {
+        min-height: 50px;
+        font-size: 18px;
+    }
+
+    .redesignIV section#topics #list .top > a > span {
+        padding-right: 50px;
+    }
+
+    .redesignIV section#topics #list .top .subtopics,
+    .redesignIV section#topics #list .top .subtopics ~ a {
+        display: none;
+    }
+
+    .redesignIV section#topics #list .top.active .subtopics,
+    .redesignIV section#topics #list .top.active .subtopics ~ a {
+        display: block;
+    }
+
+    .redesignIV section#topics #list .top a {
+        position: relative;
+    }
+
+    .redesignIV section#topics #list .top>a:first-child:before,
+    .redesignIV section#topics #list .top>a:first-child:after {
+        background: #fff;
+        content: '';
+        height: 5px;
+        right: 20px;
+        position: absolute;
+        top: 40px;
+        width: 21px;
+        transition: transform 500ms ease;
+        z-index: 1;
+    }
+
+    .redesignIV section#topics #list .top>a:first-child:before {
+        transform: rotate(180deg) translateY(-50%);
+        top: 38px;
+    }
+
+    .redesignIV section#topics #list .top>a:first-child:after {
+        transform: rotate(90deg);
+    }
+
+    .redesignIV section#topics #list .top.active>a:first-child:after {
+        transform: rotate(0);
+    }
+}
+
+@media (min-width: 601px) and (max-width: 767.98px) {
+    .redesignIV section#topics {
+        padding-top: 280px;
+    }
+}
+
+@media (max-width: 600.98px) {
+    .redesignIV .main-topics-list-header ul#mainTopicsList li {
+        max-width: 50%;
+    }
+}

@@ -1,0 +1,456 @@
+.test_jazzercise .container.section-2,
+.test_jazzercise .jumbotron{
+  display: none;
+}
+
+
+
+/* information box */
+.test_jazzercise .information {
+    background: #ffffff;
+}
+.test_jazzercise .information .inner-information {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.test_jazzercise .information .info-btn a {
+    text-align: center;
+    padding: 13px 20px;
+    font-size: 19px;
+    color: #535859;
+    background: #fde843;
+    display: inline-block;
+    padding: 13px 14px;
+    font-family: 'Oswald',sans-serif!important;
+    line-height: 25px;
+}
+.test_jazzercise .information .inner-information .img-box {
+    width: 35%;
+}
+.test_jazzercise .information .inner-information .info-text {
+    width: 65%;
+    padding: 0 52px 0 80px;
+}
+.test_jazzercise .information .inner-information.reverse .info-text{
+    padding: 0 50px 0 52px;
+}
+.test_jazzercise .information .inner-information.reverse .info-text {
+    order: 1;
+}
+.test_jazzercise .information .img-inn-box img {
+    width: 100%;
+}
+.test_jazzercise .information h5 {
+    color: #535860;
+    font-size: 33px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 39px;
+    margin: 0 0 13px;
+    font-family: 'Oswald',sans-serif!important;
+}
+.test_jazzercise .information p {
+    font-family: 'Oswald',sans-serif!important;
+    font-size: 19px;
+    list-style: 20px;
+    line-height: 28px;
+    color: #535860;
+    font-weight: 500;
+    margin: 0 0 22px;
+}
+.test_jazzercise .information .inner-information:not(.reverse) h5,
+.test_jazzercise .information .inner-information:not(.reverse) p{
+  text-align: right;
+}
+.test_jazzercise .information .inner-information:not(.reverse) .info-btn {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: end;
+}
+.test_jazzercise .container.section-0 .frontTxtTitle h1 {
+    margin-top: 40px !important;
+}
+.test_jazzercise .section-1 .frontTxtContent {
+    margin-bottom: 15px;
+}
+@media (max-width: 1199.98px){
+    .test_jazzercise .information .inner-information .info-text{
+        padding: 0 29px 0 15px;
+    }
+    .test_jazzercise .information .inner-information.reverse .info-text {
+        padding: 0 15px 0 29px;
+    }
+}
+@media (max-width: 991.98px){
+    .test_jazzercise .container.section-0 .frontTxtTitle h1 {
+        margin-top: 24px !important;
+        font-size: 40px !important;
+        line-height: 50px !important;
+        padding: 0 15px;
+    }
+    .test_jazzercise .section-1 .frontTxtContent {
+        padding: 20px;
+    }
+    .test_jazzercise .information .inner-information .info-text{
+        padding: 0 29px 0 0px;
+    }
+    .test_jazzercise .information .inner-information.reverse .info-text {
+        padding: 0 0px 0 29px;
+    }
+}
+@media (max-width: 767.98px){
+    .test_jazzercise .information .inner-information {
+        flex-direction: column-reverse;
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+    .test_jazzercise .information .inner-information .img-box {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .test_jazzercise .information .inner-information.reverse .info-text {
+        order: 0;
+        padding: 0;
+    }
+    .test_jazzercise .information .inner-information .info-text {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .test_jazzercise .information .inner-information:not(.reverse) h5, 
+    .test_jazzercise .information .inner-information:not(.reverse) p,
+    .test_jazzercise .information h5,
+    .test_jazzercise .information p{
+        text-align: center;
+    }
+    .test_jazzercise .information .inner-information:not(.reverse) .info-btn,
+    .test_jazzercise .information .inner-information .info-btn {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+    }
+}
+/*end information box */
+
+/* faq section */
+.test_jazzercise .faq_section {
+    padding: 30px 0 50px;
+    background: #fff;
+}
+.test_jazzercise .accordion_wrapper {
+    max-width: 700px;
+    width: 100%;
+    text-align: left;
+    margin: 50px auto 0;
+}
+.test_jazzercise .accordion_wrapper li {
+    border-bottom: 1px solid #dedede;
+    padding: 20px 0;
+}
+.test_jazzercise .accordion_wrapper .faq_title {
+    position: relative;
+    font-size: 20px;
+    display: block;
+    color: #333;
+    padding: 0 40px 0 15px;
+}
+.test_jazzercise .accordion_wrapper .faq_content {
+    overflow: hidden;
+    font-size: 16px;
+    border-bottom: none !important;
+    padding: 0 40px 0 15px;
+    /* padding-top: 10px; */
+}
+.test_jazzercise .accordion_wrapper .faq_title:focus {
+    outline: none !important;
+}
+.test_jazzercise .accordion_wrapper .faq_title:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out 0s; 
+    background: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1664873538/jazzercise/Homepage_Test/Jazzercise_FAQ_Icon.png') no-repeat center;
+    background-size: cover;
+}
+@media (max-width: 767.98px){
+    .test_jazzercise .faq_section {
+        padding: 0px 0 40px;
+    }
+}
+/*end faq section */
+
+
+
+
+
+.test_jazzercise .vide-details-txt-container {
+    z-index: 1;
+    position: relative;
+}
+.test_jazzercise .vide-details-txt-container h3 {
+    font-family: 'Oswald',sans-serif !important;
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px #535860;
+    line-height: 80px;
+}
+.test_jazzercise .vide-details-txt-container p {
+    font-family: 'Oswald',sans-serif !important;
+    font-size: 35px;
+    width: 100%;
+    max-width: 800px;
+    text-shadow: 2px 2px 5px #535860;
+}
+.test_jazzercise .vide-details-txt-container a {
+    padding: 10px 30px;
+    font-family: 'Oswald',sans-serif !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0 !important;
+}
+.test_jazzercise #showImage {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1668146722/jazzercise/Homepage_Test/BrandShootOceanside_184_06.21_retouched_New.jpg');
+    background-size: cover;
+}
+.test_jazzercise .jazz-hp-embed-container {
+    padding-bottom: 40%;
+}
+.test_jazzercise .jazz-hp-embed-container-video-overlay {
+    top: 23%;
+}
+
+@media screen and (min-width: 768px) {
+    .test_jazzercise .parent-position .hero_location,
+    #showImage ~ .vide-details-txt-container  {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767.98px){
+    .test_jazzercise .vide-details-txt a,
+    .test_jazzercise .vide-details-txt .vide-details-txt-container {
+        display: none;
+    }
+    #content-wrapper #showImage ~ .parent-position {
+        position: relative;
+        z-index: 1;
+    }
+    #content-wrapper #showImage ~ .parent-position .jazz-hp-embed-container-video-overlay {
+        top: inherit;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+    .test_jazzercise .vide-details-txt h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .test_jazzercise .vide-details-txt p {
+        margin: 0;
+        font-size: 22px;
+        margin-top: 14px;
+    }
+    .test_jazzercise .vide-details-txt-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(24, 77, 100, 0.42);
+        width: 100%;
+        padding: 16px 10px;
+    }
+    .test_jazzercise .vide-details-txt-container h3, 
+    .test_jazzercise .vide-details-txt-container p {
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    .test_jazzercise .vide-details-txt-container h3 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .test_jazzercise .vide-details-txt-container p {
+        font-size: 20px;
+    }
+    .test_jazzercise .parent-position .hero_location {
+        width: 100%;
+        max-width: 520px;
+        padding: 15px 10px;
+        background: #FBCFBF;
+        margin: 0 auto;
+        position: relative;
+    }
+    .test_jazzercise .parent-position .hero_location h3 {
+        color: #535860;
+        margin: 0 0 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .test_jazzercise .parent-position .hero_location input[placeholder="Enter City, State, or Zip"],
+    .test_jazzercise .parent-position .hero_location .selectboxit {
+        background: #FFF;
+    }
+    .test_jazzercise .parent-position .hero_location input[placeholder="Enter City, State, or Zip"]::placeholder {
+        text-transform: none;
+        font-style: normal;
+        font-size: 14px;
+    }
+    .test_jazzercise .parent-position .hero_location .selectboxit-options {
+        top: 50px !important;
+    }
+    .test_jazzercise .parent-position .hero_location .selectboxit-options > li {
+        font-size: 14px;
+    }
+    .test_jazzercise .parent-position .hero_location .selectboxit-text {
+        font-size: 14px;
+        line-height: 14px;
+        white-space: normal;
+    }
+    .test_jazzercise .parent-position .hero_location .selectboxit-container .selectboxit-text:after {
+        display: none;
+    }
+    .test_jazzercise .parent-position .hero_location .selectboxit .selectboxit-option-icon-container {
+        margin: 0;
+    }
+    .test_jazzercise .parent-position .hero_location .selectboxit-container span.fdistanceSelect {
+        padding: 0;
+        position: relative;
+        display: flex;
+        min-height: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .test_jazzercise .parent-position .hero_location .selectboxit-container span {
+        position: relative;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass {
+        background: transparent;
+        position: relative;
+        padding: 0;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass .sep {
+        background: #FFF133;
+        position: relative;
+        min-width: 100px;
+        height: 100%;
+        cursor: pointer;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass .sep:after {
+        content: "Search";
+        position: absolute;
+        color: #535860;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .test_jazzercise .hero_location .input-group .footerFind.sep .btnFindClass {
+        width: 100%;
+        height: inherit;
+    }
+    .test_jazzercise .hero_location .input-group .footerFind.sep .btnFindClass:hover {
+        background-color: transparent;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass input {
+        margin: 0;
+        min-height: 50px;
+        padding-left: 30px;
+        font-size: 16px;
+        border: none;
+        border-right: 1px solid #535860;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass input:focus {
+        outline: none !important;
+        border-radius: 0 !important;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFind .selectboxit-arrow, 
+    .test_jazzercise .parent-position .hero_location .footerFind .selectboxit-default-arrow {
+        background: url('/App_Themes/Jazzercise/img/iconArrowDownWhite.png') no-repeat scroll 0 0 !important;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass .sep:before {
+        display: none;
+    }
+    .test_jazzercise .parent-position .hero_location .btnFindClass span {
+        background: none !important;
+    }
+    .test_jazzercise .parent-position .hero_location .btnFindClass:active {
+        box-shadow: none;
+    }
+    .test_jazzercise .parent-position .hero_location .pac-container {
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+    .test_jazzercise .parent-position .hero_location .map_icon {
+        position: absolute;
+        left: 27px;
+        top: 82px;
+        z-index: 99;
+        max-width: 16px;
+    }
+    .test_jazzercise .parent-position .hero_location .btnFindClass {
+        background: #FFF133;
+        z-index: -1;
+        max-width: 320px;
+        margin: 0 auto !important;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass input {
+        width: 75%;
+    }
+    .test_jazzercise .parent-position .hero_location .input-group-btn.footerFind:not(.sep) {
+        width: 25%;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass .sep {
+        width: 320px;
+        margin-top: 10px;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass {
+        height: auto;
+    }
+    .test_jazzercise .parent-position .hero_location .btnFindClass {
+        width: 100%;
+        max-width: 100%;
+        z-index: 1;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass .sep:after {
+        z-index: 1;
+        pointer-events: none;
+    }
+    .test_jazzercise .parent-position .hero_location .selectboxit-container span {
+        height: auto;
+    }
+    .test_jazzercise .parent-position .hero_location .selectboxit-container span.selectboxit-arrow-container {
+        height: 13px !important;
+    }
+    .test_jazzercise .parent-position .hero_location .footerFindClass .btnFindMiles {
+        height: 100% !important;
+    }
+}
+
+@media screen and (max-width: 359.98px){
+    .test_jazzercise .vide-details-txt-container h3 {
+        font-size: 36px;
+    }
+    .test_jazzercise .vide-details-txt-container p {
+        font-size: 19px;
+    }
+}

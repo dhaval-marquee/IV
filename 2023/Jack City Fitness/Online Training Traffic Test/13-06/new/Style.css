@@ -1,0 +1,25 @@
+.menu_iv .desktop header .menu {
+    padding-left: 20%;
+}
+.menu_iv .desktop .menu .current_page_item + .current-menu-parent > a {
+    border-bottom: none;
+    top: 0;
+}
+.menu_iv #menu-main-menu #menu-item-8701 > a {
+    position: relative;
+}
+.menu_iv #menu-main-menu #menu-item-8701 > a:before {
+    content: 'New!';
+    color: #FE5000;
+    line-height: normal;
+    position: absolute;
+    left: 50%;
+    top: -12px;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+}
+.menu_iv #menu-mobile-menu #menu-item-8700 > a:after {
+    content: ' New!';
+    color: #FE5000;
+    text-transform: capitalize;
+}

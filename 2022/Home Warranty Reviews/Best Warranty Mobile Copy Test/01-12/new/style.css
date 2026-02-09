@@ -1,0 +1,38 @@
+
+/* How Mobile IV Therapy Works-section */
+@media screen and (max-width: 767.98px){
+    /*remove secttion*/
+    .mobile_redesign_test p.title-1 ,
+    .mobile_redesign_test .heading-0,
+    .mobile_redesign_test p.title-2,
+    .mobile_redesign_test p.title-3{
+      display: none;
+    }   
+    .mobile_redesign_test .offer_company_list_0 table {
+      overflow: hidden;
+    }
+    .mobile_redesign_test .offer_company_list_0 table tr {
+      display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: -webkit-flex;     /* NEW - Chrome */
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .mobile_redesign_test .offer_company_list_0 table tr td {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .mobile_redesign_test .company_list_jumplink{
+      width: 100%;
+    }
+    .mobile_redesign_test .offer_company_list_0 table tr td .offer_company_block {
+      width: 100%;
+      margin: 0;
+    }
+    .mobile_redesign_test .company_list_jumplink a {
+      text-decoration: none;
+      color: #1A73E8;
+    }
+  }
+  /*end IV Drip over*/

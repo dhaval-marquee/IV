@@ -1,0 +1,196 @@
+.bar_iv .top-bar {
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #0f85ee;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    padding: 4px 12px;
+}
+.bar_iv .top-bar a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    white-space: nowrap;
+}
+.bar_iv .top-bar a:hover {
+    color: #ffffff73;
+}
+.bar_iv .top-bar .long-arrow-right {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    display: inline-block;
+    margin: auto;
+    margin-left: 15px;
+    transform: rotate(135deg);
+    height: 7px;
+    width: 7px;
+}
+.bar_iv .top-bar .long-arrow-right::after {
+    background-color: #ffffff;
+    content: "";
+    display: block;
+    transform: rotate(-45deg) translate(5px, 2px);
+    height: 16px;
+    width: 1px;
+}
+
+.bar_iv .fusion-tb-header .fusion-fullwidth{
+	padding-top: 34px;
+    border: 0;
+}
+
+@media screen and (max-width: 767.98px) {
+    .bar_iv #main {
+        padding-top: 0 !important;
+    }
+    body.header-menu .awb-menu.collapse-enabled.mobile-mode-collapse-to-button .awb-menu__m-toggle {
+        margin-top: 4px;
+    }
+}
+@media screen and (max-width: 577.98px) {
+    .bar_iv .fusion-tb-header .fusion-fullwidth{
+            padding-top: 60px;
+    }
+}
+@media (min-width: 578px) and (max-width: 584.98px) {
+    body.bar_iv .fusion-tb-header .fusion-fullwidth {
+        padding-top: 62px;
+    }
+}
+
+@media (max-width: 584.98px) {
+        .bar_iv #main {
+        padding-top: 40px !important;
+    }
+}
+
+/* Model Css */
+.mq_test .mq_modal_open {
+    overflow: hidden !important;
+}
+.mq_test .fade {
+    transition: opacity .15s linear;
+}
+.mq_test .mq_modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    z-index: 999999999;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: opacity .15s linear;
+    background-color: #00000099;
+}
+.mq_test .mq_modal.open {
+    opacity: 1;
+}
+.mq_test .mq_modal .mq_modal_overlay {
+    display: none;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+.mq_modal .mq_modal_overlay.fade {
+    display: block;
+    opacity: .5;
+}
+.mq_modal .mq_modal_inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    -webkit-transform: translate(0,-25%);
+    transform: translate(0,-25%);
+    min-height: calc(100% - (1rem * 2));
+    max-width: 750px;
+    margin: 1rem auto;
+    pointer-events: none;
+}
+.mq_modal.open .mq_modal_inner {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.mq_modal .mq_modal_block {
+    background-color: #f0f3fa;
+    color: #000;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    pointer-events: auto;
+    margin: 0;
+}
+.mq_modal .mq_modal_block .close-btn {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 14px;
+    border-color: #ff4a00 !important;
+    box-shadow: none !important;
+    background: #0f85ee;
+    color: #fff;
+    font-family: "Public Sans", Arial, Helvetica, sans-serif;
+}
+.mq_modal .mq_modal_header {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.mq_modal .mq_modal_header .mq_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #000;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    width: 21px;
+    height: 21px;
+}
+.mq_modal .mq_modal_header .mq_close:before,
+.mq_modal .mq_modal_header .mq_close:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 21px;
+    height: 1px;
+    background-color: currentColor;
+}
+.mq_modal .mq_modal_header .mq_close:before {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.mq_modal .mq_modal_header .mq_close:after {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+@media screen and (max-width:767.98px) {
+    .mq_modal .mq_modal_inner {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #services-section .service-text .copy ul, #services-section .service-text {
+        margin-left: 0;
+    }
+}

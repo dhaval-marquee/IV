@@ -1,0 +1,84 @@
+.hs-form-field {
+	margin-top: 10px !important;
+}
+
+.hbspt-form label,
+.hbspt-form legend {
+	font-size: 14px;
+}
+
+.hbspt-form legend {
+	font-weight: 700;
+}
+
+.hbspt-form form input,
+.hbspt-form select {
+	margin-top: 0;
+	height: 50px;
+}
+
+.hs-form-field .input ul {
+	padding-right: 10px;
+	margin-top: 6px;
+	margin-bottom: 0;
+}
+
+.hs-form-field .input ul input {
+	vertical-align: middle;
+}
+
+.hs_error_rollup {
+	text-align: center;
+}
+
+.hbspt-form ul.inputs-list {
+	padding: 0;
+}
+
+.hbspt-form .hs_submit {
+	clear: left;
+	padding-top: 20px;
+}
+
+.hbspt-form .hs-button {
+	background: #5C1B55;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	min-height: 50px;
+	max-width: 400px;
+	height: auto;
+	text-align: center;
+	width: 100%;
+}
+
+.hbspt-form ul.inputs-list.hs-error-msgs {
+	margin-top: -10px;
+	margin-bottom: 0;
+}
+
+.hbspt-form .hs-error-msg,
+.hbspt-form .hs_error_rollup {
+	font-size: 13px !important;
+	font-weight: normal !important;
+}
+
+.hbspt-form .hs_error_rollup {
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+
+	.hbspt-form fieldset.form-columns-1,
+	.hbspt-form fieldset.form-columns-2 {
+		max-width: 100% !important;
+	}
+}
+
+@media (max-width: 767px) {
+	#section-69-89 {
+		display: none;
+	}
+}

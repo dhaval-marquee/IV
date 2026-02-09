@@ -1,0 +1,7 @@
+.show-badge:before {
+    content: 'Sugar-Free!';
+    text-align: center;
+    color: #fff;
+    background-color: #38539a;
+    padding: 5px;
+}

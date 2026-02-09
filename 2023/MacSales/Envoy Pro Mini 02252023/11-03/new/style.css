@@ -1,0 +1,325 @@
+
+  
+/* .iv_eshop_pdp .pdp-cart__ships, */
+.iv_eshop_pdp .pdp-cart__offer,
+.iv_eshop_pdp .pdp-grid__cart-options-grid {
+    display: none;
+}
+.iv_eshop_pdp hr.pdp-header__hr {
+    display: none;
+}
+.iv_eshop_pdp .pdp-header__part-info {
+    border-top: 1px solid #d2d2d2;
+    padding-top: 12px;
+    margin-top: 12px;
+}
+.iv_eshop_pdp .pdp-grid__info {
+    order: 2;
+}
+.iv_eshop_pdp .pdp-grid__description {
+    grid-column: 1 / span 12;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    order: 3;
+}
+.iv_eshop_pdp .pdp-grid__details-grid {
+    grid-column: 1 / span 12;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+.iv_eshop_pdp .slide-thumbnails {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.iv_eshop_pdp .slide-thumbnails .slick-list,
+.iv_eshop_pdp .slide-thumbnails .slick-track {
+    display: flex;
+}
+.iv_eshop_pdp .slide-thumbnails .slick-list {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.iv_eshop_pdp .slide-thumbnails .slick-track::before,
+.iv_eshop_pdp .slide-thumbnails .slick-track::after {
+    display: none;
+}
+.iv_eshop_pdp .slide-thumbnails .slick-slide {
+    float: none;
+    display: flex;
+    margin-right: 8px;
+    margin-left: 8px;
+    height: 94px;
+}
+.iv_eshop_pdp .slide-thumbnails .slick-slide::before {
+    border: 1px solid #005ba4;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+.iv_eshop_pdp .slide-thumbnails .slide-thumbnail-active {
+    border-width: 1px;
+}
+.iv_eshop_pdp .slide-thumbnails .slick-slide:hover::before,
+.iv_eshop_pdp .slide-thumbnails .slide-thumbnail-active::before {
+    opacity: 1;
+}
+.iv_eshop_pdp .slide-thumbnails .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10px;
+    margin: 0;
+    cursor: pointer;
+}
+.iv_eshop_pdp .slide-thumbnails .slick-arrow:hover {
+    opacity: 0.8;
+}
+.iv_eshop_pdp .slide-thumbnails .slick-arrow.slick-next {
+    left: inherit;
+    right: -10px;
+}
+.iv_eshop_pdp .slide-thumbnails .slick-next img {
+    transform: rotate(180deg);
+}
+.iv_eshop_pdp #pdp-cart__btn-a {
+    max-width: 250px;
+}
+.iv_eshop_pdp #availability-icon-ship {
+    display: none;
+}
+
+
+.iv_eshop_pdp .pdp-cart__ships-link a {
+    position: relative;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 92px;
+    margin-left: 30px;
+}
+.iv_eshop_pdp .pdp-cart__ships-link a:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 42px;
+    background-image: url(https://res.cloudinary.com/ignite-visibility/image/upload/v1663227429/macsales/Ministack%29STX_Product_Page_Test/Icon-Free-Shipping.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    pointer-events: none;
+}
+.iv_eshop_pdp .pdp-description__title {
+    font-size: 30px;
+    margin-bottom: 0;
+    border-top: 1px solid #ddd;
+    padding-top: 40px;
+    margin-top: 0;
+}
+.iv_eshop_pdp #highlights-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 60px;
+}
+.iv_eshop_pdp .pdp-description__list-item {
+    max-width: 47%;
+    width: 100%;
+}
+
+/* For hidden section */
+.iv_eshop_pdp .pdp-cart__cyber-saver {
+    margin-bottom: 20px;
+}
+/* For hidden section */
+
+.custom_selectBox {
+    max-width: 260px;
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    height: 60px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 27px 0 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.custom_selectBox:before {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px 1px 1px 0px;
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    pointer-events: none;
+}
+.custom_selectBox label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 12px;
+    color: #4e4e4e;
+}
+.custom_selectBox select {
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    height: 100%;
+    background: transparent;
+    color: #000;
+    outline: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 0 15px;
+}
+.custom_selectBox select option {
+    font-size: 16px;
+}
+.select_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.select_wrapper .pdp-cart__ships {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .iv_eshop_pdp .pdp-grid__info {
+        grid-column: 7 / span 6;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .pdp-grid__gallery {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column: 1 / 7;
+    }  
+}
+
+@media (max-width: 767.98px) {
+    .iv_eshop_pdp .pdp-grid__info {
+        grid-column: 1 / span 12;
+        grid-row-start: 2;
+    }
+    .iv_eshop_pdp .pdp-grid__gallery {
+        grid-row-start: 1;
+    }
+    .iv_eshop_pdp #pdp-cart__btn-a {
+        max-width: 100%;
+    }
+    .iv_eshop_pdp .pdp-cart__ships-link {
+        font-family: "Roboto",sans-serif;
+        justify-content: center;
+    }
+    .iv_eshop_pdp .pdp-cart__ships-link a {
+        margin-left: 0;
+    }
+    .iv_eshop_pdp .pdp-description__list-item {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .iv_eshop_pdp .pdp-grid__gallery {
+        margin-top: 10px;
+    }
+    .iv_eshop_pdp .pdp-cart__price {
+        display: flex;
+        align-items: center;
+    }
+    .iv_eshop_pdp .pdp-cart__ships {
+        padding-left: 30px;
+    }
+    .iv_eshop_pdp .pdp-header__sku {
+        display: inline-block;
+        padding-left: 20px;
+    }
+    .iv_eshop_pdp .glide__track {
+        min-height: inherit !important;
+    }
+    .iv_eshop_pdp .pdp-gallery__img {
+        max-height: 220px;
+        margin: 0 auto;
+    }
+    .iv_eshop_pdp .slide-nav * {
+        display: none;
+    }
+    .iv_eshop_pdp .slide-nav {
+        width: 10px;
+        height: 10px;
+        margin: 0 5px !important;
+        border-radius: 50%;
+    }
+    .iv_eshop_pdp .slide-thumbnail-active {
+        background-color: #005ba4;
+    }
+    .iv_eshop_pdp .slide-thumbnails {
+        justify-content: center;
+    }
+    .iv_eshop_pdp .glide__slides {
+        align-items: center;
+    }
+    .iv_eshop_pdp #gallerySlider {
+        position: relative;
+    }
+    .iv_eshop_pdp .glide__arrows {
+        user-select: auto;
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        width: 25px;
+        height: 35px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 0;
+    }
+    .iv_eshop_pdp .glide__arrows input {
+        width: 25px;
+        height: 35px;
+    }
+    .iv_eshop_pdp .glide__arrows.glide__arrow-right-container {
+        right: 0;
+        left: inherit;
+    }
+    .iv_eshop_pdp .glide__arrows.glide__arrow-left-container:before,
+    .iv_eshop_pdp .glide__arrows.glide__arrow-right-container:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 18px;
+        height: 32px;
+        pointer-events: none;
+        background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/v1663227429/macsales/Ministack%29STX_Product_Page_Test/slider-arrow.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .iv_eshop_pdp .glide__arrows.glide__arrow-right-container:before {
+        left: inherit;
+        right: 0;
+        transform: rotate(180deg);
+    }
+}

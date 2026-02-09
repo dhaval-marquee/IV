@@ -1,0 +1,64 @@
+.iv-badges-list {
+    flex-wrap: inherit !important;
+    max-width: 100% !important;
+    grid-column-gap: 15px;
+    justify-content: space-between;
+    border-bottom: 1px solid #b5b5b5;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    flex-direction: inherit !important;
+    flex-flow: row wrap;
+}
+.iv-badges-list li {
+    /* width: calc(25% - 5px); */
+    margin: 0 !important;
+    justify-content: center;
+}
+
+.iv-badges-list li:nth-child(1) {
+    order: 4;
+}
+
+.iv-badges-list li:nth-child(3) {
+    order: 3;
+}
+
+.iv-badges-list li img{
+    width: 100%;
+    max-width: 46px;
+}
+
+.iv-badges-list li span{
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1250px){
+    .iv-badges-list li img{
+        max-width: 40px;
+    }
+}
+
+@media screen and (max-width: 1080px){ 
+    .iv-badges-list li {
+        flex-direction: column;
+    }
+    .iv-badges-list li {
+        flex-direction: column;
+        text-align: center;
+    }
+    .iv-badges-list li span {
+        margin: 0;
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .iv-badges-list li span {
+        font-size: 14px;
+        line-height: 15px;
+    }
+}

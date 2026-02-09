@@ -1,0 +1,78 @@
+.hero-review .td_hero_section .trustpilot-widget {
+    display: none !important;
+}
+.hero-review .td_hero_section .trustpilot {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hero-review .td_hero_section .trustpilot .trustpilot-verificationIcon {
+    display: none;
+}
+.hero-review .trustpilot-rating-star {
+    width: 315px;
+    height: 65px;
+}
+.hero-review-logo .companys-logos {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 20px;
+}
+.hero-review-logo .companys-logos img {
+    width: 100%;
+    max-width: 345px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.hero-review-trustpilot-sec + div {
+    margin-top: 0 !important;
+}
+
+.hero-review-company-logo .companys-in-logo {
+    display: flex;
+    align-items: center;
+}
+.hero-review-company-logo .companys-in-logo img {
+    width: 100%;
+    max-width: 215px;
+}
+.hero-review-company-logo .company-logo-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.hero-review-company-logo .trustpilot-verificationIcon {
+    margin: 0 10px 0 0;
+}
+@media only screen and (max-width: 980px) {
+	.hero-review .trustpilot-rating-star {
+	    width: 175px;
+	    height: 35px;
+	}
+    .hero-review-logo .companys-logos img {
+	    max-width: 210px;
+	    margin: 5px 0;
+	}
+
+    .hero-review-company-logo .companys-in-logo {
+        margin: 15px 0 0;
+    }
+    .hero-review-company-logo .company-logo-container {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .hero-review-company-logo .companys-in-logo img {
+        max-width: 220px;
+        margin: 0 0 -30px 0;
+    }
+    .hero-review-logo .companys-logos {
+        margin: 10px 0;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .hero-review-trustpilot-sec + div {
+        margin-bottom: 20px !important;
+    }
+}

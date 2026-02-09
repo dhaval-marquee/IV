@@ -1,0 +1,17 @@
+body {
+    visibility: hidden;
+}
+
+.slider-left ul.vertical-menu>li:not(:first-of-type) {
+    display: none;
+}
+.slider-left ul.vertical-menu .shopByBrand1,
+.slider-left ul.vertical-menu > li.navmenu-id-womens,
+.slider-left ul.vertical-menu > li.navmenu-id-mens,
+.slider-left ul.vertical-menu > li.navmenu-id-unisex {
+    display: block !important;
+}
+
+.sidebar_iv .left-pt .tp-2-dec ul li {
+    font-weight: 600;
+}

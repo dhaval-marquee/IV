@@ -1,0 +1,2 @@
+// For Variant 2
+document.querySelector('body .button.primary.primary-color[role="button"]').textContent = 'Preview Order Details';

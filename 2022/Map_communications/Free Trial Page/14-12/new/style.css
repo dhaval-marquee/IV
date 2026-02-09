@@ -1,0 +1,329 @@
+.trialPage_test .header .last-col,
+.trialPage_test .why-choose-section h2,
+.trialPage_test #field_5_7,
+.trialPage_test #field_5_1 .gfield_label.gfield_label_before_complex,
+.trialPage_test #gform_5 label[for="input_5_1_3"],
+.trialPage_test #gform_5 label[for="input_5_1_6"],
+.trialPage_test #gform_5 label[for="input_5_2"],
+.trialPage_test #gform_5 label[for="input_5_3"],
+.trialPage_test #gform_5 label[for="input_5_4"],
+.trialPage_test .freeTrial,
+.trialPage_test #inner-header .social,
+.trialPage_test #logo .block-btn,
+.trialPage_test #inner-header #mobile-header,
+.trialPage_test .phone_icon,
+.trialPage_test .only_mob{
+display: none;
+}
+
+.trialPage_test .header{
+    height: auto;
+    background-color: #333e4b;
+}
+.trialPage_test .header #logo{
+    display: flex;
+    text-align: inherit;
+    align-items: center;
+}
+.trialPage_test .top-wrapper{
+    background: #00529C !important;
+}
+.trialPage_test .left_part,
+.trialPage_test #gform_wrapper_5{
+    width: 50%;
+}
+.trialPage_test .left_part{
+    max-width: 750px;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    padding-right: 30px;
+}
+.trialPage_test .left_part::after{
+    content: "";
+    background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/v1670414678/mapcommunications/Free_Trial_Page/Map_Desktop_Arrow.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 206px;
+    width: 406px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateX(50%) rotate(45deg);
+    margin-top: 50px;
+}
+
+.trialPage_test #gform_wrapper_5 {
+    background-color: #fff;
+    padding: 30px;
+}
+.trialPage_test .left_part h1{
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.trialPage_test .left_part h1+p,
+.trialPage_test .left_part h1+p+p{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.trialPage_test .top-banner-internal{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 160px 0 25px;
+}
+.trialPage_test .left_part ul{
+    margin: 0;
+    padding-left: 28px;
+}
+.trialPage_test .left_part ul li{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 12px;
+}
+.trialPage_test .left_part ul li:before{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: -26px;
+    vertical-align: middle;
+    font-family: fontello;
+    display: inline-block;
+    content: '\e800';
+    padding-right: 10px;
+    color: #40BD5E;
+}
+.trialPage_test #gform_5 .gform_footer,
+.trialPage_test #gform_5 .gform_footer+p{
+    text-align: left !important;
+}
+.trialPage_test #gform_5 .gform_footer+p{
+    font-weight: 600;
+    margin: 0;
+}
+.trialPage_test #gform_5 #field_5_4{
+    margin-top: 0;
+}
+.trialPage_test #gform_5 #field_5_4.gfield_error{
+    margin-top: 16px;
+}
+.trialPage_test #gform_5 #field_5_6,
+.trialPage_test #gform_5 #field_5_5{
+    width: 100% !important;
+}
+.trialPage_test #gform_5 #input_5_1_3_container,
+.trialPage_test #gform_5 #field_5_2,
+body.trialPage_test #gform_5 #field_5_4{
+    padding-right: 30px !important;
+}
+.trialPage_test #gform_fields_5 #field_5_1{
+    margin-top: 0px;
+}
+.trialPage_test #gform_5 #input_5_1_6_container{
+    padding-right: 0;
+}
+.trialPage_test #gform_5 .gform_footer input{
+    font-size: 20px;
+    background-color: #FD6508;
+    text-transform: inherit;
+}
+.trialPage_test .gform_legacy_markup_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]){
+    padding: 5px 8px;
+    margin-bottom: 10px !important;
+}
+.trialPage_test #gform_5 #field_5_2,
+.trialPage_test #gform_5 #field_5_3 {
+    margin-top: 0;
+}
+/* form error */
+.trialPage_test #gform_wrapper_5 div.validation_error{
+    padding: 16px 16px;
+}
+.trialPage_test .gform_validation_errors>h2.hide_summary{
+    position: relative;
+    padding-right: inherit;
+    padding-left: 10px;
+}
+.trialPage_test #gform_wrapper_5 .gform_validation_errors>h2::before{
+    position: absolute;
+    margin: inherit;
+    left: -10px;
+}
+.trialPage_test #gform_fields_5 #field_5_1.gfield_error input::-moz-placeholder,
+.trialPage_test #gform_fields_5 #field_5_2.gfield_error input::-moz-placeholder,
+.trialPage_test #gform_fields_5 #field_5_3.gfield_error input::-moz-placeholder,
+.trialPage_test #gform_fields_5 #field_5_4.gfield_error input::-moz-placeholder{
+Color: #790000;
+}
+.trialPage_test #gform_fields_5 #field_5_1.gfield_error input::-webkit-input-placeholder,
+.trialPage_test #gform_fields_5 #field_5_2.gfield_error input::-webkit-input-placeholder,
+.trialPage_test #gform_fields_5 #field_5_3.gfield_error input::-webkit-input-placeholder,
+.trialPage_test #gform_fields_5 #field_5_4.gfield_error input::-webkit-input-placeholder{
+Color: #790000;
+}
+.trialPage_test #gform_fields_5 #field_5_1.gfield_error input:-ms-input-placeholder,
+.trialPage_test #gform_fields_5 #field_5_2.gfield_error input:-ms-input-placeholder,
+.trialPage_test #gform_fields_5 #field_5_3.gfield_error input:-ms-input-placeholder,
+.trialPage_test #gform_fields_5 #field_5_4.gfield_error input:-ms-input-placeholder{
+Color: #790000;
+}
+.trialPage_test .top-banner-internal .gform_validation_errors>h2{
+    Color: #790000;
+}
+
+.trialPage_test #gform_5 .gfield_error #input_5_1_6_container{
+    padding-right: 16px;
+}
+
+@media (max-width: 1440.98px){
+    .trialPage_test .left_part h1 {
+        font-size: 40px;
+    }
+    .trialPage_test .left_part h1+p, .trialPage_test .left_part h1+p+p {
+        font-size: 26px;
+    }
+    .trialPage_test .left_part ul li {
+        font-size: 19px;
+    }
+    .trialPage_test .left_part {
+        max-width: 55%;
+        width: 100%;
+    }
+    .trialPage_test #gform_wrapper_5 {
+        max-width: 45%;
+        width: 100%;
+    }
+    .trialPage_test .left_part::after {
+        height: 176px;
+        width: 356px;
+    }
+}
+
+@media (max-width: 1029.98px){
+    .trialPage_test .header h4{
+        padding-top: 10px;
+        width: 100%;
+        text-align: left;
+    }
+    .trialPage_test .header h4 span{
+        margin-left: 10px !important;
+    }
+    .trialPage_test .top-banner-internal {
+        display: block;
+        padding: 134px 15px 25px;
+    }
+    .trialPage_test .left_part,
+    .trialPage_test #gform_wrapper_5{
+        max-width: 100%;
+        width: 100%;
+    }
+    .trialPage_test .left_part {
+        margin-bottom: 40px;
+    }
+    .trialPage_test .left_part::after{
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px){
+    .trialPage_test .only_des{
+        display: none;
+    }
+    .trialPage_test .header #logo a[href="https://www.mapcommunications.com"]{
+        margin-left: 18px;
+    }
+    .trialPage_test .top-banner-internal {
+        padding: 25px 8px;
+    }
+    .trialPage_test .left_part{
+        max-width: 375px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .trialPage_test .left_part ul{
+        max-width: 240px;
+        width: 100%;
+        text-align: inherit;
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+    .trialPage_test .left_part h1,
+    .trialPage_test .left_part p.only_mob{
+        text-align: center;
+    }
+    .trialPage_test .left_part h1{
+        font-size: 30px;
+    }
+    .trialPage_test #gform_wrapper_5 {
+        padding: 12px;
+    }
+    .trialPage_test #field_5_1 #input_5_1_3_container,
+    .trialPage_test #field_5_1 #input_5_1_6_container,
+    .trialPage_test #field_5_2,
+    .trialPage_test #field_5_4{
+        width: 100%;
+    }
+    .trialPage_test #gform_5 #field_5_1{
+        margin-top: 0;
+    }
+    .trialPage_test #field_5_2,
+    .trialPage_test #field_5_4{
+        padding: 0 !important;
+    }
+    .trialPage_test #gform_5 #field_5_1 #input_5_1_6_container{
+        margin-top: 16px;
+    }
+    .trialPage_test #gform_5 #field_5_2 #input_5_2{
+        margin-bottom: 0;
+    }
+    .trialPage_test #gform_5 #gform_fields_5 #field_5_1 #input_5_1_6_container{
+        padding-right: 16px;
+    }
+    .trialPage_test #gform_5 #input_5_1_3_container{
+        padding-right: 16px !important;
+    }
+.trialPage_test #gform_5 #field_5_2, 
+    body.trialPage_test #gform_5 #field_5_4{
+        padding: inherit !important;
+    }
+    .trialPage_test #inner-header #mobile-header,
+    .trialPage_test #logo .block-btn,
+    .trialPage_test .phone_icon,
+    .trialPage_test .only_mob{
+        display: block;
+    }
+    .trialPage_test #mobile-header+div{
+        display: flex;
+        align-items: center;
+    }
+    .trialPage_test .phone_icon img{
+        width: 100%;
+        max-width: 32px;
+        margin-top: 16px;
+
+    } 
+    .trialPage_test #gform_fields_5 #field_5_1.gfield_error,
+    .trialPage_test #gform_fields_5 #field_5_2.gfield_error,
+    .trialPage_test #gform_fields_5 #field_5_3.gfield_error,
+    .trialPage_test #gform_fields_5 #field_5_4.gfield_error{
+        max-width: inherit !important;
+    }
+    .trialPage_test #gform_fields_5 #field_5_4.gfield_error{
+        margin-top: 16px;
+    }
+}
+@media (max-width: 761.98px){
+    .trialPage_test #gform_5 #field_5_4.gfield_error{
+        margin-top: 32px;
+    }
+}
+@media (max-width: 640.98px){
+    .trialPage_test #gform_5 #input_5_1_3_container,
+    .trialPage_test #gform_5 #input_5_1_6_container{
+        padding-right: inherit !important;
+    }
+}

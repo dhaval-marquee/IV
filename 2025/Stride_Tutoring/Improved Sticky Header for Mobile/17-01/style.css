@@ -1,0 +1,70 @@
+@media (max-width:999px) {
+    .iv-try-us #header-outer {
+        padding: 15px 0;
+    }
+    .iv-try-us #top .container .row {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .iv-try-us #top .container .row::before,
+    .iv-try-us #top .container .row::after {
+        display: none;
+    }
+    body[data-slide-out-widget-area=true].iv-try-us #top .col.span_3 {
+        width: auto;
+    }
+    .iv-try-us #top .span_9 {
+        position: inherit !important;
+    }
+    .iv-try-us #top .span_9 > .slide-out-widget-area-toggle {
+        padding-left: 0;
+    }
+    .iv-try-us #top .span_9 > .slide-out-widget-area-toggle > div {
+        top: 0;
+        transform: none;
+    }
+    .iv-try-us #slide-out-widget-area.slide-out-from-right-hover {
+        left: 0;
+        right: inherit;
+        transform: translate3d(-341px,0,0);
+    }
+    .iv-try-us #slide-out-widget-area.slide-out-from-right-hover:not(.open) .inner {
+        transform: translateX(-50px);
+    }
+    .iv-try-us .slide-out-hover-icon-effect {
+        right: inherit !important;
+        left: 18px;
+    }
+    .iv-try-us .get-started-button {
+        background-color: #0035F0;
+        border: 2px solid #0035F0;
+        border-radius: 100px;
+        display: inline-block;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1;
+        padding: 12px 22px;
+        transition: background-color ease 0.3s, box-shadow ease 0.3s, padding ease 0.2s, color ease 0.3s;
+    }
+    .iv-try-us .get-started-button:hover {
+        background-color: transparent;
+        color: #0035F0;
+    }
+}
+@media (max-width:420px) {
+    .iv-try-us #top #logo img {
+        height: 25px !important;
+    }
+    .iv-try-us .get-started-button {
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+}
+@media (max-width:575px) and (min-width:421px) {
+    .iv-try-us #top #logo img {
+        height: 30px !important;
+    }
+}

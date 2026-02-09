@@ -1,0 +1,4 @@
+.iv-remove-cta product-list product-card button[aria-controls*="product-quick"],
+.iv-remove-cta product-list product-card button[type="submit"] {
+    display: none;
+}

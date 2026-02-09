@@ -1,0 +1,20 @@
+.iv_list .iv-benefits-list {
+    padding-left: 25px;
+    margin-top: 0;
+}
+.iv_list .iv-benefits-list li {
+    margin-bottom: 0 !important;
+}
+.iv_list .iv-benefits-list li strong {
+    color: #ff4a00;
+}
+.iv_list .fusion-text.fusion-text-1 {
+    display: flex;
+    flex-direction: column;
+}
+.iv_list .fusion-text.fusion-text-1 p:nth-of-type(2) {
+    order: 1;
+}
+.iv_list .iv-benefits-list li::marker {
+    font-size: 27px;
+}

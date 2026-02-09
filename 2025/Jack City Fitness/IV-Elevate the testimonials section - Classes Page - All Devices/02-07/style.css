@@ -1,0 +1,15 @@
+.iv-classesPage .testimonial-module-2 {
+    margin-top: 0;
+}
+.iv-classesPage section.testimonial-module-2 h2 {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+@media screen and (max-width: 600.98px) {
+    .iv-classesPage section.testimonial-module-2 h2 {
+        width: 100%;
+        max-width: 254px;
+        margin: 0 auto 20px;
+    }
+}

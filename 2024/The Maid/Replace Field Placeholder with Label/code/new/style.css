@@ -1,0 +1,35 @@
+.location-header .gform_wrapper.gravity-theme .gfield input[type='text']::-moz-placeholder {
+    opacity: 0;
+}
+
+.location-header .gform_wrapper.gravity-theme .gfield input[type='text']:-moz-placeholder {
+    opacity: 0;
+}
+
+.location-header .gform_wrapper.gravity-theme .gfield input[type='text']::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.location-header .gform_wrapper.gravity-theme .gfield input[type='text']:-ms-input-placeholder {
+    opacity: 0;
+}
+
+.maid_iv .location-header form .gfield_label {
+    display: block !important; 
+    text-transform: capitalize;
+}
+.maid_iv .location-header form .gfield_label > span,
+.maid_iv .location-header a.tmi-franchise-phone1  {
+    display: none !important; 
+}
+.maid_iv .location-header input#gform_submit_button_9 {
+    margin: 0 auto;
+}
+.maid_iv #location-hero p.location-header-title {
+    text-align: center;
+}
+@media(max-width:424.98px) {
+    .maid_iv .location-header input#gform_submit_button_9 {
+        font-size: 16px;
+    }
+}

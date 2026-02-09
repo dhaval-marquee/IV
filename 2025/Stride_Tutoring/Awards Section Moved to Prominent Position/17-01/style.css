@@ -1,0 +1,37 @@
+.awards_iv .section4,.awards_iv .section5,
+.awards_iv .section6,.awards_iv .section7 .viewport-desktop{
+    background-color: #f0f2f6;
+}
+
+.awards_iv .btn-wrap {
+    z-index: 99;
+    position: relative;
+    padding-top: 80px;
+
+}
+.awards_iv .btn-wrap a {
+    display: flex;
+    width: 100%;
+    border-radius: 50px;
+    max-width: 250px;
+    background-color: #0035F0;
+    border: 1px solid transparent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 12px;
+}
+.awards_iv .btn-wrap a:hover {
+    border: 1px solid #0035F0;
+    background-color: transparent;
+}
+
+.awards_iv .btn-wrap a span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+.awards_iv .btn-wrap a:hover span {
+    color: #0035F0;
+}

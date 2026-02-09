@@ -1,0 +1,136 @@
+.iv-info .iv-info-sec{
+    background-color: #171514;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iv-info .iv-info-inner{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 40px 0;
+    align-items: center;
+}
+
+.iv-info-inner .iv-info-left {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.iv-info-inner .iv-info-right {
+    width: 40%;
+}
+
+.iv-info .iv-button{
+    border: 2px solid #EE490D;
+    padding: 6px 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #EE490D;
+    transition: .4s;
+    
+}
+
+.iv-info .iv-button:hover{
+    background-color: #4e008e;
+    border-color: #4e008e;
+}
+
+.iv-info-inner .iv-info-left img {
+    margin-right: 30px;
+}
+
+.iv-info-inner .iv-info-left span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.iv-info-right span {
+    font-size: 18px;
+    margin-left: 12px;
+}
+.iv-info-right span a{
+    transition: 4s;
+}
+.iv-info-right span a:hover{
+    color: #EE490D;
+}
+
+@media screen and (max-width: 1420.98px) {
+    .iv-info-inner .iv-info-left {
+        width: 50%;
+    }
+    .iv-info-inner .iv-info-right {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .iv-info-inner .iv-info-left,
+    .iv-info-inner .iv-info-right{
+        width: 50%;
+    }
+    .iv-info-inner .iv-info-left img{
+        margin-right: 20px;
+    }
+    .iv-info-inner .iv-info-left span{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    #container .iv-info-inner .iv-info-left img {
+        margin-right: 15px;
+        max-width: 60px;
+        width: 100%;
+    }
+    .iv-info-inner .iv-info-left span {
+        font-size: 16px;
+    }
+    .iv-info .iv-button {
+        font-size: 16px;
+        padding: 6px 25px;
+    }
+    .iv-info-right span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .iv-info .iv-info-inner {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .iv-info-inner .iv-info-left {
+        margin-bottom: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #container .iv-info-inner .iv-info-left img {
+        margin: 0 0 10px 0;
+        max-width: 60px;
+        width: 100%;
+    }
+    .iv-info-inner .iv-info-left,
+    .iv-info-inner .iv-info-right{
+        width: 100%;
+    }
+    .iv-info-inner .iv-info-right {
+        display: flex;
+        flex-direction: column;
+    }
+    .iv-info .iv-button {
+        padding: 7px 40px;
+        font-size: 14px;
+        width: max-content;
+        margin: 0 auto 8px;
+        font-weight: bold;
+    }
+    .iv-info-right span {
+        margin: 0;
+    }
+}

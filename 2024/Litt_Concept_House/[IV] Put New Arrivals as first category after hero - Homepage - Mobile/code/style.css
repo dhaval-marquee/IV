@@ -1,0 +1,54 @@
+body .featured-collection__button-container a {
+    background-color: #eab94f !important;
+    color: #fff !important;
+    border-color: #eab94f !important;
+    max-width: 270px !important;
+    width: 100% !important;
+}
+
+body .featured-collection__button-container p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+    body .slider-gallery+.is-hidden-desktop-only {
+        display: none;
+    }
+
+    body .slider-gallery,
+    body .featured-collection-section .flickity-prev-next-button,
+    body .block__featured-collection .flickity-prev-next-button {
+        display: block !important;
+    }
+
+    body .featured-collection-section {
+        padding-top: 30px !important;
+        padding-bottom: 60px !important;
+    }
+
+    body .featured-collection-section .featured-collection__button-container {
+        margin-top: 20px !important;
+    }
+}
+
+/* control issue fix */
+@media only screen and (max-width: 480px) {
+        
+    body .mobile-text--below-media .slideshow-classic .caption {
+        transform: translateY(-50%);
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 100%;
+        padding: 1%;
+        pointer-events: none;
+    }
+
+    body .slideshow-section .flickity-viewport .image-element__wrap img {
+        width: 100vh;
+        height: 100vh;
+        object-fit: cover !important;
+    }
+}
+/* control issue fix over */

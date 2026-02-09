@@ -1,0 +1,100 @@
+.quote_form_iv #form-modal .form-modal-main {
+    padding: 30px 40px;
+    height: fit-content;
+}
+.quote_form_iv #form-modal .form-modal-title {
+    border-bottom: none !important;
+    font-family: Gotham !important;
+    font-weight: normal !important;
+    padding-bottom: 0 !important;
+    text-align: center;
+}
+.quote_form_iv #form-modal .form-modal-desc {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.quote_form_iv #form-modal .contact-form label {
+    display: block;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+.quote_form_iv #form-modal .form-required label:after,
+.quote_form_iv #form-modal .contact-form fieldset .sb-formfield--message {
+    display: none;
+}
+.quote_form_iv #form-modal .contact-form fieldset p {
+    width: 100%;
+}
+.quote_form_iv #form-modal *:focus-visible {
+    outline: none;
+}
+.quote_form_iv #form-modal .contact-form input[type="text"],
+.quote_form_iv #form-modal .contact-form input[type="email"],
+.quote_form_iv #form-modal .contact-form input[type="tel"],
+.quote_form_iv #form-modal .contact-form select,
+.quote_form_iv #form-modal .contact-form textarea {
+    background-color: #FFFFFF !important;
+    border-style: solid !important;
+    border-radius: 4px;
+    color: #121212 !important;
+}
+.quote_form_iv #form-modal .contact-form input[type="text"]:focus,
+.quote_form_iv #form-modal .contact-form input[type="email"]:focus,
+.quote_form_iv #form-modal .contact-form input[type="tel"]:focus,
+.quote_form_iv #form-modal .contact-form select:focus,
+.quote_form_iv #form-modal .contact-form textarea:focus {
+    border-color: #BA006E !important;
+}
+.quote_form_iv #form-modal .contact-form *::-webkit-input-placeholder {
+    color: white;
+}
+.quote_form_iv #form-modal .contact-form *::-moz-placeholder {
+    color: white;
+}
+.quote_form_iv #form-modal .contact-form *:-ms-input-placeholder {
+    color: white;
+}
+.quote_form_iv #form-modal .contact-form *:-moz-placeholder {
+    color: white;
+}
+.quote_form_iv #form-modal .submit {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 240px;
+    position: relative;
+    text-align: center;
+}
+.quote_form_iv #form-modal .submit::after {
+    content: 'Request A Quote';
+    font-size: 20px;
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+    width: 100%;
+}
+.quote_form_iv #form-modal .submit:hover::after {
+    color: #FF1EA3;
+}
+.quote_form_iv #form-modal input[type="submit"] {
+    border-radius: 4px;
+    font-size: 0;
+    font-weight: normal;
+    max-width: 240px;
+    text-transform: capitalize;
+    height: 46px;
+    width: 100%;
+}
+.quote_form_iv #form-modal input[type="submit"][disabled*="disabled"] {
+    opacity: 0.8;
+    filter: inherit;
+}
+
+@media screen and (max-width: 500px) {
+    .quote_form_iv #form-modal .form-modal-main {
+        padding: 30px 20px;
+    }
+}

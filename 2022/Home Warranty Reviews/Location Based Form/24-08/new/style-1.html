@@ -1,0 +1,552 @@
+<style>
+    header {
+        display: block !important;
+    }
+
+    .new_generic_popup .form-control::placeholder {
+        font-size: 14px;
+    }
+
+    #price_estimate_popup {
+        display: block !important;
+    }
+
+    .price_estimate_form_popup .modal {
+        position: relative !important;
+        z-index: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: white;
+        display: flex;
+    }
+
+    .price_estimate_form_popup .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s;
+        border-radius: 0.3rem;
+    }
+
+    @-webkit-keyframes animatetop {
+        from {
+            top: -300px;
+            opacity: 0
+        }
+
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    @keyframes animatetop {
+        from {
+            top: -300px;
+            opacity: 0
+        }
+
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+
+    .price_estimate_form_popup .close {
+        color: lightgrey;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .price_estimate_form_popup .close:hover,
+    .close:focus {
+        color: lightgrey;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .price_estimate_form_popup .modal-header {
+        padding: 2px 16px 50px;
+    }
+
+    .price_estimate_form_popup .modal-footer {
+        padding: 2px 16px;
+        background-color: #5cb85c;
+        color: white;
+    }
+
+    .price_estimate_form_popup #modal-window {
+        display: block;
+    }
+
+    .price_estimate_form_popup .modal-content {
+        width: 80%;
+        border-radius: 0.3rem;
+    }
+
+    .price_estimate_form_popup .modal-header {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 1rem;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    /*style start*/
+    @media (max-width: 575px) {
+        .price_estimate_form_popup .modal-content {
+            width: 99%;
+        }
+
+        .generic-popupright-bnner {
+
+            padding: 10px;
+            background-size: 100% 100%;
+            background-color: #003049 !important;
+        }
+
+        .generic-popupright-bnner_bloc {
+            margin: 0px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .price_estimate_form_popup .modal-content {
+            width: 68%;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1199px) {
+        .price_estimate_form_popup .modal-content {
+            width: 90%;
+        }
+
+        .popup_companyLogos img {
+            width: 54px !important;
+            margin-right: 0px !important;
+        }
+    }
+
+    @media (min-width: 1280px) and (max-width: 1360px) {
+        .price_estimate_form_popup .modal-content {
+            width: 88%;
+        }
+    }
+
+    @media (min-width: 1360px) and (max-width: 1450px) {
+        .price_estimate_form_popup .modal-content {
+            width: 80%;
+        }
+    }
+
+    @media (max-width:575px) {
+        .price_estimate_form_popup .modal-content {
+            width: 84%;
+        }
+    }
+
+    /*trt*/
+    .generic-popupleft-bnner h1 {
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+
+    .generic-popupleft-bnner .heading_popup {
+        font-weight: 700;
+        font-size: 34px !important;
+        color: #545454;
+    }
+
+    .generic-popuplogo {
+        width: 150px;
+    }
+
+    .generic-popupright-bnner {
+        background-color: #FFF;
+        padding: 20px;
+    }
+
+    .generic-popupright-bnner .error_msg {
+        display: none;
+        font-size: 14px;
+        height: 0px;
+        color: red;
+    }
+
+    .generic-popupright-bnner .form-block input {
+        border: 1px solid #B0B0B0;
+        border-radius: 4px;
+        padding: 3px 10px;
+        font-size: 16px;
+    }
+
+    .generic-popupright-bnner .get_quote_btn {
+        padding: 8px 20px;
+        font-weight: 600;
+        background: url('https://www.homewarrantyreviews.com/wp-content/themes/HWR-2020/assets/images/button_img_service-plus_popup.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /*    background: transparent linear-gradient( 
+       59deg, #FF5E17 0%, #FFA017 100%) 0% 0% no-repeat padding-box;*/
+    }
+
+    .generic-popupright-bnner button {
+        background: transparent !important;
+    }
+
+    .generic-popupheading {
+        /* color: #FFFFFF;
+        text-transform: capitalize;
+        font-weight: 700;
+        text-align: left;
+        line-height: 1.5; */
+        display: none;
+    }
+
+    .generic-popupright-bnner .thp_tcpa {
+        margin-top: 2px;
+        font-size: 10px;
+        text-align: left;
+        line-height: 1.5;
+        color: #DFDFDF;
+    }
+
+    #price_estimate_popup .generic-popupright-bnner .right_icon {
+        width: 17px;
+        position: absolute;
+        right: 23px;
+        top: 9px;
+        display: none;
+    }
+
+    .generic-popupright-bnner .form-block {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .generic-popupright-bnner .form_banner_phone{
+        display: none;
+    }
+    @media (max-width: 767px) {
+        .left-arrow {
+            left: 0 !important;
+        }
+
+        .generic-popupleft-bnner h1 {
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .generic-popupleft-bnner .heading_popup {
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .review_display {
+            padding: 0px 30px;
+        }
+
+        .generic-popupright-bnner_bloc {
+            flex-direction: column-reverse;
+            background-color: #FFF;
+        }
+
+        .generic-popupleft-bnner {
+            background-color: #fff;
+        }
+
+        /* .generic-popupheading {
+            font-size: 15px;
+        } */
+
+        .generic-popuppopup {
+            height: 84vh;
+            overflow-y: scroll;
+        }
+
+        .generic-popupright-bnner {
+            padding: 10px !important;
+        }
+
+        .generic-popupmodal .modal-content {
+            overflow-x: hidden;
+        }
+
+        .generic-popupright-bnner {
+            background-image: url('https://www.homewarrantyreviews.com/wp-content/themes/HWR-2020/assets/images/generic_popup_bnner_new.png');
+            padding: 10px;
+            background-size: 100% 100%;
+            background-color: #003049;
+        }
+
+        .popup_companyLogos img {
+            width: 72px !important;
+            margin-right: 0px !important;
+        }
+
+        .generic-popupleft-bnner {
+            padding: 10px !important;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width:991px) {
+        .generic-popupright-bnner_bloc {
+            flex-direction: column-reverse;
+            background-color: #FFF;
+        }
+
+        .generic-popupright-bnner {
+            background-image: url('https://www.homewarrantyreviews.com/wp-content/themes/HWR-2020/assets/images/generic_popup_bnner_new.png');
+            padding: 37px !important;
+            background-size: 100% 100%;
+            background-color: #003049;
+        }
+
+        .generic-popupmodal .modal-content {
+            overflow-x: hidden;
+        }
+
+        .generic-popupleft-bnner {
+            background-color: #fff;
+        }
+
+        .generic-popuppopup {
+            height: 84vh;
+            overflow-y: scroll;
+        }
+
+        .generic-popupleft-bnner {
+            padding: 35px !important;
+        }
+    }
+
+    .generic-popupright-bnner {
+        background-image: url('https://www.homewarrantyreviews.com/wp-content/themes/HWR-2020/assets/images/generic_popup_bnner_new.png') !important;
+        padding: 19px 3% 20px 8%;
+        background-size: 100% 100%;
+    }
+
+    .generic-popupright-bnner .form-control::placeholder {
+        font-style: italic;
+    }
+
+    .generic-popupleft-bnner {
+        padding: 40px 0px 0px 40px;
+    }
+
+    .generic-popup_list ul {
+        list-style: none;
+        padding-left: 20px;
+        margin: 0px;
+    }
+
+    .generic-popup_list ul li {
+        padding-left: 1em;
+        text-indent: -30px;
+        line-height: 2;
+        color: #595959;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .generic-popup_list ul li::before {
+        content: "";
+        color: #47b972;
+        font-size: 17px;
+        font-family: FontAwesome !important;
+        vertical-align: middle;
+        padding-right: 30px;
+        background-image: url('https://www.homewarrantyreviews.com/wp-content/themes/HWR-2020/assets/images/right_mark_popup.svg');
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+    }
+
+    .Offer_bloc {
+        font-style: italic;
+        font-size: 12px;
+        color: #909090;
+    }
+
+    .popup_companyLogos img {
+        width: 90px;
+        margin-right: 5px;
+    }
+
+    .review_popup_content,
+    .review_content {
+        color: #707070;
+        font-size: 12px;
+    }
+
+    .review_popup_peron_icon {
+        background-color: #003049;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .review_popup_peron_icon span {
+        position: absolute;
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+    }
+
+    .review_popup_name {
+        color: #707070;
+        font-size: 13px;
+    }
+
+    .Secured_bloc {
+        color: white;
+        font-size: 13px;
+    }
+
+    .Secured_bloc span {
+        color: #FA5E07;
+        font-size: 13px;
+    }
+
+    .review_section {
+        display: none;
+    }
+
+    .left-arrow {
+        display: none;
+    }
+
+    .left-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translate(0px, -50%);
+        left: -26px;
+    }
+
+    .left-arrow svg {
+        transform: rotate(180deg);
+        font-size: 3px;
+        width: 20px;
+        cursor: pointer;
+        color: grey;
+        fill: grey;
+    }
+
+    .right-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translate(0%, -60%);
+        right: 0;
+    }
+
+    .right-arrow svg {
+        fill: #2C829B;
+        font-size: 3px;
+        width: 20px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .review_display {
+        display: block;
+    }
+
+    .quote_content_popup {
+        font-size: 10px;
+        font-weight: 500 !important;
+        text-align: left;
+        color: #DFDFDF;
+        line-height: 1.5;
+        margin-top: 13px;
+    }
+
+    .disclaimer_block {
+        display: none;
+    }
+
+    .col-block {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    @media (min-width: 768px) {
+        .Secured_bloc_inner{
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .col-block {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 0;
+            padding-left: 0px;
+            overflow-x: hidden;
+        }
+
+    }
+
+    @media (min-width:1300px) {
+        .generic-popupright-bnner .form-block {
+            margin-bottom: 28px !important;
+        }
+
+        .generic-popupright-bnner {
+            padding: 30px 8% 30px 11% !important;
+        }
+
+        .col-block {
+            padding-left: 3%;
+        }
+    }
+
+    @media (min-width:1300px) {
+        .col-block {
+            padding-left: 4%;
+        }
+
+        .generic-popupright-bnner .form-block input {
+            padding: 7px 10px !important;
+        }
+
+        .review_width {
+            width: 74%;
+        }
+
+        .right-arrow {
+            right: -28px !important;
+        }
+
+        .generic-popupleft-bnner {
+            padding: 46px 0px 0px 45px !important;
+        }
+
+        .page-footer {}
+
+        .generic-popupright-bnner {
+            background-size: 100% 101% !important;
+        }
+
+    }
+</style>

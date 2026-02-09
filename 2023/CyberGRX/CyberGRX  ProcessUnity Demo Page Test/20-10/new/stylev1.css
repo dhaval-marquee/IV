@@ -1,0 +1,82 @@
+@media (min-width: 1025px) { 
+	.processUnityTest .hero,
+	.processUnityTest .pu-form-container {
+		display: none;
+	}
+	.processUnityTest .hero_section {
+		padding: 50px 0 100px;
+	}
+	.processUnityTest .hero_section .container {
+		max-width: 1580px;
+		padding: 0 50px;
+	}
+	.processUnityTest .hero_section .part_wrapper {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.processUnityTest .hero_section .part_wrapper .left_part {
+		width: 50%;
+		max-width: 600px;
+		margin-right: 30px;
+	}
+	.processUnityTest .hero_section .part_wrapper .left_part h1 {
+		font-size: 48px;
+	}
+	.processUnityTest .hero_section .part_wrapper .left_part h3 {
+		font-size: 20px;
+		font-weight: 700;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.processUnityTest .hero_section .part_wrapper .left_part ul {
+		padding-left: 35px;
+	}
+	.processUnityTest .hero_section .part_wrapper .left_part ul li {
+		position: relative;
+		font-size: 16px;
+		padding-bottom: 16px;
+	}
+	.processUnityTest .hero_section .part_wrapper .left_part ul li::before{
+		content: "";
+		background-image: url('//res.cloudinary.com/spiralyze/image/upload/v1688049706/bamboohr/2002/checkmark.svg');
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-left: -34px;
+	}
+	.processUnityTest .hero_section .part_wrapper .right_part {
+		width: 50%;
+		max-width: 630px;
+	}
+	.processUnityTest .hero_section .part_wrapper .right_part .form_wrapper h2 {
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 24px;
+	}
+	.processUnityTest .hero_section .part_wrapper .right_part .form_wrapper .pu-form {
+		background-color: rgb(233,233,233);
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 60px;
+	}
+	.processUnityTest .mktoForm .mktoFormRow .mktoFormCol .mktoFieldWrap input,
+	.processUnityTest .pu-form textarea ,
+	.processUnityTest .pu-form__dark input[type=text]:not(#adminbar-search):not(#filters__search){
+		border-color: #63b345!important;
+		background-color: #FFF!important;
+		-webkit-box-shadow: 0 2px 0 0 #63b345!important;
+		box-shadow: 0 2px 0 0 #63b345!important;
+	}
+	.processUnityTest .mktoForm .mktoButtonRow,
+	.processUnityTest .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+		width: 100%;
+	}
+	.processUnityTest .mktoForm .mktoFormRow .mktoFormCol .mktoFieldWrap input[ type="checkbox"] {
+		box-shadow: inherit !important;
+	}
+}

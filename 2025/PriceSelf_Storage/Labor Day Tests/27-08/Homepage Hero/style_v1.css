@@ -1,0 +1,10 @@
+.homepageIV .labor-day-sale-title, 
+.homepageIV .labor-day-sale-title + div + div + a + div {
+    display: block;
+    width: 100%;
+}
+@media only screen and (max-width: 991px) {
+    .homepageIV .pss-hero__promotion-logo .pss-row2 > div {
+        font-size: 2rem;
+    }
+}

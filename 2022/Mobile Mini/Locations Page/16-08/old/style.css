@@ -1,0 +1,187 @@
+@media (min-width: 1025px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        visibility: hidden;
+    }
+    img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+
+    /* Add your test CSS here */
+    .location_IV .content_wrapper .location-main-block .col-md-4 label,
+    .location_IV .content_wrapper .location-main-block p + a.paragraph_link,
+    .location_IV .content_wrapper .location-block,
+    .location_IV .location-content .table-wrap,
+    .location_IV .reserve-now-container, 
+    .location_IV #get-a-quote-fly-out,
+    .location_IV .location-content .table-wrap + hr {
+        display: none;
+    }
+
+    .location_IV .live-chat:before {
+        content: '\f075';
+        font-family: FontAwesome;
+        font-size: 24px;
+    }
+    .location_IV .live-chat {
+        font-size: 0;
+    }
+    .location_IV .floating-blocks .floating-block.chat-block {
+        border-radius: 50%;
+        background-color: #00205b;
+        color: #00c1d5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+    }
+    .location_IV .content_wrapper .location-main-block {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+    .location_IV .content_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .location_IV .content_wrapper .location-main-block .call_wrapper:before {
+        content: '';
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/v1660374809/MobileMini/Locations_Page/MM_Phone_Icons.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    .location_IV .content_wrapper > div,
+    .location_IV .content_wrapper .location-main-block > div {
+        max-width: 100%;
+        width: 100%;
+        float: none;
+    }
+    .location_IV .content_wrapper h1 {
+        font-size: 44px;
+    }
+    .location_IV .page_content .content_wrapper h1 + h3 {
+        margin-top: 10px;
+    }
+    .location_IV .content_wrapper .location-main-block .col-md-4 {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .location_IV .content_wrapper .location-main-block .call_wrapper {
+        max-width: 30%;
+        width: 100%;
+    }
+    .location_IV .content_wrapper .location-main-block .call_wrapper a.paragraph_link {
+        text-decoration: none;
+        color: #337ab7;
+    }
+    .location_IV .content_wrapper .location-main-block .call_wrapper a.paragraph_link:hover {
+        color: #00205b;
+    }
+    .location_IV .content_wrapper .location-main-block .call_wrapper:first-of-type:after,
+    .location_IV .content_wrapper .location-main-block .call_wrapper:last-of-type:after {
+        font-weight: 500;
+    }
+    .location_IV .content_wrapper .location-main-block .call_wrapper:first-of-type:after {
+        content: '(Storage)';
+    }
+    .location_IV .content_wrapper .location-main-block .call_wrapper:last-of-type:after {
+        content: '(Tank and Pump)';
+    }
+    .location_IV .content_wrapper .location-main-block .col-md-8 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .location_IV .content_wrapper .location-main-block .field--type-geolocation {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 70%;
+        width: 100%;
+    }
+    .location_IV .content_wrapper .address_time_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .location_IV .content_wrapper .address_time_wrapper p.address,
+    .page_content .content_wrapper .address_time_wrapper .hours_operation_wrapper h3,
+    .location_IV .content_wrapper .location-main-block .locations-right-block h3 {
+        margin-top: 0;
+    }
+    .location_IV .page_content .content_wrapper .address_time_wrapper .hours_operation_wrapper {
+        margin-top: 30px;
+    }
+    .location_IV .page_content .content_wrapper .hero_button_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 525px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .location_IV .page_content .content_wrapper .hero_button_wrapper .button {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        max-width: 47.5%;
+        width: 100%;
+        color: #FFFFFF;
+        padding: 15px 50px;
+        margin: 0;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    .location_IV .page_content .content_wrapper .hero_button_wrapper .button:hover {
+        opacity: 0.8;
+    }
+    .location_IV .page_content .content_wrapper .hero_button_wrapper .button_orange {
+        background-color: #FF5000 !important;
+    }
+    .location_IV .page_content .content_wrapper .hero_button_wrapper .button_tile {
+        background-color: #00c1d5;
+    }
+    .location_IV .content_wrapper .location-main-block .locations-right-block {
+        padding-top: 0;
+        margin-top: 0;
+        border-top: 0;
+    }
+    .location_IV .location-content .list_items {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        list-style: none;
+        grid-template-rows: repeat(4, auto);
+        grid-auto-flow: column;
+        border-bottom: 1px solid #cec6be;
+        padding-left: 0;
+        padding-bottom: 50px;
+        margin: 10px -15px 0;
+    }
+    .location_IV .location-content .list_items li {
+        padding: 0 15px;
+    }
+
+    .location_IV .location-content .field__item .field--name-field-video-slide {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+    .location_IV .geolocation-map-wrapper {
+        max-width: 60%;
+        width: 100%;
+    }
+    .location_IV .geolocation-map-wrapper .geolocation-map-container {
+        max-width: 100%;
+    }
+}

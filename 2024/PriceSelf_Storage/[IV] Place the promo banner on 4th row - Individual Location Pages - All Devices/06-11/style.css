@@ -1,0 +1,67 @@
+.bannerWrapper .pss-promo-box {
+    background-color: #0A1F8F;
+    height: auto;
+    padding: 20px;
+}
+#MainContent_PromoBannerControl_pnlPromo .pss-promo-box {
+    height: 100%;
+    min-height: 50px;
+}
+
+.bannerWrapper .pss-promo-box__text-part3 > span {
+    color: #FC7F88;
+}
+.bannerWrapper .pss-hero__promotion-disclaimer-internal-pages svg {
+    fill: #FC7F88;
+}
+.bannerWrapper .pss-promo-box .pss-promo-box__text-part1,
+.bannerWrapper .pss-promo-box__text-part3 {
+    color: #fff;
+}
+.bannerWrapper .pss-promo-box svg.pss-promo-box__double-chevron-right {
+    fill: #fff;
+}
+
+@media (min-width: 992px) {
+    .bannerWrapper .pss-promo-box {
+        border-top: none;
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+
+    .bannerWrapper .pss-hero__promotion-disclaimer-internal-pages {
+        margin-top: 0;
+        margin-right: 5px;
+    }
+    .bannerWrapper .pss-hero__promotion-disclaimer-internal-pages svg {
+        width: 10px;
+        height: 10px;
+    }
+    .bannerWrapper .pss-promo-box__text-part3 {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        margin-left: 50px;
+    }
+    .bannerWrapper .pss-promo-box__text-part3 > span {
+        width: 70%;
+    }
+}
+
+@media (max-width: 991px) {
+    .bannerWrapper .pss-hero__promotion-disclaimer-internal-pages {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pss-promo-box__text-part3 {
+        width: 150px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    
+    .pss-promo-box__text-part3 .pss-font-primary-eb {
+        font-size: 16px;
+    }
+}

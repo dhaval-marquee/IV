@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    visibility: hidden;
+}
+img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/* Add your test CSS here */
+
+body.pricing_packages:not(.template-slider) #Header {
+    min-height: auto;
+}
+.pricing_packages #Content {
+    padding-top: 0;
+}
+.pricing_packages .hero_wrapper {
+    background-color: #00AAED;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.pricing_packages .hero_wrapper h1 {
+    font-size: 54px;
+    line-height: normal;
+    font-family: 'Roboto';
+    color: #fff;
+}
+.pricing_packages .hero_wrapper h3 {
+    font-family: 'Roboto';
+    color: #fff;
+    line-height: normal;
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+.pricing_packages .product_1 .column_visual {
+    display: none;
+}
+.pricing_packages .sections_group .entry-content {
+    background-color: #F2F2F2;
+}
+.product_wrapper {
+    padding: 100px 0;
+}
+.product_wrapper * {
+    box-sizing: border-box;
+}
+.product_wrapper .product_iv {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.product_wrapper .product_iv .image_wrapper {
+    max-width: 200px;
+    width: 100%;
+}
+.product_wrapper .product_iv .product_content {
+    display: flex;
+    align-items: flex-start;
+    max-width: calc(100% - 200px);
+    width: 100%;
+    height: 100%;
+}
+.product_wrapper .product_iv .product_content > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+.product_wrapper .product_iv .product_content ul {
+    max-height: 260px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+.product_wrapper .product_iv p {
+    display: none;
+}
+.product_wrapper .product_iv .button {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #1B9D2C !important;
+    transition: all 0.3s ease-in-out 0s;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 0 0 0 auto;
+}
+.product_wrapper .product_iv .button:hover {
+    background-color: #148924 !important;
+}
+.product_wrapper .product_iv .button .button_icon {
+    display: none;
+}
+.product_wrapper .product_iv .button .button_label {
+    margin-right: 0;
+}

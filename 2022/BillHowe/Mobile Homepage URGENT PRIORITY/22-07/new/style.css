@@ -1,0 +1,177 @@
+@media (max-width: 767.98px) {
+    body {
+        visibility: hidden;
+    }
+    .mobile_redesign_test .acsb-trigger.acsb-trigger-position-x-left.acsb-mobile,
+    .mobile_redesign_test nav.sticky-tools ul li:nth-of-type(1),
+    .mobile_redesign_test nav.sticky-tools ul li a:before {
+        display: none !important;
+    }
+
+    /* header */
+    .mobile_redesign_test header .container {
+        margin-top: 0 !important;
+    }
+    .mobile_redesign_test header .container .site-logo {
+        filter: inherit;
+    }
+    .mobile_redesign_test a.head.call-us {
+        display: block;
+        font-size: 24px !important;
+        color: #fff;
+        background-color: inherit;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 115px;
+        margin-bottom: 24px;
+        padding: 0.5rem 1.5rem;
+    }
+    .mobile_redesign_test a.head.call-us:before {
+        width: 20px;
+        height: 20px;
+        -webkit-transform: rotate(269deg);
+        transform: rotate(269deg);
+    }
+
+    /* header over */
+    .mobile_redesign_test section.hero {
+        padding-bottom: 60px;
+        margin-bottom: 0;
+    }
+    .mobile_redesign_test section.hero:after {
+        background: linear-gradient(0deg, rgba(36,49,105,0.14656301973914565) 0%, rgba(255,255,255,1) 100%) !important;
+        opacity: 1;
+    }
+    .mobile_redesign_test section.hero .the-content {
+        height: auto;
+        background-image: inherit !important;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .mobile_redesign_test section.hero .the-content h2 {
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: normal;
+        margin-bottom: 20px;
+    }
+    .mobile_redesign_test section.hero .btn.mobile-only {
+        font-weight: bold;
+        border-radius: 8px;
+        max-width: 310px;
+        display: block;
+        box-shadow: 0 7px 14px -7px #000;
+        padding: 15px;
+        margin: 0px auto;
+    }
+    .mobile_redesign_test section.hero .the-content h1,
+    .mobile_redesign_test section.hero .the-content h2,
+    .mobile_redesign_test section.hero .the-content div.title {
+        text-align: center;
+    }
+    .mobile_redesign_test section.hero .the-content p {
+        max-width: 245px;
+        font-size: 25px !important;
+        font-weight: 700;
+        line-height: 32px !important;
+        color: #2f3690 !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* The content over*/
+    .mobile_redesign_test footer,
+    .mobile_redesign_test #breadcrumbs,
+    .mobile_redesign_test main> :not(.hero):not(.sticky-tools) {
+        padding-left: 15px !important;
+        padding-right: 15px;
+    }
+    .mobile_redesign_test section.hero .the-content:before {
+        height: inherit;
+    }
+    .mobile_redesign_test.home nav.services-main {
+        display: inline-block;
+        margin-bottom: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    .mobile_redesign_test .services-main h2 {
+        font-size: 36px;
+        color: #000 !important;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .mobile_redesign_test.home nav.services-main a {
+        position: relative;
+        justify-content: flex-start;
+        text-transform: inherit;
+        text-align: left;
+        max-width: 300px;
+        width: 100% !important;
+        min-height: 100px;
+        padding: 20px;
+        margin: 0 auto 20px;
+    }
+    .mobile_redesign_test.home nav.services-main a::before {
+        content: "";
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex: 1 0 auto;
+        max-width: 60px;
+        width: 100%;
+        height: 60px;
+        z-index: 1;
+        margin-right: 15px;
+
+    }
+    .mobile_redesign_test.home nav.services-main .plu::before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1658473077/BillHowe/Plumbing.png');
+    }
+    .mobile_redesign_test.home nav.services-main .active::before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1658473077/BillHowe/Heating_and_Air_Coditioning.png');
+    }
+    .mobile_redesign_test.home nav.services-main .lin::before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1658473077/BillHowe/Lining_Solutions.png');
+    }
+    .mobile_redesign_test.home nav.services-main .res::before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1658473077/BillHowe/Restoration_and_Flood.png');
+    }
+    .mobile_redesign_test.home nav.services-main .res+.wat::before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1658473077/BillHowe/Water_Filtration.png');
+    }
+    .mobile_redesign_test.home nav.services-main .wat::before {
+        background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1658473077/BillHowe/Air_Quality.png');
+    }
+    .mobile_redesign_test nav.sticky-tools {
+        transform: inherit;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .mobile_redesign_test nav.sticky-tools ul li {
+        width: 100%;
+        background-color: #fff;
+        padding: 5px 10px;
+        box-shadow: 0px 15px 20px 10px #000;
+    }
+    .mobile_redesign_test nav.sticky-tools ul li a {
+        text-indent: inherit;
+        background: none;
+        background-color: #ed2124;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 8px;
+        text-transform: inherit;
+        width: 100%;
+    }
+
+
+
+    .mobile_redesign_test iframe[width="560"] {
+        max-width: 100%;
+    }
+    .mobile_redesign_test footer {
+        padding-bottom: 100px;
+    }
+}

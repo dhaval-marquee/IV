@@ -1,0 +1,123 @@
+.iv_text .js-query-result-item .amw-panel {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.iv_text .AddToCart-AddToCartAction {
+    position: relative;
+    margin-right: 10px;
+    max-width: 150px;
+    width: 100%;
+}
+.iv_text .yCmsComponent.AddToCart-AddToCartAction::after {
+    background-color: #b5b5b5;
+    content: "";
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 130px;
+    width: 0.3px;
+}
+.iv_text .AddToCart-ShareAction .amw-button {
+    margin: 10px;
+    padding-left: 10px;
+}
+.iv_text .amw-button__inner--share-link {
+    display: none;
+}
+.iv_text .content {
+    padding: 0 10px;
+    text-align: center;
+}
+.iv_text .content .earn-text {
+    background-color: #f0fae5;
+    border-radius: 8px;
+    color: #107f47;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px;
+    line-height: normal;
+}
+.iv_text .content a {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+@media (max-width: 1181.98px) {
+    .iv_text .js-query-result-item .amw-panel {
+        flex-wrap: wrap;
+    }
+    .iv_text #mobileWrapper {
+        border-top: 1px solid #b5b5b5;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: left;
+        padding-top: 15px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .iv_text .yCmsComponent.AddToCart-AddToCartAction::after {
+        content: none;
+    }
+    .iv_text .content {
+        max-width: 300px;
+        width: 100%;
+    }
+    .iv_text .AddToCart-ShareAction .amw-button {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1024.98px) {
+    .iv_text #mobileWrapper {
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .iv_text #mobileWrapper {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .iv_text .content {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 0 10px;
+        max-width: 100%;
+    }
+    .iv_text .content a {
+        margin-top: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 581.98px) {
+    .iv_text .content {
+        gap: 10px;
+        padding: 0;
+    }
+    .iv_text .content .earn-text {
+        font-size: 12px;
+        padding: 7px;
+    }
+}
+
+@media (max-width: 481.98px) {
+    .iv_text .content a {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .iv_text #mobileWrapper {
+        gap: 5px;
+    }
+    .iv_text .content .earn-text {
+        text-wrap-mode: nowrap;
+    }
+}

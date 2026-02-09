@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        form {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .form-group {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <main>
+        <form>
+            <div id="firstBox" class="form-group">
+                <label>Select Product</label>
+                <select id="availableProduct">
+                    <!-- <option value="">Select Any product</option> -->
+                </select>
+            </div>
+            <div id="secondBox" class="form-group" style="display: none">
+                <label>Select Sub Item</label>
+                <select id="productSubItems">
+                    <!-- <option value="">Select Any product</option> -->
+                </select>
+            </div>
+        </form>
+    </main>
+
+    <script>
+        const jsonData = {
+            product1 : {
+                value: "1",
+                pname: 'Name 1',
+                discription: [1,2,3,4,5],
+                image: 'Image 1'
+            },
+            product2 : {
+                value: "2",
+                pname: 'Name 2',
+                discription: [2,2],
+                image: 'Image 2'
+            },
+            product3 : {
+                value: "3",
+                pname: 'Name 3',
+                discription: [3,3],
+                image: 'image 3'
+            }
+        }
+
+        document.getElementById("availableProduct").addEventListener("change", myFunction1);
+
+        function myFunction1() {
+
+            if(document.getElementById("availableProduct").value != '') {
+                showSecondSelectBox();
+                addSubItems();
+
+            } else {
+                hideSecondSelectBox();
+            }
+
+        }
+
+        // Generate Option for Box 1
+        function showSecondSelectBox() {
+            document.getElementById('secondBox').style.display = 'block'
+        }
+
+        function hideSecondSelectBox() {
+            document.getElementById('secondBox').style.display = 'none'
+        }
+
+        var html="<option value=''>Select Any product</option>";
+        Object.keys(jsonData).forEach(key => {
+            html +="<option value="+ key +">"+jsonData[key].pname+"</option>";
+        });
+        document.getElementById('availableProduct').innerHTML = html;
+
+        
+        // Generate Option for Box 2
+        function addSubItems() {
+            var html2="<option value=''>Select Any Sub product</option>";
+            Object.keys(jsonData).forEach(key => {
+                if(document.getElementById("availableProduct").value == key) {
+                    for (var a=0; a<jsonData[key].discription.length; a++) {
+                        html2 +="<option value="+ key +">"+jsonData[key].discription[a]+"</option>";
+                    }
+                    document.getElementById('productSubItems').innerHTML = html2;
+                }
+            });
+        }
+
+        
+    </script>
+
+</body>
+</html>

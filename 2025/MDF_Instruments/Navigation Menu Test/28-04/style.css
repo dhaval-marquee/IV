@@ -1,0 +1,21 @@
+body .live-menu,
+body .live-menu-mobile {
+    display: none !important;
+}
+
+@media screen and (min-width: 1000px) {
+    body .abtest-menu {
+        display: flex !important
+    }
+}
+
+@media screen and (max-width: 999.98px) {
+    body .abtest-menu-mobile {
+        display: flex !important
+    }
+}
+
+
+.header-sidebar#sidebar-menu.abtest-menu-mobile {
+    display: block !important;
+}

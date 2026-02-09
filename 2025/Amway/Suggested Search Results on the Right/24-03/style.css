@@ -1,0 +1,82 @@
+/* Search Bar*/
+.iv-search-results .amw-header .amw-input__search-field {
+    padding-left: 20px;
+}
+
+/* Search Text */
+.amw-search-words-content__panel.xss-pb-0.js-category-wrapper.js-suggested-words-wrapper.js-search-words-wrapper {
+    width: 100%;
+    max-width: 1176px;
+    margin: 0 auto;
+    border-bottom: 0;
+}
+
+.iv-search-results .amw-header-popover--auto-suggestion .popover-body .amw-search-words-content > .js-search-words-wrapper > li {
+    width: 100%;
+    text-align: left;
+    max-width: 286px;
+    margin-left: auto;
+}
+.amw-search-words-content__panel.xss-pb-0.js-category-wrapper.js-suggested-words-wrapper.js-search-words-wrapper + .js-products-wrapper {
+    border-top: 1px solid #919191;
+}
+
+
+
+
+/* Title */
+.iv-search-results .iv-title-wrapper {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 5em;
+}
+.iv-search-results .amw-header-popover--auto-suggestion .amw-header-popover__title:before {
+    content: "";
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e4e4e4;
+    width: 100000%;
+    position: absolute;
+    left: -100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+}
+.iv-title-wrapper .popover-header.amw-header-popover__title {
+    width: 100%;
+    text-align: left;
+    max-width: 286px;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media only screen and (max-width: 1023px) {
+	.iv-search-results .iv-title-wrapper {
+	    max-width: 100%;
+	    text-align: center;
+	    padding: 0 32px;
+	}
+	.iv-title-wrapper .popover-header.amw-header-popover__title {
+	    margin: 0 auto;
+	    max-width: 366px;
+	}
+	.iv-search-results .amw-header-popover--auto-suggestion .popover-body .amw-search-words-content > .js-search-words-wrapper > li {
+	    margin-right: auto;
+	    max-width: 366px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.iv-search-results .iv-title-wrapper {
+      padding: 0 15px;
+  }
+	.iv-title-wrapper .popover-header.amw-header-popover__title {
+	    margin: 0 0 0 auto;
+	    max-width: 100%;
+	}
+	.iv-search-results .amw-header-popover--auto-suggestion .popover-body .amw-search-words-content > .js-search-words-wrapper > li {
+	    margin-right: 0;
+	    max-width: 100%;
+	}
+}

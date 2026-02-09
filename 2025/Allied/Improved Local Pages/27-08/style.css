@@ -1,0 +1,15 @@
+.iv-improved-local header.main-header {
+    display: none;
+}
+.iv-improved-local .slider-testimonials .slider__bg {
+    background-color: #f58024 !important;
+}
+.iv-improved-local .slider-testimonials .slider__inner {
+    padding: 50px 0 75px;
+}
+.iv-improved-local .shell aside .quick-form [name="quick-form-agent-profile"] button {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+.iv-improved-local #map div[aria-label="Allied Van Lines"] {
+    cursor: inherit !important;
+}

@@ -1,0 +1,67 @@
+.iv_text .subpage-img .entry-header h1 {
+    padding-top: 0;
+}
+
+.iv_text .subpage-img .entry-header h1,
+.iv_text .content {
+    text-align: center;
+}
+
+.iv_text .entry-header h2 {
+    max-width: 850px;
+    font-size: 36px;
+    color: var(--c-accent);
+    line-height: 1.4;
+    margin: 0 auto;
+}
+
+.iv_text .entry-header h2 + h2 {
+    padding-bottom: 15px;
+}
+
+.iv_text .img-text {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.iv_text .img-text img {
+    position: relative !important;
+    margin-left: auto !important;
+    margin-bottom: 10px;
+}
+
+.iv_text #apexchat_exitpopup2_chatwindow_wrapper {
+    display: none !important;
+}
+
+@media (max-width:991.98px) {
+    .iv_text .subpage-img .row {
+        justify-content: center;
+    }
+
+    .iv_text .subpage-img .entry-header h1 {
+        font-size: 40px;
+    }
+
+    .iv_text .entry-header h2 {
+        font-size: 32px;
+        line-height: 36px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .iv_text .subpage-img .entry-header h1 {
+        font-size: 35px;
+    }
+
+    .iv_text .entry-header h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .iv_text .content .bookfree-link > .nav-link {
+        background-color: var(--c-accent);
+        color: #fff;
+    }
+}

@@ -1,0 +1,98 @@
+.homepageTest_iv .top-section,
+.homepageTest_iv .two-column-section,
+.homepageTest_iv #two-column-sections {
+    display: none;
+}
+.homepageTest_iv .company-logos-block {
+    background-color: #00529C;
+    color: #fff;
+    padding: 25px 0 50px;
+    margin-top: 50px
+}
+
+.homepageTest_iv .company-logos-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.homepageTest_iv .company-logos-block .company-logos{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    margin: 0 15px;
+    justify-content: center;
+}
+.homepageTest_iv .company-logos-block .company-logo img {
+    display: block;
+    margin-bottom: 0;
+    filter: brightness(0) invert(1)
+}
+.homepageTest_iv .company-logos-block .company-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.homepageTest_iv .choose-section {
+    padding: 80px 0;
+    text-align: center
+}
+
+.homepageTest_iv .choose-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 50px
+}
+
+.homepageTest_iv .choose-item h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 10px
+}
+
+.homepageTest_iv .choose-item img {
+    margin-bottom: 10px;
+    max-height: 50px;
+    max-width: 100%;
+    height: auto;
+    width: auto
+}
+.homepageTest_iv .feature-bottom-wrap {
+    margin: 50px 0;
+}
+@media only screen and (max-width: 1029px) {
+    .homepageTest_iv .choose-section {
+        padding:60px 0 40px
+    }
+
+    .homepageTest_iv .choose-section h2 {
+        font-size: 36px
+    }
+
+    .homepageTest_iv .choose-item h3 {
+        font-size: 20px
+    }
+    .homepageTest_iv .company-logos-block {
+        margin-bottom: 15px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .homepageTest_iv .choose-section {
+        padding:50px 0 20px
+    }
+    .homepageTest_iv .choose-section h2 {
+        font-size: 30px;
+        margin-bottom: 40px
+    }
+    .homepageTest_iv .company-logos-block .company-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px
+    }
+}

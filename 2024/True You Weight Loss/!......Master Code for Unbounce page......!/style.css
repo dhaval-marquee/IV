@@ -1,0 +1,182 @@
+body:not(.form_iv) .lp-pom-form form {
+    height: 760px;
+}
+.form_iv #lp-pom-root,
+.form_iv #lp-pom-root-color-overlay {
+    height: auto;
+}
+.form_iv .form {
+    background: transparent !important;
+}
+.form_iv .form_columns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    font-family: 'Raleway';
+}
+.form_iv .form_wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0,0,0,.24);
+    padding: 32px;
+}
+.form_iv .form_title {
+    color: #5a5b9f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.form_iv .lp-pom-form {
+    height: auto !important;
+}
+.form_iv .lp-pom-form .fields {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 !important;
+}
+.form_iv .lp-pom-form .fields *,
+.form_iv .lp-pom-button[type="submit"],
+.form_iv .lp-pom-button[type="submit"] * {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+.form_iv .lp-pom-form-field {
+    margin-top: 10px;
+}
+.form_iv .lp-pom-form-field,
+.form_iv .lp-pom-form-field .single,
+.form_iv .checkbox-group .input-wrap,
+.form_iv .checkbox-group .option {
+    width: 100% !important;
+}
+.form_iv .lp-pom-form-field,
+.form_iv .checkbox-group .input-wrap,
+.form_iv .checkbox-group .option,
+.form_iv .checkbox-group .lp-form-label {
+    height: auto !important;
+}
+.form_iv .lp-pom-form-field .lp-form-label,
+.form_iv .checkbox-group .opt-label {
+    color: inherit !important;
+    font-family: 'Raleway' !important;
+    font-weight: 700 !important;
+    line-height: 1.6 !important;
+}
+.form_iv .lp-pom-form-field .single {
+    background-color: #f7f7f7 !important;
+    border-color: #c4c4c4 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    height: 50px !important;
+    margin-bottom: 10px;
+}
+.form_iv .checkbox-group .input-wrap {
+    margin-top: 6px;
+}
+.form_iv .checkbox-group .option {
+    padding: 0;
+}
+.form_iv .checkbox-group .option input {
+    margin-left: 0;
+    margin-right: 15px;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+}
+.form_iv #container_understanding_of_insurance {
+    display: none;
+}
+.form_iv .lp-pom-button[type="submit"] {
+    font-family: 'Raleway' !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    height: auto !important;
+    width: 100% !important;
+    margin: 25px auto 0;
+    padding: 13px 20px;
+}
+.form_iv .lp-pom-button[type="submit"] .label {
+    margin-top: 0 !important;
+}
+
+/* 2nd variant */
+#lp-pom-block-66, #lp-pom-text-68, #lp-pom-text-207, #lp-pom-text-210, #lp-pom-text-213, #lp-pom-text-214,
+#lp-pom-button-215 {
+    display: none;
+}
+/* 2nd variant */
+#lp-pom-block-82,
+#lp-pom-block-82-color-overlay,
+#lp-pom-block-82 .lp-pom-block-content {
+    height: 155px;
+}
+
+@media only screen and (min-width: 601px) {
+    .form_iv .form_columns {
+        margin-top: -150px;
+    }
+    .form_iv .lp-pom-form-field:not(.checkbox-group) {
+        width: calc(50% - 4px) !important;
+    }
+    #lp-pom-text-87 {
+        top: 3173px;
+    }
+    #lp-pom-text-256 {
+        top: 3191px;
+    }
+    #lp-pom-text-219 {
+        top: 3187px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form_iv .form_columns {
+        margin-top: -180px;
+    }
+    .form_iv .form_arrow_rotate {
+        display: none;
+    }
+    .form_iv .form_wrapper {
+        padding: 25px;
+        width: 100%;
+    }
+    .form_iv .lp-pom-button[type=submit] {
+        font-size: 14px !important;
+        padding: 10px 20px;
+    }
+
+    /* 2nd variant */
+    #lp-pom-text-87 {
+        top: 3388px;
+    }
+    #lp-pom-text-256 {
+        top: 3407px;
+    }
+    #lp-pom-text-219 {
+        top: 3428px;
+    }
+}
+
+
+
+
+
+
+/* Control issue fixes */
+.form_iv #lp-pom-form-58 .lp-pom-form-field:not(.checkbox-group).multi-group,
+.form_iv #lp-pom-form-58 .lp-pom-form-field:not(.checkbox-group).multi-group label {
+    width: 100% !important;
+}
+
+.form_iv #lp-pom-form-58 .lp-pom-form-field:not(.checkbox-group).multi-group .form-builder-radio-label {
+    color: #3f4144;
+    font-weight: bold;
+}
+
+#lp-pom-form-58 .optionsList,
+#lp-pom-form-58 .optionsList .option {
+    width: auto !important;
+} 
+/* Control issue fixes over */

@@ -1,0 +1,6 @@
+.iv-MenuItem ul#desktop-mainnav > li:nth-child(5),
+#bootscore-navbar > li:has(> a[href="https://empirevein.com/en/testimonials/"]),
+#bootscore-navbar > li > a[href="https://empirevein.com/en/testimonials/"],
+.iv-MenuItem ul#desktop-mainnav > li:nth-child(6) > ul li:has(a.dropdown-item[href="https://empirevein.com/en/locations/"]) {
+    display: none;
+}

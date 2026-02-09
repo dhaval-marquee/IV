@@ -1,0 +1,138 @@
+.home_hero_iv .breadcrumb {
+    display: none;
+}
+.home_hero_iv .ab_test_iv_mq {
+    display: block !important;
+}
+
+.home_hero_iv.callServices .wrap {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.home_hero_iv.callServices .site-inner .wrap {
+    max-width: 100%;
+}
+.home_hero_iv.callServices #acc-hero {
+    background: transparent;
+    overflow: hidden;
+}
+.home_hero_iv.callServices #acc-hero > * {
+    max-width: 1260px;
+}
+.home_hero_iv.callServices #acc-hero > *::before {
+    background-image: url(https://www.teledirect.com/wp-content/uploads/American-call-center-hero-image.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    right: -320px;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.home_hero_iv.callServices ul.heroList {
+    font-size: 21px;
+    line-height: 30px;
+    color: #3a3c41;
+    margin-bottom: 15px;
+}
+.home_hero_iv.callServices ul.heroList li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+}
+.home_hero_iv.callServices ul.heroList li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+}
+.home_hero_iv.callServices ul.heroList li ~ li {
+    margin-top: 10px;
+}
+.home_hero_iv.callServices #acc-hero a[href="/pricing/"] {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 13px 26px;
+    background: #ff7200;
+    color: #ffffff!important;
+    border: 1px solid #ff7200;
+    border-width: 1px 0;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+    text-shadow: 0 1px 0 rgba(0,0,0,.05);
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+.home_hero_iv.callServices #acc-hero .trustpilot-rating-subtle {
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+.home_hero_iv.callServices #acc-hero .trustpilot-widget {
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+.home_hero_iv.callServices #acc-hero .elementor-col-50:first-child {
+    width: 62%;
+}
+.home_hero_iv.callServices #acc-hero .elementor-col-50:last-child {
+    width: 38%;
+}
+@media only screen and (max-width: 1900.98px) {
+    .home_hero_iv.callServices #acc-hero > *::before {
+        background-size: 58% auto;
+        right: 0;
+    }
+}
+@media only screen and (max-width: 1179.98px) {
+    .home_hero_iv.callServices .wrap {
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 980.98px) {
+    .home_hero_iv.callServices .site-inner {
+        padding: 0;
+    }
+    .home_hero_iv.callServices .wrap {
+        max-width: 768px;
+    }
+    .home_hero_iv.callServices ul.heroList {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .home_hero_iv.callServices ul.heroList li {
+        padding-left: 15px;
+    }
+}
+@media only screen and (max-width: 730.98px) {
+    .home_hero_iv.callServices #acc-hero .elementor-col-50:first-child,
+    .home_hero_iv.callServices #acc-hero .elementor-col-50:last-child {
+        width: 100%;
+    }
+    .home_hero_iv.callServices #acc-hero a[href="/pricing/"] {
+        font-size: 14px;
+    }
+    .home_hero_iv.callServices #acc-hero > *::before {
+        background-size: 60% auto;
+        right: -45px;
+    }
+}
+@media only screen and (max-width: 424.98px){
+    .home_hero_iv.callServices #acc-hero {
+        padding-bottom: 80px;
+    }
+    .home_hero_iv.callServices #acc-hero > *::before {
+        background-size: 68% auto;
+        right: -5px;
+        bottom: -80px;
+    }
+}

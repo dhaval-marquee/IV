@@ -1,0 +1,23 @@
+@media (max-width: 767.98px){
+	.filters  div [data-value="16-0-inch"]{
+		display: none;
+	}
+	
+	.macBook_test .product-tile-features__wrap{
+		padding: 16px;
+		border: 1px solid #ddd;
+		display: -webkit-box;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		flex-direction: column;
+	}
+	.macBook_test .product-tile-features__color-options{
+		justify-content: center;
+	}
+	.macBook_test .product-tile-features__list-heading,
+	.macBook_test .product-tile-features__list-full-width{
+		display: block;
+		color: #000;
+	}
+}

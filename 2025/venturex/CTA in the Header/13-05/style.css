@@ -1,0 +1,57 @@
+.iv-header-btn {
+    background-color: #fedb00;
+    color: #000;
+    border: 1px solid #fedb00;
+    border-radius: 0;
+    padding: 10px 25px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.iv-header-btn:hover{
+	box-shadow: 1px 2px 8px 0px rgba(0,0,0,0.4);
+}
+
+@media screen and (max-width: 1260px) {
+    .iv-header-cta header .oxy-header-container{
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .iv-header-cta header .oxy-header-container > .oxy-header-center {
+        flex-grow: revert;
+        display: none;
+    }
+    .iv-header-cta header .oxy-header-container > .oxy-header-right{
+        order: 1;
+    }
+    .iv-header-cta header .oxy-header-container > .oxy-header-left{
+        order: 2;
+    }
+    .iv-header-btn{
+        order: 4;
+    }
+    .iv-header-cta header .oxy-header-container > .oxy-header-left a{
+        display: inline-flex !important;
+        align-items: center;
+    }
+    .iv-header-cta header .oxy-header-container > .oxy-header-right .oxy-pro-menu-mobile-open-icon {
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .iv-header-btn{
+        padding: 8px 12px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .iv-header-cta header .oxy-header-container > .oxy-header-left a img{
+        width: 150px !important;
+    }
+    body.iv-header-cta .uwy.userway_p1 .userway_buttons_wrapper {
+        top: inherit;
+        bottom: 10px;
+        left: 50px;
+        right: auto;
+    }
+}

@@ -1,0 +1,51 @@
+/* How it Works */
+.work_iv .border-light {
+    opacity: .6;
+}
+.work_iv .work-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 940px;
+}
+.work_iv .work-item {
+    padding: 0 10px;
+    text-align: center;
+    width: 33.33%;
+}
+.work_iv .work-item .work-count {
+    background: #FFFFFF;
+    border-radius: 50%;
+    color: #1EAFC9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30px;
+    margin: 0 auto 25px;
+    height: 50px;
+    width: 50px;
+}
+.work_iv .work-item p {
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 176px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 740px) {
+    .work_iv .work-items {
+        row-gap: 30px;
+    }
+    .work_iv .work-item {
+        width: 100%;
+    }
+    .work_iv .work-item .work-count {
+        margin-bottom: 15px;
+    }
+    .work_iv .work-item p {
+        max-width: 276px;
+    }
+}

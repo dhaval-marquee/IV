@@ -1,0 +1,122 @@
+.row .col-xs-12 .simpleimagecomponent:first-child .amw-content-component--extended {
+    margin-bottom: 90px;
+}
+
+.iv-horizontal-scroll .slick-wrapper {
+    width: 100%;
+}
+
+.iv-horizontal-scroll .slick-slide {
+    display: block;
+    width: 100% !important;
+    height: 100%;
+}
+
+/* .iv-horizontal-scroll .slick-slide>div,
+.iv-horizontal-scroll .slick-slide>div .amw-content-component__tile-wrapper {
+    height: 100%;
+} */
+
+.iv-horizontal-scroll .slick-arrow::before {
+    display: none;
+}
+
+.iv-horizontal-scroll .slick-prev,
+.iv-horizontal-scroll .slick-next {
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+}
+
+.iv-horizontal-scroll .slick-prev {
+    left: -55px;
+}
+
+.iv-horizontal-scroll .slick-next {
+    right: -55px;
+}
+
+/* Basic dot styling */
+.iv-horizontal-scroll .slick-dots li button:before {
+    font-size: 0;
+    /* Hide default dot */
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #98A3E2;
+    /* Inactive */
+    content: '';
+    display: block;
+    opacity: 1;
+}
+
+.iv-horizontal-scroll .amw-content-component--extended .slick-slider .amw-content-component__tile-wrapper {
+    margin: 0;
+}
+
+/* Active dot */
+.iv-horizontal-scroll .slick-dots li.slick-active button:before {
+    background-color: #38539A;
+    /* Active */
+}
+
+.iv-horizontal-scroll .slick-dots {
+    bottom: -50px;
+    /* Push it down if needed */
+}
+
+.iv-horizontal-scroll .slick-dots li {
+    margin: 0 5px;
+}
+
+@media (max-width:1312px) {
+    .iv-horizontal-scroll .slick-next {
+        right: -40px;
+    }
+
+    .iv-horizontal-scroll .slick-prev {
+        left: -40px;
+    }
+}
+
+@media (max-width:767px) {
+    .iv-horizontal-scroll .slick-next {
+        right: 5px;
+    }
+
+    .iv-horizontal-scroll .slick-prev {
+        left: 5px;
+    }
+
+    .iv-horizontal-scroll .slick-prev,
+    .iv-horizontal-scroll .slick-next {
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .iv-horizontal-scroll .slick-prev,
+    .iv-horizontal-scroll .slick-next,
+    .iv-horizontal-scroll .slick-prev svg,
+    .iv-horizontal-scroll .slick-next svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .iv-horizontal-scroll .amw-content-component--extended .slick-slider .amw-content-component__tile.media-top.text-bottom.columns-1 .amw-content-component__tile-text-wrapper {
+        padding: 36px 35px;
+    }
+
+    .iv-horizontal-scroll .slick-dots li button,
+    .iv-horizontal-scroll .slick-dots li,
+    .iv-horizontal-scroll .slick-dots li button:before {
+        width: 14px;
+        height: 14px;
+    }
+    .iv-horizontal-scroll .slick-dots {
+        bottom: -30px;
+    }
+    .row .col-xs-12 .simpleimagecomponent:first-child .amw-content-component--extended {
+        margin-bottom: 60px;
+    }
+}

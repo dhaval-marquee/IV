@@ -1,0 +1,32 @@
+.location_iv #tab1 .reviews {
+    margin-bottom: 24px;
+}
+
+.location_iv #tab1 .reviews .reviews-Inner {
+    display: flex;
+    align-items: center;
+}
+
+.location_iv #tab1 .reviews .reviews-Inner p {
+    padding-bottom: 0;
+    padding-left: 8px;
+}
+
+.location_iv .candee .star-ratings-css {
+    font-size: 28px;
+}
+
+.location_iv #tab1 .candee .star-ratings-css-top {
+    display: flex;
+    color: #ffb901;
+}
+
+@media(max-width: 600.98px) {
+    .location_iv #tab1 .reviews .reviews-Inner p {
+        font-size: 14px;
+    }
+
+    .location_iv #tab1 .reviews .reviews-Inner {
+        justify-content: center;
+    }
+}

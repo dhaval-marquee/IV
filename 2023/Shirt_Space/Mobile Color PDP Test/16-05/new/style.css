@@ -1,0 +1,21 @@
+@media (max-width: 767px) {    
+    .color_iv .chosen-color,
+    .color_iv .popular-color-iv h4,
+    .color_iv .popular-color-iv .color-tile p.color-title {
+        display: none;
+    }
+    .color_iv .popular-color-iv {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .color_iv .popular-color-iv h4 {
+        width: 100%;
+    }
+
+    .color_iv .popular-color-iv .color-tile {
+        width: 30px;
+        height: 30px;
+    }
+}

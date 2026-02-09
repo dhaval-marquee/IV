@@ -1,0 +1,39 @@
+.newsLetter_iv input#gform_submit_button_13 {
+    top: 0;
+    margin-bottom: auto;
+}
+.newsLetter_iv .rec-wrapper {
+    width: 100% !important;
+    max-width: 940px !important;
+    margin: 0 auto !important;
+}
+.newsLetter_iv .archive-wrapper .container-fluid.outer {
+    margin-bottom: 80px;
+}
+.archive-wrapper.ThankyouMessage .tips-form-wrapper {
+    min-height: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+.archive-wrapper.ThankyouMessage .tips-form-wrapper .tips-form-wrapper {
+    margin-top: 0;
+}
+.archive-wrapper.ThankyouMessage .tips-form-wrapper br {
+    display: none;
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .newsLetter_iv form#gform_13 {
+        display: block !important;
+    }
+    .newsLetter_iv input#gform_submit_button_13 {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .newsLetter_iv .archive-wrapper .container-fluid {
+        padding: 0 15px;
+    }
+}

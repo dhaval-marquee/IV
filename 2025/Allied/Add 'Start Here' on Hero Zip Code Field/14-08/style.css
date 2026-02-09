@@ -1,0 +1,91 @@
+.startHere_iv #instaquote-carousel fieldset[data-step="1"] .slide-overlay {
+    position: relative;
+}
+.startHere_iv .startHere {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    gap: 10px;
+    margin-left: 60px;
+    text-align: center;
+    pointer-events: none;
+}
+.startHere_iv .startHere h4 {
+    color: #ffce00;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 500;
+    font-style: italic;
+}
+.startHere_iv .startHere img {
+    width: 100% !important;
+    max-width: 48px;
+}
+
+@media only screen and (min-width: 769px) {
+	.startHere_iv .iv-custom-button-wrapper {
+		flex: 1 0 100%;
+		text-align: center;
+	}
+	.startHere_iv .long-distance__hero .instaquote-container .inner-container .iv-custom-button-wrapper .btn {
+		max-width: 150px;
+	}
+	.startHere_iv .long-distance__hero .instaquote-container .inner-container fieldset {
+		margin: 0 6px;
+	}
+}
+@media (max-width: 1158.98px) {
+    .startHere_iv .startHere {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 1150.98px) {
+    .startHere_iv .startHere {
+        top: 51%;
+    }
+}
+@media (max-width: 991.98px) {
+    .startHere_iv .startHere img {
+        max-width: 32px;
+    }
+    .startHere_iv .startHere h4 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 835.98px) {
+    .startHere_iv .startHere {
+        top: 61.5%;
+    }
+}
+@media (max-width: 768.98px) {
+    .startHere_iv #instaquote-carousel fieldset[data-step="1"] .slide-header {
+        position: relative;
+    }
+    .startHere_iv .startHere {
+        top: inherit;
+        bottom: 0;
+        position: absolute;
+        align-items: center;
+        margin-left: 22px;
+    }
+    .startHere_iv .startHere img {
+        position: absolute;
+        transform: rotate(90deg);
+        max-width: 25px;
+        margin-left: 115px;
+    }
+    .startHere_iv .iv-custom-button-wrapper {
+        width: 100%;
+    }
+    .startHere_iv .long-distance__hero .instaquote-container .inner-container .iv-custom-button-wrapper .btn {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .startHere_iv .moving-from-to .slide-footer .head2 {
+        line-height: 42px;
+    }
+}

@@ -1,0 +1,6 @@
+.iv-bullet-content {
+    margin: 15px 0 15px -5px;
+}
+.iv-bullet-content li::before{
+    display: none;
+}

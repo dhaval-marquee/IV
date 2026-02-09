@@ -1,0 +1,38 @@
+.guid_text a {
+    color: #000;
+    text-decoration: none;
+    font-size: 21px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    clip-path: polygon(100% 0, 100% 100%, 0% 100%);
+    width: 186px;
+    height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-right: 15px;
+}
+.guid_text a:hover {
+    color: #f04f36;
+}
+.guid_text span {
+    max-width: 100px;
+    width: 100%;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .guid_text a {
+        font-size: 16px;
+        padding-right: 10px;
+        line-height: normal;
+        padding-top: 80px;
+    }
+}

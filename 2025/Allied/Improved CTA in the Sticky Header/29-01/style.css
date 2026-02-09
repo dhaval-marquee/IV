@@ -1,0 +1,72 @@
+@media (max-width: 767.98px) {
+    body .avl-header .v2nav .avl-header__node {
+        min-width: auto;
+    }
+    .sticky_header_iv .avl-header .v2nav .avl-header__main-wrapper {
+        flex-wrap: nowrap;
+        padding: 12px 24px;
+    }
+    .sticky_header_iv .avl-header__main-wrapper .logo a[title="Go Home"],
+    .sticky_header_iv .avl-header__actions a > span {
+        display: none;
+    }
+    .sticky_header_iv .avl-header__main-wrapper .avl-header__mobile-toggle-wrap {
+        order: 1;
+    }
+    .sticky_header_iv .avl-header__main-wrapper .avl-header__mobile-toggle-wrap svg {
+        width: 35px;
+        height: 35px;
+    }
+    .sticky_header_iv .avl-header .v2nav .avl-header__actions .avl-header__call svg {
+        margin-right: 0;
+    }
+    .sticky_header_iv .avl-header__main-wrapper .avl-header__mobile-toggle-wrap .nav-toggle {
+        align-items: center;
+        display: flex;
+    }
+    .sticky_header_iv .avl-header__main-wrapper .logo {
+        order: 2;
+    }
+    .sticky_header_iv .avl-header .v2nav .avl-header__actions {
+        order: 3;
+        width: auto;
+        margin-left: 10px;
+        padding: 0;
+    }
+    .sticky_header_iv .avl-header .v2nav .avl-header__actions .avl-header__button {
+        text-transform: capitalize;
+        padding: 10px;
+    }
+}
+@media (max-width: 499.98px) {
+    .sticky_header_iv .avl-header__main-wrapper .logo a + a img {
+        width: 100%;
+        max-width: 130px;
+    }
+    .sticky_header_iv .avl-header .v2nav .avl-header__actions .avl-header__call svg {
+        width: 30px;
+        height: 30px;
+    }
+    .sticky_header_iv .avl-header .v2nav .avl-header__main-wrapper {
+        padding: 12px;
+    }
+    .sticky_header_iv .avl-header .v2nav .avl-header__actions .avl-header__button {
+        padding: 10px;
+    }
+}
+@media (max-width: 401.98px) {
+    .sticky_header_iv .avl-header .v2nav .avl-header__actions .avl-header__button {
+        font-size: 14px;
+    }
+    .sticky_header_iv .avl-header__main-wrapper .logo a + a img {
+        max-width: 115px;
+    }
+    .sticky_header_iv .avl-header .v2nav .avl-header__actions .avl-header__call svg {
+        width: 22px;
+        height: 22px;
+    }
+    .sticky_header_iv .avl-header__main-wrapper .avl-header__mobile-toggle-wrap svg {
+        width: 32px;
+        height: 32px;
+    }
+}

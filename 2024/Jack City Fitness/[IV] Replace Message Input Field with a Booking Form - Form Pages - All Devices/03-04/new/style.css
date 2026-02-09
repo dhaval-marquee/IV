@@ -1,0 +1,7 @@
+.fancybox-lock .fancybox-overlay {
+    z-index: 9999;
+}
+.calendly-inline-widget ~ li,
+.gform_legacy_markup_wrapper .gform_footer {
+    display: none;
+}

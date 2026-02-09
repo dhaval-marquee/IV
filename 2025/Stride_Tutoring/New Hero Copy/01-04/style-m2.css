@@ -1,0 +1,41 @@
+.hero_iv .first-section .nectar-highlighted-text h2 {
+    width: 100%;
+    max-width: 600px;
+}
+.hero_iv .first-section .nectar-highlighted-text + .divider-wrap, 
+.hero_iv .first-section .nectar-responsive-text,
+#ajax-content-wrap .main-content .row > div:nth-child(1) .nectar-responsive-text,
+.hero_iv .first-section .nectar-responsive-text +.divider-wrap {
+    display: none;
+}
+
+.hero_iv p.subheading {
+    font-size: 14px;
+    line-height: normal;
+}
+.hero_iv .first-section ul li {
+    font-size: 14px;
+    list-style: none;
+    position: relative;
+}
+.hero_iv .first-section ul li:before {
+    content: "";
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/v1738127306/StrideTutoring/check.png');
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+}
+
+.hero_iv .first-section .subheading + h5,
+.hero_iv .first-section ul + h5 {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Beatrice Standard Regular';
+}
+.hero_iv .first-section .nectar-cta {
+    margin-top: 24px;
+}

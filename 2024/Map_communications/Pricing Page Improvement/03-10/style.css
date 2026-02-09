@@ -1,0 +1,28 @@
+.iv-pricing-plan .pricing-table .most-popular-plan.pricing-chart h2 {
+  background-color: #124E69;
+}
+.iv-pricing-plan .pricing-table .pricing-chart.most-popular-plan h2:after {
+  border-top-color: #124E69;
+}
+
+.iv-pricing-plan .pricing-table .most-popular-plan .inner {
+  background-color: #2D8EBD;
+}
+.iv-pricing-plan .most-popular-plan .inner h3,
+.iv-pricing-plan .most-popular-plan .inner h3 span,
+.iv-pricing-plan .most-popular-plan .inner h4,
+.iv-pricing-plan .most-popular-plan .inner .plan-features ul li {
+  color: #fff;
+}
+.iv-pricing-plan .most-popular-plan .inner p{
+  color: #fff !important;
+}
+.iv-pricing-plan .most-popular-plan .inner h3:after {
+  background-color: #fff;
+}
+.iv-pricing-plan .most-popular-plan .inner .plan-features ul li::before {
+  color: #FC6307;
+}
+.iv-pricing-plan .most-popular-plan h2 .mostPopular {
+  border-bottom: 3px solid #2D8EBD;
+}

@@ -1,0 +1,60 @@
+.dittoBtn button[data-id="add-to-ditto"] ~ div .js-add-new-first-ditto:not(.d-none) {
+    opacity: 0;
+}
+
+.dittoBtn .amw-page-pdp__addto-cart-actions {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto !important;
+}
+
+.dittoBtn button[id*="addToDitto"] {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #f0f1ff;
+    padding: 15px 30px 15px 35px;
+    color: #38539a;
+    white-space: normal;
+    border-radius: 12px;
+    margin-bottom: 0;
+    position: relative;
+    text-align: left;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.dittoBtn button[id*="addToDitto"]:not(:hover) {
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 10px -7px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 10px -7px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 10px -7px;
+}
+
+.dittoBtn button[id*="addToDitto"] .icon-add-ditto {
+    position: absolute;
+    left: 20px;
+    top: 17px;
+}
+
+.dittoBtn button[id*="addToDitto"]:hover .icon-add-ditto {
+    color: #38539a;
+}
+
+.dittoBtn button[id*="addToDitto"]:hover .amw-button__inner,
+.dittoBtn button[id*="addToDitto"]:focus .amw-button__inner {
+    text-decoration: underline;
+    color: #38539a;
+}
+
+.dittoBtn .amw-loyalty-banner__right-section {
+    background-color: #f0f1ff;
+}
+
+.dittoBtn .amw-loyalty-banner__right-section img {
+    max-width: 100%;
+    width: 110px;
+    padding: 10px 0 10px 10px;
+}
+
+.dittoBtn .amw-loyalty-banner__right-section img + img {
+    display: none;
+}

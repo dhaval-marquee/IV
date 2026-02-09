@@ -1,0 +1,30 @@
+.iv-footer-bar .iv-sticky-footer-bar {
+    color: #000;
+    font-weight: 500;
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    padding: 5px 20px;
+    z-index: 10;
+    left: 0;
+    bottom: 0;
+    background-color: #ffd31f;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 1.35) 0px 5px 15px;
+}
+.iv-footer-bar .iv-sticky-footer-bar:hover {
+    background-color: #fccd13;
+}
+.iv-sticky-footer-bar.iv-sticky-footer-hidden {
+    transform: translateY(100%);
+    opacity: 0;
+    pointer-events: none;
+}
+.iv-stickybar-active #chatbot-iframe,
+.iv-stickybar-active .cc-revoke{
+    bottom: 40px;
+}
+.iv-stickybar-active .cc-animate.cc-revoke.cc-bottom {
+    transform: none !important;
+}

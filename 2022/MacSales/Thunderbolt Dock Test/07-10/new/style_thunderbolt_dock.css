@@ -1,0 +1,95 @@
+.thunderbolt_dock_iv .prod-hero__title {
+    margin-bottom: 20px;
+}
+.thunderbolt_dock_iv .prod-hero__title .text-highlight {
+    text-shadow: none;
+}
+.thunderbolt_dock_iv .prod-hero__block-copy p {
+    font-weight: normal;
+    line-height: normal;
+    margin-top: 0;
+}
+.thunderbolt_dock_iv .prod-hero__block-copy p + p {
+    margin-top: 8px;
+}
+.thunderbolt_dock_iv .prod-hero__block-copy a {
+    margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+    .thunderbolt_dock_iv .prod-hero__title {
+        text-align: left;
+    }
+    .thunderbolt_dock_iv .prod-hero__block-copy p {
+        max-width: 500px;
+        width: 100%;
+        text-align: left;
+    }
+    .thunderbolt_dock_iv .prod-hero__image-container {
+        margin-top: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .thunderbolt_dock_iv .prod-hero__content {
+        min-height: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        padding-bottom: 100px;
+    }
+    .thunderbolt_dock_iv .prod-hero__content > div {
+        margin-left: 0;
+        display: inline-block;
+        flex: inherit;
+    }
+    .thunderbolt_dock_iv .prod-hero__content > div:last-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .thunderbolt_dock_iv .prod-hero__content picture img {
+        max-width: 450px;
+        width: 100%;
+        margin-left: auto;
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .thunderbolt_dock_iv .prod-hero__content picture img {
+        max-width: 580px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .thunderbolt_dock_iv .prod-hero__content picture img {
+        margin-right: -120px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+    .thunderbolt_dock_iv .prod-hero__title,
+    .thunderbolt_dock_iv .prod-hero__block-copy p {
+        max-width: 480px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .thunderbolt_dock_iv .prod-hero__block-copy .text-center {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .thunderbolt_dock_iv .prod-hero__block-copy p {
+        font-size: 17px;
+        line-height: 29px;
+    }
+}

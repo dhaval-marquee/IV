@@ -1,0 +1,19 @@
+.location_iv .reviews {
+    margin-bottom: 24px;
+}
+.location_iv .reviews .reviews-Inner {
+    display: flex;
+    align-items: center;
+}
+.location_iv .reviews .reviews-Inner p {
+    padding-bottom: 0;
+    padding-left: 8px;
+}
+@media(max-width: 600.98px) {
+    .location_iv .reviews .reviews-Inner p {
+        font-size: 14px;
+    }
+    .location_iv .reviews .reviews-Inner {
+        justify-content: center;
+    }
+}

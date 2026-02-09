@@ -1,0 +1,4 @@
+1. Replace entire HTML as shown in the screenshot as we redesign entire page.: https://www.dropbox.com/s/rro0t3afxvn8n73/2022-09-16_17-35-17.jpg?dl=0
+2. Add entire CSS file at the end of your current CSS file. You can filter some of CSS if it is already available in live page.
+3. Please add JavaScript at the end of the custom javascript file.
+4. Please upload all font family in your server and attach it with the page. Do not use cloudinary URL. You can find the font file in Fonts folder.

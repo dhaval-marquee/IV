@@ -1,0 +1,254 @@
+
+ #lp-pom-button-163 span:after {
+	content: 'No Credit Card Required';
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+    font-size: 80%;
+    pointer-events: none;
+}
+#lp-pom-block-206, #lp-pom-text-207, #lp-pom-text-208, #lp-pom-button-210 {
+	display: none;
+}
+
+#lp-pom-button-163 {
+	background: #FE5000;
+}
+
+@media only screen and (min-width: 601px) {
+	#lp-pom-button-163 span {
+		position: relative;
+	}
+	#lp-pom-text-26 {
+	    top: calc(1106px - 255px);
+	}
+	#lp-pom-box-27, #lp-pom-box-32 {
+	    top: calc(1211px - 255px);
+	}
+	#lp-pom-box-36, #lp-pom-box-40 {
+	    top: calc(1607px - 255px);
+	}
+	#lp-pom-image-165 {
+	    top: calc(1898px - 255px);
+	}
+	#lp-pom-text-166 {
+	    top: calc(2070px - 255px);
+	}
+	#lp-pom-text-168 {
+		top: calc(2254px - 255px);
+	}
+	#lp-pom-box-169 {
+		top: calc(2010px - 255px);
+	}
+	#lp-pom-text-172 {
+		top: calc(2595px - 255px);
+	}
+	#lp-pom-image-173 {
+		top: calc(2684px - 255px);
+	}
+	#lp-pom-image-174 {
+		top: calc(2674px - 255px);
+	}
+	#lp-pom-image-175 {
+		top: calc(2650px - 255px);
+	}
+	#lp-pom-image-176 {
+		top: calc(2684px - 255px);
+	}
+	#lp-pom-image-177 {
+		top: calc(2691px - 255px);
+	}
+	#lp-pom-image-178 {
+		top: calc(2663px - 255px);
+	}
+	#lp-pom-image-179 {
+		top: calc(2678px - 255px);
+	}
+	#lp-pom-image-181 {
+		top: calc(2778px - 255px);
+	}
+	#lp-pom-image-182 {
+		top: calc(2784px - 255px);
+	}
+	#lp-pom-image-183 {
+		top: calc(2791px - 255px);
+	}
+	#lp-pom-image-184 {
+		top: calc(2776px - 255px);
+	}
+	#lp-pom-text-54 {
+		top: calc(2948px - 255px);
+	}
+	#lp-pom-box-55 {
+		top: calc(3107px - 255px);
+	}
+	#lp-pom-box-60, #lp-pom-box-63 {
+		top: calc(3101px - 255px);
+	}
+	#lp-pom-button-94 {
+		top: calc(3577px - 255px);
+	}
+	#lp-pom-box-74, #lp-pom-box-80, #lp-pom-box-86 {
+		top: calc(3876px - 255px);
+	}
+	#lp-pom-image-141, #lp-pom-image-142, #lp-pom-image-143 {
+		top: calc(4264px - 255px);
+	}
+	#lp-pom-text-97, #lp-pom-text-100, #lp-pom-text-104 {
+		top: calc(4323px - 255px);
+	}
+	#lp-code-109 {
+		top: calc(4416px - 255px);
+	}
+	#lp-pom-button-112 {
+		top: calc(4754px - 255px);
+	}
+	#lp-pom-box-110 {
+		top: calc(4839px - 255px);
+	}
+	#lp-pom-text-113 {
+		top: calc(5027px - 255px);
+	}
+	#lp-pom-text-61 {
+	    width: 235px !important;
+	    transform: scale(0.94, 1);
+	    transform-origin: left top;
+	}
+	#lp-pom-text-64 {
+		width: 233px !important;
+	}
+	#lp-pom-root,#lp-pom-root-color-overlay {
+	    height: calc(5079px - 255px);
+	}
+}
+@media only screen and (max-width: 600px) {
+	#lp-pom-button-163 span {
+		position: relative;
+	}
+	#lp-pom-text-26 {
+	    top: calc(896px - 272px);
+	}
+	#lp-pom-box-27 {
+	    top: calc(1007px - 272px);
+	}
+	#lp-pom-box-32 {
+	    top: calc(1428px - 272px);
+	}
+	#lp-pom-box-117 {
+		top: calc(921px - 272px);
+	}
+	#lp-pom-box-36 {
+	    top: calc(1865px - 272px);
+	}
+	#lp-pom-box-40 {
+	    top: calc(2283px - 272px);
+	}
+	#lp-pom-image-165 {
+	    top: calc(3235px - 272px);
+	}
+	#lp-pom-text-166 {
+	    top: calc(2799px - 272px);
+	}
+	#lp-pom-text-168 {
+		top: calc(2917px - 272px);
+	}
+	#lp-pom-box-169 {
+		top: calc(3260px - 272px);
+	}
+	#lp-pom-text-172 {
+		top: calc(3662px - 272px);
+	}
+	#lp-pom-image-173 {
+		top: calc(3742px - 272px);
+	}
+	#lp-pom-image-174 {
+		top: calc(3732px - 272px);
+	}
+	#lp-pom-image-175 {
+		top: calc(3708px - 272px);
+	}
+	#lp-pom-image-176 {
+		top: calc(3852px - 272px);
+	}
+	#lp-pom-image-177 {
+		top: calc(3859px - 272px);
+	}
+	#lp-pom-image-178 {
+		top: calc(3831px - 272px);
+	}
+	#lp-pom-image-179 {
+		top: calc(3926px - 272px);
+	}
+	#lp-pom-image-181 {
+		top: calc(3923px - 272px);
+	}
+	#lp-pom-image-182 {
+		top: calc(3929px - 272px);
+	}
+	#lp-pom-image-183 {
+		top: calc(4019px - 272px);
+	}
+	#lp-pom-image-184 {
+		top: calc(4004px - 272px);
+	}
+	#lp-pom-text-54 {
+		top: calc(4162px - 272px);
+	}
+	#lp-pom-box-55 {
+		top: calc(4307px - 272px);
+	}
+	#lp-pom-box-60 {
+		top: calc(4646px - 272px);
+	}
+	#lp-pom-box-63 {
+		top: calc(5121px - 272px);
+	}
+	#lp-pom-button-94 {
+		top: calc(5500px - 272px);
+	}
+	#lp-pom-box-74 {
+		top: calc(5771px - 272px);
+	}
+	#lp-pom-box-80 {
+		top: calc(6126px - 272px);
+	}
+	 #lp-pom-box-86 {
+		top: calc(6490px - 272px);
+	}
+	#lp-pom-image-141 {
+		top: calc(6815.75px - 272px);
+	}
+	#lp-pom-image-142 {
+		top: calc(7073.75px - 272px);
+	}
+	 #lp-pom-image-143 {
+		top: calc(6944.75px - 272px);
+	}
+	#lp-pom-text-97 {
+		top: calc(6864px - 272px);
+	}
+	#lp-pom-text-100 {
+		top: calc(7121px - 272px);
+	}
+	#lp-pom-text-104 {
+		top: calc(6997px - 272px);
+	}
+	#lp-code-109 {
+		top: calc(7213px - 272px);
+	}
+	#lp-pom-button-112 {
+		top: calc(7502px - 272px);
+	}
+	#lp-pom-box-110 {
+		top: calc(7582px - 272px);
+	}
+	#lp-pom-text-113 {
+		top: calc(7764px - 272px);
+	}
+	#lp-pom-root, #lp-pom-root-color-overlay {
+	    height: calc(5079px - 272px);
+	}
+}
+  

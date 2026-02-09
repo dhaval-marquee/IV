@@ -1,0 +1,84 @@
+.breadcrumb {
+    display: none;
+}
+.ab_test_iv_mq {
+    display: block !important;
+}
+
+
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.site-inner .wrap {
+    max-width: 100%;
+}
+#acc-hero .elementor-container {
+    max-width: 1170px;
+}
+
+ul.heroList {
+    font-size: 21px;
+    line-height: 30px;
+    color: #3a3c41;
+    margin-bottom: 15px;
+}
+ul.heroList li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+}
+ul.heroList li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+}
+ul.heroList li ~ li {
+    margin-top: 10px;
+}
+#acc-hero a[href="/pricing/"] {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 13px 26px;
+    background: #ff7200;
+    color: #ffffff!important;
+    border: 1px solid #ff7200;
+    border-width: 1px 0;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+    text-shadow: 0 1px 0 rgba(0,0,0,.05);
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+#acc-hero .trustpilot-rating-subtle {
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+#acc-hero .trustpilot-widget {
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+#acc-hero .elementor-col-50:first-child {
+    width: 80%;
+    max-width: 700px;
+}
+#acc-hero .elementor-col-50:last-child {
+    width: 20%;
+}
+@media only screen and (max-width: 980px) {
+    ul.heroList {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    ul.heroList li {
+        padding-left: 15px;
+    }
+}

@@ -1,0 +1,2 @@
+// No Code for this test
+jQuery('body header .container a.site-logo').html('<img class="mobile_hide" src="//res.cloudinary.com/ignite-visibility/image/upload/v1661581166/BillHowe/BillHowe_logo/Bill_Howe_logo.png" alt="BillHowe Logo"><img class="desktop_hide" src="//res.cloudinary.com/ignite-visibility/image/upload/v1661583248/BillHowe/BillHowe_logo/Bill_Howe_black_white.png" alt="BillHowe Logo">');

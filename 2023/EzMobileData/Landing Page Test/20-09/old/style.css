@@ -1,0 +1,268 @@
+
+/* Hero Section */
+.blue-plan .hero_section .hero_image_content h1 {
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+.blue-plan .hero_section .hero-sub-title {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: Muli, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.blue-plan .hero_section .hero_image_content h3 {
+    font-size: 30px;
+    font-family: Muli, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    line-height: 50px;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+}
+.blue-plan .subscription_section .sub_content {
+    display: flex;
+    flex-direction: column;
+}
+.blue-plan .subscription_section .sub_content>p {
+    order: 1;
+    margin: 0;
+}
+.blue-plan .subscription_section .sub_content .product__info {
+    margin-bottom: 30px;
+}
+.blue-plan .sub_content .product__info .product-form__buy-buttons .product-form__payment-container {
+    gap: 0;
+}
+.blue-plan .subscription_section .sub_left .sub_right_content {
+    display: none;
+}
+.blue-plan #AddToCart .loader-button__text {
+    text-transform: capitalize;
+}
+.blue-plan #AddToCart,
+.blue-plan .subscribe_btn a {
+    background: #1B9D2C !important;
+}
+.blue-plan #AddToCart:hover,
+.blue-plan .subscribe_btn a:hover {
+    background: #0f5c19 !important;
+}
+.blue-plan .subscription_section .sub_content>p {
+    order: 1;
+    margin: 0;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+}
+@media only screen and (min-width: 991.98px) {
+    .blue-plan .hero_image_content {
+        top: 15%;
+    }
+}
+
+@media only screen and (min-width: 2260.98px) {
+    .blue-plan .sub_left {
+        margin-top: -22.6%;
+    }
+}
+
+@media only screen and (max-width: 2260.98px) {
+    .blue-plan .sub_left {
+        margin-left: 0;
+        margin-top: -13.6%;
+    }
+}
+
+@media only screen and (max-width: 1140.98px) {
+    .blue-plan .sub_left {
+        margin-top: -8%;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .blue-plan .hero_mobile {
+        height: 310px;
+    }
+    .blue-plan .sub_content .product__info .product-form__buy-buttons .product-form__payment-container .loader-button__text {
+        font-size: 14px;
+        padding: 7px;
+    }
+    .hero_image_content h1 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .blue-plan .hero_section .hero_image_content h3 {
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 360px;
+    }
+    .blue-plan .hero_section .hero-sub-title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 13px;
+        display: block;
+    }
+    .blue-plan .sub_content .product__info .product-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .blue-plan .sub_content .product__info .product-form__buy-buttons,
+    .blue-plan .sub_content .product__info .product-form__quantity .quantity-selector,
+    .blue-plan .sub_content .product__info .product-form__quantity .quantity-selector__input {
+        width: 100%;
+    }
+    .blue-plan .sub_content .product__info .product-form__buy-buttons #AddToCart,
+    .blue-plan .sub_content .product__info .product-form__variants {
+        max-width: 100%;
+    }
+    .blue-plan .subscription_section .sub_content>p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 480.98px) {
+    .blue-plan .hero_image_content {
+        text-align: center;
+    }
+    .blue-plan .hero_section .hero_image_content h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 0;
+    }
+    .blue-plan .hero_section .hero-sub-title {
+        font-size: 18px;
+        line-height: 40px;
+        margin-bottom: 3px;
+    }
+    .blue-plan .hero_section .hero_image_content h3 {
+        font-size: 15px;
+        line-height: 19px;
+        max-width: 285px;
+        margin: 0 auto;
+    }
+}
+
+/* Consolidate Information */
+.benefits_main .benefits_left.benefits_content p {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 10px;
+}
+.read-more-button {
+    color: #2bafc8;
+}
+.read-more-button:hover {
+    color: #040404;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .benefits_main .benefits_left.benefits_content p {
+        margin-bottom: 0;
+    }
+    .read-more-button {
+        font-size: 14px;
+    }
+}
+
+/* Bullet point list */
+.benefits_main .benefits_right.benefits_content ul {
+    font-family: Muli, sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 991.98px) {
+    .benefits_main .benefits_right.benefits_content ul {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .benefits_main .benefits_right.benefits_content ul li {
+        margin-bottom: 10px;
+    }
+}
+
+/* For Image*/
+@media only screen and (max-width: 767.98px) {
+    .plan_review .plan_review_main .left_content .center_img_wrapper {
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 25px 0;
+    }
+}
+
+/* Gold Star */
+.blue-plan .plan_review .review_content .ratings {
+    display: none;
+}
+.blue-plan .star-gold {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 14px;
+    display: flex;
+}
+.blue-plan .star-gold li i:before {
+    font-size: 21px;
+}
+
+/* Canada Map */
+.blue-plan .plan_review .plan_review_main .right_content .coverage_map_wrapper .right_img_wrapper {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+}
+.blue-plan .plan_review .plan_review_main .right_content .coverage_map_wrapper .right_img_wrapper img {
+	max-width: 100%;
+}
+.blue-plan .plan_review .list-view {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.blue-plan .plan_review .list-view li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+.blue-plan .plan_review .list-view li:before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* New CTA */
+.plan_review .plan_review_main .right_content .subscribe_cta {
+    margin-top: 20px;
+    position: relative;
+    min-width: 100%;
+}
+.subscribe_cta {
+    display: inline-block;
+    background: #1B9D2C;
+    color: #fff;
+    font-size: 23px;
+    line-height: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 18px 15px;
+    text-align: center;
+}
+.subscribe_cta:hover {
+    transition: .3s all ease-in-out;
+    background: #0f5c19;
+}
+@media only screen and (max-width: 1439.98px) { 
+    .subscribe_cta {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 70px;
+        padding: 12px;
+    }
+}

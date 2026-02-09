@@ -1,0 +1,6 @@
+@media(max-width: 767.98px) {
+    .img_iv .pss-card-list__imagebox,
+    .img_iv .pss-card-list__top-wrapper {
+        display: block;
+    }
+}

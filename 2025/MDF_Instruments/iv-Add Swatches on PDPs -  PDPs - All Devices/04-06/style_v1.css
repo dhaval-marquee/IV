@@ -1,0 +1,71 @@
+/* .swatches_iv .product-swatches .imagesWrapper {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.swatches_iv .product-swatches .imagesWrapper a.active img {
+    border: 1px solid #495dba;
+}
+
+/* .swatches_iv .product-swatches .imagesWrapper img {
+    max-width: 137px;
+} */
+
+.swatches_iv .product-swatches {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.swatches_iv .my-slider-progress {
+    background: #E1E1E1;
+    height: 4px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.swatches_iv .my-slider-progress-bar {
+    background: #292929;
+    height: 6px;
+    transition: width 400ms ease;
+    width: 0;
+    border-radius: 100px;
+}
+
+.swatches_iv .splide__track {
+    visibility: visible !important;
+}
+
+.swatches_iv .splide__arrow {
+    border-radius: 0px;
+    background: #292929;
+    opacity: 1;
+}
+
+.swatches_iv .splide__arrow svg {
+    height: 17px;
+    width: 11px;
+    fill: #fff;
+}
+
+.swatches_iv .my-slider-progress {
+    display: none;
+}
+
+.swatches_iv .splide__arrow--prev {
+    left: 0px;
+}
+
+.swatches_iv .splide__arrow--next {
+    right: 0px;
+}
+
+.swatches_iv .splide__arrow:disabled {
+    display: none;
+}
+
+@media (max-width:999px) {
+    .swatches_iv .my-slider-progress {
+        display: flex;
+        align-items: center;
+    }
+}

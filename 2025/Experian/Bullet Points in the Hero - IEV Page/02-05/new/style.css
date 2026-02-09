@@ -1,0 +1,64 @@
+
+@media screen and (min-width: 768px) {
+    body form.exp-form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    body form.exp-form > .form-group.floatl {
+        max-width: 48.5%;
+        width: 100%;
+    }
+    body form.exp-form > .form-group.floatl.text-area {
+        display: block !important;
+        max-width: 100%;
+    }
+    body form.exp-form .form-group button {
+        width: 100%;
+        max-width: 240px;
+    }
+
+    body .form-description {
+        text-align: center;
+    }
+
+    body .form-group:has(button[type="submit"]) {
+        width: 100%;
+        text-align: center
+    }
+
+    body .form-renderer .terms,
+    body .form-section .terms {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .iv-Hero #mainTop h1 {
+        margin-bottom: 30px;
+    }
+    .iv-Hero #mainTop h1 + p {
+        display: none;
+    }
+    
+    .iv-Hero #mainTop ul {
+        width: 100%;
+        color: #fff;
+        text-align: left;
+        list-style-type: none;
+        margin: 0 auto 30px;
+        padding: 0;
+    }
+    .iv-Hero #mainTop ul li {
+        background-image: url('//res.cloudinary.com/ignite-visibility/image/upload/f_auto/Experian/Checkmark_white.png');
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 40px;
+        padding-left: 50px;
+        font-size: 22px;
+        line-height: 45px;
+    }
+}

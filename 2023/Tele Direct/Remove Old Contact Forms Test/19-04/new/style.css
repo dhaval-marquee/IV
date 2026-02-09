@@ -1,0 +1,15 @@
+.iv_teledirect .getAquote_wrapper {
+	margin: 100px 0 !important;
+}
+.iv_teledirect .getAquote_wrapper a {
+    width: 300px;
+    padding: 17px 34px;
+    line-height: 1em;
+    border: 1px solid #ff7200;
+}
+
+@media (max-width: 730px) {
+    .iv_teledirect .getAquote_wrapper {
+        margin: 50px 0 !important;
+    }
+}

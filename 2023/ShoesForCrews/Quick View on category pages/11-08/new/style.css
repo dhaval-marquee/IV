@@ -1,0 +1,48 @@
+@media (min-width: 992px) {
+  .hero_iv a.quickView {
+    text-decoration: underline;
+    color: #0000ff;
+    font-size: 14px;
+  }
+  .hero_iv a.quickView:hover {
+    text-decoration: none;
+  }
+  .hero_iv div[class*="ProductThumbnailContainer_desktopQuickViewButtonContainer_"] button,
+  .hero_iv div[class*="ProductThumbnailContainer_mobileQuickViewButtonContainer__"]{
+    display: none !important;
+  }
+  .hero_iv div[class*="ProductThumbnail_productThumbnail__"] {
+    max-height: inherit;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero_iv .quickView,
+  .hero_iv div[class*="ProductThumbnailContainer_mobileQuickViewButtonContainer__"] button i{ 
+    display: none;
+  }
+  .hero_iv div[class*="ProductThumbnailContainer_mobileQuickViewButtonContainer__"] {
+    display: block;
+  }
+  .hero_iv div[class*="ProductThumbnailContainer_mobileQuickViewButtonContainer__"]  > div {
+    border: none;
+  }
+  .hero_iv div[class*="ProductThumbnailContainer_mobileQuickViewButtonContainer__"] button{
+    border: none !important;
+    background-color: transparent !important;
+    color: #0000ff !important;
+    padding-top: 0px !important;
+    padding-bottom: 0 !important;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .hero_iv div[class*="ProductThumbnailContainer_mobileQuickViewButtonContainer__"] button span{
+    color: #0000ff;
+    text-decoration: underline;
+    font-weight: 400 !important;
+  }
+  .hero_iv div[class*="ProductThumbnail_productThumbnail__"] {
+    max-height: inherit;
+  }
+}

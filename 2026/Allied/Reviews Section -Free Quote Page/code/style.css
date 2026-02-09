@@ -1,0 +1,284 @@
+@font-face {
+    font-family: TeXGyreHeros;
+    src: url(https://www.allied.com/ResourcePackages/Allied/assets/long-distance_dist/fonts/TeXGyreHeros-Bold.woff2) format("woff2"), url(https://www.allied.com/ResourcePackages/Allied/assets/long-distance_dist/fonts/TeXGyreHeros-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: TeXGyreHeros;
+    src: url(https://www.allied.com/ResourcePackages/Allied/assets/long-distance_dist/fonts/TeXGyreHeros-Regular.woff2) format("woff2"), url(https://www.allied.com/ResourcePackages/Allied/assets/long-distance_dist/fonts/TeXGyreHeros-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+.review_iv .slider-testimonials {
+    font-family: 'TeXGyreHeros', Helvetica, Arial, sans-serif;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+}
+.review_iv .slider-testimonials * {
+    box-sizing: border-box;
+}
+
+.review_iv .slider__slides .slick-slide {
+    padding: 0 12px;
+    background: transparent;
+}
+
+
+.review_iv li.slider__slide {
+    max-width: 100%;
+    width: 100%;
+}
+
+.review_iv .js-slider .slider__inner {
+    padding: 4px 0 22px;
+}
+.review_iv .slider-testimonials .shell {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.review_iv .slider-testimonials .shell .slider__head h2 {
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 0.112px;
+    text-align: center;
+}
+.review_iv .slider-testimonials .shell ul.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.review_iv .slider-testimonials .shell .slider__head {
+    margin-bottom: 30px;
+}
+.review_iv .slider-testimonials .shell ul {
+    padding: 0;
+}
+
+.review_iv .testimonial {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    font-weight: 700;
+    line-height: 1.7;
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 20px 22px;
+}
+.review_iv .testimonial .testimonial__rating {
+    transform: scale(0.7);
+    transform-origin: left;
+    margin-bottom: 0px;
+}
+.review_iv .testimonial .testimonial__rating svg {
+    fill: #ffd31f;
+    margin-right: 4px;
+}
+.review_iv .testimonial p,
+.review_iv .testimonial span {
+    color: #000000;
+}
+.review_iv .testimonial p {
+    font-weight: 500;
+    letter-spacing: 0.112px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: auto;
+    font-size: 16px;
+    padding-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.review_iv .testimonial.testimonialItem p{
+    -webkit-line-clamp: inherit;
+}
+.review_iv .slider-testimonials span span {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.112px;
+}
+.review_iv .ReadMoreLessButton {
+    margin-bottom: 8px;
+}
+.review_iv .ReadMoreLessButton a {
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 0.112px;
+}
+.review_iv .ReadMoreLessButton .readMore.d-none,
+.review_iv .ReadMoreLessButton .readLess.d-none {
+    display: none;
+}
+
+.review_iv .slick-prev, 
+.review_iv .slick-next {
+    background-color: #fff;
+    border: 2px solid #C8102E;
+    color: #000;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    z-index: 1;
+    top: 40%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+.review_iv .slick-prev {
+    left: -45px;
+}
+.review_iv .slick-next {
+    right: -45px;
+}
+.review_iv .slick-prev:hover,
+.review_iv .slick-prev:focus,
+.review_iv .slick-next:hover,
+.review_iv .slick-next:focus {
+    color: #000;
+    outline: none;
+    background: #fff;
+}
+
+.review_iv .slider-testimonials .slick-arrow {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 1px solid transparent;
+    z-index: 2;
+    display: flex !important;
+}
+
+.review_iv .slider-testimonials .slick-list {
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.review_iv .slider-testimonials .slick-dots li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: background .4s;
+    background: #ffffff;
+    opacity: 0.7;
+}
+
+.review_iv .slider-testimonials .slick-dots li + li {
+    margin-left: 16px;
+}
+
+.review_iv .slider-testimonials .slick-dots li button {
+    display: none;
+}
+
+.review_iv .slider-testimonials .slick-dots .slick-active {
+    opacity: 1;
+}
+.review_iv .testimonials_btn {
+    color: #000;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffd31f;
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    box-shadow: 0 4px 10px #000;
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 7px;
+    font-size: 18px;
+}
+.review_iv .testimonials_btn:hover {
+    background-color: #fccd13;
+    color: #000;
+}
+
+.free-quote-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #4c4c4c;
+    background-image: url(https://www.allied.com/ResourcePackages/Allied/assets/dist/img/template/bg-gray-texture.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 32px 25px 18px;
+    gap: 100px;
+}
+.free-quote.lmp-form {
+    background: transparent;
+    padding: 0px;
+}
+.free-quote.lmp-form > p {
+    font-size: 20px;
+}
+.free-quote.lmp-form .free-quote-inner {
+    margin: 0;
+}
+@media (max-width: 1299.98px) {
+    .free-quote-wrapper {
+        gap: 0;
+    }
+}
+@media (max-width: 1024.98px) {
+    .review_iv .slider-testimonials .slick-list {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .free-quote-wrapper {
+        flex-direction: column;
+    }
+}
+@media (max-width: 767.98px) {
+    .review_iv .testimonial {
+        max-width: 320px;
+    }
+    .review_iv .slick-prev {
+        left: 45px;
+    }
+    .review_iv .slick-next {
+        right: 45px;
+    }
+    .review_iv .slider-testimonials .shell {
+        padding: 0 20px;
+    }
+    .review_iv .slider-testimonials .shell .slider__head h2 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 699.98px) {
+    .review_iv .slick-prev {
+        left: 0;
+    }
+    .review_iv .slick-next {
+        right: 0;
+    }
+}
+@media (max-width: 599.98px) {
+    .review_iv .slick-prev {
+        left: -25px;
+    }
+    .review_iv .slick-next {
+        right: -25px;
+    }
+} 
+

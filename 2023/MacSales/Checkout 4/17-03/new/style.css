@@ -1,0 +1,375 @@
+
+.checkout_test.steps_1 .form_wrapper span.cl_line10t,
+.checkout_test.steps_1 .form_wrapper > span:empty,
+.checkout_test.steps_1 .ncrt_cm_sectcont20,
+.ncrt_cm_wrap .ncrt_acc_news{
+    display: none;
+}
+.checkout_test.steps_1 .ncrt_cm_sectcont20 {
+    text-align: center;
+    margin-top: 20px;
+}
+.checkout_test.steps_1 .tableContainer.privacydiv1 {
+    margin: 0 auto;
+}
+.checkout_test.steps_1 * {
+    box-sizing: border-box;
+}
+.checkout_test.steps_1 h1.ncrt_cm_sectitle {
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+.checkout_test.steps_1 .form_wrapper[style="display: inline;"] {
+    margin-top: 50px;
+}
+.checkout_test.steps_1 .form_wrapper.ncrt_acc_bil,
+.checkout_test.steps_1 .form_wrapper[style="display: inline;"],
+.checkout_test.steps_1 .form_wrapper[style="display: block;"],
+.checkout_test.steps_1 .form_wrapper[style="display: inline-block;"],
+.checkout_test.steps_1 .form_wrapper[style="display: flex;"],
+.checkout_test.edit_bill .form_wrapper {
+    display: flex !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.checkout_test.steps_1 .form_wrapper > span {
+    max-width: 47.5%;
+    width: 100%;
+    margin: 0 0 30px;
+}
+/* .checkout_test.steps_1 .form_wrapper > span#b_INT1,
+.checkout_test.steps_1 .form_wrapper > span#s_INT1 {
+    max-width: 30%;
+} */
+.checkout_test.steps_1 .form_wrapper input,
+.checkout_test.steps_1 .form_wrapper select {
+    font-size: 16px;
+    width: 100%;
+    height: 48px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 10px 15px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.checkout_test.steps_1 .ncrt_cm_fieldlabel,
+.checkout_test.steps_2 .ncrt_cm_fieldlabel {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out 0s;
+    pointer-events: none;
+    text-transform: capitalize;
+}
+.checkout_test.steps_1 .focused .ncrt_cm_fieldlabel,
+.checkout_test.steps_2 .focused .ncrt_cm_fieldlabel {
+    left: 0;
+    top: -20px;
+    transform: inherit;
+    font-size: 14px;
+}
+.checkout_test.steps_2 #intDutiesBox .ncrt_cm_fieldlabel,
+.checkout_test.steps_2 #intDutiesBox+.cl+.ncrt_cm_fieldlabel{
+    font-size: inherit;
+    position: inherit;
+}
+
+.checkout_test.steps_1 .ncrt_cm_fieldlabel .ncrt_cm_ast,
+.checkout_test.steps_2 .ncrt_cm_fieldlabel .ncrt_cm_ast {
+    min-width: 11px;
+    display: inline-block;
+}
+.checkout_test.steps_1 .focused .ncrt_cm_fieldlabel .ncrt_cm_ast,
+.checkout_test.steps_2 .focused .ncrt_cm_fieldlabel .ncrt_cm_ast {
+    font-size: 16px;
+    min-width: inherit;
+    padding-left: 0;
+    margin-right: -2px;
+}
+.checkout_test.steps_1 .form_wrapper > span.manage_space {
+    margin-top: -30px;
+}
+.checkout_test.steps_1 .expand_field {
+    position: absolute;
+    bottom: -35px;
+}
+.checkout_test.steps_1 .expand_field a {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    line-height: 48px;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+.checkout_test.steps_1 .privacy_text th {
+    font-size: 16px;
+    line-height: 24px;
+}
+/* .checkout_test.steps_1 #btnSubmitUpdateBtn {
+    max-width: 350px;
+    width: 100%;
+} */
+/* .checkout_test.steps_1 #btnSubmitUpdateBtn .ncrt_cm_buttonlabel{
+    font-size: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.checkout_test.steps_1 #btnSubmitUpdateBtn .ncrt_cm_buttonlabel::before{
+    content: "Choose Shipping & Payment Type";
+    font-size: 16px;
+    position: absolute;
+} */
+
+/* Second Step */
+.checkout_test.steps_2 .ncrt_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.checkout_test.steps_2 .ncrt_c_head {
+    width: 100%;
+    order: 1;
+}
+.checkout_test.steps_2 .ncrt_content > .ncrt_cm_wrap {
+    max-width: 33%;
+    margin: 0;
+    order: 3;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm {
+    max-width: 66%;
+    width: 100%;
+    order: 2;
+}
+.checkout_test.steps_2 .ncrt_shi_total .ncrt_cm_s_field_block_66 {
+    width: 100%;
+    margin-right: 0;
+}
+.checkout_test.steps_2 .address_wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d3;
+    padding: 20px 10px;
+}
+.checkout_test.steps_2 .address_wrapper .ncrt_cm_s_field_block_40 {
+    width: 100%;
+    margin-right: 0;
+}
+.checkout_test.steps_2 .address_wrapper h2 {
+    margin: 0;
+}
+.checkout_test.steps_2 .address_wrapper .ncrt_cm_sectitle {
+    font-size: 20px;
+    color: #000;
+}
+.checkout_test.steps_2 .address_wrapper .ncrt_cm_sectitle + .cl_line10t {
+    border: none;
+}
+.checkout_test.steps_2 .address_wrapper .ncrt_cm_s_field_block_40 ~ .ncrt_cm_s_field_block_40 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.checkout_test.steps_2 .address_wrapper .cart_item_total {
+    margin: 0;
+}
+.checkout_test.steps_2 .address_wrapper .ncrt_cm_desc_it {
+    display: none;
+}
+.checkout_test.steps_2 .address_wrapper .ncrt_cm_item_n span {
+    text-align: left;
+    display: block;
+}
+.checkout_test.steps_2 .address_wrapper .ncrt_cm_item_n > span:first-child:not(:last-child) {
+    display: none;
+}
+.checkout_test.steps_2 .address_wrapper .ncrt_shi_item .ncrt_cm_desc_n {
+    color: #000;
+}
+.checkout_test.steps_2 .address_wrapper .cl_line10t {
+    margin-top: 0;
+}
+.checkout_test.steps_2 .address_wrapper .ship_total_iv {
+    width: 100%;
+}
+
+/* Payment Details */
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .cl_line:last-of-type {
+    display: none;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.checkout_test.steps_2 .ncrt_shi_pay > .ncrt_cm_s_field_block_50,
+.checkout_test.steps_2 .ncrt_shi_pay > .ncrt_cm_s_field_block_50_last {
+    margin-top: 40px;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .switchamznpp > span {
+    max-width: 40%;
+    width: 100%;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .switchamznpp > span:empty {
+    display: none;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span {
+    width: 47.5%;
+    margin: 0 0 40px 0;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:first-child {
+    width: 100%;
+}
+.checkout_test.steps_2 .ncrt_cm_fieldlabel[for="ccExpireMo"] ~ span {
+    width: 47.5%;
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 0;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main input {
+    width: 100%;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main .c-cart__credit-cards {
+    max-width: 100%;
+    height: 15px;
+    width: auto;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main input {
+    width: 100%;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main input#ccNumber {
+    box-sizing: border-box;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(1) {
+    order: 1;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(2) {
+    order: 2;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(3),
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(8),
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(12) {
+    display: none;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(4) {
+    order: 5;
+    width: 100%;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(5) {
+    order: 6;
+    width: 100%;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(6) {
+    order: 3;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(7) {
+    order: 7;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > div:nth-child(9) {
+    order: 8;
+    width: 100%;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > div:nth-child(10) {
+    order: 9;
+    width: 100%;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > div:nth-child(11) {
+    order: 4;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > span:nth-child(6) label + span {
+    position: absolute;
+    right: 0;
+    top: -23px;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > div:nth-child(11) img {
+    max-width: 100%;
+    height: auto;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm #owc-chk-payment-cc-main > div:nth-child(11),
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .ncrt_cm_returning {
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    width: 100%;
+    padding: 30px;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .ncrt_cm_returning {
+    height: auto;
+    box-sizing: border-box;
+    max-width: 100% !important;
+    margin-bottom: 20px;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .ncrt_cm_contain_line,
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .ncrt_cm_contain_last {
+    max-width: 42%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: inline-block;
+}
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .ncrt_cm_contain_line button,
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .ncrt_cm_contain_last button,
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .ncrt_cm_contain_line img,
+.checkout_test.steps_2 #checkoutBraintreePaymentForm .ncrt_cm_contain_last img {
+    max-width: 100%;
+}
+.checkout_test.steps_2 .ncrt_cm_validation {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+.checkout_test.steps_2 .btnSubmitOrderBtnWrapper {
+    margin: 0 auto 30px;
+}
+.checkout_test.edit_bill .form_wrapper {
+    margin-top: 40px;
+    margin-left: 0;
+}
+.checkout_test.steps_2 .noFocus label {
+    left: 0;
+    top: -20px;
+    transform: inherit;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* ================================ */
+
+.main_OrderType span{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.main_OrderType h3{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+.main_OrderType span input{
+    width: initial;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.main_OrderType span label{
+    margin-right: 9px;
+}

@@ -1,0 +1,10 @@
+.homepageCleanup_test .mcb-wrap-inner .column.mcb-column.column_button a[href="/schedule-online/"]{
+    background-color: #1B9D2C !important;
+    color: #fff;
+}
+.homepageCleanup_test .column.mcb-column.one-fourth.column_info_box .infobox .infobox_wrapper > ul{
+    display: none;
+}
+.homepageCleanup_test .column.mcb-column.one-fourth.column_info_box .infobox .infobox_wrapper .ib-desc ul li::before{
+    color: #fff;
+}

@@ -1,0 +1,12 @@
+@media(max-width: 600.98px) {
+    body #speakerprofile #speakerbio .info {
+        margin-top: 90px;
+    }
+    body #speakerprofile #speakerbio #addspeaker.add {
+        display: block;
+    }
+    body #speakerprofile #speakerbio #addspeaker.request {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}
