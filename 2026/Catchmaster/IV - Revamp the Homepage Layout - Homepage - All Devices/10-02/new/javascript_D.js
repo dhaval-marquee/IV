@@ -49,7 +49,7 @@ function loadTestCode() {
 
         // Hero Section
         if(!document.querySelector('.iv-hero-sec')){
-            document.querySelector('#MainContent').insertAdjacentHTML('afterbegin', `<h1 class="iv-main-title">Welcome to Catchmaster</h1><div class="iv-hero-sec-new iv-hero-desktop">
+            document.querySelector('#MainContent').insertAdjacentHTML('afterbegin', `<h1 class="iv-main-title">Welcome to Catchmaster! <br/> The Leader in Glue-Based Pest Control.</h1><div class="iv-hero-sec-new iv-hero-desktop">
                 <div class="page-width iv-container">
                     <div class="iv-hero-sec-new-inner">
                         <a class="iv-hero-sec-new-inner-first" href="https://www.catchmaster.com/collections/rats-mice">
@@ -79,6 +79,10 @@ function loadTestCode() {
         // KEEP YOUR FAMILY SAFE FROM PESTS THIS FALL
         document.querySelectorAll('.tabs-slider-heading h2').forEach(h2 => {
             h2.textContent = h2.textContent.toLowerCase();
+            h2.textContent = 'Start the Year Protecting Your Family';
+        });
+        document.querySelectorAll('.tabs-slider-heading p').forEach(p => {
+            p.textContent = 'Choose one of our best-selling glue trap…';
         });
 
         $(document).ready(function() {

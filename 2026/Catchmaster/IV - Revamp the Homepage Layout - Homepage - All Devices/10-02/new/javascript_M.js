@@ -49,11 +49,11 @@ function loadTestCode() {
 
         // Hero Section
         if(!document.querySelector('.iv-hero-sec')){
-            document.querySelector('#MainContent').insertAdjacentHTML('afterbegin', `<h1 class="iv-main-title">Welcome to Catchmaster</h1><div class="iv-hero-sec-new iv-hero-desktop">
+            document.querySelector('#MainContent').insertAdjacentHTML('afterbegin', `<h1 class="iv-main-title">Welcome to Catchmaster! <br/> The Leader in Glue-Based Pest Control</h1><div class="iv-hero-sec-new iv-hero-desktop">
                 <div class="page-width iv-container">
                     <div class="iv-hero-sec-new-inner">
-                        <a class="iv-hero-sec-new-inner-first" href="https://www.catchmaster.com/collections/rats-mice">
-                            <img src="https://res.cloudinary.com/ignite-visibility/image/upload/v1763791748/Catchmaster/RevampHomepageLayout/Homepage_Hero_Image_bannerDesktop.png" alt="Hero img" />
+                        <a class="iv-hero-sec-new-inner-first" href="https://www.catchmaster.com/collections/cold-weather-glue-traps">
+                            <img src="https://res.cloudinary.com/ignite-visibility/image/upload/v1770269663/Catchmaster/RevampHomepageLayout/FebPROMOBannerDes.png" alt="Hero img" />
                         </a>
                         <a class="iv-hero-sec-new-inner-sec" href="https://www.catchmaster.com/products/catchmaster-cockroach-trap-with-powerful-food-based-bait-glue-traps-10-pk?_pos=1&_sid=d065783d9&_ss=r">
                             <img src="https://res.cloudinary.com/ignite-visibility/image/upload/v1763383371/Catchmaster/RevampHomepageLayout/Homepage_Hero_bannerDesktop1.png" alt="Hero img" />
@@ -64,8 +64,8 @@ function loadTestCode() {
             <div class="iv-hero-sec-new iv-hero-mobile">
                 <div class="page-width iv-container">
                     <div class="iv-hero-sec-new-inner">
-                        <a class="iv-hero-sec-new-inner-first" href="https://www.catchmaster.com/collections/rats-mice">
-                            <img src="https://res.cloudinary.com/ignite-visibility/image/upload/v1763383372/Catchmaster/RevampHomepageLayout/Homepage_HerobannerMobile.png" alt="Hero img" />
+                        <a class="iv-hero-sec-new-inner-first" href="https://www.catchmaster.com/collections/cold-weather-glue-traps">
+                            <img src="https://res.cloudinary.com/ignite-visibility/image/upload/v1770269118/Catchmaster/RevampHomepageLayout/FebPROMOBannerM.png" alt="Hero img" />
                         </a>
                         <a class="iv-hero-sec-new-inner-sec" href="https://www.catchmaster.com/products/catchmaster-cockroach-trap-with-powerful-food-based-bait-glue-traps-10-pk?_pos=1&_sid=d065783d9&_ss=r">
                             <img src="https://res.cloudinary.com/ignite-visibility/image/upload/v1763383370/Catchmaster/RevampHomepageLayout/Homepage_Hero_bannerMobile.png" alt="Hero img" />
@@ -79,6 +79,10 @@ function loadTestCode() {
         // KEEP YOUR FAMILY SAFE FROM PESTS THIS FALL
         document.querySelectorAll('.tabs-slider-heading h2').forEach(h2 => {
             h2.textContent = h2.textContent.toLowerCase();
+            h2.textContent = 'Start the Year Protecting Your Family';
+        });
+        document.querySelectorAll('.tabs-slider-heading p').forEach(p => {
+            p.textContent = 'Choose one of our best-selling glue trap…';
         });
 
         $(document).ready(function() {
