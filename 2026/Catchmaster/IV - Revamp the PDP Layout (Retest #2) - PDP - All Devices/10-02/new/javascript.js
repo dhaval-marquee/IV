@@ -3,7 +3,7 @@ function loadTestCode() {
         document.body.classList.add('iv-revamp-the-PDP-layout');
 
         $(window).on('scroll', function () {
-            const $section = $('variant-radios');
+            const $section = $('.variant-change');
             if (!$section.length) return;
             const sectionBottom =
                 $section.offset().top + $section.outerHeight();

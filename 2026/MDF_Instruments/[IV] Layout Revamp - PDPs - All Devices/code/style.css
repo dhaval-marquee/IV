@@ -1,3 +1,6 @@
+.iv-pdp-revamp section:has(.rbrFBTPosition) {
+    display: none;
+}
 /* Left -  Product Gallery */
 .iv-pdp-revamp .product-gallery {
     flex-direction: inherit;
@@ -21,7 +24,9 @@
 .iv-pdp-revamp .product-info__block-item[data-block-id="buy_buttons"] {
     margin-bottom: 0;
 }
-
+.iv-pdp-revamp product-gallery scroll-carousel .product-gallery__media  {
+    max-width: 556px;
+}
 .iv-pdp-revamp product-form .swym-wishlist-button-bar {
     display: flex !important;
     margin: 0;
@@ -83,7 +88,10 @@
 .iv-pdp-revamp #product-extra-information accordion-disclosure summary span.accordion__toggle {
     padding: 20px 0 15px;
 }
-
+.iv-pdp-revamp .swym-btn-container .swym-button:after {
+    left: 20px;
+    width: 0;
+}
 @media screen and (max-width: 999px) {
     /* Left -  Product Gallery */
     .iv-pdp-revamp .product-gallery {
@@ -118,9 +126,60 @@
         gap: 2px;
     }
 }
+@media screen and (min-width: 768px) {
+    .iv-pdp-revamp .stethoscopeBtn {
+        display: none;
+    }
+}
 @media screen and (max-width: 767px) {
+    .iv-pdp-revamp product-form .swym-wishlist-button-bar {
+        display: none !important;
+    }
+    #rbr-container-element-fbt div[class*="modernFBTBundle_container_"] {
+        padding: 0;
+    }
     /* Accordion  */
     .iv-pdp-revamp #product-extra-information {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .iv-pdp-revamp .product-info .feature-badge-list.iv-feature-badge-list {
+        justify-content: center;
+    }
+    .iv-feature-badge-list div:nth-child(3),
+    .iv-feature-badge-list div:nth-child(4) {
+        width: 48%;
+    }
+    .iv-feature-badge-list div:nth-child(3) a,
+    .iv-feature-badge-list div:nth-child(4) > div {
+        width: 100%;
+    }
+    .iv-feature-badge-list div:nth-child(3) p strong,
+    .iv-feature-badge-list div:nth-child(4) p strong {
+        font-weight: 400;
+    }
+    .stethoscopeBtn {
+        --initial-gradient: linear-gradient(rgb(var(--button-background)), rgb(var(--button-background)));
+        --hover-gradient: linear-gradient(transparent, transparent);
+        --hover-background-position: var(--transform-origin-start);
+        -webkit-appearance: none;
+        appearance: none;
+        font: var(--button-font);
+        letter-spacing: var(--button-letter-spacing);
+        text-shadow: none;
+        text-align: center;
+        cursor: pointer;
+        border: 1px solid rgb(var(--button-outline-color, var(--button-background)));
+        border-radius: var(--button-border-radius);
+        background-position: var(--initial-background-position);
+        justify-content: center;
+        align-items: center;
+        column-gap: 1.125rem;
+        padding: .65rem 1.75rem;
+        transition: background-size .45s cubic-bezier(.785, .135, .15, .86), background-position .45s step-end, color .45s cubic-bezier(.785, .135, .15, .86), border .45s cubic-bezier(.785, .135, .15, .86);
+        display: inline-flex;
+        position: relative;
+        width: 100%;
+        background: transparent;
+        color: #000000;
     }
 }

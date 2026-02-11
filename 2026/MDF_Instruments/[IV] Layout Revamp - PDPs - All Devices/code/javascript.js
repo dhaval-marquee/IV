@@ -38,6 +38,33 @@ function runIVTests() {
             clonedBadgeList.classList.add('iv-feature-badge-list');
             priceBlock.insertAdjacentElement('afterend', clonedBadgeList);
         }
+
+        const interval = setInterval(() => {
+            const productInfo = document.querySelector('#product-extra-information');
+            const fbtElement = document.querySelector('#rbr-container-element-fbt');
+
+            if (!productInfo || !fbtElement) return;
+
+            productInfo.after(fbtElement);
+            clearInterval(interval);
+        }, 1000);
+
+        document.querySelector('div[data-block-type="buy-buttons"]').insertAdjacentHTML('afterend',`<a href="javascript:;" class="stethoscopeBtn">Bundle this stethoscope</a>`);
+
+        // Scroll function on click
+        document.querySelector('.stethoscopeBtn').addEventListener('click', function() {
+            const formSection = document.querySelector('section:has(#rbr-container-element-fbt)');
+            if (formSection) {
+                const headerHeight = document.querySelector('header').getBoundingClientRect().height; 
+                const sectionTop = formSection.getBoundingClientRect().top + window.scrollY - headerHeight;
+
+                window.scrollTo({
+                    top: sectionTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+
     }
 }
 
