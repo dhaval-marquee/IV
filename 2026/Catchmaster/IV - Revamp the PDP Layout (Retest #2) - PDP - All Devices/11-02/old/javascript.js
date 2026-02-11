@@ -2,6 +2,19 @@ function loadTestCode() {
     if (!document.body.classList.contains('iv-revamp-the-PDP-layout')) {
         document.body.classList.add('iv-revamp-the-PDP-layout');
 
+        $(window).on('scroll', function () {
+            const $section = $('.variant-change');
+            if (!$section.length) return;
+            const sectionBottom =
+                $section.offset().top + $section.outerHeight();
+            const windowTop = $(window).scrollTop();
+            if (windowTop >= sectionBottom) {
+                $('body').addClass('iv-productQuantity');
+            } else {
+                $('body').removeClass('iv-productQuantity');
+            }
+        });
+
         
         // Thumbnail Slider Desktop Code
         function thumbnailSliderDesktop() {
@@ -17,6 +30,8 @@ function loadTestCode() {
     
             }
         }
+        
+        // document.querySelector('.pdp-price-per-trap + div').after(document.querySelector('.pdp-price-per-trap '));
 
         let isDesktop = null;
         const mediaQuery = window.matchMedia("(min-width: 1024px)");
@@ -40,7 +55,6 @@ function loadTestCode() {
         // Product section
         const productDescription = document.querySelector('.product__description');
         const targetedPests = `<div class="iv-targeted-section">
-            <h4 class="iv-targeted-heading">Targeted Pests</h4>
             <div class="iv-targeted-image-section"></div>
         </div>`;
 
@@ -80,6 +94,7 @@ function loadTestCode() {
             }
 
             if (matchedPests.length > 0) {
+                imageSection.insertAdjacentHTML('beforebegin', `<h4 class="iv-targeted-heading">Targeted Pests</h4>`);
                 matchedPests.forEach(pest => {
                     const pestDiv = document.createElement("div");
                     pestDiv.className = "iv-targeted-item";
@@ -144,72 +159,53 @@ function loadTestCode() {
             $('.product__description > div.OutlineElement, .product__description > div.ListContainerWrapper').wrapAll('<div class="iv-description-content"></div>');
         }
 
-        function runCodeDesktop() {
-            var onlyDesContent = document.querySelector('.iv-description-content');
-            if (onlyDesContent) {
+        // Accordion click event
+        document.addEventListener('click', function (e) {
+            const selector = '.product__description .iv-description-title, .iv-how-use .iv-title, .iv-promise-section .iv-promise-heading';
+            // check click is on heading (or its child)
+            const current = e.target.closest(selector);
+            if (!current) return;
 
-                // Read more
-                const heroDescription = document.querySelector('.product__description');
-                if (heroDescription) {
-    
-                    heroDescription.classList.add('iv-read-more-active');
-    
-                    if (!document.querySelector('.iv-readmore')) {
-                        const span = document.querySelector('.iv-description-content > span');
-                        const ul = document.querySelector('.iv-description-content');
-                        const target = span || ul;
-                        if (target) {
-                            target.insertAdjacentHTML(
-                                'afterend',
-                                `
-                                <span class="iv-readmore">Read More</span>
-                                <span class="iv-readless" style="cursor:pointer; display:none;">Read Less</span>
-                                `
-                            );
-                        }
-                    }
-    
-                    const readMore = heroDescription.querySelector('.iv-readmore');
-                    const readLess = heroDescription.querySelector('.iv-readless');
-    
-                    if (readMore && readLess) {
-                        readMore.addEventListener('click', () => {
-                            heroDescription.classList.remove('iv-read-more-active');
-                            readMore.style.display = 'none';
-                            readLess.style.display = 'inline';
-                        });
-                        readLess.addEventListener('click', () => {
-                            heroDescription.classList.add('iv-read-more-active');
-                            readLess.style.display = 'none';
-                            readMore.style.display = 'inline';
-                        });
+            const currentContent = current.nextElementSibling;
+
+            // close all others
+            document.querySelectorAll(selector).forEach(el => {
+                if (el !== current) {
+                    el.classList.remove('active');
+                    el.parentElement?.classList.remove('active');
+
+                    const content = el.nextElementSibling;
+                    if (content) {
+                        content.classList.remove('expanded');
+                        content.style.maxHeight = '0px';
                     }
                 }
-            }
-        }
+            });
 
-        // Load code just for Desktop 
-        let isDesktopReadMore = null;
-        const mediaQueryReadMore = window.matchMedia("(min-width: 750px)");
-        function readMoreBreakpoint(e) {
-            if (e.matches && isDesktopReadMore !== true) {
-                isDesktopReadMore = true;
-                runCodeDesktop();
+            // 🔹 toggle current
+            if (current.classList.contains('active')) {
+                // close current
+                current.classList.remove('active');
+                current.parentElement?.classList.remove('active');
+                if (currentContent) {
+                    currentContent.classList.remove('expanded');
+                    currentContent.style.maxHeight = '0px';
+                }
+            } else {
+                // open current
+                current.classList.add('active');
+                current.parentElement?.classList.add('active');
+                if (currentContent) {
+                    currentContent.classList.add('expanded');
+                    currentContent.style.maxHeight = currentContent.scrollHeight + 'px';
+                }
             }
-
-            if (!e.matches && isDesktopReadMore !== false) {
-                isDesktopReadMore = false;
-                // mobile cleanup
-            }
-        }
-        readMoreBreakpoint(mediaQueryReadMore);
-        mediaQueryReadMore.addEventListener("change", readMoreBreakpoint);
-        // Load code just for Desktop over
+        });		
 
         // Feature data
         const featuresByUrl = {
             "https://www.catchmaster.com/products/max-catch-sticky-glue-mouse-traps-original-scent": {
-                heading: "Top Features and Benefits",
+                heading: "Features and Benefits",
                 features: [{
                         title: "Ready to Use",
                         desc: "No additional bait necessary! Our traps can be used right out of the package."
@@ -234,7 +230,7 @@ function loadTestCode() {
             },
 
             "https://www.catchmaster.com/products/giant-fly-glue-trap": {
-                heading: "Top Features and Benefits",
+                heading: "Features and Benefits",
                 features: [{
                         title: "Family Friendly",
                         desc: "Made without toxic chemicals, our traps are safe to use around children and pets."
@@ -255,7 +251,7 @@ function loadTestCode() {
             },
 
             "https://www.catchmaster.com/products/professional-strength-mouse-insect-glue-traps": {
-                heading: "Top Features and Benefits",
+                heading: "Features and Benefits",
                 features: [{
                         title: "Complete Protection",
                         desc: "Whether it’s cool and moist or hot and dry, our traps are effective in any environment."
@@ -280,7 +276,7 @@ function loadTestCode() {
             },
 
             "https://www.catchmaster.com/products/pro-strength-mouse-traps-indoor-sticky-glue-boards-bulk": {
-                heading: "Top Features and Benefits",
+                heading: "Features and Benefits",
                 features: [{
                         title: "Year-Round Protection",
                         desc: "No matter the season, Catchmaster Pro-Strength traps are here to help!"
@@ -305,7 +301,7 @@ function loadTestCode() {
             },
 
             "https://www.catchmaster.com/products/clothes-moth-traps-six-count-get-rid-of-clothes-moths": {
-                heading: "Top Features and Benefits",
+                heading: "Features and Benefits",
                 features: [{
                         title: "Built To Last",
                         desc: "Catchmaster’s traps are made with a sturdy design that delivers reliable, long-lasting results."
@@ -355,58 +351,42 @@ function loadTestCode() {
                 document.querySelector('#MainContent > section[id*="main"]').insertAdjacentHTML("afterend", howUseHTML);
             } 
 
-            function runMobileOnly() {
-                $(document).ready(function () {
+            // $(document).ready(function () {
+            //     $('.product__description .iv-description-title, .iv-how-use .iv-title ,.iv-promise-section .iv-promise-heading ').on('click', function () {
 
-                    // 👉 By default Product Description OPEN (with height)
-                    const $defaultTitle = $('.product__description .iv-description-title');
-                    const $defaultContent = $defaultTitle.next('.iv-description-content');
+            //         var $current = $(this);
+            //         var $currentContent = $current.next();
 
-                    $defaultTitle.addClass('active');
-                    $defaultContent
-                        .addClass('expanded')
-                        .css('max-height', $defaultContent.prop('scrollHeight') + 'px');
-                    $defaultTitle.parent().addClass('active');
+            //         $('.product__description .iv-description-title, .iv-how-use .iv-title,.iv-promise-section .iv-promise-heading')
+            //             .not($current)
+            //             .removeClass('active')
+            //             .each(function () {
+            //                 const $content = $(this).next();
+            //                 $content
+            //                     .removeClass('expanded')
+            //                     .css('max-height', 0);
+            //                 $(this).parent().removeClass('active');
+            //             });
 
-                    // 👉 Accordion behavior (one open at a time)
-                    $('.product__description .iv-description-title, .iv-how-use .iv-title').on('click', function () {
+            //         // 🔹 Toggle current
+            //         if ($current.hasClass('active')) {
+            //             // Close current
+            //             $current.removeClass('active');
+            //             $currentContent
+            //                 .removeClass('expanded')
+            //                 .css('max-height', 0);
+            //             $current.parent().removeClass('active');
+            //         } else {
+            //             // Open current
+            //             $current.addClass('active');
+            //             $currentContent
+            //                 .addClass('expanded')
+            //                 .css('max-height', $currentContent.prop('scrollHeight') + 'px');
+            //             $current.parent().addClass('active');
+            //         }
 
-                        var $current = $(this);
-                        var $currentContent = $current.next();
-
-                        // 🔹 Close all others
-                        $('.product__description .iv-description-title, .iv-how-use .iv-title')
-                            .not($current)
-                            .removeClass('active')
-                            .each(function () {
-                                const $content = $(this).next();
-                                $content
-                                    .removeClass('expanded')
-                                    .css('max-height', 0);
-                                $(this).parent().removeClass('active');
-                            });
-
-                        // 🔹 Toggle current
-                        if ($current.hasClass('active')) {
-                            // Close current
-                            $current.removeClass('active');
-                            $currentContent
-                                .removeClass('expanded')
-                                .css('max-height', 0);
-                            $current.parent().removeClass('active');
-                        } else {
-                            // Open current
-                            $current.addClass('active');
-                            $currentContent
-                                .addClass('expanded')
-                                .css('max-height', $currentContent.prop('scrollHeight') + 'px');
-                            $current.parent().addClass('active');
-                        }
-
-                    });
-
-                });
-            }
+            //     });
+            // });
 
 
             function desktopElement() {
@@ -439,9 +419,10 @@ function loadTestCode() {
                 if (title) mediaGallery.before(title);
                 if (yotpoBlock) mediaGallery.before(yotpoBlock);
                 if (priceBlock) mediaGallery.before(priceBlock);
-
-                
             }
+
+            document.querySelector('.product__description').after(document.querySelector('.iv-how-use'));
+
             // Load code for Desktop and Mobile 
             if (window.matchMedia("(min-width: 750px)").matches) {
                 desktopElement();
@@ -453,23 +434,7 @@ function loadTestCode() {
                 }, true);
             } else {
                 if (window.matchMedia("(max-width: 749.98px)").matches) {
-                    runMobileOnly();
                     mobileElement();
-                    document.querySelector('.product__description').after(document.querySelector('.iv-how-use'));
-
-                    $(window).on('scroll', function () {
-                        const $section = $('variant-radios');
-                        if (!$section.length) return;
-                        const sectionBottom =
-                            $section.offset().top + $section.outerHeight();
-                        const windowTop = $(window).scrollTop();
-                        if (windowTop >= sectionBottom) {
-                            $('body').addClass('iv-productQuantity');
-                        } else {
-                            $('body').removeClass('iv-productQuantity');
-                        }
-                    });
-
                 }
 
                 window.addEventListener('resize', function(event) {
@@ -480,11 +445,10 @@ function loadTestCode() {
             }
             // Load code for Desktop and Mobile 
         }
-
-        // How to Use Glue Traps
+        // How to Use Max Catch Glue Traps
         const pagesData = {
             "https://www.catchmaster.com/products/max-catch-sticky-glue-mouse-traps-original-scent": {
-                title: "How to Use Glue Traps",
+                title: "How to Use Max Catch Glue Traps",
                 subtitle: "Just 3 simple steps to reclaim your home",
                 steps: [{
                         img: "https://res.cloudinary.com/ignite-visibility/image/upload/v1758700740/Catchmaster/RevampPDPLayout/sticky-glue-original-scent-v1.gif",
@@ -621,7 +585,7 @@ function loadTestCode() {
             `;
             
             function desktopRun() {
-                document.querySelector('.iv-how-use')?.insertAdjacentHTML("afterend", useGlueHTML);
+                document.querySelectorAll('#MainContent > section')[0]?.insertAdjacentHTML("afterend", useGlueHTML);
             }
             function mobileRun() {
                 document.querySelector('.iv-promise-section')?.insertAdjacentHTML("afterend", useGlueHTML);

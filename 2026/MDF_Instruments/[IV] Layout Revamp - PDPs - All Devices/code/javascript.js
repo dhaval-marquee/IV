@@ -53,7 +53,7 @@ function runIVTests() {
 
         // Scroll function on click
         document.querySelector('.stethoscopeBtn').addEventListener('click', function() {
-            const formSection = document.querySelector('section:has(#rbr-container-element-fbt)');
+            const formSection = document.querySelector('#rbr-container-element-fbt');
             if (formSection) {
                 const headerHeight = document.querySelector('header').getBoundingClientRect().height; 
                 const sectionTop = formSection.getBoundingClientRect().top + window.scrollY - headerHeight;

@@ -1,0 +1,39 @@
+.iv-insurance .iv-insurance-bar {
+    background: var(--c-accent);
+    background-image: var(--c-gradient-accent, linear-gradient(118deg, #ff8b00 0%, #ff7000 100%));
+    padding: 6px 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    z-index: 9;
+    box-shadow: 0px 7px 10px 10px #a7a7a7;
+}
+.iv-insurance .iv-insurance-bar a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.iv-insurance div#apexchat_prechat_invitation_wrapper {
+    bottom: 40px !important;
+}
+.iv-insurance .iv-mobile-text {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .iv-insurance .iv-insurance-bar {
+        padding: 8px 12px;
+    }
+    .iv-insurance .iv-insurance-bar a {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .iv-insurance .iv-desktop-text {
+        display: none;
+    }
+    .iv-insurance .iv-mobile-text {
+        display: block;
+    }
+}

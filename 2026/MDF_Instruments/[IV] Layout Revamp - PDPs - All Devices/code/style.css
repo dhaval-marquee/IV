@@ -82,7 +82,9 @@
 
 .iv-pdp-revamp #product-extra-information accordion-disclosure summary {
     border-bottom: 1px solid #dddddd;
-    margin-bottom: 20px;
+}
+.iv-pdp-revamp #product-extra-information accordion-disclosure .accordion__content {
+    padding-top: 20px;
 }
 
 .iv-pdp-revamp #product-extra-information accordion-disclosure summary span.accordion__toggle {
@@ -152,12 +154,14 @@
     .iv-feature-badge-list div:nth-child(3) a,
     .iv-feature-badge-list div:nth-child(4) > div {
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .iv-feature-badge-list div:nth-child(3) p strong,
     .iv-feature-badge-list div:nth-child(4) p strong {
         font-weight: 400;
     }
-    .stethoscopeBtn {
+    .iv-pdp-revamp .stethoscopeBtn {
         --initial-gradient: linear-gradient(rgb(var(--button-background)), rgb(var(--button-background)));
         --hover-gradient: linear-gradient(transparent, transparent);
         --hover-background-position: var(--transform-origin-start);
@@ -181,5 +185,6 @@
         width: 100%;
         background: transparent;
         color: #000000;
+        margin: 10px 0px 16px;
     }
 }
