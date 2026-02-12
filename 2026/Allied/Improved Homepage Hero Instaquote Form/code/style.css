@@ -45,6 +45,8 @@
 }
 .iv-homepage fieldset[data-step="1"] .slide-overlay .inner-container fieldset > label {
     color: #000;
+    font-size: 18px;
+    font-weight: 700;
 }
 .iv-homepage fieldset[data-step="1"] .slide-overlay .inner-container fieldset > input {
     border: 1px solid #000;

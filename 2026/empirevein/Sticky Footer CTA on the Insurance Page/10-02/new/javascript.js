@@ -2,15 +2,14 @@ function loadTestCode() {
     if (!document.querySelector('body').classList.contains('iv-insurance')) {
         document.querySelector('body').classList.add('iv-insurance');
 
-        const ivDesktoptext = `Not sure if you’re covered? Click here to get a FREE consultation`;
-        const ivMobiletext = `Not sure if you’re covered? Get a FREE consultation`;
+        const ivDesktopText = `Not sure if you’re covered? Click here to get a FREE consultation`;
+        const ivMobileText = `Not sure if you’re covered? Get a FREE consultation`;
 
-        const insuranceBar = `<div class="iv-insurance-bar">
-            <a href="https://empirevein.com/en/book-online/">
-                <span class="iv-desktop-text">${ivDesktoptext}</span>
-                <span class="iv-mobile-text">${ivMobiletext}</span>    
-            </a>
-        </div>`;
+        const insuranceBar = `
+            <a href="https://empirevein.com/en/book-online/" class="iv-insurance-bar">
+                <span class="iv-desktop-text">${ivDesktopText}</span>
+                <span class="iv-mobile-text">${ivMobileText}</span>    
+            </a>`;
         document.querySelector('body').insertAdjacentHTML('beforeend', insuranceBar);
     }
 }
