@@ -1,11 +1,30 @@
 function runIVTests() {
-    if (!document.body.classList.contains('iv-pdp-revamp')) {
-        document.body.classList.add('iv-pdp-revamp');
+    if (!document.querySelector('body').classList.contains('iv-pdp-revamp')) {
+        document.querySelector('body').classList.add('iv-pdp-revamp');
 
         // Open defult accordion on load
-        document.querySelectorAll('#product-extra-information details summary').forEach(function (summary) {
-            summary.click();
-        });
+        let isDesktop = null;
+
+        function handleAccordionClick() {
+            const summaries = document.querySelectorAll('#product-extra-information details summary');
+            const nowDesktop = window.innerWidth >= 768;
+            if (isDesktop === nowDesktop) return;
+            isDesktop = nowDesktop;
+
+            summaries.forEach(function (summary) {
+                const details = summary.parentElement;
+                if (nowDesktop && !details.open) {
+                    summary.click();
+                }
+                if (!nowDesktop && details.open) {
+                    summary.click();
+                }
+            });
+        }
+        handleAccordionClick();
+        window.addEventListener('load', handleAccordionClick);
+        window.addEventListener('resize', handleAccordionClick);
+
 
         // Move Description Info as last child
         (() => {
@@ -64,6 +83,75 @@ function runIVTests() {
                 });
             }
         });
+
+        // carousel for the thumbnail
+         function loadCSS(href) {
+            return new Promise(function (resolve) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            link.onload = resolve;
+            document.head.appendChild(link);
+            });
+        }
+
+        function loadScript(src) {
+            return new Promise(function (resolve) {
+            var script = document.createElement('script');
+            script.src = src;
+            script.onload = resolve;
+            document.body.appendChild(script);
+            });
+        }
+
+        function initSlick() {
+
+            var $thumbs = $('product-gallery-navigation');
+
+            if (!$thumbs.length) return;
+
+            if ($thumbs.hasClass('slick-initialized')) {
+            $thumbs.slick('unslick');
+            }
+
+            $thumbs.slick({
+                vertical: true,
+                slidesToShow: 8,
+                slidesToScroll: 1,
+                infinite: false,
+                arrows: true,
+                dots: false,
+                adaptiveHeight: false,
+                prevArrow: '<button type="button" class="slick-prev">↑</button>',
+                nextArrow: '<button type="button" class="slick-next">↓</button>',
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 6
+                    }
+                    },
+                    {
+                    breakpoint: 768,
+                    settings: {
+                        vertical: false,
+                        slidesToShow: 4
+                    }
+                    }
+                ]
+            });
+
+        }
+
+        async function start() {
+            await loadCSS("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
+            await loadCSS("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css");
+
+            await loadScript("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js");
+
+            setTimeout(initSlick, 100);
+        }
+        start();
 
     }
 }

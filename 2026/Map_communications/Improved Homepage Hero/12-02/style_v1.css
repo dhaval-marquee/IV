@@ -1,0 +1,102 @@
+.iv-Homepage main .banner-content .banner-btn:not(.iv-btnWrapper) {
+    display: none;
+}
+.iv-Homepage ul.listItems {
+    margin-bottom: 30px;
+}
+.iv-Homepage ul.listItems li {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 0 0 0 20px;
+}
+.iv-Homepage ul.listItems li::before {
+    background-color: var(--white);
+    top: 50%;
+    transform: translateY(-50%);
+    height: 8px;
+    width: 8px;
+}
+.iv-Homepage .banner-brand-logos img[alt="PCI DSS"] {
+    order: 1;
+}
+.iv-Homepage .banner-brand-logos img[alt="SOC"] {
+    order: 2;
+}
+.iv-Homepage .banner-brand-logos img[alt="HITRUST"] {
+    order: 3;
+}
+.iv-Homepage .banner-brand-logos img[alt="HIPAA"] {
+    order: 4;
+}
+.iv-Homepage .iv-btnWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    max-width: 100%;
+    width: 100%;
+}
+.iv-Homepage .iv-btnWrapper a {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+    border-radius: 32px;
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+.iv-Homepage .iv-btnWrapper .requestMoreInfoBtn {
+    background-color: var(--reddish-orange);
+    padding: 18px;
+    max-width: 280px;
+}
+.iv-Homepage .iv-btnWrapper .SeePricingBtn {
+    padding: 14px;
+    max-width: 250px;
+    border: 4px solid var(--white);
+}
+.iv-Homepage .iv-btnWrapper .requestMoreInfoBtn:hover,
+.iv-Homepage .iv-btnWrapper .SeePricingBtn:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    color: var(--white);
+}
+
+@media (max-width: 1799.98px) {
+    .iv-Homepage ul.listItems li {
+        font-size: 28px;
+    }
+}
+@media (max-width: 1499.98px) {
+    .iv-Homepage ul.listItems li {
+        font-size: 25px;
+    }
+}
+@media (max-width: 991.98px) {
+    .iv-Homepage ul.listItems li {
+        font-size: 22px;
+    }
+}
+@media(max-width: 767.98px) {
+    .iv-Homepage ul.listItems li {
+        font-size: 20px;
+    }
+    .iv-Homepage ul.listItems li::before {
+        background-color: var(--black);
+        top: 14px;
+    }
+    .iv-Homepage .iv-btnWrapper {
+        gap: 8px;
+        margin-top: 0;
+    }
+    .iv-Homepage .iv-btnWrapper .requestMoreInfoBtn {
+        padding: 16px;
+    }
+    .iv-Homepage .iv-btnWrapper .SeePricingBtn {
+        border-color: var(--reddish-orange);
+        color: var(--reddish-orange);
+        padding: 12px;
+    }
+    .iv-Homepage .banner-brand-logos {
+        filter: none;
+    }
+}

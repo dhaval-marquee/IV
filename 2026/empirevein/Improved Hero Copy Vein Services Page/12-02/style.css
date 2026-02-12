@@ -1,0 +1,12 @@
+.iv-veinServicesPage header.entry-header  {
+    text-align: center;
+}
+.iv-veinServicesPage .subpage-img .entry-header h1 {
+    font-size: 42px;
+}
+.iv-veinServicesPage header.entry-header  ul {
+    width: 100%;
+    max-width: 330px;
+    margin: 0 auto;
+    text-align: left;
+}

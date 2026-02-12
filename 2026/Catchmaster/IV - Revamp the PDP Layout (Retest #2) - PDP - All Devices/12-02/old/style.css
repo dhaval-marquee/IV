@@ -103,19 +103,10 @@
     display: none;
 }
 .iv-revamp-the-PDP-layout .product__info-wrapper variant-selects,
-.iv-revamp-the-PDP-layout .product__info-container .product-form {
+.product__info-container .product-form {
     margin: 0;
 }
-.iv-revamp-the-PDP-layout share-button.quick-add-hidden {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.iv-revamp-the-PDP-layout .yotpo-main-widget-layout .yotpo-bold-layout .yotpo-head {
-    margin-bottom: 0;
-}
-.iv-revamp-the-PDP-layout .yotpo-display-s .yotpo-bottom-line .yotpo-summary-section .yotpo-bottom-line-summary {
-    margin-top: 0;
-}
+
 @media (min-width: 1024px) {
     .iv-revamp-the-PDP-layout .product--thumbnail_slider media-gallery {
         column-gap: 10px;
@@ -171,7 +162,7 @@
     }
     .iv-revamp-the-PDP-layout #MainContent > section:first-child > section {
         padding-top: 16px;
-        padding-bottom: 0;
+        padding-bottom: 16px;
     }
     .iv-revamp-the-PDP-layout .product__info-container .product__description,
     .iv-revamp-the-PDP-layout share-button:has(.share-button__button) {
@@ -226,7 +217,7 @@
     .iv-revamp-the-PDP-layout .shopify-block + div:has(.price-per-piece-wrapper) {
         display: block !important;
     }
-    .iv-revamp-the-PDP-layout .product > div > .product__title {
+    .product > div > .product__title {
         margin-top: 20px;
         margin-bottom: 0;
     }
@@ -240,15 +231,8 @@
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 14px;
-    cursor: pointer;
 }
-.iv-revamp-the-PDP-layout .iv-promise-heading {
-    border-bottom: 1px solid #A6A6A6;
-    padding-bottom: 15px;
-    padding-right: 15px;
-    margin-bottom: 15px;
-}
-.iv-revamp-the-PDP-layout .iv-targeted-section {
+.iv-targeted-section {
     overflow: hidden;
 }
 .iv-revamp-the-PDP-layout .iv-targeted-image-section {
@@ -291,20 +275,6 @@
     align-items: center;
     gap: 20px;
 }
-.iv-revamp-the-PDP-layout .iv-description-title {
-    border-bottom: 1px solid #A6A6A6;
-    padding-bottom: 15px;
-}
-.iv-revamp-the-PDP-layout .iv-description-content,
-.iv-revamp-the-PDP-layout .iv-how-use > div > div:not(.iv-title),
-.iv-revamp-the-PDP-layout .iv-promise-image-section {
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.35s ease;
-}
-.iv-revamp-the-PDP-layout .iv-promise-image-section.expanded {
-    max-height: 100% !important;
-}
 
 @media screen and (max-width: 749px) {
     .iv-revamp-the-PDP-layout .product__media-wrapper .price-per-piece-wrapper .price-item {
@@ -338,164 +308,167 @@
         width: 50px;
         height: 50px;
     }
+    /* .iv-description-content:not(.expanded) {
+    display: none;
+}
+    .iv-description-content.expanded {
+        display: block;
+        transition: max-height 0.28s ease;
+    } */
+    .iv-description-content,
+    .iv-how-use > div > div:not(.iv-title) {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.35s ease;
+    }
+    .iv-description-title,
+    .iv-how-use .iv-title {
+        position: relative;
+    }
+    .iv-description-title::before,
+    .iv-how-use .iv-title::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 6px;
+        right: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 8px solid #000;
+    }
+    .iv-description-title.active::before,
+    .iv-how-use .iv-title.active::before {
+        transform: rotate(180deg);
+    }
 }
 /* End - Prodcut section */
 
 /*  How Use */
-.iv-revamp-the-PDP-layout .iv-how-use,
-.iv-revamp-the-PDP-layout .iv-promise-section {
-    background: #fff;
+.iv-how-use {
     margin: 0;
-    cursor: pointer;
+    padding: 50px 0;
+    background: #fff;
 }
-.iv-revamp-the-PDP-layout .iv-promise-section {
-    padding-bottom: 15px;
-}
-.iv-revamp-the-PDP-layout .iv-how-use .iv-container {
-    padding: 0;
-}
-.iv-revamp-the-PDP-layout .iv-how-use-container {
+.iv-how-use-container {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     align-items: center;
 }
-.iv-revamp-the-PDP-layout .iv-how-use .iv-title {
-    color: #000;
-    font-family: Roboto;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: inherit;
-    border-bottom: 1px solid #A6A6A6;
-    padding-bottom: 15px;
-    padding-right: 15px;
-    margin-bottom: 15px;
+.iv-how-use .iv-title {
+    margin-bottom: 30px;
 }
-.iv-revamp-the-PDP-layout .iv-how-use-left {
+.iv-how-use-left {
     flex: 1 1 45%;
 }
-.iv-revamp-the-PDP-layout .iv-how-use-left img {
+.iv-how-use-left img {
     width: 100%;
     max-width: 100%;
     object-fit: cover;
 }
-.iv-revamp-the-PDP-layout .iv-how-use-right {
+.iv-how-use-right {
     flex: 1 1 50%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
-.iv-revamp-the-PDP-layout .iv-how-use-item img {
+.iv-how-use-item img {
     max-width: 100px;
     margin-bottom: 10px;
 }
-.iv-revamp-the-PDP-layout .iv-how-use-item h6 {
+.iv-how-use-item h6 {
     font-size: 20px;
     font-weight: 700;
     margin: 0px;
     text-transform: uppercase;
     color: #000;
 }
-.iv-revamp-the-PDP-layout .iv-how-use-item p {
+.iv-how-use-item p {
     font-size: 14px;
     color: #555;
     line-height: 1.5;
 }
-.iv-revamp-the-PDP-layout .iv-description-title,
-.iv-revamp-the-PDP-layout .iv-how-use .iv-title,
-.iv-revamp-the-PDP-layout .iv-promise-heading {
-    position: relative;
-}
-.iv-revamp-the-PDP-layout .iv-description-title::before,
-.iv-revamp-the-PDP-layout .iv-how-use .iv-title::before,
-.iv-revamp-the-PDP-layout .iv-promise-heading::before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    top: 6px;
-    right: 0;
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-top: 8px solid #000;
-}
-.iv-revamp-the-PDP-layout .iv-description-title.active::before,
-.iv-revamp-the-PDP-layout .iv-how-use .iv-title.active::before,
-.iv-revamp-the-PDP-layout .iv-promise-heading.active::before {
-    transform: rotate(180deg);
-}
+
 @media screen and (max-width: 991px) {
-    .iv-revamp-the-PDP-layout .iv-how-use-left {
+    .iv-how-use-left {
         display: none;
     }
 }
 
 @media screen and (max-width: 749px) {
-    .iv-revamp-the-PDP-layout .iv-how-use {
+    .iv-how-use {
         padding-top: 0;
         padding-bottom: 0;
     }
-    .iv-revamp-the-PDP-layout .iv-how-use .iv-title {
+    .iv-how-use .iv-container {
+        padding: 0;
+    }
+    .iv-how-use .iv-title {
+        color: #000;
+        font-family: Roboto;
         font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
         text-align: inherit;
+        border-bottom: 1px solid #A6A6A6;
         padding-bottom: 15px;
         padding-right: 15px;
         margin-bottom: 15px;
     }
-    .iv-revamp-the-PDP-layout .iv-how-use-container:not(.expanded) {
+    .iv-how-use-container:not(.expanded) {
         display: none;
     }
-    .iv-revamp-the-PDP-layout .iv-how-use-container.expanded  {
+    .iv-how-use-container.expanded  {
         display: block;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .iv-revamp-the-PDP-layout .iv-how-use-right {
+    .iv-how-use-right {
         grid-template-columns: 1fr;
     }
 }
 /* End - How Use */
 
 /* Use glue */
-.iv-revamp-the-PDP-layout .iv-use-glue {
+.iv-use-glue {
     background: #f6f6f6;
     padding: 50px 0;
     text-align: center;
 }
-.iv-revamp-the-PDP-layout .iv-use-glue-subtitle {
+.iv-use-glue-subtitle {
     font-size: 24px;
     color: #666;
     margin: 0;
     line-height: normal;
 }
-.iv-revamp-the-PDP-layout .iv-use-glue-steps {
+.iv-use-glue-steps {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
     margin-top: 30px;
 }
-.iv-revamp-the-PDP-layout .iv-use-glue-item {
+.iv-use-glue-item {
     background: #fff;
     text-align: left;
 }
-.iv-revamp-the-PDP-layout .iv-use-glue-img img {
+.iv-use-glue-img img {
     width: 100%;
     display: block;
 }
-.iv-revamp-the-PDP-layout .iv-use-glue-content {
+.iv-use-glue-content {
     padding: 20px 50px 40px 50px;
 }
-.iv-revamp-the-PDP-layout .iv-use-glue-content h6 {
+.iv-use-glue-content h6 {
     font-size: 25px;
     font-weight: 700;
     margin: 0;
     font-family: Arial Black, Arial, sans-serif;
     color: #000;
 }
-.iv-revamp-the-PDP-layout .iv-use-glue-content p {
+.iv-use-glue-content p {
     font-size: 14px;
     color: #444;
     line-height: 1.5;
@@ -503,19 +476,19 @@
 }
 
 @media screen and (max-width: 1280px) {
-    .iv-revamp-the-PDP-layout .iv-use-glue-content {
+    .iv-use-glue-content {
         padding: 20px;
     }
 }
 
 @media screen and (max-width: 749px) {
-    .iv-revamp-the-PDP-layout .iv-use-glue {
+    .iv-use-glue {
         padding: 30px 0;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .iv-revamp-the-PDP-layout .iv-use-glue-steps {
+    .iv-use-glue-steps {
         grid-template-columns: 1fr;
     }
 }
@@ -560,7 +533,7 @@
     gap: 20px;
     cursor: pointer;
 }
-.iv-revamp-the-PDP-layout .iv-accordion-btn:focus {
+.iv-accordion-btn:focus {
     outline-color: rgba(200, 27, 42, 0.7);
     outline-offset: 6px;
 }
@@ -903,7 +876,7 @@
 }
 /* End - Review section desing */
 
-.iv-revamp-the-PDP-layout .iv-title {
+.iv-title {
     font-size: 26px;
     font-weight: 700;
     margin: 0;
@@ -921,16 +894,35 @@
     }
 }
 @media screen and (min-width: 750px) {
-    .iv-revamp-the-PDP-layout .iv-container {
+    .iv-container {
         max-width: var(--page-width);
         margin: 0 auto;
         padding: 0 5rem;
     }
 
     /* Read more and Read less  */
-    .iv-revamp-the-PDP-layout .product__description.iv-read-more-active {
+    .iv-revamp-the-PDP-layout .iv-read-more-active .iv-description-content::before,
+    .product-mouse-insect-glue-trays-2.iv-revamp-the-PDP-layout .iv-read-more-active .iv-description-content::after {
+        position: absolute;
+        content: '';
+        background: linear-gradient(360deg, #ffffff, #00000000);
+        width: 100%;
+        height: 50%;
+        bottom: -2px;
+    }
+    .product__description.iv-read-more-active {
         animation: slideRTL .6s cubic-bezier(0, 0, .3, 1) forwards;
         animation-delay: calc(var(--animation-order) * 75ms);
+    }
+    .iv-revamp-the-PDP-layout .iv-read-more-active .iv-description-content {
+        max-height: 50px;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+    }
+    .iv-revamp-the-PDP-layout .product__description .iv-description-content,
+    .iv-revamp-the-PDP-layout .product__description span {
+        font-size: 16px;
     }
     .iv-revamp-the-PDP-layout .product__description .iv-description-content {
         margin-bottom: 5px;
@@ -946,16 +938,16 @@
 }
 
 @media screen and (max-width: 749px) {
-    .iv-revamp-the-PDP-layout .iv-container {
+    .iv-container {
         padding: 0 15px;
     }
-    .iv-revamp-the-PDP-layout .iv-title {
+    .iv-title {
         font-size: 22px;
     }
-    .iv-revamp-the-PDP-layout .iv-use-glue-subtitle {
+    .iv-use-glue-subtitle {
         font-size: 16px;
     }
-    .iv-revamp-the-PDP-layout .product__description.quick-add-hidden {
+    .product__description.quick-add-hidden {
         margin-bottom: 0;
     }
 }

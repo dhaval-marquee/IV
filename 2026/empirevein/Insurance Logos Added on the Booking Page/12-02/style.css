@@ -1,0 +1,52 @@
+.iv-insurance-logos .kt-inside-inner-col .wp-block-list + p {
+    display: none;
+}
+.iv-insurance-logos h2.iv-title-insurance {
+    font-size: 22px;
+    color: #576F86;
+    font-weight: 600;
+    margin-bottom: 10px !important;
+}
+.iv-insurance-logos p.iv-subtitle-insurance {
+    color: #4A5F6F;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 20px;
+}
+.iv-insurance-logos .iv-logos-insurance {
+    border-radius: 10px;
+    padding: 20px;
+}
+.iv-insurance-logos .iv-logos-insurance ul {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.iv-insurance-logos p.iv-body-text {
+    text-align: center;
+    color: #4A5F6F;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+@media screen and (min-width: 768px) { 
+    .iv-insurance-logos form .form-submit-button.submit-button {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .iv-insurance-logos h2.iv-title-insurance,
+    .iv-insurance-logos p.iv-subtitle-insurance {
+        text-align: center;
+    }
+    .iv-insurance-logos h2.iv-title-insurance {
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    .iv-insurance-logos p.iv-subtitle-insurance {
+        font-size: 17px;
+    }
+}
