@@ -45,6 +45,9 @@
 .iv-starting-price .iv-price-row:not(.iv-price-viewall):first-child:hover {
     border-radius: 5px 0 0 5px;
 }
+.iv-starting-price .iv-price-row.iv-price-vehicle:hover {
+    border-radius: 0 5px 5px 0;
+}
 .iv-starting-price .iv-price-row > *{
     pointer-events: none;
 }
@@ -62,6 +65,8 @@
     box-shadow: inherit;
     color: #fff;
     background-color: #EA101F;
+    outline: 1px solid #EA101F;
+    border: 1px solid #EA101F;
 }
 .iv-starting-price .iv-price-row.iv-price-viewall:is(:active,:focus,:hover) strong {
     color: #fff;
@@ -217,6 +222,31 @@
     }
     .iv-starting-price .startingAt {
         text-align: center;
+    }
+    .iv-starting-price .pss-unit-list__container:has(.pss-unit-list__item-card) {
+        padding-bottom: 0;
+        margin-bottom: 10px;
+    }
+    .iv-starting-price .pssUnitList_active {
+        border-radius: 5px;
+        border: 1px solid #EA101F;
+        box-shadow: 0 0 8.9px 0 rgba(213, 0, 0, 0.7);
+        animation: removeHighlight 5s forwards;
+    }
+
+    @keyframes removeHighlight {
+        0% {
+            border: 1px solid #EA101F;
+            box-shadow: 0 0 8.9px 0 rgba(213, 0, 0, 0.7);
+        }
+        99% {
+            border: 1px solid #EA101F;
+            box-shadow: 0 0 8.9px 0 rgba(213, 0, 0, 0.7);
+        }
+        100% {
+            border: none;
+            box-shadow: none;
+        }
     }
 
 }

@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 8px;
+    padding: 27px 0 20px;
 }
 
 .iv-pdp-revamp .product-gallery__image-list .product-gallery__media>* {
@@ -45,14 +46,14 @@
 
 .iv-pdp-revamp product-gallery-navigation .slick-prev {
     left: 50%;
-    top: 4px;
+    top: 0;
     transform: translateX(-50%) rotate(90deg);
 }
 
 .iv-pdp-revamp product-gallery-navigation .slick-next {
     transform: translateX(-50%) rotate(90deg);
     left: 50%;
-    bottom: 8px;
+    bottom: 0;
     top: auto;
 }
 
@@ -75,6 +76,7 @@
 
 .iv-pdp-revamp product-form .swym-wishlist-button-bar button {
     display: block !important;
+    outline: none !important;
 }
 
 .iv-pdp-revamp product-form form {
@@ -108,8 +110,8 @@
         display: none;
     }
     .iv-pdp-revamp #product-extra-information accordion-disclosure {
-    pointer-events: none;
-}
+        pointer-events: none;
+    }
 }
 
 /* Accordion  */
@@ -120,8 +122,13 @@
     gap: 0 30px;
 }
 
-.iv-pdp-revamp #product-extra-information accordion-disclosure:last-child {
+.iv-pdp-revamp #product-extra-information accordion-disclosure.iv-description,
+.iv-pdp-revamp #product-extra-information #rbr-container-element-fbt {
     grid-column: 1 / -1;
+}
+
+.iv-pdp-revamp #product-extra-information #rbr-container-element-fbt div[class^="modernFBTBundle_container"] {
+    padding: 0;
 }
 
 .iv-pdp-revamp #product-extra-information accordion-disclosure summary {

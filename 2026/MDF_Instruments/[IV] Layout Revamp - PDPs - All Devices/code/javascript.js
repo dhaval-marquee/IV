@@ -1,6 +1,6 @@
 function runIVTests() {
-    if (!document.querySelector('body').classList.contains('iv-pdp-revamp')) {
-        document.querySelector('body').classList.add('iv-pdp-revamp');
+    if (!document.body.classList.contains('iv-pdp-revamp')) {
+        document.body.classList.add('iv-pdp-revamp');
 
         // Open defult accordion on load
         let isDesktop = null;
@@ -25,6 +25,15 @@ function runIVTests() {
         window.addEventListener('load', handleAccordionClick);
         window.addEventListener('resize', handleAccordionClick);
 
+        const intervalInformation = setInterval(function () {
+            const fbtElement = document.querySelector('.iv-pdp-revamp #rbr-container-element-fbt');
+            const productInfo = document.querySelector('.iv-pdp-revamp #product-extra-information');
+
+            if (fbtElement && productInfo) {
+                productInfo.appendChild(fbtElement);
+                clearInterval(intervalInformation); 
+            }
+        }, 2500);
 
         // Move Description Info as last child
         (() => {

@@ -220,6 +220,7 @@ function loadTestCode() {
     
                                 if (sizeText === selectedUnitSize && typeText === selectedUnitType) {
                                     // scroll to the matched row
+                                    row.classList.add('pssUnitList_active');
                                     row.scrollIntoView({ behavior: 'smooth', block: 'center' });
                                     break; // stop loop
                                 }

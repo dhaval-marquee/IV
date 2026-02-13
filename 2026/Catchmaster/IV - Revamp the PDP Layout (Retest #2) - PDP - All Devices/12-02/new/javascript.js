@@ -18,6 +18,8 @@ function loadTestCode() {
             }
         }
 
+        document.querySelector('.product .product__media-wrapper div:has(.price-per-piece-wrapper)')?.after(document.querySelector('.pdp-price-per-trap'));
+
         let isDesktop = null;
         const mediaQuery = window.matchMedia("(min-width: 1024px)");
 
@@ -40,7 +42,6 @@ function loadTestCode() {
         // Product section
         const productDescription = document.querySelector('.product__description');
         const targetedPests = `<div class="iv-targeted-section">
-            <h4 class="iv-targeted-heading">Targeted Pests</h4>
             <div class="iv-targeted-image-section"></div>
         </div>`;
 
@@ -80,6 +81,8 @@ function loadTestCode() {
             }
 
             if (matchedPests.length > 0) {
+                imageSection.insertAdjacentHTML('beforebegin', `<h4 class="iv-targeted-heading">Targeted Pests</h4>`);
+                document.querySelector('body').classList.add('pdpPage');
                 matchedPests.forEach(pest => {
                     const pestDiv = document.createElement("div");
                     pestDiv.className = "iv-targeted-item";
@@ -458,7 +461,7 @@ function loadTestCode() {
                     document.querySelector('.product__description').after(document.querySelector('.iv-how-use'));
 
                     $(window).on('scroll', function () {
-                        const $section = $('variant-radios');
+                        const $section = $('.variant-change');
                         if (!$section.length) return;
                         const sectionBottom =
                             $section.offset().top + $section.outerHeight();

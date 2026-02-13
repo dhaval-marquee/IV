@@ -245,6 +245,10 @@
 .iv-revamp-the-PDP-layout .iv-targeted-section {
     overflow: hidden;
 }
+.iv-revamp-the-PDP-layout:not(.pdpPage) .iv-targeted-section,
+.iv-revamp-the-PDP-layout:not(.pdpPage) #iv-faq-root {
+    display: none;
+}
 .iv-revamp-the-PDP-layout .iv-targeted-image-section {
     display: flex;
     gap: 16px;
