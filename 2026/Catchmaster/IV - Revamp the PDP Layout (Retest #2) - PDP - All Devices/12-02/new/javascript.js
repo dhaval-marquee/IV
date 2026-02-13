@@ -18,8 +18,6 @@ function loadTestCode() {
             }
         }
 
-        document.querySelector('.product .product__media-wrapper div:has(.price-per-piece-wrapper)')?.after(document.querySelector('.pdp-price-per-trap'));
-
         let isDesktop = null;
         const mediaQuery = window.matchMedia("(min-width: 1024px)");
 
@@ -358,131 +356,129 @@ function loadTestCode() {
                 document.querySelector('#MainContent > section[id*="main"]').insertAdjacentHTML("afterend", howUseHTML);
             } 
 
-            function runMobileOnly() {
-                $(document).ready(function () {
+        }
+        function runMobileOnly() {
+            $(document).ready(function () {
 
-                    // 👉 By default Product Description OPEN (with height)
-                    const $defaultTitle = $('.product__description .iv-description-title');
-                    const $defaultContent = $defaultTitle.next('.iv-description-content');
+                // 👉 By default Product Description OPEN (with height)
+                const $defaultTitle = $('.product__description .iv-description-title');
+                const $defaultContent = $defaultTitle.next('.iv-description-content');
 
-                    $defaultTitle.addClass('active');
-                    $defaultContent
-                        .addClass('expanded')
-                        .css('max-height', $defaultContent.prop('scrollHeight') + 'px');
-                    $defaultTitle.parent().addClass('active');
+                $defaultTitle.addClass('active');
+                $defaultContent
+                    .addClass('expanded')
+                    .css('max-height', $defaultContent.prop('scrollHeight') + 'px');
+                $defaultTitle.parent().addClass('active');
 
-                    // 👉 Accordion behavior (one open at a time)
-                    $('.product__description .iv-description-title, .iv-how-use .iv-title,.iv-promise-section .iv-promise-heading').on('click', function () {
+                // 👉 Accordion behavior (one open at a time)
+                $('.product__description .iv-description-title, .iv-how-use .iv-title,.iv-promise-section .iv-promise-heading').on('click', function () {
 
-                        var $current = $(this);
-                        var $currentContent = $current.next();
+                    var $current = $(this);
+                    var $currentContent = $current.next();
 
-                        // 🔹 Close all others
-                        $('.product__description .iv-description-title, .iv-how-use .iv-title, .iv-promise-section .iv-promise-heading')
-                            .not($current)
-                            .removeClass('active')
-                            .each(function () {
-                                const $content = $(this).next();
-                                $content
-                                    .removeClass('expanded')
-                                    .css('max-height', 0);
-                                $(this).parent().removeClass('active');
-                            });
-
-                        // 🔹 Toggle current
-                        if ($current.hasClass('active')) {
-                            // Close current
-                            $current.removeClass('active');
-                            $currentContent
+                    // 🔹 Close all others
+                    $('.product__description .iv-description-title, .iv-how-use .iv-title, .iv-promise-section .iv-promise-heading')
+                        .not($current)
+                        .removeClass('active')
+                        .each(function () {
+                            const $content = $(this).next();
+                            $content
                                 .removeClass('expanded')
                                 .css('max-height', 0);
-                            $current.parent().removeClass('active');
-                        } else {
-                            // Open current
-                            $current.addClass('active');
-                            $currentContent
-                                .addClass('expanded')
-                                .css('max-height', $currentContent.prop('scrollHeight') + 'px');
-                            $current.parent().addClass('active');
-                        }
+                            $(this).parent().removeClass('active');
+                        });
 
-                    });
+                    // 🔹 Toggle current
+                    if ($current.hasClass('active')) {
+                        // Close current
+                        $current.removeClass('active');
+                        $currentContent
+                            .removeClass('expanded')
+                            .css('max-height', 0);
+                        $current.parent().removeClass('active');
+                    } else {
+                        // Open current
+                        $current.addClass('active');
+                        $currentContent
+                            .addClass('expanded')
+                            .css('max-height', $currentContent.prop('scrollHeight') + 'px');
+                        $current.parent().addClass('active');
+                    }
 
                 });
-            }
 
+                document.querySelector('.product .product__media-wrapper div:has(.price-per-piece-wrapper)')?.after(document.querySelector('.pdp-price-per-trap'));
 
-            function desktopElement() {
-                const layout = document.querySelector('.iv-revamp-the-PDP-layout');
-                if (!layout) return;
-
-                const mediaGallery = layout.querySelector('.product__info-wrapper > product-info');
-                if (!mediaGallery) return;
-
-                const title = layout.querySelector('.product__media-wrapper > .product__title');
-                const yotpoBlock = layout.querySelector('.product__media-wrapper > .shopify-block:has(.yotpo-widget-instance)');
-                const priceBlock = layout.querySelector('.product__media-wrapper > .shopify-block + div:has(.price-per-piece-wrapper)');
-
-                if (priceBlock) mediaGallery.prepend(priceBlock);
-                if (yotpoBlock) mediaGallery.prepend(yotpoBlock);
-                if (title) mediaGallery.prepend(title);
-            }
-
-            function mobileElement() {
-                const layout = document.querySelector('.iv-revamp-the-PDP-layout');
-                if (!layout) return;
-
-                const mediaGallery = layout.querySelector('.product__media-wrapper > media-gallery');
-                if (!mediaGallery) return;
-
-                const title = layout.querySelector('.product__info-container > .product__title');
-                const yotpoBlock = layout.querySelector('.product__info-container > .shopify-block:has(.yotpo-widget-instance)');
-                const priceBlock = layout.querySelector('.product__info-container > .shopify-block + div:has(.price-per-piece-wrapper)');
-
-                if (title) mediaGallery.before(title);
-                if (yotpoBlock) mediaGallery.before(yotpoBlock);
-                if (priceBlock) mediaGallery.before(priceBlock);
-
-                
-            }
-            // Load code for Desktop and Mobile 
-            if (window.matchMedia("(min-width: 750px)").matches) {
-                desktopElement();
-
-                window.addEventListener('resize', function(event) {
-                    if (window.matchMedia("(max-width: 749.98px)").matches) {
-                        location.reload();
-                    }
-                }, true);
-            } else {
-                if (window.matchMedia("(max-width: 749.98px)").matches) {
-                    runMobileOnly();
-                    mobileElement();
-                    document.querySelector('.product__description').after(document.querySelector('.iv-how-use'));
-
-                    $(window).on('scroll', function () {
-                        const $section = $('.variant-change');
-                        if (!$section.length) return;
-                        const sectionBottom =
-                            $section.offset().top + $section.outerHeight();
-                        const windowTop = $(window).scrollTop();
-                        if (windowTop >= sectionBottom) {
-                            $('body').addClass('iv-productQuantity');
-                        } else {
-                            $('body').removeClass('iv-productQuantity');
-                        }
-                    });
-
-                }
-
-                window.addEventListener('resize', function(event) {
-                    if (window.matchMedia("(min-width: 750px)").matches) {
-                        location.reload();
-                    }
-                }, true);
-            }
-            // Load code for Desktop and Mobile 
+            });
         }
+        function desktopElement() {
+            const layout = document.querySelector('.iv-revamp-the-PDP-layout');
+            if (!layout) return;
+
+            const mediaGallery = layout.querySelector('.product__info-wrapper > product-info');
+            if (!mediaGallery) return;
+
+            const title = layout.querySelector('.product__media-wrapper > .product__title');
+            const yotpoBlock = layout.querySelector('.product__media-wrapper > .shopify-block:has(.yotpo-widget-instance)');
+            const priceBlock = layout.querySelector('.product__media-wrapper > .shopify-block + div:has(.price-per-piece-wrapper)');
+
+            if (priceBlock) mediaGallery.prepend(priceBlock);
+            if (yotpoBlock) mediaGallery.prepend(yotpoBlock);
+            if (title) mediaGallery.prepend(title);
+        }
+
+        function mobileElement() {
+            const layout = document.querySelector('.iv-revamp-the-PDP-layout');
+            if (!layout) return;
+
+            const mediaGallery = layout.querySelector('.product__media-wrapper > media-gallery');
+            if (!mediaGallery) return;
+
+            const title = layout.querySelector('.product__info-container > .product__title');
+            const yotpoBlock = layout.querySelector('.product__info-container > .shopify-block:has(.yotpo-widget-instance)');
+            const priceBlock = layout.querySelector('.product__info-container > .shopify-block + div:has(.price-per-piece-wrapper)');
+
+            if (title) mediaGallery.before(title);
+            if (yotpoBlock) mediaGallery.before(yotpoBlock);
+            if (priceBlock) mediaGallery.before(priceBlock);
+        }
+        // Load code for Desktop and Mobile 
+        if (window.matchMedia("(min-width: 750px)").matches) {
+            desktopElement();
+
+            window.addEventListener('resize', function(event) {
+                if (window.matchMedia("(max-width: 749.98px)").matches) {
+                    location.reload();
+                }
+            }, true);
+        } else {
+            if (window.matchMedia("(max-width: 749.98px)").matches) {
+                mobileElement();
+                runMobileOnly();
+                document.querySelector('.product__description').after(document.querySelector('.iv-how-use'));
+
+                $(window).on('scroll', function () {
+                    const $section = $('.variant-change');
+                    if (!$section.length) return;
+                    const sectionBottom =
+                        $section.offset().top + $section.outerHeight();
+                    const windowTop = $(window).scrollTop();
+                    if (windowTop >= sectionBottom) {
+                        $('body').addClass('iv-productQuantity');
+                    } else {
+                        $('body').removeClass('iv-productQuantity');
+                    }
+                });
+
+            }
+
+            window.addEventListener('resize', function(event) {
+                if (window.matchMedia("(min-width: 750px)").matches) {
+                    location.reload();
+                }
+            }, true);
+        }
+        // Load code for Desktop and Mobile 
 
         // How to Use Glue Traps
         const pagesData = {
