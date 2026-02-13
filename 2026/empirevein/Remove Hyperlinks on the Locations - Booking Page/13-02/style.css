@@ -1,0 +1,27 @@
+.iv-BookingPage .footer_locations li,
+.iv-BookingPage .footer_locations li:hover {
+    cursor: auto;
+}
+.iv-BookingPage .footer_locations li > a {
+    display: none;
+}
+.iv-BookingPage .footer_locations li h5,
+.iv-BookingPage .footer_locations li > a,
+.iv-BookingPage .footer_locations li > p > a {
+    pointer-events: none;
+}
+.iv-BookingPage .footer_locations li:hover h5 {
+    color: #49136f;
+}
+.iv-BookingPage .footer_locations li > p {
+    margin-bottom: 0;
+}
+
+.iv-BookingPage .footer_locations li > a {
+    margin-bottom: 16px;
+}
+
+/* only add v2  */
+.iv-BookingPage .footer_locations li p a {
+    display: none;
+}

@@ -1,0 +1,27 @@
+.iv-paid-social .fusion-container-anchor .fusion-builder-column-3 .fusion-column-wrapper .fusion-image-element>.fusion-imageframe {
+    display: none;
+}
+
+.iv-paid-social .slick-dots li button {
+    padding: 0 !important;
+}
+
+.iv-paid-social .slick-dots li button:before {
+    color: #5260CB;
+    font-size: 18px;
+    opacity: 1;
+}
+
+.iv-paid-social .slick-dots li.slick-active button:before {
+    color: #fff;
+    opacity: 1;
+}
+
+.iv-paid-social .iv-slider .slick-slide {
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.iv-paid-social .iv-slider img {
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+body .footer_locations li,
+body .footer_locations li:hover {
+    cursor: auto;
+}
+body .footer_locations li h5,
+body .footer_locations li > a,
+body .footer_locations li > p > a {
+    pointer-events: none;
+}
+body .footer_locations li:hover h5 {
+    color: #49136f;
+}
+body .footer_locations li > p {
+    margin-bottom: 0;
+}
+
+body .footer_locations li > a {
+    margin-bottom: 16px;
+}

@@ -1,0 +1,70 @@
+.iv-prominent .alike-section {
+    z-index: 2;
+}
+.iv-prominent .see-section .swiper-button-next, .see-section .swiper-button-prev {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.iv-prominent .see-section .swiper-button-next {
+    right: 0;
+}
+.iv-prominent .see-section .swiper-button-prev {
+    left: 0;
+}
+.iv-prominent #testimonials.see-section .swiper {
+    padding-bottom: 0;
+}
+.iv-prominent #testimonials .read-more-btn {
+    cursor: pointer;
+    display: inline-block;
+    color: #2772a6;
+    font-weight: bold;
+}
+.iv-prominent #testimonials .testimonials-content {
+    margin-bottom: 10px;
+}
+.iv-prominent #testimonials .testimonials-content p {
+    margin-bottom: 10px;
+    font-size: 21px;
+    padding: 0 50px;
+}
+.iv-prominent #testimonials .testimonials-name {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.iv-prominent #testimonials {
+    padding: 80px 0 120px;
+}
+.iv-prominent #testimonials .testimonials-box .h5 {
+    margin-bottom: 20px;
+}
+.iv-prominent #testimonials .testimonials-rates img {
+    max-width: 40px;
+}
+.iv-prominent #testimonials .swiper-wrapper {
+    height: auto !important;
+}
+@media (max-width: 767px) {
+    .iv-prominent .banner-section.home-banner {
+        margin-bottom: 130px;
+    }
+    .iv-prominent #testimonials {
+        padding: 20% 0 40px;
+    }
+    .iv-prominent #testimonials .swiper-button-next:after, 
+    .iv-prominent #testimonials .swiper-button-prev:after {
+        font-size: 24px;
+    }
+    .iv-prominent #testimonials .testimonials-content p {
+        font-size: 20px;
+        padding: 0 30px;
+    }
+    .iv-prominent #testimonials .testimonials-name {
+        font-size: 20px;
+    }
+    .iv-prominent #testimonials .testimonials-rates img {
+        max-width: 28px;
+        margin: 0;
+    }
+}

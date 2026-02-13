@@ -142,11 +142,19 @@
     padding: 20px 0 15px;
 }
 .iv-pdp-revamp .swym-btn-container .swym-button:after {
-    left: 20px;
+    left: 8px;
     width: 0;
 }
 .iv-pdp-revamp .stethoscopeBtn {
     text-transform: uppercase;
+}
+.iv-pdp-revamp product-form .swym-wishlist-button-bar button {
+    width: 0 !important;
+}
+@media (min-width: 768px) and (max-width: 999.98px)  {
+    .iv-pdp-revamp .swym-btn-container .swym-button:after {
+        left: 2px;
+    }
 }
 @media screen and (max-width: 999px) {
     /* Left -  Product Gallery */
