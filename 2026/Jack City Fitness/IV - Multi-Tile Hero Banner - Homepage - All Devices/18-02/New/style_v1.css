@@ -1,0 +1,65 @@
+.iv-revamp-hero .banner-module .fourteen-hundred h2 > span,
+.iv-revamp-hero .banner-module .fourteen-hundred h2,
+.iv-revamp-hero .banner-module .fourteen-hundred .banner-buttons a:before {
+    text-shadow: 1px 4px 3px #000000;
+}
+.iv-revamp-hero .banner-module .fourteen-hundred .banner-buttons a{
+    margin-top: 15px;
+}
+.iv-revamp-hero .home-page section.banner-module {
+    background-image: url('https://res.cloudinary.com/ignite-visibility/image/upload/f_auto/jackcityfitness/slider-1.jpg') !important;
+    background-position: center -125px;
+    background-size: cover;
+} 
+.iv-revamp-hero .banner-module .fourteen-hundred .hero_right {
+    max-width: 100%;
+}
+.iv-revamp-hero .home-page .banner-module .fourteen-hundred {
+    width: 100%;
+    max-width: 62%;
+}
+
+@media (min-width: 1001px) {    
+    .iv-revamp-hero .banner-module .fourteen-hundred .hero_right{
+        max-width: 515px;
+    }
+    .iv-revamp-hero .home-page .banner-module .inner{
+        padding: 8% 0;
+    }
+    .iv-revamp-hero .banner-module .fourteen-hundred .hero_right iframe {
+        width: 100%;
+        height: 290px;
+    }
+}
+ 
+@media (max-width: 1400px) {
+    .iv-revamp-hero .home-page section.banner-module { 
+        background-position: center; 
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1400px) {
+    .iv-revamp-hero .banner-module .fourteen-hundred .hero_right iframe { 
+        height: 250px;
+    }
+    .iv-revamp-hero .banner-module .fourteen-hundred .hero_right{ 
+        max-width: 400px;
+    }
+}   
+@media (max-width: 750px) { 
+    .iv-revamp-hero .home-page .banner-module .fourteen-hundred {
+        max-width: 100%;
+        padding: 0 10%;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 767px) { 
+    .iv-revamp-hero .banner-module .fourteen-hundred .hero_right iframe {
+        width: 100%;
+        margin-top: 28px;
+        height: 51vw;
+    }
+    .iv-revamp-hero .banner-module .hero_left{
+        padding-top: 15px;
+    }
+}
