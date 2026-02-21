@@ -1,0 +1,98 @@
+.iv-hero-form .iv-form-heading {
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #515459;
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+.iv-hero-form.page-template-page-book-online .form-section .form-line {
+    padding: 10px 0 0 0;
+}
+
+.iv-hero-form .form-section .form-buttons-wrapper {
+    margin: 0;
+    padding: 15px 0 0;
+}
+
+.iv-hero-form .form-section button[type="submit"] {
+    width: 100% !important;
+    font-size: 18px !important;
+    height: 45px !important;
+}
+.iv-hero-form.page-template-page-book-online .form-section .form-line label {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.iv-hero-form.page-template-page-book-online .form-section .form-line:has(.form-checkbox) {
+    padding-top: 15px;
+}
+.iv-hero-form .form-all {
+    background-color: #E8E9EF;
+}
+
+@media (min-width: 992px) {
+    .iv-hero-form.page-template-page-book-online .form-section {
+        padding: 40px 30px 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .iv-hero-form .form-section button[type="submit"] {
+        font-size: 16px !important;
+    }
+}
+@media (min-width: 768px) {
+    .iv-hero-form .iv-form-heading br {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    .iv-hero-form.page-template-page-book-online .form-section .form-line:not(:has(.form-checkbox)) {
+        margin-bottom: 0;
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+    }
+
+    .iv-hero-form.page-template-page-book-online .form-section .form-line:not(:has(.form-checkbox)) label {
+        margin: 0;
+        text-align: right !important;
+        justify-content: end;
+        width: 100%;
+        max-width: 40%;
+        padding-right: 10px;
+    }
+
+    .iv-hero-form.page-template-page-book-online .form-section .form-line {
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .iv-hero-form .form-buttons-wrapper,
+    .iv-hero-form .form-pagebreak {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .iv-hero-form.page-template-page-book-online .form-section {
+        padding: 20px 12px;
+    }
+
+    .iv-hero-form .iv-form-heading {
+        font-size: 20px;
+        margin-bottom: 10px !important;
+        padding-bottom: 0;
+    }
+
+    .iv-hero-form.page-template-page-book-online .form-section #cid_37 textarea.form-textarea {
+        height: 80px !important;
+    }
+}
+
+@media (max-width: 399.98px) {
+    .iv-hero-form.page-template-page-book-online .form-section .form-line:not(:has(.form-checkbox)) label {
+        max-width: 52%;
+    }
+}
