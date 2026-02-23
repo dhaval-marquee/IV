@@ -1,0 +1,86 @@
+body aside ul.master_icon_filters li {
+    position: relative;
+}
+body aside ul.master_icon_filters li::after {
+    font-family: "FontAwesome";
+    font-family: 'font tsg';
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 19px;
+    display: block;
+    transform: translateX(50%);
+    margin-left: 20px;
+    margin-top: 2px;
+}
+body aside ul.master_icon_filters li:has(label [value="exterior door"])::after {
+    content: "\f2d0";
+}
+body aside ul.master_icon_filters li:has(label [value="ground level"])::after {
+    content: "\f078";
+}
+body aside ul.master_icon_filters li:has(label [value="parking"])::after {
+    content: "\f018";
+}
+body aside ul.master_icon_filters li:has(label [value="lighted"])::after {
+    content: "\0063";
+}
+body aside ul.master_icon_filters li:has(label [value="inside"])::after {
+    content: "\e3af";
+}
+body aside ul.master_icon_filters li:has(label [value="interior door"])::after {
+    content: "\f0c8";
+}
+body aside ul.master_icon_filters li:has(label [value="climate/temp"])::after {
+    content: "\f2dc";
+}
+body aside ul.master_icon_filters li:has(label [value="elevator"])::after {
+    content: "\f139";
+}
+body aside ul.master_icon_filters li:has(label [value="upper levels"])::after {
+    content: "\f102";
+}
+body aside ul.master_icon_filters li:has(label [value="air cooled"])::after {
+    content: "\005d";
+}
+body aside ul.master_icon_filters li:has(label [value="heated"])::after {
+    content: "\005a";
+}
+body aside ul.master_icon_filters li:has(label [value="drive up"])::after {
+    content: "\f1b9";
+}
+body aside ul.master_icon_filters li:has(label [value="power"])::after {
+    content: "\e0b7";
+}
+body aside ul.master_icon_filters li:has(label [value="covered parking"])::after {
+    content: "\007d";
+}
+body aside ul.master_icon_filters li:has(label [value="paved driveway"])::after {
+    content: "\0062";
+}
+ /* ====== */
+body aside ul.master_icon_filters li .masterIcon{
+    position: relative;
+}
+body aside ul.master_icon_filters li .masterIcon::after{
+    font-family: "FontAwesome";
+    font-family: 'font tsg';
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 19px;
+    display: block;
+    transform: translateX(50%);
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+body aside ul.master_icon_filters li:has(label [value="exterior door"]) .masterIcon::after {
+    content: "\f2d0";
+}

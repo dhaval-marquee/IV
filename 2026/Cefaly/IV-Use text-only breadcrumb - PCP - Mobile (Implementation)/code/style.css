@@ -1,0 +1,8 @@
+body ol.breadcrumb li {
+    margin: 0;
+}
+body ol.breadcrumb li:last-child {
+    background-color: transparent !important;
+    color: #6B99CB !important;
+    padding: 0 !important;
+}
