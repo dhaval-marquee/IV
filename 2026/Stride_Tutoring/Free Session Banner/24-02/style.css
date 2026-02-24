@@ -1,0 +1,16 @@
+.iv-SessionBanner #placement-banners #placement-banner-b {
+    display: none;
+}
+.iv-SessionBanner #placement-banners #placement-banner-a .wpb_text_column {
+    padding-bottom: 50px !important;
+}
+.iv-SessionBanner #placement-banners .row-bg-wrap + div.dark  {
+    padding: 0 64px;
+}
+
+@media(max-width: 690.98px) {
+    .iv-SessionBanner #placement-banners .row-bg-wrap + div.dark  {
+        padding: 0 20px;
+    }
+
+}
