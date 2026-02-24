@@ -1,0 +1,8 @@
+#unitsSection .facilityMasterData > div .candee-flex {
+    display: none;
+}
+
+#unitsSection .facilityMasterData > div {
+    border-radius: 5px;
+    box-shadow: 0 4px 11.3px 6px rgba(0, 0, 0, 0.05) !important;
+}
