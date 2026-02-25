@@ -1,0 +1,18 @@
+#unitsSection .facilityMasterData > div .candee-flex,
+.content_unitBreakdown .ub-wrapper .ub-summary,
+#unitsSection .content-view-type {
+    display: none;
+}
+
+#unitsSection .facilityMasterData > div {
+    border-radius: 5px;
+    box-shadow: 0 4px 11.3px 6px rgba(0, 0, 0, 0.05) !important;
+}
+
+.unitCellRightGroup  {
+    display: flex;
+    align-items: center;
+}
+.content-card-priceWrapper {
+    text-align: center;
+}
