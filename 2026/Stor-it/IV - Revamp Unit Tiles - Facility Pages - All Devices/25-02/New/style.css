@@ -1,0 +1,309 @@
+.iv-revamp-unit .content-form-view {
+    display: none;
+}
+
+.iv-revamp-unit .unitsWrapper,
+.iv-revamp-unit .container:has(.viewToggleButtons) {
+    max-width: 1460px;
+}
+
+.iv-revamp-unit .units_theme_1 .unitsTable {
+    display: flex;
+}
+
+.iv-revamp-unit .unitsTable .candee-flex {
+    display: none;
+}
+
+.iv-revamp-unit .units_theme_1 .unitsCellLeft {
+    width: 11%;
+}
+
+.iv-revamp-unit #units_theme_5.units_theme_1:has(.ub-wrapper) .unitsCellMid {
+    max-width: fit-content;
+}
+
+.iv-revamp-unit #units_theme_5 .unitName {
+    font-size: 18px;
+}
+
+.iv-revamp-unit .unitCellRightGroup {
+    margin-left: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.iv-revamp-unit .unitCellRightGroup .unitCardFacSizeWrapper {
+    margin-bottom: 18px !important;
+}
+
+.iv-revamp-unit .unitCellRightGroup .unitSeeStorage {
+    font-weight: 700;
+    padding: 8px 0px 8px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2738/2738840.png);
+    background-size: contain;
+    background-position: center left;
+}
+
+.iv-revamp-unit #units_theme_5.units_theme_1:has(.ub-wrapper) .unitsCellRight {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.iv-revamp-unit .content_unitBreakdown .ub-summary {
+    display: none;
+}
+
+.iv-revamp-unit #units_theme_5 .unitsList.lineItem {
+    border-radius: 5px;
+    min-height: 222px;
+    align-content: center;
+    background: #FFF;
+    box-shadow: 0 4px 11.3px 6px rgba(0, 0, 0, 0.05) !important;
+}
+
+.iv-revamp-unit .unitSelectOptions {
+    max-width: 180px;
+}
+
+.iv-revamp-unit .unitSelectOptions .unitButtonsWrapper .action {
+    max-width: 172px;
+    height: 51px;
+    align-content: center;
+    border-radius: 5px;
+    margin: 0 !important;
+}
+
+.iv-revamp-unit .unitSelectOptions .startingFromText {
+    margin-bottom: 9px;
+    line-height: normal;
+}
+
+.iv-revamp-unit .content_unitBreakdown .cardPrice {
+    color: #262626;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+    line-height: normal;
+}
+
+.iv-revamp-unit .content_unitBreakdown .ub-trigger {
+    color: #fe5304;
+    font-size: 11px;
+}
+
+.iv-revamp-unit #units_theme_5 .discountText {
+    color: #202020;
+    line-height: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+
+.iv-revamp-unit #units_theme_5 .discountText .web-only {
+    font-size: 18px;
+    display: block;
+}
+
+.iv-revamp-unit .ub-popup {
+    border-radius: 5px;
+    border: 1px solid #CACACA;
+    box-shadow: 0 4px 11.3px 6px rgba(0, 0, 0, 0.10);
+    width: calc(100% - -354px);
+}
+
+.iv-revamp-unit .iv-discount-new {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .iv-revamp-unit #units_theme_5 .discountText {
+        font-size: 20px;
+    }
+
+    .iv-revamp-unit.use_mmFilters .candeeResultsContainer {
+        padding: 0 16px;
+    }
+
+    .iv-revamp-unit #units_theme_5 .discountText .web-only {
+        font-size: 16px;
+    }
+
+    .iv-revamp-unit .unitCellRightGroup .unitSeeStorage {
+        font-size: 11px;
+        padding: 5px 0px 5px 34px;
+    }
+
+    .iv-revamp-unit .content_unitBreakdown .cardPrice {
+        font-size: 22px;
+    }
+
+    .iv-revamp-unit #units_theme_5 .unitsList.lineItem {
+        min-height: 100%;
+    }
+
+    .iv-revamp-unit #units_theme_5.units_theme_1:has(.ub-wrapper) .unitsCellRight {
+        gap: 16px;
+        padding-left: 5px;
+    }
+
+    .iv-revamp-unit .unitSelectOptions .unitButtonsWrapper .action {
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .iv-revamp-unit .units_theme_1 .unitsCellLeft,
+    .iv-revamp-unit #units_theme_5 .unitsCellLeft {
+        display: none !important;
+    }
+
+    .iv-revamp-unit #units_theme_5 .unitsList.lineItem:has(.iv-discount-new) {
+        padding: 45px 18px 22px !important;
+        position: relative;
+    }
+    .iv-revamp-unit #units_theme_5 .unitsList.lineItem {
+        padding: 22px 18px !important;
+    }
+
+    .iv-revamp-unit .unitCellRightGroup .unitCardFacSizeWrapper .facilityName {
+        display: block;
+    }
+
+    .iv-revamp-unit .unitsCellRight .contentDiscountUnit {
+        display: none !important;
+    }
+
+    .iv-revamp-unit #units_theme_5.units_theme_1:has(.ub-wrapper) .unitsCellMid {
+        width: auto !important;
+    }
+
+    .iv-revamp-unit #units_theme_5.units_theme_1:has(.ub-wrapper) .unitsCellRight {
+        display: flex !important;
+        flex-direction: column-reverse;
+        position: relative;
+        padding-bottom: 50px;
+        width: auto !important;
+        gap: 0;
+        padding-left: 0;
+    }
+
+    .iv-revamp-unit .ub-popup {
+        width: 280px;
+    }
+
+    .iv-revamp-unit .unitSelectOptions .unitButtonsWrapper {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .iv-revamp-unit .unitSelectOptions .unitButtonsWrapper .getUnitBTN {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .iv-revamp-unit .unitSelectOptions .startingFromText {
+        max-width: 148px;
+        margin: 0 auto 9px;
+        font-size: 14px !important;
+    }
+
+    .iv-revamp-unit .unitCellRightGroup {
+        margin-left: 0;
+        justify-content: space-between;
+        width: 100% !important;
+    }
+
+    .iv-revamp-unit .iv-discount-new {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 5px 0;
+        background: #F00;
+        max-width: 246px;
+        width: 100%;
+        padding: 9px 0;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .iv-revamp-unit .sizeCalcButtons ul.candeeUnitsSizeButtons {
+        display: none !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .iv-revamp-unit.use_mmFilters .candeeResultsContainer {
+        padding: 0;
+    }
+
+    .iv-revamp-unit #units_theme_5.units_theme_1:has(.ub-wrapper) .unitsCellRight {
+        width: min-content !important;
+        justify-content: start;
+    }
+
+    .iv-revamp-unit .unitSelectOptions .unitButtonsWrapper .action {
+        max-width: 137px;
+        height: 38px;
+    }
+
+    .iv-revamp-unit .unitsCellRight .ub-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iv-revamp-unit .content_unitBreakdown .ub-trigger {
+        margin-bottom: 0;
+    }
+
+    .iv-revamp-unit .unitCellRightGroup .unitSeeStorage {
+        display: block;
+        font-size: 10px;
+        line-height: normal;
+        padding: 8px 0px 8px 36px;
+        background-size: 30px;
+    }
+
+    .iv-revamp-unit .iv-discount-new {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 390px) {
+    .iv-revamp-unit .content_unitBreakdown .ub-trigger {
+        font-size: 10px;
+        text-wrap-mode: wrap;
+        justify-content: center;
+        line-height: normal;
+    }
+
+    .iv-revamp-unit .content_unitBreakdown .cardPrice {
+        font-size: 18px;
+        margin-bottom: 5px !important;
+    }
+
+    .iv-revamp-unit .unitSelectOptions .startingFromText {
+        font-size: 12px !important;
+    }
+
+    .iv-revamp-unit #units_theme_5.units_theme_1:has(.ub-wrapper) .unitsCellRight {
+        width: auto !important;
+    }
+
+    .iv-revamp-unit #units_theme_5.units_theme_1:has(.ub-wrapper) .unitsCellMid {
+        width: 100% !important;
+    }
+}
