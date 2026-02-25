@@ -1,0 +1,102 @@
+.iv-improved-form .top-section .contact-row > div:first-child > .contact-btns,
+.iv-improved-form form ul li.gfield--type-captcha {
+    display: none;
+}
+.iv-improved-form form#gform_22 {
+    background-color: #fff;
+    padding: 30px 20px;
+    box-shadow: 10px 10px 20px 8px #cecece;
+    margin-bottom: 50px;
+}
+.iv-improved-form input#gform_submit_button_22 {
+    background-color: #93c4e6;
+    width: 100% !important;
+    max-width: 500px;
+    padding: 8px 14px;
+    border-radius: 50px;
+    margin: 0 auto !important;
+    display: block;
+}
+.iv-improved-form .field_sublabel_above .gform-field-label--type-sub,
+.iv-improved-form .gform_legacy_markup_wrapper .field_sublabel_below .ginput_complex.ginput_container label,
+.iv-improved-form .gform_legacy_markup_wrapper label.gfield_label:not(.gform_legacy_markup_wrapper .gfield--type-checkbox label.gfield_label,
+.iv-improved-form .gform_legacy_markup_wrapper .gfield--type-radio label.gfield_label,
+.iv-improved-form .gform_legacy_markup_wrapper .gfield--input-type-select label.gfield_label) {
+    display: block !important;
+}
+.iv-improved-form .gform_legacy_markup_wrapper.gf_browser_chrome ul.gform_fields li.gfield span {
+    position: relative;
+    margin: 0;
+    color: var(--black);
+}
+.iv-improved-form .gform_legacy_markup_wrapper .ginput_complex.ginput_container > span {
+    position: relative;
+}
+.iv-improved-form .gfield_label.gform-field-label:not([for=input_22_34], [for=input_22_35], [for="input_22_36"]),
+.iv-improved-form li.gfield span label.gform-field-label {
+    position: absolute;
+    z-index: 99;
+    left: 33px;
+    top: 16px;
+    margin: 0 !important;
+    pointer-events: none;
+    font-size: 20px !important;
+}
+.iv-improved-form .gform_legacy_markup_wrapper .field_sublabel_above .ginput_complex.ginput_container label {
+    font-size: 20px !important;
+}
+.iv-improved-form .focused  .gfield_label.gform-field-label:not([for=input_22_34], [for=input_22_35]),
+.iv-improved-form li.gfield_visibility_visible:has(.focused):not(.gfield--input-type-name) label,
+.iv-improved-form li.gfield span.focused label.gform-field-label {
+    top: 5px;
+    font-size: 12px !important;
+}
+.iv-improved-form .gform_legacy_markup_wrapper .field_sublabel_above .ginput_complex.ginput_container .focused label {
+    font-size: 12px !important;   
+}
+.iv-improved-form .gform_legacy_markup_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), 
+.iv-improved-form .gform_legacy_markup_wrapper textarea {
+    padding: 17px 30px 11px !important;
+    line-height: normal;
+    border-radius: 50px;
+}
+
+.iv-improved-form .gform_legacy_markup_wrapper input::placeholder {
+    color: #fff;
+    opacity: 0;
+}
+.iv-improved-form #gform_22 input:not(input[type=checkbox], input[type=radio], #gform_submit_button_22), textarea, select {
+    border-radius: 10px;
+}
+@media (max-width: 767px) { 
+    .iv-improved-form #gform_22 input:not(input[type="checkbox"], input[type="radio"], #gform_submit_button_22), textarea, select {
+        border: 1px solid var(--black) !important;
+    }
+    .iv-improved-form input#gform_submit_button_22 {
+        max-width: 100%;
+    }
+    .iv-improved-form .gfield_label.gform-field-label:not([for=input_22_34], [for=input_22_35]), 
+    .iv-improved-form li.gfield span label.gform-field-label {
+        top: 13px;
+        left: 15px;
+    }
+    .iv-improved-form .gform_legacy_markup_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), 
+    .iv-improved-form .gform_legacy_markup_wrapper textarea {
+        padding: 17px 15px 11px !important;
+    }
+    body.iv-improved-form .gform_legacy_markup_wrapper ul li.gfield,
+    .iv-improved-form .gform_legacy_markup_wrapper.gf_browser_chrome ul.gform_fields li.gfield span {
+        margin-bottom: 10px;
+    }
+    .iv-improved-form .gform_legacy_markup_wrapper select {
+        padding: 12px 15px !important;
+        font-family: "brother-1816", sans-serif;
+        font-weight: 400 !important;
+        font-style: italic;
+        font-size: 19px !important;
+        border-radius: 50px;
+    }
+    .iv-improved-form form#gform_22 {
+        padding: 10px 10px;
+    }
+}
