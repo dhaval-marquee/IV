@@ -1,4 +1,5 @@
-.iv-Homepage main .banner-content .banner-btn:not(.iv-btnWrapper) {
+.iv-Homepage main .banner-content .banner-btn:not(.iv-btnWrapper),
+.iv-Homepage .banner-mobile-btn {
     display: none;
 }
 .iv-Homepage .iv-btnWrapper {
@@ -34,7 +35,9 @@
     border-color: var(--dark-blue);
     color: var(--white);
 }
-
+.iv-Homepage .banner-brand-logos {
+    pointer-events: none;
+}
 @media(max-width: 767.98px) {
     .iv-Homepage .iv-btnWrapper {
         gap: 8px;

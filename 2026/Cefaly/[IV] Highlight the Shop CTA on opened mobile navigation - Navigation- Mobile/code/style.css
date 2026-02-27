@@ -1,0 +1,17 @@
+.iv-navigation #sidebarWrapper ul > li:has(a[href="/products"]) {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.iv-navigation #sidebarWrapper ul > li a[href="/products"] {
+    background: #6B99CA;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    display: flex;
+    border-radius: 4px;
+    padding: 6px;
+}

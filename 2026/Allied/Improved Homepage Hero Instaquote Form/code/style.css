@@ -2,6 +2,7 @@
 .iv-homepage fieldset[data-step="1"] .slide-overlay .slide-footer > p {
     display: none;
 }
+
 .iv-homepage fieldset[data-step="1"] .slide-overlay {
     display: flex;
     align-items: center;
@@ -93,17 +94,34 @@
         gap: 20px;
         padding: 50px 25px;
     }
+    .iv-homepage #instaquote-carousel fieldset[data-step="1"] .slide-header {
+        text-align: center;
+    }
+    .iv-homepage fieldset[data-step="1"] .slide-overlay .slide-header ul {
+        max-width: 440px;
+    }
     .iv-homepage fieldset[data-step="1"] .slide-overlay .slideContent {
         width: 100%;
     }
     .iv-homepage fieldset[data-step="1"] .slide-overlay .inner-container {
         width: 50%;
+        margin: 40px auto 0;
     }
     .iv-homepage fieldset[data-step="1"] .slide-overlay .slide-footer > h2 {
         padding: 0;
     }
+    .iv-homepage .iv-ratings-sec .stars {
+        justify-content: center;
+    }
+    .iv-homepage fieldset[data-step="1"] .slide-overlay .slide-footer > h2 {
+        text-align: center !important;
+        line-height: 22px;
+    }
 }
 @media screen and (max-width: 767.98px) {
+    .iv-homepage #instaquote-carousel {
+        padding: 20px 0;
+    }
 	.iv-homepage .iv-ratings-sec .stars {
         flex-direction: column;
         align-items: inherit;
@@ -111,6 +129,12 @@
 	.iv-homepage .iv-ratings-sec .stars .star-text {
         line-height: 1.6;
 	}
+    .iv-homepage fieldset[data-step="1"] .slide-overlay {
+        padding: 10px 25px;
+    }
+    .iv-homepage fieldset[data-step="1"] .slide-overlay h1 {
+        margin-top: 0;
+    }
     .iv-homepage fieldset[data-step="1"] .slide-overlay .inner-container {
         width: 80%;
     }

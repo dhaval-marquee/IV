@@ -19,7 +19,7 @@ function loadTestCode() {
                 height: 168
             },
             {
-                src: "https://res.cloudinary.com/ignite-visibility/image/upload/v1772005235/empirevein/InsuranceLogosBookingPage/iehpIcon.png",
+                src: "https://res.cloudinary.com/ignite-visibility/image/upload/v1772021346/empirevein/InsuranceLogosBookingPage/iehp-Icon.png",
                 width: 200,
                 height: 62
             },

@@ -1,0 +1,86 @@
+body aside ul.master_icon_filters li {
+    position: relative;
+}
+
+body aside ul.master_icon_filters li .masterIcon::after {
+    content: "";
+    font-family: "FontAwesome";
+    font-size: 18px;
+    position: absolute;
+    top: 6px;
+    margin-left: 6px;
+}
+
+body aside ul.master_icon_filters li:has(label [value="exterior door"]) .masterIcon::after {
+    content: "\f2d0";
+}
+body aside ul.master_icon_filters li:has(label [value="ground level"]) .masterIcon::after {
+    content: "\f078";
+}
+body aside ul.master_icon_filters li:has(label [value="parking"]) .masterIcon::after {
+    content: "\f018";
+}
+body aside ul.master_icon_filters li:has(label [value="lighted"]) .masterIcon::after {
+    content: "\0063";
+    font-family: 'font tsg';
+}
+body aside ul.master_icon_filters li:has(label [value="inside"]) .masterIcon::after {
+    content: "\f015";
+}
+body aside ul.master_icon_filters li:has(label [value="interior door"]) .masterIcon::after {
+    content: "";
+}
+body aside ul.master_icon_filters li:has(label [value="climate/temp"]) .masterIcon::after {
+    content: "\f2dc";
+}
+body aside ul.master_icon_filters li:has(label [value="elevator"]) .masterIcon::after {
+    content: "\f139";
+}
+body aside ul.master_icon_filters li:has(label [value="upper levels"]) .masterIcon::after {
+    content: "\f102";
+}
+body aside ul.master_icon_filters li:has(label [value="air cooled "]) .masterIcon::after {
+    content: "\005d";
+    font-family: 'font tsg';
+}
+body aside ul.master_icon_filters li:has(label [value="heated"]) .masterIcon::after {
+    content: "\005a";
+    font-family: 'font tsg';
+}
+body aside ul.master_icon_filters li:has(label [value="drive up"]) .masterIcon::after {
+    content: "\f1b9";
+}
+body aside ul.master_icon_filters li:has(label [value="power"]) .masterIcon::after {
+    content: "\f0e7";
+}
+body aside ul.master_icon_filters li:has(label [value="covered parking"]) .masterIcon::after {
+    content: "\007d";
+    font-family: 'font tsg';
+}
+body aside ul.master_icon_filters li:has(label [value="paved driveway"]) .masterIcon::after {
+    content: "\0062";
+    font-family: 'font tsg';
+}
+body aside ul.master_icon_filters li:has(label [value="rollup"]) .masterIcon::after {
+    content: "\0061";
+    font-family: 'font tsg';
+    text-transform: lowercase;
+}
+body aside ul.master_icon_filters li:has(label [value="swing"]) .masterIcon::after {
+    content: "\007e";
+    font-family: 'font tsg';
+}
+body aside ul.master_icon_filters li:has(label [value="uncovered parking"]) .masterIcon::after {
+    content: "\0064";
+    font-family: 'font tsg';
+    text-transform: lowercase;
+}
+
+body aside ul.master_icon_filters li .masterIcon .text {
+    top: 0;
+}
+
+body aside ul.master_icon_filters li label {
+    display: flex;
+    align-items: center;
+}
