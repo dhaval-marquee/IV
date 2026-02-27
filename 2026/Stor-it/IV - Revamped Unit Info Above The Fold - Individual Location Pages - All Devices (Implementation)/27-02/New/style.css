@@ -1,0 +1,14 @@
+.ivLocationPages .tabcontent .four:nth-child(2) > p + .four {
+    width: 100%;
+}
+@media (max-width: 767.98px) {
+    .ivLocationPages body div#tab1,
+    .iv-top-features + p,
+    .ivLocationPages .tabcontent .four p:has(.facility-title),
+    .ivLocationPages .tabcontent .four p:has(a.pageLink) {
+        text-align: inherit !important;
+    }
+    .ivLocationPages .tabcontent .facility_info_rating.candee_review {
+        text-align: center;
+    }
+}

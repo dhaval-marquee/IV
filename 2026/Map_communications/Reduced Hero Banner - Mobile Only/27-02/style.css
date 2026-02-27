@@ -1,0 +1,18 @@
+@media (max-width: 767.98px) {
+    body main .home-banner {
+        width: 100%;
+    }
+    body main .home-banner picture {
+        border-radius: inherit;
+        height: 265px;
+    }
+    body main .home-banner .container {
+        width: calc(100% - 40px);
+    }
+    body main .home-banner .container .banner-content{
+        padding-top: 12px;
+    }
+    body main .home-banner .container .banner-content .banner-btn {
+        margin-top: 10px;
+    }
+}
