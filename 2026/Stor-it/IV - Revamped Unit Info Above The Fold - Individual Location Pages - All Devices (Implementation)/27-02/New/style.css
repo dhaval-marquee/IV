@@ -2,7 +2,7 @@
     width: 100%;
 }
 @media (max-width: 767.98px) {
-    .ivLocationPages body div#tab1,
+    .ivLocationPages div#tab1,
     .iv-top-features + p,
     .ivLocationPages .tabcontent .four p:has(.facility-title),
     .ivLocationPages .tabcontent .four p:has(a.pageLink) {

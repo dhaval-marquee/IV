@@ -1,3 +1,6 @@
+.iv-navigation #sidebarWrapper {
+    padding-top: 0;
+}
 .iv-navigation #sidebarWrapper ul > li:has(a[href="/products"]) {
     display: flex;
     align-items: center;
